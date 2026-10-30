@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/resample.c:102
+msgid "Resample to pixel size"
+msgstr ""
+
+#: modules/process/resample.c:117
+msgid "_X pixel size"
+msgstr ""
+
+#: modules/process/resample.c:118
+msgid "_Y pixel size"
+msgstr ""
+
+#: modules/process/resample.c:122 modules/process/resample.c:123
+msgid "_Match pixel size"
+msgstr ""
+
+#: modules/process/resample.c:191
+msgid "Resampled Data"
+msgstr ""
+
+#: modules/process/resample.c:219
+msgid "Resample"
+msgstr ""
+
+#: modules/process/residue_synth.c:117
+msgid "Generates images by simulating residue of film removal."
+msgstr ""
+
+#: modules/process/residue_synth.c:131
+msgid "/S_ynthetic/_Deposition/_Residue..."
+msgstr ""
+
+#: modules/process/residue_synth.c:135
+msgid "Generate image of film residue"
+msgstr ""
+
+#: modules/process/residue_synth.c:153
+msgid "_Probability of a new location"
+msgstr ""
+
+#: modules/process/residue_synth.c:155
+msgid "Ma_ximum radius"
+msgstr ""
+
+#: modules/process/residue_synth.c:223
+msgid "Residue"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:203
+msgid "Generates rod-like particles using simple dynamical model"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:217
+msgid "/S_ynthetic/_Deposition/_Rods..."
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:221
+msgid "Generate rod-like particles using dynamical model"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:320
+#: modules/process/roddeposit_synth.c:1007
+#, c-format
+msgid ""
+"Not all the particles could be deposited (%u),\n"
+"try more revise steps."
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:476
+msgid "Particle r_adius:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:488
+msgid "Distribution _width:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:502
+msgid "_Aspect ratio:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:513
+msgid "A_spect ratio variance:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:522
+msgid "LJ _particle strength:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:530
+msgid "LJ _surface strength:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:538
+msgid "_Surface mobility:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:547
+msgid "_Gravity:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:556
+msgid "Co_verage:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:564
+msgid "_Relax steps:"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:572
+msgid "Output statistics"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:686
+msgid "Particle length"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:687
+#: modules/process/roddeposit_synth.c:706
+#: modules/process/roddeposit_synth.c:726
+#: modules/process/roddeposit_synth.c:746
+#: modules/process/roddeposit_synth.c:766
+msgid "Counts"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:705
+msgid "Particle width"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:725
+msgid "Aspect ratio"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:745
+msgid "ϑ"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:1005
+#, c-format
+msgid "%d particles were deposited"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:1372
+#: modules/process/roddeposit_synth.c:1534
+#, c-format
+msgid "Running revise (%d active particles)..."
+msgstr ""
+
+#: modules/process/rotate.c:89
+msgid ""
+"Rotates data by arbitrary angle or to make characteristic directions "
+"parallel with x or y axis."
+msgstr ""
+
+#: modules/process/rotate.c:103
+msgid "/_Basic Operations/Rotate by _Angle..."
+msgstr ""
+
+#: modules/process/rotate.c:107
+msgid "Rotate by arbitrary angle"
+msgstr ""
+
+#: modules/process/rotate.c:110
+msgid "/_Correct Data/_Unrotate..."
+msgstr ""
+
+#: modules/process/rotate.c:114
+msgid "Automatically correct rotation in horizontal plane"
+msgstr ""
+
+#: modules/process/rotate.c:122
+msgid "_Same as original"
+msgstr ""
+
+#: modules/process/rotate.c:123
+msgid "_Expanded to complete data"
+msgstr ""
+
+#: modules/process/rotate.c:124
+msgid "C_ut to valid data"
+msgstr ""
+
+#: modules/process/rotate.c:129
+msgid "Result size"
+msgstr ""
+
+#: modules/process/rotate.c:132
+msgid "Show _grid"
+msgstr ""
+
+#: modules/process/rotate.c:145
+msgid "Rotate by _angle"
+msgstr ""
+
+#: modules/process/rotate.c:159
+msgid "_Assume symmetry"
+msgstr ""
+
+#: modules/process/rotate.c:261
+msgid "Correct Rotation"
+msgstr ""
+
+#: modules/process/rotate.c:261 modules/process/rotate.c:283
+msgid "Rotate"
+msgstr ""
+
+#: modules/process/rotate.c:274
+msgid "Structure"
+msgstr ""
+
+#: modules/process/rotate.c:279
+msgid "Correction"
+msgstr ""
+
+#: modules/process/scale.c:68
+msgid "Scales data by arbitrary factor."
+msgstr ""
+
+#: modules/process/scale.c:82
+msgid "/_Basic Operations/_Scale..."
+msgstr ""
+
+#: modules/process/scale.c:86
+msgid "Scale data"
+msgstr ""
+
+#: modules/process/scale.c:101
+msgid "Scale by _ratio"
+msgstr ""
+
+#: modules/process/scale.c:102
+msgid "_Proportional scaling"
+msgstr ""
+
+#: modules/process/scale.c:107
+msgid "New _width"
+msgstr ""
+
+#: modules/process/scale.c:108
+msgid "New _height"
+msgstr ""
+
+#: modules/process/scale.c:183
+msgid "Scaled Data"
+msgstr ""
+
+#: modules/process/scale.c:201
+msgid "verb|Scale"
+msgstr ""
+
+#: modules/process/scars.c:89
+msgid "Marks and/or removes scars (horizontal linear artifacts)."
+msgstr ""
+
+#: modules/process/scars.c:103
+msgid "/_Correct Data/M_ark Scars..."
+msgstr ""
+
+#: modules/process/scars.c:107
+msgid "Mark horizontal scars (strokes)"
+msgstr ""
+
+#: modules/process/scars.c:110
+msgid "/_Correct Data/Remove _Scars"
+msgstr ""
+
+#: modules/process/scars.c:114
+msgid "Correct horizontal scars (strokes)"
+msgstr ""
+
+#: modules/process/scars.c:282
+msgid "Mark Scars"
+msgstr ""
+
+#: modules/process/semsim.c:98
+msgid "Simple SEM image simulation from topography."
+msgstr ""
+
+#: modules/process/semsim.c:112
+msgid "/_Presentation/_SEM Image..."
+msgstr ""
+
+#: modules/process/semsim.c:116
+msgid "Simple SEM simulation from topography"
+msgstr ""
+
+#: modules/process/semsim.c:125
+msgid "Integration"
+msgstr ""
+
+#: modules/process/semsim.c:126
+msgid "Monte Carlo"
+msgstr ""
+
+#: modules/process/semsim.c:137
+msgid "_Quality"
+msgstr ""
+
+#: modules/process/semsim.c:138
+msgid "_Integration radius"
+msgstr ""
+
+#: modules/process/semsim.c:157 modules/process/semsim.c:191
+msgid "SEM Image"
+msgstr ""
+
+#: modules/process/semsim.c:235
+msgid "SEM image simulation..."
+msgstr ""
+
+#: modules/process/shade.c:74
+msgid "Creates a shaded presentation of data."
+msgstr ""
+
+#: modules/process/shade.c:88
+msgid "/_Presentation/_Shading..."
+msgstr ""
+
+#: modules/process/shade.c:92
+msgid "Shade data"
+msgstr ""
+
+#: modules/process/shade.c:109 modules/process/shade.c:110
+msgid "_Mix"
+msgstr ""
+
+#: modules/process/shade.c:173
+msgid "Shading"
+msgstr ""
+
+#: modules/process/smm.c:183
+msgid "Interprets SMM measurement on a calibration sample"
+msgstr ""
+
+#: modules/process/smm.c:197
+msgid "/_SPM Modes/_Electrical/_SMM Calibration..."
+msgstr ""
+
+#: modules/process/smm.c:201
+msgid "Calibrate SMM using capacitors calibration sample"
+msgstr ""
+
+#: modules/process/smm.c:217
+msgid "Re (S11)"
+msgstr ""
+
+#: modules/process/smm.c:218
+msgid "Im (S11)"
+msgstr ""
+
+#: modules/process/smm.c:239
+msgid "Plot result"
+msgstr ""
+
+#: modules/process/smm.c:255
+msgid "Enable"
+msgstr ""
+
+#: modules/process/smm.c:260
+msgid "verb|Fit"
+msgstr ""
+
+#: modules/process/smm.c:302
+msgid "S<sub>11</sub>"
+msgstr ""
+
+#: modules/process/smm.c:308
+msgid "nominal"
+msgstr ""
+
+#: modules/process/smm.c:313
+msgid "measured"
+msgstr ""
+
+#: modules/process/smm.c:361
+msgid "SMM Calibration"
+msgstr ""
+
+#: modules/process/smm.c:440
+msgid "Masks"
+msgstr ""
+
+#: modules/process/smm.c:441
+msgid "Capacitance [fF]"
+msgstr ""
+
+#: modules/process/smm.c:562 modules/process/smm.c:704
+#: modules/process/smm.c:1118
+#, c-format
+msgid "Data not fitted."
+msgstr ""
+
+#: modules/process/smm.c:982 modules/process/smm.c:983
+msgid "Re(S<sub>11</sub>)"
+msgstr ""
+
+#: modules/process/smm.c:990 modules/process/smm.c:991
+msgid "Im(S<sub>11</sub>)"
+msgstr ""
+
+#: modules/process/smm.c:1116 modules/process/smm.c:1207
+#, c-format
+msgid "Mean square difference: %g"
+msgstr ""
+
+#: modules/process/smm.c:1209
+msgid "Fit failed."
+msgstr ""
+
+#: modules/process/smm_apply.c:96
+msgid "Re(S11)"
+msgstr ""
+
+#: modules/process/smm_apply.c:97
+msgid "Im(S11)"
+msgstr ""

@@ -1,0 +1,590 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/anneal_synth.c:142 modules/process/cpde_synth.c:180
+#: modules/process/domain_synth.c:181 modules/process/dune_synth.c:142
+msgid "_Number of iterations"
+msgstr ""
+
+#: modules/process/anneal_synth.c:156 modules/process/bdep_synth.c:152
+#: modules/process/col_synth.c:205 modules/process/cpde_synth.c:184
+#: modules/process/deposit_synth.c:155 modules/process/diff_synth.c:246
+#: modules/process/domain_synth.c:194 modules/process/dune_synth.c:153
+#: modules/process/synth.h:162 modules/process/wfr_synth.c:136
+msgid "Progressive preview"
+msgstr ""
+
+#: modules/process/anneal_synth.c:233 modules/process/bdep_synth.c:289
+#: modules/process/calibrate.c:686 modules/process/col_synth.c:344
+#: modules/process/cpde_synth.c:286 modules/process/deposit_synth.c:237
+#: modules/process/diff_synth.c:383 modules/process/disc_synth.c:233
+#: modules/process/domain_synth.c:284 modules/process/dune_synth.c:230
+#: modules/process/fbm_synth.c:225 modules/process/fft_synth.c:214
+#: modules/process/fibre_synth.c:291 modules/process/lat_synth.c:459
+#: modules/process/lno_synth.c:354 modules/process/mfm_current.c:246
+#: modules/process/mfm_parallel.c:254 modules/process/noise_synth.c:259
+#: modules/process/obj_synth.c:371 modules/process/pat_synth.c:527
+#: modules/process/phase_synth.c:205 modules/process/pileup_synth.c:302
+#: modules/process/plateau_synth.c:274 modules/process/residue_synth.c:233
+#: modules/process/roddeposit_synth.c:448 modules/process/wave_synth.c:289
+#: modules/process/wfr_synth.c:213
+msgid "Dimensions"
+msgstr ""
+
+#: modules/process/anneal_synth.c:234 modules/process/bdep_synth.c:290
+#: modules/process/col_synth.c:345 modules/process/cpde_synth.c:287
+#: modules/process/deposit_synth.c:238 modules/process/diff_synth.c:384
+#: modules/process/disc_synth.c:234 modules/process/domain_synth.c:285
+#: modules/process/dune_synth.c:231 modules/process/fbm_synth.c:226
+#: modules/process/fft_synth.c:215 modules/process/lno_synth.c:355
+#: modules/process/mfm_current.c:247 modules/process/mfm_parallel.c:255
+#: modules/process/noise_synth.c:260 modules/process/pat_synth.c:528
+#: modules/process/phase_synth.c:206 modules/process/phase_synth.c:240
+#: modules/process/pileup_synth.c:303 modules/process/plateau_synth.c:275
+#: modules/process/plateau_synth.c:309 modules/process/residue_synth.c:234
+#: modules/process/residue_synth.c:268 modules/process/roddeposit_synth.c:470
+#: modules/process/wave_synth.c:290 modules/process/wfr_synth.c:214
+msgid "Generator"
+msgstr ""
+
+#: modules/process/anneal_synth.c:270 modules/process/cpde_synth.c:328
+#: modules/process/domain_synth.c:324 modules/process/dune_synth.c:265
+#: modules/process/wfr_synth.c:248
+msgid "Simulation Parameters"
+msgstr ""
+
+#: modules/process/anneal_synth.c:297 modules/process/bdep_synth.c:333
+#: modules/process/col_synth.c:388 modules/process/cpde_synth.c:273
+#: modules/process/diff_synth.c:428 modules/process/disc_synth.c:295
+#: modules/process/domain_synth.c:339 modules/process/dune_synth.c:288
+#: modules/process/fbm_synth.c:271 modules/process/fft_synth.c:253
+#: modules/process/fibre_synth.c:342 modules/process/lat_synth.c:571
+#: modules/process/lno_synth.c:411 modules/process/noise_synth.c:303
+#: modules/process/obj_synth.c:425 modules/process/pat_synth.c:1740
+#: modules/process/pat_synth.c:1834 modules/process/pat_synth.c:1941
+#: modules/process/pat_synth.c:2051 modules/process/pat_synth.c:2174
+#: modules/process/pat_synth.c:2285 modules/process/pat_synth.c:2491
+#: modules/process/pat_synth.c:2633 modules/process/phase_synth.c:248
+#: modules/process/plateau_synth.c:326 modules/process/residue_synth.c:282
+#: modules/process/wave_synth.c:335 modules/process/wfr_synth.c:260
+msgid "_Like Current Image"
+msgstr ""
+
+#: modules/process/anneal_synth.c:894 modules/process/bdep_synth.c:425
+#: modules/process/calcoefs_simple.c:638 modules/process/col_synth.c:862
+#: modules/process/cpde_synth.c:466 modules/process/crosscor.c:480
+#: modules/process/deposit_synth.c:555 modules/process/diff_synth.c:598
+#: modules/process/domain_synth.c:613 modules/process/dune_synth.c:528
+#: modules/process/fibre_synth.c:729 modules/process/grain_wshed.c:277
+#: modules/process/lat_synth.c:834 modules/process/mark_disconn.c:327
+#: modules/process/mcrop.c:376 modules/process/neural.c:939
+#: modules/process/pid.c:349 modules/process/plateau_synth.c:782
+#: modules/process/roddeposit_synth.c:299
+#: modules/process/roddeposit_synth.c:993 modules/process/superresolution.c:415
+#: modules/process/superresolution.c:504 modules/process/tip_blind.c:468
+#: modules/process/tipops.c:269 modules/process/wave_synth.c:461
+#: modules/process/wfr_synth.c:454 modules/volume/volume_cluster.c:1561
+#: modules/volume/volume_cluster.c:1834 modules/volume/volume_cluster.c:2014
+#: modules/volume/volume_cluster.c:2309 modules/xyz/xyz_raster.c:658
+#: modules/xyz/xyz_raster.c:680
+msgid "Initializing..."
+msgstr ""
+
+#: modules/process/anneal_synth.c:912 modules/process/cpde_synth.c:478
+#: modules/process/domain_synth.c:637 modules/process/dune_synth.c:572
+#: modules/process/pfm.c:444 modules/process/roddeposit_synth.c:994
+#: modules/process/wfr_synth.c:490 modules/volume/volume_fdfit-WTF.c:906
+#: modules/volume/volume_fdfit.c:906
+msgid "Running computation..."
+msgstr ""
+
+#: modules/process/arc-revolve.c:81
+msgid "Subtracts background by arc revolution."
+msgstr ""
+
+#: modules/process/arc-revolve.c:95
+msgid "/_Level/Revolve _Arc..."
+msgstr ""
+
+#: modules/process/arc-revolve.c:99
+msgid "Level data by arc revolution"
+msgstr ""
+
+#: modules/process/arc-revolve.c:108
+msgid "_Horizontal direction"
+msgstr ""
+
+#: modules/process/arc-revolve.c:109
+msgid "_Vertical direction"
+msgstr ""
+
+#: modules/process/arc-revolve.c:110
+msgid "_Both directions"
+msgstr ""
+
+#: modules/process/arc-revolve.c:120 modules/process/median-bg.c:102
+#: modules/process/raveraging.c:103 modules/process/sphere-revolve.c:105
+#: modules/tools/maskedit.c:232
+msgid "_Radius"
+msgstr ""
+
+#: modules/process/arc-revolve.c:123 modules/process/grain_mark.c:126
+#: modules/process/grain_wshed.c:108 modules/process/sphere-revolve.c:106
+#: modules/process/wpour_mark.c:158 modules/volume/volume_flattenbase.c:106
+msgid "_Invert height"
+msgstr ""
+
+#: modules/process/arc-revolve.c:124 modules/process/level_grains.c:110
+#: modules/process/linematch.c:174 modules/process/median-bg.c:103
+#: modules/process/polylevel.c:147 modules/process/sphere-revolve.c:107
+#: modules/process/trimmed-mean.c:118 modules/volume/volume_flattenbase.c:107
+#: modules/volume/volume_xystitch.c:150
+msgid "E_xtract background"
+msgstr ""
+
+#: modules/process/arc-revolve.c:167 modules/process/level_grains.c:148
+#: modules/process/median-bg.c:145 modules/process/polylevel.c:194
+#: modules/process/polylevel.c:350 modules/process/sphere-revolve.c:149
+#: modules/process/trimmed-mean.c:163 modules/volume/volume_flattenbase.c:154
+#: modules/volume/volume_flattenbase.c:161 modules/volume/volume_xystitch.c:216
+msgid "Background"
+msgstr ""
+
+#: modules/process/arc-revolve.c:197
+msgid "Revolve Arc"
+msgstr ""
+
+#: modules/process/arithmetic.c:190 modules/volume/volume_arithmetic.c:181
+#: modules/volume/volume_xyarithmetics.c:182
+msgid "_Expression"
+msgstr ""
+
+#: modules/process/arithmetic.c:193 modules/volume/volume_arithmetic.c:184
+#: modules/volume/volume_xyarithmetics.c:185
+msgid "Specify un_its"
+msgstr ""
+
+#: modules/process/arithmetic.c:194 modules/process/arithmetic.c:195
+#: modules/volume/volume_arithmetic.c:185
+#: modules/volume/volume_arithmetic.c:186
+#: modules/volume/volume_xyarithmetics.c:186
+#: modules/volume/volume_xyarithmetics.c:187
+msgid "_Fixed filler value"
+msgstr ""
+
+#: modules/process/arithmetic.c:249 modules/process/stitch.c:235
+#: modules/process/superresolution.c:348 modules/volume/volume_arithmetic.c:240
+#: modules/volume/volume_strayfield.c:311
+#: modules/volume/volume_xyarithmetics.c:252
+msgid "Calculated"
+msgstr ""
+
+#: modules/process/arithmetic.c:293 modules/volume/volume_arithmetic.c:277
+msgid "Arithmetic"
+msgstr ""
+
+#: modules/process/arithmetic.c:307 modules/volume/volume_arithmetic.c:291
+#: modules/volume/volume_xyarithmetics.c:304
+msgid "_Expression:"
+msgstr ""
+
+#: modules/process/arithmetic.c:328 modules/volume/volume_arithmetic.c:312
+#: modules/volume/volume_xyarithmetics.c:325
+msgid "Operands"
+msgstr ""
+
+#: modules/process/arithmetic.c:359 modules/volume/volume_arithmetic.c:343
+#: modules/volume/volume_xyarithmetics.c:373
+#, c-format
+msgid "Take result units from data d%d"
+msgstr ""
+
+#: modules/process/arithmetic.c:371 modules/volume/volume_arithmetic.c:355
+#: modules/volume/volume_xyarithmetics.c:386
+msgid "Specify un_its:"
+msgstr ""
+
+#: modules/process/arithmetic.c:386 modules/volume/volume_arithmetic.c:370
+#: modules/volume/volume_xyarithmetics.c:401
+msgid "Specify result units explicitly"
+msgstr ""
+
+#: modules/process/arithmetic.c:463 modules/volume/volume_arithmetic.c:447
+#: modules/volume/volume_xyarithmetics.c:481
+msgid "Expression contains unknown identifiers"
+msgstr ""
+
+#: modules/process/arithmetic.c:569 modules/process/superresolution.c:299
+#: modules/volume/volume_arithmetic.c:554
+#: modules/volume/volume_xyarithmetics.c:595
+msgid "Pixel dimensions differ"
+msgstr ""
+
+#: modules/process/arithmetic.c:571 modules/process/superresolution.c:301
+#: modules/volume/volume_arithmetic.c:556
+#: modules/volume/volume_xyarithmetics.c:597
+msgid "Lateral dimensions are different physical quantities"
+msgstr ""
+
+#: modules/process/arithmetic.c:573 modules/process/superresolution.c:304
+#: modules/volume/volume_arithmetic.c:558
+#: modules/volume/volume_xyarithmetics.c:599
+msgid "Physical dimensions differ"
+msgstr ""
+
+#: modules/process/basicops.c:65 modules/volume/volume_invert.c:53
+msgid "/_Basic Operations/_Invert Value"
+msgstr ""
+
+#: modules/process/batchcolor.c:1131 modules/volume/volume_drift.c:209
+#: modules/volume/volume_drift.c:210 modules/volume/volume_drift.c:211
+msgid "Apply"
+msgstr ""
+
+#: modules/process/bdep_synth.c:147 modules/process/col_synth.c:193
+#: modules/process/deposit_synth.c:149 modules/process/diff_synth.c:237
+#: modules/process/dune_synth.c:141 modules/process/fibre_synth.c:206
+#: modules/process/lno_synth.c:640 modules/process/obj_synth.c:295
+#: modules/process/pileup_synth.c:227 modules/process/residue_synth.c:150
+#: modules/process/wfr_synth.c:131
+msgid "Co_verage"
+msgstr ""
+
+#: modules/process/bdep_synth.c:149 modules/process/col_synth.c:197
+#: modules/process/col_synth.c:199 modules/process/disc_synth.c:149
+#: modules/process/disc_synth.c:157 modules/process/dune_synth.c:144
+#: modules/process/fibre_synth.c:198 modules/process/fibre_synth.c:201
+#: modules/process/fibre_synth.c:205 modules/process/fibre_synth.c:208
+#: modules/process/fibre_synth.c:212 modules/process/fibre_synth.c:214
+#: modules/process/lno_synth.c:642 modules/process/obj_synth.c:285
+#: modules/process/obj_synth.c:287 modules/process/obj_synth.c:289
+#: modules/process/obj_synth.c:292 modules/process/obj_synth.c:294
+#: modules/process/pat_synth.c:1708 modules/process/pat_synth.c:1710
+#: modules/process/pat_synth.c:1807 modules/process/pat_synth.c:1896
+#: modules/process/pat_synth.c:1900 modules/process/pat_synth.c:1902
+#: modules/process/pat_synth.c:2011 modules/process/pat_synth.c:2013
+#: modules/process/pat_synth.c:2118 modules/process/pat_synth.c:2121
+#: modules/process/pat_synth.c:2124 modules/process/pat_synth.c:2249
+#: modules/process/pat_synth.c:2434 modules/process/pat_synth.c:2437
+#: modules/process/pat_synth.c:2440 modules/process/pat_synth.c:2442
+#: modules/process/pat_synth.c:2445 modules/process/pat_synth.c:2582
+#: modules/process/pat_synth.c:2585 modules/process/pat_synth.c:2587
+#: modules/process/pat_synth.c:2590 modules/process/pileup_synth.c:222
+#: modules/process/pileup_synth.c:224 modules/process/pileup_synth.c:226
+#: modules/process/wave_synth.c:202 modules/process/wave_synth.c:204
+#: modules/process/wave_synth.c:206 modules/process/wave_synth.c:208
+#: modules/process/wave_synth.c:210
+msgid "Spread"
+msgstr ""
+
+#: modules/process/bdep_synth.c:153 modules/process/col_synth.c:206
+#: modules/process/diff_synth.c:247
+msgid "Plot evolution graphs"
+msgstr ""
+
+#: modules/process/bdep_synth.c:243 modules/process/col_synth.c:298
+#: modules/process/diff_synth.c:337
+msgid "Mean deposited thickness"
+msgstr ""
+
+#: modules/process/bdep_synth.c:291 modules/process/col_synth.c:346
+#: modules/process/diff_synth.c:385
+msgid "Evolution"
+msgstr ""
+
+#: modules/process/bdep_synth.c:451 modules/process/col_synth.c:907
+#: modules/process/diff_synth.c:623
+msgid "Depositing particles..."
+msgstr ""
+
+#: modules/process/binning.c:117 modules/process/trimmed-mean.c:117
+msgid "_Trim symmetrically"
+msgstr ""
+
+#: modules/process/binning.c:118 modules/process/crosscor.c:153
+msgid "_X offset"
+msgstr ""
+
+#: modules/process/binning.c:119 modules/process/crosscor.c:154
+msgid "_Y offset"
+msgstr ""
+
+#: modules/process/binning.c:233 modules/process/extend.c:315
+#: modules/process/resample.c:240
+msgid "New dimensions"
+msgstr ""
+
+#: modules/process/binning.c:329 modules/process/extend.c:369
+#: modules/process/resample.c:296
+#, c-format
+msgid "%d × %d"
+msgstr ""
+
+#: modules/process/blockstep.c:98
+msgid "Corrects vertical steps in scan lines by block."
+msgstr ""
+
+#: modules/process/blockstep.c:112
+msgid "/_Correct Data/Ste_p Block Correction"
+msgstr ""
+
+#: modules/process/blockstep.c:116
+msgid "Correct steps without any line correction"
+msgstr ""
+
+#: modules/process/blockstep.c:125 modules/process/correct_affine.c:412
+#: modules/process/correct_perspective.c:136 modules/process/drift.c:147
+#: modules/process/ptranslate.c:129
+msgid "Correc_ted data"
+msgstr ""
+
+#: modules/process/blockstep.c:126
+msgid "_Marked discontinuities"
+msgstr ""
+
+#: modules/process/blockstep.c:127
+msgid "Marked _block boundaries"
+msgstr ""
+
+#: modules/process/blockstep.c:130 modules/process/lno_synth.c:210
+msgid "_Left to right"
+msgstr ""
+
+#: modules/process/blockstep.c:131 modules/process/lno_synth.c:211
+msgid "_Right to left"
+msgstr ""
+
+#: modules/process/blockstep.c:141 modules/process/lno_synth.c:546
+#: modules/process/lno_synth.c:729
+msgid "Scanning direction"
+msgstr ""
+
+#: modules/process/blockstep.c:210
+msgid "Block Step Correction"
+msgstr ""
+
+#: modules/process/blockstep.c:221
+msgid "Number of detected steps"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:191 modules/process/calcoefs_new.c:337
+#, c-format
+msgid "Cannot save preset: %s"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:243 modules/process/calcoefs_new.c:591
+#: modules/process/calcoefs_simple.c:477
+msgid "Calibration name:"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:306 modules/process/calcoefs_new.c:686
+#: modules/process/calcoefs_simple.c:541
+#, c-format
+msgid "Calibration '%s' already exists"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:309 modules/process/calcoefs_new.c:689
+#: modules/process/calcoefs_simple.c:543
+msgid "Overwrite"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:311 modules/process/calcoefs_new.c:691
+#: modules/process/calcoefs_simple.c:544
+msgid "Append"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:345 modules/process/superresolution.c:156
+msgid "Operands:"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:373 modules/process/calcoefs_view.c:491
+msgid "_X offset:"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:400 modules/process/calcoefs_view.c:517
+msgid "_Y offset:"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:440 modules/process/calcoefs_view.c:529
+msgid "_Z offset:"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:640 modules/process/crosscor.c:502
+#: modules/process/mcrop.c:378
+msgid "Correlating..."
+msgstr ""
+
+#: modules/process/calcoefs_view.c:473 modules/process/correct_affine.c:536
+#: modules/process/polydistort.c:250
+msgid "_Interpolation type:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:1120 modules/tools/profile.c:183
+msgid "X correction"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:1121 modules/tools/profile.c:184
+msgid "Y correction"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:1122 modules/tools/profile.c:185
+msgid "Z correction"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:1123 modules/tools/profile.c:186
+msgid "X uncertainty"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:1124 modules/tools/profile.c:187
+msgid "Y uncertainty"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:1125 modules/tools/profile.c:188
+msgid "Z uncertainty"
+msgstr ""
+
+#: modules/process/calibrate.c:159 modules/process/calibrate.c:173
+#: modules/volume/volume_calibrate.c:156
+msgid "/_Basic Operations/_Dimensions and Units..."
+msgstr ""
+
+#: modules/process/calibrate.c:163 modules/volume/volume_calibrate.c:160
+msgid "Change physical dimensions, units or value scale"
+msgstr ""
+
+#: modules/process/calibrate.c:186 modules/process/calibrate.c:192
+#: modules/process/calibrate.c:197 modules/process/calibrate.c:229
+#: modules/volume/volume_calibrate.c:169 modules/volume/volume_calibrate.c:175
+#: modules/volume/volume_calibrate.c:181
+msgid "Do not change"
+msgstr ""
+
+#: modules/process/calibrate.c:188 modules/process/calibrate.c:193
+#: modules/volume/volume_calibrate.c:171
+msgid "Set dimensions"
+msgstr ""
+
+#: modules/process/calibrate.c:189 modules/process/calibrate.c:194
+#: modules/process/calibrate.c:231 modules/volume/volume_calibrate.c:172
+#: modules/volume/volume_calibrate.c:183
+msgid "Correct by factor"
+msgstr ""
+
+#: modules/process/calibrate.c:198 modules/volume/volume_calibrate.c:176
+msgid "Scale with dimensions"
+msgstr ""
+
+#: modules/process/calibrate.c:199 modules/volume/volume_calibrate.c:177
+msgid "Set offsets"
+msgstr ""
+
+#: modules/process/calibrate.c:200 modules/volume/volume_calibrate.c:178
+msgid "Clear offsets"
+msgstr ""
+
+#: modules/process/calibrate.c:213 modules/volume/volume_calibrate.c:197
+msgid "_X correction factor"
+msgstr ""
+
+#: modules/process/calibrate.c:215 modules/volume/volume_calibrate.c:199
+msgid "_Y correction factor"
+msgstr ""
+
+#: modules/process/calibrate.c:221 modules/process/volumize_layers.c:204
+#: modules/process/volumize_layers.c:206 modules/volume/volume_calibrate.c:213
+msgid "X offset"
+msgstr ""
+
+#: modules/process/calibrate.c:230 modules/volume/volume_calibrate.c:182
+msgid "Set range"
+msgstr ""
+
+#: modules/process/calibrate.c:236 modules/process/volumize_layers.c:114
+msgid "Z _range"
+msgstr ""
+
+#: modules/process/calibrate.c:239 modules/volume/volume_calibrate.c:207
+msgid "_Z correction factor"
+msgstr ""
+
+#: modules/process/calibrate.c:257 modules/process/calibrate.c:291
+#: modules/process/coerce.c:188 modules/volume/volume_calibrate.c:217
+#: modules/volume/volume_calibrate.c:218
+msgid "_Template"
+msgstr ""
+
+#: modules/process/calibrate.c:258 modules/process/correct_perspective.c:152
+#: modules/process/drift.c:161 modules/process/extend.c:133
+#: modules/process/ptranslate.c:154 modules/process/rank-filter.c:122
+#: modules/tools/crop.c:113
+msgid "Create new image"
+msgstr ""
+
+#: modules/process/calibrate.c:393 modules/process/calibrate.c:490
+#: modules/process/calibrate.c:575 modules/volume/volume_calibrate.c:340
+msgid "Recalibrated Data"
+msgstr ""
+
+#: modules/process/calibrate.c:606 modules/volume/volume_calibrate.c:368
+msgid "Dimensions and Units"
+msgstr ""
+
+#. TRANSLATORS: Current is an adjective here (as in the current value).
+#: modules/process/calibrate.c:689 modules/process/calibrate.c:728
+#: modules/process/calibrate.c:748 modules/volume/volume_calibrate.c:450
+#: modules/volume/volume_calibrate.c:480 modules/volume/volume_calibrate.c:506
+#: modules/volume/volume_calibrate.c:527
+msgid "Current"
+msgstr ""
+
+#: modules/process/calibrate.c:727 modules/volume/volume_calibrate.c:505
+msgid "Offsets"
+msgstr ""
+
+#: modules/process/calibrate.c:747 modules/volume/volume_calibrate.c:526
+msgid "Value Range"
+msgstr ""
+
+#: modules/process/classify.c:454 modules/process/polydistort.c:278
+msgid "Preview:"
+msgstr ""
+
+#: modules/process/coerce.c:158 modules/process/coerce.c:169
+#: modules/process/fbm_synth.c:132 modules/process/lno_synth.c:197
+#: modules/process/noise_synth.c:128
+msgid "distribution|Uniform"
+msgstr ""
+
+#: modules/process/coerce.c:159 modules/process/fbm_synth.c:133
+#: modules/process/lno_synth.c:195 modules/process/noise_synth.c:126
+msgid "distribution|Gaussian"
+msgstr ""
+
+#: modules/process/col_synth.c:194 modules/process/cpde_synth.c:181
+#: modules/process/diff_synth.c:239 modules/process/domain_synth.c:187
+#: modules/process/dune_synth.c:150 modules/process/plateau_synth.c:182
+#: modules/process/residue_synth.c:151 modules/process/wfr_synth.c:133
+msgid "_Height scale"
+msgstr ""
+
+#: modules/process/convolution_filter.c:267 modules/process/freq_split.c:623
+#: modules/tools/filter.c:184 modules/tools/filter.c:244
+msgid "Filter"
+msgstr ""

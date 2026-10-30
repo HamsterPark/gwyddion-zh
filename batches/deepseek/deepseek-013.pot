@@ -1,0 +1,419 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/pid.c:115
+msgid "/SPM M_odes/_Force and Indentation/_PID Simulation..."
+msgstr ""
+
+#: modules/process/pid.c:119
+msgid "Simulate PID effects on measurement"
+msgstr ""
+
+#: modules/process/pid.c:142
+msgid "_Proportional"
+msgstr ""
+
+#: modules/process/pid.c:143
+msgid "_Integral"
+msgstr ""
+
+#: modules/process/pid.c:144
+msgid "_Derivative"
+msgstr ""
+
+#: modules/process/pid.c:145
+msgid "PID/scan speed _ratio"
+msgstr ""
+
+#: modules/process/pid.c:146
+msgid "_Integration steps"
+msgstr ""
+
+#: modules/process/pid.c:147
+msgid "Force strength"
+msgstr ""
+
+#: modules/process/pid.c:148
+msgid "Force setpoint"
+msgstr ""
+
+#: modules/process/pid.c:226 modules/process/pid.c:325
+msgid "Computation diverged."
+msgstr ""
+
+#: modules/process/pid.c:227
+msgid "Try different parameters."
+msgstr ""
+
+#: modules/process/pid.c:252 modules/process/pid.c:261
+msgid "PID Simulation"
+msgstr ""
+
+#: modules/process/pid.c:321
+msgid "Computation canceled."
+msgstr ""
+
+#: modules/process/pid.c:370
+msgid "Scanning..."
+msgstr ""
+
+#: modules/process/pileup_synth.c:170
+msgid "Ellipsoids"
+msgstr ""
+
+#: modules/process/pileup_synth.c:171
+msgid "Bars"
+msgstr ""
+
+#: modules/process/pileup_synth.c:172
+msgid "Cylinders"
+msgstr ""
+
+#: modules/process/pileup_synth.c:173
+msgid "Nuggets"
+msgstr ""
+
+#: modules/process/pileup_synth.c:174
+msgid "Hexagonal rods"
+msgstr ""
+
+#: modules/process/pileup_synth.c:180
+msgid "Generates randomly patterned surfaces by piling up geometrical shapes."
+msgstr ""
+
+#: modules/process/pileup_synth.c:194
+msgid "/S_ynthetic/_Deposition/_Pile Up..."
+msgstr ""
+
+#: modules/process/pileup_synth.c:198
+msgid "Generate surface of randomly piled up shapes"
+msgstr ""
+
+#: modules/process/pileup_synth.c:292
+msgid "Pile Up Shapes"
+msgstr ""
+
+#: modules/process/plateau_synth.c:144
+msgid "Generates images with stacked plateau-like structures."
+msgstr ""
+
+#: modules/process/plateau_synth.c:158
+msgid "/S_ynthetic/_Deposition/_Plateaus..."
+msgstr ""
+
+#: modules/process/plateau_synth.c:162
+msgid "Generate image with random plateaus"
+msgstr ""
+
+#: modules/process/plateau_synth.c:177
+msgid "Ma_ximum size"
+msgstr ""
+
+#: modules/process/plateau_synth.c:178
+msgid "M_inimum size"
+msgstr ""
+
+#: modules/process/plateau_synth.c:180
+msgid "Shape _irregularity"
+msgstr ""
+
+#: modules/process/plateau_synth.c:181
+msgid "O_verlap fraction"
+msgstr ""
+
+#: modules/process/plateau_synth.c:183
+msgid "Scale with _power of size"
+msgstr ""
+
+#: modules/process/plateau_synth.c:185
+msgid "Height _spread"
+msgstr ""
+
+#: modules/process/plateau_synth.c:264
+msgid "Random Plateaus"
+msgstr ""
+
+#: modules/process/plateau_synth.c:801
+msgid "Generating objects..."
+msgstr ""
+
+#: modules/process/polydistort.c:134
+msgid "Applies polynomial distortion in the horizontal plane."
+msgstr ""
+
+#: modules/process/polydistort.c:148
+msgid "/_Distortion/Pol_ynomial..."
+msgstr ""
+
+#: modules/process/polydistort.c:152
+msgid "Applies polynomial distortion in the horizontal plane"
+msgstr ""
+
+#: modules/process/polydistort.c:202
+msgid "Distort by Polynomial"
+msgstr ""
+
+#: modules/process/polydistort.c:266
+msgid "_Exterior type:"
+msgstr ""
+
+#: modules/process/polydistort.c:285
+msgid "Ori_ginal"
+msgstr ""
+
+#: modules/process/polydistort.c:286
+msgid "_Transformed"
+msgstr ""
+
+#: modules/process/polydistort.c:292
+msgid "X Coefficients"
+msgstr ""
+
+#: modules/process/polydistort.c:306
+msgid "Y Coefficients"
+msgstr ""
+
+#: modules/process/presentationops.c:58
+msgid "Basic operations with presentation: extraction, removal."
+msgstr ""
+
+#: modules/process/presentationops.c:77
+msgid "_Data to attach"
+msgstr ""
+
+#: modules/process/presentationops.c:86
+msgid "/_Presentation/_Remove Presentation"
+msgstr ""
+
+#: modules/process/presentationops.c:90
+msgid "Remove presentation from data"
+msgstr ""
+
+#: modules/process/presentationops.c:93
+msgid "/_Presentation/E_xtract Presentation"
+msgstr ""
+
+#: modules/process/presentationops.c:97
+msgid "Extract presentation to a new image"
+msgstr ""
+
+#: modules/process/presentationops.c:100
+msgid "/_Presentation/_Attach Presentation..."
+msgstr ""
+
+#: modules/process/presentationops.c:104
+msgid "Attach another data field as presentation"
+msgstr ""
+
+#: modules/process/presentationops.c:107
+msgid "/_Presentation/_Logscale"
+msgstr ""
+
+#: modules/process/presentationops.c:111
+msgid "Creates a presentation with logarithmic color scale"
+msgstr ""
+
+#: modules/process/presentationops.c:248
+msgid "Attach Presentation"
+msgstr ""
+
+#: modules/process/psf-fit.c:177
+msgid "Gaussian (asymmetric)"
+msgstr ""
+
+#: modules/process/psf-fit.c:182
+msgid "Frequency-space exponential"
+msgstr ""
+
+#: modules/process/psf-fit.c:191
+msgid "Transfer function estimation by fitting explicit function form."
+msgstr ""
+
+#: modules/process/psf-fit.c:205
+msgid "/_Statistics/Transfer _Function Fit..."
+msgstr ""
+
+#: modules/process/psf-fit.c:209
+msgid "Fit transfer function from known data and image"
+msgstr ""
+
+#: modules/process/psf-fit.c:312
+msgid "Fit Transfer Function"
+msgstr ""
+
+#: modules/process/psf.c:172
+msgid "Transfer function estimation"
+msgstr ""
+
+#: modules/process/psf.c:190
+msgid "Estimate transfer function from known data and ideal image"
+msgstr ""
+
+#: modules/process/ptranslate.c:101
+msgid "Translates images in the XY plane, treating them as periodic."
+msgstr ""
+
+#: modules/process/ptranslate.c:115
+msgid "/_Correct Data/_Translate Periodically..."
+msgstr ""
+
+#: modules/process/ptranslate.c:119
+msgid "Move data in XY plane, treating it as periodic"
+msgstr ""
+
+#: modules/process/ptranslate.c:132
+msgid "Center"
+msgstr ""
+
+#: modules/process/ptranslate.c:133
+msgid "Top left corner"
+msgstr ""
+
+#: modules/process/ptranslate.c:149
+msgid "_Move selected point to"
+msgstr ""
+
+#: modules/process/ptranslate.c:153
+msgid "_Update coordinate offsets"
+msgstr ""
+
+#: modules/process/ptranslate.c:193
+msgid "Translated"
+msgstr ""
+
+#: modules/process/ptranslate.c:232
+msgid "Translate Periodically"
+msgstr ""
+
+#: modules/process/ptranslate.c:243
+msgid "Translation"
+msgstr ""
+
+#: modules/process/ptranslate.c:258
+msgid "_Select Center"
+msgstr ""
+
+#: modules/process/rank.c:69
+msgid "Enhances local contrast using a rank transform."
+msgstr ""
+
+#: modules/process/rank.c:83
+msgid "/_Presentation/_Rank..."
+msgstr ""
+
+#: modules/process/rank.c:87
+msgid "Presentation with local contrast ehnanced using a rank transform"
+msgstr ""
+
+#: modules/process/rank.c:96
+msgid "Rank transform"
+msgstr ""
+
+#: modules/process/rank.c:97
+msgid "Local normalization"
+msgstr ""
+
+#: modules/process/rank.c:163
+msgid "Rank Transform"
+msgstr ""
+
+#: modules/process/rank.c:195
+msgid "Rank transform..."
+msgstr ""
+
+#: modules/process/raveraging.c:69
+msgid "Smooths images in polar coordinates."
+msgstr ""
+
+#: modules/process/raveraging.c:83
+msgid "/_Distortion/_Radial Smoothing..."
+msgstr ""
+
+#: modules/process/raveraging.c:87
+msgid "Smooth image in polar coordinates"
+msgstr ""
+
+#: modules/process/raveraging.c:102
+msgid "_Angle"
+msgstr ""
+
+#: modules/process/raveraging.c:144
+msgid "Radially smoothed"
+msgstr ""
+
+#: modules/process/raveraging.c:161
+msgid "Radial Smoothing"
+msgstr ""
+
+#: modules/process/relate.c:196
+msgid "Proportion"
+msgstr ""
+
+#: modules/process/relate.c:216
+msgid "Parabolic"
+msgstr ""
+
+#: modules/process/relate.c:235
+msgid "Plots one image data as a function of another and finds relations."
+msgstr ""
+
+#: modules/process/relate.c:249
+msgid "/_Multidata/_Relation..."
+msgstr ""
+
+#: modules/process/relate.c:253
+msgid "Find simple relations between data"
+msgstr ""
+
+#: modules/process/relate.c:335
+msgid "Relate"
+msgstr ""
+
+#: modules/process/reorder.c:68
+msgid "Reorders image data in different ways."
+msgstr ""
+
+#: modules/process/reorder.c:82
+msgid "/_Distortion/_Reorder..."
+msgstr ""
+
+#: modules/process/reorder.c:86
+msgid "Reorder image data"
+msgstr ""
+
+#: modules/process/reorder.c:107
+msgid "Reordering"
+msgstr ""
+
+#: modules/process/reorder.c:144
+msgid "Reordered"
+msgstr ""
+
+#: modules/process/reorder.c:165
+msgid "Reorder"
+msgstr ""
+
+#: modules/process/resample.c:84
+msgid "Resamples data to specified pixel size."
+msgstr ""
+
+#: modules/process/resample.c:98
+msgid "/_Basic Operations/_Resample..."
+msgstr ""

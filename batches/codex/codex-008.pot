@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: gwyddion/tips.c:75
+msgid ""
+"Data presentations created by functions in Data Process → Presentation do "
+"not change the underlying data.  All subsequent operations still apply to "
+"the underlying data."
+msgstr ""
+
+#: gwyddion/tips.c:88
+msgid ""
+"Pressing Ctrl-F runs the last used data processing function with with the "
+"same parameters on the current data."
+msgstr ""
+
+#: gwyddion/tips.c:93
+msgid ""
+"Pressing Ctrl-Shift-F re-shows the parameter dialog of the last used data "
+"processing function (or executes it immediately if it has no parameters)."
+msgstr ""
+
+#: gwyddion/tips.c:100
+msgid ""
+"When Gwyddion is run with a directory argument it opens a file open dialog "
+"showing this directory."
+msgstr ""
+
+#: gwyddion/tips.c:105
+msgid ""
+"File → Open Recent → Document History opens a browser of recently loaded "
+"files with the possibility to search them by name."
+msgstr ""
+
+#: gwyddion/tips.c:111
+msgid ""
+"Automatic import of unrecognized files as raw data can be enabled/disabled "
+"in the Raw file import dialog."
+msgstr ""
+
+#: gwyddion/tips.c:116
+msgid ""
+"To export the image of a channel to a pixmap graphic format (PNG, TIFF, "
+"JPEG, ...) just save it as this format with File → Save As."
+msgstr ""
+
+#: gwyddion/tips.c:122
+msgid "File → Merge imports all data from selected file to the current file."
+msgstr ""
+
+#: gwyddion/tips.c:127
+msgid ""
+"Previews in the file open dialog can be shown with plane and/or line "
+"leveling applied.  Use the switches at the bottom of the preview list."
+msgstr ""
+
+#: gwyddion/tips.c:134
+msgid ""
+"Your favorite false color gradient can be set as default in the gradient "
+"editor: Edit → Color Gradients.  The default gradient is shown in bold face."
+msgstr ""
+
+#: gwyddion/tips.c:140
+msgid ""
+"Your favorite GL material can be set as default in the material editor: Edit "
+"→ GL Materials.  The default material is shown in bold face."
+msgstr ""
+
+#: gwyddion/tips.c:146
+msgid ""
+"Edit → Default Mask Color sets the default mask color.  This color is used "
+"when a mask is created on data that have not had a mask before."
+msgstr ""
+
+#: gwyddion/tips.c:152
+msgid ""
+"Each channel has its own metadata.  Display them by clicking with the right "
+"mouse button and choosing Metadata Browser."
+msgstr ""
+
+#: gwyddion/tips.c:158
+msgid ""
+"Each volume data have their own metadata.  Display them by clicking with the "
+"right mouse button and choosing Metadata Browser."
+msgstr ""
+
+#: gwyddion/tips.c:164
+msgid ""
+"A record of applied data processing operations can be browsed using View Log "
+"in the channel or volume data right-click menu."
+msgstr ""
+
+#: gwyddion/tips.c:170
+msgid ""
+"Curves can be copied to other (compatible) graphs by dragging them from "
+"Curves tab to the graph window."
+msgstr ""
+
+#: gwyddion/tips.c:175
+msgid "Graph curve properties can be edited by clicking on the curve."
+msgstr ""
+
+#: gwyddion/tips.c:179
+msgid "Graph axis labels can be edited after by clicking on the label."
+msgstr ""
+
+#: gwyddion/tips.c:183
+msgid ""
+"Graph key (legend) properties can be edited by double-clicking on the legend."
+msgstr ""
+
+#: gwyddion/tips.c:188
+msgid ""
+"Curves can be deleted from graphs by selecting the curve in Curves tab and "
+"pressing Delete."
+msgstr ""
+
+#: gwyddion/tips.c:194
+msgid "Key ‛+’ or ‛=’ zooms in a data window."
+msgstr ""
+
+#: gwyddion/tips.c:198
+msgid "Key ‛-’ (minus) zooms out a data window."
+msgstr ""
+
+#: gwyddion/tips.c:202
+msgid "Key ‛Z’ resets data window zoom to 1:1."
+msgstr ""
+
+#: gwyddion/tips.c:206
+msgid ""
+"Data with different <i>x</i> and <i>y</i> measures can be displayed either "
+"with pixel-wise or realistic aspect ratio.  The menu in data window top left "
+"corner enables switching between these two modes."
+msgstr ""
+
+#: gwyddion/tips.c:213
+msgid ""
+"Clicking on a false color scale with the right mouse button brings a false "
+"color gradient selector."
+msgstr ""
+
+#: gwyddion/tips.c:218
+msgid ""
+"Mask color can be changed by right-clicking on a data view and selecting "
+"Mask Color from the menu."
+msgstr ""
+
+#: gwyddion/tips.c:224
+msgid ""
+"Clicking on a 3D view with the right mouse button brings a GL material or "
+"false color gradient selector."
+msgstr ""
+
+#: gwyddion/tips.c:229
+msgid ""
+"3D view transformation modes can be selected with keys: R (rotate), S "
+"(scale), V (value scale) and L (light source)."
+msgstr ""
+
+#: gwyddion/tips.c:234
+msgid ""
+"You can make a specific 3D view setup the default using the Set as Default "
+"button."
+msgstr ""
+
+#: gwyddion/tips.c:240
+msgid ""
+"Pressing Ctrl-C copies the image of a channel, graph or 3D view to the "
+"clipboard."
+msgstr ""
+
+#: gwyddion/tips.c:245
+msgid ""
+"Dragging channels or graphs from Data Browser to a window copies them to the "
+"corresponding file."
+msgstr ""
+
+#: gwyddion/tips.c:250
+msgid "Info → Show Data Browser brings back a closed Data Browser."
+msgstr ""
+
+#: gwyddion/tips.c:254
+msgid ""
+"Channels and graphs can be renamed by double-clicking on their name in Data "
+"Browser."
+msgstr ""
+
+#: gwyddion/tips.c:260
+msgid ""
+"Facet Level offers to use/exclude the masked area if a mask is present on "
+"the data."
+msgstr ""
+
+#: gwyddion/tips.c:265
+msgid ""
+"Plane Level offers to use/exclude the masked area if a mask is present on "
+"the data."
+msgstr ""
+
+#: gwyddion/tips.c:270
+msgid ""
+"Align Rows offers to use/exclude the masked area if a mask is present on the "
+"data."
+msgstr ""
+
+#: gwyddion/tips.c:275
+msgid ""
+"Data Arithmetic works as a scientific calculator: just type an arithmetic "
+"expression."
+msgstr ""
+
+#: gwyddion/tips.c:280
+msgid ""
+"Data Arithmetic expressions can include values (d), mask values (m), "
+"derivatives (bx, by) and coordinates (x, y)."
+msgstr ""
+
+#: gwyddion/tips.c:285
+msgid ""
+"Facet Level can often level data with large features that make impossible to "
+"use standard plane leveling.  It levels the surface by making normals of "
+"flat areas point upwards."
+msgstr ""
+
+#: gwyddion/tips.c:291
+msgid ""
+"Flatten Base performs automated leveling of base flat surface with positive "
+"features."
+msgstr ""
+
+#: gwyddion/tips.c:296
+msgid ""
+"Too small grains can be filtered out with Data Process → Grains → Filter."
+msgstr ""
+
+#: gwyddion/tips.c:301
+msgid ""
+"Data Process → Presentation → Edge Detection → Step is a fine step detector "
+"with a good dynamic range"
+msgstr ""
+
+#: gwyddion/tips.c:306
+msgid ""
+"Data Process → Basic Operations → Dimensions and Units changes scales, "
+"offsets and even lateral and value units."
+msgstr ""
+
+#: gwyddion/tips.c:311
+msgid ""
+"Grains or other areas of interest are marked with masks.  Many functions "
+"then can do something interesting with the masked areas."
+msgstr ""
+
+#: gwyddion/tips.c:317
+msgid ""
+"Remove Scars in the toolbox runs with the settings last used in Mark Scars."
+msgstr ""
+
+#: gwyddion/tips.c:322
+msgid "Data synthesis modules can be also used to modify existing images."
+msgstr ""
+
+#: gwyddion/tips.c:327
+msgid ""
+"Data Process → Mask → Mark With can set the image mask based on another "
+"data, mask or presentation."
+msgstr ""
+
+#: gwyddion/tips.c:333
+msgid "Graph → Critical Dimension measures steps on extracted profile graphs."
+msgstr ""
+
+#: gwyddion/tips.c:338
+msgid "All Graph functions are available also in the graph right-click menu."
+msgstr ""
+
+#: gwyddion/tips.c:344
+msgid "Pressing Esc hides tool windows."
+msgstr ""
+
+#: gwyddion/tips.c:348
+msgid "Read Value tool displays also the local facet normal."
+msgstr ""
+
+#: gwyddion/tips.c:352
+msgid ""
+"Read Value tool can shift data to make <i>z</i>=0 plane pass through the "
+"selected point."
+msgstr ""
+
+#: gwyddion/tips.c:357
+msgid ""
+"Individual lines can be deleted in Distance tool by selecting them in the "
+"list and pressing Delete."
+msgstr ""
+
+#: gwyddion/tips.c:362
+msgid ""
+"Individual lines can be deleted in Profiles tool by selecting them in the "
+"list and pressing Delete."
+msgstr ""
+
+#: gwyddion/tips.c:367
+msgid ""
+"Spectroscopy tool displays point spectroscopy data and extracts them to "
+"standalone graphs that can be subsequently analysed for instance with Graph "
+"→ Fit FD Curve."
+msgstr ""
+
+#: gwyddion/tips.c:373
+msgid ""
+"Statistical Quantities tool allows limiting the area of interest by a mask, "
+"rectangular selection or the intersection of both."
+msgstr ""
+
+#: gwyddion/tips.c:378
+msgid ""
+"Beside height and angle distributions, Statistical Functions tool calculates "
+"also correlation functions, power spectrum density (PSDF) and some more "
+"exotic functions."
+msgstr ""
+
+#: gwyddion/tips.c:384
+msgid ""
+"Path Level tool levels misaligned rows by lining them up along manually "
+"selected lines.  If there are no large features automatic Align Rows usually "
+"works well."
+msgstr ""
+
+#: gwyddion/tips.c:390
+msgid ""
+"Grain Measure tool is great for examining individual grains.  Overall grain "
+"statistics are available in Data Processing → Grains."
+msgstr ""
+
+#: gwyddion/tips.c:396
+msgid "Mask Editor tool can create, edit, invert, grow and shrink masks."
+msgstr ""
+
+#: gwyddion/tips.c:400
+msgid ""
+"Color Range tool offers several false color scale mapping modes and can make "
+"any of them the default mode."
+msgstr ""
+
+#: gwyddion/tips.c:405
+msgid ""
+"Dragging selections from Selections Manager tool to a data window copies the "
+"selection to the target data."
+msgstr ""
+
+#: gwyddion/tips.c:411
+msgid ""
+"Pressing F1 or the Help buttons in most windows shows a relevant part of the "
+"user guide in a web browser."
+msgstr ""
+
+#: gwyddion/tips.c:416
+msgid ""
+"Gwyddion User Guide explains in detail many of the methods and algorithms "
+"implemented in Gwyddion."
+msgstr ""
+
+#: gwyddion/tips.c:421
+msgid "Gwyddion is a son of Math."
+msgstr ""
+
+#: gwyddion/tips.c:483
+msgid "Gwyddion Tip of the Day"
+msgstr ""
+
+#: gwyddion/tips.c:496
+msgid "_Previous Tip"
+msgstr ""
+
+#: gwyddion/tips.c:502
+msgid "_Next Tip"
+msgstr ""
+
+#: gwyddion/tips.c:532
+msgid "_Show tips at startup"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:208
+msgid "Toolbox Editor"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:241
+msgid "_New Item"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:245
+msgid "_New Group"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:249 gwyddion/toolbox.c:595
+msgid "_Edit"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:253 modules/process/fft_filter_2d.c:485
+#: modules/tools/maskedit.c:441 modules/volume/volume_zcal.c:119
+msgid "_Remove"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:257
+msgid "Move _Up"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:261
+msgid "Move _Down"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:268 modules/process/dimensions.h:481
+msgid "_Width:"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:736
+msgid "Toolbox Group"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:748
+msgid "_Title:"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:760
+msgid "_Id:"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:771
+msgid "_Suggest"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:776
+msgid "Trans_latable title"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:822
+msgid "Group id is not a valid identifier"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:829
+msgid "Group id is not unique"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:907
+msgid "Toolbox Item"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:923
+msgid "_Type:"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:928
+msgid "Placeholder"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:929
+msgid "Builtin"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:930 gwyddion/toolbox.c:107
+msgid "Data Process"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:932
+msgid "Volume Data"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:933
+msgid "XYZ Data"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:935 modules/tools/maskedit.c:230
+msgid "Tool"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:941
+msgid "_Mode:"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:946 gwyddion/toolbox-editor.c:960
+#: modules/cmap/cmap_simplemech.c:202
+msgid "Default"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:947
+msgid "Interactive"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:948
+msgid "Non-interactive"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:954
+msgid "Use _icon from:"
+msgstr ""
+
+#: gwyddion/toolbox-editor.c:981
+msgid "Functions"
+msgstr ""
+
+#: gwyddion/toolbox-spec.c:591
+msgid "placeholder"
+msgstr ""
+
+#: gwyddion/toolbox-spec.c:599
+msgid "remaining tools"
+msgstr ""

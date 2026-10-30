@@ -1,0 +1,427 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/volume/volume_scars.c:181
+msgid "Scars corrected"
+msgstr ""
+
+#: modules/volume/volume_scars.c:366
+msgid "Removing scars..."
+msgstr ""
+
+#: modules/volume/volume_slice.c:154
+msgid "Extracts image planes and line graphs from volume data."
+msgstr ""
+
+#: modules/volume/volume_slice.c:168
+msgid "/_Basic Operations/Cut and _Slice..."
+msgstr ""
+
+#: modules/volume/volume_slice.c:172
+msgid "Extract image planes and line graphs"
+msgstr ""
+
+#: modules/volume/volume_slice.c:189
+msgid "Image slice"
+msgstr ""
+
+#: modules/volume/volume_slice.c:190
+msgid "Line graph"
+msgstr ""
+
+#: modules/volume/volume_slice.c:203
+msgid "_Base plane"
+msgstr ""
+
+#: modules/volume/volume_slice.c:286
+msgid "Slice Volume Data"
+msgstr ""
+
+#: modules/volume/volume_slice.c:322
+msgid "Positions"
+msgstr ""
+
+#: modules/volume/volume_slice.c:815
+#, c-format
+msgid "Z slice at %.*f%s%s (#%d)"
+msgstr ""
+
+#: modules/volume/volume_slice.c:822
+#, c-format
+msgid "Y slice at %.*f%s%s (#%d)"
+msgstr ""
+
+#: modules/volume/volume_slice.c:829
+#, c-format
+msgid "X slice at %.*f%s%s (#%d)"
+msgstr ""
+
+#: modules/volume/volume_slice.c:886
+#, c-format
+msgid "Z graph at x: %d y: %d"
+msgstr ""
+
+#: modules/volume/volume_slice.c:891
+#, c-format
+msgid "X graph at y: %d z: %d"
+msgstr ""
+
+#: modules/volume/volume_slice.c:896
+#, c-format
+msgid "Y graph at x: %d z: %d"
+msgstr ""
+
+#: modules/volume/volume_slice.c:933
+msgid "Volume X graphs"
+msgstr ""
+
+#: modules/volume/volume_slice.c:938
+msgid "Volume Y graphs"
+msgstr ""
+
+#: modules/volume/volume_stepline.c:50
+msgid "Performs step line correction"
+msgstr ""
+
+#: modules/volume/volume_stepline.c:68
+msgid "Step line correction in all XY planes"
+msgstr ""
+
+#: modules/volume/volume_stepline.c:87
+msgid "Step line correction..."
+msgstr ""
+
+#: modules/volume/volume_stepline.c:91
+msgid "Step line corrected"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:120
+msgid "Checks the stray field dependence consistency."
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:134
+msgid "/SPM M_odes/_Stray Field Consistency..."
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:138
+msgid "MSM stray field consistency"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:151
+msgid "Single value evolution"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:152
+msgid "Plane variance"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:154
+msgid "Z shift difference"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:170
+msgid "_Z base"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:244
+msgid "Stray Field Consistency Check"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:311
+msgid "Extracted"
+msgstr ""
+
+#: modules/volume/volume_strayfield.c:454
+msgid "Building stray field dependence..."
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:82
+msgid "Swaps axes of volume data."
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:96
+msgid "/_Basic Operations/S_wap Axes..."
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:100
+msgid "Swap axes"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:110
+msgid "X, reversed"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:112
+msgid "Y, reversed"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:114
+msgid "Z, reversed"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:123
+msgid "Current _X axis will become"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:125
+msgid "Current _Y axis will become"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:127
+msgid "Current _Z axis will become"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:176
+msgid "Swap Volume Axes"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:222
+msgid "Z axis calibration will be lost."
+msgstr ""
+
+#: modules/volume/volume_xyarithmetics.c:148
+msgid "Simple arithmetic operations with volume and plane data."
+msgstr ""
+
+#: modules/volume/volume_xyarithmetics.c:162
+msgid "/_Basic Operations/_XY Arithmetic..."
+msgstr ""
+
+#: modules/volume/volume_xyarithmetics.c:166
+msgid "Arithmetic operations on volume and plane data"
+msgstr ""
+
+#: modules/volume/volume_xyarithmetics.c:290
+msgid "Volume - Plane Arithmetic"
+msgstr ""
+
+#: modules/volume/volume_xyarithmetics.c:334
+msgid "Volume data:"
+msgstr ""
+
+#: modules/volume/volume_xyarithmetics.c:343
+msgid "Images:"
+msgstr ""
+
+#: modules/volume/volume_xyarithmetics.c:565
+msgid "No volume data in the expression"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:105
+msgid "Merges all XY planes into XYZ data"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:119
+msgid "/SPM M_odes/_XY Stitch..."
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:123
+msgid "Merge all the XY planes to XYZ data"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:138
+msgid "X _offsets graph"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:139
+msgid "X o_ffsets curve"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:140
+msgid "Y off_sets graph"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:141
+msgid "Y offs_ets curve"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:142
+msgid "_Flip X axis"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:143
+msgid "F_lip Y axis"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:144
+msgid "Adjust _X shifts"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:145
+msgid "Adjust _Y shifts"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:146
+msgid "Adjust _Z shifts"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:147
+msgid "X polynomial degree"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:148
+msgid "Y polynomial degree"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:204
+msgid "Stitched"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:229 modules/volume/volume_xystitch.c:230
+msgid "X shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:231
+msgid "Frame number"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:238
+msgid "x-axis shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:248
+msgid "Y shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:249
+msgid "y shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:257
+msgid "y-axis shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:268
+msgid "Z shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:269
+msgid "z shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:277
+msgid "z-axis shift"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:320
+msgid "XY Stitch"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:322
+msgid "verb|_Stitch"
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:589
+msgid "Filling matrix..."
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:616
+msgid "Solving matrix..."
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:892
+msgid "Optimizing shifts..."
+msgstr ""
+
+#: modules/volume/volume_xystitch.c:1043
+msgid "Estimating shifts..."
+msgstr ""
+
+#: modules/volume/volume_zcal.c:91
+msgid "Attaches, extracts and removes volume data z-axis calibration."
+msgstr ""
+
+#: modules/volume/volume_zcal.c:105
+msgid "/_Basic Operations/_Z-Calibration..."
+msgstr ""
+
+#: modules/volume/volume_zcal.c:109
+msgid "Manage z-axis calibration"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:118
+msgid "_Extract to a graph"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:120
+msgid "Attach from _file"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:121
+msgid "Copy from _another"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:131
+msgid "Z-calibration action"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:133 modules/volume/volume_zcal.c:134
+#: modules/volume/volume_zcal.c:196 modules/volume/volume_zcal.c:249
+msgid "Volume Z Calibration"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:338
+msgid "Calibration from file"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:338 modules/volume/volume_zcal.c:413
+msgid "Z-calibration curve"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:375
+msgid "Index"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:376
+msgid "Z axis value"
+msgstr ""
+
+#: modules/volume/volume_zcal.c:460
+#, c-format
+msgid "The number of data file values %d differs from the number of planes %d."
+msgstr ""
+
+#: modules/volume/volumeops.c:35
+msgid "Extracts preview"
+msgstr ""
+
+#: modules/volume/volumeops.c:53
+msgid "Extract volume data preview to an image"
+msgstr ""
+
+#: modules/xyz/xyz_autocrop.c:46
+msgid "Simple XYZ automated crop."
+msgstr ""
+
+#: modules/xyz/xyz_autocrop.c:60
+msgid "/Crop Automatically"
+msgstr ""
+
+#: modules/xyz/xyz_autocrop.c:64
+msgid "Crop data automatically to cover scanned areas"
+msgstr ""
+
+#: modules/xyz/xyz_crop.c:85
+msgid "XYZ data crop."
+msgstr ""
+
+#: modules/xyz/xyz_crop.c:99
+msgid "/Crop..."
+msgstr ""

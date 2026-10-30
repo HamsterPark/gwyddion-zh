@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/xyz/xyzops.c:107
+msgid "Merge two XYZ point sets"
+msgstr ""
+
+#: modules/xyz/xyzops.c:111
+msgid "/_Average Identical Positions"
+msgstr ""
+
+#: modules/xyz/xyzops.c:115
+msgid "Average points with identical XY positions"
+msgstr ""
+
+#: modules/xyz/xyzops.c:178
+msgid "Merge XYZ Data"
+msgstr ""
+
+#: modules/xyz/xyzops.c:202
+msgid "Second _XYZ data:"
+msgstr ""
+
+#: modules/xyz/xyzops.c:206
+msgid "_Average coincident points"
+msgstr ""
+
+#: modules/xyz/xyzops.c:351
+msgid "Merged"
+msgstr ""
+
+#: modules/xyz/xyzops.c:408
+msgid "Points averaged"
+msgstr ""

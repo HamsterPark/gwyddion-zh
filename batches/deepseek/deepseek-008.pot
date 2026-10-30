@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/fft.c:109
+msgid "Compute Fast Fourier Transform"
+msgstr ""
+
+#: modules/process/fft.c:118
+msgid "Real"
+msgstr ""
+
+#: modules/process/fft.c:119
+msgid "Imaginary"
+msgstr ""
+
+#: modules/process/fft.c:120
+msgid "Modulus"
+msgstr ""
+
+#: modules/process/fft.c:133
+msgid "_Preserve RMS"
+msgstr ""
+
+#: modules/process/fft.c:134
+msgid "Ra_w transform"
+msgstr ""
+
+#: modules/process/fft.c:137
+msgid "Subtract mean _value beforehand"
+msgstr ""
+
+#: modules/process/fft.c:138
+msgid "I_maginary part"
+msgstr ""
+
+#: modules/process/fft.c:212
+msgid "FFT Real"
+msgstr ""
+
+#: modules/process/fft.c:214
+msgid "FFT Imaginary"
+msgstr ""
+
+#: modules/process/fft.c:218
+msgid "FFT Phase"
+msgstr ""
+
+#: modules/process/fft.c:303 modules/process/fft.c:308
+msgid "2D FFT"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:110
+msgid "1D FFT Filtering"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:172
+msgid "1D FFT Filtered Data"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:208
+msgid "1D FFT filter"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:157 modules/process/fft_filter_2d.c:408
+msgid "2D FFT Filtering"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:171
+msgid "/_Correct Data/_2D FFT Filtering..."
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:175
+msgid "Two-dimensional FFT filtering"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:284
+msgid "Filtered Data"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:312
+msgid "Filtered FFT"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:336
+msgid "Add an ellipse to the FFT mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:341
+msgid "Add a rectangle to the FFT mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:346
+msgid "Subtract an ellipse from the FFT mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:351
+msgid "Subtract a rectangle from the FFT mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:362
+msgid "_FFT mask editor"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:370
+msgid "Fi_ltered image"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:374
+msgid "Image _difference"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:385
+msgid "Filtered i_mage"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:389
+msgid "Ima_ge difference"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:393
+msgid "Filtered FFT mo_dulus"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:442
+msgid "Filter Mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:477
+msgid "_Undo"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:480
+msgid "Undo the last change to the filter mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:487
+msgid "Clear the entire filter mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:494
+msgid "Fill the entire filter mask"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:500
+msgid "_Snap to origin"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:502
+msgid "Force shapes to center around the origin"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:547
+msgid "Zoom:"
+msgstr ""
+
+#: modules/process/fft_synth.c:92
+msgid "Generates random surfaces using spectral synthesis."
+msgstr ""
+
+#: modules/process/fft_synth.c:106
+msgid "/S_ynthetic/_Noise/_Spectral..."
+msgstr ""
+
+#: modules/process/fft_synth.c:110
+msgid "Generate surface using spectral synthesis"
+msgstr ""
+
+#: modules/process/fft_synth.c:126
+msgid "M_inimum frequency"
+msgstr ""
+
+#: modules/process/fft_synth.c:128
+msgid "Ma_ximum frequency"
+msgstr ""
+
+#: modules/process/fft_synth.c:130
+msgid "Enable _Gaussian multiplier"
+msgstr ""
+
+#: modules/process/fft_synth.c:132 modules/process/fft_synth.c:133
+msgid "General power"
+msgstr ""
+
+#: modules/process/fft_synth.c:134
+msgid "Enable _Lorentz multiplier"
+msgstr ""
+
+#: modules/process/fft_synth.c:137
+msgid "Enable _power multiplier"
+msgstr ""
+
+#: modules/process/fft_synth.c:204
+msgid "Spectral Synthesis"
+msgstr ""
+
+#: modules/process/fft_synth.c:258 modules/process/fft_synth.c:261
+msgid "px<sup>-1</sup>"
+msgstr ""
+
+#: modules/process/fibre_synth.c:155
+msgid "Generates surfaces composed from randomly placed fibers."
+msgstr ""
+
+#: modules/process/fibre_synth.c:169
+msgid "/S_ynthetic/_Deposition/_Fibers..."
+msgstr ""
+
+#: modules/process/fibre_synth.c:173
+msgid "Generate surface of randomly placed fibers"
+msgstr ""
+
+#: modules/process/fibre_synth.c:182
+msgid "Semi-circle"
+msgstr ""
+
+#: modules/process/fibre_synth.c:183
+msgid "Triangle"
+msgstr ""
+
+#: modules/process/fibre_synth.c:186
+msgid "Quadratic spline"
+msgstr ""
+
+#: modules/process/fibre_synth.c:199 modules/process/fibre_synth.c:202
+msgid "Along fiber"
+msgstr ""
+
+#: modules/process/fibre_synth.c:211
+msgid "_Lateral"
+msgstr ""
+
+#: modules/process/fibre_synth.c:213
+msgid "Le_ngthwise"
+msgstr ""
+
+#: modules/process/fibre_synth.c:281
+msgid "Random Fibers"
+msgstr ""
+
+#: modules/process/fibre_synth.c:751
+msgid "Generating fibers..."
+msgstr ""
+
+#: modules/process/fit-shape.c:237
+msgid "Fits predefined geometrical shapes to data."
+msgstr ""
+
+#: modules/process/fit-shape.c:251
+msgid "/Measure _Features/_Fit Shape..."
+msgstr ""
+
+#: modules/process/fit-shape.c:255 modules/process/fit-shape.c:262
+msgid "Fit geometrical shapes"
+msgstr ""
+
+#: modules/process/fit-shape.c:258
+msgid "/_Fit Shape..."
+msgstr ""
+
+#: modules/process/fit-shape.c:300
+msgid "Calculate differences for e_xcluded pixels"
+msgstr ""
+
+#: modules/process/fit-shape.c:491
+msgid "Fit Shape"
+msgstr ""
+
+#: modules/process/fit-shape.c:496
+msgid "verb|_Quick Fit"
+msgstr ""
+
+#: modules/process/fit-shape.c:513 modules/process/fit-shape.c:1676
+msgid "Derived Quantities"
+msgstr ""
+
+#: modules/process/fit-shape.c:517
+msgid "Mean square difference:"
+msgstr ""
+
+#: modules/process/fit-shape.c:695
+msgid "_Recalculate Image"
+msgstr ""
+
+#: modules/process/fit-shape.c:700
+msgid "Revert to _Previous Values"
+msgstr ""
+
+#: modules/process/fit-shape.c:1492
+msgid "Parameter estimation failed"
+msgstr ""
+
+#: modules/process/fit-shape.c:1496
+msgid "Fit was interrupted"
+msgstr ""
+
+#: modules/process/fraccor.c:39
+msgid "Removes data under mask using fractal interpolation."
+msgstr ""
+
+#: modules/process/fraccor.c:53
+msgid "/_Correct Data/_Fractal Correction"
+msgstr ""
+
+#: modules/process/fraccor.c:57
+msgid "Interpolate data under mask with fractal interpolation"
+msgstr ""
+
+#: modules/process/freq_split.c:110
+msgid "Splits image into low and high frequency components."
+msgstr ""
+
+#: modules/process/freq_split.c:124
+msgid "/_Level/_Frequency Split..."
+msgstr ""
+
+#: modules/process/freq_split.c:128
+msgid "Split into low and high frequencies"
+msgstr ""
+
+#: modules/process/freq_split.c:137
+msgid "boundary-handling|None"
+msgstr ""
+
+#: modules/process/freq_split.c:138
+msgid "Laplace"
+msgstr ""
+
+#: modules/process/freq_split.c:139
+msgid "Smooth connect"
+msgstr ""
+
+#: modules/process/freq_split.c:140
+msgid "Mirror"
+msgstr ""
+
+#: modules/process/freq_split.c:144 modules/process/freq_split.c:216
+msgid "High-pass"
+msgstr ""
+
+#: modules/process/freq_split.c:145 modules/process/freq_split.c:206
+msgid "Low-pass"
+msgstr ""
+
+#: modules/process/freq_split.c:148
+msgid "Low-pass image"
+msgstr ""
+
+#: modules/process/freq_split.c:149
+msgid "High-pass image"
+msgstr ""
+
+#: modules/process/freq_split.c:249
+msgid "Frequency Split"
+msgstr ""
+
+#: modules/process/freq_split.c:275
+msgid "Wavelength"
+msgstr ""
+
+#: modules/process/gaussian_step.c:66
+msgid "Edge detection using a Gaussian step filter."
+msgstr ""
+
+#: modules/process/gaussian_step.c:80
+msgid "/_Presentation/_Edge Detection/_Gaussian Step..."
+msgstr ""
+
+#: modules/process/gaussian_step.c:84
+msgid "Detect edges using Gaussian step filter"
+msgstr ""
+
+#: modules/process/gaussian_step.c:159
+msgid "Gaussian Step Detection"
+msgstr ""
+
+#: modules/process/good_profile.c:95
+msgid ""
+"Calculates good average row from one or multiple images of repeated scanning "
+"of the same feature."
+msgstr ""
+
+#: modules/process/good_profile.c:109
+msgid "/_Correct Data/_Good Mean Profile..."
+msgstr ""
+
+#: modules/process/good_profile.c:113
+msgid "Calculate good mean profile"
+msgstr ""
+
+#: modules/process/good_profile.c:122
+msgid "_Single image"
+msgstr ""
+
+#: modules/process/good_profile.c:123
+msgid "_Multiple images"
+msgstr ""
+
+#: modules/process/good_profile.c:250
+msgid "Good Mean Profile"
+msgstr ""
+
+#: modules/process/good_profile.c:507 modules/process/good_profile.c:514
+msgid "Mean profile"
+msgstr ""

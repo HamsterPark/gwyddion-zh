@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/wrapvalue.c:219
+msgid "Wrap Value"
+msgstr ""
+
+#: modules/process/xydenoise.c:66
+msgid "Denoises measurement on basis of two orthogonal scans."
+msgstr ""
+
+#: modules/process/xydenoise.c:80
+msgid "/M_ultidata/_XY Denoise..."
+msgstr ""
+
+#: modules/process/xydenoise.c:84
+msgid "Denoises horizontal/vertical measurement."
+msgstr ""
+
+#: modules/process/xydenoise.c:99
+msgid "Second direction"
+msgstr ""
+
+#: modules/process/xydenoise.c:100
+msgid "Average denoising directions"
+msgstr ""
+
+#: modules/process/xydenoise.c:127
+msgid "Denoised"
+msgstr ""
+
+#: modules/process/xydenoise.c:144
+msgid "XY Denoising"
+msgstr ""
+
+#: modules/process/xyz_channels.c:72
+msgid "Converts three channels to XYZ data."
+msgstr ""
+
+#: modules/process/xyz_channels.c:86
+msgid "/_Basic Operations/XYZ from C_hannels..."
+msgstr ""
+
+#: modules/process/xyz_channels.c:90
+msgid "Convert three channels to XYZ data"
+msgstr ""
+
+#: modules/process/xyz_channels.c:105
+msgid "_X data"
+msgstr ""
+
+#: modules/process/xyz_channels.c:106
+msgid "_Y data"
+msgstr ""
+
+#: modules/process/xyz_channels.c:107
+msgid "_Z data"
+msgstr ""
+
+#: modules/process/xyz_channels.c:151
+msgid "XYZ Channels"
+msgstr ""
+
+#: modules/process/xyzize.c:41
+msgid "Converts data fields to XYZ data."
+msgstr ""
+
+#: modules/process/xyzize.c:55
+msgid "/_Basic Operations/_XYZize"
+msgstr ""
+
+#: modules/process/xyzize.c:59
+msgid "Convert to XYZ data"
+msgstr ""
+
+#: modules/process/zero_crossing.c:83
+msgid "Zero crossing edge detection."
+msgstr ""
+
+#: modules/process/zero_crossing.c:97
+msgid "/_Presentation/_Edge Detection/_Zero Crossing..."
+msgstr ""
+
+#: modules/process/zero_crossing.c:101
+msgid "Zero crossing step detection presentation"
+msgstr ""
+
+#: modules/process/zero_crossing.c:111
+msgid "_LoG convolved"
+msgstr ""
+
+#: modules/process/zero_crossing.c:112
+msgid "Detected st_ep"
+msgstr ""
+
+#: modules/process/zero_crossing.c:189
+msgid "Zero Crossing Step Detection"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:91
+msgid "/Pygwy Console"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:95
+msgid "Python wrapper console"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:159 modules/pygwy/pygwy-console.c:471
+msgid "Pygwy Console"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:177
+msgid "Open script in Python language (Ctrl-O)"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:187
+msgid "Save script (Ctrl-S)"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:197
+msgid "Save script as (Ctrl-Shift-S)"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:207
+msgid "Execute script (Ctrl-E)"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:217
+msgid "Clear Log"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:275
+msgid "Command"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:361
+msgid ">>> Running the script above\n"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:415
+msgid "Save Python Script as"
+msgstr ""
+
+#: modules/pygwy/pygwy-console.c:419
+msgid "Open Python Script"
+msgstr ""
+
+#: modules/tools/corrlen.c:151
+msgid "Correlation length tool."
+msgstr ""
+
+#: modules/tools/corrlen.c:174
+msgid "line-leveling|None"
+msgstr ""
+
+#: modules/tools/corrlen.c:177
+msgid "Bow"
+msgstr ""
+
+#: modules/tools/corrlen.c:178
+msgid "Cubic"
+msgstr ""
+
+#: modules/tools/corrlen.c:181
+msgid "Raw ACF"
+msgstr ""
+
+#: modules/tools/corrlen.c:182 modules/tools/corrlen.c:965
+msgid "Corrected ACF"
+msgstr ""
+
+#: modules/tools/corrlen.c:183
+msgid "Both ACF"
+msgstr ""
+
+#: modules/tools/corrlen.c:195 modules/tools/corrlen.c:1082
+msgid "Line leveling"
+msgstr ""
+
+#: modules/tools/corrlen.c:197 modules/tools/corrlen.c:1083
+msgid "ACF model"
+msgstr ""
+
+#: modules/tools/corrlen.c:221 modules/tools/corrlen.c:222
+#: modules/tools/corrlen.c:1070
+msgid "Correlation Length"
+msgstr ""
+
+#: modules/tools/corrlen.c:308
+msgid "The degree must be ≥ any prior line leveling."
+msgstr ""
+
+#: modules/tools/corrlen.c:318 modules/tools/corrlen.c:1086
+msgid "Correlation Length T"
+msgstr ""
+
+#: modules/tools/corrlen.c:322 modules/tools/corrlen.c:1095
+msgid "Relation to Image Size"
+msgstr ""
+
+#: modules/tools/corrlen.c:326 modules/tools/corrlen.c:1100
+msgid "Mean Square Roughness"
+msgstr ""
+
+#: modules/tools/corrlen.c:970
+msgid "Biased fit"
+msgstr ""
+
+#: modules/tools/corrlen.c:1087
+msgid "Raw ACF decay to 1/e"
+msgstr ""
+
+#: modules/tools/corrlen.c:1088
+msgid "Corrected ACF decay to 1/e"
+msgstr ""
+
+#: modules/tools/corrlen.c:1089
+msgid "ACF zero crossing"
+msgstr ""
+
+#: modules/tools/corrlen.c:1090 modules/tools/corrlen.c:1103
+msgid "ACF fit with bias"
+msgstr ""
+
+#: modules/tools/corrlen.c:1091 modules/tools/corrlen.c:1104
+msgid "PSDF fit"
+msgstr ""
+
+#: modules/tools/corrlen.c:1096
+msgid "Ratio α = T/L"
+msgstr ""
+
+#: modules/tools/corrlen.c:1097
+msgid "Image size measured in T"
+msgstr ""
+
+#: modules/tools/corrlen.c:1101
+msgid "Raw ACF at zero"
+msgstr ""
+
+#: modules/tools/corrlen.c:1102
+msgid "Corrected ACF at zero"
+msgstr ""
+
+#: modules/tools/cprofile.c:114
+msgid "Profile tool which reads horizontal and/or vertical scan lines."
+msgstr ""
+
+#: modules/tools/cprofile.c:152
+msgid "Cross at _zero"
+msgstr ""
+
+#: modules/tools/cprofile.c:170
+msgid "Profiles Along Axes"
+msgstr ""
+
+#: modules/tools/cprofile.c:171
+msgid "Read horizontal and/or vertical profiles"
+msgstr ""
+
+#: modules/tools/cprofile.c:752
+#, c-format
+msgid "Vertical profile %d"
+msgstr ""
+
+#: modules/tools/cprofile.c:754
+#, c-format
+msgid "Horizontal profile %d"
+msgstr ""
+
+#: modules/tools/crop.c:82
+msgid "Crop tool, crops data to smaller size."
+msgstr ""
+
+#: modules/tools/crop.c:112
+msgid "Crop all compatible images"
+msgstr ""
+
+#: modules/tools/distance.c:94
+msgid "Distance measurement tool, measures distances and angles."
+msgstr ""
+
+#: modules/tools/distance.c:123
+msgid "Save Distance Table"
+msgstr ""
+
+#: modules/tools/distance.c:143
+msgid "Measure distances and directions between points"
+msgstr ""
+
+#: modules/tools/filter.c:117
+msgid ""
+"Filter tool, processes selected part of data with a filter (conservative "
+"denoise, mean, median, Kuwahara, minimum, maximum)."
+msgstr ""
+
+#: modules/tools/filter.c:143
+msgid "Conservative denoise"
+msgstr ""
+
+#: modules/tools/filter.c:150
+msgid "Kuwahara"
+msgstr ""
+
+#: modules/tools/filter.c:151
+msgid "Dechecker"
+msgstr ""
+
+#: modules/tools/filter.c:152
+msgid "filter|Gaussian"
+msgstr ""
+
+#: modules/tools/filter.c:153
+msgid "Sharpen"
+msgstr ""
+
+#: modules/tools/filter.c:185
+msgid "Basic filters: mean, median, denoise, …"
+msgstr ""
+
+#: modules/tools/icolorange.c:144
+msgid ""
+"Interactive color range tool, allows selecting the data range false color "
+"scale should map to, either on data or on height distribution histogram."
+msgstr ""
+
+#: modules/tools/icolorange.c:174
+msgid "_Start"
+msgstr ""
+
+#: modules/tools/icolorange.c:175
+msgid "_End"
+msgstr ""
+
+#: modules/tools/icolorange.c:176
+msgid "_Adapt color range to selection"
+msgstr ""
+
+#: modules/tools/icolorange.c:192
+msgid "Color Range"
+msgstr ""
+
+#: modules/tools/icolorange.c:193
+msgid "Stretch color range to part of data"
+msgstr ""
+
+#: modules/tools/icolorange.c:255
+msgid "Full color range from minimum to maximum"
+msgstr ""
+
+#: modules/tools/icolorange.c:259
+msgid "Explicitly set fixed color range"
+msgstr ""
+
+#: modules/tools/icolorange.c:263
+msgid "Automatic color range with tails cut off"
+msgstr ""
+
+#: modules/tools/icolorange.c:267
+msgid "Adaptive nonlinear color mapping"
+msgstr ""
+
+#: modules/tools/icolorange.c:300
+msgid "_default"
+msgstr ""
+
+#: modules/tools/icolorange.c:307
+msgid "Height histogram"
+msgstr ""
+
+#: modules/tools/icolorange.c:331
+msgid "Color Mapping"
+msgstr ""
+
+#: modules/tools/icolorange.c:336
+msgid "Set to _Masked"
+msgstr ""
+
+#: modules/tools/icolorange.c:338
+msgid "Set to _Unmasked"
+msgstr ""
+
+#: modules/tools/icolorange.c:340
+msgid "_Invert Mapping"
+msgstr ""
+
+#: modules/tools/icolorange.c:343
+msgid "Data Range"
+msgstr ""
+
+#: modules/tools/icolorange.c:346
+msgid "Set Zero to Color Map Minimum"
+msgstr ""
+
+#: modules/tools/maskedit.c:155
+msgid "Mask editor tool, allows interactive modification of parts of the mask."
+msgstr ""
+
+#: modules/tools/maskedit.c:196
+msgid "_Shapes"
+msgstr ""
+
+#: modules/tools/maskedit.c:197
+msgid "_Drawing Tools"
+msgstr ""
+
+#: modules/tools/maskedit.c:200
+msgid "Set mask to selection"
+msgstr ""

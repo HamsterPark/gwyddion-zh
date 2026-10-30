@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/cmap/cmap_align.c:123
+msgid "Aligns curves in a curve map by shifting the values."
+msgstr ""
+
+#: modules/cmap/cmap_align.c:137
+msgid "/_Align..."
+msgstr ""
+
+#: modules/cmap/cmap_align.c:141
+msgid "Align curves and extract topography"
+msgstr ""
+
+#: modules/cmap/cmap_align.c:152
+msgid "First zero"
+msgstr ""
+
+#: modules/cmap/cmap_align.c:153
+msgid "Last zero"
+msgstr ""
+
+#: modules/cmap/cmap_align.c:157
+msgid "Extract topography"
+msgstr ""
+
+#: modules/cmap/cmap_align.c:272
+msgid "Align Map Curves"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:69
+msgid "Exports curve map data to a text file."
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:83
+msgid "/Export _Text..."
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:87
+msgid "Export curve map data to a text file"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:104
+msgid "All _segments"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:238
+msgid "Rows:"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:239
+msgid "Columns:"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:244 modules/cmap/cmap_asciiexport.c:246
+msgid "Segment:"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:254
+msgid "XOffset:"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:256
+msgid "YOffset:"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:270
+#, c-format
+msgid "Curve%d:"
+msgstr ""
+
+#: modules/cmap/cmap_asciiexport.c:275
+#, c-format
+msgid "CurveUnit%d:"
+msgstr ""
+
+#: modules/cmap/cmap_basicops.c:54
+msgid "Basic operations like flipping and rotation by multiples of 90 degrees."
+msgstr ""
+
+#: modules/cmap/cmap_basicops.c:119
+msgid "/_Basic Operations/Remove _Segments"
+msgstr ""
+
+#: modules/cmap/cmap_basicops.c:123
+msgid "Remove curve segmentation"
+msgstr ""
+
+#: modules/cmap/cmap_basicops.c:130
+msgid "Extract curve map preview to an image"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:215
+msgid "Classifies curves in a curve map"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:229
+msgid "/_Classify..."
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:233
+msgid "Classify curves"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:261
+msgid "Populatio_n"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:262
+msgid "_Subsampling"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:263
+msgid "_Success threshold"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:268
+msgid "Ignore _outliers"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:270
+msgid "_Display"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:331
+msgid "Classify result A"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:335
+msgid "Classify result B"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:405
+msgid "_Show tree"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:553
+msgid "Classifier tree"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:557
+msgid "_OK"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:647
+msgid "No result yet"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:821
+#, c-format
+msgid "Rule %d of %d:\n"
+msgstr ""
+
+#: modules/cmap/cmap_classify.c:1011
+#, c-format
+msgid "A: %d points, %2.1f %%, B: %d points, %2.1f %%"
+msgstr ""
+
+#: modules/cmap/cmap_crop.c:76
+msgid "Crop curve map data."
+msgstr ""
+
+#: modules/cmap/cmap_crop.c:90
+msgid "/_Basic Operations/_Crop"
+msgstr ""
+
+#: modules/cmap/cmap_crop.c:199
+msgid "New Dimensions"
+msgstr ""
+
+#: modules/cmap/cmap_curvefilter.c:76
+msgid "Removes some curves from Curve Map"
+msgstr ""
+
+#: modules/cmap/cmap_curvefilter.c:91
+msgid "/_Basic Operations/_Filter curves..."
+msgstr ""
+
+#: modules/cmap/cmap_curvefilter.c:96
+msgid "Remove some curves from Curve Map"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:152
+msgid "Cuts a curve map to segments."
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:166
+msgid "/_Cut to Segments..."
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:170
+msgid "Cut curves to segments"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:179
+msgid "Mark"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:180
+msgid "Extract"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:183
+msgid "Approach/Retract"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:184
+msgid "Approach/Hold/Retract"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:201
+msgid "Extract segments"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:204
+msgid "Invert data"
+msgstr ""
+
+#: modules/cmap/cmap_extractcurve.c:106
+msgid "Extracts individual curves from a curve map."
+msgstr ""
+
+#: modules/cmap/cmap_extractcurve.c:120
+msgid "/_Extract Curves..."
+msgstr ""
+
+#: modules/cmap/cmap_extractcurve.c:124
+msgid "Extract curves"
+msgstr ""
+
+#: modules/cmap/cmap_extractcurve.c:144
+msgid "Reorder by abscissa"
+msgstr ""
+
+#: modules/cmap/cmap_extractcurve.c:212
+msgid "Extract Map Curves"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:191
+msgid "Fit FD curves."
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:205
+msgid "/Fit _FD Curves..."
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:209
+msgid "Fit FD curves by a function"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:236
+msgid "Get adhesion directly"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:237
+msgid "Adhesion data"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:238
+msgid "Baseline data"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:336
+msgid "Fit FD Curves"
+msgstr ""
+
+#. TRANSLATORS: This is really outcome, like OK/failed, not the actual results.
+#: modules/cmap/cmap_fdfit.c:404
+msgid "Fitting result"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:540
+msgid "OK"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:542
+msgid "failed"
+msgstr ""
+
+#: modules/cmap/cmap_filter.c:105
+msgid "Filters curve data on basis of abscissa."
+msgstr ""
+
+#: modules/cmap/cmap_filter.c:119
+msgid "/Filter by _Value..."
+msgstr ""
+
+#: modules/cmap/cmap_filter.c:123
+msgid "Filter all curves by abscissa values"
+msgstr ""
+
+#: modules/cmap/cmap_filter.c:225
+msgid "Filter by Abscissa Value"
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:172
+msgid "Fit curves."
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:186
+msgid "/Fit _Curves..."
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:190
+msgid "Fit curves by a function"
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:218
+msgid "Output fit errors"
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:219
+msgid "Output residual sum"
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:357
+msgid "Fit Curves"
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:431
+msgid "Residual sum:"
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:527 modules/cmap/cmap_fit.c:561
+#: modules/cmap/cmap_fit.c:602
+msgid "data not fitted"
+msgstr ""
+
+#: modules/cmap/cmap_fit.c:555
+msgid "fit failed"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:121
+msgid "Converts FZ to FD curve map."
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:135
+msgid "/_FZ Curves to FD..."
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:152
+msgid "Detect oscillations in a curve."
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:166
+msgid "/_Demodulation..."
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:170
+msgid "Detect oscillations in a curve"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:180
+msgid "Extract amplitude/phase"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:184 modules/cmap/cmap_lockin.c:199
+msgid "Reference"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:188
+msgid "Polynomial"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:189
+msgid "Polynomial + sine"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:334
+msgid "Demodulation"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:135
+msgid "Calculate number of peaks in curve map."
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:149
+msgid "/Count _Peaks..."
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:153
+msgid "Count peaks"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:162
+msgid "_Raw data"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:164
+msgid "_Inverted gradient"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:169
+msgid "_Area"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:170
+msgid "_Prominence"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:179
+msgid "_Threshold by"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:183
+msgid "_Above"
+msgstr ""

@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/accurell.c:82
+msgid "Imports ASCII Accurion scanning ellipsometry maps."
+msgstr ""
+
+#: modules/file/accurell.c:95
+msgid "Accurion exported ellipsometry data (.txt)"
+msgstr ""
+
+#: modules/file/accurexii-txt.c:69
+msgid "Imports Accurex II text files."
+msgstr ""
+
+#: modules/file/accurexii-txt.c:82
+msgid "Accurex II text files (.txt)"
+msgstr ""
+
+#: modules/file/accurexii-txt.c:145
+msgid "File header cannot be converted from ISO-8859-1 character set."
+msgstr ""
+
+#: modules/file/afmw-spec.c:99
+msgid "Imports AFM Workshop spectrum files."
+msgstr ""
+
+#: modules/file/afmw-spec.c:112
+msgid "AFM Workshop spectrum files (.csv)"
+msgstr ""
+
+#: modules/file/aistfile.c:117
+msgid "Imports AIST-NT data files."
+msgstr ""
+
+#: modules/file/aistfile.c:130
+msgid "AIST-NT files (.aist)"
+msgstr ""
+
+#: modules/file/alicona.c:144
+msgid "Imports Alicona Imaging AL3D files."
+msgstr ""
+
+#: modules/file/alicona.c:157
+msgid "Alicona Imaging AL3D files (.al3d)"
+msgstr ""
+
+#: modules/file/alicona.c:486
+#, c-format
+msgid "Invalid plane number %u in tag ‘%s’."
+msgstr ""
+
+#: modules/file/alicona.c:565
+msgid "Header tag key is not nul-terminated."
+msgstr ""
+
+#: modules/file/alicona.c:570
+msgid "Header tag key is empty."
+msgstr ""
+
+#: modules/file/alicona.c:576
+#, c-format
+msgid "Header tag ‘%s’ key is not nul-padded."
+msgstr ""
+
+#: modules/file/alicona.c:583
+#, c-format
+msgid "Header tag ‘%s’ lacks CRLF terminator."
+msgstr ""
+
+#: modules/file/alicona.c:589
+#, c-format
+msgid "Header tag ‘%s’ value is not nul-terminated."
+msgstr ""
+
+#: modules/file/alicona.c:598
+#, c-format
+msgid "Header tag ‘%s’ value is not nul-padded."
+msgstr ""
+
+#: modules/file/alicona.c:663
+msgid "Comment lacks CRLF termination."
+msgstr ""
+
+#: modules/file/alicona.c:668
+msgid "Comment is not nul-terminated."
+msgstr ""
+
+#: modules/file/ambfile.c:78
+msgid "Imports Ambios AMB data files."
+msgstr ""
+
+#: modules/file/ambfile.c:91
+msgid "Ambios amb files (.amb)"
+msgstr ""
+
+#: modules/file/ambprofile.c:104
+msgid "Imports Ambios 1D profilometry data files."
+msgstr ""
+
+#: modules/file/ambprofile.c:117
+msgid "Ambios 1D profilometry data files (.xml)"
+msgstr ""
+
+#: modules/file/ambprofile.c:123
+msgid "Ambios 1D profilometry data files (.dat)"
+msgstr ""
+
+#: modules/file/ambprofile.c:377
+msgid "Different number of X and Z values"
+msgstr ""
+
+#: modules/file/anasys_xml.c:103
+msgid "Imports Analysis Studio XML (.axz & .axd) files."
+msgstr ""
+
+#: modules/file/anasys_xml.c:116
+msgid "Analysis Studio XML (.axz, .axd)"
+msgstr ""
+
+#: modules/file/andorsif.c:318
+msgid "Imports Andor SIF data files."
+msgstr ""
+
+#: modules/file/andorsif.c:331
+msgid "Andor SIF files (.sif)"
+msgstr ""
+
+#: modules/file/anfatec.c:107
+msgid "Imports Anfatec data files (two-part .txt + .int)."
+msgstr ""
+
+#: modules/file/anfatec.c:120
+msgid "Anfatec files (.par + .int)"
+msgstr ""
+
+#: modules/file/anfatec.c:244
+msgid "The parameter file cannot be loaded."
+msgstr ""
+
+#: modules/file/anfatec.c:250
+msgid "Cannot find the corresponding parameter file."
+msgstr ""
+
+#: modules/file/anfatec.c:270
+msgid "FileDescBegin cannot be inside another FileDesc."
+msgstr ""
+
+#: modules/file/anfatec.c:280
+msgid "FileDescEnd has no corresponding FileDescBegin."
+msgstr ""
+
+#: modules/file/anfatec.c:306
+msgid "FileDescBegin has no corresponding FileDescEnd."
+msgstr ""
+
+#: modules/file/anfatec.c:769 modules/file/anfatec.c:782
+msgid "Wrong number of header rows or columns."
+msgstr ""
+
+#: modules/file/anfatec.c:835
+msgid "Coordinates do not form a regular grid."
+msgstr ""
+
+#: modules/file/apedaxfile.c:258
+msgid "Imports A.P.E. Research DAX data files."
+msgstr ""
+
+#: modules/file/apedaxfile.c:273
+msgid "A.P.E. Research DAX Files (.dax) and APDT File (.apdt)"
+msgstr ""
+
+#: modules/file/apefile.c:192
+msgid "Imports APE (Applied Physics and Engineering) data files."
+msgstr ""
+
+#: modules/file/apefile.c:205
+msgid "APE files (.dat)"
+msgstr ""
+
+#: modules/file/ardf.c:224
+msgid "Imports Asylum Research ARDF files."
+msgstr ""
+
+#: modules/file/ardf.c:237
+msgid "ARDF file (.ARDF)"
+msgstr ""
+
+#: modules/file/ardf.c:329
+msgid "Reading images and metadata..."
+msgstr ""
+
+#: modules/file/ardf.c:484
+msgid "Reading volume data..."
+msgstr ""
+
+#: modules/file/ardf.c:843
+#, c-format
+msgid "Found data header %s instead of expected %s."
+msgstr ""
+
+#: modules/file/asciicmap.c:51
+msgid "Reads curve maps exported to text."
+msgstr ""
+
+#: modules/file/asciicmap.c:64
+msgid "Curve map text export (.txt)"
+msgstr ""
+
+#: modules/file/asciiexport.c:87
+msgid "Exports data as simple ASCII matrix and reads back this format."
+msgstr ""
+
+#: modules/file/asciiexport.c:100
+msgid "ASCII data matrix (.txt)"
+msgstr ""
+
+#: modules/file/asciiexport.c:124
+msgid "Conca_tenate exports of all images"
+msgstr ""
+
+#: modules/file/asdfile.c:176
+msgid "Imports ASD high-speed AFM data files."
+msgstr ""
+
+#: modules/file/asdfile.c:189
+msgid "ASD high-speed AFM files (.asd)"
+msgstr ""
+
+#: modules/file/assing-afm.c:65
+msgid "Imports Assing AFM data files."
+msgstr ""
+
+#: modules/file/assing-afm.c:78
+msgid "Assing AFM files (.afm)"
+msgstr ""
+
+#: modules/file/attocube.c:80
+msgid "Imports Attocube Systems ASC files."
+msgstr ""
+
+#: modules/file/attocube.c:93
+msgid "Attocube ASCII files (.asc)"
+msgstr ""
+
+#: modules/file/bcrfile.c:127
+msgid "Imports Image Metrology BCR data files."
+msgstr ""
+
+#: modules/file/bcrfile.c:140
+msgid "BCR files (.bcr, .bcrf)"
+msgstr ""
+
+#: modules/file/bcrfile.c:310
+#, c-format
+msgid "Unknown file type header: `%s'."
+msgstr ""
+
+#: modules/file/burleigh.c:123
+msgid "Imports Burleigh IMG data files version 2.1."
+msgstr ""
+
+#: modules/file/burleigh.c:136
+msgid "Burleigh 2.1 files (.img)"
+msgstr ""
+
+#: modules/file/burleigh.c:217
+#, c-format
+msgid "File format version %.1f is not supported."
+msgstr ""
+
+#: modules/file/burleigh_bii.c:75
+msgid "Imports Burleigh BII binary data files."
+msgstr ""
+
+#: modules/file/burleigh_bii.c:88
+msgid "Burleigh Image Studio files (.bii)"
+msgstr ""
+
+#: modules/file/burleigh_exp.c:84
+msgid "Imports Burleigh text/bin exported images."
+msgstr ""
+
+#: modules/file/burleigh_exp.c:97
+msgid "Burleigh exported data (.txt, .bin)"
+msgstr ""
+
+#: modules/file/codevfile.c:67
+msgid "Imports Code V interferogram files."
+msgstr ""
+
+#: modules/file/codevfile.c:80
+msgid "Code V interferogram files (.int)"
+msgstr ""
+
+#: modules/file/createc.c:129
+msgid "Imports Createc data files."
+msgstr ""
+
+#: modules/file/createc.c:142
+msgid "Createc files (.dat)"
+msgstr ""
+
+#: modules/file/createc.c:180
+#, c-format
+msgid "Neither `%s' nor `%s' header field found."
+msgstr ""
+
+#: modules/file/csmfile.c:80
+msgid "Imports Benyuan CSM data files."
+msgstr ""
+
+#: modules/file/csmfile.c:93
+msgid "Benyuan CSM files (.csm)"
+msgstr ""
+
+#: modules/file/dektakvca.c:192
+msgid "Imports Dektak OPDx data files."
+msgstr ""
+
+#: modules/file/dektakvca.c:205
+msgid "Dektak OPDx data files (.OPDx)"
+msgstr ""
+
+#: modules/file/dektakvca.c:611
+#, c-format
+msgid "Item `%s' has unexpected type %u instead of %u."
+msgstr ""
+
+#: modules/file/dektakxml.c:114
+msgid "Imports Dektak XML data files."
+msgstr ""
+
+#: modules/file/dektakxml.c:127
+msgid "Dektak XML data files (.xml)"
+msgstr ""
+
+#: modules/file/dimensionfile.c:71
+msgid "Imports old Veeco Dimension 3100D files."
+msgstr ""
+
+#: modules/file/dimensionfile.c:84
+msgid "Dimension 3100D files (.001, .002, ...)"
+msgstr ""
+
+#: modules/file/dm3file.c:283
+msgid "Reads Digital Micrograph DM3 and DM4 files."
+msgstr ""
+
+#: modules/file/dm3file.c:296
+msgid "Digital Micrograph DM3 TEM data (.dm3)"
+msgstr ""
+
+#: modules/file/dm3file.c:302
+msgid "Digital Micrograph DM4 TEM data (.dm4)"
+msgstr ""
+
+#: modules/file/dm3file.c:1098
+#, c-format
+msgid "Invalid tag type definition in entry ‘%s’."
+msgstr ""
+
+#: modules/file/dm3file.c:1199 modules/file/dm3file.c:1258
+msgid "Tag entry type is neither group nor data."
+msgstr ""
+
+#: modules/file/dm3file.c:1317 modules/file/dm3file.c:1377
+#, c-format
+msgid "Tag type does not start with marker ‘%s’."
+msgstr ""
+
+#: modules/file/dm3file.c:1516
+#, c-format
+msgid "Invalid or unsupported tag type %u."
+msgstr ""
+
+#: modules/file/dmefile.c:128
+msgid "Imports Danish Micro Engineering (DME) data files."
+msgstr ""
+
+#: modules/file/dmefile.c:141
+msgid "DME files (.img)"
+msgstr ""
+
+#: modules/file/dmefile.c:193
+#, c-format
+msgid "Header is too short (only %d bytes)."
+msgstr ""
+
+#: modules/file/dumbfile.c:66
+msgid "Reads and exports Gwyddion dumb dump files."
+msgstr ""
+
+#: modules/file/dumbfile.c:79
+msgid "Gwyddion dumb dump files (.dump)"
+msgstr ""
+
+#: modules/file/ecsfile.c:81
+msgid "Imports ECS IMG files."
+msgstr ""
+
+#: modules/file/ecsfile.c:94
+msgid "ECS files (.img)"
+msgstr ""
+
+#: modules/file/ecsfile.c:168
+msgid "Scan size header field overlaps with data."
+msgstr ""
+
+#: modules/file/err.h:75
+#, c-format
+msgid "No data file corresponding to `%s' was found."
+msgstr ""
+
+#: modules/file/err.h:83
+msgid "File is too short to be of the assumed file type."
+msgstr ""

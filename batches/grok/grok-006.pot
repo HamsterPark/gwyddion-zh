@@ -1,0 +1,448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/nxiifile.c:116
+msgid "Imports EM4SYS data files."
+msgstr ""
+
+#: modules/file/nxiifile.c:129
+msgid "EM4SYS NX II files (.bmp)"
+msgstr ""
+
+#: modules/file/oirfile.c:241
+msgid "Imports Olympus OIR data files."
+msgstr ""
+
+#: modules/file/oirfile.c:258
+msgid "Olympus OIR data files (.oir)"
+msgstr ""
+
+#: modules/file/oirfile.c:265
+msgid "Olympus packed OIR data files (.poir)"
+msgstr ""
+
+#: modules/file/oirfile.c:446 modules/file/oirfile.c:459
+#: modules/file/oirfile.c:484
+#, c-format
+msgid "Chunk type %u occured multiple times."
+msgstr ""
+
+#: modules/file/oldmda.c:152
+msgid "Imports old NTMDT MDA Spectra files."
+msgstr ""
+
+#: modules/file/oldmda.c:165
+msgid "NTMDT old MDA Spectra data (.sxml .dat)"
+msgstr ""
+
+#: modules/file/oldmda.c:237
+msgid "Incorrect number of axes in parameter file."
+msgstr ""
+
+#: modules/file/oldmda.c:252
+#, c-format
+msgid "Cannot load data file: %s"
+msgstr ""
+
+#: modules/file/oldmda.c:260
+msgid "Data file is too short."
+msgstr ""
+
+#: modules/file/ols.c:61
+msgid "Imports OLS data files."
+msgstr ""
+
+#: modules/file/ols.c:74
+msgid "Olympus LEXT OLS3000 (.ols)"
+msgstr ""
+
+#: modules/file/ometiff.c:150
+msgid "Imports OME-TIFF data files."
+msgstr ""
+
+#: modules/file/ometiff.c:163
+msgid "Open Microscopy OME-TIFF (.ome.tiff)"
+msgstr ""
+
+#: modules/file/ometiff.c:590
+#, c-format
+msgid "ZTC coordinates (%u,%u,%u) fall outside the given ranges."
+msgstr ""
+
+#: modules/file/ometiff.c:596
+msgid ""
+"The OME TIFF header specifies more TIFF directories than there are in the "
+"file."
+msgstr ""
+
+#: modules/file/ometiff.c:602
+#, c-format
+msgid "TIFF directory %u is assigned to multiple conflicting ZTC coordinates."
+msgstr ""
+
+#: modules/file/omicron.c:160
+msgid "Imports Omicron data files (two-part .par + .tf*, .tb*, .sf*, .sb*)."
+msgstr ""
+
+#: modules/file/omicron.c:173
+msgid "Omicron files (.par + data)"
+msgstr ""
+
+#: modules/file/omicron.c:407
+msgid "Header line starts with a colon."
+msgstr ""
+
+#: modules/file/omicron.c:503
+msgid "Channel information ended unexpectedly."
+msgstr ""
+
+#: modules/file/omicronflat.c:359
+msgid "Imports Omicron flat files."
+msgstr ""
+
+#: modules/file/omicronflat.c:372
+msgid "Omicron flat files (*.*_flat)"
+msgstr ""
+
+#: modules/file/omicronflat.c:1710
+msgid "File name does not have the expected form for Omicron Flat files."
+msgstr ""
+
+#: modules/file/omicronflat.c:2123
+msgid "Cannot understand the axis hierarchy."
+msgstr ""
+
+#. TRANSLATORS: %s is replaced with an expression of the data shape.
+#: modules/file/omicronflat.c:2539
+#, c-format
+msgid "Cannot figure out how to load data in the following form: %s."
+msgstr ""
+
+#: modules/file/omicronmatrix.c:219
+msgid "Omicron MATRIX (param.mtrx & data.mtrx)"
+msgstr ""
+
+#: modules/file/omicronmatrix.c:235
+msgid "Omicron MATRIX (.mtrx & .mtrx)"
+msgstr ""
+
+#: modules/file/opdfile.c:194
+msgid "Imports Wyko OPD and ASC files."
+msgstr ""
+
+#: modules/file/opdfile.c:207
+msgid "Wyko OPD files (.opd)"
+msgstr ""
+
+#: modules/file/opdfile.c:214
+msgid "Wyko ASCII export files (.asc)"
+msgstr ""
+
+#: modules/file/opdfile.c:301
+#, c-format
+msgid "Item `%s' is beyond the end of the file."
+msgstr ""
+
+#: modules/file/opdfile.c:599
+msgid "Nested directories found"
+msgstr ""
+
+#: modules/file/opengps.c:131
+msgid "Reads ISO 5436-2 OpenGPS .x3p files."
+msgstr ""
+
+#: modules/file/opengps.c:144
+msgid "ISO 5436-2 OpenGPS data (.x3p)"
+msgstr ""
+
+#: modules/file/opengps.c:402 modules/file/opengps.c:433
+msgid "Too many DataList items for given matrix dimensions."
+msgstr ""
+
+#: modules/file/opengps.c:514
+msgid "File main.xml contains multiple data elements."
+msgstr ""
+
+#. TRANSLATORS: type and axis are symbols such as I, CX, ...
+#: modules/file/opengps.c:543 modules/file/opengps.c:551
+#: modules/file/opengps.c:559
+#, c-format
+msgid "Only type %s is supported for axis %s."
+msgstr ""
+
+#: modules/file/phoenix.c:215
+msgid "Imports AFM data files from NASA Phoenix Mars mission."
+msgstr ""
+
+#: modules/file/phoenix.c:228
+msgid "AFM data from NASA Phoenix mission (.dat, .lbl + .tab)"
+msgstr ""
+
+#: modules/file/phoenix.c:475
+#, c-format
+msgid "No previous record to continue at line %u."
+msgstr ""
+
+#: modules/file/phoenix.c:508
+#, c-format
+msgid "Invalid object nesting at line %u."
+msgstr ""
+
+#: modules/file/phoenix.c:1018
+msgid "Cannot parse AFM HEADER_TABLE values."
+msgstr ""
+
+#: modules/file/pixmap.c:173
+msgid "All channels"
+msgstr ""
+
+#: modules/file/pixmap.c:174
+msgid "Red"
+msgstr ""
+
+#: modules/file/pixmap.c:175
+msgid "Green"
+msgstr ""
+
+#: modules/file/pixmap.c:176
+msgid "Blue"
+msgstr ""
+
+#: modules/file/pixmap.c:177
+msgid "Gray"
+msgstr ""
+
+#: modules/file/pixmap.c:178
+msgid "Value (max)"
+msgstr ""
+
+#: modules/file/pixmap.c:179
+msgid "RGB sum"
+msgstr ""
+
+#: modules/file/pixmap.c:180
+msgid "Luma"
+msgstr ""
+
+#: modules/file/pixmap.c:181
+msgid "Hue"
+msgstr ""
+
+#: modules/file/pixmap.c:182
+msgid "Alpha"
+msgstr ""
+
+#: modules/file/pixmap.c:198
+msgid "Graphics Interchange Format GIF (.gif)"
+msgstr ""
+
+#: modules/file/pixmap.c:199
+msgid "JPEG 2000 (.jpx)"
+msgstr ""
+
+#: modules/file/pixmap.c:201
+msgid "PCX (.pcx)"
+msgstr ""
+
+#: modules/file/pixmap.c:202
+msgid "X Pixmap (.xpm)"
+msgstr ""
+
+#: modules/file/pixmap.c:203
+msgid "Sun raster image (.ras)"
+msgstr ""
+
+#: modules/file/pixmap.c:204
+msgid "Apple icon (.icns)"
+msgstr ""
+
+#: modules/file/pixmap.c:206
+msgid "High Efficiency Image File Format (.heif)"
+msgstr ""
+
+#: modules/file/pixmap.c:215
+msgid ""
+"Imports data from low-depth pixmap images (PNG, TIFF, JPEG, ...).  The set "
+"of available formats depends on available GDK pixbuf loaders."
+msgstr ""
+
+#: modules/file/pixmap.c:285
+msgid "_Hue offset"
+msgstr ""
+
+#: modules/file/pixmap.c:466
+#, c-format
+msgid "Pixmap has not registered file type `%s'."
+msgstr ""
+
+#: modules/file/pixmap.c:480
+#, c-format
+msgid "Cannot get pixbuf loader: %s."
+msgstr ""
+
+#: modules/file/pixmap.c:741
+msgid "as data"
+msgstr ""
+
+#: modules/file/pixmap.c:749
+msgid ""
+"Warning: Colorful images cannot be reliably mapped to meaningful values."
+msgstr ""
+
+#: modules/file/pltfile.c:75
+msgid "Imports Nanosurf PLT files."
+msgstr ""
+
+#: modules/file/pltfile.c:88
+msgid "Nanosurf PLT files (.plt)"
+msgstr ""
+
+#: modules/file/pnifile.c:114
+msgid "Imports Pacific Nanotechnology PNI data files."
+msgstr ""
+
+#: modules/file/pnifile.c:127
+msgid "PNI files (.pni)"
+msgstr ""
+
+#: modules/file/princetonspe.c:106
+msgid "Princeton Instruments camera SPE files."
+msgstr ""
+
+#: modules/file/princetonspe.c:119
+msgid "Princeton Instruments SPE files"
+msgstr ""
+
+#: modules/file/princetonspe.c:317
+msgid "XML footer overlaps with data."
+msgstr ""
+
+#: modules/file/psia.c:245
+msgid "Imports Park Systems data files."
+msgstr ""
+
+#: modules/file/psia.c:258
+msgid "Park Systems data files (.tiff, .tif)"
+msgstr ""
+
+#: modules/file/psia.c:500
+#, c-format
+msgid "Header is too short (only %lu bytes)."
+msgstr ""
+
+#: modules/file/psia.c:604
+#, c-format
+msgid "Spectroscopy header is too short (only %lu bytes)."
+msgstr ""
+
+#: modules/file/psppt.c:142
+msgid "Imports Park Systems PS-PPT data files."
+msgstr ""
+
+#: modules/file/psppt.c:155
+msgid "Park Systems PS-PPT data files (.ps-ppt)"
+msgstr ""
+
+#: modules/file/psppt.c:239
+msgid "Frame offsets do not increase monotonically."
+msgstr ""
+
+#: modules/file/psppt.c:267
+#, c-format
+msgid "Unexpected frame with data type %d."
+msgstr ""
+
+#: modules/file/psppt.c:290
+#, c-format
+msgid "Unexpected JSON structure: %s should be %s."
+msgstr ""
+
+#: modules/file/psppt.c:335
+#, c-format
+msgid "JSON parsing error: %s"
+msgstr ""
+
+#: modules/file/psppt.c:620
+msgid "Reading frame table..."
+msgstr ""
+
+#: modules/file/psppt.c:627
+msgid "Reading curve data..."
+msgstr ""
+
+#: modules/file/pt3file.c:288
+msgid "Imports SymPhoTime data files, version 2.0."
+msgstr ""
+
+#: modules/file/pt3file.c:301
+msgid "PicoHarp files (.pt3)"
+msgstr ""
+
+#: modules/file/pt3file.c:387
+msgid "T2 measurement mode is not implemented."
+msgstr ""
+
+#: modules/file/pt3file.c:393
+msgid "Only PI E710 and KDT180-100-Im imaging formats are implemented."
+msgstr ""
+
+#: modules/file/pt3file.c:518
+#, c-format
+msgid "Measurement mode must be 2 or 3; %u is invalid."
+msgstr ""
+
+#: modules/file/pt3file.c:524 modules/file/pt3file.c:536
+msgid "Only area imaging files are supported."
+msgstr ""
+
+#: modules/file/pt3file.c:555
+#, c-format
+msgid "Unknown instrument number %u."
+msgstr ""
+
+#: modules/file/pt3file.c:561
+#, c-format
+msgid "Wrong imaging header size: %u instead of %u."
+msgstr ""
+
+#: modules/file/pt3file.c:707
+#, c-format
+msgid "Number of line triggers %u is smaller than the number of scan lines %u."
+msgstr ""
+
+#: modules/file/qnami.c:65
+msgid "Imports Qnami ProteusQ SPM files."
+msgstr ""
+
+#: modules/file/qnami.c:78
+msgid "Qnami ProteusQ files (.dat)"
+msgstr ""
+
+#: modules/file/qnami.c:207
+msgid "Invalid file header structure."
+msgstr ""
+
+#: modules/file/quazarnpic.c:369
+msgid "Imports Quazar data files stored as Python pickles v4."
+msgstr ""
+
+#: modules/file/quazarnpic.c:382
+msgid "Quazar Python-pickled data (.npic)"
+msgstr ""

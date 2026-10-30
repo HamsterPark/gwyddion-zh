@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/domain_synth.c:119
+msgid "Discrete state"
+msgstr ""
+
+#: modules/process/domain_synth.c:120
+msgid "Continuous inhibitor"
+msgstr ""
+
+#: modules/process/domain_synth.c:136
+msgid "Generates domain images using a hybrid Ising model."
+msgstr ""
+
+#: modules/process/domain_synth.c:150
+msgid "/S_ynthetic/_Order and Disorder/_Domains..."
+msgstr ""
+
+#: modules/process/domain_synth.c:154
+msgid "Generate image with domains"
+msgstr ""
+
+#: modules/process/domain_synth.c:182
+msgid "_Temperature"
+msgstr ""
+
+#: modules/process/domain_synth.c:183
+msgid "_Inhibitor strength"
+msgstr ""
+
+#: modules/process/domain_synth.c:184
+msgid "In_hibitor coupling"
+msgstr ""
+
+#: modules/process/domain_synth.c:185
+msgid "_Bias"
+msgstr ""
+
+#: modules/process/domain_synth.c:186
+msgid "_Monte Carlo time step"
+msgstr ""
+
+#: modules/process/domain_synth.c:190
+msgid "Preset"
+msgstr ""
+
+#: modules/process/domain_synth.c:274
+msgid "Domains"
+msgstr ""
+
+#: modules/process/domain_synth.c:364
+msgid "Use Selected _Preset"
+msgstr ""
+
+#: modules/process/drift.c:120
+msgid "Evaluates and/or correct thermal drift in fast scan axis."
+msgstr ""
+
+#: modules/process/drift.c:134
+msgid "/_Distortion/Compensate _Drift..."
+msgstr ""
+
+#: modules/process/drift.c:138
+msgid "Evaluate/correct thermal drift in fast scan axis"
+msgstr ""
+
+#: modules/process/drift.c:148
+msgid "Drift _lines"
+msgstr ""
+
+#: modules/process/drift.c:159
+msgid "_Search range"
+msgstr ""
+
+#: modules/process/drift.c:162
+msgid "Correct _data"
+msgstr ""
+
+#: modules/process/drift.c:163
+msgid "Plot drift _graph"
+msgstr ""
+
+#: modules/process/drift.c:164
+msgid "_Exclude linear skew"
+msgstr ""
+
+#: modules/process/drift.c:221 modules/process/drift.c:393
+msgid "Drift"
+msgstr ""
+
+#: modules/process/drift.c:331
+msgid "Drift-corrected"
+msgstr ""
+
+#: modules/process/drift.c:380
+msgid "Compensate Drift"
+msgstr ""
+
+#: modules/process/drift.c:395
+msgid "rows"
+msgstr ""
+
+#: modules/process/dune_synth.c:108
+msgid "Generates images by simulating formation of sand dunes."
+msgstr ""
+
+#: modules/process/dune_synth.c:122
+msgid "/S_ynthetic/_Deposition/_Dunes..."
+msgstr ""
+
+#: modules/process/dune_synth.c:126
+msgid "Generate image by transporting sand"
+msgstr ""
+
+#: modules/process/dune_synth.c:145
+msgid "_Minimum step"
+msgstr ""
+
+#: modules/process/dune_synth.c:146
+msgid "Step range"
+msgstr ""
+
+#: modules/process/dune_synth.c:147
+msgid "Sticking probability on _rock"
+msgstr ""
+
+#: modules/process/dune_synth.c:148
+msgid "Sticking _probability on sand"
+msgstr ""
+
+#: modules/process/dune_synth.c:149
+msgid "Maximum s_lope"
+msgstr ""
+
+#: modules/process/dune_synth.c:220
+msgid "Dunes"
+msgstr ""
+
+#: modules/process/dwt.c:64
+msgid "Two-dimensional DWT (Discrete Wavelet Transform)."
+msgstr ""
+
+#: modules/process/dwt.c:78
+msgid "/_Integral Transforms/2D _DWT..."
+msgstr ""
+
+#: modules/process/dwt.c:82
+msgid "Compute Discrete Wavelet Transform"
+msgstr ""
+
+#: modules/process/dwt.c:119 modules/process/dwt.c:136
+msgid "DWT"
+msgstr ""
+
+#: modules/process/dwt.c:159
+msgid "2D DWT"
+msgstr ""
+
+#: modules/process/dwtanisotropy.c:64
+msgid "2D DWT anisotropy detection based on X/Y components ratio."
+msgstr ""
+
+#: modules/process/dwtanisotropy.c:78
+msgid "/_Integral Transforms/DWT _Anisotropy..."
+msgstr ""
+
+#: modules/process/dwtanisotropy.c:82
+msgid "DWT anisotropy detection"
+msgstr ""
+
+#: modules/process/dwtanisotropy.c:101
+msgid "X/Y ratio threshold"
+msgstr ""
+
+#: modules/process/dwtanisotropy.c:102
+msgid "Low level exclude limit"
+msgstr ""
+
+#: modules/process/dwtanisotropy.c:122
+msgid "DWT Anisotropy"
+msgstr ""
+
+#: modules/process/dwtanisotropy.c:161
+msgid "2D DWT Anisotropy"
+msgstr ""
+
+#: modules/process/edge.c:63
+msgid ""
+"Several edge detection methods (Laplacian of Gaussian, Canny, and some "
+"experimental), creates presentation."
+msgstr ""
+
+#: modules/process/edge.c:77
+msgid "/_Presentation/_Edge Detection/_Laplacian of Gaussian"
+msgstr ""
+
+#: modules/process/edge.c:81
+msgid "Laplacian of Gaussian step detection presentation"
+msgstr ""
+
+#: modules/process/edge.c:85
+msgid "/_Presentation/_Edge Detection/_Canny"
+msgstr ""
+
+#: modules/process/edge.c:89
+msgid "Canny edge detection presentation"
+msgstr ""
+
+#: modules/process/edge.c:92
+msgid "/_Presentation/_Edge Detection/_RMS"
+msgstr ""
+
+#: modules/process/edge.c:96
+msgid "Local RMS value based step detection presentation"
+msgstr ""
+
+#: modules/process/edge.c:100
+msgid "/_Presentation/_Edge Detection/RMS _Edge"
+msgstr ""
+
+#: modules/process/edge.c:104
+msgid "Local RMS value based step detection with postprocessing"
+msgstr ""
+
+#: modules/process/edge.c:107
+msgid "/_Presentation/_Edge Detection/Local _Nonlinearity"
+msgstr ""
+
+#: modules/process/edge.c:111
+msgid "Local nonlinearity based edge detection presentation"
+msgstr ""
+
+#: modules/process/edge.c:115
+msgid "/_Presentation/_Edge Detection/_Hough Lines"
+msgstr ""
+
+#: modules/process/edge.c:120
+msgid "Hough lines presentation"
+msgstr ""
+
+#: modules/process/edge.c:123
+msgid "/_Presentation/_Edge Detection/_Harris Corner"
+msgstr ""
+
+#: modules/process/edge.c:128
+msgid "Harris corner presentation"
+msgstr ""
+
+#: modules/process/edge.c:131
+msgid "/_Presentation/_Edge Detection/_Inclination"
+msgstr ""
+
+#: modules/process/edge.c:135
+msgid "Local inclination visualization presentation"
+msgstr ""
+
+#: modules/process/edge.c:138
+msgid "/_Presentation/_Edge Detection/_Step"
+msgstr ""
+
+#: modules/process/edge.c:142
+msgid "Fine step detection presentation"
+msgstr ""
+
+#: modules/process/edge.c:145
+msgid "/_Presentation/_Edge Detection/_Sobel"
+msgstr ""
+
+#: modules/process/edge.c:149
+msgid "Sobel edge presentation"
+msgstr ""
+
+#: modules/process/edge.c:152
+msgid "/_Presentation/_Edge Detection/_Prewitt"
+msgstr ""
+
+#: modules/process/edge.c:156
+msgid "Prewitt edge presentation"
+msgstr ""
+
+#: modules/process/edge.c:159
+msgid "/_Integral Transforms/Local Slope"
+msgstr ""
+
+#: modules/process/edge.c:163
+msgid "First derivative slope transformation"
+msgstr ""
+
+#: modules/process/edge.c:485
+msgid "Slope map"
+msgstr ""
+
+#: modules/process/extend.c:84
+msgid "Extends image by adding borders."
+msgstr ""
+
+#: modules/process/extend.c:98
+msgid "/_Basic Operations/E_xtend..."
+msgstr ""
+
+#: modules/process/extend.c:102
+msgid "Extend by adding borders"
+msgstr ""
+
+#: modules/process/extend.c:125
+msgid "_Up"
+msgstr ""
+
+#: modules/process/extend.c:126
+msgid "_Down"
+msgstr ""
+
+#: modules/process/extend.c:127
+msgid "_Left"
+msgstr ""
+
+#: modules/process/extend.c:128
+msgid "_Right"
+msgstr ""
+
+#: modules/process/extend.c:129
+msgid "Extend _symmetrically"
+msgstr ""
+
+#: modules/process/extend.c:221
+msgid "Extended"
+msgstr ""
+
+#: modules/process/extend.c:291
+msgid "Extend"
+msgstr ""
+
+#: modules/process/extend.c:299
+msgid "Borders"
+msgstr ""
+
+#: modules/process/extract_path.c:68
+msgid "Extracts coordinates and tangents along a path selection."
+msgstr ""
+
+#: modules/process/extract_path.c:82
+msgid "/_Distortion/Extract _Path Selection..."
+msgstr ""
+
+#: modules/process/extract_path.c:86
+msgid "Extract path selection data"
+msgstr ""
+
+#: modules/process/extract_path.c:103
+msgid "X tangent"
+msgstr ""
+
+#: modules/process/extract_path.c:104
+msgid "Y tangent"
+msgstr ""
+
+#: modules/process/extract_path.c:166
+msgid "Extract Path Selection"
+msgstr ""
+
+#: modules/process/extract_path.c:172
+msgid "Number of path points"
+msgstr ""
+
+#: modules/process/extract_path.c:177
+msgid "There is no path selection."
+msgstr ""
+
+#: modules/process/fbm_synth.c:105
+msgid "Generates random surfaces similar to fractional Brownian motion."
+msgstr ""
+
+#: modules/process/fbm_synth.c:119
+msgid "/S_ynthetic/_Noise/_Brownian..."
+msgstr ""
+
+#: modules/process/fbm_synth.c:123
+msgid "Generate fractional Brownian motion-like surface"
+msgstr ""
+
+#: modules/process/fbm_synth.c:135
+msgid "distribution|Power"
+msgstr ""
+
+#: modules/process/fbm_synth.c:144
+msgid "_Hurst exponent"
+msgstr ""
+
+#: modules/process/fbm_synth.c:145
+msgid "_Stationarity scale"
+msgstr ""
+
+#: modules/process/fbm_synth.c:215
+msgid "Fractional Brownian Motion"
+msgstr ""
+
+#: modules/process/fft.c:91
+msgid "Two-dimensional FFT (Fast Fourier Transform)."
+msgstr ""
+
+#: modules/process/fft.c:105
+msgid "/_Integral Transforms/2D _FFT..."
+msgstr ""

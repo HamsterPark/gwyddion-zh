@@ -1,0 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/mfm_field.c:157 modules/process/mfm_parallel.c:166
+msgid "_Probe type"
+msgstr ""
+
+#: modules/process/mfm_field.c:161 modules/process/mfm_parallel.c:169
+msgid "_Film thickness"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:122 modules/volume/volume_mfmrecalc.c:77
+msgid "Converts the MFM data to force gradient."
+msgstr ""
+
+#: modules/process/mfm_recalc.c:140 modules/volume/volume_mfmrecalc.c:95
+msgid "Recalculate to force gradient"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:150 modules/volume/volume_mfmrecalc.c:104
+msgid "Phase (radians)"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:151 modules/volume/volume_mfmrecalc.c:105
+msgid "Phase (degrees)"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:152 modules/volume/volume_mfmrecalc.c:106
+msgid "Frequency shift"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:153 modules/volume/volume_mfmrecalc.c:107
+msgid "Amplitude (V)"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:154 modules/volume/volume_mfmrecalc.c:108
+msgid "Amplitude (m)"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:157 modules/volume/volume_mfmrecalc.c:111
+msgid "Force gradient"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:158 modules/volume/volume_mfmrecalc.c:112
+msgid "MFM force gradient"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:159 modules/volume/volume_mfmrecalc.c:113
+msgid "Pixel area MFM force gradient"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:172 modules/volume/volume_mfmrecalc.c:126
+msgid "_Spring constant"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:174 modules/volume/volume_mfmrecalc.c:128
+msgid "_Quality factor"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:176 modules/volume/volume_mfmrecalc.c:130
+msgid "_Base frequency"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:178 modules/volume/volume_mfmrecalc.c:132
+msgid "_Base amplitude"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:182 modules/volume/volume_mfmrecalc.c:124
+msgid "Result _type"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:198 modules/volume/volume_mfmrecalc.c:144
+msgid "Data value units must be deg, rad, m, Hz or V for the recalculation"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:304 modules/volume/volume_mfmrecalc.c:213
+msgid "MFM Recalculate Data"
+msgstr ""
+
+#: modules/process/multiprofile.c:111
+msgid ""
+"Displays and extracts scan line graphs from multiple images simultaneously."
+msgstr ""
+
+#: modules/process/multiprofile.c:125
+msgid "/M_ultidata/_Multiprofile..."
+msgstr ""
+
+#: modules/process/multiprofile.c:129
+msgid "Read lines from multiple images simultaneously"
+msgstr ""
+
+#: modules/process/multiprofile.c:138
+msgid "All profiles"
+msgstr ""
+
+#: modules/process/multiprofile.c:139
+msgid "Mean and deviation"
+msgstr ""
+
+#: modules/process/multiprofile.c:140
+msgid "Minimum and maximum"
+msgstr ""
+
+#: modules/process/multiprofile.c:151
+msgid "_Scan line"
+msgstr ""
+
+#: modules/process/multiprofile.c:154
+msgid "Use _first mask for all images"
+msgstr ""
+
+#: modules/process/multiprofile.c:156 modules/tools/cprofile.c:148
+msgid "_Mode"
+msgstr ""
+
+#: modules/process/multiprofile.c:233
+msgid "Multiprofile"
+msgstr ""
+
+#: modules/process/multiprofile.c:782 modules/process/multiprofile.c:793
+msgid "Lower"
+msgstr ""
+
+#: modules/process/multiprofile.c:784 modules/process/multiprofile.c:794
+msgid "Upper"
+msgstr ""
+
+#: modules/process/neural.c:219 modules/volume/volume_mfmrecalc.c:122
+msgid "Signal"
+msgstr ""
+
+#: modules/process/obj_synth.c:282 modules/process/pileup_synth.c:219
+msgid "Colum_narity"
+msgstr ""
+
+#: modules/process/obj_synth.c:283 modules/process/pileup_synth.c:220
+msgid "_Avoid stacking"
+msgstr ""
+
+#: modules/process/obj_synth.c:286 modules/process/pileup_synth.c:223
+msgid "_Aspect ratio"
+msgstr ""
+
+#: modules/process/obj_synth.c:416 modules/process/pileup_synth.c:348
+msgid "Aspect Ratio"
+msgstr ""
+
+#: modules/process/outliers.c:41
+msgid "Creates mask of outliers."
+msgstr ""
+
+#: modules/process/outliers.c:55
+msgid "/_Correct Data/Mask of _Outliers"
+msgstr ""
+
+#: modules/process/outliers.c:59
+msgid "Mark data farther than 3σ from mean value"
+msgstr ""
+
+#: modules/process/pat_synth.c:2018 modules/process/pat_synth.c:2129
+#: modules/process/pat_synth.c:2254 modules/process/wave_synth.c:207
+msgid "_X center"
+msgstr ""
+
+#: modules/process/pat_synth.c:2019 modules/process/pat_synth.c:2130
+#: modules/process/pat_synth.c:2255 modules/process/wave_synth.c:209
+msgid "_Y center"
+msgstr ""
+
+#: modules/process/plateau_synth.c:179 modules/process/residue_synth.c:156
+msgid "Size power _law"
+msgstr ""
+
+#: modules/process/polylevel.c:101
+msgid "Independent degrees"
+msgstr ""
+
+#: modules/process/polylevel.c:102
+msgid "Limited total degree"
+msgstr ""
+
+#: modules/process/polylevel.c:108
+msgid "Subtracts polynomial background."
+msgstr ""
+
+#: modules/process/polylevel.c:122
+msgid "/_Level/_Polynomial Background..."
+msgstr ""
+
+#: modules/process/polylevel.c:141
+msgid "_Horizontal polynomial degree"
+msgstr ""
+
+#: modules/process/polylevel.c:143
+msgid "_Vertical polynomial degree"
+msgstr ""
+
+#: modules/process/polylevel.c:148
+msgid "_Same degrees"
+msgstr ""
+
+#: modules/process/polylevel.c:394
+msgid "Polynomial Coefficients"
+msgstr ""
+
+#: modules/process/polylevel.c:432 modules/process/smm.c:574
+msgid "Save table to a file"
+msgstr ""
+
+#: modules/process/polylevel.c:439 modules/process/smm.c:581
+msgid "Copy table to clipboard"
+msgstr ""
+
+#: modules/process/polylevel.c:613 modules/process/smm.c:1223
+#: modules/tools/selectionmanager.c:679
+msgid "Save Table"
+msgstr ""
+
+#: modules/process/psdf2d.c:124
+msgid ""
+"Calculates two-dimensional power spectrum density function and extracts its "
+"linear profiles."
+msgstr ""
+
+#: modules/process/psdf2d.c:138
+msgid "/_Statistics/2D _PSDF..."
+msgstr ""
+
+#: modules/process/psdf2d.c:142
+msgid "Calculate 2D power spectrum density"
+msgstr ""
+
+#: modules/process/psdf2d.c:168
+msgid "Create PSDF image"
+msgstr ""
+
+#: modules/process/psdf2d.c:229
+msgid "2D PSDF"
+msgstr ""
+
+#: modules/process/psdf2d.c:288
+msgid "Power Spectrum Density"
+msgstr ""
+
+#: modules/process/psdf2d.c:312
+msgid "PSDF Section"
+msgstr ""
+
+#: modules/process/psdf2d.c:381
+msgid "Power Spectral Density"
+msgstr ""
+
+#: modules/process/psdf2d.c:387
+msgid "Texture direction"
+msgstr ""
+
+#: modules/process/psdf2d.c:391
+msgid "Texture direction index"
+msgstr ""
+
+#: modules/process/psdf2d.c:577
+#, c-format
+msgid "PSDF %.0f°"
+msgstr ""
+
+#: modules/process/psdf_logphi.c:59
+msgid ""
+"Two-dimensional FFT (Fast Fourier Transform) transformed to coordinates (log-"
+"frequency, angle)."
+msgstr ""
+
+#: modules/process/psdf_logphi.c:73
+msgid "/_Statistics/_Log-Phi PSDF..."
+msgstr ""
+
+#: modules/process/psdf_logphi.c:77
+msgid "Compute PSDF in Log-Phi coordinates"
+msgstr ""
+
+#: modules/process/psdf_logphi.c:92 modules/process/wpour_mark.c:164
+msgid "Gaussian _smoothing"
+msgstr ""
+
+#: modules/process/psdf_logphi.c:139
+msgid "Log-Phi PSDF"
+msgstr ""
+
+#: modules/process/psf-fit.c:218 modules/process/psf-fit.c:280
+#: modules/process/psf.c:199 modules/process/psf.c:210
+#: modules/process/psf.c:286 modules/volume/volume_psf.c:186
+#: modules/volume/volume_psf.c:230
+msgid "Transfer function"
+msgstr ""
+
+#: modules/process/psf-fit.c:233 modules/process/relate.c:272
+msgid "_Function type"
+msgstr ""
+
+#: modules/process/psf-fit.c:239 modules/process/psf.c:221
+#: modules/volume/volume_psf.c:241
+msgid "_Ideal response"
+msgstr ""
+
+#: modules/process/psf.c:186 modules/volume/volume_psf.c:211
+msgid "/_Statistics/_Transfer Function Guess..."
+msgstr ""
+
+#: modules/process/psf.c:204 modules/volume/volume_psf.c:224
+msgid "Regularized filter"
+msgstr ""
+
+#: modules/process/psf.c:205 modules/volume/volume_psf.c:225
+msgid "Least squares"
+msgstr ""
+
+#: modules/process/psf.c:206 modules/volume/volume_psf.c:226
+msgid "Wiener filter"
+msgstr ""
+
+#: modules/process/psf.c:222 modules/volume/volume_psf.c:242
+msgid "_Border"
+msgstr ""
+
+#: modules/process/psf.c:261 modules/volume/volume_psf.c:288
+msgid "Image is too small."
+msgstr ""
+
+#: modules/process/psf.c:326 modules/volume/volume_psf.c:335
+msgid "Estimate Transfer Function"
+msgstr ""
+
+#: modules/process/psf.c:328 modules/volume/volume_psf.c:337
+msgid "_Fit Sigma"
+msgstr ""
+
+#: modules/process/psf.c:346 modules/volume/volume_psf.c:364
+msgid "Transfer Function Size"
+msgstr ""
+
+#: modules/process/psf.c:357 modules/volume/volume_psf.c:375
+msgid "_Full Size"
+msgstr ""
+
+#: modules/process/psf.c:359 modules/volume/volume_psf.c:377
+msgid "_Estimate Size"
+msgstr ""
+
+#: modules/process/psf.c:400 modules/volume/volume_psf.c:422
+msgid "Transfer Function"
+msgstr ""
+
+#: modules/process/psf.c:405 modules/volume/volume_psf.c:187
+#: modules/volume/volume_psf.c:427
+msgid "TF width"
+msgstr ""
+
+#: modules/process/psf.c:406 modules/volume/volume_psf.c:188
+#: modules/volume/volume_psf.c:428
+msgid "TF height"
+msgstr ""
+
+#: modules/process/psf.c:407 modules/volume/volume_psf.c:189
+#: modules/volume/volume_psf.c:429
+msgid "TF norm"
+msgstr ""
+
+#: modules/process/psf.c:408 modules/volume/volume_psf.c:190
+#: modules/volume/volume_psf.c:430
+msgid "Difference norm"
+msgstr ""
+
+#: modules/process/rank-filter.c:82
+msgid ""
+"General k-th rank filter replacing data with k-th rank values from the "
+"neighborhood."
+msgstr ""
+
+#: modules/process/rank-filter.c:96
+msgid "/_Integral Transforms/_Rank Filter..."
+msgstr ""
+
+#: modules/process/rank-filter.c:100
+msgid "K-th rank filter"
+msgstr ""
+
+#: modules/process/rank-filter.c:115
+msgid "_Pixel radius"
+msgstr ""
+
+#: modules/process/rank-filter.c:116 modules/process/rank-filter.c:117
+#: modules/process/trimmed-mean.c:113 modules/process/trimmed-mean.c:114
+msgid "_Percentile"
+msgstr ""
+
+#: modules/process/rank-filter.c:118 modules/process/rank-filter.c:119
+msgid "Ra_nk"
+msgstr ""
+
+#: modules/process/rank-filter.c:120
+msgid "_Second filter"
+msgstr ""
+
+#: modules/process/rank-filter.c:121
+msgid "Calculate _difference"
+msgstr ""
+
+#: modules/process/rank-filter.c:192
+msgid "Rank difference"
+msgstr ""
+
+#: modules/process/rank-filter.c:194
+#, c-format
+msgid "Rank filtered (%.1f %%)"
+msgstr ""
+
+#: modules/process/rank-filter.c:211
+msgid "Rank Filter"
+msgstr ""
+
+#: modules/process/rank-filter.c:217 modules/process/trimmed-mean.c:213
+msgid "Kernel Size"
+msgstr ""

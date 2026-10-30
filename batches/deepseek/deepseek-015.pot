@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/smm_apply.c:98
+msgid "Re(Ztip)"
+msgstr ""
+
+#: modules/process/smm_apply.c:99
+msgid "Im(Ztip)"
+msgstr ""
+
+#: modules/process/smm_apply.c:105
+msgid "Applies SMM calibration"
+msgstr ""
+
+#: modules/process/smm_apply.c:119
+msgid "/_SPM Modes/_Electrical/_Apply SMM Calibration..."
+msgstr ""
+
+#: modules/process/smm_apply.c:123
+msgid "Apply SMM calibration coefficients"
+msgstr ""
+
+#: modules/process/smm_apply.c:234
+msgid "Apply SMM Calibration"
+msgstr ""
+
+#: modules/process/stitch.c:134
+msgid "Stitch multiple images based on offsets of origins."
+msgstr ""
+
+#: modules/process/stitch.c:148
+msgid "/M_ultidata/_Stitch..."
+msgstr ""
+
+#: modules/process/stitch.c:152
+msgid "Stitch images using offsets"
+msgstr ""
+
+#: modules/process/stitch.c:268
+msgid "Stitch"
+msgstr ""
+
+#: modules/process/stitch.c:370
+msgid "Stitch data"
+msgstr ""
+
+#: modules/process/stitch.c:432
+msgid "Restore"
+msgstr ""
+
+#: modules/process/stitch.c:442
+msgid "_Instant updates"
+msgstr ""
+
+#: modules/process/straighten_path.c:106
+msgid "Extracts a straightened part of image along a curve."
+msgstr ""
+
+#: modules/process/straighten_path.c:120
+msgid "/_Distortion/Straighten _Path..."
+msgstr ""
+
+#: modules/process/straighten_path.c:124
+msgid "Straighten along a path"
+msgstr ""
+
+#: modules/process/straighten_path.c:139
+msgid "C_losed curve"
+msgstr ""
+
+#: modules/process/straighten_path.c:142
+msgid "Out_put orientation"
+msgstr ""
+
+#: modules/process/straighten_path.c:144
+msgid "_Slackness"
+msgstr ""
+
+#: modules/process/straighten_path.c:211
+msgid "Straightened"
+msgstr ""
+
+#: modules/process/straighten_path.c:266
+msgid "Straighten Path"
+msgstr ""
+
+#: modules/process/straighten_path.c:286
+msgid "Res_tore"
+msgstr ""
+
+#: modules/process/straighten_path.c:290
+msgid "Re_verse"
+msgstr ""
+
+#: modules/process/superresolution.c:83
+msgid ""
+"Simple supres operations with two data fields (or a data field and a scalar)."
+msgstr ""
+
+#: modules/process/superresolution.c:98
+msgid "/M_ultidata/_Super-resolution..."
+msgstr ""
+
+#: modules/process/superresolution.c:102
+msgid "Super resolution of multiple images of same object"
+msgstr ""
+
+#: modules/process/superresolution.c:141
+msgid "Supres"
+msgstr ""
+
+#: modules/process/superresolution.c:420
+msgid "Correlating to determine mean shift..."
+msgstr ""
+
+#: modules/process/superresolution.c:510
+msgid "Cross-correlation..."
+msgstr ""
+
+#: modules/process/synth.h:195
+msgid "R_andom seed:"
+msgstr ""
+
+#: modules/process/synth.h:213
+msgid "Randomi_ze"
+msgstr ""
+
+#: modules/process/threshold.c:96
+msgid "Limit the data range using a lower/upper threshold."
+msgstr ""
+
+#: modules/process/threshold.c:110
+msgid "/_Basic Operations/Li_mit Range..."
+msgstr ""
+
+#: modules/process/threshold.c:114
+msgid "Limit data range"
+msgstr ""
+
+#: modules/process/threshold.c:123
+msgid "Specify _thresholds"
+msgstr ""
+
+#: modules/process/threshold.c:124
+msgid "Use _display range"
+msgstr ""
+
+#: modules/process/threshold.c:125
+msgid "Cut off outlier_s"
+msgstr ""
+
+#: modules/process/threshold.c:126
+msgid "Limit to _percentiles"
+msgstr ""
+
+#: modules/process/threshold.c:137 modules/process/threshold.c:140
+msgid "_Lower"
+msgstr ""
+
+#: modules/process/threshold.c:138 modules/process/threshold.c:141
+msgid "_Upper"
+msgstr ""
+
+#: modules/process/threshold.c:139
+msgid "F_arther than"
+msgstr ""
+
+#: modules/process/threshold.c:220
+msgid "Limit Range"
+msgstr ""
+
+#. TRANSLATORS: This is a range: 123 to 456.
+#: modules/process/threshold.c:249
+#, c-format
+msgid "%.*f to %.*f"
+msgstr ""
+
+#: modules/process/tilt.c:69
+msgid "Tilts image by specified amount."
+msgstr ""
+
+#: modules/process/tilt.c:83
+msgid "/_Basic Operations/_Tilt..."
+msgstr ""
+
+#: modules/process/tilt.c:87
+msgid "Tilt by specified amount"
+msgstr ""
+
+#: modules/process/tilt.c:190
+msgid "Angles"
+msgstr ""
+
+#: modules/process/volumize.c:42
+msgid "Converts datafield to 3D volume data."
+msgstr ""
+
+#: modules/process/volumize.c:56
+msgid "/_Basic Operations/Volumize"
+msgstr ""
+
+#: modules/process/volumize.c:60
+msgid "Convert datafield to 3D data"
+msgstr ""
+
+#: modules/process/volumize_layers.c:78
+msgid "Converts all datafields to 3D volume data."
+msgstr ""
+
+#: modules/process/volumize_layers.c:92
+msgid "/_Basic Operations/Volumize Layers..."
+msgstr ""
+
+#: modules/process/volumize_layers.c:96
+msgid "Convert all datafields to 3D data"
+msgstr ""
+
+#: modules/process/volumize_layers.c:116
+msgid "_Extract offsets"
+msgstr ""
+
+#: modules/process/volumize_layers.c:159
+msgid "All datafields must have same resolution to make a volume from them."
+msgstr ""
+
+#: modules/process/volumize_layers.c:251
+msgid "Volumize layers"
+msgstr ""
+
+#: modules/process/wave_synth.c:152
+msgid "Generates various kinds of waves."
+msgstr ""
+
+#: modules/process/wave_synth.c:166
+msgid "/S_ynthetic/_Waves..."
+msgstr ""
+
+#: modules/process/wave_synth.c:170
+msgid "Generate waves"
+msgstr ""
+
+#: modules/process/wave_synth.c:179
+msgid "Cosine"
+msgstr ""
+
+#: modules/process/wave_synth.c:180
+msgid "Inverse cosh"
+msgstr ""
+
+#: modules/process/wave_synth.c:181
+msgid "Flat top"
+msgstr ""
+
+#: modules/process/wave_synth.c:184
+msgid "Displacement 1"
+msgstr ""
+
+#: modules/process/wave_synth.c:185
+msgid "Displacement 2"
+msgstr ""
+
+#: modules/process/wave_synth.c:198
+msgid "_Number of waves"
+msgstr ""
+
+#: modules/process/wave_synth.c:199
+msgid "_Wave form"
+msgstr ""
+
+#: modules/process/wave_synth.c:203
+msgid "_Decay"
+msgstr ""
+
+#: modules/process/wave_synth.c:205
+msgid "_Spatial frequency"
+msgstr ""
+
+#: modules/process/wave_synth.c:279
+msgid "Waves"
+msgstr ""
+
+#: modules/process/wfr_synth.c:98
+msgid "Generates images by simulating a propagating wetting front."
+msgstr ""
+
+#: modules/process/wfr_synth.c:112
+msgid "/S_ynthetic/_Wetting..."
+msgstr ""
+
+#: modules/process/wfr_synth.c:116
+msgid "Generate image by propagating wetting front"
+msgstr ""
+
+#: modules/process/wfr_synth.c:132
+msgid "_Diffusion"
+msgstr ""
+
+#: modules/process/wfr_synth.c:203
+msgid "Wetting Front"
+msgstr ""
+
+#: modules/process/wpour_mark.c:117
+msgid "Segments image using watershed with pre- and postprocessing."
+msgstr ""
+
+#: modules/process/wpour_mark.c:131
+msgid "/_Grains/_Mark by Segmentation..."
+msgstr ""
+
+#: modules/process/wpour_mark.c:135
+msgid "Segment using watershed "
+msgstr ""
+
+#: modules/process/wpour_mark.c:144
+msgid "Original image"
+msgstr ""
+
+#: modules/process/wpour_mark.c:145
+msgid "Preprocessed image"
+msgstr ""
+
+#: modules/process/wpour_mark.c:148
+msgid "No mask"
+msgstr ""
+
+#: modules/process/wpour_mark.c:160
+msgid "_Image preview"
+msgstr ""
+
+#: modules/process/wpour_mark.c:162
+msgid "_Mask preview"
+msgstr ""
+
+#: modules/process/wpour_mark.c:165
+msgid "_Barrier level"
+msgstr ""
+
+#: modules/process/wpour_mark.c:166
+msgid "Prefill _level"
+msgstr ""
+
+#: modules/process/wpour_mark.c:167
+msgid "Pre_fill from minima"
+msgstr ""
+
+#: modules/process/wpour_mark.c:168
+msgid "Add _gradient"
+msgstr ""
+
+#: modules/process/wpour_mark.c:169
+msgid "Add _curvature"
+msgstr ""
+
+#: modules/process/wpour_mark.c:238
+msgid "Segment by Watershed"
+msgstr ""
+
+#: modules/process/wpour_mark.c:247
+msgid "Preprocessing"
+msgstr ""
+
+#: modules/process/wrapvalue.c:91
+msgid "Wraps periodic values to a different range."
+msgstr ""
+
+#: modules/process/wrapvalue.c:105
+msgid "/_Basic Operations/_Wrap Value..."
+msgstr ""
+
+#: modules/process/wrapvalue.c:109
+msgid "Rewrap periodic values"
+msgstr ""
+
+#: modules/process/wrapvalue.c:118
+msgid "360 deg"
+msgstr ""
+
+#: modules/process/wrapvalue.c:119
+msgid "180 deg"
+msgstr ""
+
+#: modules/process/wrapvalue.c:120 modules/process/wrapvalue.c:127
+#: modules/process/wrapvalue.c:131
+msgid "_Keep unchanged"
+msgstr ""
+
+#: modules/process/wrapvalue.c:121 modules/process/wrapvalue.c:128
+#: modules/process/wrapvalue.c:132 modules/process/wrapvalue.c:142
+msgid "Specify _range"
+msgstr ""
+
+#: modules/process/wrapvalue.c:124
+msgid "2π"
+msgstr ""
+
+#: modules/process/wrapvalue.c:125
+msgid "π"
+msgstr ""
+
+#: modules/process/wrapvalue.c:126
+msgid "1"
+msgstr ""
+
+#: modules/process/wrapvalue.c:141
+msgid "O_ffset"
+msgstr ""

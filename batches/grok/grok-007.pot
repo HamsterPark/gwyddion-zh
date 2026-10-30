@@ -1,0 +1,446 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/quazarnpic.c:427
+#, c-format
+msgid "Invalid stack state for opcode %02x."
+msgstr ""
+
+#: modules/file/quazarnpic.c:745
+#, c-format
+msgid "Uknown opcode 0x%02x encountered"
+msgstr ""
+
+#: modules/file/quesant.c:67
+msgid "Imports Quesant file format."
+msgstr ""
+
+#: modules/file/quesant.c:80
+msgid "Quesant files (.afm)"
+msgstr ""
+
+#: modules/file/rawfile.c:236
+msgid "User-specified"
+msgstr ""
+
+#: modules/file/rawfile.c:237
+msgid "Signed byte"
+msgstr ""
+
+#: modules/file/rawfile.c:238
+msgid "Unsigned byte"
+msgstr ""
+
+#: modules/file/rawfile.c:239
+msgid "Signed 16bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:240
+msgid "Unsigned 16bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:241
+msgid "Signed 32bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:242
+msgid "Unsigned 32bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:243
+msgid "Signed 64bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:244
+msgid "Unsigned 64bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:245
+msgid "IEEE single"
+msgstr ""
+
+#: modules/file/rawfile.c:246
+msgid "IEEE double"
+msgstr ""
+
+#: modules/file/rawfile.c:247
+msgid "IEEE half"
+msgstr ""
+
+#: modules/file/rawfile.c:248
+msgid "Pascal real"
+msgstr ""
+
+#: modules/file/rawfile.c:258
+msgid ""
+"Imports raw data files, both ASCII and binary, according to user-specified "
+"format."
+msgstr ""
+
+#: modules/file/rawfile.c:277
+msgid "Raw data files"
+msgstr ""
+
+#: modules/file/rawfile.c:307
+msgid "Any whitespace"
+msgstr ""
+
+#: modules/file/rawfile.c:308
+msgid "TAB character"
+msgstr ""
+
+#: modules/file/rawfile.c:309
+msgid "Other character"
+msgstr ""
+
+#: modules/file/rawfile.c:322
+msgid "_Field delimiter"
+msgstr ""
+
+#: modules/file/rawfile.c:328
+msgid "_Automatically offer raw data import of unknown files"
+msgstr ""
+
+#: modules/file/rawfile.c:337
+msgid "_Text data"
+msgstr ""
+
+#: modules/file/rawfile.c:338
+msgid "_Binary data"
+msgstr ""
+
+#: modules/file/rawfile.c:349 modules/file/rawfile.c:350
+msgid "Missin_g value substitute"
+msgstr ""
+
+#: modules/file/rawfile.c:361
+msgid "Start from file _line"
+msgstr ""
+
+#: modules/file/rawfile.c:362
+msgid "_Each image row skip"
+msgstr ""
+
+#: modules/file/rawfile.c:363
+msgid "One _value per line"
+msgstr ""
+
+#: modules/file/rawfile.c:364
+msgid "E_xtract column"
+msgstr ""
+
+#: modules/file/rawfile.c:365
+msgid "_Other delimiter"
+msgstr ""
+
+#: modules/file/rawfile.c:370
+msgid "Data t_ype"
+msgstr ""
+
+#: modules/file/rawfile.c:372
+msgid "Byte s_wap pattern"
+msgstr ""
+
+#: modules/file/rawfile.c:373
+msgid "Start at _offset"
+msgstr ""
+
+#: modules/file/rawfile.c:374
+msgid "_Sample size"
+msgstr ""
+
+#: modules/file/rawfile.c:375
+msgid "After each sample s_kip"
+msgstr ""
+
+#: modules/file/rawfile.c:376
+msgid "After each _row skip"
+msgstr ""
+
+#: modules/file/rawfile.c:377
+msgid "_Reverse bits in bytes"
+msgstr ""
+
+#: modules/file/rawfile.c:378
+msgid "Reverse bi_ts in samples"
+msgstr ""
+
+#: modules/file/rawfile.c:379
+msgid "Samples are si_gned"
+msgstr ""
+
+#: modules/file/rawfile.c:406
+msgid "Raw data import must be run as interactive."
+msgstr ""
+
+#: modules/file/rawfile.c:457
+msgid "Read Raw File"
+msgstr ""
+
+#: modules/file/rawfile.c:472
+msgid "Data Format"
+msgstr ""
+
+#: modules/file/rawfile.c:585
+msgid "fields"
+msgstr ""
+
+#: modules/file/rawfile.c:600
+msgid "bytes"
+msgstr ""
+
+#: modules/file/rawfile.c:602 modules/file/rawfile.c:605
+#: modules/file/rawfile.c:608
+msgid "bits"
+msgstr ""
+
+#: modules/file/rawfile.c:637
+msgid "Binary"
+msgstr ""
+
+#: modules/file/rawfile.c:637
+msgid "Text"
+msgstr ""
+
+#: modules/file/rawfile.c:658
+msgid "Delimiter: whitespace"
+msgstr ""
+
+#: modules/file/rawfile.c:661
+#, c-format
+msgid "Delimiter: 0x%02x"
+msgstr ""
+
+#: modules/file/rawfile.c:663
+#, c-format
+msgid "Delimiter: %s"
+msgstr ""
+
+#: modules/file/rawfile.c:692
+msgid "Info"
+msgstr ""
+
+#: modules/file/rawfile.c:1135
+#, c-format
+msgid ""
+"<b>Too short file</b>\n"
+"The format would require %lu bytes long file (at least), but the length of "
+"`%s' is only %u bytes."
+msgstr ""
+
+#: modules/file/rawfile.c:1166
+#, c-format
+msgid ""
+"<b>Parsing failed</b>\n"
+"The contents of `%s' does not match format: %s."
+msgstr ""
+
+#: modules/file/rawfile.c:1514
+#, c-format
+msgid "Expected whitespace to skip more fields in row %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1526
+#, c-format
+msgid "Expected `%c' to skip more fields in row %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1538
+#, c-format
+msgid "Expected `%s' to skip more fields in row %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1569 modules/file/rawfile.c:1582
+#: modules/file/rawfile.c:1607
+#, c-format
+msgid "Garbage `%.16s' in row %u, column %u"
+msgstr ""
+
+#: modules/file/rawfile.c:1595
+#, c-format
+msgid "Expected delimiter `%c' after data in row %u, column %u, got `%c'"
+msgstr ""
+
+#: modules/file/rawfile.c:1620
+#, c-format
+msgid "Expected delimiter `%s' after data in row %u, column %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1664
+#, c-format
+msgid "Not enough lines (%d) for offset (%d)"
+msgstr ""
+
+#: modules/file/rawgraph.c:87
+msgid "Imports simple text files as graph curves."
+msgstr ""
+
+#: modules/file/rawgraph.c:100
+msgid "ASCII graph curve files"
+msgstr ""
+
+#: modules/file/rawgraph.c:121
+msgid "_Title"
+msgstr ""
+
+#: modules/file/rawgraph.c:123
+msgid "_X label"
+msgstr ""
+
+#: modules/file/rawgraph.c:125
+msgid "_Y label"
+msgstr ""
+
+#: modules/file/rawgraph.c:127
+msgid "X _units"
+msgstr ""
+
+#: modules/file/rawgraph.c:129
+msgid "Y u_nits"
+msgstr ""
+
+#: modules/file/rawgraph.c:191
+msgid "ASCII graph import must be run as interactive."
+msgstr ""
+
+#: modules/file/rawgraph.c:242
+msgid "Import Graph Data"
+msgstr ""
+
+#: modules/file/renishaw.c:393
+msgid "Imports Renishaw WiRE data files (WDF)."
+msgstr ""
+
+#: modules/file/renishaw.c:406
+msgid "Renishaw WiRE data files (.wdf)"
+msgstr ""
+
+#: modules/file/renishaw.c:836
+msgid "Random points order unsupported"
+msgstr ""
+
+#: modules/file/rhk-sm3.c:231
+msgid "Imports RHK Technology SM3 data files."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:251
+msgid "RHK SM3 files (.sm3)"
+msgstr ""
+
+#: modules/file/rhk-sm3.c:323 modules/file/rhk-sm3.c:336
+msgid "End of file reached in page header."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:327
+msgid "magic page header"
+msgstr ""
+
+#: modules/file/rhk-sm3.c:397
+#, c-format
+msgid "End of file reached in string #%u."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:417
+msgid "End of file reached in color data header."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:424
+msgid "End of file reached in color data."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:666
+#, c-format
+msgid "Unknown line %d"
+msgstr ""
+
+#: modules/file/rhk-sm4.c:438
+msgid "Imports RHK Technology SM4 data files."
+msgstr ""
+
+#: modules/file/rhk-sm4.c:458
+msgid "RHK SM4 files (.sm4)"
+msgstr ""
+
+#: modules/file/rhk-sm4.c:978
+#, c-format
+msgid "Object list in %s is truncated."
+msgstr ""
+
+#: modules/file/rhk-sm4.c:992
+#, c-format
+msgid "Object of type %s is truncated."
+msgstr ""
+
+#: modules/file/rhk-sm4.c:1016
+#, c-format
+msgid "Cannot find object %s in %s."
+msgstr ""
+
+#: modules/file/rhk-spm32.c:173
+msgid "Imports RHK Technology SPM32 data files."
+msgstr ""
+
+#: modules/file/rhk-spm32.c:193
+msgid "RHK SPM32 files (.sm2)"
+msgstr ""
+
+#: modules/file/rhk-spm32.c:366
+msgid "Only image and line files are supported."
+msgstr ""
+
+#: modules/file/rhk-spm32.c:380
+msgid "data type"
+msgstr ""
+
+#: modules/file/rhk-spm32.c:389
+msgid "data ranges"
+msgstr ""
+
+#: modules/file/rhk-spm32.c:453
+msgid "data offset"
+msgstr ""
+
+#: modules/file/rmitmd.c:87
+msgid "Imports RMI TMD 3D measurements."
+msgstr ""
+
+#: modules/file/rmitmd.c:100
+msgid "RMI TMD 3D scan files (.tmd)"
+msgstr ""
+
+#: modules/file/robotics.c:77
+msgid "Imports Automation & Robotics Dual Lensmapper data files"
+msgstr ""
+
+#: modules/file/robotics.c:90
+msgid "Dual Lensmapper files"
+msgstr ""
+
+#: modules/file/s94file.c:101
+msgid "Imports S94 STM data files."
+msgstr ""
+
+#: modules/file/s94file.c:114
+msgid "S94 STM files (.s94)"
+msgstr ""
+
+#: modules/file/scafile.c:93
+msgid "Imports SCA data files (two-part .sca + .dat)."
+msgstr ""

@@ -1,0 +1,484 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/meta.c:660
+msgid "New item"
+msgstr ""
+
+#: app/meta.c:804
+msgid "Save Metadata"
+msgstr ""
+
+#: app/param-def.c:340
+msgid "_Masking"
+msgstr ""
+
+#: app/param-def.c:344 modules/file/imgexport.c:681
+#: modules/xyz/xyz_raster.c:221
+msgid "_Interpolation type"
+msgstr ""
+
+#: app/param-def.c:348 modules/process/col_synth.c:198
+#: modules/process/dune_synth.c:143
+msgid "_Direction"
+msgstr ""
+
+#: app/param-def.c:352
+msgid "Combine with existing mask"
+msgstr ""
+
+#: app/param-def.c:356
+msgid "_Windowing type"
+msgstr ""
+
+#: app/param-def.c:360 modules/process/mask_edt.c:112
+#: modules/tools/maskedit.c:225
+msgid "_Distance type"
+msgstr ""
+
+#: app/param-def.c:364
+msgid "Plot _style"
+msgstr ""
+
+#: app/param-def.c:611 modules/process/calcoefs_view.c:567
+#: modules/process/grain_filter.c:357 modules/process/polydistort.c:319
+#: modules/process/synth.h:136
+msgid "I_nstant updates"
+msgstr ""
+
+#: app/param-def.c:659
+msgid "Randomi_ze when re-run"
+msgstr ""
+
+#: app/param-def.c:842
+msgid "_Mask color"
+msgstr ""
+
+#: app/param-def.c:879 modules/file/imgexport.c:676
+#: modules/file/imgexport.c:678 modules/file/imgexport.c:735
+#: modules/file/imgexport.c:769
+msgid "Colo_r"
+msgstr ""
+
+#: app/param-def.c:917
+msgid "Target _graph"
+msgstr ""
+
+#: app/param-def.c:1104 app/param-def.c:1142
+msgid "C_urve"
+msgstr ""
+
+#: app/param-def.c:1180
+msgid "_Segment"
+msgstr ""
+
+#: app/param-def.c:1252
+msgid "Hold selection"
+msgstr ""
+
+#: app/param-def.c:1253
+msgid "Replace existing selection"
+msgstr ""
+
+#: app/param-def.c:1254
+msgid "Replace even with empty (clear selection)"
+msgstr ""
+
+#: app/param-def.c:1258
+msgid "_Hold selection"
+msgstr ""
+
+#: app/param-def.c:1292
+msgid "R_andom seed"
+msgstr ""
+
+#: app/param-def.c:1465
+msgid "Expanded groups"
+msgstr ""
+
+#: app/param-table.c:2223
+msgid "New graph"
+msgstr ""
+
+#: app/param-table.c:5960 modules/graph/graph_cd.c:330
+#: modules/graph/graph_fdfit.c:433 modules/graph/graph_fit.c:446
+#: modules/volume/volume_fdfit-WTF.c:487 modules/volume/volume_fdfit.c:487
+msgid "range|to"
+msgstr ""
+
+#: app/param-table.c:6202 modules/process/calcoefs_new.c:409
+#: modules/process/calcoefs_new.c:476 modules/process/calcoefs_simple.c:393
+#: modules/process/calcoefs_simple.c:460 modules/process/calcoefs_view.c:511
+#: modules/process/calcoefs_view.c:549 modules/process/dimensions.h:145
+msgid "verb|Change"
+msgstr ""
+
+#: app/param-table.c:6247 modules/process/synth.h:201
+msgid "seed|_New"
+msgstr ""
+
+#: app/param-table.c:6560 modules/process/calcoefs_new.c:820
+#: modules/process/calcoefs_simple.c:1204 modules/process/calcoefs_view.c:1380
+#: modules/process/dimensions.h:179
+msgid "Change Units"
+msgstr ""
+
+#: app/param-table.c:6581 modules/process/calcoefs_new.c:833
+#: modules/process/calcoefs_simple.c:1217 modules/process/calcoefs_view.c:1393
+#: modules/process/dimensions.h:192
+msgid "New _units:"
+msgstr ""
+
+#: app/param-table.c:8001
+msgid "Select Color"
+msgstr ""
+
+#: app/resource-editor.c:133
+msgid "Edit selected item"
+msgstr ""
+
+#: app/resource-editor.c:139 modules/process/convolution_filter.c:501
+msgid "Create a new item"
+msgstr ""
+
+#: app/resource-editor.c:145 modules/process/convolution_filter.c:506
+msgid "Create a new item based on selected one"
+msgstr ""
+
+#: app/resource-editor.c:151 modules/process/convolution_filter.c:511
+msgid "Delete selected item"
+msgstr ""
+
+#: app/resource-editor.c:157
+msgid "Set selected item as default"
+msgstr ""
+
+#: app/settings.c:118 gwyddion/toolbox-spec.c:504 modules/file/err.h:52
+#: modules/file/err.h:59
+#, c-format
+msgid "Cannot open file for writing: %s."
+msgstr ""
+
+#: app/settings.c:172 modules/file/err.h:30
+#: modules/file/gwyzip-minizip-ng.h:111 modules/file/gwyzip-minizip2.h:109
+#, c-format
+msgid "Cannot read file contents: %s"
+msgstr ""
+
+#: app/settings.c:178
+msgid "File is empty."
+msgstr ""
+
+#: app/settings.c:187
+msgid "File is corrupted, magic header does not match."
+msgstr ""
+
+#: app/settings.c:195 app/settings.c:248
+msgid "File is corrupted, deserialization failed."
+msgstr ""
+
+#: app/settings.c:294
+#, c-format
+msgid "Cannot create user config directory %s: %s"
+msgstr ""
+
+#: app/settings.c:305
+#, c-format
+msgid "Cannot create user ui directory %s: %s"
+msgstr ""
+
+#: app/settings.c:319
+#, c-format
+msgid "Cannot create user module directory %s: %s"
+msgstr ""
+
+#: app/validate.c:110 app/validate.c:129
+#, c-format
+msgid "byte at position %d"
+msgstr ""
+
+#: app/validate.c:153 app/validate.c:164
+#, c-format
+msgid "%s instead of %s"
+msgstr ""
+
+#: app/validate.c:383
+#, c-format
+msgid "no channel %d exists for %s"
+msgstr ""
+
+#: app/validate.c:393
+#, c-format
+msgid "no graph %d exists for %s"
+msgstr ""
+
+#: app/validate.c:401
+#, c-format
+msgid "no spectra %d exists for %s"
+msgstr ""
+
+#: app/validate.c:415
+#, c-format
+msgid "no brick %d exists for %s"
+msgstr ""
+
+#: app/validate.c:429
+#, c-format
+msgid "no surface %d exists for %s"
+msgstr ""
+
+#: app/validate.c:443
+#, c-format
+msgid "no lawn %d exists for %s"
+msgstr ""
+
+#: app/validate.c:494
+#, c-format
+msgid "ref_count is %d for %s"
+msgstr ""
+
+#: app/validate.c:674
+msgid "Invalid item key format"
+msgstr ""
+
+#: app/validate.c:675
+msgid "Item key contains invalid characters"
+msgstr ""
+
+#: app/validate.c:676
+msgid "Item key does not belong to any known data"
+msgstr ""
+
+#: app/validate.c:677
+msgid "Wrong data item id"
+msgstr ""
+
+#: app/validate.c:678
+msgid "Unexpected data item type"
+msgstr ""
+
+#: app/validate.c:679
+msgid "String value is not valid UTF-8"
+msgstr ""
+
+#: app/validate.c:680
+msgid "Object has several references"
+msgstr ""
+
+#: app/validate.c:681
+msgid "Secondary data item has no primary data"
+msgstr ""
+
+#: app/wait.c:124
+msgid "Please wait"
+msgstr ""
+
+#: gwyddion/about.c:33
+msgid "not available\n"
+msgstr ""
+
+#: gwyddion/about.c:59
+#, c-format
+msgid "About %s"
+msgstr ""
+
+#: gwyddion/about.c:96
+msgid "An SPM data visualization and analysis tool."
+msgstr ""
+
+#: gwyddion/about.c:106
+msgid "Report bugs to:"
+msgstr ""
+
+#: gwyddion/about.c:118
+msgid "Credits"
+msgstr ""
+
+#: gwyddion/about.c:125
+#, c-format
+msgid ""
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version. For full license text see file COPYING included in the source "
+"tarball."
+msgstr ""
+
+#: gwyddion/about.c:132
+msgid "Or read the license at"
+msgstr ""
+
+#: gwyddion/about.c:137
+msgid "License"
+msgstr ""
+
+#: gwyddion/about.c:144 modules/process/logistic.c:229
+msgid "Features"
+msgstr ""
+
+#: gwyddion/about.c:185
+msgid "Developers"
+msgstr ""
+
+#: gwyddion/about.c:186
+msgid "Translators"
+msgstr ""
+
+#: gwyddion/about.c:189
+msgid "Development is supported by the Czech Metrology Institute: "
+msgstr ""
+
+#: gwyddion/about.c:255 gwyddion/about.c:258
+msgid "OpenGL 3D View"
+msgstr ""
+
+#: gwyddion/about.c:267 gwyddion/about.c:270
+msgid "OpenMP parallelization"
+msgstr ""
+
+#: gwyddion/about.c:278
+msgid "X11 protocol\n"
+msgstr ""
+
+#: gwyddion/about.c:280
+msgid "Win32 protocol\n"
+msgstr ""
+
+#: gwyddion/about.c:282
+msgid "LibUnique\n"
+msgstr ""
+
+#: gwyddion/about.c:286
+msgid "Remote Control"
+msgstr ""
+
+#: gwyddion/about.c:290 gwyddion/about.c:294
+msgid "Python Scripting Interface"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced with date in ISO format YYYY-MM-DD.
+#: gwyddion/about.c:341
+#, c-format
+msgid "Released %s"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced with date in ISO format YYYY-MM-DD.
+#: gwyddion/about.c:345
+#, c-format
+msgid "Development version, built %s"
+msgstr ""
+
+#: gwyddion/gwyddion.c:177
+msgid "Loading document history"
+msgstr ""
+
+#: gwyddion/gwyddion.c:182
+msgid "Registering "
+msgstr ""
+
+#: gwyddion/gwyddion.c:183
+msgid "stock items"
+msgstr ""
+
+#: gwyddion/gwyddion.c:188
+msgid "color gradients"
+msgstr ""
+
+#: gwyddion/gwyddion.c:190
+msgid "GL materials"
+msgstr ""
+
+#: gwyddion/gwyddion.c:192
+msgid "grain quantities"
+msgstr ""
+
+#: gwyddion/gwyddion.c:194
+msgid "calibrations"
+msgstr ""
+
+#: gwyddion/gwyddion.c:199
+msgid "Loading settings"
+msgstr ""
+
+#: gwyddion/gwyddion.c:212
+msgid "Registering modules"
+msgstr ""
+
+#: gwyddion/gwyddion.c:507
+msgid "Could not read settings."
+msgstr ""
+
+#: gwyddion/gwyddion.c:509
+#, c-format
+msgid ""
+"Settings file `%s' cannot be read: %s\n"
+"\n"
+"To prevent loss of saved settings no attempt to update it will be made until "
+"it is repaired or removed."
+msgstr ""
+
+#: gwyddion/gwyddion.c:545
+#, c-format
+msgid "Many modules (%u) failed to register."
+msgstr ""
+
+#: gwyddion/gwyddion.c:548
+#, c-format
+msgid ""
+"Most likely Gwyddion was not upgraded correctly.  Instead, one installation "
+"was just overwritten with another, and now it is a mess.\n"
+"\n"
+"Please remove completely the module directory\n"
+"\n"
+"%s\n"
+"\n"
+"and reinstall Gwyddion.\n"
+"\n"
+"See Info → Module Browser for specific errors."
+msgstr ""
+
+#: gwyddion/splash.c:1260
+msgid "Starting "
+msgstr ""
+
+#: gwyddion/splash.c:1313
+msgid " is free software released under GNU GPL."
+msgstr ""
+
+#: gwyddion/tips.c:54
+msgid ""
+"Holding Shift restricts directions of selected lines to multiples of 15°."
+msgstr ""
+
+#: gwyddion/tips.c:59
+msgid ""
+"Holding Shift restricts shapes of selected rectangles to perfect squares."
+msgstr ""
+
+#: gwyddion/tips.c:64
+msgid "Holding Shift restricts shapes of selected ellipses to perfect circles."
+msgstr ""
+
+#: gwyddion/tips.c:69
+msgid ""
+"If multiple regions are selected on a graph, e.g. in 1D FFT Filtering, "
+"individual regions can be deleted by clicking on them with the right mouse "
+"button."
+msgstr ""

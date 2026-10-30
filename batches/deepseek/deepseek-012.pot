@@ -1,0 +1,430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/noise_synth.c:130
+msgid "distribution|Salt and pepper"
+msgstr ""
+
+#: modules/process/noise_synth.c:136
+msgid "Generates uncorrelated random noise."
+msgstr ""
+
+#: modules/process/noise_synth.c:150
+msgid "/S_ynthetic/_Noise/_Noise..."
+msgstr ""
+
+#: modules/process/noise_synth.c:154
+msgid "Generate surface of uncorrelated noise"
+msgstr ""
+
+#: modules/process/noise_synth.c:249
+msgid "Random Noise"
+msgstr ""
+
+#: modules/process/obj_synth.c:201
+msgid "Half-spheres"
+msgstr ""
+
+#: modules/process/obj_synth.c:202
+msgid "Pyramids"
+msgstr ""
+
+#: modules/process/obj_synth.c:203
+msgid "Half-nuggets"
+msgstr ""
+
+#: modules/process/obj_synth.c:204
+msgid "Thatches"
+msgstr ""
+
+#: modules/process/obj_synth.c:205
+msgid "Doughnuts"
+msgstr ""
+
+#: modules/process/obj_synth.c:206
+msgid "Tetrahedrons"
+msgstr ""
+
+#: modules/process/obj_synth.c:207
+msgid "Boxes"
+msgstr ""
+
+#: modules/process/obj_synth.c:208
+msgid "Cones"
+msgstr ""
+
+#: modules/process/obj_synth.c:209
+msgid "Tents"
+msgstr ""
+
+#: modules/process/obj_synth.c:210
+msgid "Diamonds"
+msgstr ""
+
+#: modules/process/obj_synth.c:211
+msgid "Gaussians"
+msgstr ""
+
+#: modules/process/obj_synth.c:212
+msgid "Parabolic bumps"
+msgstr ""
+
+#: modules/process/obj_synth.c:213
+msgid "Full spheres"
+msgstr ""
+
+#: modules/process/obj_synth.c:214
+msgid "Full nuggets"
+msgstr ""
+
+#: modules/process/obj_synth.c:215
+msgid "Hexagonal pyramids"
+msgstr ""
+
+#: modules/process/obj_synth.c:216
+msgid "Exp spikes"
+msgstr ""
+
+#: modules/process/obj_synth.c:217
+msgid "Semi-pyramids"
+msgstr ""
+
+#: modules/process/obj_synth.c:223
+msgid "Generates randomly patterned surfaces by placing objects."
+msgstr ""
+
+#: modules/process/obj_synth.c:237
+msgid "/S_ynthetic/_Deposition/_Objects..."
+msgstr ""
+
+#: modules/process/obj_synth.c:241
+msgid "Generate surface of randomly placed objects"
+msgstr ""
+
+#: modules/process/obj_synth.c:281
+msgid "_Feature sign"
+msgstr ""
+
+#: modules/process/obj_synth.c:290
+msgid "Scales _with size"
+msgstr ""
+
+#: modules/process/obj_synth.c:361
+msgid "Random Objects"
+msgstr ""
+
+#: modules/process/otsu_threshold.c:35 modules/process/otsu_threshold.c:53
+msgid "Automated threshold using Otsu's method on heights."
+msgstr ""
+
+#: modules/process/otsu_threshold.c:49
+msgid "/_Grains/_Mark by Otsu's"
+msgstr ""
+
+#: modules/process/pat_synth.c:368
+msgid "Staircase"
+msgstr ""
+
+#: modules/process/pat_synth.c:369
+msgid "Double staircase"
+msgstr ""
+
+#: modules/process/pat_synth.c:370
+msgid "Grating"
+msgstr ""
+
+#: modules/process/pat_synth.c:371
+msgid "Amphitheater"
+msgstr ""
+
+#: modules/process/pat_synth.c:372
+msgid "Concentric rings"
+msgstr ""
+
+#: modules/process/pat_synth.c:373
+msgid "Siemens star"
+msgstr ""
+
+#: modules/process/pat_synth.c:374
+msgid "Holes (rectangular)"
+msgstr ""
+
+#: modules/process/pat_synth.c:375
+msgid "Pillars"
+msgstr ""
+
+#: modules/process/pat_synth.c:381
+msgid ""
+"Generates surfaces representing simple patterns (staircase, amphitheater, "
+"grating, holes and pillars, ...)."
+msgstr ""
+
+#: modules/process/pat_synth.c:395
+msgid "/S_ynthetic/_Pattern..."
+msgstr ""
+
+#: modules/process/pat_synth.c:399
+msgid "Generate patterned surface"
+msgstr ""
+
+#: modules/process/pat_synth.c:501
+msgid "Pattern"
+msgstr ""
+
+#: modules/process/pat_synth.c:1703 modules/process/pat_synth.c:2007
+msgid "_Terrace width"
+msgstr ""
+
+#: modules/process/pat_synth.c:1705 modules/process/pat_synth.c:1800
+#: modules/process/pat_synth.c:1804 modules/process/pat_synth.c:1893
+#: modules/process/pat_synth.c:2008 modules/process/pat_synth.c:2115
+#: modules/process/pat_synth.c:2428 modules/process/pat_synth.c:2431
+#: modules/process/pat_synth.c:2576 modules/process/pat_synth.c:2579
+msgid "Position spread"
+msgstr ""
+
+#: modules/process/pat_synth.c:1707 modules/process/pat_synth.c:1899
+#: modules/process/pat_synth.c:2010 modules/process/pat_synth.c:2120
+#: modules/process/pat_synth.c:2439 modules/process/pat_synth.c:2584
+msgid "_Slope fraction"
+msgstr ""
+
+#: modules/process/pat_synth.c:1724 modules/process/pat_synth.c:1818
+#: modules/process/pat_synth.c:2033
+msgid "Terrace"
+msgstr ""
+
+#: modules/process/pat_synth.c:1798
+msgid "Terrace _X width"
+msgstr ""
+
+#: modules/process/pat_synth.c:1802
+msgid "Terrace _Y width"
+msgstr ""
+
+#: modules/process/pat_synth.c:1892 modules/process/pat_synth.c:2114
+msgid "_Period"
+msgstr ""
+
+#: modules/process/pat_synth.c:1895 modules/process/pat_synth.c:2117
+#: modules/process/pat_synth.c:2248
+msgid "_Top fraction"
+msgstr ""
+
+#: modules/process/pat_synth.c:1898 modules/process/pat_synth.c:2122
+msgid "_Asymmetry"
+msgstr ""
+
+#: modules/process/pat_synth.c:1907 modules/process/pat_synth.c:2135
+msgid "Scale features with _width"
+msgstr ""
+
+#: modules/process/pat_synth.c:1922 modules/process/pat_synth.c:2155
+#: modules/process/pat_synth.c:2269 modules/process/pat_synth.c:2466
+msgid "Duty Cycle"
+msgstr ""
+
+#: modules/process/pat_synth.c:2014 modules/process/pat_synth.c:2125
+msgid "Super_ellipse parameter"
+msgstr ""
+
+#: modules/process/pat_synth.c:2016 modules/process/pat_synth.c:2127
+msgid "_Parabolicity"
+msgstr ""
+
+#: modules/process/pat_synth.c:2247
+msgid "_Number of sectors"
+msgstr ""
+
+#: modules/process/pat_synth.c:2251
+msgid "_Edge shift"
+msgstr ""
+
+#: modules/process/pat_synth.c:2252
+msgid "_Slope width"
+msgstr ""
+
+#: modules/process/pat_synth.c:2427 modules/process/pat_synth.c:2575
+msgid "_X Period"
+msgstr ""
+
+#: modules/process/pat_synth.c:2430 modules/process/pat_synth.c:2578
+msgid "_Y Period"
+msgstr ""
+
+#: modules/process/pat_synth.c:2433
+msgid "X top fraction"
+msgstr ""
+
+#: modules/process/pat_synth.c:2436
+msgid "Y top fraction"
+msgstr ""
+
+#: modules/process/pat_synth.c:2441
+msgid "Roundn_ess"
+msgstr ""
+
+#: modules/process/pat_synth.c:2481
+msgid "Roundness"
+msgstr ""
+
+#: modules/process/pat_synth.c:2570
+msgid "Hexagon"
+msgstr ""
+
+#: modules/process/pat_synth.c:2573
+msgid "S_hape"
+msgstr ""
+
+#: modules/process/pat_synth.c:2581
+msgid "Si_ze fraction"
+msgstr ""
+
+#: modules/process/pfm.c:98
+msgid "Evaluates PFM data from multiple rotations."
+msgstr ""
+
+#: modules/process/pfm.c:112
+msgid "/_SPM Modes/_Electrical/_PFM..."
+msgstr ""
+
+#: modules/process/pfm.c:116
+msgid "Processes PFM data from multiple rotations"
+msgstr ""
+
+#: modules/process/pfm.c:126
+msgid "Clockwise"
+msgstr ""
+
+#: modules/process/pfm.c:127
+msgid "Counterclocwise"
+msgstr ""
+
+#: modules/process/pfm.c:128
+msgid "rotation|None"
+msgstr ""
+
+#: modules/process/pfm.c:131
+msgid "In-plane angles"
+msgstr ""
+
+#: modules/process/pfm.c:132
+msgid "3D angles"
+msgstr ""
+
+#: modules/process/pfm.c:141 modules/process/pfm.c:145
+msgid "VPFM amplitude"
+msgstr ""
+
+#: modules/process/pfm.c:142 modules/process/pfm.c:146
+msgid "VPFM phase"
+msgstr ""
+
+#: modules/process/pfm.c:143 modules/process/pfm.c:147
+msgid "LPFM amplitude"
+msgstr ""
+
+#: modules/process/pfm.c:144 modules/process/pfm.c:148
+msgid "LPFM phase"
+msgstr ""
+
+#: modules/process/pfm.c:151
+msgid "Lateral factor"
+msgstr ""
+
+#: modules/process/pfm.c:155
+msgid "Vertical factor"
+msgstr ""
+
+#: modules/process/pfm.c:158
+msgid "Rotate 90 deg data"
+msgstr ""
+
+#: modules/process/pfm.c:216 modules/process/pfm.c:234
+msgid "Magnitude"
+msgstr ""
+
+#: modules/process/pfm.c:224 modules/process/pfm.c:242
+msgid "Azimuth"
+msgstr ""
+
+#: modules/process/pfm.c:250
+msgid "Inclination"
+msgstr ""
+
+#: modules/process/pfm.c:271
+msgid "PFM"
+msgstr ""
+
+#: modules/process/pfm.c:281
+msgid "0 deg data"
+msgstr ""
+
+#: modules/process/pfm.c:290
+msgid "90 deg data"
+msgstr ""
+
+#: modules/process/pfm.c:381
+msgid "Amplitude and phase have the wrong units."
+msgstr ""
+
+#: modules/process/pfm.c:383
+msgid "Amplitude has the wrong units"
+msgstr ""
+
+#: modules/process/pfm.c:385
+msgid "Phase has the wrong units."
+msgstr ""
+
+#: modules/process/phase_synth.c:94
+msgid "Generates phase-separated structures."
+msgstr ""
+
+#: modules/process/phase_synth.c:108
+msgid "/S_ynthetic/_Order and Disorder/P_hases..."
+msgstr ""
+
+#: modules/process/phase_synth.c:112
+msgid "Generate surface with separated phases"
+msgstr ""
+
+#: modules/process/phase_synth.c:195
+msgid "Separated Phases"
+msgstr ""
+
+#: modules/process/pid.c:92 modules/process/pid.c:129
+msgid "PID Fwd result"
+msgstr ""
+
+#: modules/process/pid.c:93 modules/process/pid.c:130
+msgid "PID Fwd max. force"
+msgstr ""
+
+#: modules/process/pid.c:94 modules/process/pid.c:131
+msgid "PID Rev result"
+msgstr ""
+
+#: modules/process/pid.c:95 modules/process/pid.c:132
+msgid "PID Rev max. force"
+msgstr ""
+
+#: modules/process/pid.c:101
+msgid "A simple PID simulator"
+msgstr ""

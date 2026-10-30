@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. TRANSLATORS: Average is verb here, `perform averaging'.
+#: modules/process/anneal_synth.c:153
+msgid "_Average iterations"
+msgstr ""
+
+#: modules/process/anneal_synth.c:223
+msgid "Anneal"
+msgstr ""
+
+#: modules/process/anneal_synth.c:277
+msgid "Three Component Model"
+msgstr ""
+
+#: modules/process/arithmetic.c:156
+msgid "Simple arithmetic operations with data fields."
+msgstr ""
+
+#: modules/process/arithmetic.c:170
+msgid "/M_ultidata/_Arithmetic..."
+msgstr ""
+
+#: modules/process/arithmetic.c:174
+msgid "Arithmetic operations on data"
+msgstr ""
+
+#: modules/process/averaging.c:63
+msgid "Similar structures averaging using autocorrelation"
+msgstr ""
+
+#: modules/process/averaging.c:77
+msgid "/_Correct Data/_Correlation Averaging..."
+msgstr ""
+
+#: modules/process/averaging.c:81
+msgid "Averaging of similar structures"
+msgstr ""
+
+#: modules/process/averaging.c:114
+msgid "Averaged"
+msgstr ""
+
+#: modules/process/averaging.c:137
+msgid "Averaging of Similar Structures"
+msgstr ""
+
+#: modules/process/averaging.c:141
+msgid "Select the sample area below"
+msgstr ""
+
+#: modules/process/basicops.c:51
+msgid ""
+"Basic operations like flipping, value inversion, and rotation by multiples "
+"of 90 degrees."
+msgstr ""
+
+#: modules/process/basicops.c:69
+msgid "Invert values about mean"
+msgstr ""
+
+#: modules/process/basicops.c:114
+msgid "/_Basic Operations/S_quare Samples"
+msgstr ""
+
+#: modules/process/basicops.c:118
+msgid "Resample data with non-1:1 aspect ratio to square samples"
+msgstr ""
+
+#: modules/process/batchcolor.c:193
+msgid ""
+"Batch apply color palette and fixed value range to multiple data channels"
+msgstr ""
+
+#: modules/process/batchcolor.c:207
+msgid "/M_ultidata/_Batch Color Mapping"
+msgstr ""
+
+#: modules/process/batchcolor.c:211
+msgid "Batch apply color palette and fixed value range to selected channels"
+msgstr ""
+
+#: modules/process/batchcolor.c:324
+msgid "No channels selected"
+msgstr ""
+
+#: modules/process/batchcolor.c:326
+msgid "Selected channels have inconsistent units"
+msgstr ""
+
+#: modules/process/batchcolor.c:672 modules/process/batchcolor.c:707
+msgid "Select by name"
+msgstr ""
+
+#: modules/process/batchcolor.c:893
+msgid "Save Selected Files As .GWY"
+msgstr ""
+
+#: modules/process/batchcolor.c:999
+msgid "Batch Color Mapping"
+msgstr ""
+
+#: modules/process/batchcolor.c:1032
+msgid "Start:"
+msgstr ""
+
+#: modules/process/batchcolor.c:1040
+msgid "End:"
+msgstr ""
+
+#: modules/process/batchcolor.c:1049
+msgid "Apply Fixed Range"
+msgstr ""
+
+#: modules/process/batchcolor.c:1052
+msgid "Invert Mapping"
+msgstr ""
+
+#: modules/process/batchcolor.c:1059
+msgid "Set Full Range"
+msgstr ""
+
+#: modules/process/batchcolor.c:1062
+msgid "Zero to Min"
+msgstr ""
+
+#: modules/process/batchcolor.c:1146
+msgid "Select All"
+msgstr ""
+
+#: modules/process/batchcolor.c:1159
+msgid "Save As .GWY"
+msgstr ""
+
+#: modules/process/bdep_synth.c:117
+msgid "Generates surfaces by ballistic deposition."
+msgstr ""
+
+#: modules/process/bdep_synth.c:131
+msgid "/S_ynthetic/_Deposition/_Ballistic..."
+msgstr ""
+
+#: modules/process/bdep_synth.c:135
+msgid "Generate surface by ballistic deposition"
+msgstr ""
+
+#: modules/process/bdep_synth.c:279 modules/process/bdep_synth.c:326
+msgid "Ballistic Deposition"
+msgstr ""
+
+#: modules/process/binning.c:79
+msgid "Creates a smaller image using binning."
+msgstr ""
+
+#: modules/process/binning.c:93
+msgid "/_Basic Operations/_Binning..."
+msgstr ""
+
+#: modules/process/binning.c:97
+msgid "Reduce size by binning"
+msgstr ""
+
+#: modules/process/binning.c:114
+msgid "_Square bin"
+msgstr ""
+
+#: modules/process/binning.c:115
+msgid "Trim _lowest"
+msgstr ""
+
+#: modules/process/binning.c:116
+msgid "Trim hi_ghest"
+msgstr ""
+
+#: modules/process/binning.c:120
+msgid "_Sum instead of averaging"
+msgstr ""
+
+#: modules/process/binning.c:184
+msgid "Binned Data"
+msgstr ""
+
+#: modules/process/binning.c:214
+msgid "Binning"
+msgstr ""
+
+#: modules/process/binning.c:223
+msgid "Bin Dimensions"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:85
+msgid "Load calibration data from text file"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:99
+msgid "/Cali_bration/_Load From Text File..."
+msgstr ""
+
+#: modules/process/calcoefs_load.c:103
+msgid "Load calibration data from text file."
+msgstr ""
+
+#: modules/process/calcoefs_load.c:160
+#, c-format
+msgid "Error loading file: %s\n"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:223
+msgid "Load Calibration Data"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:254
+msgid "No data loaded"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:348
+msgid "Load calibration data"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:363
+#, c-format
+msgid "Error loading file '%s'"
+msgstr ""
+
+#: modules/process/calcoefs_load.c:422
+msgid "Error: not enough points."
+msgstr ""
+
+#: modules/process/calcoefs_load.c:449
+#, c-format
+msgid "Loaded %d data points"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:172
+msgid "Create simple calibration data"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:186
+msgid "/Cali_bration/_Create..."
+msgstr ""
+
+#: modules/process/calcoefs_new.c:190
+msgid "Specify simple calibration data."
+msgstr ""
+
+#: modules/process/calcoefs_new.c:371
+msgid "Simple Calibration Data"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:389
+msgid "_X from:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:416
+msgid "_X to:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:429
+msgid "_Y from:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:442
+msgid "_Y to:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:456
+msgid "_Z from:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:483
+msgid "_Z to:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:496
+msgid "_X uncertainty:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:517
+msgid "_Y uncertainty:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:532
+msgid "_Z uncertainty:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:554
+msgid "_X correction factor:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:566
+msgid "_Y correction factor:"
+msgstr ""
+
+#: modules/process/calcoefs_new.c:578
+msgid "_Z correction factor:"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:168
+msgid "Simple error map based on grating measurements"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:182
+msgid "/Cali_bration/_Get Simple Errop Map..."
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:186
+msgid "Simple error mapping"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:328
+msgid "Simple Error Map"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:351
+msgid "Grating image"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:413
+msgid "X _period:"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:426
+msgid "Y p_eriod:"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:489
+msgid "No suggestion\n"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:591
+msgid "Data same as detail?"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:597
+msgid "Data larger than detail?"
+msgstr ""
+
+#: modules/process/calcoefs_simple.c:611
+#, c-format
+msgid "one object found"
+msgid_plural "%d objects found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/process/calcoefs_simple.c:616
+msgid "Search canceled"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:236
+msgid "3D calibration/uncertainty"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:250
+msgid "/Cali_bration/_Apply to Data..."
+msgstr ""
+
+#: modules/process/calcoefs_view.c:254
+msgid "3D calibration and uncertainty"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:318
+msgid "3D Calibration"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:377
+msgid "No data used."
+msgstr ""
+
+#: modules/process/calcoefs_view.c:397
+msgid "Used calibration data:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:414
+msgid "Shown planes:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:420
+msgid "View:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:435
+msgid "Plane:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:454
+msgid "X position:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:461
+msgid "Y position:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:468
+msgid "Z position:"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:557
+msgid "Crop to actual data"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:682
+msgid "Shown part has zero range."
+msgstr ""
+
+#: modules/process/calcoefs_view.c:690
+#, c-format
+msgid "Shown range (%.*f - %.*f) %s"
+msgstr ""
+
+#: modules/process/calcoefs_view.c:738
+#, c-format
+msgid "%d calibration data"
+msgstr ""

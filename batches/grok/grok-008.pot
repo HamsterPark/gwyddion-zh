@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/scafile.c:106
+msgid "SCA files (.sca + .dat)"
+msgstr ""
+
+#: modules/file/scanfile.c:78
+msgid "Reads Cyber technologies SCAN files."
+msgstr ""
+
+#: modules/file/scanfile.c:91
+msgid "Cyber technologies SCAN data (.scan)"
+msgstr ""
+
+#: modules/file/scnxfile.c:104
+msgid "Reads Cyber technologies SCNX files."
+msgstr ""
+
+#: modules/file/scnxfile.c:117
+msgid "Cyber technologies SCNX data (.scnx)"
+msgstr ""
+
+#: modules/file/sdfile.c:154
+msgid "Imports Surfstand group SDF (Surface Data File) files."
+msgstr ""
+
+#: modules/file/sdfile.c:169
+msgid "Surfstand SDF files, binary (.sdf)"
+msgstr ""
+
+#: modules/file/sdfile.c:175
+msgid "Surfstand SDF files, text (.sdf)"
+msgstr ""
+
+#: modules/file/sdfile.c:181
+msgid "Micromap SDF files (.sdfa)"
+msgstr ""
+
+#: modules/file/sdfile.c:619
+#, c-format
+msgid "Invalid `%s' value: %d."
+msgstr ""
+
+#: modules/file/sdfile.c:628
+#, c-format
+msgid "Invalid `%s' value: %g."
+msgstr ""
+
+#: modules/file/sdfile.c:685
+msgid "Missing data start marker (*)."
+msgstr ""
+
+#: modules/file/sdfile.c:709
+#, c-format
+msgid "End of file reached when looking for `%s' field."
+msgstr ""
+
+#: modules/file/sdfile.c:717
+#, c-format
+msgid "Invalid line found when looking for `%s' field."
+msgstr ""
+
+#: modules/file/seiko.c:114
+msgid "Imports Seiko XQB, XQD, XQT and XQP files."
+msgstr ""
+
+#: modules/file/seiko.c:127
+msgid "Seiko files (.xqb, .xqd, .xqt, .xqp)"
+msgstr ""
+
+#: modules/file/sensofar.c:551
+msgid "Imports Sensofar PLu file format, version 2000 or newer."
+msgstr ""
+
+#: modules/file/sensofar.c:564
+msgid "Sensofar PLu files (.plu, .apx)"
+msgstr ""
+
+#: modules/file/sensofarx.c:86
+msgid "Reads Sensofar PLUx files."
+msgstr ""
+
+#: modules/file/sensofarx.c:99
+msgid "Sensofar PLUx files (.plux)"
+msgstr ""
+
+#: modules/file/sensolytics.c:164
+msgid "Imports Sensolytics text files."
+msgstr ""
+
+#: modules/file/sensolytics.c:177
+msgid "Sensolytics text files (.dat)"
+msgstr ""
+
+#: modules/file/sensolytics.c:1051 modules/file/sensolytics.c:1059
+msgid "Wrong number of initial data columns."
+msgstr ""
+
+#: modules/file/shimadzu.c:122
+msgid "Imports Shimadzu SPM data files."
+msgstr ""
+
+#: modules/file/shimadzu.c:135
+msgid "Shimadzu files"
+msgstr ""
+
+#: modules/file/sicmfile.c:205
+msgid "Imports IonScope SICM data files."
+msgstr ""
+
+#: modules/file/sicmfile.c:220
+msgid "IonScope SICM files (.img)"
+msgstr ""
+
+#: modules/file/sis.c:279
+msgid "Imports SIS (Surface Imaging Systems) data files."
+msgstr ""
+
+#: modules/file/sis.c:292
+msgid "SIS files (.sis)"
+msgstr ""
+
+#: modules/file/sis.c:579
+msgid "Block not a document block."
+msgstr ""
+
+#: modules/file/sis.c:587
+msgid "Too short document info."
+msgstr ""
+
+#: modules/file/sis.c:607
+msgid "Too short parameter info."
+msgstr ""
+
+#: modules/file/sis.c:699
+msgid "Unexpected image block."
+msgstr ""
+
+#: modules/file/sis.c:730 modules/file/sis.c:758
+msgid "End of file reached in image block."
+msgstr ""
+
+#: modules/file/sis.c:771
+msgid "End of file reached in channel block."
+msgstr ""
+
+#: modules/file/sis.c:795
+msgid "End of file reached when another channel was expected."
+msgstr ""
+
+#: modules/file/spcfile.c:274
+msgid "Imports Thermo Fisher SPC files."
+msgstr ""
+
+#: modules/file/spcfile.c:287
+msgid "Thermo Fisher SPC files"
+msgstr ""
+
+#: modules/file/spip-asc.c:95
+msgid "Imports and exports SPIP ASC files."
+msgstr ""
+
+#: modules/file/spip-asc.c:108
+msgid "SPIP ASCII files (.asc)"
+msgstr ""
+
+#: modules/file/spml.c:117
+msgid "Loads SPML (Scanning Probe Microscopy Markup Language) data files."
+msgstr ""
+
+#: modules/file/spml.c:131
+msgid "SPML files (.xml)"
+msgstr ""
+
+#: modules/file/spmlab.c:172
+msgid "Imports Thermicroscopes SpmLab R3 to R7 data files."
+msgstr ""
+
+#: modules/file/spmlab.c:185
+msgid "Thermicroscopes SpmLab files"
+msgstr ""
+
+#: modules/file/spmlab.c:251
+#, c-format
+msgid "Unknown format version %c."
+msgstr ""
+
+#: modules/file/spmlabf.c:76
+msgid "Imports SPMLab floating-point files."
+msgstr ""
+
+#: modules/file/spmlabf.c:89
+msgid "SPMLab floating-point files (.flt)"
+msgstr ""
+
+#: modules/file/spmlabf.c:148
+msgid "Missing data start marker [Data]."
+msgstr ""
+
+#: modules/file/spmxfile.c:93
+msgid "Reads ATC SPMxFormat files."
+msgstr ""
+
+#: modules/file/spmxfile.c:106
+msgid "ATC SPMxFormat data (.spm)"
+msgstr ""
+
+#: modules/file/stmprg.c:228
+msgid "Imports Omicron STMPRG data files (tp ta)."
+msgstr ""
+
+#: modules/file/stmprg.c:241
+msgid "Omicron STMPRG files (tp ta)"
+msgstr ""
+
+#: modules/file/stmprg.c:280
+msgid "Parameter file is too short."
+msgstr ""
+
+#: modules/file/stmprg.c:532
+msgid "First channel is switched off."
+msgstr ""
+
+#: modules/file/stpfile.c:114
+msgid "Current or Deflection or Amplitude"
+msgstr ""
+
+#: modules/file/stpfile.c:115
+msgid "Electrochemical Voltage (Vec)"
+msgstr ""
+
+#: modules/file/stpfile.c:116
+msgid "Topography and SPS"
+msgstr ""
+
+#: modules/file/stpfile.c:117
+msgid "Topography and SPS (scripted)"
+msgstr ""
+
+#: modules/file/stpfile.c:118
+msgid "Electrochemical Current (Iec)"
+msgstr ""
+
+#: modules/file/stpfile.c:119
+msgid "Friction or Phase"
+msgstr ""
+
+#: modules/file/stpfile.c:120
+msgid "AUX in BNC"
+msgstr ""
+
+#: modules/file/stpfile.c:121
+msgid "AUX in 3 (Sum)"
+msgstr ""
+
+#: modules/file/stpfile.c:122
+msgid "AUX in 4 (Raw Deflection)"
+msgstr ""
+
+#: modules/file/stpfile.c:123
+msgid "AUX in 5 (PicoPlus Aux BNC)"
+msgstr ""
+
+#: modules/file/stpfile.c:124
+msgid "AUX in 6 (Surface Potential)"
+msgstr ""
+
+#: modules/file/stpfile.c:125
+msgid "AUX in 7"
+msgstr ""
+
+#: modules/file/stpfile.c:126
+msgid "AUX in 8"
+msgstr ""
+
+#: modules/file/stpfile.c:127
+msgid "AUX in 9"
+msgstr ""
+
+#: modules/file/stpfile.c:128
+msgid "AUX in 10"
+msgstr ""
+
+#: modules/file/stpfile.c:129
+msgid "Topography and Flexgrid"
+msgstr ""
+
+#: modules/file/stpfile.c:130
+msgid "External"
+msgstr ""
+
+#: modules/file/stpfile.c:136
+msgid "Imports Molecular Imaging STP data files."
+msgstr ""
+
+#: modules/file/stpfile.c:149
+msgid "STP files (.stp)"
+msgstr ""
+
+#: modules/file/surffile.c:332
+msgid "Imports Surf data files."
+msgstr ""
+
+#: modules/file/surffile.c:345
+msgid "Surf files (.sur)"
+msgstr ""
+
+#: modules/file/talos.c:70
+msgid "Imports ThermoFisher Talos TEM images."
+msgstr ""
+
+#: modules/file/talos.c:83
+msgid "ThermoFisher Talos TEM image (.tif)"
+msgstr ""
+
+#: modules/file/tescan.c:114
+msgid "Imports Tescan SEM images."
+msgstr ""
+
+#: modules/file/tescan.c:127
+msgid "Tescan TIF SEM image (.tif)"
+msgstr ""
+
+#: modules/file/tescan.c:133
+msgid "Tescan two-part SEM image (.hdr + .png)"
+msgstr ""
+
+#: modules/file/tiaser.c:175
+msgid "Imports FEI Tecnai imaging and analysis (former Emispec) files."
+msgstr ""
+
+#: modules/file/tiaser.c:188
+msgid "FEI TIA (Emispec) data"
+msgstr ""
+
+#: modules/file/ttffile.c:180
+msgid "Imports Corning Tropel UltraSort files."
+msgstr ""
+
+#: modules/file/ttffile.c:193
+msgid "Corning Tropel UltraSort data (.ttf)"
+msgstr ""
+
+#: modules/file/ttffile.c:199
+msgid "Corning Tropel UltraSort CSV export (.csv)"
+msgstr ""
+
+#: modules/file/unisoku.c:142
+msgid "Imports Unisoku data files (two-part .hdr + .dat)."
+msgstr ""
+
+#: modules/file/unisoku.c:157
+msgid "Unisoku files (.hdr + .dat)"
+msgstr ""
+
+#: modules/file/unisoku.c:309
+msgid "format flags"
+msgstr ""
+
+#: modules/file/unisoku.c:340
+msgid "x scale parameters"
+msgstr ""
+
+#: modules/file/unisoku.c:350
+msgid "y scale parameters"
+msgstr ""
+
+#: modules/file/unisoku.c:360
+msgid "z scale parameters"
+msgstr ""
+
+#: modules/file/unisoku.c:367
+msgid "data type parameters"
+msgstr ""
+
+#: modules/file/win_stm.c:86
+msgid "Imports WinSTM (.stm) files."
+msgstr ""
+
+#: modules/file/win_stm.c:99
+msgid "WinSTM files (.stm)"
+msgstr ""
+
+#: modules/file/wipfile.c:282
+msgid "Imports WItec Project data files."
+msgstr ""
+
+#: modules/file/wipfile.c:295
+msgid "WItec Project files (.wip)"
+msgstr ""
+
+#: modules/file/wipfile.c:442
+msgid "Cannot read tag."
+msgstr ""
+
+#: modules/file/witec-asc.c:70
+msgid "Imports WITec ASCII export files."
+msgstr ""
+
+#: modules/file/witec-asc.c:83
+msgid "WITec ASCII files (.dat)"
+msgstr ""
+
+#: modules/file/witfile.c:205
+msgid "Imports WITec WIT data files."
+msgstr ""

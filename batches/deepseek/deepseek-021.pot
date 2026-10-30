@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/xyz/xyz_drift.c:267
+msgid "Analyzes drift in XYZ data."
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:281
+msgid "/Analyze _Drift..."
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:285
+msgid "Analyze and/or remove drift"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:389 modules/xyz/xyz_drift.c:840
+msgid "X drift"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:408 modules/xyz/xyz_drift.c:841
+msgid "Y drift"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:438
+msgid "z-axis drift"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:539
+msgid "Analyze XYZ Drift"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:564
+msgid "Reset Ran_ges"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:612
+msgid "_Guess parameters"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:775
+msgid "_X-range:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:797
+msgid "_Y-range:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:831 modules/xyz/xyz_drift.c:836
+msgid "2nd order polynomial"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:853
+msgid "Initial values"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:861
+msgid "_X drift:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:889 modules/xyz/xyz_drift.c:932
+#: modules/xyz/xyz_drift.c:977
+msgid "_fit"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:901
+msgid "_Y drift:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:946
+msgid "Z fit _type:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1002
+msgid "Search parameters"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1007
+msgid "_Neighbors used:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1024
+msgid "_Length threshold:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1043
+msgid "_Time threshold:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1061
+msgid "_Max iterations:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1083
+msgid "_Graph:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1088
+msgid "X drift:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1096 modules/xyz/xyz_drift.c:1114
+#: modules/xyz/xyz_drift.c:1131
+msgid "to inits"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1106
+msgid "Y drift:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1123
+msgid "Z drift:"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:1738
+msgid "No neighbors found"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:116
+msgid "XYZ data 1D FFT correction."
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:130
+msgid "/_FFT Filtering..."
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:134
+msgid "Filter data using FFT"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:151
+msgid "100 %"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:152
+msgid "20 %"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:153
+msgid "1 %"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:173
+msgid "_Axis"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:175
+msgid "_Logarithmic scale"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:206
+msgid "FFT corrected"
+msgstr ""
+
+#: modules/xyz/xyz_fft.c:368
+msgid "Calculating spectrum..."
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:176
+msgid "Rasterizes XYZ data to images."
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:190
+msgid "/_Rasterize..."
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:194
+msgid "Rasterize to image"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:206
+msgid "Field"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:225
+msgid "_Mask empty regions"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:228
+msgid "_Power"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:230
+msgid "_X-range"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:232
+msgid "_Y-range"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:347
+msgid "Rasterize XYZ Data"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:356
+msgid "Create Image _Directly"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:360
+msgid "XY points form a regular grid so interpolation is not necessary."
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:386
+msgid "Reset _Area"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:388
+msgid "_Previous Area"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:399
+msgid "Merged as too close"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:400
+msgid "Added on boundaries"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:711
+msgid ""
+"XYZ data regularization failed due to\n"
+"numerical instability or was interrupted."
+msgstr ""
+
+#: modules/xyz/xyz_reduce.c:55
+msgid "XYZ data size reduction by skipping points."
+msgstr ""
+
+#: modules/xyz/xyz_reduce.c:69
+msgid "/_Reduce Number of Points..."
+msgstr ""
+
+#: modules/xyz/xyz_reduce.c:73
+msgid "Reduce XYZ data size by skipping points"
+msgstr ""
+
+#: modules/xyz/xyz_reduce.c:82
+msgid "Skip"
+msgstr ""
+
+#: modules/xyz/xyz_reduce.c:93
+msgid "Reduction factor"
+msgstr ""
+
+#: modules/xyz/xyz_reduce.c:127
+msgid "Reduced points"
+msgstr ""
+
+#: modules/xyz/xyz_reduce.c:145
+msgid "Reduce XYZ Data"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:55
+msgid "XYZ data split based on direction."
+msgstr ""
+
+#: modules/xyz/xyz_split.c:69
+msgid "/Split by Direction..."
+msgstr ""
+
+#: modules/xyz/xyz_split.c:73
+msgid "Split XYZ data based on direction"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:82
+msgid "Left-right"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:83
+msgid "Upward-downward"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:92
+msgid "Split direction"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:129
+msgid "Split right direction"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:131
+msgid "Split down direction"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:139
+msgid "Split left direction"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:141
+msgid "Split up direction"
+msgstr ""
+
+#: modules/xyz/xyz_split.c:157
+msgid "Split XYZ Data"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:82
+msgid "XYZ data crop as time series."
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:96
+msgid "/Crop as _Time Series..."
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:100
+msgid "Crop XYZ data as time series"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:158
+msgid "Time cropped"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:179
+msgid "Crop XYZ Data as Time Series"
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:92
+msgid "Detect and remove steps in time series XYZ data."
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:106
+msgid "/Remove Steps from T_ime Series..."
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:110
+msgid "Remove steps from XYZ data"
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:137
+msgid "Positive threshold"
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:138
+msgid "Negative threshold"
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:139
+msgid "Step direction"
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:177
+msgid "Steps removed"
+msgstr ""
+
+#: modules/xyz/xyz_tstep.c:198
+msgid "Remove Steps from Time Series"
+msgstr ""
+
+#: modules/xyz/xyz_volumize.c:92 modules/xyz/xyz_volumize.c:110
+msgid "Split XYZ data stream image stack."
+msgstr ""
+
+#: modules/xyz/xyz_volumize.c:106
+msgid "/Split to Image _Stack..."
+msgstr ""
+
+#: modules/xyz/xyz_volumize.c:132
+msgid "F_rames"
+msgstr ""
+
+#: modules/xyz/xyz_volumize.c:133
+msgid "Border _width"
+msgstr ""
+
+#: modules/xyz/xyz_volumize.c:173
+msgid "Stack from XYZ data"
+msgstr ""
+
+#: modules/xyz/xyz_volumize.c:194
+msgid "Split to Image Stack"
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:98
+msgid "XYZ data z-drift correction."
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:112
+msgid "/Correct Z _Drift..."
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:116 modules/xyz/xyz_zdrift.c:203
+msgid "Correct z drift"
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:125
+msgid "Full data"
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:126
+msgid "XY neighbors"
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:140
+msgid "Neighbor distance"
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:180
+msgid "Z drift corrected"
+msgstr ""
+
+#: modules/xyz/xyz_zdrift.c:427
+msgid "Searching for neighbors..."
+msgstr ""
+
+#: modules/xyz/xyzops.c:89
+msgid "Elementary XYZ data operations."
+msgstr ""

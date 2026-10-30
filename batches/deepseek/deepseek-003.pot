@@ -1,0 +1,437 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/graph/graph_invert.c:52
+msgid "/_Basic Operations/_Invert"
+msgstr ""
+
+#: modules/graph/graph_invert.c:55
+msgid "Invert graph curves"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:77
+msgid "Physically transforms graph data to logarithmic scale."
+msgstr ""
+
+#: modules/graph/graph_logscale.c:91
+msgid "/_Correct Data/_Logscale Transform..."
+msgstr ""
+
+#: modules/graph/graph_logscale.c:94
+msgid "Transform graph axes to logarithmic scale"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:103
+msgid "Abscissa _X"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:104
+msgid "Ordinate _Y"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:108
+msgid "O_mit"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:109
+msgid "_Take absolute value"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:112
+msgid "Natural (e)"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:113
+msgid "10"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:114
+msgid "2"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:123
+msgid "Axes to transform"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:125
+msgid "Negative abscissa handling"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:127
+msgid "Negative ordinate handling"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:129 modules/graph/graph_logscale.c:131
+msgid "Base"
+msgstr ""
+
+#: modules/graph/graph_logscale.c:287
+msgid "Logscale Transform"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:91
+msgid "Evaluates the period of a one-dimensional periodic structure."
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:105
+msgid "/Measure _Features/_Period..."
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:108
+msgid "Measure grating period"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:126
+msgid "_Subtract background"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:127
+msgid "Show _leveled curve"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:166
+msgid "Measure Period"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:187
+msgid "Fourier Transform"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:189
+msgid "Autocorrelation"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:191
+msgid "Direct Methods"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:237
+msgid "Grating Period"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:250
+msgid "Simple FFT"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:251
+msgid "Refined FFT"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:252
+msgid "Simple ACF"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:253
+msgid "Multi-peak ACF"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:254
+msgid "Gravity centers"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:255
+msgid "Zero crossings"
+msgstr ""
+
+#: modules/graph/graph_measure_period.c:1050
+msgid "Leveled profile"
+msgstr ""
+
+#: modules/graph/graph_merge.c:34
+msgid "Merges and averages graph curves."
+msgstr ""
+
+#: modules/graph/graph_merge.c:48
+msgid "/_Correct Data/_Merge Curves"
+msgstr ""
+
+#: modules/graph/graph_merge.c:51
+msgid "Merge data of all curves"
+msgstr ""
+
+#: modules/graph/graph_merge.c:54
+msgid "/_Correct Data/_Average Curves"
+msgstr ""
+
+#: modules/graph/graph_merge.c:57
+msgid "Average all curves"
+msgstr ""
+
+#: modules/graph/graph_merge.c:168
+msgid "Average curve"
+msgstr ""
+
+#: modules/graph/graph_merge.c:178
+msgid "Merged curves"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:105
+msgid "Finds peaks on graph curves."
+msgstr ""
+
+#: modules/graph/graph_peaks.c:119
+msgid "/Measure _Features/Find _Peaks..."
+msgstr ""
+
+#: modules/graph/graph_peaks.c:122
+msgid "Find graph curve peaks"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:132
+msgid "Prominence"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:136
+msgid "Bilateral minimum"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:146
+msgid "_Background type"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:148
+msgid "Order peaks _by"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:150
+msgid "Invert (find valleys)"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:151
+msgid "Number of _peaks"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:152
+msgid "Save Peak Parameters"
+msgstr ""
+
+#: modules/graph/graph_peaks.c:190
+msgid "Graph Peaks"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:91
+msgid ""
+"Calculates one-dimensional statistical functions (height distribution, "
+"correlations, PSDF)."
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:105
+msgid "/_Statistics/Statistical _Functions..."
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:127
+msgid "O_versampling"
+msgstr ""
+
+#: modules/graph/graph_simplemech.c:90
+msgid "/_Force Distance/_Nanomechanical Fit..."
+msgstr ""
+
+#: modules/graph/graph_simplemech.c:110
+msgid "Approach curve"
+msgstr ""
+
+#: modules/graph/graph_simplemech.c:113
+msgid "Retract curve"
+msgstr ""
+
+#: modules/graph/graph_simplemech.c:516
+msgid "pick points"
+msgstr ""
+
+#: modules/graph/graph_sinebg.c:83
+msgid "Remove sine background"
+msgstr ""
+
+#: modules/graph/graph_sinebg.c:97
+msgid "/_Force Distance/_Remove Sine Background..."
+msgstr ""
+
+#: modules/graph/graph_sinebg.c:100
+msgid "Remove interference effects from FZ curve"
+msgstr ""
+
+#: modules/layer/axis.c:143
+msgid "Layer allowing selection of horizontal or vertical lines."
+msgstr ""
+
+#: modules/layer/cross.c:152
+msgid "Layer allowing selection of combined horizontal and vertical lines."
+msgstr ""
+
+#: modules/layer/ellipse.c:146
+msgid "Layer allowing selection of elliptic areas."
+msgstr ""
+
+#: modules/layer/line.c:179
+msgid "Layer allowing selection of arbitrary straight lines."
+msgstr ""
+
+#: modules/layer/path.c:174
+msgid "Layer allowing selection of a single long curve."
+msgstr ""
+
+#: modules/layer/point.c:172
+msgid ""
+"Layer allowing selection of several points, displayed as crosses or "
+"invisible."
+msgstr ""
+
+#: modules/layer/projective.c:142
+msgid "Layer allowing selection of a projective plane."
+msgstr ""
+
+#: modules/layer/rectangle.c:149
+msgid "Layer allowing selection of rectangular areas."
+msgstr ""
+
+#: modules/plugin-proxy.c:145
+msgid ""
+"Plug-in proxy is a module capable of querying, registering, and running "
+"external programs (plug-ins) on data pretending they are data processing or "
+"file loading/saving modules."
+msgstr ""
+
+#: modules/plugin-proxy.c:463
+msgid "/_Plug-Ins"
+msgstr ""
+
+#: modules/plugin-proxy.c:464
+#, c-format
+msgid "Run plug-in %s"
+msgstr ""
+
+#: modules/plugin-proxy.c:737 modules/plugin-proxy.c:838
+msgid "Plugin-proxy must be run as interactive."
+msgstr ""
+
+#: modules/plugin-proxy.c:743
+#, c-format
+msgid "Plug-in `%s' does not implement file loading."
+msgstr ""
+
+#: modules/plugin-proxy.c:761
+#, c-format
+msgid "Cannot read temporary file: %s."
+msgstr ""
+
+#: modules/plugin-proxy.c:768 modules/plugin-proxy.c:863
+#, c-format
+msgid "Cannot execute plug-in `%s': %s."
+msgstr ""
+
+#: modules/plugin-proxy.c:777 modules/plugin-proxy.c:872
+#, c-format
+msgid "Plug-in `%s' returned non-zero exit status: %d."
+msgstr ""
+
+#: modules/plugin-proxy.c:790
+#, c-format
+msgid "Plug-in `%s' did not return any meaningful data."
+msgstr ""
+
+#: modules/plugin-proxy.c:844
+#, c-format
+msgid "Plug-in `%s' does not implement file saving."
+msgstr ""
+
+#: modules/plugin-proxy.c:1204 modules/plugin-proxy.c:1213
+#, c-format
+msgid "Cannot create a temporary file: %s."
+msgstr ""
+
+#: modules/plugin-proxy.c:1221
+#, c-format
+msgid "Cannot fdopen() already open file: %s."
+msgstr ""
+
+#: modules/process/angle_dist.c:79
+msgid ""
+"Calculates two-dimensional distribution of angles, that is projections of "
+"slopes to all directions."
+msgstr ""
+
+#: modules/process/angle_dist.c:93
+msgid "/_Statistics/An_gle Distribution..."
+msgstr ""
+
+#: modules/process/angle_dist.c:97
+msgid "Calculate two-dimensional angle distribution"
+msgstr ""
+
+#: modules/process/angle_dist.c:113
+msgid "Number of steps"
+msgstr ""
+
+#: modules/process/angle_dist.c:149
+msgid "Angle distribution"
+msgstr ""
+
+#: modules/process/angle_dist.c:165
+msgid "Angle Distribution"
+msgstr ""
+
+#: modules/process/angle_dist.c:206
+msgid "Computing angle distribution..."
+msgstr ""
+
+#: modules/process/anneal_synth.c:109
+msgid "Generates images by annealing a lattice gas model."
+msgstr ""
+
+#: modules/process/anneal_synth.c:123
+msgid "/S_ynthetic/_Order and Disorder/_Anneal..."
+msgstr ""
+
+#: modules/process/anneal_synth.c:127
+msgid "Generate image by annealing a lattice gas"
+msgstr ""
+
+#: modules/process/anneal_synth.c:143
+msgid "_Initial temperature"
+msgstr ""
+
+#: modules/process/anneal_synth.c:144
+msgid "Final _temperature"
+msgstr ""
+
+#: modules/process/anneal_synth.c:145
+msgid "Component _fraction"
+msgstr ""
+
+#: modules/process/anneal_synth.c:146
+msgid "Enable three components"
+msgstr ""
+
+#: modules/process/anneal_synth.c:147
+msgid "F_raction of B"
+msgstr ""
+
+#: modules/process/anneal_synth.c:148
+msgid "Mixing energy AB"
+msgstr ""
+
+#: modules/process/anneal_synth.c:149
+msgid "Mixing energy AC"
+msgstr ""
+
+#: modules/process/anneal_synth.c:150
+msgid "Mixing energy BC"
+msgstr ""

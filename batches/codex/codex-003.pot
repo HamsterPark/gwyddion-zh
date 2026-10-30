@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: libprocess/gwyshapefitpreset.c:268
+msgid "Top edge sharpness"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:275
+msgid "Bottom tier height"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:276
+msgid "Middle tier height"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:277
+msgid "Top tier height"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:279
+msgid "Bottom tier tapering factor"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:280
+msgid "Middle tier tapering factor"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:281
+msgid "Top tier tapering factor"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:288
+msgid "Feature height"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:296
+msgid "Offset from origin in X"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:297
+msgid "Offset from origin in Y"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:303
+msgid "Corner roundness"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:308
+msgid "Width at base"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:309
+msgid "Width at the top"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:310
+msgid "Corner radius"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:314 libprocess/gwyshapefitpreset.c:326
+#: libprocess/gwyshapefitpreset.c:350 libprocess/gwyshapefitpreset.c:367
+#: libprocess/gwyshapefitpreset.c:391 libprocess/gwyshapefitpreset.c:411
+#: libprocess/gwyshapefitpreset.c:425 libprocess/gwyshapefitpreset.c:438
+#: libprocess/gwyshapefitpreset.c:455 libprocess/gwyshapefitpreset.c:469
+#: libprocess/gwyshapefitpreset.c:487 libprocess/gwyshapefitpreset.c:501
+msgid "X-coordinate of the center"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:315 libprocess/gwyshapefitpreset.c:327
+#: libprocess/gwyshapefitpreset.c:351 libprocess/gwyshapefitpreset.c:368
+#: libprocess/gwyshapefitpreset.c:392 libprocess/gwyshapefitpreset.c:412
+#: libprocess/gwyshapefitpreset.c:426 libprocess/gwyshapefitpreset.c:439
+#: libprocess/gwyshapefitpreset.c:456 libprocess/gwyshapefitpreset.c:470
+#: libprocess/gwyshapefitpreset.c:488 libprocess/gwyshapefitpreset.c:502
+msgid "Y-coordinate of the center"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:321 modules/process/mask_morph.c:145
+msgid "Radius"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:322
+msgid "Value at the apex"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:342
+msgid "Base plane longitudal coefficient"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:353 libprocess/gwyshapefitpreset.c:370
+#: libprocess/gwyshapefitpreset.c:394 libprocess/gwyshapefitpreset.c:414
+#: libprocess/gwyshapefitpreset.c:428 libprocess/gwyshapefitpreset.c:441
+#: libprocess/gwyshapefitpreset.c:458 libprocess/gwyshapefitpreset.c:472
+#: libprocess/gwyshapefitpreset.c:492
+msgid "Height of the feature"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:354
+msgid "Mean standard deviation"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:355 libprocess/gwyshapefitpreset.c:372
+#: libprocess/gwyshapefitpreset.c:396 libprocess/gwyshapefitpreset.c:416
+#: libprocess/gwyshapefitpreset.c:460 libprocess/gwyshapefitpreset.c:475
+msgid "Elongation ratio"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:356 libprocess/gwyshapefitpreset.c:373
+#: libprocess/gwyshapefitpreset.c:397 libprocess/gwyshapefitpreset.c:417
+#: libprocess/gwyshapefitpreset.c:444 libprocess/gwyshapefitpreset.c:461
+#: libprocess/gwyshapefitpreset.c:476
+msgid "Direction of elongation (φ=0 means y-axis)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:362
+msgid "Standard deviation 1"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:363
+msgid "Standard deviation 2"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:371
+msgid "Mean width"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:379 libprocess/gwyshapefitpreset.c:386
+msgid "Width 1"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:380 libprocess/gwyshapefitpreset.c:387
+msgid "Width 2"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:395
+msgid "Side length of the base"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:415
+msgid "Base radius"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:430 libprocess/gwyshapefitpreset.c:443
+msgid "Radius at apex"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:459
+msgid "Mean curvature at apex"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:482
+msgid "Radius 1"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:483
+msgid "Radius 2"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:490
+msgid "Mean circle radius"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:504
+msgid "Outer radius"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:507
+msgid "Distance between centers"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:508
+msgid "Inner radius"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:529 modules/process/indent_analyze.c:213
+msgid "Plane"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:530
+msgid "Step (one-sided)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:531
+msgid "Step (two-sided)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:532
+msgid "Grating (simple)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:533
+msgid "Grating (3-level)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:534
+msgid "Holes"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:535 modules/process/indent_analyze.c:206
+msgid "Sphere"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:536
+msgid "Half-sphere"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:537
+msgid "Cylinder (lying)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:540 modules/process/indent_analyze.c:208
+#: modules/process/indent_analyze.c:800
+msgid "Pyramid (rectangle)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:541
+msgid "Pyramid (diamond)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:542 modules/process/indent_analyze.c:207
+#: modules/process/indent_analyze.c:799
+msgid "Pyramid (3-sided)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:543
+msgid "Parabolic bump"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:544 libprocess/tip.c:497
+msgid "Cone"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:545
+msgid "Smooth cone"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:546
+msgid "Smooth pyramid"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:547
+msgid "Smooth pyramid (3-sided)"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:548
+msgid "Cylinder"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:549
+msgid "Ring"
+msgstr ""
+
+#: libprocess/gwyshapefitpreset.c:550
+msgid "Lunette"
+msgstr ""
+
+#: libprocess/lawn.c:1184 gwyddion/gwyddion.c:690
+#: modules/file/hdf5/shilpsfile.c:636 modules/file/hdf5/shilpsfile.c:637
+msgid "Unknown"
+msgstr ""
+
+#: libprocess/lawn.c:1664 libgwydgets/gwycombobox.c:573
+#: modules/cmap/cmap_classify.c:453 modules/cmap/cmap_classify.c:470
+msgid "Segment"
+msgstr ""
+
+#: libprocess/morph_lib.c:180 libprocess/tip.c:1095
+msgid "Dilation..."
+msgstr ""
+
+#: libprocess/morph_lib.c:260 libprocess/tip.c:1226
+msgid "Erosion..."
+msgstr ""
+
+#: libprocess/morph_lib.c:345
+msgid "Certainty map..."
+msgstr ""
+
+#: libprocess/morph_lib.c:481 libprocess/morph_lib.c:698
+#, c-format
+msgid "One image location produced refinement"
+msgid_plural "%d image locations produced refinement"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libprocess/morph_lib.c:539 libprocess/morph_lib.c:678
+#, c-format
+msgid "Iterating estimate (iteration %d)..."
+msgstr ""
+
+#: libprocess/morph_lib.c:638
+msgid "Searching for local maxima..."
+msgstr ""
+
+#: libprocess/morph_lib.c:662
+#, c-format
+msgid "Found one internal local maximum"
+msgid_plural "Found %d internal local maxima"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libprocess/tip.c:467
+msgid "Pyramid"
+msgstr ""
+
+#: libprocess/tip.c:468 libprocess/tip.c:474 libprocess/tip.c:480
+msgid "Pyramidal"
+msgstr ""
+
+#: libprocess/tip.c:473 modules/cmap/cmap_cutter.c:140
+msgid "Contact"
+msgstr ""
+
+#: libprocess/tip.c:479
+msgid "Noncontact"
+msgstr ""
+
+#: libprocess/tip.c:485
+msgid "Delta function"
+msgstr ""
+
+#: libprocess/tip.c:486
+msgid "Analytical"
+msgstr ""
+
+#: libprocess/tip.c:491 modules/process/fibre_synth.c:185
+msgid "Parabola"
+msgstr ""
+
+#: libprocess/tip.c:492 libprocess/tip.c:498 libprocess/tip.c:510
+msgid "Symmetric"
+msgstr ""
+
+#: libprocess/tip.c:503
+msgid "Elliptical parabola"
+msgstr ""
+
+#: libprocess/tip.c:504
+msgid "Asymmetric"
+msgstr ""
+
+#: libprocess/tip.c:509
+msgid "Ball on stick"
+msgstr ""
+
+#: libprocess/tip.c:1545
+msgid "Starting partial estimation"
+msgstr ""
+
+#: libprocess/tip.c:1617
+msgid "Starting full estimation..."
+msgstr ""
+
+#: libprocess/triangulation.c:3248 modules/process/calcoefs_view.c:793
+#: modules/process/lat_synth.c:843
+msgid "Triangulating..."
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:573
+msgid "Rotate view (R)"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:578
+msgid "Scale view as a whole (S)"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:583
+msgid "Scale value range (V)"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:588
+msgid "Move light source (L)"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:664
+msgid "Show full controls"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:689
+msgid "Hide full controls"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:705 modules/file/imgexport.c:3601
+#: modules/process/fit-shape.c:510
+msgid "adjective|Basic"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:710
+msgid "Light & Material"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:715
+msgid "Labels"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:720
+msgid "Colorbar"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:836
+msgid "φ:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:841
+msgid "θ:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:847
+msgid "_Scale:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:854
+msgid "_Value scale:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:860
+msgid "Ph_ysical scale:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:874
+msgid "verb|Set"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:884
+msgid "Line _width:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:884 libgwydgets/gwy3dwindow.c:1193
+#: libgwydgets/gwy3dwindow.c:1203 libgwydgets/gwy3dwindow.c:1234
+#: libgwydgets/gwygraphareadialog.c:157 libgwydgets/gwygraphareadialog.c:174
+#: app/filelist.c:468 app/gwyappfilechooser.c:1003 app/gwyappfilechooser.c:1129
+#: app/gwyappfilechooser.c:1291 app/gwymoduleutils-synth.c:153
+#: app/gwymoduleutils-synth.c:156 app/gwymoduleutils-synth.c:373
+#: app/gwyplaintool.c:984 app/param-table.c:3174 app/param-table.c:3202
+#: app/param-table.c:3230 app/param-table.c:3258 app/param-table.c:3289
+#: app/param-table.c:3317 app/param-table.c:3345 modules/file/nmmxyz.c:481
+#: modules/file/nmmxyz.c:484 modules/file/rawfile.c:541
+#: modules/file/rawfile.c:544 modules/graph/graph_terraces.c:446
+#: modules/graph/graph_terraces.c:450 modules/graph/graph_terraces.c:617
+#: modules/graph/graph_terraces.c:619 modules/process/binning.c:234
+#: modules/process/binning.c:238 modules/process/binning.c:240
+#: modules/process/classify.c:594 modules/process/classify.c:596
+#: modules/process/classify.c:598 modules/process/classify.c:600
+#: modules/process/classify.c:602 modules/process/classify.c:604
+#: modules/process/correct_perspective.c:352
+#: modules/process/correct_perspective.c:355 modules/process/dimensions.h:89
+#: modules/process/disc_synth.c:288 modules/process/entropy.c:186
+#: modules/process/extend.c:316 modules/process/facet_analysis.c:599
+#: modules/process/facet_measure.c:358 modules/process/grain_wshed.c:198
+#: modules/process/hough.c:174 modules/process/mark_disconn.c:207
+#: modules/process/mask_morph.c:226 modules/process/mcrop.c:256
+#: modules/process/multiprofile.c:261 modules/process/neural.c:550
+#: modules/process/neural.c:552 modules/process/ptranslate.c:247
+#: modules/process/ptranslate.c:254 modules/process/resample.c:241
+#: modules/process/scale.c:213 modules/process/scale.c:216
+#: modules/process/scars.c:292 modules/process/scars.c:295
+#: modules/process/straighten_path.c:299 modules/process/tip_blind.c:292
+#: modules/process/tip_blind.c:294 modules/process/tip_model.c:258
+#: modules/process/tip_model.c:259 modules/process/volumize_layers.c:257
+#: modules/process/volumize_layers.c:259 modules/process/volumize_layers.c:261
+#: modules/tools/corrlen.c:1075 modules/tools/cprofile.c:216
+#: modules/tools/cprofile.c:294 modules/tools/filter.c:247
+#: modules/tools/level3.c:211 modules/tools/maskedit.c:318
+#: modules/tools/maskedit.c:327 modules/tools/pathlevel.c:227
+#: modules/tools/profile.c:277 modules/tools/profile.c:359
+#: modules/tools/readvalue.c:285 modules/tools/readvalue.c:358
+#: modules/tools/roughness.c:312 modules/tools/roughness.c:377
+#: modules/tools/rprofile.c:229 modules/tools/spotremove.c:269
+#: modules/tools/stats.c:703 modules/volume/volume_planestat.c:451
+#: modules/volume/volume_psf.c:362 modules/volume/volume_rephase.c:185
+#: modules/volume/volume_scars.c:233 modules/volume/volume_scars.c:236
+#: modules/volume/volume_slice.c:252 modules/volume/volume_zposlevel.c:277
+#: modules/xyz/xyz_drift.c:735 modules/xyz/xyz_drift.c:750
+#: modules/xyz/xyz_raster.c:375 modules/xyz/xyz_raster.c:378
+#: modules/xyz/xyz_volumize.c:238 modules/xyz/xyz_volumize.c:241
+msgid "px"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:889
+msgid "Show _axes"
+msgstr ""

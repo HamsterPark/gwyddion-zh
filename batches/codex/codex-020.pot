@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/tipshape.c:111
+msgid "_Resolution"
+msgstr ""
+
+#: modules/process/tipshape.c:112
+msgid "Range minimum"
+msgstr ""
+
+#: modules/process/tipshape.c:113
+msgid "Range maximum"
+msgstr ""
+
+#: modules/process/tipshape.c:114
+msgid "Calculate uncertainties"
+msgstr ""
+
+#: modules/process/tipshape.c:115
+msgid "_X pixel size uncertainty"
+msgstr ""
+
+#: modules/process/tipshape.c:116
+msgid "_Y pixel size uncertainty"
+msgstr ""
+
+#: modules/process/tipshape.c:117
+msgid "Uncertainty _z"
+msgstr ""
+
+#: modules/process/tipshape.c:185 modules/process/tipshape.c:195
+msgid "Tip Area Function"
+msgstr ""
+
+#: modules/process/tipshape.c:206
+msgid "Recommended maximum"
+msgstr ""
+
+#: modules/process/tipshape.c:215
+msgid "Uncertainties"
+msgstr ""
+
+#: modules/process/tipshape.c:290 modules/process/tipshape.c:298
+msgid "Area function"
+msgstr ""
+
+#: modules/process/trimmed-mean.c:79
+msgid "Trimmed mean filtering and leveling."
+msgstr ""
+
+#: modules/process/trimmed-mean.c:93
+msgid "/_Level/_Trimmed Mean..."
+msgstr ""
+
+#: modules/process/trimmed-mean.c:97
+msgid "Trimmed mean leveling and filter"
+msgstr ""
+
+#: modules/process/trimmed-mean.c:115 modules/process/trimmed-mean.c:116
+msgid "_Number of values"
+msgstr ""
+
+#: modules/process/trimmed-mean.c:207
+msgid "Trimmed Mean"
+msgstr ""
+
+#: modules/process/trimmed-mean.c:218
+msgid "Trim Lowest"
+msgstr ""
+
+#: modules/process/trimmed-mean.c:224
+msgid "Trim Highest"
+msgstr ""
+
+#: modules/process/volumize_layers.c:113
+#: modules/volume/volume_localdetect.c:169
+msgid "_Z resolution"
+msgstr ""
+
+#: modules/process/volumize_layers.c:115 modules/volume/volume_calibrate.c:209
+msgid "Z _unit"
+msgstr ""
+
+#: modules/process/volumize_layers.c:205 modules/process/volumize_layers.c:224
+#: modules/volume/volume_drift.c:297 modules/volume/volume_drift.c:317
+msgid "Slice level"
+msgstr ""
+
+#: pygwy.c:130
+msgid "Pygwy, the Gwyddion Python wrapper."
+msgstr ""
+
+#: pygwy.c:271
+msgid "Python Interpreter Errors"
+msgstr ""
+
+#: pygwy.c:402
+msgid "Python interpreter error occurred."
+msgstr ""
+
+#: pygwy.c:502
+msgid "Function written in Python"
+msgstr ""
+
+#: modules/tools/corrlen.c:200 modules/tools/stats.c:161
+msgid "Save Statistical Quantities"
+msgstr ""
+
+#: modules/tools/corrlen.c:300 modules/tools/cprofile.c:287
+#: modules/tools/linestats.c:269 modules/tools/profile.c:349
+#: modules/tools/rprofile.c:301 modules/tools/sfunctions.c:335
+#: modules/tools/spectro.c:292
+msgid "<b>Options</b>"
+msgstr ""
+
+#: modules/tools/corrlen.c:1073 modules/tools/stats.c:701
+msgid "Selected area"
+msgstr ""
+
+#: modules/tools/corrlen.c:1074 modules/tools/stats.c:702
+msgid "%{w}i × %{h}i at (%{x}i, %{y}i)"
+msgstr ""
+
+#: modules/tools/corrlen.c:1078 modules/tools/stats.c:706
+msgid "%{w}v × %{h}v at (%{x}v, %{y}v)"
+msgstr ""
+
+#: modules/tools/cprofile.c:243 modules/tools/profile.c:226
+#: modules/tools/profile.c:305
+msgid "Profiles"
+msgstr ""
+
+#. TRANSLATORS: Number is verb here.
+#: modules/tools/distance.c:126 modules/tools/profile.c:200
+#: modules/tools/rprofile.c:164
+msgid "_Number lines"
+msgstr ""
+
+#: modules/tools/filter.c:249 modules/tools/stats.c:250
+msgid "Masking Mode"
+msgstr ""
+
+#: modules/tools/grainmeasure.c:85
+msgid ""
+"Grain measurement tool, calculates characteristics of selected continuous "
+"parts of mask."
+msgstr ""
+
+#: modules/tools/grainmeasure.c:128
+msgid "Grain Measure"
+msgstr ""
+
+#: modules/tools/grainmeasure.c:129
+msgid "Measure individual grains (continuous parts of mask)"
+msgstr ""
+
+#: modules/tools/grainremover.c:90
+msgid ""
+"Grain removal tool, removes continuous parts of mask and/or underlying data."
+msgstr ""
+
+#: modules/tools/grainremover.c:118 modules/tools/spotremove.c:193
+msgid "Laplace solver"
+msgstr ""
+
+#: modules/tools/grainremover.c:119
+msgid "Fractal correction"
+msgstr ""
+
+#: modules/tools/grainremover.c:120 modules/tools/spotremove.c:195
+msgid "Fractal-Laplace blend"
+msgstr ""
+
+#: modules/tools/grainremover.c:132 modules/tools/spotremove.c:209
+msgid "_Interpolation method"
+msgstr ""
+
+#: modules/tools/grainremover.c:148
+msgid "Grain Remove"
+msgstr ""
+
+#: modules/tools/grainremover.c:149
+msgid "Remove individual grains (continuous parts of mask)"
+msgstr ""
+
+#: modules/tools/level3.c:91
+msgid ""
+"Three-point level tool, levels data by subtracting a plane fitted through "
+"three selected points."
+msgstr ""
+
+#: modules/tools/level3.c:120 modules/tools/readvalue.c:184
+msgid "_Averaging radius"
+msgstr ""
+
+#: modules/tools/level3.c:121
+msgid "_Instant apply"
+msgstr ""
+
+#: modules/tools/level3.c:122
+msgid "Set plane to _zero"
+msgstr ""
+
+#: modules/tools/level3.c:137
+msgid "Three Point Level"
+msgstr ""
+
+#: modules/tools/level3.c:138
+msgid "Level data by fitting a plane through three points"
+msgstr ""
+
+#: modules/tools/linestats.c:106
+msgid ""
+"Row/column statistical function tool, mean values, medians, maxima, minima, "
+"RMS, ..., of rows or columns."
+msgstr ""
+
+#: modules/tools/linestats.c:150
+msgid "Ro_ws"
+msgstr ""
+
+#: modules/tools/linestats.c:151
+msgid "Co_lumns"
+msgstr ""
+
+#: modules/tools/linestats.c:183
+msgid "Row/Column Statistics"
+msgstr ""
+
+#: modules/tools/linestats.c:184
+msgid "Calculate row/column statistical functions"
+msgstr ""
+
+#: modules/tools/pathlevel.c:97
+msgid "Path level tool, performs row leveling along on user-set lines."
+msgstr ""
+
+#: modules/tools/pathlevel.c:141
+msgid "Path Level"
+msgstr ""
+
+#: modules/tools/pathlevel.c:142
+msgid "Level rows using intersections with given lines"
+msgstr ""
+
+#: modules/tools/profile.c:201 modules/tools/rprofile.c:165
+msgid "_Separate profiles"
+msgstr ""
+
+#: modules/tools/readvalue.c:187 modules/tools/spotremove.c:214
+msgid "Adapt color range to detail"
+msgstr ""
+
+#: modules/tools/roughness.c:151
+msgid "Calculate surface profile parameters."
+msgstr ""
+
+#: modules/tools/roughness.c:173 modules/tools/roughness.c:1001
+msgid "Texture"
+msgstr ""
+
+#: modules/tools/roughness.c:174 modules/tools/roughness.c:1001
+msgid "Waviness"
+msgstr ""
+
+#: modules/tools/roughness.c:175 modules/tools/roughness.c:211
+#: modules/tools/roughness.c:1001
+msgid "Roughness"
+msgstr ""
+
+#: modules/tools/roughness.c:176
+msgid "ADF"
+msgstr ""
+
+#: modules/tools/roughness.c:177
+msgid "BRC"
+msgstr ""
+
+#: modules/tools/roughness.c:178 modules/tools/roughness.c:1002
+msgid "Peak Count"
+msgstr ""
+
+#: modules/tools/roughness.c:191
+msgid "Save Roughness Parameters"
+msgstr ""
+
+#: modules/tools/roughness.c:212
+msgid "Calculate roughness parameters"
+msgstr ""
+
+#: modules/tools/roughness.c:372
+msgid "Roughness Parameters"
+msgstr ""
+
+#: modules/tools/roughness.c:375
+msgid "Selected line"
+msgstr ""
+
+#: modules/tools/roughness.c:376
+msgid "(%{x1}i, %{y1}i) to (%{x2}i, %{y2}i)"
+msgstr ""
+
+#: modules/tools/roughness.c:380
+msgid "(%{x1}v, %{y1}v) to (%{x2}v, %{y2}v)"
+msgstr ""
+
+#: modules/tools/roughness.c:383
+msgid "Cut-off"
+msgstr ""
+
+#: modules/tools/roughness.c:387
+msgid "Roughness average"
+msgstr ""
+
+#: modules/tools/roughness.c:390
+msgid "Root mean square roughness"
+msgstr ""
+
+#: modules/tools/roughness.c:393
+msgid "Maximum height of the roughness"
+msgstr ""
+
+#: modules/tools/roughness.c:396
+msgid "Maximum roughness valley depth"
+msgstr ""
+
+#: modules/tools/roughness.c:399
+msgid "Maximum roughness peak height"
+msgstr ""
+
+#: modules/tools/roughness.c:402 modules/tools/roughness.c:420
+msgid "Average maximum height of the roughness"
+msgstr ""
+
+#: modules/tools/roughness.c:405
+msgid "Average maximum roughness valley depth"
+msgstr ""
+
+#: modules/tools/roughness.c:408
+msgid "Average maximum roughness peak height"
+msgstr ""
+
+#: modules/tools/roughness.c:411 modules/tools/roughness.c:414
+msgid "Average third highest peak to third lowest valley height"
+msgstr ""
+
+#: modules/tools/roughness.c:417
+msgid "Average maximum height of the profile"
+msgstr ""
+
+#: modules/tools/roughness.c:423
+msgid "Maximum peak to valley roughness"
+msgstr ""
+
+#: modules/tools/roughness.c:426
+msgid "Skewness"
+msgstr ""
+
+#: modules/tools/roughness.c:429
+msgid "Kurtosis"
+msgstr ""
+
+#: modules/tools/roughness.c:432
+msgid "Waviness average"
+msgstr ""
+
+#: modules/tools/roughness.c:435
+msgid "Root mean square waviness"
+msgstr ""
+
+#: modules/tools/roughness.c:438
+msgid "Waviness maximum height"
+msgstr ""
+
+#: modules/tools/roughness.c:441
+msgid "Maximum height of the profile"
+msgstr ""
+
+#: modules/tools/roughness.c:446
+msgid "Spatial"
+msgstr ""
+
+#: modules/tools/roughness.c:453
+msgid "Mean spacing of profile irregularities"
+msgstr ""
+
+#: modules/tools/roughness.c:456
+msgid "Average wavelength of the profile"
+msgstr ""
+
+#: modules/tools/roughness.c:459
+msgid "Root mean square (RMS) wavelength of the profile"
+msgstr ""
+
+#: modules/tools/roughness.c:464
+msgid "parameters|Hybrid"
+msgstr ""
+
+#: modules/tools/roughness.c:465
+msgid "Average absolute slope"
+msgstr ""
+
+#: modules/tools/roughness.c:468
+msgid "Root mean square (RMS) slope"
+msgstr ""
+
+#: modules/tools/roughness.c:474
+msgid "Developed profile length"
+msgstr ""
+
+#: modules/tools/roughness.c:477
+msgid "Profile length ratio"
+msgstr ""
+
+#: modules/tools/roughness.c:482
+msgid "parameters|Functional"
+msgstr ""

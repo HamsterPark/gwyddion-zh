@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/witfile.c:218
+msgid "WITec files (.wit)"
+msgstr ""
+
+#: modules/file/wrustfile.c:68
+msgid "Imports AFM files from Department of Nanometrology, WRUST."
+msgstr ""
+
+#: modules/file/wrustfile.c:81
+msgid "WRUST Department of Nanometrology AFM data (.dat)"
+msgstr ""
+
+#: modules/file/wsffile.c:85
+msgid "Imports WSF ASCII files."
+msgstr ""
+
+#: modules/file/wsffile.c:98
+msgid "WSF ASCII files (.wsf)"
+msgstr ""
+
+#: modules/file/wsffile.c:160
+msgid "File header does not end with an empty line."
+msgstr ""
+
+#: modules/file/wsxmfile.c:118
+msgid "Imports Nanotec WSxM data files."
+msgstr ""
+
+#: modules/file/wsxmfile.c:131
+msgid "WSxM files (.tom, .top, .stp)"
+msgstr ""
+
+#: modules/file/wsxmfile.c:137
+msgid "WSxM curve files (.cur)"
+msgstr ""
+
+#: modules/file/wsxmfile.c:377
+#, c-format
+msgid "Unknown data type `%s'."
+msgstr ""
+
+#: modules/file/xyzexport.c:80
+msgid "Exports data as simple XYZ text file."
+msgstr ""
+
+#: modules/file/xyzexport.c:93
+msgid "XYZ text data (.xyz)"
+msgstr ""
+
+#: modules/file/xyzexport.c:207
+msgid "XYZ data:"
+msgstr ""
+
+#: modules/file/xyzexport.c:213
+msgid "Lateral units:"
+msgstr ""
+
+#: modules/file/xyzexport.c:256
+msgid "Export XYZ"
+msgstr ""
+
+#: modules/file/zeiss.c:62
+msgid "Imports Carl Zeiss SEM images."
+msgstr ""
+
+#: modules/file/zeiss.c:75
+msgid "Carl Zeiss SEM scans (.tif)"
+msgstr ""
+
+#: modules/file/zeissczi.c:136
+msgid "Imports Carl Zeiss CZI images."
+msgstr ""
+
+#: modules/file/zeissczi.c:149
+msgid "Carl Zeiss CZI images (.czi)"
+msgstr ""
+
+#: modules/file/zeisslsm.c:363
+msgid "Imports Carl Zeiss CLSM images."
+msgstr ""
+
+#: modules/file/zeisslsm.c:376
+msgid "Carl Zeiss CLSM images (.lsm)"
+msgstr ""
+
+#: modules/file/zemax.c:68
+msgid "Imports Zemax grid sag data files."
+msgstr ""
+
+#: modules/file/zemax.c:81
+msgid "Zemax grid sag data (.dat)"
+msgstr ""
+
+#: modules/file/zemax.c:169
+#, c-format
+msgid "Data line %u does not contain four items."
+msgstr ""
+
+#: modules/file/zemax.c:291
+#, c-format
+msgid "Unit code %d is invalid or unsupported."
+msgstr ""
+
+#: modules/file/zemax.c:314
+msgid "The first line contains too many items."
+msgstr ""
+
+#: modules/file/zmgfile.c:67
+msgid "Imports KLA Zeta profilometry files."
+msgstr ""
+
+#: modules/file/zmgfile.c:80
+msgid "KLA Zeta profilometry files (.zmg)"
+msgstr ""
+
+#: modules/file/zonfile.c:111
+msgid "Reads Keyence ZON files."
+msgstr ""
+
+#: modules/file/zonfile.c:124
+msgid "Keyence ZON data (.zon)"
+msgstr ""
+
+#: modules/file/zonfile.c:430
+#, c-format
+msgid "Rows stride %u does not match length and bytes per item (%u×%u)."
+msgstr ""
+
+#: modules/file/zonfile.c:546
+#, c-format
+msgid "Libzstd error while reading the zst file: %s."
+msgstr ""
+
+#: modules/file/zyvex.c:66
+msgid "Imports ZyVector Scanz files."
+msgstr ""
+
+#: modules/file/zyvex.c:79
+msgid "ZyVector Scanz files (.zad)"
+msgstr ""
+
+#: modules/file/zyvex.c:195
+#, c-format
+msgid "Data type `%s' is invalid or unsupported."
+msgstr ""
+
+#: modules/file/zyvex.c:637
+#, c-format
+msgid "Compressed data CRC mismatch for channel `%s'."
+msgstr ""
+
+#: modules/file/zyvex.c:657
+#, c-format
+msgid "Data CRC mismatch for channel `%s'."
+msgstr ""

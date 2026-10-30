@@ -1,0 +1,496 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: libgwyddion/gwyexpr.c:863
+msgid "Invalid token"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:871
+msgid "Empty expression"
+msgstr ""
+
+#. TRANSLATORS: %c is replaced with +, -, *, /, etc.
+#: libgwyddion/gwyexpr.c:1105
+#, c-format
+msgid "Missing operator %c argument"
+msgstr ""
+
+#. TRANSLATORS: %c is replaced with +, -, *, /, etc.
+#: libgwyddion/gwyexpr.c:1112
+#, c-format
+msgid "Invalid operator %c argument"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced with sin, cos, sqrt, etc.
+#: libgwyddion/gwyexpr.c:1160
+#, c-format
+msgid "Missing argument of %s"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced with sin, cos, sqrt, etc.
+#: libgwyddion/gwyexpr.c:1167
+#, c-format
+msgid "Invalid argument of %s"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1216
+msgid "Missing opening parenthesis"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1257
+msgid "Missing closing parenthesis"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1261
+msgid "Empty parentheses"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1269
+msgid "Stray comma"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1304
+#, c-format
+msgid "Stray symbol %d"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1355
+msgid "Trailing garbage"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1374
+msgid "Stack is not executable"
+msgstr ""
+
+#: libgwyddion/gwyexpr.c:1484
+msgid "Unresolved identifiers"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1270
+msgid "vdW: semisphere"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1284
+msgid "vdW: pyramide"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1296
+msgid "vdW: truncated pyramid"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1308
+msgid "vdW: sphere"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1320
+msgid "vdW: offset sphere"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1332
+msgid "vdW: two spheres"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1345
+msgid "vdW: cone"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1357
+msgid "vdW: cylinder"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1369
+msgid "vdW: paraboloid"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1381
+msgid "Hertz: spherical"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1393
+msgid "Hertz: spherical, fixed film"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1405
+msgid "Hertz: spherical, free film"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1417
+msgid "DMT: spherical"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1429
+msgid "Sneddon: conical"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1441
+msgid "Sneddon: conical, fixed film"
+msgstr ""
+
+#: libgwyddion/gwyfdcurvepreset.c:1453
+msgid "Sneddon: conical, free film"
+msgstr ""
+
+#: libgwyddion/gwyinventory.c:1309 libgwydgets/gwycombobox.c:466
+#: libgwydgets/gwycombobox.c:527 libgwydgets/gwygraphwindow.c:718
+#: app/data-browser-aux.c:1351 app/data-browser-aux.c:1423
+#: app/data-browser-aux.c:1479 app/data-browser-aux.c:1535
+#: app/data-browser-aux.c:3202 app/data-browser-aux.c:3213
+#: app/data-browser.c:2348 app/data-browser.c:3050 app/data-browser.c:3807
+#: app/data-browser.c:3909 app/data-browser.c:4137 app/data-browser.c:4453
+#: app/data-browser.c:4572 app/data-browser.c:4941 app/data-browser.c:5008
+#: app/data-browser.c:5332 app/gwyappfilechooser.c:1285
+#: app/gwyresultsexport.c:808 app/resource-editor.c:360
+#: modules/cmap/cmap_align.c:658 modules/cmap/cmap_align.c:659
+#: modules/cmap/cmap_curvefilter.c:194 modules/cmap/cmap_cutter.c:345
+#: modules/cmap/cmap_cutter.c:668 modules/cmap/cmap_extractcurve.c:568
+#: modules/cmap/cmap_extractcurve.c:569 modules/cmap/cmap_fdfit.c:1187
+#: modules/cmap/cmap_fdfit.c:1188 modules/cmap/cmap_filter.c:585
+#: modules/cmap/cmap_filter.c:586 modules/cmap/cmap_fit.c:1145
+#: modules/cmap/cmap_fit.c:1146 modules/cmap/cmap_fztofd.c:507
+#: modules/cmap/cmap_fztofd.c:508 modules/cmap/cmap_linestat.c:417
+#: modules/cmap/cmap_lockin.c:879 modules/cmap/cmap_peaks.c:443
+#: modules/cmap/cmap_polylevel.c:692 modules/cmap/cmap_polylevel.c:693
+#: modules/cmap/cmap_possearch.c:644 modules/cmap/cmap_possearch.c:645
+#: modules/cmap/cmap_simplemech.c:1002 modules/cmap/cmap_simplemech.c:1003
+#: modules/cmap/cmap_sinebg.c:630 modules/cmap/cmap_sinebg.c:631
+#: modules/file/formats3d.c:913 modules/file/lafmdmap.c:203
+#: modules/file/xyzexport.c:181 modules/process/batchcolor.c:1277
+#: modules/process/convolution_filter.c:658
+msgid "Untitled"
+msgstr ""
+
+#: libgwyddion/gwynlfit.c:402 modules/cmap/cmap_fdfit.c:862
+#: modules/cmap/cmap_fit.c:884 modules/cmap/cmap_lockin.c:576
+#: modules/cmap/cmap_sinebg.c:451 modules/process/fit-shape.c:1349
+msgid "Fitting..."
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1587 libprocess/gwyprocessenums.c:94
+#: libprocess/gwyshapefitpreset.c:538 modules/process/psf-fit.c:172
+#: modules/tools/corrlen.c:144
+msgid "Gaussian"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1602
+msgid "Gaussian (PSDF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1615
+msgid "Gaussian (ACF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1628
+msgid "Gaussian (HHCF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1641
+msgid "Gaussian (RPSDF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1654
+msgid "Two Gaussians (PSDF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1669 libprocess/gwyshapefitpreset.c:551
+#: modules/tools/corrlen.c:145 modules/xyz/xyz_drift.c:832
+#: modules/xyz/xyz_drift.c:837 modules/xyz/xyz_drift.c:1811
+msgid "Exponential"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1681
+msgid "Exponential (PSDF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1694
+msgid "Exponential (ACF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1706
+msgid "Exponential (HHCF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1719
+msgid "Exponential (RPSDF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1733
+msgid "K-correlated (PSDF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1747
+msgid "Power-exponential (ACF)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1760
+msgid "Polynomial (order 0)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1771 modules/xyz/xyz_drift.c:1797
+msgid "Polynomial (order 1)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1782
+msgid "Polynomial (order 2)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1794
+msgid "Polynomial (order 3)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1807
+msgid "Polynomial (order 4)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1820
+msgid "Polynomial (order 5)"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1834
+msgid "Square wave"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1850
+msgid "Parabolic step"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1866
+msgid "Smooth slanted step"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1883
+msgid "Smooth bent step"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1899
+msgid "Boltzmann bent step"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1915 modules/process/relate.c:221
+msgid "Power"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1927 libprocess/gwyshapefitpreset.c:539
+msgid "Lorentzian"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1941
+msgid "Sinc"
+msgstr ""
+
+#: libgwyddion/gwynlfitpreset.c:1953
+msgid "Sine"
+msgstr ""
+
+#: libgwyddion/gwyresource.c:886
+msgid "Resource directory cannot be created."
+msgstr ""
+
+#: libgwyddion/gwyresults.c:1679
+msgid "Yes"
+msgstr ""
+
+#: libgwyddion/gwyresults.c:1679
+msgid "No"
+msgstr ""
+
+#: libgwyddion/gwyresults.c:1695
+msgid "(fixed)"
+msgstr ""
+
+#: libgwyddion/gwyresults.c:1801 libgwydgets/gwy3dwindow.c:836
+#: libgwydgets/gwy3dwindow.c:841 libgwydgets/gwy3dwindow.c:1011
+#: libgwydgets/gwy3dwindow.c:1018 app/param-table.c:7320
+#: modules/process/correct_affine.c:459 modules/process/facet_analysis.c:604
+#: modules/process/facet_analysis.c:641 modules/process/facet_analysis.c:643
+#: modules/process/facet_analysis.c:645 modules/process/facet_analysis.c:679
+#: modules/process/facet_analysis.c:910 modules/process/facet_analysis.c:911
+#: modules/process/facet_analysis.c:1142 modules/process/facet_analysis.c:1144
+#: modules/process/facet_analysis.c:1146 modules/process/facet_measure.c:362
+#: modules/process/facet_measure.c:366 modules/process/facet_measure.c:368
+#: modules/process/facet_measure.c:535 modules/process/facet_measure.c:536
+#: modules/process/facet_measure.c:537 modules/process/facet_measure.c:541
+#: modules/process/facet_measure.c:957 modules/process/facet_measure.c:959
+#: modules/process/facet_measure.c:961 modules/process/grain_stat.c:358
+#: modules/process/grain_stat.c:622 modules/process/indent_analyze.c:346
+#: modules/process/measure_lattice.c:272 modules/process/rotate.c:280
+#: modules/tools/distance.c:180 modules/tools/distance.c:484
+msgid "deg"
+msgstr ""
+
+#: libgwyddion/gwyresults.c:1971 modules/cmap/cmap_fdfit.c:513
+#: modules/cmap/cmap_fdfit.c:548 modules/cmap/cmap_fdfit.c:589
+#: modules/graph/graph_cd.c:710 modules/graph/graph_fdfit.c:814
+#: modules/graph/graph_fit.c:863 modules/process/grain_stat.c:261
+#: modules/tools/grainmeasure.c:202 modules/volume/volume_fdfit-WTF.c:1128
+#: modules/volume/volume_fdfit.c:1128 modules/xyz/xyz_drift.c:1092
+#: modules/xyz/xyz_drift.c:1110 modules/xyz/xyz_drift.c:1127
+msgid "N.A."
+msgstr ""
+
+#: libgwyddion/gwyutils.c:1658
+#, c-format
+msgid "Data ended prematurely at line %d and column %d."
+msgstr ""
+
+#: libgwyddion/gwyutils.c:1663
+#, c-format
+msgid "Malformed data encountered at line %d and column %d."
+msgstr ""
+
+#: libgwyddion/gwyutils.c:1681
+#, c-format
+msgid "Line %d has %d columns instead of expected %d."
+msgstr ""
+
+#: libgwyddion/gwyutils.c:1716
+msgid "Empty data."
+msgstr ""
+
+#: libprocess/cdline.c:568
+msgid "Edge height (right)"
+msgstr ""
+
+#: libprocess/cdline.c:569 libprocess/cdline.c:578
+#: modules/process/pat_synth.c:2274
+msgid "Edge"
+msgstr ""
+
+#: libprocess/cdline.c:577
+msgid "Edge height (left)"
+msgstr ""
+
+#: libprocess/cdline.c:586
+msgid "Step height (positive)"
+msgstr ""
+
+#: libprocess/cdline.c:587 libprocess/cdline.c:596
+#: libgwydgets/gwydgetenums.c:48 modules/process/hough.c:81
+msgid "Line"
+msgstr ""
+
+#: libprocess/cdline.c:595
+msgid "Step height (negative)"
+msgstr ""
+
+#: libprocess/cdline.c:604
+msgid "Circle (down)"
+msgstr ""
+
+#: libprocess/cdline.c:605 libprocess/cdline.c:614
+#: libgwydgets/gwygraphareadialog.c:552 modules/process/hough.c:82
+#: modules/process/pat_synth.c:2568
+msgid "Circle"
+msgstr ""
+
+#: libprocess/cdline.c:613
+msgid "Circle (up)"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:59
+msgid "Grain number"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:68 modules/process/curvature.c:510
+msgid "Center x position"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:77 modules/process/curvature.c:511
+msgid "Center y position"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:86
+msgid "Minimum value"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:95
+msgid "Maximum value"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:104 modules/graph/graph_stats.c:226
+#: modules/graph/graph_stats.c:238 modules/process/bdep_synth.c:110
+#: modules/tools/filter.c:141
+msgid "Mean value"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:113 modules/tools/filter.c:142
+msgid "Median value"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:122
+msgid "RMS value"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:131
+msgid "Minimum value on boundary"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:140
+msgid "Maximum value on boundary"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:149
+msgid "Pixel area"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:158 modules/tools/stats.c:730
+msgid "Projected area"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:167 modules/tools/stats.c:734
+msgid "Surface area"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:176
+msgid "Equivalent square side"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:185
+msgid "Equivalent disc radius"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:194
+msgid "Area above half-height"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:203
+msgid "Area of convex hull"
+msgstr ""
+
+#. TRANSLATORS: Grain volume calculated using basis (foot) set to
+#. * zero.
+#: libprocess/gwygrainvalue.c:214
+msgid "Zero basis volume"
+msgstr ""
+
+#. TRANSLATORS: Grain volume calculated using basis (foot) set to the
+#. * grain minimum.
+#: libprocess/gwygrainvalue.c:225
+msgid "Grain minimum basis volume"
+msgstr ""
+
+#. TRANSLATORS: Grain volume calculated using basis (foot) set to the
+#. * Laplacian background.
+#: libprocess/gwygrainvalue.c:236
+msgid "Laplacian background basis volume"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:245
+msgid "Projected boundary length"
+msgstr ""

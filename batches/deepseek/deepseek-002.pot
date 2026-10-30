@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/cmap/cmap_peaks.c:184
+msgid "Apply _individually"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:190
+msgid "Window size"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:234
+msgid "Number of peaks"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:265
+msgid "Count Peaks"
+msgstr ""
+
+#: modules/cmap/cmap_peaks.c:515
+msgid "No data"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:129
+msgid "Picks a quantity at some threshold position."
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:143
+msgid "/_Position Search..."
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:147
+msgid "Search for a threshold"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:156
+msgid "Below threshold"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:157
+msgid "Above threshold"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:160
+msgid "Left to right"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:161
+msgid "Right to left"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:164
+msgid "Extract quantity"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:178
+msgid "Pick value curve"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:179
+msgid "Search curve"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:279
+msgid "Search for threshold"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:180
+msgid "/_Nanomechanical Fit..."
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:213
+msgid "Force curve"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:221
+msgid "Output images"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:259
+#, c-format
+msgid "%s: Curves have to be segmented."
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:380
+msgid "Control points"
+msgstr ""
+
+#: modules/cmap/cmap_sinebg.c:125
+msgid "Remove sine background from curves."
+msgstr ""
+
+#: modules/cmap/cmap_sinebg.c:139
+msgid "/Remove _Sine Background..."
+msgstr ""
+
+#: modules/cmap/cmap_sinebg.c:143
+msgid "Remove sine background from all curves"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:85
+msgid "Volumize curves."
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:99
+msgid "/_Volumize Curves..."
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:103
+msgid "Volumize curves"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:113
+msgid "Beginning"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:114
+msgid "End"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:123
+msgid "_Ordinate"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:126
+msgid "_Cut curves"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:127
+msgid "_Size"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:128
+msgid "_Cut data from"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:182
+#, c-format
+msgid "%s: (Segment %d)"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:214
+msgid "Volumize Curves"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:317
+msgid "No data to convert."
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:320
+#, c-format
+msgid "Z mismatch, loadable volume size: %d × %d × %d"
+msgstr ""
+
+#: modules/cmap/cmap_volumize.c:324
+#, c-format
+msgid "Volume size: %d × %d × %d"
+msgstr ""
+
+#: modules/graph/graph_align.c:60
+msgid "Aligns graph curves."
+msgstr ""
+
+#: modules/graph/graph_align.c:74
+msgid "/_Correct Data/_Align"
+msgstr ""
+
+#: modules/graph/graph_cd.c:136
+msgid "Critical dimension measurements"
+msgstr ""
+
+#: modules/graph/graph_cd.c:150
+msgid "/Measure _Features/_Critical Dimension..."
+msgstr ""
+
+#: modules/graph/graph_cd.c:153
+msgid "Fit critical dimension"
+msgstr ""
+
+#: modules/graph/graph_cd.c:347
+msgid "_Draw whole circle"
+msgstr ""
+
+#: modules/graph/graph_cut.c:65
+msgid "Cut graph"
+msgstr ""
+
+#: modules/graph/graph_cut.c:79
+msgid "/_Basic Operations/_Cut..."
+msgstr ""
+
+#: modules/graph/graph_cut.c:82
+msgid "Extract part of graph into new one"
+msgstr ""
+
+#: modules/graph/graph_cut.c:98
+msgid "Cut _all curves"
+msgstr ""
+
+#: modules/graph/graph_cut.c:138
+msgid "Cut Graph"
+msgstr ""
+
+#: modules/graph/graph_dos_spectrum.c:42
+msgid "DOS Spectrum"
+msgstr ""
+
+#: modules/graph/graph_dos_spectrum.c:56
+msgid "/Measure _Features/_DOS Spectrum"
+msgstr ""
+
+#: modules/graph/graph_dos_spectrum.c:59
+msgid "Calculate DOS spectrum from I-V tunneling spectroscopy"
+msgstr ""
+
+#: modules/graph/graph_dos_spectrum.c:95
+#, c-format
+msgid "%s: Graph should be I-V spectroscopy."
+msgstr ""
+
+#: modules/graph/graph_dos_spectrum.c:115
+#, c-format
+msgid "DOS Spectrum for \"%s\""
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:59
+msgid "Exports graph data to text files."
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:73
+msgid "/_Export/_Text..."
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:76
+msgid "Export graph data to a text file"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:85
+msgid "Plain text"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:86
+msgid "Gnuplot friendly"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:87
+msgid "Comma separated values"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:88
+msgid "Origin friendly"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:89
+msgid "Igor Pro text wave"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:100
+msgid "Export _units"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:101
+msgid "Export _labels"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:102
+msgid "Export _metadata"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:103
+msgid "POSIX _number format"
+msgstr ""
+
+#: modules/graph/graph_export_ascii.c:104
+msgid "Single _merged abscissa"
+msgstr ""
+
+#: modules/graph/graph_export_bitmap.c:32
+msgid "Export graph into bitmap"
+msgstr ""
+
+#: modules/graph/graph_export_bitmap.c:46
+msgid "/_Export/_Bitmap"
+msgstr ""
+
+#: modules/graph/graph_export_bitmap.c:49
+msgid "Export graph to a raster image"
+msgstr ""
+
+#: modules/graph/graph_export_bitmap.c:63
+msgid "Export to Image"
+msgstr ""
+
+#: modules/graph/graph_export_vector.c:33
+msgid "Exports graphs to PostScript"
+msgstr ""
+
+#: modules/graph/graph_export_vector.c:47
+msgid "/_Export/_PostScript"
+msgstr ""
+
+#: modules/graph/graph_export_vector.c:50
+msgid "Export graph to PostScript"
+msgstr ""
+
+#: modules/graph/graph_export_vector.c:59
+msgid "Export to PostScript"
+msgstr ""
+
+#: modules/graph/graph_fdfit.c:169
+msgid "Fit force-distance data"
+msgstr ""
+
+#: modules/graph/graph_fdfit.c:183
+msgid "/_Force Distance/_Fit FD Curve..."
+msgstr ""
+
+#: modules/graph/graph_fdfit.c:186
+msgid "Fit a force-distance curve"
+msgstr ""
+
+#: modules/graph/graph_filter.c:36
+msgid "Remove graph noise by filtering."
+msgstr ""
+
+#: modules/graph/graph_filter.c:50
+msgid "/_Correct Data/_Filter"
+msgstr ""
+
+#: modules/graph/graph_filter.c:53
+msgid "Remove noise from graph curves"
+msgstr ""
+
+#: modules/graph/graph_fit.c:182
+msgid "Fit graph with function"
+msgstr ""
+
+#: modules/graph/graph_fit.c:196
+msgid "/Measure _Features/_Fit Function..."
+msgstr ""
+
+#: modules/graph/graph_fit.c:199
+msgid "Fit a function on graph data"
+msgstr ""
+
+#: modules/graph/graph_fit.c:390
+msgid "Copy all fitted values to estimates"
+msgstr ""
+
+#: modules/graph/graph_fit.c:462
+msgid "Plot full range"
+msgstr ""
+
+#: modules/graph/graph_fit.c:472
+msgid "Create a difference graph"
+msgstr ""
+
+#: modules/graph/graph_flip.c:39
+msgid "Flip graph along the y axis."
+msgstr ""
+
+#: modules/graph/graph_flip.c:53
+msgid "/_Basic Operations/_Flip"
+msgstr ""
+
+#: modules/graph/graph_flip.c:56
+msgid "Flip graph along the y axis"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:93
+msgid "Min. distance"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:94
+msgid "Max. distance"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:95
+msgid "Min. force"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:96
+msgid "Max. force"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:97
+msgid "Pick from graph"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:103
+msgid "Convert FZ to FD curve"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:117
+msgid "/_Force Distance/_FZ to FD Curve..."
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:139
+msgid "Z_ero point"
+msgstr ""
+
+#: modules/graph/graph_fztofd.c:145
+msgid "Zero position"
+msgstr ""
+
+#: modules/graph/graph_invert.c:38
+msgid "Invert graph."
+msgstr ""

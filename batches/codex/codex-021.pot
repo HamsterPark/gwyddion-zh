@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/tools/roughness.c:483
+msgid "Swedish height"
+msgstr ""
+
+#: modules/tools/roughness.c:825
+msgid "No profile in the image selected."
+msgstr ""
+
+#: modules/tools/roughness.c:1002
+msgid "Amplitude Distribution Function"
+msgstr ""
+
+#: modules/tools/roughness.c:1002
+msgid "The Bearing Ratio Curve"
+msgstr ""
+
+#: modules/tools/roughness.c:1032
+msgid "Surface Profiles"
+msgstr ""
+
+#: modules/tools/stats.c:130
+msgid "Statistics tool."
+msgstr ""
+
+#: modules/tools/stats.c:179
+msgid "Statistical quantities"
+msgstr ""
+
+#: modules/tools/stats.c:262
+msgid "Moment-Based"
+msgstr ""
+
+#: modules/tools/stats.c:266
+msgid "Order-Based"
+msgstr ""
+
+#: modules/tools/stats.c:270
+msgid "Hybrid"
+msgstr ""
+
+#: modules/tools/stats.c:274
+msgid "Other"
+msgstr ""
+
+#: modules/tools/stats.c:712
+msgid "Average value"
+msgstr ""
+
+#: modules/tools/stats.c:713
+msgid "RMS roughness"
+msgstr ""
+
+#: modules/tools/stats.c:714
+msgid "RMS (grain-wise)"
+msgstr ""
+
+#: modules/tools/stats.c:715 modules/volume/volume_planestat.c:207
+msgid "Mean roughness"
+msgstr ""
+
+#: modules/tools/stats.c:724
+msgid "Maximum peak height"
+msgstr ""
+
+#: modules/tools/stats.c:725
+msgid "Maximum pit depth"
+msgstr ""
+
+#: modules/tools/stats.c:726
+msgid "Maximum height"
+msgstr ""
+
+#: modules/tools/stats.c:738
+msgid "Surface slope"
+msgstr ""
+
+#: modules/tools/stats.c:755
+msgid "Scan line discrepancy"
+msgstr ""
+
+#: modules/volume/volume_arithmetic.c:560
+#: modules/volume/volume_xyarithmetics.c:601
+msgid "Z-axis calibrations differ"
+msgstr ""
+
+#: modules/volume/volume_asciiexport.c:142 modules/volume/volume_extract.c:256
+msgid "Volume data"
+msgstr ""
+
+#: modules/volume/volume_calibrate.c:206 modules/volume/volume_zposlevel.c:156
+msgid "_Z range"
+msgstr ""
+
+#: modules/volume/volume_calibrate.c:228 modules/volume/volume_mfmrecalc.c:134
+#: modules/volume/volume_swaxes.c:129
+msgid "Create new volume data"
+msgstr ""
+
+#: modules/volume/volume_crop.c:122 modules/xyz/xyz_crop.c:118
+msgid "_Keep offsets"
+msgstr ""
+
+#: modules/volume/volume_crop.c:157 modules/xyz/xyz_autocrop.c:91
+#: modules/xyz/xyz_crop.c:158
+msgid "Cropped"
+msgstr ""
+
+#: modules/volume/volume_drift.c:188 modules/volume/volume_rephase.c:144
+#: modules/volume/volume_slice.c:201
+msgid "_Z"
+msgstr ""
+
+#: modules/volume/volume_drift.c:208 modules/volume/volume_xystitch.c:149
+msgid "Plot graphs"
+msgstr ""
+
+#: modules/volume/volume_drift.c:216 modules/volume/volume_drift.c:217
+#: modules/volume/volume_drift.c:218 modules/xyz/xyz_zdrift.c:139
+msgid "Polynomial degree"
+msgstr ""
+
+#: modules/volume/volume_drift.c:306 modules/xyz/xyz_drift.c:419
+msgid "y-axis drift"
+msgstr ""
+
+#: modules/volume/volume_drift.c:315 modules/volume/volume_drift.c:316
+#: modules/xyz/xyz_drift.c:427 modules/xyz/xyz_drift.c:842
+msgid "Z drift"
+msgstr ""
+
+#: modules/volume/volume_drift.c:391 modules/xyz/xyz_zdrift.c:206
+msgid "_Calculate drift"
+msgstr ""
+
+#: modules/volume/volume_drift.c:393 modules/xyz/xyz_zdrift.c:207
+msgid "_Apply correction"
+msgstr ""
+
+#: modules/volume/volume_equiplane.c:141 modules/volume/volume_strayfield.c:148
+#: modules/volume/volume_zposlevel.c:140
+msgid "_Result"
+msgstr ""
+
+#: modules/volume/volume_equiplane.c:157 modules/volume/volume_zposlevel.c:155
+msgid "_Z value"
+msgstr ""
+
+#: modules/volume/volume_equiplane.c:295 modules/volume/volume_zposlevel.c:279
+msgid "Constant value"
+msgstr ""
+
+#: modules/volume/volume_facetlevel.c:41
+msgid "Performs facet leveling on all XY planes"
+msgstr ""
+
+#: modules/volume/volume_facetlevel.c:55
+msgid "/_Correct Data/_XY Facet Level"
+msgstr ""
+
+#: modules/volume/volume_facetlevel.c:59
+msgid "Facet leveling of all XY planes"
+msgstr ""
+
+#: modules/volume/volume_facetlevel.c:80
+msgid "Facet leveled"
+msgstr ""
+
+#: modules/volume/volume_fdfit-WTF.c:199 modules/volume/volume_fdfit.c:199
+msgid "Evaluate volume force-distance data"
+msgstr ""
+
+#: modules/volume/volume_fdfit-WTF.c:213 modules/volume/volume_fdfit.c:213
+msgid "/SPM M_odes/_Evaluate FD Data..."
+msgstr ""
+
+#: modules/volume/volume_fdfit-WTF.c:217 modules/volume/volume_fdfit.c:217
+msgid "Evaluate force-distance volume data"
+msgstr ""
+
+#: modules/volume/volume_fdfit-WTF.c:371 modules/volume/volume_fdfit.c:371
+msgid "Curve _X position:"
+msgstr ""
+
+#: modules/volume/volume_fdfit-WTF.c:380 modules/volume/volume_fdfit.c:380
+msgid "Curve _Y position:"
+msgstr ""
+
+#: modules/volume/volume_fdfit-WTF.c:511 modules/volume/volume_fdfit.c:511
+msgid "e_stimate"
+msgstr ""
+
+#: modules/volume/volume_flattenbase.c:72
+msgid "Flattens base on all XY planes"
+msgstr ""
+
+#: modules/volume/volume_flattenbase.c:86
+msgid "/_Correct Data/_XY Flatten Base..."
+msgstr ""
+
+#: modules/volume/volume_flattenbase.c:90
+msgid "Flatten base on all XY planes"
+msgstr ""
+
+#: modules/volume/volume_flattenbase.c:108
+msgid "_Mean background"
+msgstr ""
+
+#: modules/volume/volume_flattenbase.c:142
+msgid "Base flattened"
+msgstr ""
+
+#: modules/volume/volume_flattenbase.c:184
+msgid "Flatten Base"
+msgstr ""
+
+#: modules/volume/volume_flattenbase.c:365
+msgid "Flattening bases..."
+msgstr ""
+
+#: modules/volume/volume_linelevel.c:142
+msgid "Performe line leveling for all the volume data levels."
+msgstr ""
+
+#: modules/volume/volume_linelevel.c:156
+msgid "/_Correct Data/XY _Align Rows..."
+msgstr ""
+
+#: modules/volume/volume_linelevel.c:160
+msgid "Performs line leveling of all levels"
+msgstr ""
+
+#: modules/volume/volume_linelevel.c:216
+msgid "Line leveled"
+msgstr ""
+
+#: modules/volume/volume_linelevel.c:254
+msgid "Line level"
+msgstr ""
+
+#: modules/volume/volume_linestat.c:163
+msgid "Summarizes profiles of volume data to a channel."
+msgstr ""
+
+#: modules/volume/volume_linestat.c:177
+msgid "/_Statistics/Summarize _Profiles..."
+msgstr ""
+
+#: modules/volume/volume_linestat.c:181
+msgid "Summarize profiles"
+msgstr ""
+
+#: modules/volume/volume_linestat.c:209
+msgid "Z _from"
+msgstr ""
+
+#: modules/volume/volume_linestat.c:210
+msgid "Z _to"
+msgstr ""
+
+#: modules/volume/volume_linestat.c:293
+msgid "Summarize Volume Profiles"
+msgstr ""
+
+#: modules/volume/volume_meanplanelevel.c:40
+msgid "Levels all XY planes by their mean plane"
+msgstr ""
+
+#: modules/volume/volume_meanplanelevel.c:54
+msgid "/_Correct Data/_XY Mean Plane Level"
+msgstr ""
+
+#: modules/volume/volume_meanplanelevel.c:58
+msgid "Level all XY planes by their mean plane"
+msgstr ""
+
+#: modules/volume/volume_meanplanelevel.c:81
+#: modules/volume/volume_planelevel.c:97
+msgid "Leveled"
+msgstr ""
+
+#: modules/volume/volume_outliers.c:44
+msgid "Removes outliers from all XY planes"
+msgstr ""
+
+#: modules/volume/volume_outliers.c:58
+msgid "/_Correct Data/_XY Plane Outliers"
+msgstr ""
+
+#: modules/volume/volume_outliers.c:62
+msgid "Remove outliers from XY planes"
+msgstr ""
+
+#: modules/volume/volume_planelevel.c:42
+msgid "Levels all XY planes"
+msgstr ""
+
+#: modules/volume/volume_planelevel.c:56
+msgid "/_Correct Data/_XY Plane Level"
+msgstr ""
+
+#: modules/volume/volume_planelevel.c:60
+msgid "Level all XY planes"
+msgstr ""
+
+#: modules/volume/volume_planelevel.c:63
+msgid "/_Correct Data/_XY Zero Mean Value"
+msgstr ""
+
+#: modules/volume/volume_planelevel.c:67
+msgid "Shift mean value of all XY planes to zero"
+msgstr ""
+
+#: modules/volume/volume_planestat.c:230
+msgid "Summarizes volume data planes to a graph."
+msgstr ""
+
+#: modules/volume/volume_planestat.c:244
+msgid "/_Statistics/Summarize P_lanes..."
+msgstr ""
+
+#: modules/volume/volume_planestat.c:248
+msgid "Summarize planes"
+msgstr ""
+
+#: modules/volume/volume_planestat.c:272 modules/volume/volume_planestat.c:273
+msgid "Preview _level"
+msgstr ""
+
+#: modules/volume/volume_planestat.c:357
+msgid "Summarize Volume Planes"
+msgstr ""
+
+#: modules/volume/volume_rephase.c:584 modules/volume/volume_slice.c:928
+msgid "Volume Z graphs"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:109 modules/xyz/xyz_fft.c:156
+msgid "X"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:111 modules/xyz/xyz_fft.c:157
+msgid "Y"
+msgstr ""
+
+#: modules/volume/volume_swaxes.c:113 modules/xyz/xyz_fft.c:158
+msgid "Z"
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:112
+msgid "Shifts values in z curves to be zero at defined position."
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:126
+msgid "/_Correct Data/S_hift Value To Zero..."
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:130
+msgid "Shift value at some z plane to zero"
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:143
+msgid "_Curves"
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:144
+msgid "XY _Planes"
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:159
+msgid "_Align"
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:197
+#, c-format
+msgid "Shifted to zero for z level = %d"
+msgstr ""
+
+#: modules/volume/volume_zposlevel.c:241
+msgid "Shift Z to Zero"
+msgstr ""
+
+#: modules/xyz/xyz_drift.c:2261 modules/xyz/xyz_raster.c:650
+msgid "Physical dimensions are invalid."
+msgstr ""
+
+#: modules/xyz/xyz_level.c:83
+msgid "Simple XYZ data leveling."
+msgstr ""
+
+#: modules/xyz/xyz_level.c:97
+msgid "/Fix _Zero"
+msgstr ""
+
+#: modules/xyz/xyz_level.c:104
+msgid "/Zero _Mean Value"
+msgstr ""
+
+#: modules/xyz/xyz_level.c:111
+msgid "/Plane _Level..."
+msgstr ""
+
+#: modules/xyz/xyz_level.c:115
+msgid "Level data by mean plane correction"
+msgstr ""
+
+#: modules/xyz/xyz_level.c:124
+msgid "Plane subtraction"
+msgstr ""

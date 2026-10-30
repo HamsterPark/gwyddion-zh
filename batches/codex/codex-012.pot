@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/graph/graph_polylevel.c:198 modules/graph/graph_polylevel.c:410
+#: modules/graph/graph_sinebg.c:194 modules/graph/graph_sinebg.c:414
+msgid "Fit results"
+msgstr ""
+
+#: modules/graph/graph_polylevel.c:411
+msgid "P0"
+msgstr ""
+
+#: modules/graph/graph_polylevel.c:412
+msgid "P1"
+msgstr ""
+
+#: modules/graph/graph_polylevel.c:413
+msgid "P2"
+msgstr ""
+
+#: modules/graph/graph_polylevel.c:414
+msgid "P3"
+msgstr ""
+
+#: modules/graph/graph_polylevel.c:415
+msgid "P4"
+msgstr ""
+
+#: modules/graph/graph_polylevel.c:416
+msgid "P5"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:79 modules/tools/sfunctions.c:172
+msgid "Height distribution"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:80 modules/tools/sfunctions.c:173
+msgid "Cum. height distribution"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:81 modules/tools/sfunctions.c:174
+msgid "Distribution of angles"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:82 modules/tools/sfunctions.c:175
+msgid "Cum. distribution of angles"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:83 modules/tools/corrlen.c:961
+#: modules/tools/sfunctions.c:176
+msgid "ACF"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:84 modules/tools/sfunctions.c:177
+msgid "HHCF"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:85 modules/process/freq_split.c:613
+#: modules/tools/corrlen.c:999 modules/tools/sfunctions.c:178
+msgid "PSDF"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:108 modules/tools/sfunctions.c:245
+msgid "Calculate 1D statistical functions"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:128 modules/process/acf2d.c:191
+#: modules/process/acf2d.c:192 modules/process/grain_dist.c:146
+#: modules/process/grain_dist.c:148 modules/process/psdf2d.c:170
+#: modules/process/psdf2d.c:171 modules/tools/profile.c:198
+#: modules/tools/profile.c:199 modules/tools/rprofile.c:162
+#: modules/tools/rprofile.c:163 modules/tools/sfunctions.c:223
+#: modules/tools/sfunctions.c:224
+msgid "_Fixed resolution"
+msgstr ""
+
+#: modules/graph/graph_sfuncs.c:180 modules/tools/sfunctions.c:244
+msgid "Statistical Functions"
+msgstr ""
+
+#: modules/graph/graph_sinebg.c:415 modules/process/pat_synth.c:1915
+#: modules/process/pat_synth.c:2146 modules/process/pat_synth.c:2456
+#: modules/process/pat_synth.c:2603
+msgid "Period"
+msgstr ""
+
+#: modules/graph/graph_sinebg.c:417 modules/process/calibrate.c:222
+#: modules/process/volumize_layers.c:223 modules/process/volumize_layers.c:225
+#: modules/volume/volume_calibrate.c:214
+msgid "Y offset"
+msgstr ""
+
+#: modules/graph/graph_stats.c:76
+msgid "Calculates simple graph curve statistics."
+msgstr ""
+
+#: modules/graph/graph_stats.c:90
+msgid "/_Statistics/_Statistical Quantities..."
+msgstr ""
+
+#: modules/graph/graph_stats.c:93
+msgid "Calculate graph curve statistics"
+msgstr ""
+
+#: modules/graph/graph_stats.c:148 modules/tools/stats.c:178
+#: modules/tools/stats.c:698
+msgid "Statistical Quantities"
+msgstr ""
+
+#: modules/graph/graph_stats.c:167 modules/graph/graph_stats.c:223
+msgid "Simple Parameters"
+msgstr ""
+
+#: modules/graph/graph_stats.c:170 modules/graph/graph_stats.c:234
+msgid "Integrals"
+msgstr ""
+
+#: modules/graph/graph_stats.c:211
+msgid "Graph Statistics"
+msgstr ""
+
+#: modules/graph/graph_stats.c:229
+msgid "Rms (Rq)"
+msgstr ""
+
+#: modules/graph/graph_stats.c:235
+msgid "Projected length"
+msgstr ""
+
+#: modules/graph/graph_stats.c:239
+msgid "Area under curve"
+msgstr ""
+
+#: modules/graph/graph_stats.c:243
+msgid "Positive area"
+msgstr ""
+
+#: modules/graph/graph_stats.c:247
+msgid "Negative area"
+msgstr ""
+
+#: modules/graph/graph_stats.c:251
+msgid "Root mean square"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:209 modules/graph/graph_terraces.c:247
+msgid "Data + polynomials"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:210 modules/graph/graph_terraces.c:248
+#: modules/process/deconvolve.c:147 modules/process/deconvolve.c:184
+#: modules/process/deconvolve.c:189 modules/process/deconvolve.c:245
+#: modules/process/fft_filter_2d.c:299 modules/process/fit-shape.c:273
+#: modules/process/fit-shape.c:277 modules/process/fit-shape.c:386
+#: modules/process/fit-shape.c:426 modules/process/mcrop.c:131
+#: modules/process/neural.c:221 modules/process/psf-fit.c:220
+#: modules/process/psf-fit.c:286 modules/process/psf.c:201
+#: modules/process/psf.c:212 modules/process/psf.c:290
+#: modules/process/terracefit.c:227 modules/process/terracefit.c:266
+#: modules/volume/volume_psf.c:232
+msgid "Difference"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:211 modules/graph/graph_terraces.c:249
+#: modules/process/terracefit.c:228 modules/process/terracefit.c:267
+msgid "Terraces (ideal)"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:212 modules/graph/graph_terraces.c:250
+#: modules/graph/graph_terraces.c:932 modules/process/terracefit.c:229
+#: modules/process/terracefit.c:268
+msgid "Leveled surface"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:213 modules/graph/graph_terraces.c:251
+#: modules/graph/graph_terraces.c:941 modules/process/terracefit.c:230
+#: modules/process/terracefit.c:269
+msgid "Polynomial background"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:220 modules/process/terracefit.c:236
+msgid "Fits terraces with polynomial background."
+msgstr ""
+
+#: modules/graph/graph_terraces.c:234 modules/process/terracefit.c:250
+msgid "/Measure _Features/_Terraces..."
+msgstr ""
+
+#: modules/graph/graph_terraces.c:237 modules/process/terracefit.c:254
+msgid "Fit terraces with polynomial background"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:252
+msgid "Step detection"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:262 modules/process/terracefit.c:282
+msgid "_Step detection kernel"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:264 modules/process/terracefit.c:284
+msgid "Step detection _threshold"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:266 modules/graph/graph_terraces.c:282
+#: modules/process/terracefit.c:286 modules/process/terracefit.c:303
+msgid "Step _broadening"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:268
+msgid "Minimum terrace _length"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:270 modules/graph/graph_terraces.c:281
+#: modules/process/linematch.c:173 modules/process/terracefit.c:281
+#: modules/process/terracefit.c:302 modules/volume/volume_flattenbase.c:105
+#: modules/volume/volume_linelevel.c:177
+msgid "_Polynomial degree"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:271 modules/process/terracefit.c:291
+msgid "_Independent heights"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:274
+msgid "Select regions _manually"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:277 modules/process/terracefit.c:298
+msgid "Save Terrace Table"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:279 modules/graph/graph_terraces.c:366
+#: modules/process/anneal_synth.c:293 modules/process/cpde_synth.c:268
+#: modules/process/crosscor.c:238 modules/process/deconvolve.c:200
+#: modules/process/domain_synth.c:334 modules/process/drift.c:403
+#: modules/process/dune_synth.c:283 modules/process/fft.c:315
+#: modules/process/good_profile.c:285 modules/process/indent_analyze.c:365
+#: modules/process/maskcor.c:222 modules/process/mfm_current.c:279
+#: modules/process/multiprofile.c:273 modules/process/pid.c:151
+#: modules/process/pid.c:271 modules/process/plateau_synth.c:320
+#: modules/process/psf-fit.c:237 modules/process/psf.c:234
+#: modules/process/residue_synth.c:277 modules/process/smm.c:403
+#: modules/process/terracefit.c:300 modules/process/terracefit.c:462
+#: modules/process/wfr_synth.c:255 modules/tools/corrlen.c:333
+#: modules/volume/volume_cluster.c:577 modules/volume/volume_psf.c:259
+msgid "Output"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:283 modules/process/terracefit.c:304
+msgid "M_inimum polynomial degree"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:285 modules/process/polylevel.c:145
+#: modules/process/terracefit.c:306
+msgid "_Maximum polynomial degree"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:287 modules/process/terracefit.c:308
+msgid "Minimum broadening"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:289 modules/process/terracefit.c:310
+msgid "Maximum broadening"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:353 modules/process/terracefit.c:449
+msgid "Fit Terraces"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:365 modules/process/terracefit.c:461
+msgid "Terrace List"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:367 modules/process/terracefit.c:463
+msgid "Survey"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:461 modules/process/entropy.c:187
+#: modules/process/fractal.c:273 modules/process/indent_analyze.c:355
+#: modules/process/mark_with.c:284 modules/process/neural.c:220
+#: modules/process/psf.c:365 modules/process/smm.c:522
+#: modules/process/terracefit.c:571 modules/volume/volume_psf.c:383
+msgid "Result"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:621 modules/process/classify.c:245
+#: modules/process/terracefit.c:750
+msgid "_Execute"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:643 modules/process/terracefit.c:500
+msgid "Fitted step height"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:644 modules/process/fit-shape.c:1649
+#: modules/process/relate.c:366 modules/process/relate.c:672
+#: modules/process/terracefit.c:501
+msgid "Mean square difference"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:645 modules/process/terracefit.c:502
+msgid "Terrace discrepancy"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:646 modules/process/terracefit.c:503
+msgid "Number of terraces"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:730 modules/process/terracefit.c:840
+msgid "Survey cannot be run with independent heights."
+msgstr ""
+
+#: modules/graph/graph_terraces.c:732 modules/process/terracefit.c:842
+msgid "No free parameters are selected."
+msgstr ""
+
+#: modules/graph/graph_terraces.c:734 modules/process/terracefit.c:844
+#, c-format
+msgid "Number of combinations: %u."
+msgstr ""
+
+#: modules/graph/graph_terraces.c:787 modules/graph/graph_terraces.c:872
+#, c-format
+msgid "Segment %u"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:894
+#, c-format
+msgid "Level %d"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:1552 modules/graph/graph_terraces.c:1566
+#: modules/graph/graph_terraces.c:1699 modules/graph/graph_terraces.c:1713
+#: modules/process/fit-shape.c:1494 modules/process/terracefit.c:1314
+#: modules/process/terracefit.c:1330 modules/process/terracefit.c:1481
+#: modules/process/terracefit.c:1497
+msgid "Fit failed"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:1739 modules/process/terracefit.c:1528
+msgid "No suitable terrace steps found"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:1819 modules/process/terracefit.c:1699
+#: modules/process/terracefit.c:2059
+msgid "No terraces were found"
+msgstr ""
+
+#: modules/graph/graph_terraces.c:2083 modules/process/terracefit.c:2310
+msgid "Save Terrace Fit Survey"
+msgstr ""
+
+#: modules/layer/lattice.c:126
+msgid "Layer allowing selection of a two-dimensional lattice."
+msgstr ""
+
+#: modules/process/acf2d.c:140
+msgid "Calculates and analyzes two-dimensional autocorrelation function."
+msgstr ""
+
+#: modules/process/acf2d.c:154
+msgid "/_Statistics/2D Auto_correlation..."
+msgstr ""
+
+#: modules/process/acf2d.c:158
+msgid "Calculate 2D autocorrelation function"
+msgstr ""
+
+#: modules/process/acf2d.c:167
+msgid "data-adjustment|None"
+msgstr ""
+
+#: modules/process/acf2d.c:168
+msgid "Mean value subtraction"
+msgstr ""
+
+#: modules/process/acf2d.c:169
+msgid "Plane leveling"
+msgstr ""
+
+#: modules/process/acf2d.c:185 modules/process/measure_lattice.c:196
+#: modules/process/psdf2d.c:164 modules/volume/volume_extract.c:317
+msgid "Zoom"
+msgstr ""
+
+#: modules/process/acf2d.c:186
+msgid "Data adjustment"
+msgstr ""
+
+#: modules/process/acf2d.c:189
+msgid "Create ACF image"
+msgstr ""
+
+#: modules/process/acf2d.c:190 modules/process/psdf2d.c:169
+msgid "Only zoomed part"
+msgstr ""
+
+#: modules/process/acf2d.c:194 modules/process/multiprofile.c:152
+#: modules/process/psdf2d.c:173 modules/process/straighten_path.c:145
+#: modules/tools/cprofile.c:151 modules/tools/pathlevel.c:126
+#: modules/tools/profile.c:197 modules/tools/roughness.c:193
+msgid "_Thickness"
+msgstr ""
+
+#: modules/process/acf2d.c:195 modules/process/psdf2d.c:174
+msgid "_Separate curves"
+msgstr ""
+
+#: modules/process/acf2d.c:199 modules/process/blockstep.c:140
+#: modules/process/calcoefs_simple.c:468 modules/process/mark_disconn.c:122
+#: modules/process/zero_crossing.c:122
+msgid "_Threshold"
+msgstr ""
+
+#: modules/process/acf2d.c:254
+msgid "2D ACF"
+msgstr ""
+
+#: modules/process/acf2d.c:313 modules/process/acf2d.c:408
+msgid "Autocorrelation Function"
+msgstr ""
+
+#: modules/process/acf2d.c:337
+msgid "ACF Section"
+msgstr ""
+
+#: modules/process/acf2d.c:411 modules/process/curvature.c:507
+#: modules/process/psdf2d.c:384 modules/process/terracefit.c:497
+#: modules/tools/corrlen.c:1081 modules/tools/stats.c:709
+msgid "Mask in use"
+msgstr ""
+
+#: modules/process/acf2d.c:414 modules/process/col_synth.c:150
+#: modules/process/fft_synth.c:131 modules/process/fft_synth.c:135
+msgid "Autocorrelation length"
+msgstr ""
+
+#: modules/process/acf2d.c:416
+msgid "Slowest decay length"
+msgstr ""
+
+#: modules/process/acf2d.c:417
+msgid "Fastest decay direction"
+msgstr ""
+
+#: modules/process/acf2d.c:418
+msgid "Slowest decay direction"
+msgstr ""
+
+#: modules/process/acf2d.c:419
+msgid "Texture aspect ratio"
+msgstr ""
+
+#: modules/process/acf2d.c:595
+#, c-format
+msgid "ACF %.0f°"
+msgstr ""
+
+#: modules/process/angle_dist.c:112 modules/process/slope_dist.c:149
+msgid "Output size"
+msgstr ""
+
+#: modules/process/angle_dist.c:114 modules/process/slope_dist.c:150
+msgid "_Logarithmic value scale"
+msgstr ""
+
+#: modules/process/angle_dist.c:115 modules/process/entropy.c:129
+#: modules/process/slope_dist.c:151
+msgid "Use local plane _fitting"
+msgstr ""
+
+#: modules/process/angle_dist.c:116 modules/process/slope_dist.c:152
+msgid "Plane size"
+msgstr ""

@@ -1,0 +1,422 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/mcrop.c:141
+msgid "Create new images"
+msgstr ""
+
+#: modules/process/mcrop.c:148
+msgid "_Kernel relative size"
+msgstr ""
+
+#: modules/process/mcrop.c:238
+msgid "Mutual Crop"
+msgstr ""
+
+#: modules/process/mcrop.c:255
+msgid "Second image offset"
+msgstr ""
+
+#: modules/process/merge.c:154
+msgid "Merges two images."
+msgstr ""
+
+#: modules/process/merge.c:168
+msgid "/M_ultidata/_Merge..."
+msgstr ""
+
+#: modules/process/merge.c:172
+msgid "Merge two images"
+msgstr ""
+
+#: modules/process/merge.c:181
+msgid "Up"
+msgstr ""
+
+#: modules/process/merge.c:182
+msgid "Down"
+msgstr ""
+
+#: modules/process/merge.c:183
+msgid "adverb|Right"
+msgstr ""
+
+#: modules/process/merge.c:184
+msgid "adverb|Left"
+msgstr ""
+
+#: modules/process/merge.c:188
+msgid "merge-mode|Join"
+msgstr ""
+
+#: modules/process/merge.c:189
+msgid "merge-mode|None"
+msgstr ""
+
+#: modules/process/merge.c:195
+msgid "Interpolation"
+msgstr ""
+
+#: modules/process/merge.c:204
+msgid "_Merge with"
+msgstr ""
+
+#: modules/process/merge.c:205
+msgid "_Put second image"
+msgstr ""
+
+#: modules/process/merge.c:207
+msgid "_Align second image"
+msgstr ""
+
+#: modules/process/merge.c:212
+msgid "Crop result to _avoid outside pixels"
+msgstr ""
+
+#: modules/process/merge.c:247
+msgid "Merged images"
+msgstr ""
+
+#: modules/process/merge.c:274
+msgid "Merge Data"
+msgstr ""
+
+#: modules/process/mfm_current.c:98
+msgid "Simulation of current line magnetic field"
+msgstr ""
+
+#: modules/process/mfm_current.c:112
+msgid "/SPM M_odes/_Magnetic/_Current Line Field..."
+msgstr ""
+
+#: modules/process/mfm_current.c:116
+msgid "Simulate stray field above current line"
+msgstr ""
+
+#: modules/process/mfm_current.c:160
+msgid "P_robe type"
+msgstr ""
+
+#: modules/process/mfm_current.c:163
+msgid "Stripe _current"
+msgstr ""
+
+#: modules/process/mfm_current.c:164
+msgid "_Stripe width"
+msgstr ""
+
+#: modules/process/mfm_current.c:165
+msgid "_Position"
+msgstr ""
+
+#: modules/process/mfm_current.c:236
+msgid "Current Line Stray Field"
+msgstr ""
+
+#: modules/process/mfm_current.c:290
+msgid "Probe"
+msgstr ""
+
+#: modules/process/mfm_field.c:96
+msgid "Simulation of magnetic field above perpendicular media"
+msgstr ""
+
+#: modules/process/mfm_field.c:110
+msgid "/SPM M_odes/_Magnetic/_Perpendicular Media Field..."
+msgstr ""
+
+#: modules/process/mfm_field.c:114
+msgid "Compute stray field above perpendicular magnetic medium"
+msgstr ""
+
+#: modules/process/mfm_field.c:159
+msgid "Include domain _walls"
+msgstr ""
+
+#: modules/process/mfm_field.c:162
+msgid "_Magnetic charge"
+msgstr ""
+
+#: modules/process/mfm_field.c:167
+msgid "_Exchange constant"
+msgstr ""
+
+#: modules/process/mfm_field.c:168
+msgid "_Uniaxial anisotropy"
+msgstr ""
+
+#: modules/process/mfm_field.c:169
+msgid "Cantilever _angle"
+msgstr ""
+
+#: modules/process/mfm_field.c:277
+msgid "Perpendicular Media Stray Field"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:76
+msgid "Lift height difference estimation from data blur"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:90
+msgid "/SPM M_odes/_Magnetic/_Estimate Shift in Z..."
+msgstr ""
+
+#: modules/process/mfm_findshift.c:94
+msgid "Estimate lift height difference in MFM data"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:109
+msgid "Search _from"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:110
+msgid "Search _to"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:112
+msgid "Data to compare"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:155
+msgid "Estimated shift:"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:165
+msgid "Shifted field difference"
+msgstr ""
+
+#: modules/process/mfm_findshift.c:181
+msgid "Estimate Lift Height Shift"
+msgstr ""
+
+#: modules/process/mfm_parallel.c:101
+msgid "Simulation of parallel magnetic media"
+msgstr ""
+
+#: modules/process/mfm_parallel.c:115
+msgid "/SPM M_odes/_Magnetic/Para_llel Media Field..."
+msgstr ""
+
+#: modules/process/mfm_parallel.c:119
+msgid "Simulate stray field above parallel magnetic medium"
+msgstr ""
+
+#: modules/process/mfm_parallel.c:170
+msgid "_Remanent magnetization"
+msgstr ""
+
+#: modules/process/mfm_parallel.c:172
+msgid "Size _A (dir. left)"
+msgstr ""
+
+#: modules/process/mfm_parallel.c:173
+msgid "Size _B (dir. right)"
+msgstr ""
+
+#: modules/process/mfm_parallel.c:174
+msgid "_Gap size"
+msgstr ""
+
+#: modules/process/mfm_parallel.c:244
+msgid "Parallel Media Stray Field"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:136
+msgid "/SPM M_odes/_Magnetic/_Recalculate to Force Gradient..."
+msgstr ""
+
+#: modules/process/mfm_recalc.c:180
+msgid "_Create new image"
+msgstr ""
+
+#: modules/process/mfm_recalc.c:274
+msgid "Recalculated MFM data"
+msgstr ""
+
+#: modules/process/mfm_shift.c:71
+msgid "Simulation of magnetic field z component change for another level"
+msgstr ""
+
+#: modules/process/mfm_shift.c:85
+msgid "/SPM M_odes/_Magnetic/_Field Shift in Z..."
+msgstr ""
+
+#: modules/process/mfm_shift.c:89
+msgid "Compute stray field shift for another z level"
+msgstr ""
+
+#: modules/process/mfm_shift.c:104
+msgid "_Z shift by"
+msgstr ""
+
+#: modules/process/mfm_shift.c:140
+msgid "Shifted field"
+msgstr ""
+
+#: modules/process/mfm_shift.c:168
+msgid "Stray Field Plane Shift"
+msgstr ""
+
+#: modules/process/neural.c:172
+msgid "Neural network SPM data processing"
+msgstr ""
+
+#: modules/process/neural.c:198
+msgid "/M_ultidata/Neural Network _Training..."
+msgstr ""
+
+#: modules/process/neural.c:202
+msgid "Train a neural network for image processing"
+msgstr ""
+
+#: modules/process/neural.c:205
+msgid "/M_ultidata/Apply _Neural Network..."
+msgstr ""
+
+#: modules/process/neural.c:209
+msgid "Process data using a trained neural network"
+msgstr ""
+
+#: modules/process/neural.c:218
+msgid "Model"
+msgstr ""
+
+#: modules/process/neural.c:230
+msgid "_Model"
+msgstr ""
+
+#: modules/process/neural.c:231
+msgid "_Signal"
+msgstr ""
+
+#: modules/process/neural.c:232
+msgid "Training ste_ps"
+msgstr ""
+
+#: modules/process/neural.c:238
+msgid "Window _width"
+msgstr ""
+
+#: modules/process/neural.c:239
+msgid "Window h_eight"
+msgstr ""
+
+#: modules/process/neural.c:240
+msgid "_Hidden nodes"
+msgstr ""
+
+#: modules/process/neural.c:244
+msgid "Power of source _XY"
+msgstr ""
+
+#: modules/process/neural.c:245
+msgid "Power of source _Z"
+msgstr ""
+
+#: modules/process/neural.c:247
+msgid "_Fixed units"
+msgstr ""
+
+#: modules/process/neural.c:264
+msgid "_Scale proportionally to input"
+msgstr ""
+
+#: modules/process/neural.c:326
+msgid "Evaluated signal"
+msgstr ""
+
+#. TRANSLATORS: Unnamed neural network that is/was in training.
+#: modules/process/neural.c:398
+msgid "In training"
+msgstr ""
+
+#: modules/process/neural.c:463
+msgid "Neural Network Training"
+msgstr ""
+
+#: modules/process/neural.c:478
+msgid "Training error"
+msgstr ""
+
+#: modules/process/neural.c:479
+msgid "error"
+msgstr ""
+
+#: modules/process/neural.c:488
+msgid "NN training error"
+msgstr ""
+
+#: modules/process/neural.c:495
+msgid "Training"
+msgstr ""
+
+#: modules/process/neural.c:497
+msgid "Networks"
+msgstr ""
+
+#: modules/process/neural.c:528
+msgid "verb|_Train"
+msgstr ""
+
+#: modules/process/neural.c:529
+msgid "Re_initialize"
+msgstr ""
+
+#: modules/process/neural.c:548
+msgid "Network"
+msgstr ""
+
+#: modules/process/neural.c:555
+msgid "Result Units"
+msgstr ""
+
+#: modules/process/neural.c:609
+msgid "Network _name:"
+msgstr ""
+
+#: modules/process/neural.c:632
+msgid "Apply Neural Network"
+msgstr ""
+
+#: modules/process/neural.c:696
+msgid "Model and signal are not compatible."
+msgstr ""
+
+#: modules/process/neural.c:703
+msgid "A field dimension is too small for chosen window size."
+msgstr ""
+
+#: modules/process/neural.c:866 modules/process/neural.c:999
+msgid "Evaluating..."
+msgstr ""
+
+#: modules/process/neural.c:967
+msgid "Training was canceled."
+msgstr ""
+
+#: modules/process/neural.c:976
+#, c-format
+msgid "Mean difference: %.*f %s"
+msgstr ""
+
+#: modules/process/neural.c:1204
+#, c-format
+msgid "The name `%s' is invalid."
+msgstr ""

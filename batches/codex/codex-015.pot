@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/facet_analysis.c:498 modules/xyz/xyz_level.c:125
+msgid "Rotation"
+msgstr ""
+
+#: modules/process/facet_analysis.c:552 modules/process/facet_measure.c:424
+msgid "_Clear"
+msgstr ""
+
+#: modules/process/facet_analysis.c:564 modules/process/facet_measure.c:372
+msgid "_Mark"
+msgstr ""
+
+#: modules/process/facet_analysis.c:625
+msgid "Rotate all points"
+msgstr ""
+
+#: modules/process/facet_analysis.c:652
+msgid "Re_set Rotation"
+msgstr ""
+
+#: modules/process/facet_analysis.c:734
+msgid "Create _Points"
+msgstr ""
+
+#: modules/process/facet_analysis.c:1228
+#, c-format
+msgid "θ = %.2f deg, φ = %.2f deg"
+msgstr ""
+
+#: modules/process/facet_measure.c:222
+msgid "/Measure _Features/Facet _Measurement..."
+msgstr ""
+
+#: modules/process/facet_measure.c:226
+msgid "Measure facet angles"
+msgstr ""
+
+#: modules/process/facet_measure.c:246
+msgid "I_nstant facet marking"
+msgstr ""
+
+#: modules/process/facet_measure.c:273 modules/process/facet_measure.c:340
+msgid "Measure Facets"
+msgstr ""
+
+#: modules/process/facet_measure.c:373
+msgid "Mea_sure"
+msgstr ""
+
+#: modules/process/facet_measure.c:534
+msgid "points"
+msgstr ""
+
+#: modules/process/fbm_synth.c:134 modules/process/lno_synth.c:196
+#: modules/process/noise_synth.c:127
+msgid "distribution|Exponential"
+msgstr ""
+
+#: modules/process/fbm_synth.c:146 modules/process/lno_synth.c:264
+#: modules/process/noise_synth.c:178
+msgid "_Distribution"
+msgstr ""
+
+#: modules/process/fbm_synth.c:148 modules/process/fft_synth.c:138
+msgid "Po_wer"
+msgstr ""
+
+#: modules/process/fbm_synth.c:149 modules/process/fft_synth.c:125
+#: modules/process/lno_synth.c:270 modules/process/noise_synth.c:182
+msgid "_RMS"
+msgstr ""
+
+#: modules/process/fft.c:216 modules/process/fft_filter_1d.c:354
+#: modules/volume/volume_1dfft.c:478
+msgid "FFT Modulus"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:92 modules/xyz/xyz_fft.c:233
+msgid "FFT filtering"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:106 modules/volume/volume_1dfft.c:129
+msgid "/_Correct Data/1D _FFT Filtering..."
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:122 modules/volume/volume_1dfft.c:146
+#: modules/xyz/xyz_fft.c:147
+msgid "Null"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:123 modules/volume/volume_1dfft.c:147
+#: modules/xyz/xyz_fft.c:148
+msgid "Suppress"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:132 modules/volume/volume_1dfft.c:161
+#: modules/xyz/xyz_fft.c:167
+msgid "_Suppress type"
+msgstr ""
+
+#: modules/process/fft_filter_1d.c:134 modules/process/rank.c:108
+#: modules/volume/volume_1dfft.c:163 modules/xyz/xyz_fft.c:169
+msgid "_Filter type"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:366 modules/process/pid.c:128
+#: modules/process/ptranslate.c:128 modules/process/zero_crossing.c:110
+msgid "Original _image"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:492 modules/tools/maskedit.c:442
+msgid "_Fill"
+msgstr ""
+
+#: modules/process/fft_filter_2d.c:568 modules/volume/volume_slice.c:313
+msgid "Output Options"
+msgstr ""
+
+#: modules/process/fibre_synth.c:184 modules/tools/spotremove.c:199
+msgid "Rectangle"
+msgstr ""
+
+#: modules/process/fibre_synth.c:195 modules/process/obj_synth.c:279
+#: modules/process/pileup_synth.c:217
+msgid "_Shape"
+msgstr ""
+
+#: modules/process/fibre_synth.c:203 modules/process/pat_synth.c:1715
+msgid "Scales _with width"
+msgstr ""
+
+#: modules/process/fibre_synth.c:204 modules/process/obj_synth.c:291
+msgid "_Truncate"
+msgstr ""
+
+#: modules/process/fibre_synth.c:207 modules/process/lat_synth.c:357
+#: modules/process/obj_synth.c:293 modules/process/pat_synth.c:1712
+#: modules/process/pat_synth.c:1808 modules/process/pat_synth.c:1903
+#: modules/process/pat_synth.c:2020 modules/process/pat_synth.c:2131
+#: modules/process/pat_synth.c:2256 modules/process/pat_synth.c:2446
+#: modules/process/pat_synth.c:2586 modules/process/pat_synth.c:2591
+#: modules/process/pileup_synth.c:225
+msgid "Orien_tation"
+msgstr ""
+
+#: modules/process/fibre_synth.c:292 modules/process/obj_synth.c:372
+#: modules/tools/maskedit.c:228 modules/tools/spotremove.c:211
+msgid "Shape"
+msgstr ""
+
+#: modules/process/fit-shape.c:272 modules/process/fit-shape.c:276
+#: modules/process/fit-shape.c:374 modules/process/fit-shape.c:412
+#: modules/process/terracefit.c:226 modules/process/terracefit.c:265
+msgid "Fitted shape"
+msgstr ""
+
+#: modules/process/fit-shape.c:278 modules/process/mark_disconn.c:111
+#: modules/process/scars.c:125 modules/volume/volume_scars.c:130
+#: modules/xyz/xyz_tstep.c:126
+msgid "Both"
+msgstr ""
+
+#: modules/process/fit-shape.c:298 modules/process/mcrop.c:145
+#: modules/process/psf.c:226 modules/volume/volume_psf.c:247
+msgid "Show differences with _adapted color map"
+msgstr ""
+
+#. TRANSLATORS: %{n}i and %{total}i are ids, do NOT translate them.
+#: modules/process/fit-shape.c:1647 modules/process/relate.c:670
+msgid "%{n}i of %{ntotal}i"
+msgstr ""
+
+#: modules/process/fit-shape.c:1648 modules/process/relate.c:671
+msgid "Fitted function"
+msgstr ""
+
+#: modules/process/flatten_base.c:40
+msgid "Levels the flat base of a surface with positive features."
+msgstr ""
+
+#: modules/process/flatten_base.c:54
+msgid "/_Level/Flatten _Base"
+msgstr ""
+
+#: modules/process/flatten_base.c:58
+msgid "Flatten base of surface with positive features"
+msgstr ""
+
+#: modules/process/flatten_base.c:202
+msgid "Polynomial leveling..."
+msgstr ""
+
+#: modules/process/fractal.c:132
+msgid "Partitioning"
+msgstr ""
+
+#: modules/process/fractal.c:136
+msgid "Cube counting"
+msgstr ""
+
+#: modules/process/fractal.c:140
+msgid "Triangulation"
+msgstr ""
+
+#: modules/process/fractal.c:144
+msgid "Power spectrum"
+msgstr ""
+
+#: modules/process/fractal.c:148
+msgid "Structure function"
+msgstr ""
+
+#: modules/process/fractal.c:156
+msgid ""
+"Calculates fractal dimension using several methods (partitioning, box "
+"counting, triangulation, power spectrum)."
+msgstr ""
+
+#: modules/process/fractal.c:171
+msgid "/_Statistics/_Fractal Dimension..."
+msgstr ""
+
+#: modules/process/fractal.c:175
+msgid "Calculate fractal dimension"
+msgstr ""
+
+#: modules/process/fractal.c:199
+msgid "Save Fractal Dimension"
+msgstr ""
+
+#: modules/process/fractal.c:260 modules/process/fractal.c:311
+msgid "Fractal Dimension"
+msgstr ""
+
+#: modules/process/fractal.c:270
+msgid "Fit Area"
+msgstr ""
+
+#: modules/process/fractal.c:271
+msgid "From:"
+msgstr ""
+
+#: modules/process/fractal.c:272
+msgid "To:"
+msgstr ""
+
+#: modules/process/fractal.c:416
+msgid "Linear fit"
+msgstr ""
+
+#: modules/process/fractal.c:460
+msgid "minimum"
+msgstr ""
+
+#: modules/process/fractal.c:461
+msgid "maximum"
+msgstr ""
+
+#: modules/process/freq_split.c:158 modules/tools/roughness.c:194
+msgid "C_ut-off"
+msgstr ""
+
+#: modules/process/freq_split.c:159 modules/process/residue_synth.c:152
+msgid "_Edge width"
+msgstr ""
+
+#: modules/process/freq_split.c:160 modules/process/merge.c:209
+msgid "_Boundary treatment"
+msgstr ""
+
+#: modules/process/gaussian_step.c:99 modules/process/zero_crossing.c:123
+msgid "_Gaussian FWHM"
+msgstr ""
+
+#: modules/process/good_profile.c:136 modules/process/indent_analyze.c:237
+msgid "Create _mask"
+msgstr ""
+
+#: modules/process/good_profile.c:142 modules/process/linematch.c:176
+#: modules/volume/volume_linelevel.c:178
+msgid "_Trim fraction"
+msgstr ""
+
+#: modules/process/good_profile.c:143 modules/process/mcrop.c:140
+#: modules/process/relate.c:275
+msgid "Second _image"
+msgstr ""
+
+#: modules/process/grain_cross.c:89
+msgid "Plots one grain quantity as a function of another."
+msgstr ""
+
+#: modules/process/grain_cross.c:103
+msgid "/_Grains/_Correlate..."
+msgstr ""
+
+#: modules/process/grain_cross.c:107
+msgid "Correlate grain characteristics"
+msgstr ""
+
+#: modules/process/grain_cross.c:122 modules/process/grain_cross.c:234
+msgid "_Abscissa"
+msgstr ""
+
+#: modules/process/grain_cross.c:126 modules/process/grain_cross.c:236
+msgid "O_rdinate"
+msgstr ""
+
+#: modules/process/grain_cross.c:131
+msgid "Ordinate data calculated from different image"
+msgstr ""
+
+#: modules/process/grain_cross.c:132
+msgid "Ordinate _image"
+msgstr ""
+
+#: modules/process/grain_cross.c:152 modules/process/grain_cross.c:217
+msgid "Grain Correlations"
+msgstr ""
+
+#: modules/process/grain_dist.c:109
+msgid "Evaluates distribution of grains (continuous parts of mask)."
+msgstr ""
+
+#: modules/process/grain_dist.c:123
+msgid "/_Grains/_Distributions..."
+msgstr ""
+
+#: modules/process/grain_dist.c:127
+msgid "Distributions of various grain characteristics"
+msgstr ""
+
+#: modules/process/grain_dist.c:136
+msgid "_Export raw data"
+msgstr ""
+
+#: modules/process/grain_dist.c:137
+msgid "Plot _graphs"
+msgstr ""
+
+#: modules/process/grain_dist.c:203
+msgid "Grain Distributions"
+msgstr ""
+
+#: modules/process/grain_dist.c:381
+msgid "count"
+msgstr ""
+
+#: modules/process/grain_dist.c:436
+msgid "Export Raw Grain Values"
+msgstr ""
+
+#: modules/process/grain_edge.c:70
+msgid "Marks grains by edge detection method."
+msgstr ""
+
+#: modules/process/grain_edge.c:84
+msgid "/_Grains/Mark by _Edge Detection..."
+msgstr ""
+
+#: modules/process/grain_edge.c:88
+msgid "Mark grains with edge detection mechanism"
+msgstr ""
+
+#: modules/process/grain_edge.c:103 modules/process/logistic.c:148
+msgid "_Laplacian"
+msgstr ""
+
+#: modules/process/grain_edge.c:173
+msgid "Mark Grains by Edge Detection"
+msgstr ""
+
+#: modules/process/grain_filter.c:193
+msgid ""
+"Filters grains by their properties, using logical expressions and thresholds."
+msgstr ""
+
+#: modules/process/grain_filter.c:208
+msgid "/_Grains/_Filter..."
+msgstr ""
+
+#: modules/process/grain_filter.c:212
+msgid "Filter grains by their properties"
+msgstr ""
+
+#: modules/process/grain_filter.c:252
+msgid "There are no grains to filter."
+msgstr ""
+
+#: modules/process/grain_filter.c:321
+msgid "Filter Grains"
+msgstr ""
+
+#: modules/process/grain_filter.c:367
+msgid "_Mask color:"
+msgstr ""
+
+#: modules/process/grain_filter.c:415
+msgid "Set selected as:"
+msgstr ""
+
+#: modules/process/grain_filter.c:430
+msgid "Keep grains satisfying:"
+msgstr ""
+
+#: modules/process/grain_filter.c:451
+msgid "Lower threshold:"
+msgstr ""
+
+#: modules/process/grain_filter.c:478
+msgid "Upper threshold:"
+msgstr ""
+
+#. TRANSLATORS: %c is replaced with quantity label A, B or C.
+#: modules/process/grain_filter.c:639
+#, c-format
+msgid "Condition %c: %s"
+msgstr ""
+
+#: modules/process/grain_makesel.c:44
+msgid "Creates selections visualizing grains."
+msgstr ""
+
+#: modules/process/grain_makesel.c:58
+msgid "/_Grains/Select _Inscribed Discs"
+msgstr ""
+
+#: modules/process/grain_makesel.c:62
+msgid "Create a selection visualizing discs inscribed into grains"
+msgstr ""

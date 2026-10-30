@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/err.h:90
+#, c-format
+msgid ""
+"File is not a %s file, it is seriously damaged, or it is of an unknown "
+"format version."
+msgstr ""
+
+#: modules/file/err.h:101
+#, c-format
+msgid ""
+"Expected data size calculated from file headers is %u bytes, but the real "
+"size is %u bytes."
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by some item, struct or file part id.
+#: modules/file/err.h:111
+#, c-format
+msgid "File component/item ‘%s’ is truncated."
+msgstr ""
+
+#: modules/file/err.h:118
+msgid "File header is truncated."
+msgstr ""
+
+#: modules/file/err.h:136
+#, c-format
+msgid ""
+"The number of bits per sample %d is invalid or unsupported for this file "
+"type."
+msgstr ""
+
+#: modules/file/err.h:145
+#, c-format
+msgid "Data type %d is invalid or unsupported."
+msgstr ""
+
+#: modules/file/err.h:152
+#, c-format
+msgid "Header field `%s' is missing."
+msgstr ""
+
+#: modules/file/err.h:160
+#, c-format
+msgid "The value of parameter `%s' is invalid or unsupported."
+msgstr ""
+
+#: modules/file/err.h:168
+#, c-format
+msgid "Parameter `%s' is missing or invalid."
+msgstr ""
+
+#: modules/file/err.h:176
+msgid "File contains no (importable) data."
+msgstr ""
+
+#: modules/file/err.h:199
+#, c-format
+msgid "XML parsing failed: %s"
+msgstr ""
+
+#: modules/file/err.h:209
+msgid "Inconsistent structure of individual spectra."
+msgstr ""
+
+#: modules/file/err.h:217
+msgid "File contains no exportable channel."
+msgstr ""
+
+#: modules/file/err.h:225
+msgid "File import was canceled by user."
+msgstr ""
+
+#: modules/file/err.h:239
+msgid "Missing header."
+msgstr ""
+
+#: modules/file/evovisxml.c:107
+msgid "Imports Evovis XML data files."
+msgstr ""
+
+#: modules/file/evovisxml.c:120
+msgid "Evovis XML data files (.xml)"
+msgstr ""
+
+#: modules/file/ezdfile.c:132
+msgid "Imports Nanosurf EZD and NID data files."
+msgstr ""
+
+#: modules/file/ezdfile.c:145
+msgid "Nanosurf files (.ezd, .nid)"
+msgstr ""
+
+#: modules/file/ezdfile.c:303
+msgid "Garbage before first header section."
+msgstr ""
+
+#: modules/file/ezdfile.c:412
+msgid "First section isn't DataSet"
+msgstr ""
+
+#: modules/file/ezdfile.c:417
+msgid "GroupCount in [DataSet]"
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:73
+msgid "Imports FemtoScan TXT files."
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:86
+msgid "FemtoScan text files (.txt)"
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:183
+msgid "Data line does not start with a Y abscissa."
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:190
+#, c-format
+msgid ""
+"Data line length %u does not correspond to the number of X abscissas %u."
+msgstr ""
+
+#: modules/file/femtoscan.c:77
+msgid "Imports FemtoScan SPM data files."
+msgstr ""
+
+#: modules/file/femtoscan.c:90
+msgid "FemtoScan SPM files"
+msgstr ""
+
+#: modules/file/fitsfile.c:77
+msgid "Reads Flexible Image Transport System (FITS) files."
+msgstr ""
+
+#: modules/file/fitsfile.c:90
+msgid "Flexible Image Transport System FITS (.fits)"
+msgstr ""
+
+#: modules/file/fitsfile.c:129
+#, c-format
+msgid "CFITSIO error while reading the FITS file: %s."
+msgstr ""
+
+#: modules/file/formats3d.c:251
+msgid "VTK structured grid (.vtk)"
+msgstr ""
+
+#: modules/file/formats3d.c:256
+msgid "Polygon file format (.ply)"
+msgstr ""
+
+#: modules/file/formats3d.c:261
+msgid "Wavefront geometry definition (.obj)"
+msgstr ""
+
+#: modules/file/formats3d.c:266
+msgid "Object File Format (.off)"
+msgstr ""
+
+#: modules/file/formats3d.c:271
+msgid "Stereolitography STL (.stl)"
+msgstr ""
+
+#: modules/file/formats3d.c:278
+msgid "XYZ data files (.xyz)"
+msgstr ""
+
+#: modules/file/formats3d.c:287
+msgid ""
+"Exports images as miscellaneous 3D data formats and imports XYZ points from "
+"3D formats."
+msgstr ""
+
+#: modules/file/formats3d.c:318
+msgid "_Automatic Z-scale"
+msgstr ""
+
+#: modules/file/formats3d.c:319
+msgid "_Physical 1:1"
+msgstr ""
+
+#: modules/file/formats3d.c:320
+msgid "Other _scale:"
+msgstr ""
+
+#: modules/file/formats3d.c:323
+msgid "None (only points)"
+msgstr ""
+
+#: modules/file/formats3d.c:324
+msgid "Plain along main diagonals"
+msgstr ""
+
+#: modules/file/formats3d.c:325
+msgid "With pixel midpoints"
+msgstr ""
+
+#: modules/file/formats3d.c:326
+msgid "Random orientation"
+msgstr ""
+
+#: modules/file/formats3d.c:327
+msgid "Following features"
+msgstr ""
+
+#: modules/file/formats3d.c:340
+msgid "Triangulation type"
+msgstr ""
+
+#: modules/file/formats3d.c:342
+msgid "Swap X and Y axes"
+msgstr ""
+
+#: modules/file/formats3d.c:343
+msgid "Flip Z axis"
+msgstr ""
+
+#: modules/file/formats3d.c:359
+msgid "_Lateral units"
+msgstr ""
+
+#: modules/file/formats3d.c:361
+msgid "_Value units"
+msgstr ""
+
+#: modules/file/formats3d.c:364
+msgid "Create image _directly from regular points"
+msgstr ""
+
+#: modules/file/formats3d.c:1538
+msgid "File contains NaNs or infinities."
+msgstr ""
+
+#: modules/file/formats3d.c:1582
+msgid "X-range"
+msgstr ""
+
+#: modules/file/formats3d.c:1583
+msgid "Y-range"
+msgstr ""
+
+#: modules/file/formats3d.c:1584
+msgid "Z-range"
+msgstr ""
+
+#: modules/file/gdeffile.c:129
+msgid "Imports DME GDEF data files."
+msgstr ""
+
+#: modules/file/gdeffile.c:142
+msgid "DME GDEF files (.gdf)"
+msgstr ""
+
+#: modules/file/gdeffile.c:186
+#, c-format
+msgid "File version %u.%u is not supported."
+msgstr ""
+
+#: modules/file/gdeffile.c:222
+msgid "Control block mark is not CB, file is damaged."
+msgstr ""
+
+#: modules/file/gdeffile.c:254
+#, c-format
+msgid "Unknown variable type %u."
+msgstr ""
+
+#: modules/file/gsffile.c:87
+msgid "Reads and exports Gwyddion Simple Field files."
+msgstr ""
+
+#: modules/file/gsffile.c:100
+msgid "Gwyddion Simple Field (.gsf)"
+msgstr ""
+
+#: modules/file/gwyfile.c:100
+msgid "Loads and saves Gwyddion native data files (serialized objects)."
+msgstr ""
+
+#: modules/file/gwyfile.c:113
+msgid "Gwyddion native format (.gwy)"
+msgstr ""
+
+#: modules/file/gwyfile.c:170
+msgid "Data deserialization failed."
+msgstr ""
+
+#: modules/file/gwyfile.c:175
+#, c-format
+msgid ""
+"Data deserialization succeeded, but resulted in an unexpected object %s."
+msgstr ""
+
+#: modules/file/gwytiff.c:183 modules/file/gwytiff.c:198
+#, c-format
+msgid "TIFF directory %lu ended unexpectedly."
+msgstr ""
+
+#: modules/file/gwytiff.c:233
+#, c-format
+msgid "BigTIFF data type %u was found in a classic TIFF."
+msgstr ""
+
+#: modules/file/gwytiff.c:245
+msgid "Invalid tag data positions were found."
+msgstr ""
+
+#: modules/file/gwytiff.c:333
+#, c-format
+msgid "BigTIFF reserved fields are %u and %u instead of 8 and 0."
+msgstr ""
+
+#: modules/file/gwytiff.c:1223
+msgid "Non-uniform bits per sample are unsupported."
+msgstr ""
+
+#: modules/file/gwytiff.c:1317
+msgid "Unsupported sample format"
+msgstr ""
+
+#: modules/file/gwytiff.h:277
+#, c-format
+msgid "Required tag %u was not found."
+msgstr ""
+
+#: modules/file/gwyzip-libzip.h:192
+msgid "Cannot obtain the uncompressed file size."
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:152
+msgid "Unknown error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:157
+msgid "End of file"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:161
+msgid "Parameter error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:163
+msgid "Bad zip file"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:165
+msgid "Internal error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:167
+msgid "CRC error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:170
+#, c-format
+msgid "%s error while reading the zip file: %s (%d)."
+msgstr ""
+
+#: modules/file/gwyzlib.h:79
+#, c-format
+msgid "zlib initialization failed with error %d, cannot decompress data."
+msgstr ""
+
+#: modules/file/gwyzlib.h:137
+#, c-format
+msgid ""
+"Decompressed data size (%lu bytes) does not match expected size (%lu bytes)."
+msgstr ""
+
+#: modules/file/gxyzffile.c:113
+msgid "Imports Gwyddion XYZ field files."
+msgstr ""
+
+#: modules/file/gxyzffile.c:126
+msgid "GwyXYZ data files"
+msgstr ""
+
+#: modules/file/gxyzffile.c:146
+msgid "Multi-channel file with all compatible data"
+msgstr ""
+
+#: modules/file/gxyzffile.c:234
+#, c-format
+msgid "Data size %lu is not a multiple of point size %u."
+msgstr ""
+
+#: modules/file/gxyzffile.c:382
+msgid "Export GXYZF"
+msgstr ""
+
+#: modules/file/hdf4file.c:322
+msgid "Imports Hierarchical Data Format (HDF) files, version 4."
+msgstr ""
+
+#: modules/file/hdf4file.c:335
+msgid "Psi HDF4 files (.hdf)"
+msgstr ""
+
+#: modules/file/hdf4file.c:541
+msgid "PSI binary header is too short."
+msgstr ""
+
+#: modules/file/hdf4file.c:669
+msgid "HDF data with `native' type is not supported."
+msgstr ""
+
+#: modules/file/hdf5/datxfile.c:96
+msgid "Zygo DATX HDF5 files (.datx)"
+msgstr ""
+
+#: modules/file/hdf5/epflfile.c:104
+msgid "EPFL HDF5 files (.h5)"
+msgstr ""
+
+#: modules/file/hdf5/ergofile.c:84
+msgid "Asylum Research Ergo HDF5 files (.h5,.aris)"
+msgstr ""
+
+#: modules/file/hdf5/fusionscope.c:137
+msgid "FusionScope HDF5 files (.fsexp)"
+msgstr ""
+
+#: modules/file/hdf5/gwyhdf5.c:904
+#, c-format
+msgid "Dataset %s has %d dimensions instead of expected %d."
+msgstr ""
+
+#: modules/file/hdf5/gwyhdf5.c:913
+#, c-format
+msgid ""
+"Dataset %s dimension #%d is %ld, which does not match image resolution %d."
+msgstr ""
+
+#: modules/file/hdf5/gwyhdf5.h:150
+#, c-format
+msgid "HDF5 library error %ld in function %s."
+msgstr ""

@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/rank-filter.c:222
+msgid "Rank"
+msgstr ""
+
+#: modules/process/rank.c:98 modules/process/wrapvalue.c:143
+#: modules/process/wrapvalue.c:145 modules/process/wrapvalue.c:147
+msgid "Value range"
+msgstr ""
+
+#: modules/process/relate.c:201 modules/tools/corrlen.c:175
+msgid "Offset"
+msgstr ""
+
+#: modules/process/relate.c:226 modules/volume/volume_cluster.c:286
+msgid "Logarithm"
+msgstr ""
+
+#: modules/process/roddeposit_synth.c:765 modules/process/shade.c:108
+#: modules/process/tilt.c:105
+msgid "φ"
+msgstr ""
+
+#: modules/process/rotate.c:238 modules/volume/volume_swaxes.c:348
+msgid "Rotated Data"
+msgstr ""
+
+#: modules/process/scars.c:134 modules/volume/volume_scars.c:140
+msgid "Scars type"
+msgstr ""
+
+#: modules/process/scars.c:136 modules/volume/volume_scars.c:142
+msgid "_Hard threshold"
+msgstr ""
+
+#: modules/process/scars.c:137 modules/volume/volume_scars.c:143
+msgid "_Soft threshold"
+msgstr ""
+
+#: modules/process/scars.c:138 modules/volume/volume_scars.c:144
+msgid "Minimum _length"
+msgstr ""
+
+#: modules/process/scars.c:139 modules/volume/volume_scars.c:145
+msgid "Maximum _width"
+msgstr ""
+
+#: modules/process/shade.c:107 modules/process/tilt.c:104
+msgid "θ"
+msgstr ""
+
+#: modules/process/slope_dist.c:108
+msgid ""
+"Calculates one- or two-dimensional distribution of slopes or graph of their "
+"angular distribution."
+msgstr ""
+
+#: modules/process/slope_dist.c:122
+msgid "/_Statistics/_Slope Distribution..."
+msgstr ""
+
+#: modules/process/slope_dist.c:126
+msgid "Calculate angular slope distribution"
+msgstr ""
+
+#: modules/process/slope_dist.c:135
+msgid "_Two-dimensional distribution"
+msgstr ""
+
+#: modules/process/slope_dist.c:136
+msgid "Directional (φ) _graph"
+msgstr ""
+
+#: modules/process/slope_dist.c:137
+msgid "_Inclination (θ) graph"
+msgstr ""
+
+#: modules/process/slope_dist.c:138
+msgid "Inclination (gra_dient) graph"
+msgstr ""
+
+#: modules/process/slope_dist.c:195
+msgid "Slope distribution"
+msgstr ""
+
+#: modules/process/slope_dist.c:225
+msgid "Slope Distribution"
+msgstr ""
+
+#: modules/process/slope_dist.c:577
+msgid "Angular Slope Distribution"
+msgstr ""
+
+#: modules/process/slope_dist.c:578 modules/process/tilt.c:182
+msgid "Slopes"
+msgstr ""
+
+#: modules/process/slope_dist.c:585 modules/process/slope_dist.c:593
+msgid "Inclination Distribution"
+msgstr ""
+
+#: modules/process/slope_dist.c:586 modules/process/slope_dist.c:594
+msgid "Inclinations"
+msgstr ""
+
+#: modules/process/smm.c:210 modules/process/smm_apply.c:133
+msgid "Re"
+msgstr ""
+
+#: modules/process/smm.c:211 modules/process/smm_apply.c:134
+msgid "Im"
+msgstr ""
+
+#: modules/process/smm.c:212 modules/process/smm_apply.c:135
+msgid "Mag"
+msgstr ""
+
+#: modules/process/smm.c:213 modules/process/smm_apply.c:136
+msgid "logMag"
+msgstr ""
+
+#: modules/process/smm.c:219 modules/process/smm.c:265
+#: modules/process/smm.c:301 modules/process/smm.c:303
+#: modules/process/smm.c:997 modules/process/smm.c:998
+#: modules/process/smm_apply.c:95
+msgid "Capacitance"
+msgstr ""
+
+#: modules/process/smm.c:233 modules/process/smm_apply.c:147
+msgid "First channel"
+msgstr ""
+
+#: modules/process/smm.c:234 modules/process/smm_apply.c:148
+msgid "Second channel"
+msgstr ""
+
+#: modules/process/smm.c:242 modules/process/smm_apply.c:153
+msgid "Reference impedance"
+msgstr ""
+
+#: modules/process/smm.c:245 modules/process/smm_apply.c:154
+#: modules/process/wave_synth.c:344
+msgid "Frequency"
+msgstr ""
+
+#: modules/process/smm.c:268 modules/process/smm_apply.c:158
+msgid "Re(e00)"
+msgstr ""
+
+#: modules/process/smm.c:269 modules/process/smm_apply.c:159
+msgid "Im(e00)"
+msgstr ""
+
+#: modules/process/smm.c:270 modules/process/smm_apply.c:160
+msgid "Re(e01)"
+msgstr ""
+
+#: modules/process/smm.c:271 modules/process/smm_apply.c:161
+msgid "Im(e01)"
+msgstr ""
+
+#: modules/process/smm.c:272 modules/process/smm_apply.c:162
+msgid "Re(e11)"
+msgstr ""
+
+#: modules/process/smm.c:273 modules/process/smm_apply.c:163
+msgid "Im(e11)"
+msgstr ""
+
+#: modules/process/sphere-revolve.c:72
+msgid "Subtracts background by sphere revolution."
+msgstr ""
+
+#: modules/process/sphere-revolve.c:86
+msgid "/_Level/Revolve _Sphere..."
+msgstr ""
+
+#: modules/process/sphere-revolve.c:90
+msgid "Level data by sphere revolution"
+msgstr ""
+
+#: modules/process/sphere-revolve.c:179
+msgid "Revolve Sphere"
+msgstr ""
+
+#: modules/process/sphere-revolve.c:236
+msgid "Revolving sphere..."
+msgstr ""
+
+#: modules/process/superresolution.c:553 modules/xyz/xyz_raster.c:701
+#: modules/xyz/xyz_raster.c:765
+msgid "Interpolating..."
+msgstr ""
+
+#: modules/process/terracefit.c:225 modules/process/terracefit.c:264
+msgid "Marked terraces"
+msgstr ""
+
+#: modules/process/terracefit.c:289
+msgid "Minimum terrace _area"
+msgstr ""
+
+#: modules/process/terracefit.c:293
+msgid "Do not _segment, use only mask"
+msgstr ""
+
+#: modules/process/threshold.c:242 modules/tools/icolorange.c:339
+msgid "Set to _Full Range"
+msgstr ""
+
+#: modules/process/tip_blind.c:120
+msgid "Blind estimation of SPM tip using Villarubia's algorithm."
+msgstr ""
+
+#: modules/process/tip_blind.c:134
+msgid "/SPM M_odes/_Tip/_Blind Estimation..."
+msgstr ""
+
+#: modules/process/tip_blind.c:138
+msgid "Blind tip estimation"
+msgstr ""
+
+#: modules/process/tip_blind.c:153
+msgid "Related _data"
+msgstr ""
+
+#: modules/process/tip_blind.c:156
+msgid "Noise suppression t_hreshold"
+msgstr ""
+
+#: modules/process/tip_blind.c:158
+msgid "_Same resolution"
+msgstr ""
+
+#: modules/process/tip_blind.c:159
+msgid "Use _boundaries"
+msgstr ""
+
+#: modules/process/tip_blind.c:160 modules/process/tip_blind.c:161
+msgid "_Split to stripes"
+msgstr ""
+
+#: modules/process/tip_blind.c:162
+msgid "_Preview stripe"
+msgstr ""
+
+#: modules/process/tip_blind.c:163
+msgid "Create tip i_mages"
+msgstr ""
+
+#: modules/process/tip_blind.c:164
+msgid "Plot size _graph"
+msgstr ""
+
+#: modules/process/tip_blind.c:227 modules/process/tip_blind.c:231
+msgid "Estimated tip"
+msgstr ""
+
+#: modules/process/tip_blind.c:256
+msgid "Blind Tip Estimation"
+msgstr ""
+
+#: modules/process/tip_blind.c:258
+msgid "Run _Partial"
+msgstr ""
+
+#: modules/process/tip_blind.c:259
+msgid "Run _Full"
+msgstr ""
+
+#: modules/process/tip_blind.c:260
+msgid "_Reset Tip"
+msgstr ""
+
+#: modules/process/tip_blind.c:290
+msgid "Tip Size"
+msgstr ""
+
+#: modules/process/tip_blind.c:307
+msgid "Stripes"
+msgstr ""
+
+#. TRANSLATORS: Prefix for the progressbar message.
+#: modules/process/tip_blind.c:483
+#, c-format
+msgid "Stripe %u: "
+msgstr ""
+
+#: modules/process/tip_blind.c:649 modules/process/tip_blind.c:677
+msgid "Tip radius evolution"
+msgstr ""
+
+#: modules/process/tip_model.c:87
+msgid "Models SPM tip."
+msgstr ""
+
+#: modules/process/tip_model.c:101
+msgid "/SPM M_odes/_Tip/_Model Tip..."
+msgstr ""
+
+#: modules/process/tip_model.c:105
+msgid "Model AFM tip"
+msgstr ""
+
+#: modules/process/tip_model.c:129
+msgid "_Tip type"
+msgstr ""
+
+#: modules/process/tip_model.c:130
+msgid "_Number of sides"
+msgstr ""
+
+#: modules/process/tip_model.c:131
+msgid "Tip _slope"
+msgstr ""
+
+#: modules/process/tip_model.c:132
+msgid "Tip _rotation"
+msgstr ""
+
+#: modules/process/tip_model.c:133
+msgid "Tip _apex radius"
+msgstr ""
+
+#: modules/process/tip_model.c:134
+msgid "Tip _anisotropy"
+msgstr ""
+
+#: modules/process/tip_model.c:135
+msgid "Make tip image square"
+msgstr ""
+
+#: modules/process/tip_model.c:152 modules/process/tip_model.c:195
+msgid "Model Tip"
+msgstr ""
+
+#: modules/process/tip_model.c:171
+msgid "Modeled tip"
+msgstr ""
+
+#: modules/process/tip_model.c:222
+msgid "Tip resolution"
+msgstr ""
+
+#: modules/process/tipops.c:74
+msgid ""
+"Tip operations: dilation (convolution), erosion (reconstruction) and "
+"certainty map."
+msgstr ""
+
+#: modules/process/tipops.c:88
+msgid "/SPM M_odes/_Tip/_Dilation..."
+msgstr ""
+
+#: modules/process/tipops.c:92
+msgid "Surface dilation by defined tip"
+msgstr ""
+
+#: modules/process/tipops.c:95
+msgid "/SPM M_odes/_Tip/_Surface Reconstruction..."
+msgstr ""
+
+#: modules/process/tipops.c:99
+msgid "Surface reconstruction by defined tip"
+msgstr ""
+
+#: modules/process/tipops.c:102
+msgid "/SPM M_odes/_Tip/_Certainty Map..."
+msgstr ""
+
+#: modules/process/tipops.c:106
+msgid "Tip certainty map"
+msgstr ""
+
+#: modules/process/tipops.c:121
+msgid "_Tip morphology"
+msgstr ""
+
+#: modules/process/tipops.c:136
+msgid "Dilated data"
+msgstr ""
+
+#: modules/process/tipops.c:137
+msgid "Surface reconstruction"
+msgstr ""
+
+#: modules/process/tipops.c:190
+msgid "Tip Dilation"
+msgstr ""
+
+#: modules/process/tipops.c:191
+msgid "Surface Reconstruction"
+msgstr ""
+
+#: modules/process/tipops.c:192
+msgid "Certainty Map Analysis"
+msgstr ""
+
+#: modules/process/tipops.c:250
+#, c-format
+msgid ""
+"Tip pixel size does not match data.\n"
+"It will be resampled from %d×%d to %d×%d."
+msgstr ""
+
+#: modules/process/tipshape.c:78
+msgid "Calculates the tip area function."
+msgstr ""
+
+#: modules/process/tipshape.c:92
+msgid "/SPM M_odes/_Force and Indentation/_Area function..."
+msgstr ""
+
+#: modules/process/tipshape.c:96
+msgid "Calculate tip area function."
+msgstr ""

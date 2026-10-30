@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/tools/maskedit.c:201
+msgid "Add selection to mask"
+msgstr ""
+
+#: modules/tools/maskedit.c:202
+msgid "Subtract selection from mask"
+msgstr ""
+
+#: modules/tools/maskedit.c:203
+msgid "Intersect selection with mask"
+msgstr ""
+
+#: modules/tools/maskedit.c:206
+msgid "Rectangular shapes"
+msgstr ""
+
+#: modules/tools/maskedit.c:207
+msgid "Elliptic shapes"
+msgstr ""
+
+#: modules/tools/maskedit.c:208
+msgid "Thin lines"
+msgstr ""
+
+#: modules/tools/maskedit.c:211
+msgid "Freehand mask drawing"
+msgstr ""
+
+#: modules/tools/maskedit.c:212
+msgid "Freehand mask erasing"
+msgstr ""
+
+#: modules/tools/maskedit.c:213
+msgid "Fill continuous empty areas with mask"
+msgstr ""
+
+#: modules/tools/maskedit.c:214
+msgid "Erase continuous parts of mask"
+msgstr ""
+
+#: modules/tools/maskedit.c:233
+msgid "_Amount"
+msgstr ""
+
+#: modules/tools/maskedit.c:234 modules/tools/maskedit.c:456
+msgid "Fill non-simple-connected"
+msgstr ""
+
+#: modules/tools/maskedit.c:236
+msgid "_Prevent grain merging by growing"
+msgstr ""
+
+#: modules/tools/maskedit.c:239
+msgid "Thin lines are 4-connected"
+msgstr ""
+
+#: modules/tools/maskedit.c:254
+msgid "Mask Editor"
+msgstr ""
+
+#: modules/tools/maskedit.c:255
+msgid "Edit mask"
+msgstr ""
+
+#: modules/tools/maskedit.c:308
+msgid "Editor"
+msgstr ""
+
+#: modules/tools/maskedit.c:320
+msgid "Actions"
+msgstr ""
+
+#: modules/tools/maskedit.c:324
+msgid "Grow/Shrink"
+msgstr ""
+
+#: modules/tools/maskedit.c:440
+msgid "_Invert"
+msgstr ""
+
+#: modules/tools/maskedit.c:454
+msgid "Fill _Voids"
+msgstr ""
+
+#: modules/tools/maskedit.c:471
+msgid "_Grow"
+msgstr ""
+
+#: modules/tools/maskedit.c:472
+msgid "Shrin_k"
+msgstr ""
+
+#: modules/tools/profile.c:159
+msgid "Profile tool, creates profile graphs from selected lines."
+msgstr ""
+
+#: modules/tools/profile.c:182
+msgid "calib-data|None"
+msgstr ""
+
+#: modules/tools/profile.c:209
+msgid "_Show profile"
+msgstr ""
+
+#: modules/tools/profile.c:210
+msgid "_Calibration data"
+msgstr ""
+
+#: modules/tools/profile.c:227
+msgid "Extract profiles along arbitrary lines"
+msgstr ""
+
+#: modules/tools/profile.c:356
+msgid "Improve _Direction"
+msgstr ""
+
+#: modules/tools/profile.c:357
+msgid "Improve _All"
+msgstr ""
+
+#: modules/tools/profile.c:607
+#, c-format
+msgid "X error %d"
+msgstr ""
+
+#: modules/tools/profile.c:611
+#, c-format
+msgid "Y error %d"
+msgstr ""
+
+#: modules/tools/profile.c:615
+#, c-format
+msgid "Z error %d"
+msgstr ""
+
+#: modules/tools/profile.c:619
+#, c-format
+msgid "X uncertainty %d"
+msgstr ""
+
+#: modules/tools/profile.c:623
+#, c-format
+msgid "Y uncertainty %d"
+msgstr ""
+
+#: modules/tools/profile.c:627
+#, c-format
+msgid "Z uncertainty %d"
+msgstr ""
+
+#: modules/tools/profile.c:631
+#, c-format
+msgid "Zunc up bound %d"
+msgstr ""
+
+#: modules/tools/profile.c:635
+#, c-format
+msgid "Zunc low bound %d"
+msgstr ""
+
+#: modules/tools/readvalue.c:155
+msgid "Pointer tool, reads value under pointer."
+msgstr ""
+
+#: modules/tools/readvalue.c:185
+msgid "Show _selection"
+msgstr ""
+
+#: modules/tools/readvalue.c:188
+msgid "Show _mask"
+msgstr ""
+
+#: modules/tools/readvalue.c:203
+msgid "Read Value"
+msgstr ""
+
+#: modules/tools/readvalue.c:204
+msgid "Read value under mouse cursor"
+msgstr ""
+
+#: modules/tools/readvalue.c:348
+msgid "Set _Zero"
+msgstr ""
+
+#: modules/tools/readvalue.c:352
+msgid "Facet"
+msgstr ""
+
+#: modules/tools/readvalue.c:354
+msgid "Curvatures"
+msgstr ""
+
+#: modules/tools/rprofile.c:133
+msgid "Creates angularly averaged profile graphs."
+msgstr ""
+
+#: modules/tools/rprofile.c:184
+msgid "Radial Profiles"
+msgstr ""
+
+#: modules/tools/rprofile.c:185
+msgid "Extract angularly averaged profiles"
+msgstr ""
+
+#: modules/tools/rprofile.c:257
+msgid "Radial profiles"
+msgstr ""
+
+#: modules/tools/rprofile.c:305
+msgid "S_ymmetrize"
+msgstr ""
+
+#: modules/tools/rprofile.c:307
+msgid "Symmetrize _All"
+msgstr ""
+
+#: modules/tools/rprofile.c:525
+#, c-format
+msgid "Radial profile %d"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:122
+msgid "Selection manager tool which lists, clears and copies selections."
+msgstr ""
+
+#: modules/tools/selectionmanager.c:163 modules/tools/selectionmanager.c:360
+msgid "to _all files"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:177
+msgid "Selection Manager"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:178
+msgid "Display, copy and export selections"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:264
+msgid "Spline path"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:266
+msgid "Projective rectangles"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:349
+msgid "Manage chosen selection"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:357
+msgid "_Distribute"
+msgstr ""
+
+#: modules/tools/selectionmanager.c:368
+msgid "_Copy"
+msgstr ""
+
+#: modules/tools/sfunctions.c:163
+msgid ""
+"Statistical function tool, calculates one-dimensional statistical functions "
+"(height distribution, correlations, PSDF, Minkowski functionals) of selected "
+"part of data."
+msgstr ""
+
+#: modules/tools/sfunctions.c:179
+msgid "Radial PSDF"
+msgstr ""
+
+#: modules/tools/sfunctions.c:180
+msgid "Angularly averaged PSDF"
+msgstr ""
+
+#: modules/tools/sfunctions.c:181
+msgid "Angular spectrum"
+msgstr ""
+
+#: modules/tools/sfunctions.c:182
+msgid "Radial ACF"
+msgstr ""
+
+#: modules/tools/sfunctions.c:183
+msgid "Minkowski volume"
+msgstr ""
+
+#: modules/tools/sfunctions.c:184
+msgid "Minkowski boundary"
+msgstr ""
+
+#: modules/tools/sfunctions.c:185
+msgid "Minkowski connectivity"
+msgstr ""
+
+#: modules/tools/sfunctions.c:187
+msgid "Area scale graph"
+msgstr ""
+
+#: modules/tools/sfunctions.c:188
+msgid "IDF"
+msgstr ""
+
+#: modules/tools/sfunctions.c:189
+msgid "Radial IDF"
+msgstr ""
+
+#: modules/tools/sfunctions.c:226
+msgid "_Separate uncertainty"
+msgstr ""
+
+#: modules/tools/spectro.c:131
+msgid "Point Spectrum, extracts point spectra to a graph."
+msgstr ""
+
+#: modules/tools/spectro.c:160
+msgid "_Separate spectra"
+msgstr ""
+
+#: modules/tools/spectro.c:161
+msgid "_Average spectra"
+msgstr ""
+
+#: modules/tools/spectro.c:177
+msgid "Point Spectroscopy"
+msgstr ""
+
+#: modules/tools/spectro.c:178
+msgid "Extract and view point spectroscopy data"
+msgstr ""
+
+#: modules/tools/spectro.c:386
+msgid "Spectroscopy"
+msgstr ""
+
+#: modules/tools/spotremove.c:168
+msgid ""
+"Spot removal tool, interpolates small parts of data (displayed on a zoomed "
+"view) using selected algorithm."
+msgstr ""
+
+#: modules/tools/spotremove.c:191
+msgid "Hyperbolic flatten"
+msgstr ""
+
+#: modules/tools/spotremove.c:192
+msgid "Pseudo-Laplace"
+msgstr ""
+
+#: modules/tools/spotremove.c:194
+msgid "Fractal interpolation"
+msgstr ""
+
+#: modules/tools/spotremove.c:200
+msgid "Ellipse"
+msgstr ""
+
+#: modules/tools/spotremove.c:229
+msgid "Remove Spots"
+msgstr ""
+
+#: modules/tools/spotremove.c:230
+msgid "Interpolate small defects, manually selected"
+msgstr ""
+
+#: modules/tools/spotremove.c:751
+msgid "No point in the image selected."
+msgstr ""
+
+#: modules/tools/spotremove.c:752
+msgid "No area in the zoom selected."
+msgstr ""
+
+#: modules/volume/volume_1dfft.c:115
+msgid "Performs 1D FFT filtering for all the volume data levels."
+msgstr ""
+
+#: modules/volume/volume_1dfft.c:133
+msgid "1D FFT filtering of all levels"
+msgstr ""
+
+#: modules/volume/volume_1dfft.c:150
+msgid "spectra|Individual"
+msgstr ""
+
+#: modules/volume/volume_1dfft.c:151
+msgid "spectra|Average"
+msgstr ""
+
+#: modules/volume/volume_1dfft.c:165
+msgid "_Shown spectrum"
+msgstr ""
+
+#: modules/volume/volume_1dfft.c:207
+msgid "1D FFT Filtered"
+msgstr ""
+
+#: modules/volume/volume_1dfft.c:256
+msgid "1D FFT Filter"
+msgstr ""
+
+#: modules/volume/volume_addframe.c:88
+msgid "Add one frame to volume data stack"
+msgstr ""
+
+#: modules/volume/volume_addframe.c:102
+msgid "/_Basic Operations/I_nsert XY Plane..."
+msgstr ""
+
+#: modules/volume/volume_addframe.c:106
+msgid "Insert single XY plane to some level."
+msgstr ""
+
+#: modules/volume/volume_addframe.c:121
+msgid "Data to insert"
+msgstr ""

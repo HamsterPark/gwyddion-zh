@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/xyz/xyz_level.c:136
+msgid "Update X and Y of _all compatible data"
+msgstr ""
+
+#: modules/xyz/xyz_level.c:246
+msgid "Level XYZ Data"
+msgstr ""
+
+#: modules/xyz/xyz_raster.c:379 modules/xyz/xyz_volumize.c:242
+msgid "Make Pixels S_quare"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:109 modules/xyz/xyz_tstep.c:119
+#: modules/xyz/xyz_volumize.c:119
+msgid "X value"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:110 modules/xyz/xyz_tstep.c:120
+#: modules/xyz/xyz_volumize.c:120
+msgid "Y value"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:111 modules/xyz/xyz_tstep.c:121
+#: modules/xyz/xyz_volumize.c:121
+msgid "Z value"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:122 modules/xyz/xyz_zdrift.c:137
+msgid "From index"
+msgstr ""
+
+#: modules/xyz/xyz_tcut.c:123 modules/xyz/xyz_zdrift.c:138
+msgid "To index"
+msgstr ""

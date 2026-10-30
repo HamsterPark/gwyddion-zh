@@ -1,0 +1,464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: libgwydgets/gwy3dwindow.c:898
+msgid "Show _labels"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:907
+msgid "_Orthographic projection"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:916
+msgid "_Hide masked"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:932
+msgid "_Lighting"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:933 modules/cmap/cmap_peaks.c:163
+msgid "_Gradient"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:934
+msgid "_Overlay"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:935
+msgid "_Overlay - no light"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:990
+msgid "_Material:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1011
+msgid "_Light φ:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1018
+msgid "L_ight θ:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1050 libgwydgets/gwy3dwindow.c:1242
+#: app/dialog.c:216 gwyddion/toolbox-editor.c:209
+#: modules/cmap/cmap_classify.c:406 modules/process/calcoefs_new.c:372
+#: modules/process/correct_affine.c:345 modules/process/fft_filter_2d.c:409
+#: modules/process/polydistort.c:210 modules/process/roddeposit_synth.c:384
+#: modules/process/smm.c:367 modules/process/straighten_path.c:282
+#: modules/volume/volume_drift.c:395 modules/volume/volume_extract.c:264
+#: modules/xyz/xyz_zdrift.c:208
+msgid "_Reset"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1139
+msgid "X-axis"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1140
+msgid "Y-axis"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1141
+msgid "Minimum z value"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1142
+msgid "Maximum z value"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1165
+msgid "_Label:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1179
+msgid "_Text:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1184
+msgid "Move label"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1193
+msgid "_Horizontally:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1203
+msgid "_Vertically:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1211
+msgid "A_ll labels have the same size"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1222
+msgid "Scale size _automatically"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1234
+msgid "Si_ze:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1276
+msgid "Show false _colorbar"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1285
+msgid "Reserve space for _colorbar"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1301
+msgid "_Size:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1310
+msgid "_Vertical alignment:"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1840 libgwydgets/gwy3dwindow.c:1893
+msgid "S_witch to Lighting Mode"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1848 libgwydgets/gwy3dwindow.c:1870
+msgid "S_witch to Overlay Mode"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1862 libgwydgets/gwy3dwindow.c:1885
+msgid "S_witch to Color Gradient Mode"
+msgstr ""
+
+#: libgwydgets/gwy3dwindow.c:1901
+msgid "T_oggle light"
+msgstr ""
+
+#: libgwydgets/gwyaxisdialog.c:75
+msgid "Axis Properties"
+msgstr ""
+
+#: libgwydgets/gwyaxisdialog.c:88
+msgid "Label Text"
+msgstr ""
+
+#: libgwydgets/gwydatawindow.c:929
+msgid "_Unset Color Gradient"
+msgstr ""
+
+#. TRANSLATORS: Countable (more false colour gradients).
+#: libgwydgets/gwydatawindow.c:937
+msgid "_More..."
+msgstr ""
+
+#: libgwydgets/gwydatawindow.c:966 libgwydgets/gwyoptionmenus.c:830
+msgid "Choose Color Gradient"
+msgstr ""
+
+#: libgwydgets/gwydgetenums.c:46 modules/process/neural.c:419
+msgid "Hidden"
+msgstr ""
+
+#: libgwydgets/gwydgetenums.c:47 libgwydgets/gwygraphwindowmeasuredialog.c:572
+#: modules/file/imgexport.c:545 modules/tools/selectionmanager.c:265
+msgid "Points"
+msgstr ""
+
+#: libgwydgets/gwydgetenums.c:49
+msgid "Line + points"
+msgstr ""
+
+#: libgwydgets/gwydgetutils.c:850
+msgid "Change Mask Color"
+msgstr ""
+
+#: libgwydgets/gwygrainvaluemenu.c:184 modules/cmap/cmap_classify.c:458
+#: modules/cmap/cmap_classify.c:475 modules/cmap/cmap_lockin.c:185
+#: modules/cmap/cmap_lockin.c:200
+msgid "Quantity"
+msgstr ""
+
+#: libgwydgets/gwygrainvaluemenu.c:194 libgwydgets/gwygrainvaluemenu.c:207
+msgid "Symbol"
+msgstr ""
+
+#: libgwydgets/gwygrainvaluemenu.c:217 modules/process/lat_synth.c:368
+msgid "Enabled"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:100
+msgid "Curve Properties"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:101
+msgid "Pre_v"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:104
+msgid "_Next"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:123
+msgid "Plot _style:"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:131
+msgid "Pl_ot color:"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:151
+msgid "Point _type:"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:157
+msgid "_Point size:"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:168
+msgid "_Line type:"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:174
+msgid "Line t_hickness:"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:182
+msgid "<b>Label Te_xt</b>"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:399
+msgid "Set Curve Color"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:551 modules/process/mask_morph.c:130
+#: modules/process/pat_synth.c:2569 modules/process/relate.c:211
+msgid "Square"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:553 modules/process/mask_morph.c:131
+msgid "Diamond"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:554 modules/tools/cprofile.c:137
+msgid "Cross"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:555
+msgid "Diagonal cross"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:556
+msgid "Asterisk"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:557
+msgid "Star"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:558
+msgid "Triangle up"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:559
+msgid "Triangle down"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:560
+msgid "Triangle left"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:561
+msgid "Triangle right"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:562
+msgid "Full square"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:563 modules/process/mask_morph.c:128
+msgid "Disc"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:564
+msgid "Full diamond"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:565
+msgid "Full triangle up"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:566
+msgid "Full triangle down"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:567
+msgid "Full triangle left"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:568
+msgid "Full triangle right"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:630
+msgid "line-style|Solid"
+msgstr ""
+
+#: libgwydgets/gwygraphareadialog.c:631
+msgid "line-style|Dash"
+msgstr ""
+
+#: libgwydgets/gwygraphcurves.c:448
+msgid "Description"
+msgstr ""
+
+#: libgwydgets/gwygraphcurves.c:460 modules/cmap/cmap_cutter.c:196
+#: modules/process/entropy.c:128 modules/process/good_profile.c:139
+#: modules/process/logistic.c:143 modules/tools/maskedit.c:227
+msgid "Mode"
+msgstr ""
+
+#: libgwydgets/gwygraphcurves.c:478
+msgid "Color"
+msgstr ""
+
+#: libgwydgets/gwygraphcurves.c:491
+msgid "Point Type"
+msgstr ""
+
+#: libgwydgets/gwygraphcurves.c:513
+msgid "Line Style"
+msgstr ""
+
+#: libgwydgets/gwygraphlabeldialog.c:63
+msgid "Label Properties"
+msgstr ""
+
+#: libgwydgets/gwygraphlabeldialog.c:74
+msgid "_Frame thickness:"
+msgstr ""
+
+#: libgwydgets/gwygraphlabeldialog.c:81
+msgid "_Reversed layout"
+msgstr ""
+
+#: libgwydgets/gwygraphmodel.c:2188 modules/cmap/cmap_align.c:169
+#: modules/cmap/cmap_classify.c:266 modules/cmap/cmap_extractcurve.c:139
+#: modules/cmap/cmap_fdfit.c:227 modules/cmap/cmap_filter.c:142
+#: modules/cmap/cmap_fit.c:208 modules/cmap/cmap_fztofd.c:161
+#: modules/cmap/cmap_peaks.c:185 modules/cmap/cmap_polylevel.c:162
+#: modules/cmap/cmap_sinebg.c:158
+msgid "Abscissa"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:161 gwyddion/toolbox-editor.c:931
+#: gwyddion/toolbox.c:107 modules/graph/graph_measure_period.c:239
+#: modules/graph/graph_stats.c:213 modules/graph/graph_terraces.c:639
+#: modules/xyz/xyz_tcut.c:120 modules/xyz/xyz_tstep.c:135
+#: modules/xyz/xyz_volumize.c:130 modules/xyz/xyz_zdrift.c:135
+msgid "Graph"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:168 modules/cmap/cmap_peaks.c:181
+#: modules/process/classify.c:294 modules/process/deconvolve.c:187
+#: modules/process/fit-shape.c:271 modules/process/freq_split.c:143
+#: modules/process/good_profile.c:126 modules/process/psf.c:209
+#: modules/process/relate.c:474 modules/process/terracefit.c:263
+#: modules/volume/volume_psf.c:229
+msgid "Data"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:181
+msgid "Curves"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:194
+msgid "Measure distances in graph"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:205
+msgid "Zoom in by mouse selection"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:216
+msgid "Zoom out to full curve"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:227
+msgid "Toggle logarithmic x axis"
+msgstr ""
+
+#: libgwydgets/gwygraphwindow.c:238
+msgid "Toggle logarithmic y axis"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:48
+msgid "Intersections"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:50
+msgid "Points anywhere"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:377
+#: libgwydgets/gwygraphwindowmeasuredialog.c:577
+#: modules/process/facet_analysis.c:713 modules/process/measure_lattice.c:346
+#: modules/process/measure_lattice.c:353 modules/tools/roughness.c:471
+msgid "Length"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:379
+#: libgwydgets/gwygraphwindowmeasuredialog.c:581 app/gwyplaintool.c:1059
+#: modules/cmap/cmap_fztofd.c:150 modules/graph/graph_fztofd.c:88
+#: modules/process/disc_synth.c:290 modules/process/fibre_synth.c:337
+#: modules/process/lat_synth.c:566 modules/process/obj_synth.c:420
+#: modules/process/pat_synth.c:1735 modules/process/pat_synth.c:1829
+#: modules/process/pat_synth.c:1936 modules/process/pat_synth.c:2046
+#: modules/process/pat_synth.c:2169 modules/process/pat_synth.c:2280
+#: modules/process/pat_synth.c:2486 modules/process/pat_synth.c:2628
+#: modules/tools/spotremove.c:377
+msgid "Height"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:528
+msgid "Measure Distances"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:550 app/app.c:2293
+msgid "Curve:"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:555
+msgid "Method:"
+msgstr ""
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:583
+#: modules/process/facet_analysis.c:715 modules/process/measure_lattice.c:359
+msgid "Angle"
+msgstr ""
+
+#. TRANSLATORS: Preferred resource.
+#: libgwydgets/gwyoptionmenus.c:445
+msgid "Preferred"
+msgstr ""
+
+#: libgwydgets/gwyoptionmenus.c:458 app/meta.c:464
+#: modules/file/imgexport.c:3208 modules/file/imgexport.c:3469
+#: modules/file/rawfile.c:689 modules/process/convolution_filter.c:535
+#: modules/process/neural.c:417 modules/tools/selectionmanager.c:329
+msgid "Name"
+msgstr ""

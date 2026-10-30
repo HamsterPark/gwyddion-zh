@@ -1,0 +1,442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/lat_synth.c:352 modules/process/measure_lattice.c:176
+msgid "_Lattice"
+msgstr ""
+
+#: modules/process/lat_synth.c:370 modules/process/local_contrast.c:87
+msgid "_Weight"
+msgstr ""
+
+#: modules/process/level.c:48
+msgid ""
+"Levels data by simple plane subtraction or by rotation, and fixes minimal or "
+"mean value to zero."
+msgstr ""
+
+#: modules/process/level.c:62
+msgid "/_Level/Plane _Level"
+msgstr ""
+
+#: modules/process/level.c:66
+msgid "Level data by mean plane subtraction"
+msgstr ""
+
+#: modules/process/level.c:69
+msgid "/_Level/Level _Rotate"
+msgstr ""
+
+#: modules/process/level.c:73
+msgid "Automatically level data by plane rotation"
+msgstr ""
+
+#: modules/process/level.c:76
+msgid "/_Level/Fix _Zero"
+msgstr ""
+
+#: modules/process/level.c:80 modules/xyz/xyz_level.c:101
+msgid "Shift minimum data value to zero"
+msgstr ""
+
+#: modules/process/level.c:83
+msgid "/_Level/Zero _Mean Value"
+msgstr ""
+
+#: modules/process/level.c:87 modules/xyz/xyz_level.c:108
+msgid "Shift mean data value to zero"
+msgstr ""
+
+#: modules/process/level.c:90
+msgid "/_Level/Zero Ma_ximum Value"
+msgstr ""
+
+#: modules/process/level.c:94
+msgid "Shift maximum data value to zero"
+msgstr ""
+
+#: modules/process/level.c:218
+msgid "Plane Level"
+msgstr ""
+
+#: modules/process/level.c:220
+msgid "Level Rotate"
+msgstr ""
+
+#: modules/process/level.c:222
+msgid "Fix Zero"
+msgstr ""
+
+#: modules/process/level.c:224
+msgid "Zero Mean Value"
+msgstr ""
+
+#: modules/process/level.c:226
+msgid "Zero Maximum Value"
+msgstr ""
+
+#: modules/process/level_grains.c:60
+msgid ""
+"Levels individual grains, interpolating the shifts between using Laplacian "
+"interpolation."
+msgstr ""
+
+#: modules/process/level_grains.c:74
+msgid "/_Grains/_Level Grains..."
+msgstr ""
+
+#: modules/process/level_grains.c:78
+msgid ""
+"Level individual grains, interpolating the shifts between using Laplacian "
+"interpolation"
+msgstr ""
+
+#: modules/process/level_grains.c:108
+msgid "Quantity to level"
+msgstr ""
+
+#: modules/process/level_grains.c:168
+msgid "Level Grains"
+msgstr ""
+
+#: modules/process/linecorrect.c:48
+msgid "Corrects line defects (mostly experimental algorithms)."
+msgstr ""
+
+#: modules/process/linecorrect.c:62 modules/volume/volume_stepline.c:64
+msgid "/_Correct Data/Ste_p Line Correction"
+msgstr ""
+
+#: modules/process/linecorrect.c:66
+msgid "Correct steps in lines"
+msgstr ""
+
+#: modules/process/linecorrect.c:69
+msgid "/_Correct Data/Mark _Inverted Rows"
+msgstr ""
+
+#: modules/process/linecorrect.c:73
+msgid "Mark lines with inverted sign"
+msgstr ""
+
+#: modules/process/linematch.c:122 modules/volume/volume_linelevel.c:128
+msgid "linematch|Polynomial"
+msgstr ""
+
+#: modules/process/linematch.c:124 modules/volume/volume_linelevel.c:130
+msgid "Median of differences"
+msgstr ""
+
+#: modules/process/linematch.c:125 modules/volume/volume_linelevel.c:131
+msgid "Modus"
+msgstr ""
+
+#: modules/process/linematch.c:126 modules/volume/volume_linelevel.c:132
+msgid "linematch|Matching"
+msgstr ""
+
+#: modules/process/linematch.c:127 modules/volume/volume_linelevel.c:133
+msgid "Trimmed mean"
+msgstr ""
+
+#: modules/process/linematch.c:128 modules/volume/volume_linelevel.c:134
+msgid "Trimmed mean of differences"
+msgstr ""
+
+#: modules/process/linematch.c:129 modules/volume/volume_linelevel.c:135
+msgid "Facet-level tilt"
+msgstr ""
+
+#: modules/process/linematch.c:135
+msgid "Aligns rows by various methods."
+msgstr ""
+
+#: modules/process/linematch.c:149
+msgid "/_Correct Data/_Align Rows..."
+msgstr ""
+
+#: modules/process/linematch.c:153
+msgid "Align rows using various methods"
+msgstr ""
+
+#: modules/process/linematch.c:175
+msgid "Plot background _graph"
+msgstr ""
+
+#: modules/process/linematch.c:228 modules/process/linematch.c:254
+msgid "Row background"
+msgstr ""
+
+#: modules/process/linematch.c:255
+msgid "Vertical position"
+msgstr ""
+
+#: modules/process/linematch.c:256
+msgid "Corrected offset"
+msgstr ""
+
+#: modules/process/linematch.c:297
+msgid "Align Rows"
+msgstr ""
+
+#: modules/process/lno_synth.c:198 modules/process/noise_synth.c:129
+msgid "distribution|Triangular"
+msgstr ""
+
+#: modules/process/lno_synth.c:203 modules/volume/volume_scars.c:222
+msgid "Scars"
+msgstr ""
+
+#: modules/process/lno_synth.c:205 modules/process/tilt.c:173
+#: modules/tools/corrlen.c:176
+msgid "Tilt"
+msgstr ""
+
+#: modules/process/lno_synth.c:244 modules/process/mask_noisify.c:91
+#: modules/process/noise_synth.c:163
+msgid "S_ymmetrical"
+msgstr ""
+
+#: modules/process/lno_synth.c:245 modules/process/mask_noisify.c:92
+#: modules/process/noise_synth.c:164
+msgid "One-sided _positive"
+msgstr ""
+
+#: modules/process/lno_synth.c:246 modules/process/mask_noisify.c:93
+#: modules/process/noise_synth.c:165
+msgid "One-sided _negative"
+msgstr ""
+
+#: modules/process/lno_synth.c:266 modules/process/noise_synth.c:180
+msgid "_Noise sign"
+msgstr ""
+
+#: modules/process/lno_synth.c:404 modules/process/noise_synth.c:294
+msgid "Distribution"
+msgstr ""
+
+#: modules/process/lno_synth.c:900 modules/process/phase_synth.c:128
+msgid "_Spread"
+msgstr ""
+
+#: modules/process/local_contrast.c:85 modules/process/rank.c:107
+#: modules/process/trimmed-mean.c:112
+msgid "Kernel _size"
+msgstr ""
+
+#: modules/process/logistic.c:150 modules/process/maskcor.c:132
+msgid "_Regularization parameter"
+msgstr ""
+
+#: modules/process/logistic.c:398 modules/process/neural.c:792
+msgid "Training..."
+msgstr ""
+
+#: modules/process/mark_disconn.c:109 modules/process/scars.c:123
+#: modules/volume/volume_scars.c:128 modules/xyz/xyz_tstep.c:124
+msgid "Positive"
+msgstr ""
+
+#: modules/process/mark_disconn.c:110 modules/process/scars.c:124
+#: modules/volume/volume_scars.c:129 modules/xyz/xyz_tstep.c:125
+msgid "Negative"
+msgstr ""
+
+#: modules/process/mark_disconn.c:330 modules/process/rank-filter.c:292
+#: modules/process/trimmed-mean.c:180 modules/xyz/xyz_fft.c:458
+msgid "Filtering..."
+msgstr ""
+
+#: modules/process/mark_with.c:171 modules/process/mask_morph.c:141
+msgid "Operation"
+msgstr ""
+
+#: modules/process/mask_edt.c:116 modules/tools/maskedit.c:235
+msgid "Shrink from _border"
+msgstr ""
+
+#: modules/process/mask_morph.c:122 modules/tools/filter.c:146
+msgid "filter|Opening"
+msgstr ""
+
+#: modules/process/mask_morph.c:123 modules/tools/filter.c:147
+msgid "filter|Closing"
+msgstr ""
+
+#: modules/process/mask_morph.c:124 modules/tools/filter.c:148
+msgid "ASF Opening"
+msgstr ""
+
+#: modules/process/mask_morph.c:125 modules/tools/filter.c:149
+msgid "ASF Closing"
+msgstr ""
+
+#: modules/process/mask_morph.c:147 modules/tools/grainremover.c:113
+msgid "_Mask"
+msgstr ""
+
+#: modules/process/maskcor.c:111 modules/process/maskcor.c:120
+#: modules/process/maskcor.c:172 modules/process/mcrop.c:123
+msgid "Correlation score"
+msgstr ""
+
+#: modules/process/maskcor.c:114 modules/process/mcrop.c:124
+msgid "Height difference score"
+msgstr ""
+
+#: modules/process/maskcor.c:115 modules/process/mcrop.c:125
+msgid "Phase-only score"
+msgstr ""
+
+#: modules/process/measure_lattice.c:144
+msgid "Measures parameters of two-dimensional lattices."
+msgstr ""
+
+#: modules/process/measure_lattice.c:158
+msgid "/Measure _Features/_Lattice..."
+msgstr ""
+
+#: modules/process/measure_lattice.c:162
+msgid "Measure lattice"
+msgstr ""
+
+#: modules/process/measure_lattice.c:172
+msgid "_ACF"
+msgstr ""
+
+#: modules/process/measure_lattice.c:173
+msgid "_PSDF"
+msgstr ""
+
+#: modules/process/measure_lattice.c:177
+msgid "_Vectors"
+msgstr ""
+
+#: modules/process/measure_lattice.c:199
+msgid "Display"
+msgstr ""
+
+#: modules/process/measure_lattice.c:201
+msgid "Show lattice as"
+msgstr ""
+
+#: modules/process/measure_lattice.c:203
+msgid "Measure single vector"
+msgstr ""
+
+#: modules/process/measure_lattice.c:204
+msgid "Show vector numbers"
+msgstr ""
+
+#: modules/process/measure_lattice.c:288 modules/process/measure_lattice.c:338
+msgid "Measure Lattice"
+msgstr ""
+
+#: modules/process/measure_lattice.c:343
+msgid "First vector"
+msgstr ""
+
+#: modules/process/measure_lattice.c:344 modules/process/measure_lattice.c:351
+msgid "X-component"
+msgstr ""
+
+#: modules/process/measure_lattice.c:345 modules/process/measure_lattice.c:352
+msgid "Y-component"
+msgstr ""
+
+#: modules/process/measure_lattice.c:350
+msgid "Second vector"
+msgstr ""
+
+#: modules/process/measure_lattice.c:357
+msgid "Primitive cell"
+msgstr ""
+
+#: modules/process/median-bg.c:69
+msgid "Subtracts background using a rank-based algorithm."
+msgstr ""
+
+#: modules/process/median-bg.c:83
+msgid "/_Level/_Median Level..."
+msgstr ""
+
+#: modules/process/median-bg.c:87
+msgid "Level data by local median subtraction"
+msgstr ""
+
+#: modules/process/median-bg.c:175
+msgid "Median Level"
+msgstr ""
+
+#: modules/process/median-bg.c:228
+msgid "Median-leveling..."
+msgstr ""
+
+#: modules/process/merge.c:192 modules/process/relate.c:667
+msgid "First image"
+msgstr ""
+
+#: modules/process/merge.c:193 modules/process/relate.c:668
+msgid "Second image"
+msgstr ""
+
+#: modules/process/merge.c:194 modules/tools/linestats.c:264
+#: modules/xyz/xyz_raster.c:207 modules/xyz/xyz_reduce.c:83
+msgid "Average"
+msgstr ""
+
+#: modules/process/merge.c:213 modules/process/rotate.c:131
+msgid "Create _mask over exterior"
+msgstr ""
+
+#: modules/process/mfm_current.c:147 modules/process/mfm_field.c:145
+#: modules/process/mfm_parallel.c:152
+msgid "Point charge"
+msgstr ""
+
+#: modules/process/mfm_current.c:148 modules/process/mfm_field.c:146
+#: modules/process/mfm_parallel.c:153
+msgid "Bar"
+msgstr ""
+
+#: modules/process/mfm_current.c:162 modules/process/mfm_field.c:160
+#: modules/process/mfm_parallel.c:168
+msgid "_Output plane height"
+msgstr ""
+
+#: modules/process/mfm_current.c:166 modules/process/mfm_field.c:163
+#: modules/process/mfm_parallel.c:175
+msgid "Tip _magnetization"
+msgstr ""
+
+#: modules/process/mfm_current.c:167 modules/process/mfm_field.c:164
+#: modules/process/mfm_parallel.c:176
+msgid "Bar width _x"
+msgstr ""
+
+#: modules/process/mfm_current.c:168 modules/process/mfm_field.c:165
+#: modules/process/mfm_parallel.c:177
+msgid "Bar width _y"
+msgstr ""
+
+#: modules/process/mfm_current.c:169 modules/process/mfm_field.c:166
+#: modules/process/mfm_parallel.c:178
+msgid "Bar length (_z)"
+msgstr ""

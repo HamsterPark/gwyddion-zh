@@ -1,0 +1,532 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/cmap/cmap_cutter.c:139 modules/cmap/cmap_cutter.c:145
+#: modules/cmap/cmap_simplemech.c:214 modules/cmap/cmap_simplemech.c:362
+msgid "Approach"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:141 modules/cmap/cmap_cutter.c:146
+#: modules/cmap/cmap_simplemech.c:215 modules/cmap/cmap_simplemech.c:371
+msgid "Retract"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:375 modules/cmap/cmap_simplemech.c:212
+msgid "Z curve"
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:454 modules/cmap/cmap_simplemech.c:900
+#: modules/graph/graph_terraces.c:2021 modules/process/terracefit.c:2240
+#: modules/xyz/xyz_drift.c:1913
+msgid "Fitting in progress..."
+msgstr ""
+
+#: modules/cmap/cmap_cutter.c:667 modules/cmap/cmap_extractcurve.c:560
+#: modules/cmap/cmap_fit.c:1137 modules/cmap/cmap_linestat.c:300
+#: modules/cmap/cmap_lockin.c:878 modules/cmap/cmap_peaks.c:282
+msgid "sample"
+msgstr ""
+
+#: modules/cmap/cmap_extractcurve.c:145 modules/volume/volume_slice.c:202
+msgid "Extract _multiple"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:225 modules/cmap/cmap_fit.c:206
+#: modules/process/fit-shape.c:288
+msgid "_Function"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:231 modules/cmap/cmap_filter.c:146
+#: modules/cmap/cmap_fit.c:213 modules/cmap/cmap_lockin.c:204
+#: modules/cmap/cmap_polylevel.c:168 modules/cmap/cmap_sinebg.c:162
+#: modules/xyz/xyz_volumize.c:134
+msgid "_From"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:232 modules/cmap/cmap_filter.c:147
+#: modules/cmap/cmap_fit.c:214 modules/cmap/cmap_lockin.c:205
+#: modules/cmap/cmap_polylevel.c:169 modules/cmap/cmap_sinebg.c:163
+#: modules/xyz/xyz_volumize.c:135
+msgid "_To"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:235 modules/cmap/cmap_fit.c:217
+msgid "Run _estimate at each point"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:239 modules/cmap/cmap_simplemech.c:216
+#: modules/graph/graph_simplemech.c:115
+msgid "Baseline _range"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:338 modules/cmap/cmap_fit.c:359
+msgid "verb|_Estimate single"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:339 modules/cmap/cmap_fit.c:360
+msgid "verb|_Fit single"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:359 modules/cmap/cmap_filter.c:245
+#: modules/cmap/cmap_fit.c:380 modules/cmap/cmap_lockin.c:354
+#: modules/cmap/cmap_polylevel.c:268 modules/cmap/cmap_sinebg.c:256
+msgid "data"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:368 modules/cmap/cmap_fit.c:389
+#: modules/cmap/cmap_lockin.c:363 modules/cmap/cmap_polylevel.c:278
+#: modules/cmap/cmap_sinebg.c:266 modules/graph/graph_polylevel.c:397
+#: modules/graph/graph_sinebg.c:398 modules/tools/corrlen.c:1002
+msgid "fit"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:1201 modules/cmap/cmap_fit.c:1162
+#: modules/graph/graph_fdfit.c:366 modules/graph/graph_fit.c:377
+#: modules/process/fit-shape.c:685 modules/volume/volume_fdfit-WTF.c:420
+#: modules/volume/volume_fdfit.c:420
+msgid "Fix"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:1203 modules/cmap/cmap_fit.c:1164
+#: modules/graph/graph_cd.c:305 modules/graph/graph_fdfit.c:368
+#: modules/graph/graph_fit.c:379 modules/process/fit-shape.c:686
+#: modules/process/smm.c:520 modules/volume/volume_fdfit-WTF.c:422
+#: modules/volume/volume_fdfit.c:422
+msgid "Parameter"
+msgstr ""
+
+#: modules/cmap/cmap_fdfit.c:1205 modules/cmap/cmap_fit.c:1166
+#: modules/graph/graph_cd.c:307 modules/graph/graph_fdfit.c:370
+#: modules/graph/graph_fit.c:381 modules/process/fit-shape.c:687
+#: modules/volume/volume_fdfit-WTF.c:424 modules/volume/volume_fdfit.c:424
+msgid "Error"
+msgstr ""
+
+#: modules/cmap/cmap_filter.c:133 modules/process/fft_filter_1d.c:118
+#: modules/process/wpour_mark.c:149 modules/volume/volume_1dfft.c:142
+#: modules/xyz/xyz_fft.c:143
+msgid "Marked"
+msgstr ""
+
+#: modules/cmap/cmap_filter.c:134 modules/process/fft_filter_1d.c:119
+#: modules/volume/volume_1dfft.c:143 modules/xyz/xyz_fft.c:144
+msgid "Unmarked"
+msgstr ""
+
+#: modules/cmap/cmap_filter.c:150 modules/tools/grainremover.c:130
+msgid "Remove"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:139 modules/graph/graph_fztofd.c:120
+msgid "Convert Force-Z Piezo to Force-Distance"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:151 modules/graph/graph_fztofd.c:89
+msgid "Piezo extension"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:165 modules/graph/graph_fztofd.c:137
+msgid "_Z input"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:167 modules/graph/graph_fztofd.c:142
+msgid "Cantilever _stiffness"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:168 modules/graph/graph_fztofd.c:144
+msgid "Cantilever _tilt"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:169 modules/graph/graph_fztofd.c:143
+msgid "_Deflection sensitivity"
+msgstr ""
+
+#: modules/cmap/cmap_fztofd.c:243 modules/graph/graph_fztofd.c:210
+msgid "Convert FZ to FD Curve"
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:148
+msgid "Summarizes curves in curve map data to an image."
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:162
+msgid "/_Summarize Curves..."
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:166
+msgid "Summarize curves"
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:175 modules/volume/volume_linestat.c:190
+msgid "_Extract image"
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:176 modules/volume/volume_linestat.c:191
+msgid "Set _preview"
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:190 modules/graph/graph_sfuncs.c:125
+#: modules/process/wave_synth.c:196 modules/tools/linestats.c:160
+#: modules/tools/sfunctions.c:214 modules/volume/volume_linestat.c:205
+#: modules/volume/volume_planestat.c:274 modules/volume/volume_strayfield.c:164
+msgid "_Quantity"
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:192 modules/cmap/cmap_lockin.c:212
+#: modules/process/cpde_synth.c:746 modules/process/crosscor.c:158
+#: modules/process/domain_synth.c:188 modules/process/freq_split.c:162
+#: modules/process/mask_edt.c:114 modules/process/pfm.c:161
+#: modules/process/slope_dist.c:147 modules/process/smm_apply.c:155
+#: modules/volume/volume_linestat.c:207 modules/volume/volume_slice.c:205
+msgid "Output type"
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:283
+msgid "Summarize Map Curves"
+msgstr ""
+
+#: modules/cmap/cmap_linestat.c:441
+msgid "(interpolated)"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:203 modules/cmap/cmap_polylevel.c:167
+#: modules/graph/graph_polylevel.c:117
+msgid "_Degree"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:208 modules/process/multiprofile.c:310
+#: modules/process/smm.c:443
+msgid "Show"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:282 modules/graph/graph_sinebg.c:416
+#: modules/process/wave_synth.c:186 modules/process/wave_synth.c:329
+#: modules/tools/roughness.c:386
+msgid "Amplitude"
+msgstr ""
+
+#: modules/cmap/cmap_lockin.c:295 modules/process/fft.c:121
+#: modules/process/smm.c:214 modules/process/smm_apply.c:137
+#: modules/process/wave_synth.c:187
+msgid "Phase"
+msgstr ""
+
+#: modules/cmap/cmap_polylevel.c:129
+msgid "Removes polynomial background from curves."
+msgstr ""
+
+#: modules/cmap/cmap_polylevel.c:143
+msgid "/Remove _Polynomial Background..."
+msgstr ""
+
+#: modules/cmap/cmap_polylevel.c:147
+msgid "Remove polynomial background from all curves"
+msgstr ""
+
+#: modules/cmap/cmap_polylevel.c:173
+msgid "Use _mean polynome"
+msgstr ""
+
+#: modules/cmap/cmap_polylevel.c:174
+msgid "Apply to _all segments"
+msgstr ""
+
+#: modules/cmap/cmap_polylevel.c:248 modules/graph/graph_polylevel.c:176
+#: modules/process/polylevel.c:319
+msgid "Remove Polynomial Background"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:176 modules/process/arc-revolve.c:121
+#: modules/process/crosscor.c:109 modules/process/measure_lattice.c:347
+#: modules/process/measure_lattice.c:354
+msgid "Direction"
+msgstr ""
+
+#: modules/cmap/cmap_possearch.c:180 modules/process/grain_edge.c:181
+msgid "Threshold"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:155 modules/graph/graph_simplemech.c:568
+msgid "DMT modulus"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:156 modules/graph/graph_simplemech.c:569
+msgid "Adhesion"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:157 modules/graph/graph_simplemech.c:570
+#: modules/process/fibre_synth.c:371 modules/process/lat_synth.c:511
+#: modules/process/pat_synth.c:1673
+msgid "Deformation"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:158 modules/graph/graph_simplemech.c:571
+msgid "Dissipated work"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:159 modules/graph/graph_simplemech.c:572
+msgid "Baseline force"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:160 modules/graph/graph_simplemech.c:573
+msgid "Maximum force"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:166 modules/graph/graph_simplemech.c:76
+msgid "Get simple mechanical quantities"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:184 modules/graph/graph_simplemech.c:93
+msgid "Evaluate DMT modulus, adhesion, deformation and dissipation"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:217 modules/graph/graph_simplemech.c:116
+msgid "Fit _upper limit"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:218 modules/graph/graph_simplemech.c:117
+msgid "Fit _lower limit"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:219 modules/graph/graph_simplemech.c:118
+#: modules/process/hertz.c:125
+msgid "_Tip radius"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:220 modules/graph/graph_simplemech.c:119
+msgid "_Poisson's ratio"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:223 modules/graph/graph_terraces.c:272
+#: modules/process/blockstep.c:144 modules/process/correct_perspective.c:150
+#: modules/process/drift.c:165 modules/process/fit-shape.c:291
+#: modules/process/freq_split.c:164 modules/process/good_profile.c:137
+#: modules/process/hertz.c:126 modules/process/multiprofile.c:159
+#: modules/process/pid.c:149 modules/process/ptranslate.c:151
+#: modules/process/smm.c:232 modules/process/terracefit.c:296
+#: modules/process/zero_crossing.c:124
+msgid "verb|Display"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:259 modules/cmap/cmap_simplemech.c:342
+#: modules/graph/graph_simplemech.c:178
+msgid "Nanomechanical Fit"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:344 modules/graph/graph_cd.c:212
+#: modules/graph/graph_fdfit.c:254 modules/graph/graph_fit.c:270
+#: modules/process/fit-shape.c:495 modules/process/smm.c:366
+#: modules/process/terracefit.c:451 modules/volume/volume_fdfit-WTF.c:299
+#: modules/volume/volume_fdfit.c:299
+msgid "verb|_Fit"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:389 modules/graph/graph_simplemech.c:523
+msgid "Baseline fit"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:399 modules/graph/graph_simplemech.c:534
+msgid "DMT fit"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:445 modules/graph/graph_terraces.c:637
+#: modules/process/fit-shape.c:1639 modules/process/relate.c:363
+#: modules/process/relate.c:665 modules/process/terracefit.c:494
+msgid "Fit Results"
+msgstr ""
+
+#: modules/cmap/cmap_simplemech.c:473 modules/graph/graph_measure_period.c:249
+#: modules/graph/graph_simplemech.c:217 modules/graph/graph_simplemech.c:567
+#: modules/xyz/xyz_drift.c:1074
+msgid "Results"
+msgstr ""
+
+#: modules/cmap/cmap_sinebg.c:236 modules/graph/graph_sinebg.c:173
+msgid "Remove Sine Background"
+msgstr ""
+
+#: modules/file/ambprofile.c:452 modules/file/dektakxml.c:359
+#: modules/file/evovisxml.c:321 modules/file/lextfile.c:166
+#: modules/file/nanoscan.c:670 modules/file/ometiff.c:411
+#, c-format
+msgid "Top-level element is not ‘%s’."
+msgstr ""
+
+#: modules/file/anfatec.c:812 modules/file/mifile.c:494
+#, c-format
+msgid "Cannot parse data values at line %d."
+msgstr ""
+
+#: modules/file/asciicmap.c:306 modules/file/formats3d.c:1519
+#: modules/file/nanoscope.c:1019 modules/file/nanoscope.c:1025
+#: modules/file/nanoscope.c:1138 modules/file/nanoscope.c:1144
+#: modules/file/nanoscope.c:2372 modules/file/nanosystemz.c:232
+#: modules/file/nanosystemz.c:260 modules/file/phoenix.c:905
+#: modules/file/phoenix.c:918 modules/file/princetonspe.c:323
+#: modules/file/psia.c:377 modules/file/wsxmfile.c:697 modules/file/zemax.c:160
+msgid "File is truncated."
+msgstr ""
+
+#: modules/file/asciiexport.c:119 modules/file/xyzexport.c:112
+#: modules/process/grain_dist.c:149
+msgid "Add _informational comment header"
+msgstr ""
+
+#: modules/file/asciiexport.c:472 modules/file/xyzexport.c:217
+msgid "Value units:"
+msgstr ""
+
+#: modules/file/bcrfile.c:207 modules/file/keyence.c:1120
+#: modules/file/omicronflat.c:2505
+msgid "Cannot convert string from UTF-16."
+msgstr ""
+
+#: modules/file/burleigh_exp.c:217 modules/file/burleigh_exp.c:254
+#: modules/file/nanoscope.c:2587 modules/file/omicron.c:402
+#: modules/file/shimadzu.c:416
+msgid "Missing colon in header line."
+msgstr ""
+
+#: modules/file/dmefile.c:205 modules/file/zonfile.c:437
+#, c-format
+msgid "Data size %u does not match data dimensions (%u×%u)."
+msgstr ""
+
+#: modules/file/dumbfile.c:155 modules/plugin-proxy.c:1255
+msgid "End of file reached when value was expected."
+msgstr ""
+
+#: modules/file/dumbfile.c:185 modules/plugin-proxy.c:1284
+msgid "Missing data field width."
+msgstr ""
+
+#: modules/file/dumbfile.c:197 modules/plugin-proxy.c:1297
+msgid "Missing data field height."
+msgstr ""
+
+#: modules/file/dumbfile.c:226 modules/plugin-proxy.c:1327
+msgid "Data field dimensions are not positive numbers."
+msgstr ""
+
+#: modules/file/dumbfile.c:266 modules/plugin-proxy.c:1368
+msgid "End of file reached inside a data field."
+msgstr ""
+
+#: modules/file/dumbfile.c:285 modules/plugin-proxy.c:1389
+msgid "Missing end of data field marker."
+msgstr ""
+
+#: modules/file/err.h:45 modules/file/nrrdfile.c:725
+#: modules/file/nrrdfile.c:768 modules/pygwy/pygwy-console.c:494
+#, c-format
+msgid "Cannot read from file: %s."
+msgstr ""
+
+#: modules/file/err.h:128 modules/file/rhk-sm4.c:760
+#, c-format
+msgid "Invalid field dimension: %d."
+msgstr ""
+
+#: modules/file/ezdfile.c:313 modules/file/nanoscope-ii.c:244
+msgid "Malformed header line (missing =)."
+msgstr ""
+
+#: modules/file/femtoscan.c:272 modules/file/miffile.c:665
+#: modules/file/mulfile.c:294
+msgid "Image data are outside the file."
+msgstr ""
+
+#: modules/file/fitsfile.c:161 modules/file/fitsfile.c:173
+#: modules/file/fitsfile.c:184 modules/file/spmxfile.c:367
+msgid "Only two-dimensional images are supported."
+msgstr ""
+
+#: modules/file/formats3d.c:338 modules/volume/volume_extract.c:331
+msgid "Z scale"
+msgstr ""
+
+#. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
+#: modules/file/formats3d.c:1163 modules/file/hdrimage.cc:437
+#: modules/file/imgexport.c:3573
+#, c-format
+msgid "Export %s"
+msgstr ""
+
+#. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
+#: modules/file/formats3d.c:1574 modules/file/hdrimage.cc:2011
+#: modules/file/pixmap.c:683
+#, c-format
+msgid "Import %s"
+msgstr ""
+
+#: modules/file/gwyzip-libzip.h:50 modules/file/gwyzip-libzip.h:56
+#: modules/file/gwyzip-libzip.h:78 modules/file/gwyzip-minizip1.h:120
+#: modules/file/gwyzip-minizip1.h:138 modules/file/gwyzip-zzlib.h:48
+#, c-format
+msgid "%s cannot open the file as a ZIP file."
+msgstr ""
+
+#: modules/file/gwyzip-libzip.h:104 modules/file/gwyzip-libzip.h:115
+#: modules/file/gwyzip-minizip-ng.h:61 modules/file/gwyzip-minizip2.h:69
+#: modules/file/gwyzip-zzlib.h:82 modules/file/gwyzip-zzlib.h:90
+#, c-format
+msgid "%s error while reading the zip file: %s."
+msgstr ""
+
+#: modules/file/gwyzip-libzip.h:104 modules/file/gwyzip-minizip1.h:159
+#: modules/file/gwyzip-zzlib.h:82
+msgid "End of list of files"
+msgstr ""
+
+#: modules/file/gwyzip-libzip.h:205 modules/file/gwyzip-zzlib.h:215
+msgid "Cannot read file contents."
+msgstr ""
+
+#: modules/file/gwyzip-minizip-ng.h:205 modules/file/gwyzip-minizip1.h:271
+#: modules/file/gwyzip-minizip1.h:284 modules/file/gwyzip-minizip2.h:211
+#: modules/file/gwyzip-zzlib.h:178 modules/file/jpkscan.c:2499
+#, c-format
+msgid "File %s is missing in the zip file."
+msgstr ""
+
+#: modules/file/gwyzlib.h:124 modules/file/hdf4file.c:475
+#, c-format
+msgid "Decompression of compressed data failed with error %d."
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by a software library name like zlib.
+#: modules/file/gwyzlib.h:172 modules/file/hdf4file.c:481
+#: modules/file/nrrdfile.c:738 modules/file/nrrdfile.c:781
+#: modules/file/zonfile.c:490
+#, c-format
+msgid ""
+"Cannot decompress compressed data.  Gwyddion was built without %s support."
+msgstr ""
+
+#: modules/file/gxyzffile.c:386 modules/file/hdrimage.cc:1754
+#: modules/file/hdrimage.cc:1946 modules/file/xyzexport.c:260
+#: modules/process/batchcolor.c:1308
+msgid "Channel"
+msgstr ""
+
+#: modules/file/gxyzffile.c:388 modules/file/xyzexport.c:262
+#: modules/process/fit-shape.c:1642
+msgid "XYZ data"
+msgstr ""

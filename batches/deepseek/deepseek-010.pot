@@ -1,0 +1,419 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/logistic.c:124
+msgid "Mark grains with logistic regression"
+msgstr ""
+
+#: modules/process/logistic.c:133
+msgid "_Use trained regression"
+msgstr ""
+
+#: modules/process/logistic.c:134
+msgid "_Train logistic regression"
+msgstr ""
+
+#: modules/process/logistic.c:145
+msgid "_Gaussian blur"
+msgstr ""
+
+#: modules/process/logistic.c:146
+msgid "_Number of Gaussians"
+msgstr ""
+
+#: modules/process/logistic.c:147
+msgid "_Sobel derivatives"
+msgstr ""
+
+#: modules/process/logistic.c:149
+msgid "_Hessian"
+msgstr ""
+
+#: modules/process/logistic.c:222
+msgid "Logistic Regression"
+msgstr ""
+
+#: modules/process/mark_disconn.c:82
+msgid "Creates mask of values disconnected to the rest."
+msgstr ""
+
+#: modules/process/mark_disconn.c:96
+msgid "/_Correct Data/Mask of _Disconnected..."
+msgstr ""
+
+#: modules/process/mark_disconn.c:100
+msgid "Mark data disconnected from other values"
+msgstr ""
+
+#: modules/process/mark_disconn.c:120
+msgid "Defect type"
+msgstr ""
+
+#: modules/process/mark_disconn.c:123
+msgid "Defect _radius"
+msgstr ""
+
+#: modules/process/mark_disconn.c:194
+msgid "Mark Disconnected"
+msgstr ""
+
+#: modules/process/mark_disconn.c:351
+msgid "Marking outliers..."
+msgstr ""
+
+#: modules/process/mark_with.c:130
+msgid "Creates or modifies a mask using other channels."
+msgstr ""
+
+#: modules/process/mark_with.c:144
+msgid "/_Mask/Mark _With..."
+msgstr ""
+
+#: modules/process/mark_with.c:148
+msgid "Mask combining and modification"
+msgstr ""
+
+#: modules/process/mark_with.c:156
+msgid "Se_t mask"
+msgstr ""
+
+#: modules/process/mark_with.c:157
+msgid "_Add mask"
+msgstr ""
+
+#: modules/process/mark_with.c:158
+msgid "_Subtract mask"
+msgstr ""
+
+#: modules/process/mark_with.c:159
+msgid "_Intersect masks"
+msgstr ""
+
+#: modules/process/mark_with.c:169 modules/process/mark_with.c:295
+msgid "Mark with"
+msgstr ""
+
+#: modules/process/mark_with.c:173
+msgid "_Minimum"
+msgstr ""
+
+#: modules/process/mark_with.c:174
+msgid "M_aximum"
+msgstr ""
+
+#: modules/process/mark_with.c:255
+msgid "Mark With"
+msgstr ""
+
+#: modules/process/mark_with.c:273
+msgid "Operand"
+msgstr ""
+
+#: modules/process/mark_with.c:305
+msgid "Marked data range"
+msgstr ""
+
+#: modules/process/mask_distribute.c:69
+msgid "Distributes masks to other channels."
+msgstr ""
+
+#: modules/process/mask_distribute.c:83
+msgid "/_Mask/_Distribute..."
+msgstr ""
+
+#: modules/process/mask_distribute.c:87
+msgid "Distribute mask to other channels"
+msgstr ""
+
+#: modules/process/mask_distribute.c:96
+msgid "Channels within the file"
+msgstr ""
+
+#: modules/process/mask_distribute.c:97
+msgid "Channels in all files"
+msgstr ""
+
+#: modules/process/mask_distribute.c:106
+msgid "Preserve existing masks"
+msgstr ""
+
+#: modules/process/mask_distribute.c:107
+msgid "Distribute to"
+msgstr ""
+
+#: modules/process/mask_distribute.c:158
+msgid "Distribute Mask"
+msgstr ""
+
+#: modules/process/mask_edt.c:74
+msgid "Performs simple and true Euclidean distance transforms of masks."
+msgstr ""
+
+#: modules/process/mask_edt.c:88
+msgid "/_Mask/Distanc_e Transform..."
+msgstr ""
+
+#: modules/process/mask_edt.c:92
+msgid "Distance transform of mask"
+msgstr ""
+
+#: modules/process/mask_edt.c:101
+msgid "Interior"
+msgstr ""
+
+#: modules/process/mask_edt.c:103
+msgid "Two-sided"
+msgstr ""
+
+#: modules/process/mask_edt.c:153 modules/process/mask_edt.c:179
+msgid "Distance Transform"
+msgstr ""
+
+#: modules/process/mask_morph.c:93
+msgid "Performs basic morphological operations with masks."
+msgstr ""
+
+#: modules/process/mask_morph.c:107
+msgid "/_Mask/Morpho_logical Operation..."
+msgstr ""
+
+#: modules/process/mask_morph.c:111
+msgid "Morphological operation with mask"
+msgstr ""
+
+#: modules/process/mask_morph.c:120
+msgid "Erosion"
+msgstr ""
+
+#: modules/process/mask_morph.c:121
+msgid "Dilation"
+msgstr ""
+
+#: modules/process/mask_morph.c:129
+msgid "Octagon"
+msgstr ""
+
+#: modules/process/mask_morph.c:132
+msgid "Another mask"
+msgstr ""
+
+#: modules/process/mask_morph.c:143
+msgid "Structuring element"
+msgstr ""
+
+#: modules/process/mask_morph.c:146
+msgid "_Trim empty borders"
+msgstr ""
+
+#: modules/process/mask_morph.c:213
+msgid "Morphological Operation"
+msgstr ""
+
+#: modules/process/mask_noisify.c:64
+msgid "Adds salt and/or pepper noise to mask."
+msgstr ""
+
+#: modules/process/mask_noisify.c:78
+msgid "/_Mask/_Noisify..."
+msgstr ""
+
+#: modules/process/mask_noisify.c:82
+msgid "Add noise to mask"
+msgstr ""
+
+#: modules/process/mask_noisify.c:103
+msgid "Noise type"
+msgstr ""
+
+#: modules/process/mask_noisify.c:105
+msgid "_Alter only boundaries"
+msgstr ""
+
+#: modules/process/mask_noisify.c:152
+msgid "Noisify Mask"
+msgstr ""
+
+#: modules/process/mask_shift.c:76
+msgid "Shift mask with respect to the image."
+msgstr ""
+
+#: modules/process/mask_shift.c:90
+msgid "/_Mask/_Shift..."
+msgstr ""
+
+#: modules/process/mask_shift.c:94
+msgid "Shift mask"
+msgstr ""
+
+#: modules/process/mask_shift.c:103
+msgid "exterior|Empty"
+msgstr ""
+
+#: modules/process/mask_shift.c:104
+msgid "exterior|Filled"
+msgstr ""
+
+#: modules/process/mask_shift.c:118
+msgid "_Horizontal shift"
+msgstr ""
+
+#: modules/process/mask_shift.c:119
+msgid "_Vertical shift"
+msgstr ""
+
+#: modules/process/mask_shift.c:185
+msgid "Shift Mask"
+msgstr ""
+
+#: modules/process/maskcor.c:82
+msgid "Searches for a detail in another image using correlation."
+msgstr ""
+
+#: modules/process/maskcor.c:96
+msgid "/M_ultidata/Correlation _Search..."
+msgstr ""
+
+#: modules/process/maskcor.c:100
+msgid "Search for a detail using correlation"
+msgstr ""
+
+#: modules/process/maskcor.c:109
+msgid "Correlation, raw"
+msgstr ""
+
+#: modules/process/maskcor.c:110
+msgid "Correlation, leveled"
+msgstr ""
+
+#: modules/process/maskcor.c:112
+msgid "Height difference, raw"
+msgstr ""
+
+#: modules/process/maskcor.c:113
+msgid "Height difference, leveled"
+msgstr ""
+
+#: modules/process/maskcor.c:118
+msgid "Objects marked"
+msgstr ""
+
+#: modules/process/maskcor.c:119
+msgid "Correlation maxima"
+msgstr ""
+
+#: modules/process/maskcor.c:133
+msgid "Correlation _method"
+msgstr ""
+
+#: modules/process/maskcor.c:135
+msgid "Use _mask"
+msgstr ""
+
+#: modules/process/maskcor.c:136
+msgid "_Plot mask"
+msgstr ""
+
+#: modules/process/maskcor.c:137
+msgid "_Detail to search"
+msgstr ""
+
+#: modules/process/maskcor.c:205 modules/process/maskcor.c:216
+msgid "Correlation Search"
+msgstr ""
+
+#: modules/process/maskops.c:46
+msgid "Basic operations with mask: inversion, removal, extraction."
+msgstr ""
+
+#: modules/process/maskops.c:60
+msgid "/_Mask/_Remove Mask"
+msgstr ""
+
+#: modules/process/maskops.c:64
+msgid "Remove mask from data"
+msgstr ""
+
+#: modules/process/maskops.c:67
+msgid "/_Mask/_Invert Mask"
+msgstr ""
+
+#: modules/process/maskops.c:71
+msgid "Invert mask"
+msgstr ""
+
+#: modules/process/maskops.c:74
+msgid "/_Mask/_Extract Mask"
+msgstr ""
+
+#: modules/process/maskops.c:78
+msgid "Extract mask to a new image"
+msgstr ""
+
+#: modules/process/maskops.c:81
+msgid "/_Grains/_Extract Numbers"
+msgstr ""
+
+#: modules/process/maskops.c:85
+msgid "Extract grain numbers to a new image"
+msgstr ""
+
+#: modules/process/maskops.c:88
+msgid "/_Grains/_Remove Edge-Touching"
+msgstr ""
+
+#: modules/process/maskops.c:92
+msgid "Remove grains touching image edges"
+msgstr ""
+
+#: modules/process/maskops.c:95
+msgid "/_Mask/Thi_n"
+msgstr ""
+
+#: modules/process/maskops.c:99
+msgid "Thin mask"
+msgstr ""
+
+#: modules/process/maskops.c:193
+msgid "Grain Numbers"
+msgstr ""
+
+#: modules/process/mcrop.c:96
+msgid "Crops non-intersecting regions of two images."
+msgstr ""
+
+#: modules/process/mcrop.c:110
+msgid "/M_ultidata/Mutual C_rop..."
+msgstr ""
+
+#: modules/process/mcrop.c:114
+msgid "Crop non-intersecting regions of two images"
+msgstr ""
+
+#: modules/process/mcrop.c:126
+msgid "Brute force score"
+msgstr ""
+
+#: modules/process/mcrop.c:129
+msgid "Cropped first"
+msgstr ""
+
+#: modules/process/mcrop.c:130
+msgid "Cropped second"
+msgstr ""

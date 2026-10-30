@@ -1,0 +1,442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/nanoeducator.c:965
+msgid "F-D spectra"
+msgstr ""
+
+#: modules/file/nanoeducator.c:1038
+msgid "I-V spectra"
+msgstr ""
+
+#: modules/file/nanoeducator.c:1107
+msgid "I-Z spectra"
+msgstr ""
+
+#: modules/file/nanomagnetics.c:399
+msgid "Imports Nanomagnetics' NMI file format version 3 and 5"
+msgstr ""
+
+#: modules/file/nanomagnetics.c:412
+msgid "Nanomagnetics File (.nmi)"
+msgstr ""
+
+#: modules/file/nanonics.c:102
+msgid "Imports Nanonics NAN data files."
+msgstr ""
+
+#: modules/file/nanonics.c:115
+msgid "Nanonics files (.nan)"
+msgstr ""
+
+#: modules/file/nanonics.c:204
+#, c-format
+msgid "HeaderLength %u differs from actual header length %u"
+msgstr ""
+
+#: modules/file/nanonis-spec.c:98
+msgid "Imports Nanonis DAT spectrum files."
+msgstr ""
+
+#: modules/file/nanonis-spec.c:111
+msgid "Nanonis spectrum files (.dat)"
+msgstr ""
+
+#: modules/file/nanonis-spec.c:446
+msgid "Data block is truncated"
+msgstr ""
+
+#: modules/file/nanonis.c:113
+msgid "Imports Nanonis SXM data files."
+msgstr ""
+
+#: modules/file/nanonis.c:133
+msgid "Nanonis SXM files (.sxm)"
+msgstr ""
+
+#: modules/file/nanonis.c:267
+msgid "Garbage was found in place of tag header line."
+msgstr ""
+
+#: modules/file/nanonis.c:331
+#, c-format
+msgid "DATA_INFO does not contain the expected columns: %s."
+msgstr ""
+
+#: modules/file/nanonis.c:353
+#, c-format
+msgid "DATA_INFO line contains fewer than %d fields."
+msgstr ""
+
+#: modules/file/nanonis.c:534
+msgid "Missing data start marker \\x1a\\x04."
+msgstr ""
+
+#: modules/file/nanoobserver.c:202
+msgid "Reads Nano-Solution/NanoObserver .nao files."
+msgstr ""
+
+#: modules/file/nanoobserver.c:215
+msgid "Nano-Solution/NanoObserver data (.nao)"
+msgstr ""
+
+#: modules/file/nanoobserver.c:430 modules/file/nanoobserver.c:470
+msgid "There are no valid scan lines."
+msgstr ""
+
+#: modules/file/nanoscan.c:187
+msgid "Imports NanoScan XML files."
+msgstr ""
+
+#: modules/file/nanoscan.c:200
+msgid "NanoScan XML files (.xml)"
+msgstr ""
+
+#: modules/file/nanoscan.c:900
+msgid "Wrong size of Base64 encoded data."
+msgstr ""
+
+#: modules/file/nanoscantech.c:125
+msgid "Imports NanoScanTech .nstdat files."
+msgstr ""
+
+#: modules/file/nanoscantech.c:138
+msgid "NanoScanTech data (.nstdat)"
+msgstr ""
+
+#: modules/file/nanoscope-ii.c:82
+msgid "Imports Digital Instruments Nanoscope II data files."
+msgstr ""
+
+#: modules/file/nanoscope-ii.c:95
+msgid "Nanoscope II files"
+msgstr ""
+
+#: modules/file/nanoscope.c:273
+msgid "Imports Bruker Nanoscope data files, version 3 or newer."
+msgstr ""
+
+#: modules/file/nanoscope.c:286
+msgid "Nanoscope III files"
+msgstr ""
+
+#: modules/file/nanoscope.c:367
+msgid "File is not a Nanoscope file, or it is a unknown subtype."
+msgstr ""
+
+#: modules/file/nanoscope.c:373
+msgid ""
+"File has been damaged by change of line endings, resulting in corruption of "
+"the binary part of the file.\n"
+"\n"
+"Typically, this occurs if the file is treated as text when sent by e-mail "
+"uncompressed, sent by FTP in ascii mode (use binary), compressed by ‘Send to "
+"compressed folder’ in some versions of MS Windows, or any other file "
+"transfer that attempts to store text platform-independently."
+msgstr ""
+
+#: modules/file/nanoscope.c:474
+msgid "Reading channels..."
+msgstr ""
+
+#: modules/file/nanoscope.c:2462 modules/file/nanoscope.c:2477
+msgid "Cannot parse `Scan size' field."
+msgstr ""
+
+#: modules/file/nanoscope.c:2579
+msgid "Truncated header line."
+msgstr ""
+
+#: modules/file/nanosystemz.c:95
+msgid "Imports NanoSystem profilometry data files."
+msgstr ""
+
+#: modules/file/nanosystemz.c:108
+msgid "NanoSystem profilometry files (.spm)"
+msgstr ""
+
+#: modules/file/nanotop.c:107
+msgid "Imports NANOTOP AFM files"
+msgstr ""
+
+#: modules/file/nanotop.c:120
+msgid "Nanotop files (.spm)"
+msgstr ""
+
+#: modules/file/netcdf.c:172
+msgid "Imports network Common Data Form (netCDF) files created by GXSM."
+msgstr ""
+
+#: modules/file/netcdf.c:185
+msgid "GSXM netCDF files (.nc)"
+msgstr ""
+
+#: modules/file/netcdf.c:228
+#, c-format
+msgid "Variable `%s' refers to invalid or nonexistent data."
+msgstr ""
+
+#: modules/file/netcdf.c:267
+msgid "NetCDF records are not supported."
+msgstr ""
+
+#: modules/file/netcdf.c:314
+msgid "Value series values must be of type FLOAT."
+msgstr ""
+
+#: modules/file/netcdf.c:335
+msgid "Time values must be of type DOUBLE."
+msgstr ""
+
+#: modules/file/netcdf.c:355
+msgid "Reading of fast scan files is not implemented - yet."
+msgstr ""
+
+#: modules/file/netcdf.c:425
+msgid "Time series order is wrong."
+msgstr ""
+
+#: modules/file/netcdf.c:959
+#, c-format
+msgid "File ended unexpectedly inside `%s'."
+msgstr ""
+
+#: modules/file/netcdf.c:968
+#, c-format
+msgid "Expected `%s' array or `ABSENT'."
+msgstr ""
+
+#: modules/file/netcdf.c:976
+#, c-format
+msgid "Array `%s' has non-zero number of elements in spite of being absent."
+msgstr ""
+
+#: modules/file/netcdf.c:1032
+msgid "More than one record dimension found."
+msgstr ""
+
+#: modules/file/nmmxyz.c:202
+msgid "Imports Nano Measuring Machine profile files."
+msgstr ""
+
+#: modules/file/nmmxyz.c:215
+msgid "Nano Measuring Machine files (*.dsc)"
+msgstr ""
+
+#: modules/file/nmmxyz.c:229
+msgid "Non-square pixels"
+msgstr ""
+
+#: modules/file/nmmxyz.c:230
+msgid "Specify X resolution"
+msgstr ""
+
+#: modules/file/nmmxyz.c:231
+msgid "Specify Y resolution"
+msgstr ""
+
+#: modules/file/nmmxyz.c:242
+msgid "Plot point density map"
+msgstr ""
+
+#: modules/file/nmmxyz.c:243
+msgid "Align scan lines with X axis"
+msgstr ""
+
+#: modules/file/nmmxyz.c:245
+msgid "Identical _measures"
+msgstr ""
+
+#: modules/file/nmmxyz.c:249
+msgid "Pixel resolution mode"
+msgstr ""
+
+#: modules/file/nmmxyz.c:252
+msgid "_Display with physical aspect ratio"
+msgstr ""
+
+#: modules/file/nmmxyz.c:253
+msgid "_Filter out data using error channel"
+msgstr ""
+
+#: modules/file/nmmxyz.c:256 modules/file/nmmxyz.c:277
+msgid "_Error channel"
+msgstr ""
+
+#: modules/file/nmmxyz.c:322
+msgid "Nano Measuring Machine data import must be run as interactive."
+msgstr ""
+
+#: modules/file/nmmxyz.c:456
+msgid "Import NMM Profile Set"
+msgstr ""
+
+#: modules/file/nmmxyz.c:466
+msgid "Number of data files"
+msgstr ""
+
+#: modules/file/nmmxyz.c:469
+msgid "Total number of points"
+msgstr ""
+
+#: modules/file/nmmxyz.c:472
+msgid "Points per profile"
+msgstr ""
+
+#: modules/file/nmmxyz.c:486
+msgid "_Auto"
+msgstr ""
+
+#: modules/file/nmmxyz.c:497
+msgid "Imported Channels"
+msgstr ""
+
+#: modules/file/nmmxyz.c:754
+msgid "Point density map"
+msgstr ""
+
+#: modules/file/nmmxyz.c:831
+msgid "Something is changing the data files on disk."
+msgstr ""
+
+#: modules/file/nova-asc.c:80
+msgid "Imports Nova ASC files."
+msgstr ""
+
+#: modules/file/nova-asc.c:93
+msgid "Nova ASCII files (.txt)"
+msgstr ""
+
+#: modules/file/npyfile.c:121
+msgid "Imports and exports binary serialized numpy arrays (NPY, NPZ)."
+msgstr ""
+
+#: modules/file/npyfile.c:134
+msgid "Serialized numpy array (.npy)"
+msgstr ""
+
+#: modules/file/npyfile.c:141
+msgid "Multiple serialized numpy arrays (.npz)"
+msgstr ""
+
+#: modules/file/npyfile.c:428
+msgid "Cannot parse NPY ASCII header."
+msgstr ""
+
+#: modules/file/nrrdfile.c:176
+msgid "Imports and exports nearly raw raster data (NRRD) files."
+msgstr ""
+
+#: modules/file/nrrdfile.c:189
+msgid "Nearly raw raster data (NRRD) files (.nrrd)"
+msgstr ""
+
+#: modules/file/nrrdfile.c:322
+msgid "Detached header does not refer to any data file."
+msgstr ""
+
+#: modules/file/nrrdfile.c:346
+msgid "Only two- and three-dimensional data are supported."
+msgstr ""
+
+#: modules/file/nrrdfile.c:366
+msgid "Non-zero lineskip is supported only for uncompressed files."
+msgstr ""
+
+#: modules/file/nrrdfile.c:402
+msgid "Compression is supported only for detached files."
+msgstr ""
+
+#: modules/file/nrrdfile.c:693
+msgid "Split detached data files are not supported."
+msgstr ""
+
+#: modules/file/nrrdfile.c:912
+#, c-format
+msgid "Hex data contain fewer values (%u) than corresponds to the sizes (%u)."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1033
+#, c-format
+msgid "Text data contain fewer values (%u) than corresponds to the sizes (%u)."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1087
+msgid "Field byteskip cannot be -1 for text encodings."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1097
+msgid "Field lineskip specifies more lines than there are in the file."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1138
+msgid "Field byteskip specifies more bytes than there are in the file."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1509
+#, c-format
+msgid "Items of per-axis header field %s are not quoted."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1518
+#, c-format
+msgid "Per-axis header field %s contains too many items."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1526
+#, c-format
+msgid "Per-axis header field %s contains too few items."
+msgstr ""
+
+#: modules/file/nt-mdt.c:722
+msgid "Imports NT-MDT data files."
+msgstr ""
+
+#: modules/file/nt-mdt.c:735
+msgid "NT-MDT files (.mdt)"
+msgstr ""
+
+#: modules/file/nt-mdt.c:1321 modules/file/nt-mdt.c:1427
+msgid "Frame is too short for Frame Mode."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1336 modules/file/nt-mdt.c:1442
+msgid "Frame is too short for dots or data."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1697
+#, c-format
+msgid "End of file reached in frame header #%u."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1705
+#, c-format
+msgid "End of file reached in frame data #%u."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1738
+#, c-format
+msgid "Frame #%u is too short for scanned data header."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1755
+#, c-format
+msgid "Frame #%u is too short for spectroscopy data header."
+msgstr ""

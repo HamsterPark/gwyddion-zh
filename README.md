@@ -26,6 +26,7 @@
 
 - [术语表初稿](glossary.md)：译法是暂定约定，需结合界面和手册核对。
 - [分片说明](partitions/README.md)：范围、数量、分片规则和注意事项。
+- [外部交接说明](HANDOFF.md)：Grok、DeepSeek 的任务提示及按 100 条拆分的批次。
 - [Codex 模板](partitions/codex.pot)：2,108 条。
 - [Grok 模板](partitions/grok.pot)：837 条。
 - [DeepSeek 模板](partitions/deepseek.pot)：2,108 条。
@@ -38,4 +39,5 @@
 ## 许可与来源
 
 上游模板属于 Gwyddion 项目，按上游项目许可分发；仓库内的原创翻译工作拟遵循同一许可，以便贡献上游。见 [COPYING](COPYING)。请在提交译文前确认有权按该许可贡献，并遵守上游对署名的要求。
+
 

@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/process/grain_makesel.c:65
+msgid "/_Grains/Select _Circumscribed Circles"
+msgstr ""
+
+#: modules/process/grain_makesel.c:69
+msgid "Create a selection visualizing grain circumcircles"
+msgstr ""
+
+#: modules/process/grain_makesel.c:72
+msgid "/_Grains/Select Inscribed _Rectangles"
+msgstr ""
+
+#: modules/process/grain_makesel.c:76
+msgid "Create a selection visualizing rectangles inscribed into grains"
+msgstr ""
+
+#: modules/process/grain_makesel.c:79
+msgid "/_Grains/Select _Bounding Boxes"
+msgstr ""
+
+#: modules/process/grain_makesel.c:83
+msgid "Create a selection visualizing grain bounding boxes"
+msgstr ""
+
+#: modules/process/grain_mark.c:85
+msgid "Marks grains by thresholding (height, slope, curvature)."
+msgstr ""
+
+#: modules/process/grain_mark.c:99
+msgid "/_Grains/_Mark by Threshold..."
+msgstr ""
+
+#: modules/process/grain_mark.c:103
+msgid "Mark grains by threshold"
+msgstr ""
+
+#: modules/process/grain_mark.c:120
+msgid "_Rank"
+msgstr ""
+
+#: modules/process/grain_mark.c:122
+msgid "_Slope"
+msgstr ""
+
+#: modules/process/grain_mark.c:124
+msgid "_Curvature"
+msgstr ""
+
+#: modules/process/grain_mark.c:127
+msgid "Criteria combination"
+msgstr ""
+
+#: modules/process/grain_mark.c:200
+msgid "Mark Grains by Threshold"
+msgstr ""
+
+#: modules/process/grain_mark.c:208
+msgid "Threshold by"
+msgstr ""
+
+#: modules/process/grain_stat.c:100
+msgid "Calculates statistics for all grain quantities."
+msgstr ""
+
+#: modules/process/grain_stat.c:114
+msgid "/_Grains/S_tatistics..."
+msgstr ""
+
+#: modules/process/grain_stat.c:118
+msgid "Grain property statistics"
+msgstr ""
+
+#: modules/process/grain_stat.c:133
+msgid "Save Grain Statistics"
+msgstr ""
+
+#: modules/process/grain_stat.c:161
+msgid "IQR"
+msgstr ""
+
+#: modules/process/grain_stat.c:177
+msgid "Grain Statistics"
+msgstr ""
+
+#: modules/process/grain_stat.c:354
+msgid "px<sup>2</sup>"
+msgstr ""
+
+#: modules/process/grain_summary.c:66
+msgid "Displays overall grain statistics."
+msgstr ""
+
+#: modules/process/grain_summary.c:80
+msgid "/_Grains/S_ummary..."
+msgstr ""
+
+#: modules/process/grain_summary.c:84
+msgid "Grain summary information"
+msgstr ""
+
+#: modules/process/grain_summary.c:99
+msgid "Save Grain Summary"
+msgstr ""
+
+#: modules/process/grain_summary.c:139 modules/process/grain_summary.c:165
+msgid "Grain Summary"
+msgstr ""
+
+#: modules/process/grain_summary.c:169
+msgid "Number of grains"
+msgstr ""
+
+#: modules/process/grain_summary.c:170
+msgid "Density"
+msgstr ""
+
+#: modules/process/grain_summary.c:171
+msgid "Total projected area (abs.)"
+msgstr ""
+
+#: modules/process/grain_summary.c:174
+msgid "Total projected area (rel.)"
+msgstr ""
+
+#: modules/process/grain_summary.c:175
+msgid "Mean grain area"
+msgstr ""
+
+#: modules/process/grain_summary.c:178
+msgid "Mean grain size"
+msgstr ""
+
+#: modules/process/grain_summary.c:179
+msgid "Total grain volume (zero)"
+msgstr ""
+
+#: modules/process/grain_summary.c:182
+msgid "Total grain volume (minimum)"
+msgstr ""
+
+#: modules/process/grain_summary.c:185
+msgid "Total grain volume (Laplace)"
+msgstr ""
+
+#: modules/process/grain_summary.c:188
+msgid "Total projected boundary length"
+msgstr ""
+
+#: modules/process/grain_wshed.c:75
+msgid "Marks grains by watershed algorithm."
+msgstr ""
+
+#: modules/process/grain_wshed.c:89
+msgid "/_Grains/Mark by _Watershed..."
+msgstr ""
+
+#: modules/process/grain_wshed.c:93
+msgid "Mark grains by watershed"
+msgstr ""
+
+#: modules/process/grain_wshed.c:109
+msgid "_Number of steps"
+msgstr ""
+
+#: modules/process/grain_wshed.c:111
+msgid "_Drop size"
+msgstr ""
+
+#: modules/process/grain_wshed.c:112
+msgid "Num_ber of steps"
+msgstr ""
+
+#: modules/process/grain_wshed.c:113
+msgid "Dr_op size"
+msgstr ""
+
+#: modules/process/grain_wshed.c:183
+msgid "Mark Grains by Watershed"
+msgstr ""
+
+#: modules/process/grain_wshed.c:192
+msgid "Grain Location"
+msgstr ""
+
+#: modules/process/grain_wshed.c:202
+msgid "Segmentation"
+msgstr ""
+
+#: modules/process/grain_wshed.c:283
+msgid "Finding minima..."
+msgstr ""
+
+#: modules/process/grain_wshed.c:285
+msgid "Locating..."
+msgstr ""
+
+#: modules/process/grain_wshed.c:287
+msgid "Simulating watershed..."
+msgstr ""
+
+#: modules/process/grain_wshed.c:289
+msgid "Marking boundaries..."
+msgstr ""
+
+#: modules/process/hertz.c:96
+msgid "/SPM M_odes/_Force and Indentation/_Hertz contact..."
+msgstr ""
+
+#: modules/process/hertz.c:100
+msgid "Hertzian contact theory"
+msgstr ""
+
+#: modules/process/hertz.c:109
+msgid "Mean _curvature"
+msgstr ""
+
+#: modules/process/hertz.c:110
+msgid "Gaussian c_urvature"
+msgstr ""
+
+#: modules/process/hertz.c:111
+msgid "Contact _modulus"
+msgstr ""
+
+#: modules/process/hertz.c:112
+msgid "_Deformation"
+msgstr ""
+
+#: modules/process/hertz.c:113
+msgid "Excluded _points"
+msgstr ""
+
+#: modules/process/hertz.c:123
+msgid "_Contact modulus"
+msgstr ""
+
+#: modules/process/hertz.c:124
+msgid "_Load applied"
+msgstr ""
+
+#: modules/process/hertz.c:137
+msgid "Mean curvature"
+msgstr ""
+
+#: modules/process/hertz.c:138
+msgid "Gaussian curvature"
+msgstr ""
+
+#: modules/process/hertz.c:139
+msgid "Hertzian contact modulus"
+msgstr ""
+
+#: modules/process/hertz.c:140
+msgid "Hertzian theory deformation"
+msgstr ""
+
+#: modules/process/hertz.c:163 modules/process/hertz.c:232
+msgid "Hertzian Contact Modulus"
+msgstr ""
+
+#: modules/process/hertz.c:243
+msgid ""
+"Values should be height (meters).\n"
+"The following results do not make much sense."
+msgstr ""
+
+#: modules/process/indent_analyze.c:179
+msgid "Analyses nanoindentation structure (volumes, surfaces, ...)."
+msgstr ""
+
+#: modules/process/indent_analyze.c:193
+msgid "/SPM M_odes/_Force and Indentation/_Analyze Imprint..."
+msgstr ""
+
+#: modules/process/indent_analyze.c:197
+msgid "Analyze indentation imprint"
+msgstr ""
+
+#: modules/process/indent_analyze.c:211
+msgid "Nothing"
+msgstr ""
+
+#: modules/process/indent_analyze.c:212 modules/process/mask_edt.c:102
+msgid "Exterior"
+msgstr ""
+
+#: modules/process/indent_analyze.c:214
+msgid "Imprint"
+msgstr ""
+
+#: modules/process/indent_analyze.c:215
+msgid "Imprint faces"
+msgstr ""
+
+#: modules/process/indent_analyze.c:216 modules/process/indent_analyze.c:400
+msgid "Contact area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:217
+msgid "Pile-up"
+msgstr ""
+
+#: modules/process/indent_analyze.c:218
+msgid "Inner pile-up"
+msgstr ""
+
+#: modules/process/indent_analyze.c:219
+msgid "Outer pile-up"
+msgstr ""
+
+#: modules/process/indent_analyze.c:220
+msgid "Faces border"
+msgstr ""
+
+#: modules/process/indent_analyze.c:229
+msgid "Level using imprint exterior"
+msgstr ""
+
+#: modules/process/indent_analyze.c:230
+msgid "Exterior width"
+msgstr ""
+
+#: modules/process/indent_analyze.c:231
+msgid "Ref. plane _tolerance"
+msgstr ""
+
+#: modules/process/indent_analyze.c:232
+msgid "_Angle tolerance"
+msgstr ""
+
+#: modules/process/indent_analyze.c:233
+msgid "_Indenter shape"
+msgstr ""
+
+#: modules/process/indent_analyze.c:262
+msgid "Analyze imprint"
+msgstr ""
+
+#: modules/process/indent_analyze.c:325
+msgid "Analyze Imprint"
+msgstr ""
+
+#: modules/process/indent_analyze.c:335
+msgid "Leveling"
+msgstr ""
+
+#: modules/process/indent_analyze.c:340
+msgid "Marking"
+msgstr ""
+
+#: modules/process/indent_analyze.c:388
+msgid "Indentation"
+msgstr ""
+
+#: modules/process/indent_analyze.c:393
+msgid "Imprint center x"
+msgstr ""
+
+#: modules/process/indent_analyze.c:394
+msgid "Imprint center y"
+msgstr ""
+
+#: modules/process/indent_analyze.c:398
+msgid "Imprint surface area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:399
+msgid "Imprint projected area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:401
+msgid "Imprint volume"
+msgstr ""
+
+#: modules/process/indent_analyze.c:402
+msgid "Pile-up volume"
+msgstr ""
+
+#: modules/process/indent_analyze.c:403
+msgid "Pile-up surface area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:404
+msgid "Pile-up projected area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:405
+msgid "Inner pile-up surface area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:406
+msgid "Inner pile-up projected area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:407
+msgid "Outer pile-up surface area"
+msgstr ""
+
+#: modules/process/indent_analyze.c:408
+msgid "Outer pile-up projected area"
+msgstr ""

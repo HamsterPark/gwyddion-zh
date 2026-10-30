@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/imgexport.c:3066 modules/file/imgexport.c:3602
+msgid "Lateral Scale"
+msgstr ""
+
+#: modules/file/imgexport.c:3070
+msgid "Choose Length _Automatically"
+msgstr ""
+
+#: modules/file/imgexport.c:3104
+msgid "Value Scale"
+msgstr ""
+
+#: modules/file/imgexport.c:3111 modules/file/imgexport.c:3472
+msgid "Title"
+msgstr ""
+
+#: modules/file/imgexport.c:3470
+msgid "Lateral"
+msgstr ""
+
+#: modules/file/imgexport.c:3583
+msgid "Export as 1_6 bit grayscale"
+msgstr ""
+
+#: modules/file/imgexport.c:3603
+msgid "Values"
+msgstr ""
+
+#: modules/file/imgexport.c:3604
+msgid "Selection"
+msgstr ""
+
+#: modules/file/imgexport.c:4250
+#, c-format
+msgid "Cairo error occurred: %s"
+msgstr ""
+
+#: modules/file/imgexport.c:4282
+#, c-format
+msgid "Pixbuf save failed: %s."
+msgstr ""
+
+#: modules/file/imgexport.c:4551
+msgid "Image is too large to be stored as TARGA."
+msgstr ""
+
+#: modules/file/imgexport.c:4649
+#, c-format
+msgid "libjxl error occurred (%s)"
+msgstr ""
+
+#: modules/file/intelliwave.c:226
+msgid "Imports IntelliWave interferometric ESD data."
+msgstr ""
+
+#: modules/file/intelliwave.c:239
+msgid "IntelliWave interferometric data (.esd)"
+msgstr ""
+
+#: modules/file/intelliwave.c:297
+#, c-format
+msgid ""
+"Invalid data address 0x%0x found.  File is in some unknown format version."
+msgstr ""
+
+#: modules/file/intematix.c:117
+msgid "Imports Intematix SDF data files."
+msgstr ""
+
+#: modules/file/intematix.c:130
+msgid "Intematix SDF data files (.sdf)"
+msgstr ""
+
+#: modules/file/intematix.c:275
+msgid "image depth"
+msgstr ""
+
+#: modules/file/iso28600.c:356
+msgid "Imports and exports ISO 28600:2011 SPM data transfer format."
+msgstr ""
+
+#: modules/file/iso28600.c:371
+msgid "ISO 28600:2011 SPM data transfer files (.spm)"
+msgstr ""
+
+#: modules/file/iso28600.c:457
+#, c-format
+msgid ""
+"Only regular and irregular mappings are implemented but the file has mapping "
+"type ‘%s’."
+msgstr ""
+
+#: modules/file/iso28600.c:483 modules/file/iso28600.c:489
+#: modules/file/iso28600.c:495
+#, c-format
+msgid "List ‘%s’ has %u items which differs from the number %u given by ‘%s’."
+msgstr ""
+
+#: modules/file/iso28600.c:580 modules/file/iso28600.c:666
+#: modules/file/iso28600.c:789
+msgid "Missing end-of-data marker."
+msgstr ""
+
+#: modules/file/iso28600.c:931
+#, c-format
+msgid "Line %u does not contain mandatory label ‘%s’."
+msgstr ""
+
+#: modules/file/jeol.c:420
+msgid "Imports JEOL data files."
+msgstr ""
+
+#: modules/file/jeol.c:433
+msgid "JEOL data files (.tif)"
+msgstr ""
+
+#: modules/file/jeoltem.c:122
+msgid "Imports JEOL TEM images."
+msgstr ""
+
+#: modules/file/jeoltem.c:135
+msgid "JEOL TIF TEM image (.tif)"
+msgstr ""
+
+#: modules/file/jpkscan.c:285
+msgid "Imports JPK image scans."
+msgstr ""
+
+#: modules/file/jpkscan.c:298
+msgid "JPK image scans (.jpk, .jpk-qi-image)"
+msgstr ""
+
+#: modules/file/jpkscan.c:305
+msgid "JPK force curves (.jpk-force, .jpk-force-map, .jpk-qi-data)"
+msgstr ""
+
+#: modules/file/jpkscan.c:369
+msgid "File does not contain grid dimensions."
+msgstr ""
+
+#: modules/file/jpkscan.c:671 modules/file/jpkscan.c:2445
+#, c-format
+msgid "Scanning file (%u curves)..."
+msgstr ""
+
+#: modules/file/jpkscan.c:723
+msgid "Creating volume data..."
+msgstr ""
+
+#: modules/file/jpkscan.c:861
+msgid "Non-uniform point and/or segment numbering is not supported."
+msgstr ""
+
+#: modules/file/jpkscan.c:869
+msgid "Non-uniform channel lists are not supported."
+msgstr ""
+
+#: modules/file/jpkscan.c:877
+#, c-format
+msgid "Data file %s was found instead of expected %s."
+msgstr ""
+
+#: modules/file/jpkscan.c:1674
+#, c-format
+msgid "Header properties file for index %u is missing."
+msgstr ""
+
+#: modules/file/jpkscan.c:2257
+msgid "Cannot find any height channel."
+msgstr ""
+
+#: modules/file/jspmfile.c:185
+msgid "Imports JEOL JSPM data files."
+msgstr ""
+
+#: modules/file/jspmfile.c:198
+msgid "JEOL JSPM data files (.tif)"
+msgstr ""
+
+#: modules/file/jspmfile.c:275
+#, c-format
+msgid "Header block %u has invalid position or size."
+msgstr ""
+
+#: modules/file/jspmfile.c:354 modules/file/jspmfile.c:361
+#: modules/file/jspmfile.c:413 modules/file/jspmfile.c:420
+msgid "Cannot find image header block."
+msgstr ""
+
+#: modules/file/jspmfile.c:462
+msgid "Cannot find piezo header block."
+msgstr ""
+
+#: modules/file/keyence.c:442
+msgid "Imports Keyence VK3, VK4, VK6 and VK7 files."
+msgstr ""
+
+#: modules/file/keyence.c:455
+msgid "Keyence VK3 data files (.vk3)"
+msgstr ""
+
+#: modules/file/keyence.c:461
+msgid "Keyence VK4 data files (.vk4)"
+msgstr ""
+
+#: modules/file/keyence.c:468
+msgid "Keyence VK6 data files (.vk6)"
+msgstr ""
+
+#: modules/file/keyence.c:474
+msgid "Keyence VK7 data files (.vk7)"
+msgstr ""
+
+#: modules/file/lafmdmap.c:73
+msgid "Exports volume data as LAFM density map."
+msgstr ""
+
+#: modules/file/lafmdmap.c:86
+msgid "LAFM density map (.afm)"
+msgstr ""
+
+#: modules/file/leica.c:189
+msgid "Imports Leica CLSM image files (LIF)."
+msgstr ""
+
+#: modules/file/leica.c:202
+msgid "Leica LIF image files (.lif)"
+msgstr ""
+
+#: modules/file/leica.c:804
+#, c-format
+msgid "Wrong XML element %s."
+msgstr ""
+
+#: modules/file/lextfile.c:84
+msgid "Imports LEXT data files."
+msgstr ""
+
+#: modules/file/lextfile.c:97
+msgid "Olympus LEXT OLS4000 (.lext)"
+msgstr ""
+
+#: modules/file/magellan.c:62
+msgid "Imports FEI Magellan SEM images."
+msgstr ""
+
+#: modules/file/magellan.c:75
+msgid "FEI Magellan SEM image (.tif)"
+msgstr ""
+
+#: modules/file/mapvue.c:461
+msgid "Imports MapVue data files (.map)."
+msgstr ""
+
+#: modules/file/mapvue.c:474
+msgid "MapVue files (.map)"
+msgstr ""
+
+#: modules/file/mapvue.c:548 modules/file/mapvue.c:576
+#, c-format
+msgid "Required tag %u or %u was not found."
+msgstr ""
+
+#: modules/file/mapvue.c:785
+msgid "File end was reached while scanning tags."
+msgstr ""
+
+#: modules/file/mapvue.c:797
+#, c-format
+msgid "Expected tag %u size is %u bytes, but the actual size is %u bytes."
+msgstr ""
+
+#: modules/file/mapvue.c:810
+#, c-format
+msgid "Tag %u size is %u bytes, which is not enough to hold the tag marker."
+msgstr ""
+
+#: modules/file/mapvue.c:819 modules/file/mapvue.c:829
+#, c-format
+msgid ""
+"Tag %u size is %u bytes, which is not enough to hold the tag marker and size."
+msgstr ""
+
+#: modules/file/mapvue.c:838
+#, c-format
+msgid "Tag marker is missing on an unknown tag %u."
+msgstr ""
+
+#: modules/file/mapvue.c:856 modules/file/mapvue.c:866
+msgid "Character array does not fit into the file."
+msgstr ""
+
+#: modules/file/mapvue.c:883 modules/file/mapvue.c:894
+#: modules/file/mapvue.c:904
+msgid "Fiducial record does not fit into the file."
+msgstr ""
+
+#: modules/file/mapvue.c:1128
+#, c-format
+msgid "Tag %u size is %u which is not sufficient to hold its content."
+msgstr ""
+
+#: modules/file/matfile.c:189
+msgid "Imports Matlab MAT files v5."
+msgstr ""
+
+#: modules/file/matfile.c:202
+msgid "Matlab MAT 5 file (.mat)"
+msgstr ""
+
+#: modules/file/matfile.c:268
+msgid "Compressed data inside compressed data found."
+msgstr ""
+
+#: modules/file/matfile.c:301
+#, c-format
+msgid "Invalid short tag of type %u claims to consists of %u bytes."
+msgstr ""
+
+#: modules/file/metropro.c:337
+msgid "Imports binary MetroPro (Zygo) data files."
+msgstr ""
+
+#: modules/file/metropro.c:350
+msgid "MetroPro files (.dat)"
+msgstr ""
+
+#: modules/file/metropro.c:522
+msgid "File header is larger than file."
+msgstr ""
+
+#: modules/file/microprof.c:972
+msgid "Imports MicroProf FRT profilometer data files."
+msgstr ""
+
+#: modules/file/microprof.c:985
+msgid "MicroProf FRT files (.frt)"
+msgstr ""
+
+#: modules/file/microprof.c:991
+msgid "MicroProf FRT text files (.txt)"
+msgstr ""
+
+#: modules/file/microprof.c:1288
+#, c-format
+msgid "Duplicate block %02x."
+msgstr ""
+
+#: modules/file/microprof.c:2581
+msgid "File contains fewer than XSize*YSize data points."
+msgstr ""
+
+#: modules/file/miffile.c:196
+msgid "Imports DME MIF data files."
+msgstr ""
+
+#: modules/file/miffile.c:209
+msgid "DME MIF files (.mif)"
+msgstr ""
+
+#: modules/file/miffile.c:236
+msgid "Image header record is too short."
+msgstr ""
+
+#: modules/file/miffile.c:244
+msgid "Axis display info record is too short."
+msgstr ""
+
+#: modules/file/miffile.c:277
+#, c-format
+msgid "Loading of file version %u.%u is not implemented."
+msgstr ""
+
+#: modules/file/miffile.c:295
+msgid "File information block is outside the file."
+msgstr ""
+
+#: modules/file/miffile.c:330
+msgid "File information block size is invalid."
+msgstr ""
+
+#: modules/file/miffile.c:395
+msgid "Unique id record is too short."
+msgstr ""
+
+#: modules/file/mifile.c:191
+msgid "Imports Molecular Imaging MI data files."
+msgstr ""
+
+#: modules/file/mifile.c:204
+msgid "PicoView Data Files (.mi)"
+msgstr ""
+
+#: modules/file/mifile.c:470
+msgid "Spectroscopy Graph"
+msgstr ""
+
+#: modules/file/mulfile.c:156
+msgid "Imports Aarhus MUL files."
+msgstr ""
+
+#: modules/file/mulfile.c:169
+msgid "Aarhus MUL files (.mul)"
+msgstr ""
+
+#: modules/file/mulfile.c:286
+#, c-format
+msgid "Image number in the label %u does not match the number %u in the index."
+msgstr ""
+
+#: modules/file/mulfile.c:333 modules/file/mulfile.c:342
+#, c-format
+msgid "Label string length %u is larger than 20."
+msgstr ""
+
+#: modules/file/nanoeducator.c:287
+msgid "Imports Nanoeducator data files."
+msgstr ""
+
+#: modules/file/nanoeducator.c:300
+msgid "Nanoeducator files (.mspm, .spm, .stm)"
+msgstr ""
+
+#: modules/file/nanoeducator.c:382 modules/file/nanoeducator.c:420
+#: modules/file/nanoeducator.c:513
+msgid "Image data starts past the end of file."
+msgstr ""
+
+#: modules/file/nanoeducator.c:457
+msgid "Spectra data starts past the end of file."
+msgstr ""

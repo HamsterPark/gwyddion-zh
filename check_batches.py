@@ -68,7 +68,7 @@ def check_batch(po_path):
 
 
 def main():
-    files = [Path(x) for x in sys.argv[1:]] or sorted((ROOT / 'work').glob('*-zh_CN.po'))
+    files = [Path(x) for x in sys.argv[1:]] or sorted((ROOT / 'work').rglob('*-zh_CN.po'))
     if not files:
         print('No PO batches found.', file=sys.stderr)
         return 2
@@ -88,4 +88,5 @@ def main():
 
 if __name__ == '__main__':
     raise SystemExit(main())
+
 

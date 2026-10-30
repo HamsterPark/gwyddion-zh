@@ -3996,23 +3996,23 @@ msgstr "此版本的 Gwyddion 构建时未启用 OpenGL 支持。"
 
 #: modules/cmap/cmap_align.c:123
 msgid "Aligns curves in a curve map by shifting the values."
-msgstr ""
+msgstr "通过平移数值对齐曲线图谱中的曲线。"
 
 #: modules/cmap/cmap_align.c:137
 msgid "/_Align..."
-msgstr ""
+msgstr "/对齐(_A)..."
 
 #: modules/cmap/cmap_align.c:141
 msgid "Align curves and extract topography"
-msgstr ""
+msgstr "对齐曲线并提取表面形貌"
 
 #: modules/cmap/cmap_align.c:152
 msgid "First zero"
-msgstr ""
+msgstr "第一个零点"
 
 #: modules/cmap/cmap_align.c:153
 msgid "Last zero"
-msgstr ""
+msgstr "最后一个零点"
 
 #: modules/cmap/cmap_align.c:156 modules/graph/graph_align.c:77
 msgid "Align curves"
@@ -4020,7 +4020,7 @@ msgstr "对齐曲线"
 
 #: modules/cmap/cmap_align.c:157
 msgid "Extract topography"
-msgstr ""
+msgstr "提取表面形貌"
 
 #: modules/cmap/cmap_align.c:158 modules/cmap/cmap_lockin.c:181
 #: modules/cmap/cmap_possearch.c:165
@@ -4056,19 +4056,19 @@ msgstr "表面形貌"
 
 #: modules/cmap/cmap_align.c:272
 msgid "Align Map Curves"
-msgstr ""
+msgstr "对齐图谱曲线"
 
 #: modules/cmap/cmap_asciiexport.c:69
 msgid "Exports curve map data to a text file."
-msgstr ""
+msgstr "将曲线图谱数据导出为文本文件。"
 
 #: modules/cmap/cmap_asciiexport.c:83
 msgid "/Export _Text..."
-msgstr ""
+msgstr "/导出文本(_T)..."
 
 #: modules/cmap/cmap_asciiexport.c:87
 msgid "Export curve map data to a text file"
-msgstr ""
+msgstr "将曲线图谱数据导出为文本文件"
 
 #: modules/cmap/cmap_asciiexport.c:103 modules/graph/graph_fztofd.c:136
 #: modules/graph/graph_polylevel.c:116 modules/graph/graph_sfuncs.c:124
@@ -4078,7 +4078,7 @@ msgstr "所有曲线(_A)"
 
 #: modules/cmap/cmap_asciiexport.c:104
 msgid "All _segments"
-msgstr ""
+msgstr "所有分段(_S)"
 
 #: modules/cmap/cmap_asciiexport.c:107 modules/file/asciiexport.c:121
 msgid "Keep comment in English"
@@ -4112,15 +4112,15 @@ msgstr "通道："
 
 #: modules/cmap/cmap_asciiexport.c:238
 msgid "Rows:"
-msgstr ""
+msgstr "行："
 
 #: modules/cmap/cmap_asciiexport.c:239
 msgid "Columns:"
-msgstr ""
+msgstr "列："
 
 #: modules/cmap/cmap_asciiexport.c:244 modules/cmap/cmap_asciiexport.c:246
 msgid "Segment:"
-msgstr ""
+msgstr "分段："
 
 #: modules/cmap/cmap_asciiexport.c:251 modules/file/asciiexport.c:460
 msgid "Width:"
@@ -4132,26 +4132,26 @@ msgstr "高度："
 
 #: modules/cmap/cmap_asciiexport.c:254
 msgid "XOffset:"
-msgstr ""
+msgstr "X 偏移量："
 
 #: modules/cmap/cmap_asciiexport.c:256
 msgid "YOffset:"
-msgstr ""
+msgstr "Y 偏移量："
 
 #: modules/cmap/cmap_asciiexport.c:270
 #, c-format
 msgid "Curve%d:"
-msgstr ""
+msgstr "曲线%d："
 
 #: modules/cmap/cmap_asciiexport.c:275
 #, c-format
 msgid "CurveUnit%d:"
-msgstr ""
+msgstr "曲线单位%d："
 
 #: modules/cmap/cmap_basicops.c:54
 msgid ""
 "Basic operations like flipping and rotation by multiples of 90 degrees."
-msgstr ""
+msgstr "诸如翻转和按 90 度倍数旋转等基本操作。"
 
 #: modules/cmap/cmap_basicops.c:68 modules/process/basicops.c:72
 msgid "/_Basic Operations/Flip _Horizontally"
@@ -4211,11 +4211,11 @@ msgstr "将横向偏移归零，把原点移至左上角"
 
 #: modules/cmap/cmap_basicops.c:119
 msgid "/_Basic Operations/Remove _Segments"
-msgstr ""
+msgstr "/基本操作(_B)/移除分段(_S)"
 
 #: modules/cmap/cmap_basicops.c:123
 msgid "Remove curve segmentation"
-msgstr ""
+msgstr "移除曲线分段"
 
 #: modules/cmap/cmap_basicops.c:126 modules/volume/volumeops.c:49
 msgid "/_Basic Operations/Extract _Preview"
@@ -4223,7 +4223,7 @@ msgstr "/基本操作(_B)/提取预览(_P)"
 
 #: modules/cmap/cmap_basicops.c:130
 msgid "Extract curve map preview to an image"
-msgstr ""
+msgstr "将曲线图谱预览提取为图像"
 
 #: modules/cmap/cmap_classify.c:194 modules/cmap/cmap_classify.c:374
 #: modules/cmap/cmap_linestat.c:124 modules/graph/graph_stats.c:227
@@ -4306,15 +4306,15 @@ msgstr "总变差"
 
 #: modules/cmap/cmap_classify.c:215
 msgid "Classifies curves in a curve map"
-msgstr ""
+msgstr "对曲线图谱中的曲线进行分类"
 
 #: modules/cmap/cmap_classify.c:229
 msgid "/_Classify..."
-msgstr ""
+msgstr "/分类(_C)..."
 
 #: modules/cmap/cmap_classify.c:233
 msgid "Classify curves"
-msgstr ""
+msgstr "分类曲线"
 
 #: modules/cmap/cmap_classify.c:246 modules/cmap/cmap_classify.c:264
 #: modules/process/classify.c:299 modules/process/classify.c:565
@@ -4338,31 +4338,31 @@ msgstr "结果 B"
 
 #: modules/cmap/cmap_classify.c:261
 msgid "Populatio_n"
-msgstr ""
+msgstr "树的数量(_N)"
 
 #: modules/cmap/cmap_classify.c:262
 msgid "_Subsampling"
-msgstr ""
+msgstr "子采样(_S)"
 
 #: modules/cmap/cmap_classify.c:263
 msgid "_Success threshold"
-msgstr ""
+msgstr "成功阈值(_S)"
 
 #: modules/cmap/cmap_classify.c:268
 msgid "Ignore _outliers"
-msgstr ""
+msgstr "忽略异常值(_O)"
 
 #: modules/cmap/cmap_classify.c:270
 msgid "_Display"
-msgstr ""
+msgstr "显示(_D)"
 
 #: modules/cmap/cmap_classify.c:331
 msgid "Classify result A"
-msgstr ""
+msgstr "分类结果 A"
 
 #: modules/cmap/cmap_classify.c:335
 msgid "Classify result B"
-msgstr ""
+msgstr "分类结果 B"
 
 #: modules/cmap/cmap_classify.c:400 modules/process/classify.c:242
 msgid "Classify"
@@ -4370,7 +4370,7 @@ msgstr "分类"
 
 #: modules/cmap/cmap_classify.c:405
 msgid "_Show tree"
-msgstr ""
+msgstr "显示树(_S)"
 
 #: modules/cmap/cmap_classify.c:435 modules/volume/volume_cluster.c:585
 msgid "Result:"
@@ -4384,20 +4384,20 @@ msgstr "曲线"
 
 #: modules/cmap/cmap_classify.c:553
 msgid "Classifier tree"
-msgstr ""
+msgstr "分类器树"
 
 #: modules/cmap/cmap_classify.c:557
 msgid "_OK"
-msgstr ""
+msgstr "确定(_O)"
 
 #: modules/cmap/cmap_classify.c:647
 msgid "No result yet"
-msgstr ""
+msgstr "尚无结果"
 
 #: modules/cmap/cmap_classify.c:821
 #, c-format
 msgid "Rule %d of %d:\n"
-msgstr ""
+msgstr "规则 %d（共 %d 条）：\n"
 
 #: modules/cmap/cmap_classify.c:986 modules/process/classify.c:923
 msgid "Training classifier..."
@@ -4406,15 +4406,15 @@ msgstr "正在训练分类器..."
 #: modules/cmap/cmap_classify.c:1011
 #, c-format
 msgid "A: %d points, %2.1f %%, B: %d points, %2.1f %%"
-msgstr ""
+msgstr "A：%d 个点，%2.1f %%；B：%d 个点，%2.1f %%"
 
 #: modules/cmap/cmap_crop.c:76
 msgid "Crop curve map data."
-msgstr ""
+msgstr "裁剪曲线图谱数据。"
 
 #: modules/cmap/cmap_crop.c:90
 msgid "/_Basic Operations/_Crop"
-msgstr ""
+msgstr "/基本操作(_B)/裁剪(_C)"
 
 #: modules/cmap/cmap_crop.c:94 modules/tools/crop.c:130
 #: modules/volume/volume_drift.c:207
@@ -4459,7 +4459,7 @@ msgstr "裁剪"
 
 #: modules/cmap/cmap_crop.c:199
 msgid "New Dimensions"
-msgstr ""
+msgstr "新尺寸"
 
 #: modules/cmap/cmap_crop.c:213 modules/file/asciiexport.c:402
 #: modules/file/gxyzffile.c:393 modules/file/imgexport.c:3076
@@ -4497,15 +4497,15 @@ msgstr "选项"
 
 #: modules/cmap/cmap_curvefilter.c:76
 msgid "Removes some curves from Curve Map"
-msgstr ""
+msgstr "从曲线图谱中移除部分曲线"
 
 #: modules/cmap/cmap_curvefilter.c:91
 msgid "/_Basic Operations/_Filter curves..."
-msgstr ""
+msgstr "/基本操作(_B)/过滤曲线(_F)..."
 
 #: modules/cmap/cmap_curvefilter.c:96
 msgid "Remove some curves from Curve Map"
-msgstr ""
+msgstr "从曲线图谱中移除部分曲线"
 
 #: modules/cmap/cmap_curvefilter.c:111 modules/cmap/cmap_cutter.c:198
 msgid "Keep curves"
@@ -4531,39 +4531,39 @@ msgstr "回撤"
 
 #: modules/cmap/cmap_cutter.c:152
 msgid "Cuts a curve map to segments."
-msgstr ""
+msgstr "将曲线图谱切分为分段。"
 
 #: modules/cmap/cmap_cutter.c:166
 msgid "/_Cut to Segments..."
-msgstr ""
+msgstr "/切分为分段(_C)..."
 
 #: modules/cmap/cmap_cutter.c:170
 msgid "Cut curves to segments"
-msgstr ""
+msgstr "将曲线切分为分段"
 
 #: modules/cmap/cmap_cutter.c:179
 msgid "Mark"
-msgstr ""
+msgstr "标记"
 
 #: modules/cmap/cmap_cutter.c:180
 msgid "Extract"
-msgstr ""
+msgstr "提取"
 
 #: modules/cmap/cmap_cutter.c:183
 msgid "Approach/Retract"
-msgstr ""
+msgstr "接近/回撤"
 
 #: modules/cmap/cmap_cutter.c:184
 msgid "Approach/Hold/Retract"
-msgstr ""
+msgstr "接近/保持/回撤"
 
 #: modules/cmap/cmap_cutter.c:201
 msgid "Extract segments"
-msgstr ""
+msgstr "提取分段"
 
 #: modules/cmap/cmap_cutter.c:204
 msgid "Invert data"
-msgstr ""
+msgstr "反转数据"
 
 #: modules/cmap/cmap_cutter.c:375 modules/cmap/cmap_simplemech.c:212
 msgid "Z curve"
@@ -4583,19 +4583,19 @@ msgstr "样本"
 
 #: modules/cmap/cmap_extractcurve.c:106
 msgid "Extracts individual curves from a curve map."
-msgstr ""
+msgstr "从曲线图谱中提取单条曲线。"
 
 #: modules/cmap/cmap_extractcurve.c:120
 msgid "/_Extract Curves..."
-msgstr ""
+msgstr "/提取曲线(_E)..."
 
 #: modules/cmap/cmap_extractcurve.c:124
 msgid "Extract curves"
-msgstr ""
+msgstr "提取曲线"
 
 #: modules/cmap/cmap_extractcurve.c:144
 msgid "Reorder by abscissa"
-msgstr ""
+msgstr "按横坐标重新排序"
 
 #: modules/cmap/cmap_extractcurve.c:145 modules/volume/volume_slice.c:202
 msgid "Extract _multiple"
@@ -4603,19 +4603,19 @@ msgstr "提取多个(_M)"
 
 #: modules/cmap/cmap_extractcurve.c:212
 msgid "Extract Map Curves"
-msgstr ""
+msgstr "提取图谱曲线"
 
 #: modules/cmap/cmap_fdfit.c:191
 msgid "Fit FD curves."
-msgstr ""
+msgstr "拟合力-距离曲线。"
 
 #: modules/cmap/cmap_fdfit.c:205
 msgid "/Fit _FD Curves..."
-msgstr ""
+msgstr "/拟合力-距离曲线(_F)..."
 
 #: modules/cmap/cmap_fdfit.c:209
 msgid "Fit FD curves by a function"
-msgstr ""
+msgstr "用函数拟合力-距离曲线"
 
 #: modules/cmap/cmap_fdfit.c:225 modules/cmap/cmap_fit.c:206
 #: modules/process/fit-shape.c:288
@@ -4642,15 +4642,15 @@ msgstr "在每个点进行估计(_E)"
 
 #: modules/cmap/cmap_fdfit.c:236
 msgid "Get adhesion directly"
-msgstr ""
+msgstr "直接获取黏附力"
 
 #: modules/cmap/cmap_fdfit.c:237
 msgid "Adhesion data"
-msgstr ""
+msgstr "黏附数据"
 
 #: modules/cmap/cmap_fdfit.c:238
 msgid "Baseline data"
-msgstr ""
+msgstr "基线数据"
 
 #: modules/cmap/cmap_fdfit.c:239 modules/cmap/cmap_simplemech.c:216
 #: modules/graph/graph_simplemech.c:115
@@ -4659,7 +4659,7 @@ msgstr "基线范围(_R)"
 
 #: modules/cmap/cmap_fdfit.c:336
 msgid "Fit FD Curves"
-msgstr ""
+msgstr "拟合力-距离曲线"
 
 #: modules/cmap/cmap_fdfit.c:338 modules/cmap/cmap_fit.c:359
 msgid "verb|_Estimate single"
@@ -4686,15 +4686,15 @@ msgstr "拟合"
 #. results.
 #: modules/cmap/cmap_fdfit.c:404
 msgid "Fitting result"
-msgstr ""
+msgstr "拟合结果"
 
 #: modules/cmap/cmap_fdfit.c:540
 msgid "OK"
-msgstr ""
+msgstr "成功"
 
 #: modules/cmap/cmap_fdfit.c:542
 msgid "failed"
-msgstr ""
+msgstr "失败"
 
 #: modules/cmap/cmap_fdfit.c:1201 modules/cmap/cmap_fit.c:1162
 #: modules/graph/graph_fdfit.c:366 modules/graph/graph_fit.c:377
@@ -4720,15 +4720,15 @@ msgstr "误差"
 
 #: modules/cmap/cmap_filter.c:105
 msgid "Filters curve data on basis of abscissa."
-msgstr ""
+msgstr "根据横坐标过滤曲线数据。"
 
 #: modules/cmap/cmap_filter.c:119
 msgid "/Filter by _Value..."
-msgstr ""
+msgstr "/按数值过滤(_V)..."
 
 #: modules/cmap/cmap_filter.c:123
 msgid "Filter all curves by abscissa values"
-msgstr ""
+msgstr "按横坐标数值过滤所有曲线"
 
 #: modules/cmap/cmap_filter.c:133 modules/process/fft_filter_1d.c:118
 #: modules/process/wpour_mark.c:149 modules/volume/volume_1dfft.c:142
@@ -4747,52 +4747,52 @@ msgstr "移除"
 
 #: modules/cmap/cmap_filter.c:225
 msgid "Filter by Abscissa Value"
-msgstr ""
+msgstr "按横坐标数值过滤"
 
 #: modules/cmap/cmap_fit.c:172
 msgid "Fit curves."
-msgstr ""
+msgstr "拟合曲线。"
 
 #: modules/cmap/cmap_fit.c:186
 msgid "/Fit _Curves..."
-msgstr ""
+msgstr "/拟合曲线(_C)..."
 
 #: modules/cmap/cmap_fit.c:190
 msgid "Fit curves by a function"
-msgstr ""
+msgstr "用函数拟合曲线"
 
 #: modules/cmap/cmap_fit.c:218
 msgid "Output fit errors"
-msgstr ""
+msgstr "输出拟合误差"
 
 #: modules/cmap/cmap_fit.c:219
 msgid "Output residual sum"
-msgstr ""
+msgstr "输出残差平方和"
 
 #: modules/cmap/cmap_fit.c:357
 msgid "Fit Curves"
-msgstr ""
+msgstr "拟合曲线"
 
 #: modules/cmap/cmap_fit.c:431
 msgid "Residual sum:"
-msgstr ""
+msgstr "残差平方和："
 
 #: modules/cmap/cmap_fit.c:527 modules/cmap/cmap_fit.c:561
 #: modules/cmap/cmap_fit.c:602
 msgid "data not fitted"
-msgstr ""
+msgstr "数据未拟合"
 
 #: modules/cmap/cmap_fit.c:555
 msgid "fit failed"
-msgstr ""
+msgstr "拟合失败"
 
 #: modules/cmap/cmap_fztofd.c:121
 msgid "Converts FZ to FD curve map."
-msgstr ""
+msgstr "将 FZ 曲线图谱转换为 FD 曲线图谱。"
 
 #: modules/cmap/cmap_fztofd.c:135
 msgid "/_FZ Curves to FD..."
-msgstr ""
+msgstr "/FZ 曲线转换为 FD(_F)..."
 
 #: modules/cmap/cmap_fztofd.c:139 modules/graph/graph_fztofd.c:120
 msgid "Convert Force-Z Piezo to Force-Distance"
@@ -4869,31 +4869,31 @@ msgstr "（已插值）"
 
 #: modules/cmap/cmap_lockin.c:152
 msgid "Detect oscillations in a curve."
-msgstr ""
+msgstr "检测曲线中的振荡。"
 
 #: modules/cmap/cmap_lockin.c:166
 msgid "/_Demodulation..."
-msgstr ""
+msgstr "/解调(_D)..."
 
 #: modules/cmap/cmap_lockin.c:170
 msgid "Detect oscillations in a curve"
-msgstr ""
+msgstr "检测曲线中的振荡"
 
 #: modules/cmap/cmap_lockin.c:180
 msgid "Extract amplitude/phase"
-msgstr ""
+msgstr "提取幅值/相位"
 
 #: modules/cmap/cmap_lockin.c:184 modules/cmap/cmap_lockin.c:199
 msgid "Reference"
-msgstr ""
+msgstr "参考信号"
 
 #: modules/cmap/cmap_lockin.c:188
 msgid "Polynomial"
-msgstr ""
+msgstr "多项式"
 
 #: modules/cmap/cmap_lockin.c:189
 msgid "Polynomial + sine"
-msgstr ""
+msgstr "多项式 + 正弦"
 
 #: modules/cmap/cmap_lockin.c:203 modules/cmap/cmap_polylevel.c:167
 #: modules/graph/graph_polylevel.c:117
@@ -4919,63 +4919,63 @@ msgstr "相位"
 
 #: modules/cmap/cmap_lockin.c:334
 msgid "Demodulation"
-msgstr ""
+msgstr "解调"
 
 #: modules/cmap/cmap_peaks.c:135
 msgid "Calculate number of peaks in curve map."
-msgstr ""
+msgstr "计算曲线图谱中的峰数。"
 
 #: modules/cmap/cmap_peaks.c:149
 msgid "/Count _Peaks..."
-msgstr ""
+msgstr "/计数峰(_P)..."
 
 #: modules/cmap/cmap_peaks.c:153
 msgid "Count peaks"
-msgstr ""
+msgstr "计数峰"
 
 #: modules/cmap/cmap_peaks.c:162
 msgid "_Raw data"
-msgstr ""
+msgstr "原始数据(_R)"
 
 #: modules/cmap/cmap_peaks.c:164
 msgid "_Inverted gradient"
-msgstr ""
+msgstr "反转梯度(_I)"
 
 #: modules/cmap/cmap_peaks.c:169
 msgid "_Area"
-msgstr ""
+msgstr "面积(_A)"
 
 #: modules/cmap/cmap_peaks.c:170
 msgid "_Prominence"
-msgstr ""
+msgstr "突出度(_P)"
 
 #: modules/cmap/cmap_peaks.c:179
 msgid "_Threshold by"
-msgstr ""
+msgstr "阈值依据(_T)"
 
 #: modules/cmap/cmap_peaks.c:183
 msgid "_Above"
-msgstr ""
+msgstr "高于(_A)"
 
 #: modules/cmap/cmap_peaks.c:184
 msgid "Apply _individually"
-msgstr ""
+msgstr "分别应用(_I)"
 
 #: modules/cmap/cmap_peaks.c:190
 msgid "Window size"
-msgstr ""
+msgstr "窗口大小"
 
 #: modules/cmap/cmap_peaks.c:234
 msgid "Number of peaks"
-msgstr ""
+msgstr "峰数"
 
 #: modules/cmap/cmap_peaks.c:265
 msgid "Count Peaks"
-msgstr ""
+msgstr "计数峰"
 
 #: modules/cmap/cmap_peaks.c:515
 msgid "No data"
-msgstr ""
+msgstr "无数据"
 
 #: modules/cmap/cmap_polylevel.c:129
 msgid "Removes polynomial background from curves."
@@ -5004,35 +5004,35 @@ msgstr "去除多项式背景"
 
 #: modules/cmap/cmap_possearch.c:129
 msgid "Picks a quantity at some threshold position."
-msgstr ""
+msgstr "在指定阈值位置读取某一量值。"
 
 #: modules/cmap/cmap_possearch.c:143
 msgid "/_Position Search..."
-msgstr ""
+msgstr "/位置搜索(_P)..."
 
 #: modules/cmap/cmap_possearch.c:147
 msgid "Search for a threshold"
-msgstr ""
+msgstr "搜索阈值"
 
 #: modules/cmap/cmap_possearch.c:156
 msgid "Below threshold"
-msgstr ""
+msgstr "低于阈值"
 
 #: modules/cmap/cmap_possearch.c:157
 msgid "Above threshold"
-msgstr ""
+msgstr "高于阈值"
 
 #: modules/cmap/cmap_possearch.c:160
 msgid "Left to right"
-msgstr ""
+msgstr "从左到右"
 
 #: modules/cmap/cmap_possearch.c:161
 msgid "Right to left"
-msgstr ""
+msgstr "从右到左"
 
 #: modules/cmap/cmap_possearch.c:164
 msgid "Extract quantity"
-msgstr ""
+msgstr "提取量值"
 
 #: modules/cmap/cmap_possearch.c:176 modules/process/arc-revolve.c:121
 #: modules/process/crosscor.c:109 modules/process/measure_lattice.c:347
@@ -5042,11 +5042,11 @@ msgstr "方向"
 
 #: modules/cmap/cmap_possearch.c:178
 msgid "Pick value curve"
-msgstr ""
+msgstr "读取数值曲线"
 
 #: modules/cmap/cmap_possearch.c:179
 msgid "Search curve"
-msgstr ""
+msgstr "搜索曲线"
 
 #: modules/cmap/cmap_possearch.c:180 modules/process/grain_edge.c:181
 msgid "Threshold"
@@ -5054,7 +5054,7 @@ msgstr "阈值"
 
 #: modules/cmap/cmap_possearch.c:279
 msgid "Search for threshold"
-msgstr ""
+msgstr "搜索阈值"
 
 #: modules/cmap/cmap_simplemech.c:155 modules/graph/graph_simplemech.c:568
 msgid "DMT modulus"
@@ -5088,7 +5088,7 @@ msgstr "获取简单力学量"
 
 #: modules/cmap/cmap_simplemech.c:180
 msgid "/_Nanomechanical Fit..."
-msgstr ""
+msgstr "/纳米力学拟合(_N)..."
 
 #: modules/cmap/cmap_simplemech.c:184 modules/graph/graph_simplemech.c:93
 msgid "Evaluate DMT modulus, adhesion, deformation and dissipation"
@@ -5096,7 +5096,7 @@ msgstr "计算 DMT 模量、黏附力、形变和耗散"
 
 #: modules/cmap/cmap_simplemech.c:213
 msgid "Force curve"
-msgstr ""
+msgstr "力曲线"
 
 #: modules/cmap/cmap_simplemech.c:217 modules/graph/graph_simplemech.c:116
 msgid "Fit _upper limit"
@@ -5117,7 +5117,7 @@ msgstr "泊松比(_P)"
 
 #: modules/cmap/cmap_simplemech.c:221
 msgid "Output images"
-msgstr ""
+msgstr "输出图像"
 
 #: modules/cmap/cmap_simplemech.c:223 modules/graph/graph_terraces.c:272
 #: modules/process/blockstep.c:144 modules/process/correct_perspective.c:150
@@ -5133,7 +5133,7 @@ msgstr "显示"
 #: modules/cmap/cmap_simplemech.c:259
 #, c-format
 msgid "%s: Curves have to be segmented."
-msgstr ""
+msgstr "%s：曲线必须分段。"
 
 #: modules/cmap/cmap_simplemech.c:259 modules/cmap/cmap_simplemech.c:342
 #: modules/graph/graph_simplemech.c:178
@@ -5150,7 +5150,7 @@ msgstr "拟合(_F)"
 
 #: modules/cmap/cmap_simplemech.c:380
 msgid "Control points"
-msgstr ""
+msgstr "控制点"
 
 #: modules/cmap/cmap_simplemech.c:389 modules/graph/graph_simplemech.c:523
 msgid "Baseline fit"
@@ -5174,15 +5174,15 @@ msgstr "结果"
 
 #: modules/cmap/cmap_sinebg.c:125
 msgid "Remove sine background from curves."
-msgstr ""
+msgstr "从曲线中去除正弦背景。"
 
 #: modules/cmap/cmap_sinebg.c:139
 msgid "/Remove _Sine Background..."
-msgstr ""
+msgstr "/去除正弦背景(_S)..."
 
 #: modules/cmap/cmap_sinebg.c:143
 msgid "Remove sine background from all curves"
-msgstr ""
+msgstr "从所有曲线中去除正弦背景"
 
 #: modules/cmap/cmap_sinebg.c:236 modules/graph/graph_sinebg.c:173
 msgid "Remove Sine Background"
@@ -5190,62 +5190,62 @@ msgstr "去除正弦背景"
 
 #: modules/cmap/cmap_volumize.c:85
 msgid "Volumize curves."
-msgstr ""
+msgstr "将曲线转换为体数据。"
 
 #: modules/cmap/cmap_volumize.c:99
 msgid "/_Volumize Curves..."
-msgstr ""
+msgstr "/曲线转换为体数据(_V)..."
 
 #: modules/cmap/cmap_volumize.c:103
 msgid "Volumize curves"
-msgstr ""
+msgstr "将曲线转换为体数据"
 
 #: modules/cmap/cmap_volumize.c:113
 msgid "Beginning"
-msgstr ""
+msgstr "开头"
 
 #: modules/cmap/cmap_volumize.c:114
 msgid "End"
-msgstr ""
+msgstr "末尾"
 
 #: modules/cmap/cmap_volumize.c:123
 msgid "_Ordinate"
-msgstr ""
+msgstr "纵坐标(_O)"
 
 #: modules/cmap/cmap_volumize.c:126
 msgid "_Cut curves"
-msgstr ""
+msgstr "裁剪曲线(_C)"
 
 #: modules/cmap/cmap_volumize.c:127
 msgid "_Size"
-msgstr ""
+msgstr "大小(_S)"
 
 #: modules/cmap/cmap_volumize.c:128
 msgid "_Cut data from"
-msgstr ""
+msgstr "裁剪数据起点(_C)"
 
 #: modules/cmap/cmap_volumize.c:182
 #, c-format
 msgid "%s: (Segment %d)"
-msgstr ""
+msgstr "%s：（分段 %d）"
 
 #: modules/cmap/cmap_volumize.c:214
 msgid "Volumize Curves"
-msgstr ""
+msgstr "曲线转换为体数据"
 
 #: modules/cmap/cmap_volumize.c:317
 msgid "No data to convert."
-msgstr ""
+msgstr "没有可转换的数据。"
 
 #: modules/cmap/cmap_volumize.c:320
 #, c-format
 msgid "Z mismatch, loadable volume size: %d × %d × %d"
-msgstr ""
+msgstr "Z 轴不匹配，可加载的体数据尺寸：%d × %d × %d"
 
 #: modules/cmap/cmap_volumize.c:324
 #, c-format
 msgid "Volume size: %d × %d × %d"
-msgstr ""
+msgstr "体数据尺寸：%d × %d × %d"
 
 #: modules/file/accurell.c:82
 msgid "Imports ASCII Accurion scanning ellipsometry maps."
@@ -9252,23 +9252,23 @@ msgstr ""
 
 #: modules/graph/graph_align.c:60
 msgid "Aligns graph curves."
-msgstr ""
+msgstr "对齐曲线图中的曲线。"
 
 #: modules/graph/graph_align.c:74
 msgid "/_Correct Data/_Align"
-msgstr ""
+msgstr "/校正数据(_C)/对齐(_A)"
 
 #: modules/graph/graph_cd.c:136
 msgid "Critical dimension measurements"
-msgstr ""
+msgstr "临界尺寸测量"
 
 #: modules/graph/graph_cd.c:150
 msgid "/Measure _Features/_Critical Dimension..."
-msgstr ""
+msgstr "/测量特征(_M)/临界尺寸(_C)..."
 
 #: modules/graph/graph_cd.c:153
 msgid "Fit critical dimension"
-msgstr ""
+msgstr "拟合临界尺寸"
 
 #: modules/graph/graph_cd.c:209 modules/graph/graph_fit.c:267
 msgid "Fit Graph"
@@ -9293,7 +9293,7 @@ msgstr "范围："
 
 #: modules/graph/graph_cd.c:347
 msgid "_Draw whole circle"
-msgstr ""
+msgstr "绘制完整圆(_D)"
 
 #: modules/graph/graph_cd.c:382 modules/graph/graph_fdfit.c:498
 #: modules/graph/graph_fit.c:533 modules/graph/graph_terraces.c:275
@@ -9359,77 +9359,77 @@ msgstr "结果\n"
 
 #: modules/graph/graph_cut.c:65
 msgid "Cut graph"
-msgstr ""
+msgstr "裁剪曲线图"
 
 #: modules/graph/graph_cut.c:79
 msgid "/_Basic Operations/_Cut..."
-msgstr ""
+msgstr "/基本操作(_B)/裁剪(_C)..."
 
 #: modules/graph/graph_cut.c:82
 msgid "Extract part of graph into new one"
-msgstr ""
+msgstr "将曲线图的一部分提取到新曲线图"
 
 #: modules/graph/graph_cut.c:98
 msgid "Cut _all curves"
-msgstr ""
+msgstr "裁剪所有曲线(_A)"
 
 #: modules/graph/graph_cut.c:138
 msgid "Cut Graph"
-msgstr ""
+msgstr "裁剪曲线图"
 
 #: modules/graph/graph_dos_spectrum.c:42
 msgid "DOS Spectrum"
-msgstr ""
+msgstr "DOS 谱"
 
 #: modules/graph/graph_dos_spectrum.c:56
 msgid "/Measure _Features/_DOS Spectrum"
-msgstr ""
+msgstr "/测量特征(_M)/DOS 谱"
 
 #: modules/graph/graph_dos_spectrum.c:59
 msgid "Calculate DOS spectrum from I-V tunneling spectroscopy"
-msgstr ""
+msgstr "由 I-V 隧道谱计算 DOS 谱"
 
 #: modules/graph/graph_dos_spectrum.c:95
 #, c-format
 msgid "%s: Graph should be I-V spectroscopy."
-msgstr ""
+msgstr "%s：曲线图应为 I-V 谱。"
 
 #: modules/graph/graph_dos_spectrum.c:115
 #, c-format
 msgid "DOS Spectrum for \"%s\""
-msgstr ""
+msgstr "“%s”的 DOS 谱"
 
 #: modules/graph/graph_export_ascii.c:59
 msgid "Exports graph data to text files."
-msgstr ""
+msgstr "将曲线图数据导出为文本文件。"
 
 #: modules/graph/graph_export_ascii.c:73
 msgid "/_Export/_Text..."
-msgstr ""
+msgstr "/导出(_E)/文本(_T)..."
 
 #: modules/graph/graph_export_ascii.c:76
 msgid "Export graph data to a text file"
-msgstr ""
+msgstr "将曲线图数据导出为文本文件"
 
 #: modules/graph/graph_export_ascii.c:85
 msgid "Plain text"
-msgstr ""
+msgstr "纯文本"
 
 #: modules/graph/graph_export_ascii.c:86
 msgid "Gnuplot friendly"
-msgstr ""
+msgstr "Gnuplot 兼容格式"
 
 #: modules/graph/graph_export_ascii.c:87
 msgid "Comma separated values"
-msgstr ""
+msgstr "逗号分隔值"
 
 #: modules/graph/graph_export_ascii.c:88
 msgid "Origin friendly"
-msgstr ""
+msgstr "Origin 兼容格式"
 
 #: modules/graph/graph_export_ascii.c:89
 msgid "Igor Pro text wave"
-msgstr ""
+msgstr "Igor Pro 文本波"
 
 #: modules/graph/graph_export_ascii.c:98
 #: modules/volume/volume_asciiexport.c:111
@@ -9438,67 +9438,67 @@ msgstr "样式"
 
 #: modules/graph/graph_export_ascii.c:100
 msgid "Export _units"
-msgstr ""
+msgstr "导出单位(_U)"
 
 #: modules/graph/graph_export_ascii.c:101
 msgid "Export _labels"
-msgstr ""
+msgstr "导出标签(_L)"
 
 #: modules/graph/graph_export_ascii.c:102
 msgid "Export _metadata"
-msgstr ""
+msgstr "导出元数据(_M)"
 
 #: modules/graph/graph_export_ascii.c:103
 msgid "POSIX _number format"
-msgstr ""
+msgstr "POSIX 数字格式(_N)"
 
 #: modules/graph/graph_export_ascii.c:104
 msgid "Single _merged abscissa"
-msgstr ""
+msgstr "单一合并横坐标(_M)"
 
 #: modules/graph/graph_export_bitmap.c:32
 msgid "Export graph into bitmap"
-msgstr ""
+msgstr "将曲线图导出为位图"
 
 #: modules/graph/graph_export_bitmap.c:46
 msgid "/_Export/_Bitmap"
-msgstr ""
+msgstr "/导出(_E)/位图(_B)"
 
 #: modules/graph/graph_export_bitmap.c:49
 msgid "Export graph to a raster image"
-msgstr ""
+msgstr "将曲线图导出为栅格图像"
 
 #: modules/graph/graph_export_bitmap.c:63
 msgid "Export to Image"
-msgstr ""
+msgstr "导出为图像"
 
 #: modules/graph/graph_export_vector.c:33
 msgid "Exports graphs to PostScript"
-msgstr ""
+msgstr "将曲线图导出为 PostScript"
 
 #: modules/graph/graph_export_vector.c:47
 msgid "/_Export/_PostScript"
-msgstr ""
+msgstr "/导出(_E)/PostScript(_P)"
 
 #: modules/graph/graph_export_vector.c:50
 msgid "Export graph to PostScript"
-msgstr ""
+msgstr "将曲线图导出为 PostScript"
 
 #: modules/graph/graph_export_vector.c:59
 msgid "Export to PostScript"
-msgstr ""
+msgstr "导出为 PostScript"
 
 #: modules/graph/graph_fdfit.c:169
 msgid "Fit force-distance data"
-msgstr ""
+msgstr "拟合力-距离数据"
 
 #: modules/graph/graph_fdfit.c:183
 msgid "/_Force Distance/_Fit FD Curve..."
-msgstr ""
+msgstr "/力-距离(_F)/拟合 FD 曲线(_F)..."
 
 #: modules/graph/graph_fdfit.c:186
 msgid "Fit a force-distance curve"
-msgstr ""
+msgstr "拟合力-距离曲线"
 
 #: modules/graph/graph_fdfit.c:251 modules/volume/volume_fdfit-WTF.c:296
 #: modules/volume/volume_fdfit.c:296
@@ -9567,87 +9567,87 @@ msgstr "相关矩阵\n"
 
 #: modules/graph/graph_filter.c:36
 msgid "Remove graph noise by filtering."
-msgstr ""
+msgstr "通过过滤去除曲线图噪声。"
 
 #: modules/graph/graph_filter.c:50
 msgid "/_Correct Data/_Filter"
-msgstr ""
+msgstr "/校正数据(_C)/过滤(_F)"
 
 #: modules/graph/graph_filter.c:53
 msgid "Remove noise from graph curves"
-msgstr ""
+msgstr "从曲线图曲线中去除噪声"
 
 #: modules/graph/graph_fit.c:182
 msgid "Fit graph with function"
-msgstr ""
+msgstr "用函数拟合曲线图"
 
 #: modules/graph/graph_fit.c:196
 msgid "/Measure _Features/_Fit Function..."
-msgstr ""
+msgstr "/测量特征(_M)/拟合函数(_F)..."
 
 #: modules/graph/graph_fit.c:199
 msgid "Fit a function on graph data"
-msgstr ""
+msgstr "对曲线图数据拟合函数"
 
 #: modules/graph/graph_fit.c:390
 msgid "Copy all fitted values to estimates"
-msgstr ""
+msgstr "将所有拟合值复制到估计值"
 
 #: modules/graph/graph_fit.c:462
 msgid "Plot full range"
-msgstr ""
+msgstr "绘制完整范围"
 
 #: modules/graph/graph_fit.c:472
 msgid "Create a difference graph"
-msgstr ""
+msgstr "创建差值曲线图"
 
 #: modules/graph/graph_flip.c:39
 msgid "Flip graph along the y axis."
-msgstr ""
+msgstr "沿 y 轴翻转曲线图。"
 
 #: modules/graph/graph_flip.c:53
 msgid "/_Basic Operations/_Flip"
-msgstr ""
+msgstr "/基本操作(_B)/翻转(_F)"
 
 #: modules/graph/graph_flip.c:56
 msgid "Flip graph along the y axis"
-msgstr ""
+msgstr "沿 y 轴翻转曲线图"
 
 #: modules/graph/graph_fztofd.c:93
 msgid "Min. distance"
-msgstr ""
+msgstr "最小距离"
 
 #: modules/graph/graph_fztofd.c:94
 msgid "Max. distance"
-msgstr ""
+msgstr "最大距离"
 
 #: modules/graph/graph_fztofd.c:95
 msgid "Min. force"
-msgstr ""
+msgstr "最小力"
 
 #: modules/graph/graph_fztofd.c:96
 msgid "Max. force"
-msgstr ""
+msgstr "最大力"
 
 #: modules/graph/graph_fztofd.c:97
 msgid "Pick from graph"
-msgstr ""
+msgstr "从曲线图中选取"
 
 #: modules/graph/graph_fztofd.c:103
 msgid "Convert FZ to FD curve"
-msgstr ""
+msgstr "将 FZ 曲线转换为 FD 曲线"
 
 #: modules/graph/graph_fztofd.c:117
 msgid "/_Force Distance/_FZ to FD Curve..."
-msgstr ""
+msgstr "/力-距离(_F)/FZ 转换为 FD 曲线(_F)..."
 
 #: modules/graph/graph_fztofd.c:139
 msgid "Z_ero point"
-msgstr ""
+msgstr "零点(_E)"
 
 #: modules/graph/graph_fztofd.c:145
 msgid "Zero position"
-msgstr ""
+msgstr "零位置"
 
 #: modules/graph/graph_fztofd.c:471 modules/graph/graph_polylevel.c:374
 #: modules/graph/graph_sinebg.c:377
@@ -9656,15 +9656,15 @@ msgstr "力-距离曲线"
 
 #: modules/graph/graph_invert.c:38
 msgid "Invert graph."
-msgstr ""
+msgstr "反转曲线图。"
 
 #: modules/graph/graph_invert.c:52
 msgid "/_Basic Operations/_Invert"
-msgstr ""
+msgstr "/基本操作(_B)/反转(_I)"
 
 #: modules/graph/graph_invert.c:55
 msgid "Invert graph curves"
-msgstr ""
+msgstr "反转曲线图中的曲线"
 
 #: modules/graph/graph_level.c:39
 msgid "Level graph by line."
@@ -9680,23 +9680,23 @@ msgstr "对曲线图曲线调平"
 
 #: modules/graph/graph_logscale.c:77
 msgid "Physically transforms graph data to logarithmic scale."
-msgstr ""
+msgstr "将曲线图数据实际变换为对数标度。"
 
 #: modules/graph/graph_logscale.c:91
 msgid "/_Correct Data/_Logscale Transform..."
-msgstr ""
+msgstr "/校正数据(_C)/对数标度变换(_L)..."
 
 #: modules/graph/graph_logscale.c:94
 msgid "Transform graph axes to logarithmic scale"
-msgstr ""
+msgstr "将曲线图坐标轴变换为对数标度"
 
 #: modules/graph/graph_logscale.c:103
 msgid "Abscissa _X"
-msgstr ""
+msgstr "横坐标 X(_X)"
 
 #: modules/graph/graph_logscale.c:104
 msgid "Ordinate _Y"
-msgstr ""
+msgstr "纵坐标 Y(_Y)"
 
 #: modules/graph/graph_logscale.c:105 modules/tools/grainremover.c:115
 msgid "_Both"
@@ -9704,55 +9704,55 @@ msgstr "两者(_B)"
 
 #: modules/graph/graph_logscale.c:108
 msgid "O_mit"
-msgstr ""
+msgstr "忽略(_M)"
 
 #: modules/graph/graph_logscale.c:109
 msgid "_Take absolute value"
-msgstr ""
+msgstr "取绝对值(_T)"
 
 #: modules/graph/graph_logscale.c:112
 msgid "Natural (e)"
-msgstr ""
+msgstr "自然对数（e）"
 
 #: modules/graph/graph_logscale.c:113
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: modules/graph/graph_logscale.c:114
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: modules/graph/graph_logscale.c:123
 msgid "Axes to transform"
-msgstr ""
+msgstr "要变换的坐标轴"
 
 #: modules/graph/graph_logscale.c:125
 msgid "Negative abscissa handling"
-msgstr ""
+msgstr "负横坐标处理"
 
 #: modules/graph/graph_logscale.c:127
 msgid "Negative ordinate handling"
-msgstr ""
+msgstr "负纵坐标处理"
 
 #: modules/graph/graph_logscale.c:129 modules/graph/graph_logscale.c:131
 msgid "Base"
-msgstr ""
+msgstr "底数"
 
 #: modules/graph/graph_logscale.c:287
 msgid "Logscale Transform"
-msgstr ""
+msgstr "对数标度变换"
 
 #: modules/graph/graph_measure_period.c:91
 msgid "Evaluates the period of a one-dimensional periodic structure."
-msgstr ""
+msgstr "评估一维周期结构的周期。"
 
 #: modules/graph/graph_measure_period.c:105
 msgid "/Measure _Features/_Period..."
-msgstr ""
+msgstr "/测量特征(_M)/周期(_P)..."
 
 #: modules/graph/graph_measure_period.c:108
 msgid "Measure grating period"
-msgstr ""
+msgstr "测量光栅周期"
 
 #: modules/graph/graph_measure_period.c:124 modules/graph/graph_stats.c:109
 #: modules/process/acf2d.c:201 modules/process/measure_lattice.c:205
@@ -9762,31 +9762,31 @@ msgstr "保存参数"
 
 #: modules/graph/graph_measure_period.c:126
 msgid "_Subtract background"
-msgstr ""
+msgstr "扣除背景(_S)"
 
 #: modules/graph/graph_measure_period.c:127
 msgid "Show _leveled curve"
-msgstr ""
+msgstr "显示调平后的曲线(_L)"
 
 #: modules/graph/graph_measure_period.c:166
 msgid "Measure Period"
-msgstr ""
+msgstr "测量周期"
 
 #: modules/graph/graph_measure_period.c:187
 msgid "Fourier Transform"
-msgstr ""
+msgstr "傅里叶变换"
 
 #: modules/graph/graph_measure_period.c:189
 msgid "Autocorrelation"
-msgstr ""
+msgstr "自相关"
 
 #: modules/graph/graph_measure_period.c:191
 msgid "Direct Methods"
-msgstr ""
+msgstr "直接法"
 
 #: modules/graph/graph_measure_period.c:237
 msgid "Grating Period"
-msgstr ""
+msgstr "光栅周期"
 
 #. TRANSLATORS: %{from}v and %{to}v are ids, do NOT translate them.
 #: modules/graph/graph_measure_period.c:243 modules/graph/graph_stats.c:217
@@ -9795,75 +9795,75 @@ msgstr "%{from}v 至 %{to}v"
 
 #: modules/graph/graph_measure_period.c:250
 msgid "Simple FFT"
-msgstr ""
+msgstr "简单 FFT"
 
 #: modules/graph/graph_measure_period.c:251
 msgid "Refined FFT"
-msgstr ""
+msgstr "精细 FFT"
 
 #: modules/graph/graph_measure_period.c:252
 msgid "Simple ACF"
-msgstr ""
+msgstr "简单 ACF"
 
 #: modules/graph/graph_measure_period.c:253
 msgid "Multi-peak ACF"
-msgstr ""
+msgstr "多峰 ACF"
 
 #: modules/graph/graph_measure_period.c:254
 msgid "Gravity centers"
-msgstr ""
+msgstr "重心"
 
 #: modules/graph/graph_measure_period.c:255
 msgid "Zero crossings"
-msgstr ""
+msgstr "过零点"
 
 #: modules/graph/graph_measure_period.c:1050
 msgid "Leveled profile"
-msgstr ""
+msgstr "调平后的轮廓"
 
 #: modules/graph/graph_merge.c:34
 msgid "Merges and averages graph curves."
-msgstr ""
+msgstr "合并并平均曲线图中的曲线。"
 
 #: modules/graph/graph_merge.c:48
 msgid "/_Correct Data/_Merge Curves"
-msgstr ""
+msgstr "/校正数据(_C)/合并曲线(_M)"
 
 #: modules/graph/graph_merge.c:51
 msgid "Merge data of all curves"
-msgstr ""
+msgstr "合并所有曲线的数据"
 
 #: modules/graph/graph_merge.c:54
 msgid "/_Correct Data/_Average Curves"
-msgstr ""
+msgstr "/校正数据(_C)/平均曲线(_A)"
 
 #: modules/graph/graph_merge.c:57
 msgid "Average all curves"
-msgstr ""
+msgstr "对所有曲线求平均"
 
 #: modules/graph/graph_merge.c:168
 msgid "Average curve"
-msgstr ""
+msgstr "平均曲线"
 
 #: modules/graph/graph_merge.c:178
 msgid "Merged curves"
-msgstr ""
+msgstr "合并后的曲线"
 
 #: modules/graph/graph_peaks.c:105
 msgid "Finds peaks on graph curves."
-msgstr ""
+msgstr "查找曲线图中的峰。"
 
 #: modules/graph/graph_peaks.c:119
 msgid "/Measure _Features/Find _Peaks..."
-msgstr ""
+msgstr "/测量特征(_M)/查找峰(_P)..."
 
 #: modules/graph/graph_peaks.c:122
 msgid "Find graph curve peaks"
-msgstr ""
+msgstr "查找曲线图中的峰"
 
 #: modules/graph/graph_peaks.c:132
 msgid "Prominence"
-msgstr ""
+msgstr "突出度"
 
 #: modules/graph/graph_peaks.c:135 modules/process/convolve.c:99
 #: modules/tools/grainremover.c:121 modules/tools/spotremove.c:196
@@ -9872,31 +9872,31 @@ msgstr "零"
 
 #: modules/graph/graph_peaks.c:136
 msgid "Bilateral minimum"
-msgstr ""
+msgstr "双侧最小值"
 
 #: modules/graph/graph_peaks.c:146
 msgid "_Background type"
-msgstr ""
+msgstr "背景类型(_B)"
 
 #: modules/graph/graph_peaks.c:148
 msgid "Order peaks _by"
-msgstr ""
+msgstr "峰排序依据(_B)"
 
 #: modules/graph/graph_peaks.c:150
 msgid "Invert (find valleys)"
-msgstr ""
+msgstr "反转（查找谷）"
 
 #: modules/graph/graph_peaks.c:151
 msgid "Number of _peaks"
-msgstr ""
+msgstr "峰数(_P)"
 
 #: modules/graph/graph_peaks.c:152
 msgid "Save Peak Parameters"
-msgstr ""
+msgstr "保存峰参数"
 
 #: modules/graph/graph_peaks.c:190
 msgid "Graph Peaks"
-msgstr ""
+msgstr "曲线图峰"
 
 #: modules/graph/graph_polylevel.c:76 modules/graph/graph_sinebg.c:76
 #: modules/graph/graph_terraces.c:208 modules/graph/graph_terraces.c:246
@@ -9991,11 +9991,11 @@ msgstr "PSDF"
 msgid ""
 "Calculates one-dimensional statistical functions (height distribution, "
 "correlations, PSDF)."
-msgstr ""
+msgstr "计算一维统计函数（高度分布、相关函数、PSDF）。"
 
 #: modules/graph/graph_sfuncs.c:105
 msgid "/_Statistics/Statistical _Functions..."
-msgstr ""
+msgstr "/统计(_S)/统计函数(_F)..."
 
 #: modules/graph/graph_sfuncs.c:108 modules/tools/sfunctions.c:245
 msgid "Calculate 1D statistical functions"
@@ -10003,7 +10003,7 @@ msgstr "计算一维统计函数"
 
 #: modules/graph/graph_sfuncs.c:127
 msgid "O_versampling"
-msgstr ""
+msgstr "过采样(_V)"
 
 #: modules/graph/graph_sfuncs.c:128 modules/process/acf2d.c:191
 #: modules/process/acf2d.c:192 modules/process/grain_dist.c:146
@@ -10021,31 +10021,31 @@ msgstr "统计函数"
 
 #: modules/graph/graph_simplemech.c:90
 msgid "/_Force Distance/_Nanomechanical Fit..."
-msgstr ""
+msgstr "/力-距离(_F)/纳米力学拟合(_N)..."
 
 #: modules/graph/graph_simplemech.c:110
 msgid "Approach curve"
-msgstr ""
+msgstr "接近曲线"
 
 #: modules/graph/graph_simplemech.c:113
 msgid "Retract curve"
-msgstr ""
+msgstr "回撤曲线"
 
 #: modules/graph/graph_simplemech.c:516
 msgid "pick points"
-msgstr ""
+msgstr "选取点"
 
 #: modules/graph/graph_sinebg.c:83
 msgid "Remove sine background"
-msgstr ""
+msgstr "去除正弦背景"
 
 #: modules/graph/graph_sinebg.c:97
 msgid "/_Force Distance/_Remove Sine Background..."
-msgstr ""
+msgstr "/力-距离(_F)/去除正弦背景(_R)..."
 
 #: modules/graph/graph_sinebg.c:100
 msgid "Remove interference effects from FZ curve"
-msgstr ""
+msgstr "从 FZ 曲线中去除干涉效应"
 
 #: modules/graph/graph_sinebg.c:415 modules/process/pat_synth.c:1915
 #: modules/process/pat_synth.c:2146 modules/process/pat_synth.c:2456
@@ -10322,15 +10322,15 @@ msgstr "保存台阶平台拟合参数扫描结果"
 
 #: modules/layer/axis.c:143
 msgid "Layer allowing selection of horizontal or vertical lines."
-msgstr ""
+msgstr "允许选择水平线或垂直线的图层。"
 
 #: modules/layer/cross.c:152
 msgid "Layer allowing selection of combined horizontal and vertical lines."
-msgstr ""
+msgstr "允许选择水平与垂直组合线的图层。"
 
 #: modules/layer/ellipse.c:146
 msgid "Layer allowing selection of elliptic areas."
-msgstr ""
+msgstr "允许选择椭圆区域的图层。"
 
 #: modules/layer/lattice.c:126
 msgid "Layer allowing selection of a two-dimensional lattice."
@@ -10338,85 +10338,85 @@ msgstr "允许选择二维晶格的图层。"
 
 #: modules/layer/line.c:179
 msgid "Layer allowing selection of arbitrary straight lines."
-msgstr ""
+msgstr "允许选择任意直线的图层。"
 
 #: modules/layer/path.c:174
 msgid "Layer allowing selection of a single long curve."
-msgstr ""
+msgstr "允许选择单条长曲线的图层。"
 
 #: modules/layer/point.c:172
 msgid ""
 "Layer allowing selection of several points, displayed as crosses or "
 "invisible."
-msgstr ""
+msgstr "允许选择多个点的图层，这些点显示为十字或不可见。"
 
 #: modules/layer/projective.c:142
 msgid "Layer allowing selection of a projective plane."
-msgstr ""
+msgstr "允许选择投影平面的图层。"
 
 #: modules/layer/rectangle.c:149
 msgid "Layer allowing selection of rectangular areas."
-msgstr ""
+msgstr "允许选择矩形区域的图层。"
 
 #: modules/plugin-proxy.c:145
 msgid ""
 "Plug-in proxy is a module capable of querying, registering, and running "
 "external programs (plug-ins) on data pretending they are data processing or "
 "file loading/saving modules."
-msgstr ""
+msgstr "插件代理模块可查询、注册并运行外部程序（插件），并让它们以数据处理或文件加载/保存模块的身份处理数据。"
 
 #: modules/plugin-proxy.c:463
 msgid "/_Plug-Ins"
-msgstr ""
+msgstr "/插件(_P)"
 
 #: modules/plugin-proxy.c:464
 #, c-format
 msgid "Run plug-in %s"
-msgstr ""
+msgstr "运行插件 %s"
 
 #: modules/plugin-proxy.c:737 modules/plugin-proxy.c:838
 msgid "Plugin-proxy must be run as interactive."
-msgstr ""
+msgstr "插件代理必须以交互方式运行。"
 
 #: modules/plugin-proxy.c:743
 #, c-format
 msgid "Plug-in `%s' does not implement file loading."
-msgstr ""
+msgstr "插件“%s”未实现文件加载功能。"
 
 #: modules/plugin-proxy.c:761
 #, c-format
 msgid "Cannot read temporary file: %s."
-msgstr ""
+msgstr "无法读取临时文件：%s。"
 
 #: modules/plugin-proxy.c:768 modules/plugin-proxy.c:863
 #, c-format
 msgid "Cannot execute plug-in `%s': %s."
-msgstr ""
+msgstr "无法执行插件“%s”：%s。"
 
 #: modules/plugin-proxy.c:777 modules/plugin-proxy.c:872
 #, c-format
 msgid "Plug-in `%s' returned non-zero exit status: %d."
-msgstr ""
+msgstr "插件“%s”返回了非零退出状态：%d。"
 
 #: modules/plugin-proxy.c:790
 #, c-format
 msgid "Plug-in `%s' did not return any meaningful data."
-msgstr ""
+msgstr "插件“%s”未返回任何有效数据。"
 
 #: modules/plugin-proxy.c:844
 #, c-format
 msgid "Plug-in `%s' does not implement file saving."
-msgstr ""
+msgstr "插件“%s”未实现文件保存功能。"
 
 #: modules/plugin-proxy.c:1204 modules/plugin-proxy.c:1213
 #, c-format
 msgid "Cannot create a temporary file: %s."
-msgstr ""
+msgstr "无法创建临时文件：%s。"
 
 #: modules/plugin-proxy.c:1221
 #, c-format
 msgid "Cannot fdopen() already open file: %s."
-msgstr ""
+msgstr "无法对已打开的文件调用 fdopen()：%s。"
 
 #: modules/process/acf2d.c:140
 msgid "Calculates and analyzes two-dimensional autocorrelation function."
@@ -10524,15 +10524,15 @@ msgstr "ACF %.0f°"
 msgid ""
 "Calculates two-dimensional distribution of angles, that is projections of "
 "slopes to all directions."
-msgstr ""
+msgstr "计算角度的二维分布，即斜率在所有方向上的投影。"
 
 #: modules/process/angle_dist.c:93
 msgid "/_Statistics/An_gle Distribution..."
-msgstr ""
+msgstr "/统计(_S)/角度分布(_G)..."
 
 #: modules/process/angle_dist.c:97
 msgid "Calculate two-dimensional angle distribution"
-msgstr ""
+msgstr "计算二维角度分布"
 
 #: modules/process/angle_dist.c:112 modules/process/slope_dist.c:149
 msgid "Output size"
@@ -10540,7 +10540,7 @@ msgstr "输出尺寸"
 
 #: modules/process/angle_dist.c:113
 msgid "Number of steps"
-msgstr ""
+msgstr "步数"
 
 #: modules/process/angle_dist.c:114 modules/process/slope_dist.c:150
 msgid "_Logarithmic value scale"
@@ -10557,27 +10557,27 @@ msgstr "平面大小"
 
 #: modules/process/angle_dist.c:149
 msgid "Angle distribution"
-msgstr ""
+msgstr "角度分布"
 
 #: modules/process/angle_dist.c:165
 msgid "Angle Distribution"
-msgstr ""
+msgstr "角度分布"
 
 #: modules/process/angle_dist.c:206
 msgid "Computing angle distribution..."
-msgstr ""
+msgstr "正在计算角度分布……"
 
 #: modules/process/anneal_synth.c:109
 msgid "Generates images by annealing a lattice gas model."
-msgstr ""
+msgstr "通过对晶格气模型进行退火生成图像。"
 
 #: modules/process/anneal_synth.c:123
 msgid "/S_ynthetic/_Order and Disorder/_Anneal..."
-msgstr ""
+msgstr "/合成(_Y)/有序与无序(_O)/退火(_A)..."
 
 #: modules/process/anneal_synth.c:127
 msgid "Generate image by annealing a lattice gas"
-msgstr ""
+msgstr "通过晶格气退火生成图像"
 
 #: modules/process/anneal_synth.c:142 modules/process/cpde_synth.c:180
 #: modules/process/domain_synth.c:181 modules/process/dune_synth.c:142
@@ -10586,40 +10586,40 @@ msgstr "迭代次数(_N)"
 
 #: modules/process/anneal_synth.c:143
 msgid "_Initial temperature"
-msgstr ""
+msgstr "初始温度(_I)"
 
 #: modules/process/anneal_synth.c:144
 msgid "Final _temperature"
-msgstr ""
+msgstr "最终温度(_T)"
 
 #: modules/process/anneal_synth.c:145
 msgid "Component _fraction"
-msgstr ""
+msgstr "组分比例(_F)"
 
 #: modules/process/anneal_synth.c:146
 msgid "Enable three components"
-msgstr ""
+msgstr "启用三组分"
 
 #: modules/process/anneal_synth.c:147
 msgid "F_raction of B"
-msgstr ""
+msgstr "B 的比例(_R)"
 
 #: modules/process/anneal_synth.c:148
 msgid "Mixing energy AB"
-msgstr ""
+msgstr "混合能 AB"
 
 #: modules/process/anneal_synth.c:149
 msgid "Mixing energy AC"
-msgstr ""
+msgstr "混合能 AC"
 
 #: modules/process/anneal_synth.c:150
 msgid "Mixing energy BC"
-msgstr ""
+msgstr "混合能 BC"
 
 #. TRANSLATORS: Average is verb here, `perform averaging'.
 #: modules/process/anneal_synth.c:153
 msgid "_Average iterations"
-msgstr ""
+msgstr "平均迭代次数(_A)"
 
 #: modules/process/anneal_synth.c:156 modules/process/bdep_synth.c:152
 #: modules/process/col_synth.c:205 modules/process/cpde_synth.c:184
@@ -10631,7 +10631,7 @@ msgstr "渐进式预览"
 
 #: modules/process/anneal_synth.c:223
 msgid "Anneal"
-msgstr ""
+msgstr "退火"
 
 #: modules/process/anneal_synth.c:233 modules/process/bdep_synth.c:289
 #: modules/process/calibrate.c:686 modules/process/col_synth.c:344
@@ -10674,7 +10674,7 @@ msgstr "模拟参数"
 
 #: modules/process/anneal_synth.c:277
 msgid "Three Component Model"
-msgstr ""
+msgstr "三组分模型"
 
 #: modules/process/anneal_synth.c:297 modules/process/bdep_synth.c:333
 #: modules/process/col_synth.c:388 modules/process/cpde_synth.c:273
@@ -10780,15 +10780,15 @@ msgstr "滚动圆弧"
 
 #: modules/process/arithmetic.c:156
 msgid "Simple arithmetic operations with data fields."
-msgstr ""
+msgstr "对数据场进行简单算术运算。"
 
 #: modules/process/arithmetic.c:170
 msgid "/M_ultidata/_Arithmetic..."
-msgstr ""
+msgstr "/多数据(_U)/算术(_A)..."
 
 #: modules/process/arithmetic.c:174
 msgid "Arithmetic operations on data"
-msgstr ""
+msgstr "对数据进行算术运算"
 
 #: modules/process/arithmetic.c:190 modules/volume/volume_arithmetic.c:181
 #: modules/volume/volume_xyarithmetics.c:182
@@ -10871,33 +10871,33 @@ msgstr "物理尺寸不同"
 
 #: modules/process/averaging.c:63
 msgid "Similar structures averaging using autocorrelation"
-msgstr ""
+msgstr "利用自相关对相似结构求平均"
 
 #: modules/process/averaging.c:77
 msgid "/_Correct Data/_Correlation Averaging..."
-msgstr ""
+msgstr "/校正数据(_C)/相关平均(_C)..."
 
 #: modules/process/averaging.c:81
 msgid "Averaging of similar structures"
-msgstr ""
+msgstr "相似结构平均"
 
 #: modules/process/averaging.c:114
 msgid "Averaged"
-msgstr ""
+msgstr "已平均"
 
 #: modules/process/averaging.c:137
 msgid "Averaging of Similar Structures"
-msgstr ""
+msgstr "相似结构平均"
 
 #: modules/process/averaging.c:141
 msgid "Select the sample area below"
-msgstr ""
+msgstr "在下方选择样本区域"
 
 #: modules/process/basicops.c:51
 msgid ""
 "Basic operations like flipping, value inversion, and rotation by multiples "
 "of 90 degrees."
-msgstr ""
+msgstr "诸如翻转、数值反转和按 90 度倍数旋转等基本操作。"
 
 #: modules/process/basicops.c:65 modules/volume/volume_invert.c:53
 msgid "/_Basic Operations/_Invert Value"
@@ -10905,72 +10905,72 @@ msgstr "/基本操作(_B)/反转数值(_I)"
 
 #: modules/process/basicops.c:69
 msgid "Invert values about mean"
-msgstr ""
+msgstr "围绕均值反转数值"
 
 #: modules/process/basicops.c:114
 msgid "/_Basic Operations/S_quare Samples"
-msgstr ""
+msgstr "/基本操作(_B)/方形采样(_Q)"
 
 #: modules/process/basicops.c:118
 msgid "Resample data with non-1:1 aspect ratio to square samples"
-msgstr ""
+msgstr "将非 1:1 纵横比的数据重采样为方形采样点"
 
 #: modules/process/batchcolor.c:193
 msgid ""
 "Batch apply color palette and fixed value range to multiple data channels"
-msgstr ""
+msgstr "对多个数据通道批量应用调色板和固定数值范围"
 
 #: modules/process/batchcolor.c:207
 msgid "/M_ultidata/_Batch Color Mapping"
-msgstr ""
+msgstr "/多数据(_U)/批量颜色映射(_B)"
 
 #: modules/process/batchcolor.c:211
 msgid "Batch apply color palette and fixed value range to selected channels"
-msgstr ""
+msgstr "对选中通道批量应用调色板和固定数值范围"
 
 #: modules/process/batchcolor.c:324
 msgid "No channels selected"
-msgstr ""
+msgstr "未选择通道"
 
 #: modules/process/batchcolor.c:326
 msgid "Selected channels have inconsistent units"
-msgstr ""
+msgstr "所选通道的单位不一致"
 
 #: modules/process/batchcolor.c:672 modules/process/batchcolor.c:707
 msgid "Select by name"
-msgstr ""
+msgstr "按名称选择"
 
 #: modules/process/batchcolor.c:893
 msgid "Save Selected Files As .GWY"
-msgstr ""
+msgstr "将所选文件另存为 .GWY"
 
 #: modules/process/batchcolor.c:999
 msgid "Batch Color Mapping"
-msgstr ""
+msgstr "批量颜色映射"
 
 #: modules/process/batchcolor.c:1032
 msgid "Start:"
-msgstr ""
+msgstr "起点："
 
 #: modules/process/batchcolor.c:1040
 msgid "End:"
-msgstr ""
+msgstr "终点："
 
 #: modules/process/batchcolor.c:1049
 msgid "Apply Fixed Range"
-msgstr ""
+msgstr "应用固定范围"
 
 #: modules/process/batchcolor.c:1052
 msgid "Invert Mapping"
-msgstr ""
+msgstr "反转映射"
 
 #: modules/process/batchcolor.c:1059
 msgid "Set Full Range"
-msgstr ""
+msgstr "设置完整范围"
 
 #: modules/process/batchcolor.c:1062
 msgid "Zero to Min"
-msgstr ""
+msgstr "零到最小值"
 
 #: modules/process/batchcolor.c:1131 modules/volume/volume_drift.c:209
 #: modules/volume/volume_drift.c:210 modules/volume/volume_drift.c:211
@@ -10979,23 +10979,23 @@ msgstr "应用"
 
 #: modules/process/batchcolor.c:1146
 msgid "Select All"
-msgstr ""
+msgstr "全选"
 
 #: modules/process/batchcolor.c:1159
 msgid "Save As .GWY"
-msgstr ""
+msgstr "另存为 .GWY"
 
 #: modules/process/bdep_synth.c:117
 msgid "Generates surfaces by ballistic deposition."
-msgstr ""
+msgstr "通过弹道沉积生成表面。"
 
 #: modules/process/bdep_synth.c:131
 msgid "/S_ynthetic/_Deposition/_Ballistic..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/弹道沉积(_B)..."
 
 #: modules/process/bdep_synth.c:135
 msgid "Generate surface by ballistic deposition"
-msgstr ""
+msgstr "通过弹道沉积生成表面"
 
 #: modules/process/bdep_synth.c:147 modules/process/col_synth.c:193
 #: modules/process/deposit_synth.c:149 modules/process/diff_synth.c:237
@@ -11045,7 +11045,7 @@ msgstr "平均沉积厚度"
 
 #: modules/process/bdep_synth.c:279 modules/process/bdep_synth.c:326
 msgid "Ballistic Deposition"
-msgstr ""
+msgstr "弹道沉积"
 
 #: modules/process/bdep_synth.c:291 modules/process/col_synth.c:346
 #: modules/process/diff_synth.c:385
@@ -11059,27 +11059,27 @@ msgstr "正在沉积颗粒..."
 
 #: modules/process/binning.c:79
 msgid "Creates a smaller image using binning."
-msgstr ""
+msgstr "使用像素合并创建较小的图像。"
 
 #: modules/process/binning.c:93
 msgid "/_Basic Operations/_Binning..."
-msgstr ""
+msgstr "/基本操作(_B)/像素合并(_B)..."
 
 #: modules/process/binning.c:97
 msgid "Reduce size by binning"
-msgstr ""
+msgstr "通过像素合并缩小尺寸"
 
 #: modules/process/binning.c:114
 msgid "_Square bin"
-msgstr ""
+msgstr "方形合并(_S)"
 
 #: modules/process/binning.c:115
 msgid "Trim _lowest"
-msgstr ""
+msgstr "剔除最低值(_L)"
 
 #: modules/process/binning.c:116
 msgid "Trim hi_ghest"
-msgstr ""
+msgstr "剔除最高值(_G)"
 
 #: modules/process/binning.c:117 modules/process/trimmed-mean.c:117
 msgid "_Trim symmetrically"
@@ -11095,19 +11095,19 @@ msgstr "Y 偏移(_Y)"
 
 #: modules/process/binning.c:120
 msgid "_Sum instead of averaging"
-msgstr ""
+msgstr "求和而非平均(_S)"
 
 #: modules/process/binning.c:184
 msgid "Binned Data"
-msgstr ""
+msgstr "合并后的数据"
 
 #: modules/process/binning.c:214
 msgid "Binning"
-msgstr ""
+msgstr "像素合并"
 
 #: modules/process/binning.c:223
 msgid "Bin Dimensions"
-msgstr ""
+msgstr "合并尺寸"
 
 #: modules/process/binning.c:233 modules/process/extend.c:315
 #: modules/process/resample.c:240
@@ -11169,20 +11169,20 @@ msgstr "检测到的阶跃数"
 
 #: modules/process/calcoefs_load.c:85
 msgid "Load calibration data from text file"
-msgstr ""
+msgstr "从文本文件加载校准数据"
 
 #: modules/process/calcoefs_load.c:99
 msgid "/Cali_bration/_Load From Text File..."
-msgstr ""
+msgstr "/校准(_B)/从文本文件加载(_L)..."
 
 #: modules/process/calcoefs_load.c:103
 msgid "Load calibration data from text file."
-msgstr ""
+msgstr "从文本文件加载校准数据。"
 
 #: modules/process/calcoefs_load.c:160
 #, c-format
 msgid "Error loading file: %s\n"
-msgstr ""
+msgstr "加载文件时出错：%s\n"
 
 #: modules/process/calcoefs_load.c:191 modules/process/calcoefs_new.c:337
 #, c-format
@@ -11191,7 +11191,7 @@ msgstr "无法保存预设：%s"
 
 #: modules/process/calcoefs_load.c:223
 msgid "Load Calibration Data"
-msgstr ""
+msgstr "加载校准数据"
 
 #: modules/process/calcoefs_load.c:243 modules/process/calcoefs_new.c:591
 #: modules/process/calcoefs_simple.c:477
@@ -11200,7 +11200,7 @@ msgstr "校准名称："
 
 #: modules/process/calcoefs_load.c:254
 msgid "No data loaded"
-msgstr ""
+msgstr "未加载数据"
 
 #: modules/process/calcoefs_load.c:306 modules/process/calcoefs_new.c:686
 #: modules/process/calcoefs_simple.c:541
@@ -11220,101 +11220,101 @@ msgstr "追加"
 
 #: modules/process/calcoefs_load.c:348
 msgid "Load calibration data"
-msgstr ""
+msgstr "加载校准数据"
 
 #: modules/process/calcoefs_load.c:363
 #, c-format
 msgid "Error loading file '%s'"
-msgstr ""
+msgstr "加载文件“%s”时出错"
 
 #: modules/process/calcoefs_load.c:422
 msgid "Error: not enough points."
-msgstr ""
+msgstr "错误：点数不足。"
 
 #: modules/process/calcoefs_load.c:449
 #, c-format
 msgid "Loaded %d data points"
-msgstr ""
+msgstr "已加载 %d 个数据点"
 
 #: modules/process/calcoefs_new.c:172
 msgid "Create simple calibration data"
-msgstr ""
+msgstr "创建简单校准数据"
 
 #: modules/process/calcoefs_new.c:186
 msgid "/Cali_bration/_Create..."
-msgstr ""
+msgstr "/校准(_B)/创建(_C)..."
 
 #: modules/process/calcoefs_new.c:190
 msgid "Specify simple calibration data."
-msgstr ""
+msgstr "指定简单校准数据。"
 
 #: modules/process/calcoefs_new.c:371
 msgid "Simple Calibration Data"
-msgstr ""
+msgstr "简单校准数据"
 
 #: modules/process/calcoefs_new.c:389
 msgid "_X from:"
-msgstr ""
+msgstr "X 起始值(_X)："
 
 #: modules/process/calcoefs_new.c:416
 msgid "_X to:"
-msgstr ""
+msgstr "X 终止值(_X)："
 
 #: modules/process/calcoefs_new.c:429
 msgid "_Y from:"
-msgstr ""
+msgstr "Y 起始值(_Y)："
 
 #: modules/process/calcoefs_new.c:442
 msgid "_Y to:"
-msgstr ""
+msgstr "Y 终止值(_Y)："
 
 #: modules/process/calcoefs_new.c:456
 msgid "_Z from:"
-msgstr ""
+msgstr "Z 起始值(_Z)："
 
 #: modules/process/calcoefs_new.c:483
 msgid "_Z to:"
-msgstr ""
+msgstr "Z 终止值(_Z)："
 
 #: modules/process/calcoefs_new.c:496
 msgid "_X uncertainty:"
-msgstr ""
+msgstr "X 不确定度(_X)："
 
 #: modules/process/calcoefs_new.c:517
 msgid "_Y uncertainty:"
-msgstr ""
+msgstr "Y 不确定度(_Y)："
 
 #: modules/process/calcoefs_new.c:532
 msgid "_Z uncertainty:"
-msgstr ""
+msgstr "Z 不确定度(_Z)："
 
 #: modules/process/calcoefs_new.c:554
 msgid "_X correction factor:"
-msgstr ""
+msgstr "X 校正因子(_X)："
 
 #: modules/process/calcoefs_new.c:566
 msgid "_Y correction factor:"
-msgstr ""
+msgstr "Y 校正因子(_Y)："
 
 #: modules/process/calcoefs_new.c:578
 msgid "_Z correction factor:"
-msgstr ""
+msgstr "Z 校正因子(_Z)："
 
 #: modules/process/calcoefs_simple.c:168
 msgid "Simple error map based on grating measurements"
-msgstr ""
+msgstr "基于光栅测量的简单误差图"
 
 #: modules/process/calcoefs_simple.c:182
 msgid "/Cali_bration/_Get Simple Errop Map..."
-msgstr ""
+msgstr "/校准(_B)/获取简单误差图(_G)..."
 
 #: modules/process/calcoefs_simple.c:186
 msgid "Simple error mapping"
-msgstr ""
+msgstr "简单误差映射"
 
 #: modules/process/calcoefs_simple.c:328
 msgid "Simple Error Map"
-msgstr ""
+msgstr "简单误差图"
 
 #: modules/process/calcoefs_simple.c:345 modules/process/superresolution.c:156
 msgid "Operands:"
@@ -11322,7 +11322,7 @@ msgstr "操作数："
 
 #: modules/process/calcoefs_simple.c:351
 msgid "Grating image"
-msgstr ""
+msgstr "光栅图像"
 
 #: modules/process/calcoefs_simple.c:373 modules/process/calcoefs_view.c:491
 msgid "_X offset:"
@@ -11334,11 +11334,11 @@ msgstr "Y 偏移(_Y)："
 
 #: modules/process/calcoefs_simple.c:413
 msgid "X _period:"
-msgstr ""
+msgstr "X 周期(_P)："
 
 #: modules/process/calcoefs_simple.c:426
 msgid "Y p_eriod:"
-msgstr ""
+msgstr "Y 周期(_E)："
 
 #: modules/process/calcoefs_simple.c:440 modules/process/calcoefs_view.c:529
 msgid "_Z offset:"
@@ -11346,25 +11346,25 @@ msgstr "Z 偏移(_Z)："
 
 #: modules/process/calcoefs_simple.c:489
 msgid "No suggestion\n"
-msgstr ""
+msgstr "无建议\n"
 
 #: modules/process/calcoefs_simple.c:591
 msgid "Data same as detail?"
-msgstr ""
+msgstr "数据与细节相同？"
 
 #: modules/process/calcoefs_simple.c:597
 msgid "Data larger than detail?"
-msgstr ""
+msgstr "数据大于细节？"
 
 #: modules/process/calcoefs_simple.c:611
 #, c-format
 msgid "one object found"
 msgid_plural "%d objects found"
-msgstr[0] ""
+msgstr[0] "找到 %d 个对象"
 
 #: modules/process/calcoefs_simple.c:616
 msgid "Search canceled"
-msgstr ""
+msgstr "搜索已取消"
 
 #: modules/process/calcoefs_simple.c:640 modules/process/crosscor.c:502
 #: modules/process/mcrop.c:378
@@ -11373,51 +11373,51 @@ msgstr "正在计算相关性..."
 
 #: modules/process/calcoefs_view.c:236
 msgid "3D calibration/uncertainty"
-msgstr ""
+msgstr "三维校准/不确定度"
 
 #: modules/process/calcoefs_view.c:250
 msgid "/Cali_bration/_Apply to Data..."
-msgstr ""
+msgstr "/校准(_B)/应用到数据(_A)..."
 
 #: modules/process/calcoefs_view.c:254
 msgid "3D calibration and uncertainty"
-msgstr ""
+msgstr "三维校准与不确定度"
 
 #: modules/process/calcoefs_view.c:318
 msgid "3D Calibration"
-msgstr ""
+msgstr "三维校准"
 
 #: modules/process/calcoefs_view.c:377
 msgid "No data used."
-msgstr ""
+msgstr "未使用数据。"
 
 #: modules/process/calcoefs_view.c:397
 msgid "Used calibration data:"
-msgstr ""
+msgstr "使用的校准数据："
 
 #: modules/process/calcoefs_view.c:414
 msgid "Shown planes:"
-msgstr ""
+msgstr "显示的平面："
 
 #: modules/process/calcoefs_view.c:420
 msgid "View:"
-msgstr ""
+msgstr "视图："
 
 #: modules/process/calcoefs_view.c:435
 msgid "Plane:"
-msgstr ""
+msgstr "平面："
 
 #: modules/process/calcoefs_view.c:454
 msgid "X position:"
-msgstr ""
+msgstr "X 位置："
 
 #: modules/process/calcoefs_view.c:461
 msgid "Y position:"
-msgstr ""
+msgstr "Y 位置："
 
 #: modules/process/calcoefs_view.c:468
 msgid "Z position:"
-msgstr ""
+msgstr "Z 位置："
 
 #: modules/process/calcoefs_view.c:473 modules/process/correct_affine.c:536
 #: modules/process/polydistort.c:250
@@ -11426,44 +11426,44 @@ msgstr "插值类型(_I)："
 
 #: modules/process/calcoefs_view.c:557
 msgid "Crop to actual data"
-msgstr ""
+msgstr "裁剪到实际数据"
 
 #: modules/process/calcoefs_view.c:682
 msgid "Shown part has zero range."
-msgstr ""
+msgstr "显示部分的范围为零。"
 
 #: modules/process/calcoefs_view.c:690
 #, c-format
 msgid "Shown range (%.*f - %.*f) %s"
-msgstr ""
+msgstr "显示范围（%.*f - %.*f）%s"
 
 #: modules/process/calcoefs_view.c:738
 #, c-format
 msgid "%d calibration data"
-msgstr ""
+msgstr "%d 组校准数据"
 
 #: modules/process/calcoefs_view.c:742
 #, c-format
 msgid "X span: (%.*f - %.*f) %s"
-msgstr ""
+msgstr "X 范围：（%.*f - %.*f）%s"
 
 #: modules/process/calcoefs_view.c:748
 #, c-format
 msgid "Y span: (%.*f - %.*f) %s"
-msgstr ""
+msgstr "Y 范围：（%.*f - %.*f）%s"
 
 #: modules/process/calcoefs_view.c:754
 #, c-format
 msgid "Z span: (%.*f - %.*f) %s"
-msgstr ""
+msgstr "Z 范围：（%.*f - %.*f）%s"
 
 #: modules/process/calcoefs_view.c:778
 msgid "Error: out of range."
-msgstr ""
+msgstr "错误：超出范围。"
 
 #: modules/process/calcoefs_view.c:787
 msgid "Building mesh..."
-msgstr ""
+msgstr "正在构建网格……"
 
 #: modules/process/calcoefs_view.c:1120 modules/tools/profile.c:183
 msgid "X correction"
@@ -11491,31 +11491,31 @@ msgstr "Z 不确定度"
 
 #: modules/process/calcoefs_view.c:1137
 msgid "Constant X"
-msgstr ""
+msgstr "固定 X"
 
 #: modules/process/calcoefs_view.c:1138
 msgid "Constant Y"
-msgstr ""
+msgstr "固定 Y"
 
 #: modules/process/calcoefs_view.c:1139
 msgid "Constant Z"
-msgstr ""
+msgstr "固定 Z"
 
 #: modules/process/calcoefs_view.c:1150
 msgid "NNA 3D"
-msgstr ""
+msgstr "NNA 3D"
 
 #: modules/process/calcoefs_view.c:1151
 msgid "Snap to planes"
-msgstr ""
+msgstr "吸附到平面"
 
 #: modules/process/calcoefs_view.c:1152
 msgid "Delaunay"
-msgstr ""
+msgstr "Delaunay"
 
 #: modules/process/calibrate.c:145
 msgid "Recalibrates scan lateral dimensions or value range."
-msgstr ""
+msgstr "重新校准扫描横向尺寸或数值范围。"
 
 #: modules/process/calibrate.c:159 modules/process/calibrate.c:173
 #: modules/volume/volume_calibrate.c:156
@@ -11528,11 +11528,11 @@ msgstr "更改物理尺寸、单位或数值比例"
 
 #: modules/process/calibrate.c:166
 msgid "/_Dimensions and Units..."
-msgstr ""
+msgstr "/尺寸和单位(_D)..."
 
 #: modules/process/calibrate.c:170 modules/process/calibrate.c:177
 msgid "Change physical dimensions or units"
-msgstr ""
+msgstr "更改物理尺寸或单位"
 
 #: modules/process/calibrate.c:186 modules/process/calibrate.c:192
 #: modules/process/calibrate.c:197 modules/process/calibrate.c:229
@@ -11543,7 +11543,7 @@ msgstr "不更改"
 
 #: modules/process/calibrate.c:187
 msgid "Match pixel size"
-msgstr ""
+msgstr "匹配像素大小"
 
 #: modules/process/calibrate.c:188 modules/process/calibrate.c:193
 #: modules/volume/volume_calibrate.c:171
@@ -11591,11 +11591,11 @@ msgstr "Z 范围(_R)"
 
 #: modules/process/calibrate.c:237
 msgid "Z _minimum"
-msgstr ""
+msgstr "Z 最小值(_M)"
 
 #: modules/process/calibrate.c:238
 msgid "Z shi_ft"
-msgstr ""
+msgstr "Z 偏移(_F)"
 
 #: modules/process/calibrate.c:239 modules/volume/volume_calibrate.c:207
 msgid "_Z correction factor"
@@ -11616,15 +11616,15 @@ msgstr "创建新图像"
 
 #: modules/process/calibrate.c:274
 msgid "_Equal XY factors"
-msgstr ""
+msgstr "XY 因子相等(_E)"
 
 #: modules/process/calibrate.c:275
 msgid "Create new XYZ data"
-msgstr ""
+msgstr "创建新的 XYZ 数据"
 
 #: modules/process/calibrate.c:292
 msgid "Create new curve map"
-msgstr ""
+msgstr "创建新的曲线图谱"
 
 #: modules/process/calibrate.c:393 modules/process/calibrate.c:490
 #: modules/process/calibrate.c:575 modules/volume/volume_calibrate.c:340
@@ -11653,33 +11653,33 @@ msgstr "数值范围"
 
 #: modules/process/classify.c:174
 msgid "Classify data sets using multiple data fields."
-msgstr ""
+msgstr "使用多个数据场对数据集进行分类。"
 
 #: modules/process/classify.c:194
 msgid "/M_ultidata/_Classify..."
-msgstr ""
+msgstr "/多数据(_U)/分类(_C)..."
 
 #: modules/process/classify.c:198
 msgid "Classify data sets"
-msgstr ""
+msgstr "对数据集分类"
 
 #: modules/process/classify.c:337
 #, c-format
 msgid "Mask A is in data d%d"
-msgstr ""
+msgstr "掩膜 A 位于数据 d%d 中"
 
 #: modules/process/classify.c:350
 #, c-format
 msgid "Mask B is in data d%d"
-msgstr ""
+msgstr "掩膜 B 位于数据 d%d 中"
 
 #: modules/process/classify.c:375 modules/process/classify.c:390
 msgid "Criterion"
-msgstr ""
+msgstr "判据"
 
 #: modules/process/classify.c:380 modules/process/classify.c:395
 msgid "Scale"
-msgstr ""
+msgstr "尺度"
 
 #: modules/process/classify.c:454 modules/process/polydistort.c:278
 msgid "Preview:"
@@ -11687,35 +11687,35 @@ msgstr "预览："
 
 #: modules/process/classify.c:469
 msgid "Display mask:"
-msgstr ""
+msgstr "显示掩膜："
 
 #: modules/process/classify.c:550
 msgid "LoG"
-msgstr ""
+msgstr "LoG"
 
 #: modules/process/classify.c:856
 msgid "No data are selected for any criterion (all IDs are 0)."
-msgstr ""
+msgstr "未为任何判据选择数据（所有 ID 均为 0）。"
 
 #: modules/process/classify.c:875
 msgid "Image A has no mask."
-msgstr ""
+msgstr "图像 A 没有掩膜。"
 
 #: modules/process/classify.c:892
 msgid "Image B has no mask."
-msgstr ""
+msgstr "图像 B 没有掩膜。"
 
 #: modules/process/coerce.c:131
 msgid "Transforms surfaces to have prescribed statistical properties."
-msgstr ""
+msgstr "变换表面，使其具有指定的统计特性。"
 
 #: modules/process/coerce.c:145
 msgid "/_Distortion/Co_erce..."
-msgstr ""
+msgstr "/畸变(_D)/统计特性强制(_E)..."
 
 #: modules/process/coerce.c:149
 msgid "Enforce prescribed statistical properties"
-msgstr ""
+msgstr "强制应用指定的统计特性"
 
 #: modules/process/coerce.c:158 modules/process/coerce.c:169
 #: modules/process/fbm_synth.c:132 modules/process/lno_synth.c:197
@@ -11730,79 +11730,79 @@ msgstr "高斯"
 
 #: modules/process/coerce.c:160
 msgid "distribution|Skew-normal"
-msgstr ""
+msgstr "偏正态分布"
 
 #: modules/process/coerce.c:161
 msgid "As another data"
-msgstr ""
+msgstr "同另一数据"
 
 #: modules/process/coerce.c:162
 msgid "Discrete levels"
-msgstr ""
+msgstr "离散层级"
 
 #: modules/process/coerce.c:165
 msgid "Entire image"
-msgstr ""
+msgstr "整幅图像"
 
 #: modules/process/coerce.c:166
 msgid "By row (identically)"
-msgstr ""
+msgstr "按行（相同方式）"
 
 #: modules/process/coerce.c:170
 msgid "Same area"
-msgstr ""
+msgstr "相同区域"
 
 #: modules/process/coerce.c:179
 msgid "Coerce value distribution to"
-msgstr ""
+msgstr "将数值分布强制为"
 
 #: modules/process/coerce.c:181
 msgid "Level _type"
-msgstr ""
+msgstr "层级类型(_T)"
 
 #: modules/process/coerce.c:183
 msgid "Number of _levels"
-msgstr ""
+msgstr "层级数(_L)"
 
 #: modules/process/coerce.c:184
 msgid "Data processing"
-msgstr ""
+msgstr "数据处理"
 
 #: modules/process/coerce.c:186
 msgid "_Skew"
-msgstr ""
+msgstr "偏度(_S)"
 
 #: modules/process/coerce.c:223
 msgid "Coerced"
-msgstr ""
+msgstr "已强制"
 
 #: modules/process/coerce.c:251
 msgid "Coerce Statistics"
-msgstr ""
+msgstr "统计特性强制"
 
 #: modules/process/col_synth.c:147
 msgid "Number of maxima"
-msgstr ""
+msgstr "极大值数"
 
 #: modules/process/col_synth.c:156
 msgid "Generates columnar surfaces by a simple growth algorithm."
-msgstr ""
+msgstr "通过简单的生长算法生成柱状表面。"
 
 #: modules/process/col_synth.c:170
 msgid "/S_ynthetic/_Deposition/_Columnar..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/柱状生长(_C)..."
 
 #: modules/process/col_synth.c:174
 msgid "Generate columnar surface"
-msgstr ""
+msgstr "生成柱状表面"
 
 #: modules/process/col_synth.c:183
 msgid "Weak"
-msgstr ""
+msgstr "弱"
 
 #: modules/process/col_synth.c:184
 msgid "Strong"
-msgstr ""
+msgstr "强"
 
 #: modules/process/col_synth.c:194 modules/process/cpde_synth.c:181
 #: modules/process/diff_synth.c:239 modules/process/domain_synth.c:187
@@ -11813,59 +11813,59 @@ msgstr "高度比例(_H)"
 
 #: modules/process/col_synth.c:195
 msgid "Size spread"
-msgstr ""
+msgstr "尺寸分布宽度"
 
 #: modules/process/col_synth.c:196
 msgid "_Inclination"
-msgstr ""
+msgstr "倾角(_I)"
 
 #: modules/process/col_synth.c:200
 msgid "Relaxation type"
-msgstr ""
+msgstr "弛豫类型"
 
 #: modules/process/col_synth.c:202
 msgid "_Melting"
-msgstr ""
+msgstr "熔化(_M)"
 
 #: modules/process/col_synth.c:334
 msgid "Grow Columnar Surface"
-msgstr ""
+msgstr "生长柱状表面"
 
 #: modules/process/col_synth.c:383
 msgid "Particle Size"
-msgstr ""
+msgstr "颗粒尺寸"
 
 #: modules/process/col_synth.c:392
 msgid "Incidence"
-msgstr ""
+msgstr "入射角"
 
 #: modules/process/convolution_filter.c:122
 msgid "symmetry|None"
-msgstr ""
+msgstr "无"
 
 #: modules/process/convolution_filter.c:123
 msgid "symmetry|Even"
-msgstr ""
+msgstr "偶对称"
 
 #: modules/process/convolution_filter.c:124
 msgid "symmetry|Odd"
-msgstr ""
+msgstr "奇对称"
 
 #: modules/process/convolution_filter.c:130
 msgid "Generic convolution filter with a user-defined matrix."
-msgstr ""
+msgstr "使用用户定义矩阵的通用卷积滤波器。"
 
 #: modules/process/convolution_filter.c:155
 msgid "/_Integral Transforms/Con_volution Filter..."
-msgstr ""
+msgstr "/积分变换(_I)/卷积滤波器(_V)..."
 
 #: modules/process/convolution_filter.c:159
 msgid "General convolution filter"
-msgstr ""
+msgstr "通用卷积滤波器"
 
 #: modules/process/convolution_filter.c:231
 msgid "Convolution Filter"
-msgstr ""
+msgstr "卷积滤波器"
 
 #: modules/process/convolution_filter.c:267 modules/process/freq_split.c:623
 #: modules/tools/filter.c:184 modules/tools/filter.c:244
@@ -11874,39 +11874,39 @@ msgstr "滤波器"
 
 #: modules/process/convolution_filter.c:364
 msgid "Coefficient Matrix"
-msgstr ""
+msgstr "系数矩阵"
 
 #: modules/process/convolution_filter.c:384
 msgid "_Divisor:"
-msgstr ""
+msgstr "除数(_D)："
 
 #: modules/process/convolution_filter.c:389
 msgid "_automatic"
-msgstr ""
+msgstr "自动(_A)"
 
 #: modules/process/convolution_filter.c:399
 msgid "Symmetry"
-msgstr ""
+msgstr "对称性"
 
 #: modules/process/convolution_filter.c:558
 msgid "HSym"
-msgstr ""
+msgstr "水平对称"
 
 #: modules/process/convolution_filter.c:568
 msgid "VSym"
-msgstr ""
+msgstr "垂直对称"
 
 #: modules/process/convolve.c:72
 msgid "Convolves two images."
-msgstr ""
+msgstr "对两幅图像进行卷积。"
 
 #: modules/process/convolve.c:86
 msgid "/M_ultidata/_Convolve..."
-msgstr ""
+msgstr "/多数据(_U)/卷积(_C)..."
 
 #: modules/process/convolve.c:90
 msgid "Convolve two images"
-msgstr ""
+msgstr "对两幅图像卷积"
 
 #: modules/process/convolve.c:100 modules/process/displfield.c:144
 #: modules/process/extend.c:112 modules/process/mask_shift.c:105
@@ -11933,15 +11933,15 @@ msgstr "拉普拉斯"
 
 #: modules/process/convolve.c:106
 msgid "Crop to interior"
-msgstr ""
+msgstr "裁剪到内部区域"
 
 #: modules/process/convolve.c:107
 msgid "Keep size"
-msgstr ""
+msgstr "保持尺寸"
 
 #: modules/process/convolve.c:108
 msgid "Extend to convolved"
-msgstr ""
+msgstr "扩展到卷积后尺寸"
 
 #: modules/process/convolve.c:117 modules/process/displfield.c:157
 #: modules/process/extend.c:130 modules/process/mask_shift.c:116
@@ -11951,7 +11951,7 @@ msgstr "外部处理方式(_E)"
 
 #: modules/process/convolve.c:119
 msgid "Output _size"
-msgstr ""
+msgstr "输出尺寸(_S)"
 
 #: modules/process/convolve.c:121 modules/process/deconvolve.c:198
 msgid "Convolution _kernel"
@@ -11959,7 +11959,7 @@ msgstr "卷积核(_K)"
 
 #: modules/process/convolve.c:122
 msgid "Normalize as _integral"
-msgstr ""
+msgstr "按积分归一化(_I)"
 
 #: modules/process/convolve.c:153 modules/process/psf-fit.c:219
 #: modules/process/psf-fit.c:282 modules/process/psf.c:200
@@ -11970,21 +11970,21 @@ msgstr "已卷积"
 
 #: modules/process/convolve.c:170
 msgid "Convolve"
-msgstr ""
+msgstr "卷积"
 
 #: modules/process/correct_affine.c:220
 msgid ""
 "Corrects affine distortion of images by matching image Bravais lattice to "
 "the true one."
-msgstr ""
+msgstr "通过将图像的布拉伐晶格与真实晶格匹配，校正图像的仿射畸变。"
 
 #: modules/process/correct_affine.c:235
 msgid "/_Distortion/_Affine..."
-msgstr ""
+msgstr "/畸变(_D)/仿射(_A)..."
 
 #: modules/process/correct_affine.c:239
 msgid "Correct affine distortion"
-msgstr ""
+msgstr "校正仿射畸变"
 
 #: modules/process/correct_affine.c:308 modules/process/correct_affine.c:632
 #: modules/process/correct_perspective.c:284
@@ -11993,7 +11993,7 @@ msgstr "已校正"
 
 #: modules/process/correct_affine.c:342
 msgid "Affine Correction"
-msgstr ""
+msgstr "仿射校正"
 
 #: modules/process/correct_affine.c:348 modules/process/facet_analysis.c:560
 #: modules/process/facet_measure.c:371 modules/process/immerse.c:277
@@ -12021,11 +12021,11 @@ msgstr "数据(_D)"
 
 #: modules/process/correct_affine.c:411
 msgid "2D _ACF"
-msgstr ""
+msgstr "二维 ACF(_A)"
 
 #: modules/process/correct_affine.c:423
 msgid "ACF zoom:"
-msgstr ""
+msgstr "ACF 缩放："
 
 #: modules/process/correct_affine.c:440 modules/process/measure_lattice.c:197
 msgid "Interpolate _horizontal ACF"
@@ -12038,39 +12038,39 @@ msgstr "晶格矢量"
 #. TRANSLATORS: Correct is an adjective here.
 #: modules/process/correct_affine.c:467
 msgid "Correct Lattice"
-msgstr ""
+msgstr "目标晶格"
 
 #: modules/process/correct_affine.c:471
 msgid "_Lattice type:"
-msgstr ""
+msgstr "晶格类型(_L)："
 
 #: modules/process/correct_affine.c:478
 msgid "User defined"
-msgstr ""
+msgstr "用户定义"
 
 #: modules/process/correct_affine.c:493
 msgid "_Different lengths"
-msgstr ""
+msgstr "长度不同(_D)"
 
 #: modules/process/correct_affine.c:522
 msgid "Image for _ACF:"
-msgstr ""
+msgstr "用于 ACF 的图像(_A)："
 
 #: modules/process/correct_affine.c:549
 msgid "_Scaling:"
-msgstr ""
+msgstr "缩放(_S)："
 
 #: modules/process/correct_affine.c:556
 msgid "Exactly as specified"
-msgstr ""
+msgstr "严格按指定值"
 
 #: modules/process/correct_affine.c:558
 msgid "Preserve area"
-msgstr ""
+msgstr "保持面积"
 
 #: modules/process/correct_affine.c:560
 msgid "Preserve X scale"
-msgstr ""
+msgstr "保持 X 尺度"
 
 #: modules/process/correct_affine.c:569
 #: modules/process/correct_perspective.c:153 modules/process/drift.c:160
@@ -12087,19 +12087,19 @@ msgstr "角度"
 
 #: modules/process/correct_perspective.c:108
 msgid "Corrects or applies perspective distortion of images."
-msgstr ""
+msgstr "校正或施加图像的透视畸变。"
 
 #: modules/process/correct_perspective.c:122
 msgid "/_Distortion/_Perspective..."
-msgstr ""
+msgstr "/畸变(_D)/透视(_P)..."
 
 #: modules/process/correct_perspective.c:126
 msgid "Correct perspective distortion"
-msgstr ""
+msgstr "校正透视畸变"
 
 #: modules/process/correct_perspective.c:147
 msgid "Specify output _dimensions"
-msgstr ""
+msgstr "指定输出尺寸(_D)"
 
 #: modules/process/correct_perspective.c:148
 #: modules/process/volumize_layers.c:111
@@ -12113,28 +12113,28 @@ msgstr "Y 分辨率(_Y)"
 
 #: modules/process/correct_perspective.c:330
 msgid "Projective Correction"
-msgstr ""
+msgstr "投影校正"
 
 #: modules/process/cpde_synth.c:133
 msgid "Turing pattern"
-msgstr ""
+msgstr "图灵斑图"
 
 #: modules/process/cpde_synth.c:134
 msgid "Diffusion-reaction"
-msgstr ""
+msgstr "扩散-反应"
 
 #: modules/process/cpde_synth.c:140
 msgid ""
 "Generates images by assorted coupled partial differential equation models."
-msgstr ""
+msgstr "使用各种耦合偏微分方程模型生成图像。"
 
 #: modules/process/cpde_synth.c:154
 msgid "/S_ynthetic/_Order and Disorder/Coupled PD_Es..."
-msgstr ""
+msgstr "/合成(_Y)/有序与无序(_O)/耦合偏微分方程(_E)..."
 
 #: modules/process/cpde_synth.c:158
 msgid "Generate image by coupled PDEs"
-msgstr ""
+msgstr "通过耦合偏微分方程生成图像"
 
 #: modules/process/cpde_synth.c:178 modules/process/pat_synth.c:429
 msgid "_Pattern"
@@ -12142,7 +12142,7 @@ msgstr "图案(_P)"
 
 #: modules/process/cpde_synth.c:254
 msgid "Coupled PDEs"
-msgstr ""
+msgstr "耦合偏微分方程"
 
 #: modules/process/cpde_synth.c:529 modules/process/disc_synth.c:155
 #: modules/process/lat_synth.c:354 modules/process/obj_synth.c:284
@@ -12153,63 +12153,63 @@ msgstr "尺寸(_Z)"
 
 #: modules/process/cpde_synth.c:530
 msgid "Degree of _chaos"
-msgstr ""
+msgstr "混沌程度(_C)"
 
 #: modules/process/cpde_synth.c:749
 msgid "_Removal rate"
-msgstr ""
+msgstr "去除速率(_R)"
 
 #: modules/process/cpde_synth.c:751
 msgid "_Feed rate"
-msgstr ""
+msgstr "供给速率(_F)"
 
 #: modules/process/cpde_synth.c:753
 msgid "_Source density"
-msgstr ""
+msgstr "源密度(_S)"
 
 #: modules/process/cpde_synth.c:755
 msgid "No-sour_ce iterations"
-msgstr ""
+msgstr "无源迭代次数(_C)"
 
 #: modules/process/crosscor.c:106
 msgid "Absolute difference"
-msgstr ""
+msgstr "绝对差值"
 
 #: modules/process/crosscor.c:107
 msgid "X difference"
-msgstr ""
+msgstr "X 差值"
 
 #: modules/process/crosscor.c:108
 msgid "Y difference"
-msgstr ""
+msgstr "Y 差值"
 
 #: modules/process/crosscor.c:110
 msgid "Score"
-msgstr ""
+msgstr "得分"
 
 #: modules/process/crosscor.c:111
 msgid "Corrected second image"
-msgstr ""
+msgstr "校正后的第二幅图像"
 
 #: modules/process/crosscor.c:117
 msgid "Calculates cross-correlation of two data fields."
-msgstr ""
+msgstr "计算两个数据场的互相关。"
 
 #: modules/process/crosscor.c:131
 msgid "/M_ultidata/_Cross-Correlation..."
-msgstr ""
+msgstr "/多数据(_U)/互相关(_C)..."
 
 #: modules/process/crosscor.c:135
 msgid "Cross-correlate two data fields"
-msgstr ""
+msgstr "对两个数据场进行互相关"
 
 #: modules/process/crosscor.c:150 modules/process/crosscor.c:168
 msgid "Co_rrelate with"
-msgstr ""
+msgstr "关联对象(_R)"
 
 #: modules/process/crosscor.c:160
 msgid "Add _low score results mask"
-msgstr ""
+msgstr "添加低得分结果掩膜(_L)"
 
 #: modules/process/crosscor.c:161 modules/process/grain_wshed.c:110
 #: modules/process/maskcor.c:131
@@ -12218,23 +12218,23 @@ msgstr "阈值(_H)"
 
 #: modules/process/crosscor.c:163
 msgid "Apply Ga_ussian filter of width"
-msgstr ""
+msgstr "应用指定宽度的高斯滤波(_U)"
 
 #: modules/process/crosscor.c:165
 msgid "Extend results to borders"
-msgstr ""
+msgstr "将结果扩展到边界"
 
 #: modules/process/crosscor.c:166
 msgid "Multichannel cross-corelation"
-msgstr ""
+msgstr "多通道互相关"
 
 #: modules/process/crosscor.c:167
 msgid "Second _source data"
-msgstr ""
+msgstr "第二源数据(_S)"
 
 #: modules/process/crosscor.c:230
 msgid "Cross-Correlation"
-msgstr ""
+msgstr "互相关"
 
 #: modules/process/crosscor.c:237 modules/process/merge.c:187
 msgid "Correlation"
@@ -12242,35 +12242,35 @@ msgstr "相关性"
 
 #: modules/process/crosscor.c:239
 msgid "Multichannel"
-msgstr ""
+msgstr "多通道"
 
 #: modules/process/crosscor.c:269
 msgid "Search Region"
-msgstr ""
+msgstr "搜索区域"
 
 #: modules/process/crosscor.c:272
 msgid "_Guess"
-msgstr ""
+msgstr "估计值(_G)"
 
 #: modules/process/crosscor.c:273
 msgid "Global offset of second image"
-msgstr ""
+msgstr "第二幅图像的全局偏移"
 
 #: modules/process/crosscor.c:275
 msgid "Search Detail"
-msgstr ""
+msgstr "搜索细节"
 
 #: modules/process/crosscor.c:296
 msgid "Postprocessing"
-msgstr ""
+msgstr "后处理"
 
 #: modules/process/crosscor.c:502
 msgid "Correlating first set..."
-msgstr ""
+msgstr "正在关联第一组……"
 
 #: modules/process/crosscor.c:519
 msgid "Correlating second set..."
-msgstr ""
+msgstr "正在关联第二组……"
 
 #: modules/process/curvature.c:97
 msgid "Calculates overall curvature."
@@ -12331,15 +12331,15 @@ msgstr "坐标轴位于图像之外。"
 
 #: modules/process/cwt.c:56
 msgid "Two-dimensional CWT (Continuous Wavelet Transform)."
-msgstr ""
+msgstr "二维 CWT（连续小波变换）。"
 
 #: modules/process/cwt.c:70
 msgid "/_Integral Transforms/2D _CWT..."
-msgstr ""
+msgstr "/积分变换(_I)/二维 CWT(_C)..."
 
 #: modules/process/cwt.c:74
 msgid "Compute continuous wavelet transform"
-msgstr ""
+msgstr "计算连续小波变换"
 
 #: modules/process/cwt.c:89 modules/process/dwt.c:99
 #: modules/process/dwtanisotropy.c:99
@@ -12348,36 +12348,36 @@ msgstr "小波类型(_W)"
 
 #: modules/process/cwt.c:91
 msgid "_Scale"
-msgstr ""
+msgstr "尺度(_S)"
 
 #: modules/process/cwt.c:131
 msgid "CWT"
-msgstr ""
+msgstr "CWT"
 
 #: modules/process/cwt.c:148
 msgid "2D CWT"
-msgstr ""
+msgstr "二维 CWT"
 
 #: modules/process/deconvolve.c:150
 msgid "L-curve"
-msgstr ""
+msgstr "L 曲线"
 
 #: modules/process/deconvolve.c:156
 msgid "Regularized image deconvolution."
-msgstr ""
+msgstr "正则化图像反卷积。"
 
 #: modules/process/deconvolve.c:170
 msgid "/M_ultidata/_Deconvolve..."
-msgstr ""
+msgstr "/多数据(_U)/反卷积(_D)..."
 
 #: modules/process/deconvolve.c:174
 msgid "Deconvolve image"
-msgstr ""
+msgstr "对图像反卷积"
 
 #: modules/process/deconvolve.c:183 modules/process/deconvolve.c:188
 #: modules/process/deconvolve.c:243
 msgid "Deconvolved"
-msgstr ""
+msgstr "已反卷积"
 
 #: modules/process/deconvolve.c:202 modules/process/domain_synth.c:179
 #: modules/process/indent_analyze.c:235 modules/process/mcrop.c:142
@@ -12390,7 +12390,7 @@ msgstr "显示(_D)"
 
 #: modules/process/deconvolve.c:204
 msgid "_L-curve display"
-msgstr ""
+msgstr "L 曲线显示(_L)"
 
 #: modules/process/deconvolve.c:206 modules/process/psf.c:229
 #: modules/volume/volume_psf.c:250
@@ -12399,11 +12399,11 @@ msgstr "西格玛(_S)"
 
 #: modules/process/deconvolve.c:207
 msgid "_Sigma range"
-msgstr ""
+msgstr "Sigma 范围(_S)"
 
 #: modules/process/deconvolve.c:271
 msgid "Deconvolve"
-msgstr ""
+msgstr "反卷积"
 
 #: modules/process/deconvolve.c:298 modules/volume/volume_psf.c:191
 msgid "Sigma"
@@ -12411,51 +12411,51 @@ msgstr "西格玛"
 
 #: modules/process/deconvolve.c:300
 msgid "L-Curve"
-msgstr ""
+msgstr "L 曲线"
 
 #: modules/process/deconvolve.c:304
 msgid "Best estimate sigma"
-msgstr ""
+msgstr "最佳估计 Sigma"
 
 #: modules/process/deconvolve.c:306
 msgid "_Update L-Curve"
-msgstr ""
+msgstr "更新 L 曲线(_U)"
 
 #: modules/process/deconvolve.c:308
 msgid "_Use Estimate"
-msgstr ""
+msgstr "使用估计值(_U)"
 
 #: modules/process/deconvolve.c:375
 msgid "unknown"
-msgstr ""
+msgstr "未知"
 
 #: modules/process/deconvolve.c:583
 msgid "Computing L-curve data..."
-msgstr ""
+msgstr "正在计算 L 曲线数据……"
 
 #: modules/process/deposit_synth.c:119
 msgid "Generates particles using simple dynamical model"
-msgstr ""
+msgstr "使用简单动力学模型生成颗粒"
 
 #: modules/process/deposit_synth.c:133
 msgid "/S_ynthetic/_Deposition/_Particles..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/颗粒(_P)..."
 
 #: modules/process/deposit_synth.c:137
 msgid "Generate particles using dynamical model"
-msgstr ""
+msgstr "使用动力学模型生成颗粒"
 
 #: modules/process/deposit_synth.c:150
 msgid "_Relax steps"
-msgstr ""
+msgstr "弛豫步数(_R)"
 
 #: modules/process/deposit_synth.c:151
 msgid "Particle r_adius"
-msgstr ""
+msgstr "颗粒半径(_A)"
 
 #: modules/process/deposit_synth.c:152
 msgid "Distribution _width"
-msgstr ""
+msgstr "分布宽度(_W)"
 
 #: modules/process/deposit_synth.c:227 modules/process/deposit_synth.c:270
 #: modules/process/roddeposit_synth.c:382
@@ -12470,11 +12470,11 @@ msgstr "对象数量"
 #: modules/process/deposit_synth.c:368
 #, c-format
 msgid "Only %d particles were deposited. Try more revise steps."
-msgstr ""
+msgstr "仅沉积了 %d 个颗粒。请尝试增加修正步数。"
 
 #: modules/process/deposit_synth.c:599
 msgid "Initial particle set..."
-msgstr ""
+msgstr "初始颗粒集……"
 
 #: modules/process/deposit_synth.c:769 modules/process/roddeposit_synth.c:1935
 msgid "Error: too many particles."
@@ -12494,43 +12494,43 @@ msgstr "错误：粒子过小。"
 
 #: modules/process/diff_synth.c:198
 msgid "Number of islands"
-msgstr ""
+msgstr "岛数量"
 
 #: modules/process/diff_synth.c:204
 msgid "Generates surfaces by diffusion limited aggregation."
-msgstr ""
+msgstr "通过扩散限制聚集生成表面。"
 
 #: modules/process/diff_synth.c:218
 msgid "/S_ynthetic/_Deposition/_Diffusion..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/扩散限制聚集(_D)..."
 
 #: modules/process/diff_synth.c:222
 msgid "Generate surface by diffusion limited aggregation"
-msgstr ""
+msgstr "通过扩散限制聚集生成表面"
 
 #: modules/process/diff_synth.c:238
 msgid "_Flux"
-msgstr ""
+msgstr "通量(_F)"
 
 #: modules/process/diff_synth.c:240
 msgid "_Sticking"
-msgstr ""
+msgstr "黏附(_S)"
 
 #: modules/process/diff_synth.c:241
 msgid "_Activation"
-msgstr ""
+msgstr "激活(_A)"
 
 #: modules/process/diff_synth.c:242
 msgid "Passing Sch_woebel"
-msgstr ""
+msgstr "跨越 Schwoebel 势垒(_W)"
 
 #: modules/process/diff_synth.c:373
 msgid "Diffusion Limited Aggregation"
-msgstr ""
+msgstr "扩散限制聚集"
 
 #: modules/process/diff_synth.c:431
 msgid "Probabilities"
-msgstr ""
+msgstr "概率"
 
 #: modules/process/dimensions.h:459 modules/xyz/xyz_drift.c:726
 msgid "_Horizontal size:"
@@ -12542,31 +12542,31 @@ msgstr "垂直尺寸(_V):"
 
 #: modules/process/dimensions.h:485
 msgid "H_eight:"
-msgstr ""
+msgstr "高度(_E)："
 
 #: modules/process/dimensions.h:499
 msgid "_Dimension units:"
-msgstr ""
+msgstr "尺寸单位(_D)："
 
 #: modules/process/dimensions.h:505
 msgid "_Value units:"
-msgstr ""
+msgstr "数值单位(_V)："
 
 #: modules/process/disc_synth.c:115
 msgid "Generates random more or less touching discs."
-msgstr ""
+msgstr "生成随机且大致相互接触的圆盘。"
 
 #: modules/process/disc_synth.c:129
 msgid "/S_ynthetic/D_iscs..."
-msgstr ""
+msgstr "/合成(_Y)/圆盘(_I)..."
 
 #: modules/process/disc_synth.c:133
 msgid "Generate surface of random discs"
-msgstr ""
+msgstr "生成随机圆盘表面"
 
 #: modules/process/disc_synth.c:148
 msgid "Starting _radius"
-msgstr ""
+msgstr "起始半径(_R)"
 
 #: modules/process/disc_synth.c:150 modules/process/residue_synth.c:154
 msgid "_Minimum radius"
@@ -12574,64 +12574,64 @@ msgstr "最小半径(_M)"
 
 #: modules/process/disc_synth.c:151
 msgid "_Separation"
-msgstr ""
+msgstr "间距(_S)"
 
 #: modules/process/disc_synth.c:152
 msgid "_Transform to tiles"
-msgstr ""
+msgstr "转换为瓦片(_T)"
 
 #: modules/process/disc_synth.c:153
 msgid "_Gap thickness"
-msgstr ""
+msgstr "间隙厚度(_G)"
 
 #: modules/process/disc_synth.c:154
 msgid "Apply opening _filter"
-msgstr ""
+msgstr "应用开运算滤波(_F)"
 
 #: modules/process/disc_synth.c:223
 msgid "Random Discs"
-msgstr ""
+msgstr "随机圆盘"
 
 #: modules/process/disc_synth.c:268
 msgid "Discs"
-msgstr ""
+msgstr "圆盘"
 
 #: modules/process/disc_synth.c:280
 msgid "Tiles"
-msgstr ""
+msgstr "瓦片"
 
 #: modules/process/displfield.c:110
 msgid ""
 "Distorts image or individual scan lines in plane using a displacement field."
-msgstr ""
+msgstr "使用位移场在平面内使图像或单条扫描线发生畸变。"
 
 #: modules/process/displfield.c:124
 msgid "/_Distortion/Displacement _Field..."
-msgstr ""
+msgstr "/畸变(_D)/位移场(_F)..."
 
 #: modules/process/displfield.c:128
 msgid "Deform image or scan lines in plane"
-msgstr ""
+msgstr "在平面内使图像或扫描线变形"
 
 #: modules/process/displfield.c:137
 msgid "Gaussian (scan lines)"
-msgstr ""
+msgstr "高斯（扫描线）"
 
 #: modules/process/displfield.c:138
 msgid "Gaussian (two-dimensional)"
-msgstr ""
+msgstr "高斯（二维）"
 
 #: modules/process/displfield.c:139
 msgid "Tear scan lines"
-msgstr ""
+msgstr "撕裂扫描线"
 
 #: modules/process/displfield.c:140
 msgid "Image (scan lines)"
-msgstr ""
+msgstr "图像（扫描线）"
 
 #: modules/process/displfield.c:141
 msgid "Images (two-dimensional)"
-msgstr ""
+msgstr "图像（二维）"
 
 #: modules/process/displfield.c:156 modules/process/fibre_synth.c:209
 #: modules/process/lno_synth.c:544 modules/process/lno_synth.c:727
@@ -12664,11 +12664,11 @@ msgstr "横向尺度(_L)"
 
 #: modules/process/displfield.c:168
 msgid "_X displacement"
-msgstr ""
+msgstr "X 位移(_X)"
 
 #: modules/process/displfield.c:169
 msgid "_Y displacement"
-msgstr ""
+msgstr "Y 位移(_Y)"
 
 #: modules/process/displfield.c:203 modules/process/polydistort.c:502
 msgid "Distorted"
@@ -12676,95 +12676,95 @@ msgstr "已畸变"
 
 #: modules/process/displfield.c:231 modules/process/displfield.c:240
 msgid "Displacement Field"
-msgstr ""
+msgstr "位移场"
 
 #: modules/process/domain_synth.c:119
 msgid "Discrete state"
-msgstr ""
+msgstr "离散状态"
 
 #: modules/process/domain_synth.c:120
 msgid "Continuous inhibitor"
-msgstr ""
+msgstr "连续抑制因子"
 
 #: modules/process/domain_synth.c:136
 msgid "Generates domain images using a hybrid Ising model."
-msgstr ""
+msgstr "使用混合伊辛模型生成畴图像。"
 
 #: modules/process/domain_synth.c:150
 msgid "/S_ynthetic/_Order and Disorder/_Domains..."
-msgstr ""
+msgstr "/合成(_Y)/有序与无序(_O)/畴(_D)..."
 
 #: modules/process/domain_synth.c:154
 msgid "Generate image with domains"
-msgstr ""
+msgstr "生成含畴的图像"
 
 #: modules/process/domain_synth.c:182
 msgid "_Temperature"
-msgstr ""
+msgstr "温度(_T)"
 
 #: modules/process/domain_synth.c:183
 msgid "_Inhibitor strength"
-msgstr ""
+msgstr "抑制因子强度(_I)"
 
 #: modules/process/domain_synth.c:184
 msgid "In_hibitor coupling"
-msgstr ""
+msgstr "抑制因子耦合(_H)"
 
 #: modules/process/domain_synth.c:185
 msgid "_Bias"
-msgstr ""
+msgstr "偏置(_B)"
 
 #: modules/process/domain_synth.c:186
 msgid "_Monte Carlo time step"
-msgstr ""
+msgstr "Monte Carlo 时间步(_M)"
 
 #: modules/process/domain_synth.c:190
 msgid "Preset"
-msgstr ""
+msgstr "预设"
 
 #: modules/process/domain_synth.c:274
 msgid "Domains"
-msgstr ""
+msgstr "畴"
 
 #: modules/process/domain_synth.c:364
 msgid "Use Selected _Preset"
-msgstr ""
+msgstr "使用所选预设(_P)"
 
 #: modules/process/drift.c:120
 msgid "Evaluates and/or correct thermal drift in fast scan axis."
-msgstr ""
+msgstr "评估和/或校正快速扫描轴上的热漂移。"
 
 #: modules/process/drift.c:134
 msgid "/_Distortion/Compensate _Drift..."
-msgstr ""
+msgstr "/畸变(_D)/补偿漂移(_D)..."
 
 #: modules/process/drift.c:138
 msgid "Evaluate/correct thermal drift in fast scan axis"
-msgstr ""
+msgstr "评估/校正快速扫描轴上的热漂移"
 
 #: modules/process/drift.c:148
 msgid "Drift _lines"
-msgstr ""
+msgstr "漂移扫描线(_L)"
 
 #: modules/process/drift.c:159
 msgid "_Search range"
-msgstr ""
+msgstr "搜索范围(_S)"
 
 #: modules/process/drift.c:162
 msgid "Correct _data"
-msgstr ""
+msgstr "校正数据(_D)"
 
 #: modules/process/drift.c:163
 msgid "Plot drift _graph"
-msgstr ""
+msgstr "绘制漂移曲线图(_G)"
 
 #: modules/process/drift.c:164
 msgid "_Exclude linear skew"
-msgstr ""
+msgstr "排除线性倾斜(_E)"
 
 #: modules/process/drift.c:221 modules/process/drift.c:393
 msgid "Drift"
-msgstr ""
+msgstr "漂移"
 
 #: modules/process/drift.c:222 modules/xyz/xyz_drift.c:390
 #: modules/xyz/xyz_drift.c:409 modules/xyz/xyz_drift.c:428
@@ -12778,63 +12778,63 @@ msgstr "x 轴漂移"
 
 #: modules/process/drift.c:331
 msgid "Drift-corrected"
-msgstr ""
+msgstr "漂移校正后"
 
 #: modules/process/drift.c:380
 msgid "Compensate Drift"
-msgstr ""
+msgstr "补偿漂移"
 
 #: modules/process/drift.c:395
 msgid "rows"
-msgstr ""
+msgstr "行"
 
 #: modules/process/dune_synth.c:108
 msgid "Generates images by simulating formation of sand dunes."
-msgstr ""
+msgstr "通过模拟沙丘形成生成图像。"
 
 #: modules/process/dune_synth.c:122
 msgid "/S_ynthetic/_Deposition/_Dunes..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/沙丘(_D)..."
 
 #: modules/process/dune_synth.c:126
 msgid "Generate image by transporting sand"
-msgstr ""
+msgstr "通过沙粒输运生成图像"
 
 #: modules/process/dune_synth.c:145
 msgid "_Minimum step"
-msgstr ""
+msgstr "最小步长(_M)"
 
 #: modules/process/dune_synth.c:146
 msgid "Step range"
-msgstr ""
+msgstr "步长范围"
 
 #: modules/process/dune_synth.c:147
 msgid "Sticking probability on _rock"
-msgstr ""
+msgstr "在岩石上的黏附概率(_R)"
 
 #: modules/process/dune_synth.c:148
 msgid "Sticking _probability on sand"
-msgstr ""
+msgstr "在沙上的黏附概率(_P)"
 
 #: modules/process/dune_synth.c:149
 msgid "Maximum s_lope"
-msgstr ""
+msgstr "最大坡度(_L)"
 
 #: modules/process/dune_synth.c:220
 msgid "Dunes"
-msgstr ""
+msgstr "沙丘"
 
 #: modules/process/dwt.c:64
 msgid "Two-dimensional DWT (Discrete Wavelet Transform)."
-msgstr ""
+msgstr "二维 DWT（离散小波变换）。"
 
 #: modules/process/dwt.c:78
 msgid "/_Integral Transforms/2D _DWT..."
-msgstr ""
+msgstr "/积分变换(_I)/二维 DWT(_D)..."
 
 #: modules/process/dwt.c:82
 msgid "Compute Discrete Wavelet Transform"
-msgstr ""
+msgstr "计算离散小波变换"
 
 #: modules/process/dwt.c:101 modules/process/fft.c:130
 msgid "_Inverse transform"
@@ -12842,11 +12842,11 @@ msgstr "逆变换(_I)"
 
 #: modules/process/dwt.c:119 modules/process/dwt.c:136
 msgid "DWT"
-msgstr ""
+msgstr "DWT"
 
 #: modules/process/dwt.c:159
 msgid "2D DWT"
-msgstr ""
+msgstr "二维 DWT"
 
 #: modules/process/dwt.c:169 modules/process/dwtanisotropy.c:173
 #, c-format
@@ -12860,137 +12860,137 @@ msgstr "图像将重采样为 %d×%d，以进行离散小波变换。"
 
 #: modules/process/dwtanisotropy.c:64
 msgid "2D DWT anisotropy detection based on X/Y components ratio."
-msgstr ""
+msgstr "基于 X/Y 分量比的二维 DWT 各向异性检测。"
 
 #: modules/process/dwtanisotropy.c:78
 msgid "/_Integral Transforms/DWT _Anisotropy..."
-msgstr ""
+msgstr "/积分变换(_I)/DWT 各向异性(_A)..."
 
 #: modules/process/dwtanisotropy.c:82
 msgid "DWT anisotropy detection"
-msgstr ""
+msgstr "DWT 各向异性检测"
 
 #: modules/process/dwtanisotropy.c:101
 msgid "X/Y ratio threshold"
-msgstr ""
+msgstr "X/Y 比值阈值"
 
 #: modules/process/dwtanisotropy.c:102
 msgid "Low level exclude limit"
-msgstr ""
+msgstr "低水平排除限值"
 
 #: modules/process/dwtanisotropy.c:122
 msgid "DWT Anisotropy"
-msgstr ""
+msgstr "DWT 各向异性"
 
 #: modules/process/dwtanisotropy.c:161
 msgid "2D DWT Anisotropy"
-msgstr ""
+msgstr "二维 DWT 各向异性"
 
 #: modules/process/edge.c:63
 msgid ""
 "Several edge detection methods (Laplacian of Gaussian, Canny, and some "
 "experimental), creates presentation."
-msgstr ""
+msgstr "多种边缘检测方法（高斯拉普拉斯、Canny 及一些实验性方法），生成展示图像。"
 
 #: modules/process/edge.c:77
 msgid "/_Presentation/_Edge Detection/_Laplacian of Gaussian"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/高斯拉普拉斯(_L)"
 
 #: modules/process/edge.c:81
 msgid "Laplacian of Gaussian step detection presentation"
-msgstr ""
+msgstr "高斯拉普拉斯阶跃检测展示"
 
 #: modules/process/edge.c:85
 msgid "/_Presentation/_Edge Detection/_Canny"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/Canny(_C)"
 
 #: modules/process/edge.c:89
 msgid "Canny edge detection presentation"
-msgstr ""
+msgstr "Canny 边缘检测展示"
 
 #: modules/process/edge.c:92
 msgid "/_Presentation/_Edge Detection/_RMS"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/RMS(_R)"
 
 #: modules/process/edge.c:96
 msgid "Local RMS value based step detection presentation"
-msgstr ""
+msgstr "基于局部 RMS 值的阶跃检测展示"
 
 #: modules/process/edge.c:100
 msgid "/_Presentation/_Edge Detection/RMS _Edge"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/RMS 边缘(_E)"
 
 #: modules/process/edge.c:104
 msgid "Local RMS value based step detection with postprocessing"
-msgstr ""
+msgstr "带后处理的基于局部 RMS 值的阶跃检测"
 
 #: modules/process/edge.c:107
 msgid "/_Presentation/_Edge Detection/Local _Nonlinearity"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/局部非线性(_N)"
 
 #: modules/process/edge.c:111
 msgid "Local nonlinearity based edge detection presentation"
-msgstr ""
+msgstr "基于局部非线性的边缘检测展示"
 
 #: modules/process/edge.c:115
 msgid "/_Presentation/_Edge Detection/_Hough Lines"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/Hough 直线(_H)"
 
 #: modules/process/edge.c:120
 msgid "Hough lines presentation"
-msgstr ""
+msgstr "Hough 直线展示"
 
 #: modules/process/edge.c:123
 msgid "/_Presentation/_Edge Detection/_Harris Corner"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/Harris 角点(_H)"
 
 #: modules/process/edge.c:128
 msgid "Harris corner presentation"
-msgstr ""
+msgstr "Harris 角点展示"
 
 #: modules/process/edge.c:131
 msgid "/_Presentation/_Edge Detection/_Inclination"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/倾角(_I)"
 
 #: modules/process/edge.c:135
 msgid "Local inclination visualization presentation"
-msgstr ""
+msgstr "局部倾角可视化展示"
 
 #: modules/process/edge.c:138
 msgid "/_Presentation/_Edge Detection/_Step"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/阶跃(_S)"
 
 #: modules/process/edge.c:142
 msgid "Fine step detection presentation"
-msgstr ""
+msgstr "精细阶跃检测展示"
 
 #: modules/process/edge.c:145
 msgid "/_Presentation/_Edge Detection/_Sobel"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/Sobel(_S)"
 
 #: modules/process/edge.c:149
 msgid "Sobel edge presentation"
-msgstr ""
+msgstr "Sobel 边缘展示"
 
 #: modules/process/edge.c:152
 msgid "/_Presentation/_Edge Detection/_Prewitt"
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/Prewitt(_P)"
 
 #: modules/process/edge.c:156
 msgid "Prewitt edge presentation"
-msgstr ""
+msgstr "Prewitt 边缘展示"
 
 #: modules/process/edge.c:159
 msgid "/_Integral Transforms/Local Slope"
-msgstr ""
+msgstr "/积分变换(_I)/局部斜率"
 
 #: modules/process/edge.c:163
 msgid "First derivative slope transformation"
-msgstr ""
+msgstr "一阶导数斜率变换"
 
 #: modules/process/edge.c:485
 msgid "Slope map"
-msgstr ""
+msgstr "斜率图"
 
 #: modules/process/entropy.c:89
 msgid "Visualizes entropy calculation for value and slope distribution."
@@ -13043,59 +13043,59 @@ msgstr "最佳估计"
 
 #: modules/process/extend.c:84
 msgid "Extends image by adding borders."
-msgstr ""
+msgstr "通过添加边框扩展图像。"
 
 #: modules/process/extend.c:98
 msgid "/_Basic Operations/E_xtend..."
-msgstr ""
+msgstr "/基本操作(_B)/扩展(_X)..."
 
 #: modules/process/extend.c:102
 msgid "Extend by adding borders"
-msgstr ""
+msgstr "通过添加边框扩展"
 
 #: modules/process/extend.c:125
 msgid "_Up"
-msgstr ""
+msgstr "上(_U)"
 
 #: modules/process/extend.c:126
 msgid "_Down"
-msgstr ""
+msgstr "下(_D)"
 
 #: modules/process/extend.c:127
 msgid "_Left"
-msgstr ""
+msgstr "左(_L)"
 
 #: modules/process/extend.c:128
 msgid "_Right"
-msgstr ""
+msgstr "右(_R)"
 
 #: modules/process/extend.c:129
 msgid "Extend _symmetrically"
-msgstr ""
+msgstr "对称扩展(_S)"
 
 #: modules/process/extend.c:221
 msgid "Extended"
-msgstr ""
+msgstr "已扩展"
 
 #: modules/process/extend.c:291
 msgid "Extend"
-msgstr ""
+msgstr "扩展"
 
 #: modules/process/extend.c:299
 msgid "Borders"
-msgstr ""
+msgstr "边框"
 
 #: modules/process/extract_path.c:68
 msgid "Extracts coordinates and tangents along a path selection."
-msgstr ""
+msgstr "沿路径选择提取坐标和切线。"
 
 #: modules/process/extract_path.c:82
 msgid "/_Distortion/Extract _Path Selection..."
-msgstr ""
+msgstr "/畸变(_D)/提取路径选择(_P)..."
 
 #: modules/process/extract_path.c:86
 msgid "Extract path selection data"
-msgstr ""
+msgstr "提取路径选择数据"
 
 #: modules/process/extract_path.c:101 modules/process/immerse.c:192
 msgid "X position"
@@ -13107,23 +13107,23 @@ msgstr "Y 位置"
 
 #: modules/process/extract_path.c:103
 msgid "X tangent"
-msgstr ""
+msgstr "X 切线"
 
 #: modules/process/extract_path.c:104
 msgid "Y tangent"
-msgstr ""
+msgstr "Y 切线"
 
 #: modules/process/extract_path.c:166
 msgid "Extract Path Selection"
-msgstr ""
+msgstr "提取路径选择"
 
 #: modules/process/extract_path.c:172
 msgid "Number of path points"
-msgstr ""
+msgstr "路径点数"
 
 #: modules/process/extract_path.c:177
 msgid "There is no path selection."
-msgstr ""
+msgstr "没有路径选择。"
 
 #: modules/process/extract_path.c:344 modules/process/extract_path.c:349
 #: modules/tools/distance.c:142 modules/volume/volume_cluster.c:2229
@@ -13291,15 +13291,15 @@ msgstr "点"
 
 #: modules/process/fbm_synth.c:105
 msgid "Generates random surfaces similar to fractional Brownian motion."
-msgstr ""
+msgstr "生成类似分数布朗运动的随机表面。"
 
 #: modules/process/fbm_synth.c:119
 msgid "/S_ynthetic/_Noise/_Brownian..."
-msgstr ""
+msgstr "/合成(_Y)/噪声(_N)/布朗运动(_B)..."
 
 #: modules/process/fbm_synth.c:123
 msgid "Generate fractional Brownian motion-like surface"
-msgstr ""
+msgstr "生成类分数布朗运动表面"
 
 #: modules/process/fbm_synth.c:134 modules/process/lno_synth.c:196
 #: modules/process/noise_synth.c:127
@@ -13308,15 +13308,15 @@ msgstr "指数分布"
 
 #: modules/process/fbm_synth.c:135
 msgid "distribution|Power"
-msgstr ""
+msgstr "幂律分布"
 
 #: modules/process/fbm_synth.c:144
 msgid "_Hurst exponent"
-msgstr ""
+msgstr "Hurst 指数(_H)"
 
 #: modules/process/fbm_synth.c:145
 msgid "_Stationarity scale"
-msgstr ""
+msgstr "平稳尺度(_S)"
 
 #: modules/process/fbm_synth.c:146 modules/process/lno_synth.c:264
 #: modules/process/noise_synth.c:178
@@ -13334,55 +13334,55 @@ msgstr "均方根(_R)"
 
 #: modules/process/fbm_synth.c:215
 msgid "Fractional Brownian Motion"
-msgstr ""
+msgstr "分数布朗运动"
 
 #: modules/process/fft.c:91
 msgid "Two-dimensional FFT (Fast Fourier Transform)."
-msgstr ""
+msgstr "二维 FFT（快速傅里叶变换）。"
 
 #: modules/process/fft.c:105
 msgid "/_Integral Transforms/2D _FFT..."
-msgstr ""
+msgstr "/积分变换(_I)/二维 FFT(_F)..."
 
 #: modules/process/fft.c:109
 msgid "Compute Fast Fourier Transform"
-msgstr ""
+msgstr "计算快速傅里叶变换"
 
 #: modules/process/fft.c:118
 msgid "Real"
-msgstr ""
+msgstr "实部"
 
 #: modules/process/fft.c:119
 msgid "Imaginary"
-msgstr ""
+msgstr "虚部"
 
 #: modules/process/fft.c:120
 msgid "Modulus"
-msgstr ""
+msgstr "模"
 
 #: modules/process/fft.c:133
 msgid "_Preserve RMS"
-msgstr ""
+msgstr "保持 RMS(_P)"
 
 #: modules/process/fft.c:134
 msgid "Ra_w transform"
-msgstr ""
+msgstr "原始变换(_W)"
 
 #: modules/process/fft.c:137
 msgid "Subtract mean _value beforehand"
-msgstr ""
+msgstr "预先减去均值(_V)"
 
 #: modules/process/fft.c:138
 msgid "I_maginary part"
-msgstr ""
+msgstr "虚部(_M)"
 
 #: modules/process/fft.c:212
 msgid "FFT Real"
-msgstr ""
+msgstr "FFT 实部"
 
 #: modules/process/fft.c:214
 msgid "FFT Imaginary"
-msgstr ""
+msgstr "FFT 虚部"
 
 #: modules/process/fft.c:216 modules/process/fft_filter_1d.c:354
 #: modules/volume/volume_1dfft.c:478
@@ -13391,11 +13391,11 @@ msgstr "FFT 模"
 
 #: modules/process/fft.c:218
 msgid "FFT Phase"
-msgstr ""
+msgstr "FFT 相位"
 
 #: modules/process/fft.c:303 modules/process/fft.c:308
 msgid "2D FFT"
-msgstr ""
+msgstr "二维 FFT"
 
 #: modules/process/fft_filter_1d.c:92 modules/xyz/xyz_fft.c:233
 msgid "FFT filtering"
@@ -13407,7 +13407,7 @@ msgstr "/校正数据(_C)/一维 FFT 滤波(_F)..."
 
 #: modules/process/fft_filter_1d.c:110
 msgid "1D FFT Filtering"
-msgstr ""
+msgstr "一维 FFT 滤波"
 
 #: modules/process/fft_filter_1d.c:122 modules/volume/volume_1dfft.c:146
 #: modules/xyz/xyz_fft.c:147
@@ -13431,51 +13431,51 @@ msgstr "滤波器类型(_F)"
 
 #: modules/process/fft_filter_1d.c:172
 msgid "1D FFT Filtered Data"
-msgstr ""
+msgstr "一维 FFT 滤波后数据"
 
 #: modules/process/fft_filter_1d.c:208
 msgid "1D FFT filter"
-msgstr ""
+msgstr "一维 FFT 滤波器"
 
 #: modules/process/fft_filter_2d.c:157 modules/process/fft_filter_2d.c:408
 msgid "2D FFT Filtering"
-msgstr ""
+msgstr "二维 FFT 滤波"
 
 #: modules/process/fft_filter_2d.c:171
 msgid "/_Correct Data/_2D FFT Filtering..."
-msgstr ""
+msgstr "/校正数据(_C)/二维 FFT 滤波(_2)..."
 
 #: modules/process/fft_filter_2d.c:175
 msgid "Two-dimensional FFT filtering"
-msgstr ""
+msgstr "二维 FFT 滤波"
 
 #: modules/process/fft_filter_2d.c:284
 msgid "Filtered Data"
-msgstr ""
+msgstr "滤波后数据"
 
 #: modules/process/fft_filter_2d.c:312
 msgid "Filtered FFT"
-msgstr ""
+msgstr "滤波后 FFT"
 
 #: modules/process/fft_filter_2d.c:336
 msgid "Add an ellipse to the FFT mask"
-msgstr ""
+msgstr "向 FFT 掩膜添加椭圆"
 
 #: modules/process/fft_filter_2d.c:341
 msgid "Add a rectangle to the FFT mask"
-msgstr ""
+msgstr "向 FFT 掩膜添加矩形"
 
 #: modules/process/fft_filter_2d.c:346
 msgid "Subtract an ellipse from the FFT mask"
-msgstr ""
+msgstr "从 FFT 掩膜中减去椭圆"
 
 #: modules/process/fft_filter_2d.c:351
 msgid "Subtract a rectangle from the FFT mask"
-msgstr ""
+msgstr "从 FFT 掩膜中减去矩形"
 
 #: modules/process/fft_filter_2d.c:362
 msgid "_FFT mask editor"
-msgstr ""
+msgstr "FFT 掩膜编辑器(_F)"
 
 #: modules/process/fft_filter_2d.c:366 modules/process/pid.c:128
 #: modules/process/ptranslate.c:128 modules/process/zero_crossing.c:110
@@ -13484,39 +13484,39 @@ msgstr "原始图像(_I)"
 
 #: modules/process/fft_filter_2d.c:370
 msgid "Fi_ltered image"
-msgstr ""
+msgstr "滤波后图像(_L)"
 
 #: modules/process/fft_filter_2d.c:374
 msgid "Image _difference"
-msgstr ""
+msgstr "图像差值(_D)"
 
 #: modules/process/fft_filter_2d.c:385
 msgid "Filtered i_mage"
-msgstr ""
+msgstr "滤波后图像(_M)"
 
 #: modules/process/fft_filter_2d.c:389
 msgid "Ima_ge difference"
-msgstr ""
+msgstr "图像差值(_G)"
 
 #: modules/process/fft_filter_2d.c:393
 msgid "Filtered FFT mo_dulus"
-msgstr ""
+msgstr "滤波后 FFT 模(_D)"
 
 #: modules/process/fft_filter_2d.c:442
 msgid "Filter Mask"
-msgstr ""
+msgstr "滤波掩膜"
 
 #: modules/process/fft_filter_2d.c:477
 msgid "_Undo"
-msgstr ""
+msgstr "撤销(_U)"
 
 #: modules/process/fft_filter_2d.c:480
 msgid "Undo the last change to the filter mask"
-msgstr ""
+msgstr "撤销对滤波掩膜的最后一次更改"
 
 #: modules/process/fft_filter_2d.c:487
 msgid "Clear the entire filter mask"
-msgstr ""
+msgstr "清除整个滤波掩膜"
 
 #: modules/process/fft_filter_2d.c:492 modules/tools/maskedit.c:442
 msgid "_Fill"
@@ -13524,19 +13524,19 @@ msgstr "填充(_F)"
 
 #: modules/process/fft_filter_2d.c:494
 msgid "Fill the entire filter mask"
-msgstr ""
+msgstr "填充整个滤波掩膜"
 
 #: modules/process/fft_filter_2d.c:500
 msgid "_Snap to origin"
-msgstr ""
+msgstr "吸附到原点(_S)"
 
 #: modules/process/fft_filter_2d.c:502
 msgid "Force shapes to center around the origin"
-msgstr ""
+msgstr "强制图形以原点为中心"
 
 #: modules/process/fft_filter_2d.c:547
 msgid "Zoom:"
-msgstr ""
+msgstr "缩放："
 
 #: modules/process/fft_filter_2d.c:568 modules/volume/volume_slice.c:313
 msgid "Output Options"
@@ -13544,67 +13544,67 @@ msgstr "输出选项"
 
 #: modules/process/fft_synth.c:92
 msgid "Generates random surfaces using spectral synthesis."
-msgstr ""
+msgstr "使用频谱合成生成随机表面。"
 
 #: modules/process/fft_synth.c:106
 msgid "/S_ynthetic/_Noise/_Spectral..."
-msgstr ""
+msgstr "/合成(_Y)/噪声(_N)/频谱(_S)..."
 
 #: modules/process/fft_synth.c:110
 msgid "Generate surface using spectral synthesis"
-msgstr ""
+msgstr "使用频谱合成生成表面"
 
 #: modules/process/fft_synth.c:126
 msgid "M_inimum frequency"
-msgstr ""
+msgstr "最小频率(_I)"
 
 #: modules/process/fft_synth.c:128
 msgid "Ma_ximum frequency"
-msgstr ""
+msgstr "最大频率(_X)"
 
 #: modules/process/fft_synth.c:130
 msgid "Enable _Gaussian multiplier"
-msgstr ""
+msgstr "启用高斯乘子(_G)"
 
 #: modules/process/fft_synth.c:132 modules/process/fft_synth.c:133
 msgid "General power"
-msgstr ""
+msgstr "通用幂次"
 
 #: modules/process/fft_synth.c:134
 msgid "Enable _Lorentz multiplier"
-msgstr ""
+msgstr "启用 Lorentz 乘子(_L)"
 
 #: modules/process/fft_synth.c:137
 msgid "Enable _power multiplier"
-msgstr ""
+msgstr "启用幂律乘子(_P)"
 
 #: modules/process/fft_synth.c:204
 msgid "Spectral Synthesis"
-msgstr ""
+msgstr "频谱合成"
 
 #: modules/process/fft_synth.c:258 modules/process/fft_synth.c:261
 msgid "px<sup>-1</sup>"
-msgstr ""
+msgstr "px<sup>-1</sup>"
 
 #: modules/process/fibre_synth.c:155
 msgid "Generates surfaces composed from randomly placed fibers."
-msgstr ""
+msgstr "生成由随机放置的纤维构成的表面。"
 
 #: modules/process/fibre_synth.c:169
 msgid "/S_ynthetic/_Deposition/_Fibers..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/纤维(_F)..."
 
 #: modules/process/fibre_synth.c:173
 msgid "Generate surface of randomly placed fibers"
-msgstr ""
+msgstr "生成随机放置纤维的表面"
 
 #: modules/process/fibre_synth.c:182
 msgid "Semi-circle"
-msgstr ""
+msgstr "半圆形"
 
 #: modules/process/fibre_synth.c:183
 msgid "Triangle"
-msgstr ""
+msgstr "三角形"
 
 #: modules/process/fibre_synth.c:184 modules/tools/spotremove.c:199
 msgid "Rectangle"
@@ -13612,7 +13612,7 @@ msgstr "矩形"
 
 #: modules/process/fibre_synth.c:186
 msgid "Quadratic spline"
-msgstr ""
+msgstr "二次样条"
 
 #: modules/process/fibre_synth.c:195 modules/process/obj_synth.c:279
 #: modules/process/pileup_synth.c:217
@@ -13621,7 +13621,7 @@ msgstr "形状(_S)"
 
 #: modules/process/fibre_synth.c:199 modules/process/fibre_synth.c:202
 msgid "Along fiber"
-msgstr ""
+msgstr "沿纤维"
 
 #: modules/process/fibre_synth.c:203 modules/process/pat_synth.c:1715
 msgid "Scales _with width"
@@ -13643,15 +13643,15 @@ msgstr "方向(_T)"
 
 #: modules/process/fibre_synth.c:211
 msgid "_Lateral"
-msgstr ""
+msgstr "横向(_L)"
 
 #: modules/process/fibre_synth.c:213
 msgid "Le_ngthwise"
-msgstr ""
+msgstr "纵向(_G)"
 
 #: modules/process/fibre_synth.c:281
 msgid "Random Fibers"
-msgstr ""
+msgstr "随机纤维"
 
 #: modules/process/fibre_synth.c:292 modules/process/obj_synth.c:372
 #: modules/tools/maskedit.c:228 modules/tools/spotremove.c:211
@@ -13660,23 +13660,23 @@ msgstr "形状"
 
 #: modules/process/fibre_synth.c:751
 msgid "Generating fibers..."
-msgstr ""
+msgstr "正在生成纤维……"
 
 #: modules/process/fit-shape.c:237
 msgid "Fits predefined geometrical shapes to data."
-msgstr ""
+msgstr "将预定义几何形状拟合到数据。"
 
 #: modules/process/fit-shape.c:251
 msgid "/Measure _Features/_Fit Shape..."
-msgstr ""
+msgstr "/测量特征(_M)/拟合形状(_F)..."
 
 #: modules/process/fit-shape.c:255 modules/process/fit-shape.c:262
 msgid "Fit geometrical shapes"
-msgstr ""
+msgstr "拟合几何形状"
 
 #: modules/process/fit-shape.c:258
 msgid "/_Fit Shape..."
-msgstr ""
+msgstr "/拟合形状(_F)..."
 
 #: modules/process/fit-shape.c:272 modules/process/fit-shape.c:276
 #: modules/process/fit-shape.c:374 modules/process/fit-shape.c:412
@@ -13697,39 +13697,39 @@ msgstr "使用自适应色图显示差异(_A)"
 
 #: modules/process/fit-shape.c:300
 msgid "Calculate differences for e_xcluded pixels"
-msgstr ""
+msgstr "计算被排除像素的差值(_X)"
 
 #: modules/process/fit-shape.c:491
 msgid "Fit Shape"
-msgstr ""
+msgstr "拟合形状"
 
 #: modules/process/fit-shape.c:496
 msgid "verb|_Quick Fit"
-msgstr ""
+msgstr "快速拟合(_Q)"
 
 #: modules/process/fit-shape.c:513 modules/process/fit-shape.c:1676
 msgid "Derived Quantities"
-msgstr ""
+msgstr "导出量"
 
 #: modules/process/fit-shape.c:517
 msgid "Mean square difference:"
-msgstr ""
+msgstr "均方差："
 
 #: modules/process/fit-shape.c:695
 msgid "_Recalculate Image"
-msgstr ""
+msgstr "重新计算图像(_R)"
 
 #: modules/process/fit-shape.c:700
 msgid "Revert to _Previous Values"
-msgstr ""
+msgstr "恢复为先前值(_P)"
 
 #: modules/process/fit-shape.c:1492
 msgid "Parameter estimation failed"
-msgstr ""
+msgstr "参数估计失败"
 
 #: modules/process/fit-shape.c:1496
 msgid "Fit was interrupted"
-msgstr ""
+msgstr "拟合已中断"
 
 #. TRANSLATORS: %{n}i and %{total}i are ids, do NOT translate them.
 #: modules/process/fit-shape.c:1647 modules/process/relate.c:670
@@ -13758,15 +13758,15 @@ msgstr "正在进行多项式调平..."
 
 #: modules/process/fraccor.c:39
 msgid "Removes data under mask using fractal interpolation."
-msgstr ""
+msgstr "使用分形插值移除掩膜下的数据。"
 
 #: modules/process/fraccor.c:53
 msgid "/_Correct Data/_Fractal Correction"
-msgstr ""
+msgstr "/校正数据(_C)/分形校正(_F)"
 
 #: modules/process/fraccor.c:57
 msgid "Interpolate data under mask with fractal interpolation"
-msgstr ""
+msgstr "用分形插值对掩膜下的数据插值"
 
 #: modules/process/fractal.c:132
 msgid "Partitioning"
@@ -13836,47 +13836,47 @@ msgstr "最大值"
 
 #: modules/process/freq_split.c:110
 msgid "Splits image into low and high frequency components."
-msgstr ""
+msgstr "将图像分解为低频和高频分量。"
 
 #: modules/process/freq_split.c:124
 msgid "/_Level/_Frequency Split..."
-msgstr ""
+msgstr "/调平(_L)/频率分解(_F)..."
 
 #: modules/process/freq_split.c:128
 msgid "Split into low and high frequencies"
-msgstr ""
+msgstr "分解为低频和高频"
 
 #: modules/process/freq_split.c:137
 msgid "boundary-handling|None"
-msgstr ""
+msgstr "无"
 
 #: modules/process/freq_split.c:138
 msgid "Laplace"
-msgstr ""
+msgstr "Laplace"
 
 #: modules/process/freq_split.c:139
 msgid "Smooth connect"
-msgstr ""
+msgstr "平滑连接"
 
 #: modules/process/freq_split.c:140
 msgid "Mirror"
-msgstr ""
+msgstr "镜像"
 
 #: modules/process/freq_split.c:144 modules/process/freq_split.c:216
 msgid "High-pass"
-msgstr ""
+msgstr "高通"
 
 #: modules/process/freq_split.c:145 modules/process/freq_split.c:206
 msgid "Low-pass"
-msgstr ""
+msgstr "低通"
 
 #: modules/process/freq_split.c:148
 msgid "Low-pass image"
-msgstr ""
+msgstr "低通图像"
 
 #: modules/process/freq_split.c:149
 msgid "High-pass image"
-msgstr ""
+msgstr "高通图像"
 
 #: modules/process/freq_split.c:158 modules/tools/roughness.c:194
 msgid "C_ut-off"
@@ -13892,23 +13892,23 @@ msgstr "边界处理(_B)"
 
 #: modules/process/freq_split.c:249
 msgid "Frequency Split"
-msgstr ""
+msgstr "频率分解"
 
 #: modules/process/freq_split.c:275
 msgid "Wavelength"
-msgstr ""
+msgstr "波长"
 
 #: modules/process/gaussian_step.c:66
 msgid "Edge detection using a Gaussian step filter."
-msgstr ""
+msgstr "使用高斯阶跃滤波器进行边缘检测。"
 
 #: modules/process/gaussian_step.c:80
 msgid "/_Presentation/_Edge Detection/_Gaussian Step..."
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/高斯阶跃(_G)..."
 
 #: modules/process/gaussian_step.c:84
 msgid "Detect edges using Gaussian step filter"
-msgstr ""
+msgstr "使用高斯阶跃滤波器检测边缘"
 
 #: modules/process/gaussian_step.c:99 modules/process/zero_crossing.c:123
 msgid "_Gaussian FWHM"
@@ -13916,29 +13916,29 @@ msgstr "高斯半高全宽(_G)"
 
 #: modules/process/gaussian_step.c:159
 msgid "Gaussian Step Detection"
-msgstr ""
+msgstr "高斯阶跃检测"
 
 #: modules/process/good_profile.c:95
 msgid ""
 "Calculates good average row from one or multiple images of repeated scanning"
 " of the same feature."
-msgstr ""
+msgstr "从一幅或多幅对同一特征重复扫描的图像计算优质平均行。"
 
 #: modules/process/good_profile.c:109
 msgid "/_Correct Data/_Good Mean Profile..."
-msgstr ""
+msgstr "/校正数据(_C)/优质平均轮廓(_G)..."
 
 #: modules/process/good_profile.c:113
 msgid "Calculate good mean profile"
-msgstr ""
+msgstr "计算优质平均轮廓"
 
 #: modules/process/good_profile.c:122
 msgid "_Single image"
-msgstr ""
+msgstr "单幅图像(_S)"
 
 #: modules/process/good_profile.c:123
 msgid "_Multiple images"
-msgstr ""
+msgstr "多幅图像(_M)"
 
 #: modules/process/good_profile.c:136 modules/process/indent_analyze.c:237
 msgid "Create _mask"
@@ -13956,11 +13956,11 @@ msgstr "第二幅图像(_I)"
 
 #: modules/process/good_profile.c:250
 msgid "Good Mean Profile"
-msgstr ""
+msgstr "优质平均轮廓"
 
 #: modules/process/good_profile.c:507 modules/process/good_profile.c:514
 msgid "Mean profile"
-msgstr ""
+msgstr "平均轮廓"
 
 #: modules/process/gradient.c:43
 msgid "Creates presentations with various gradients (Sobel, Prewitt)."

@@ -6,7 +6,7 @@ from opencc import OpenCC
 from check_batches import check_batch, key
 
 ROOT = Path(__file__).resolve().parent
-FILES = sorted((ROOT / 'work').glob('*-zh_CN.po'))
+FILES = sorted((ROOT / 'work').rglob('*-zh_CN.po'))
 if not FILES:
     raise SystemExit('No batch files found')
 translations = {}
@@ -62,4 +62,5 @@ for locale, scheme in [('zh_HK', 's2hk'), ('zh_TW', 's2twp')]:
     print(f'{locale}: converted entries marked fuzzy; regional review required')
 print(f'zh_CN: {len(translations)} imported source entries, '
       f'{catalog.percent_translated()}% of {len(catalog)} complete')
+
 

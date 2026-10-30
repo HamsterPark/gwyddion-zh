@@ -396,7 +396,7 @@ msgstr "已将 z 层级 = %d 处的值平移至零"
 
 #: modules/volume/volume_zposlevel.c:241
 msgid "Shift Z to Zero"
-msgstr "将 Z 平移至零"
+msgstr "Z 曲线值归零"
 
 #: modules/xyz/xyz_drift.c:2261 modules/xyz/xyz_raster.c:650
 msgid "Physical dimensions are invalid."

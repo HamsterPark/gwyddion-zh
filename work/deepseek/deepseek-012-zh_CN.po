@@ -82,7 +82,7 @@ msgstr "高斯形"
 
 #: modules/process/obj_synth.c:212
 msgid "Parabolic bumps"
-msgstr "抛物线凸起"
+msgstr "抛物面凸起"
 
 #: modules/process/obj_synth.c:213
 msgid "Full spheres"

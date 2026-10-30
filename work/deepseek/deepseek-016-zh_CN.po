@@ -1,0 +1,419 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/wrapvalue.c:219
+msgid "Wrap Value"
+msgstr "数值环绕"
+
+#: modules/process/xydenoise.c:66
+msgid "Denoises measurement on basis of two orthogonal scans."
+msgstr "基于两次正交扫描对测量去噪。"
+
+#: modules/process/xydenoise.c:80
+msgid "/M_ultidata/_XY Denoise..."
+msgstr "/多数据(_U)/XY 去噪(_X)..."
+
+#: modules/process/xydenoise.c:84
+msgid "Denoises horizontal/vertical measurement."
+msgstr "对水平/垂直测量去噪。"
+
+#: modules/process/xydenoise.c:99
+msgid "Second direction"
+msgstr "第二方向"
+
+#: modules/process/xydenoise.c:100
+msgid "Average denoising directions"
+msgstr "平均去噪方向"
+
+#: modules/process/xydenoise.c:127
+msgid "Denoised"
+msgstr "已去噪"
+
+#: modules/process/xydenoise.c:144
+msgid "XY Denoising"
+msgstr "XY 去噪"
+
+#: modules/process/xyz_channels.c:72
+msgid "Converts three channels to XYZ data."
+msgstr "将三个通道转换为 XYZ 数据。"
+
+#: modules/process/xyz_channels.c:86
+msgid "/_Basic Operations/XYZ from C_hannels..."
+msgstr "/基本操作(_B)/由通道生成 XYZ(_H)..."
+
+#: modules/process/xyz_channels.c:90
+msgid "Convert three channels to XYZ data"
+msgstr "将三个通道转换为 XYZ 数据"
+
+#: modules/process/xyz_channels.c:105
+msgid "_X data"
+msgstr "X 数据(_X)"
+
+#: modules/process/xyz_channels.c:106
+msgid "_Y data"
+msgstr "Y 数据(_Y)"
+
+#: modules/process/xyz_channels.c:107
+msgid "_Z data"
+msgstr "Z 数据(_Z)"
+
+#: modules/process/xyz_channels.c:151
+msgid "XYZ Channels"
+msgstr "XYZ 通道"
+
+#: modules/process/xyzize.c:41
+msgid "Converts data fields to XYZ data."
+msgstr "将数据场转换为 XYZ 数据。"
+
+#: modules/process/xyzize.c:55
+msgid "/_Basic Operations/_XYZize"
+msgstr "/基本操作(_B)/转换为 XYZ(_X)"
+
+#: modules/process/xyzize.c:59
+msgid "Convert to XYZ data"
+msgstr "转换为 XYZ 数据"
+
+#: modules/process/zero_crossing.c:83
+msgid "Zero crossing edge detection."
+msgstr "过零边缘检测。"
+
+#: modules/process/zero_crossing.c:97
+msgid "/_Presentation/_Edge Detection/_Zero Crossing..."
+msgstr "/展示(_P)/边缘检测(_E)/过零(_Z)..."
+
+#: modules/process/zero_crossing.c:101
+msgid "Zero crossing step detection presentation"
+msgstr "过零阶跃检测展示"
+
+#: modules/process/zero_crossing.c:111
+msgid "_LoG convolved"
+msgstr "LoG 卷积(_L)"
+
+#: modules/process/zero_crossing.c:112
+msgid "Detected st_ep"
+msgstr "检测到的阶跃(_E)"
+
+#: modules/process/zero_crossing.c:189
+msgid "Zero Crossing Step Detection"
+msgstr "过零阶跃检测"
+
+#: modules/pygwy/pygwy-console.c:91
+msgid "/Pygwy Console"
+msgstr "/Pygwy 控制台"
+
+#: modules/pygwy/pygwy-console.c:95
+msgid "Python wrapper console"
+msgstr "Python 封装控制台"
+
+#: modules/pygwy/pygwy-console.c:159 modules/pygwy/pygwy-console.c:471
+msgid "Pygwy Console"
+msgstr "Pygwy 控制台"
+
+#: modules/pygwy/pygwy-console.c:177
+msgid "Open script in Python language (Ctrl-O)"
+msgstr "打开 Python 脚本（Ctrl-O）"
+
+#: modules/pygwy/pygwy-console.c:187
+msgid "Save script (Ctrl-S)"
+msgstr "保存脚本（Ctrl-S）"
+
+#: modules/pygwy/pygwy-console.c:197
+msgid "Save script as (Ctrl-Shift-S)"
+msgstr "脚本另存为（Ctrl-Shift-S）"
+
+#: modules/pygwy/pygwy-console.c:207
+msgid "Execute script (Ctrl-E)"
+msgstr "执行脚本（Ctrl-E）"
+
+#: modules/pygwy/pygwy-console.c:217
+msgid "Clear Log"
+msgstr "清除日志"
+
+#: modules/pygwy/pygwy-console.c:275
+msgid "Command"
+msgstr "命令"
+
+#: modules/pygwy/pygwy-console.c:361
+msgid ">>> Running the script above\n"
+msgstr ">>> 正在运行上述脚本\n"
+
+#: modules/pygwy/pygwy-console.c:415
+msgid "Save Python Script as"
+msgstr "Python 脚本另存为"
+
+#: modules/pygwy/pygwy-console.c:419
+msgid "Open Python Script"
+msgstr "打开 Python 脚本"
+
+#: modules/tools/corrlen.c:151
+msgid "Correlation length tool."
+msgstr "相关长度工具。"
+
+#: modules/tools/corrlen.c:174
+msgid "line-leveling|None"
+msgstr "无"
+
+#: modules/tools/corrlen.c:177
+msgid "Bow"
+msgstr "弓形"
+
+#: modules/tools/corrlen.c:178
+msgid "Cubic"
+msgstr "三次"
+
+#: modules/tools/corrlen.c:181
+msgid "Raw ACF"
+msgstr "原始 ACF"
+
+#: modules/tools/corrlen.c:182 modules/tools/corrlen.c:965
+msgid "Corrected ACF"
+msgstr "校正后 ACF"
+
+#: modules/tools/corrlen.c:183
+msgid "Both ACF"
+msgstr "两条 ACF"
+
+#: modules/tools/corrlen.c:195 modules/tools/corrlen.c:1082
+msgid "Line leveling"
+msgstr "扫描线调平"
+
+#: modules/tools/corrlen.c:197 modules/tools/corrlen.c:1083
+msgid "ACF model"
+msgstr "ACF 模型"
+
+#: modules/tools/corrlen.c:221 modules/tools/corrlen.c:222 modules/tools/corrlen.c:1070
+msgid "Correlation Length"
+msgstr "相关长度"
+
+#: modules/tools/corrlen.c:308
+msgid "The degree must be ≥ any prior line leveling."
+msgstr "阶数必须不小于先前任何扫描线调平的阶数。"
+
+#: modules/tools/corrlen.c:318 modules/tools/corrlen.c:1086
+msgid "Correlation Length T"
+msgstr "相关长度 T"
+
+#: modules/tools/corrlen.c:322 modules/tools/corrlen.c:1095
+msgid "Relation to Image Size"
+msgstr "与图像尺寸的关系"
+
+#: modules/tools/corrlen.c:326 modules/tools/corrlen.c:1100
+msgid "Mean Square Roughness"
+msgstr "均方粗糙度"
+
+#: modules/tools/corrlen.c:970
+msgid "Biased fit"
+msgstr "有偏拟合"
+
+#: modules/tools/corrlen.c:1087
+msgid "Raw ACF decay to 1/e"
+msgstr "原始 ACF 衰减至 1/e"
+
+#: modules/tools/corrlen.c:1088
+msgid "Corrected ACF decay to 1/e"
+msgstr "校正后 ACF 衰减至 1/e"
+
+#: modules/tools/corrlen.c:1089
+msgid "ACF zero crossing"
+msgstr "ACF 过零"
+
+#: modules/tools/corrlen.c:1090 modules/tools/corrlen.c:1103
+msgid "ACF fit with bias"
+msgstr "带偏置的 ACF 拟合"
+
+#: modules/tools/corrlen.c:1091 modules/tools/corrlen.c:1104
+msgid "PSDF fit"
+msgstr "PSDF 拟合"
+
+#: modules/tools/corrlen.c:1096
+msgid "Ratio α = T/L"
+msgstr "比值 α = T/L"
+
+#: modules/tools/corrlen.c:1097
+msgid "Image size measured in T"
+msgstr "以 T 计量的图像尺寸"
+
+#: modules/tools/corrlen.c:1101
+msgid "Raw ACF at zero"
+msgstr "零处原始 ACF"
+
+#: modules/tools/corrlen.c:1102
+msgid "Corrected ACF at zero"
+msgstr "零处校正后 ACF"
+
+#: modules/tools/cprofile.c:114
+msgid "Profile tool which reads horizontal and/or vertical scan lines."
+msgstr "读取水平和/或垂直扫描线的轮廓工具。"
+
+#: modules/tools/cprofile.c:152
+msgid "Cross at _zero"
+msgstr "在零处交叉(_Z)"
+
+#: modules/tools/cprofile.c:170
+msgid "Profiles Along Axes"
+msgstr "沿轴的轮廓"
+
+#: modules/tools/cprofile.c:171
+msgid "Read horizontal and/or vertical profiles"
+msgstr "读取水平和/或垂直轮廓"
+
+#: modules/tools/cprofile.c:752
+#, c-format
+msgid "Vertical profile %d"
+msgstr "垂直轮廓 %d"
+
+#: modules/tools/cprofile.c:754
+#, c-format
+msgid "Horizontal profile %d"
+msgstr "水平轮廓 %d"
+
+#: modules/tools/crop.c:82
+msgid "Crop tool, crops data to smaller size."
+msgstr "裁剪工具，将数据裁剪到较小尺寸。"
+
+#: modules/tools/crop.c:112
+msgid "Crop all compatible images"
+msgstr "裁剪所有兼容图像"
+
+#: modules/tools/distance.c:94
+msgid "Distance measurement tool, measures distances and angles."
+msgstr "距离测量工具，测量距离和角度。"
+
+#: modules/tools/distance.c:123
+msgid "Save Distance Table"
+msgstr "保存距离表"
+
+#: modules/tools/distance.c:143
+msgid "Measure distances and directions between points"
+msgstr "测量点之间的距离和方向"
+
+#: modules/tools/filter.c:117
+msgid "Filter tool, processes selected part of data with a filter (conservative denoise, mean, median, Kuwahara, minimum, maximum)."
+msgstr "滤波工具，使用滤波器（保守去噪、均值、中值、Kuwahara、最小值、最大值）处理所选数据部分。"
+
+#: modules/tools/filter.c:143
+msgid "Conservative denoise"
+msgstr "保守去噪"
+
+#: modules/tools/filter.c:150
+msgid "Kuwahara"
+msgstr "Kuwahara"
+
+#: modules/tools/filter.c:151
+msgid "Dechecker"
+msgstr "去棋盘格"
+
+#: modules/tools/filter.c:152
+msgid "filter|Gaussian"
+msgstr "高斯"
+
+#: modules/tools/filter.c:153
+msgid "Sharpen"
+msgstr "锐化"
+
+#: modules/tools/filter.c:185
+msgid "Basic filters: mean, median, denoise, …"
+msgstr "基本滤波器：均值、中值、去噪……"
+
+#: modules/tools/icolorange.c:144
+msgid "Interactive color range tool, allows selecting the data range false color scale should map to, either on data or on height distribution histogram."
+msgstr "交互式颜色范围工具，可在数据或高度分布直方图上选择伪彩色色标应映射到的数据范围。"
+
+#: modules/tools/icolorange.c:174
+msgid "_Start"
+msgstr "起点(_S)"
+
+#: modules/tools/icolorange.c:175
+msgid "_End"
+msgstr "终点(_E)"
+
+#: modules/tools/icolorange.c:176
+msgid "_Adapt color range to selection"
+msgstr "使颜色范围适应所选内容(_A)"
+
+#: modules/tools/icolorange.c:192
+msgid "Color Range"
+msgstr "颜色范围"
+
+#: modules/tools/icolorange.c:193
+msgid "Stretch color range to part of data"
+msgstr "将颜色范围拉伸到部分数据"
+
+#: modules/tools/icolorange.c:255
+msgid "Full color range from minimum to maximum"
+msgstr "从最小值到最大值的完整颜色范围"
+
+#: modules/tools/icolorange.c:259
+msgid "Explicitly set fixed color range"
+msgstr "显式设置固定颜色范围"
+
+#: modules/tools/icolorange.c:263
+msgid "Automatic color range with tails cut off"
+msgstr "截去尾部后的自动颜色范围"
+
+#: modules/tools/icolorange.c:267
+msgid "Adaptive nonlinear color mapping"
+msgstr "自适应非线性颜色映射"
+
+#: modules/tools/icolorange.c:300
+msgid "_default"
+msgstr "默认(_D)"
+
+#: modules/tools/icolorange.c:307
+msgid "Height histogram"
+msgstr "高度直方图"
+
+#: modules/tools/icolorange.c:331
+msgid "Color Mapping"
+msgstr "颜色映射"
+
+#: modules/tools/icolorange.c:336
+msgid "Set to _Masked"
+msgstr "设为掩膜内(_M)"
+
+#: modules/tools/icolorange.c:338
+msgid "Set to _Unmasked"
+msgstr "设为掩膜外(_U)"
+
+#: modules/tools/icolorange.c:340
+msgid "_Invert Mapping"
+msgstr "反转映射(_I)"
+
+#: modules/tools/icolorange.c:343
+msgid "Data Range"
+msgstr "数据范围"
+
+#: modules/tools/icolorange.c:346
+msgid "Set Zero to Color Map Minimum"
+msgstr "将零设为色图最小值"
+
+#: modules/tools/maskedit.c:155
+msgid "Mask editor tool, allows interactive modification of parts of the mask."
+msgstr "掩膜编辑器工具，可交互修改掩膜的部分区域。"
+
+#: modules/tools/maskedit.c:196
+msgid "_Shapes"
+msgstr "形状(_S)"
+
+#: modules/tools/maskedit.c:197
+msgid "_Drawing Tools"
+msgstr "绘图工具(_D)"
+
+#: modules/tools/maskedit.c:200
+msgid "Set mask to selection"
+msgstr "将掩膜设为所选内容"

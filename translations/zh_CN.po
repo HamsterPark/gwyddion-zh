@@ -1197,7 +1197,7 @@ msgstr "环形"
 
 #: libprocess/gwyshapefitpreset.c:550
 msgid "Lunette"
-msgstr ""
+msgstr "月牙形（Lunette）"
 
 #: libprocess/lawn.c:1184 gwyddion/gwyddion.c:690
 #: modules/file/hdf5/shilpsfile.c:636 modules/file/hdf5/shilpsfile.c:637
@@ -1268,7 +1268,7 @@ msgstr "解析式"
 
 #: libprocess/tip.c:491 modules/process/fibre_synth.c:185
 msgid "Parabola"
-msgstr ""
+msgstr "抛物形"
 
 #: libprocess/tip.c:492 libprocess/tip.c:498 libprocess/tip.c:510
 msgid "Symmetric"
@@ -1338,7 +1338,7 @@ msgstr "标签"
 
 #: libgwydgets/gwy3dwindow.c:720
 msgid "Colorbar"
-msgstr "颜色条"
+msgstr "色条"
 
 #: libgwydgets/gwy3dwindow.c:836
 msgid "φ:"
@@ -2902,7 +2902,7 @@ msgstr "颜色(_R)"
 
 #: app/param-def.c:917
 msgid "Target _graph"
-msgstr "目标图表(_G)"
+msgstr "目标曲线图(_G)"
 
 #: app/param-def.c:1104 app/param-def.c:1142
 msgid "C_urve"
@@ -2938,7 +2938,7 @@ msgstr "展开的组"
 
 #: app/param-table.c:2223
 msgid "New graph"
-msgstr "新建图表"
+msgstr "新建曲线图"
 
 #: app/param-table.c:5960 modules/graph/graph_cd.c:330
 #: modules/graph/graph_fdfit.c:433 modules/graph/graph_fit.c:446
@@ -3050,7 +3050,7 @@ msgstr "通道 %d 不存在（%s）"
 #: app/validate.c:393
 #, c-format
 msgid "no graph %d exists for %s"
-msgstr "图表 %d 不存在（%s）"
+msgstr "曲线图 %d 不存在（%s）"
 
 #: app/validate.c:401
 #, c-format
@@ -3317,7 +3317,7 @@ msgid ""
 "If multiple regions are selected on a graph, e.g. in 1D FFT Filtering, "
 "individual regions can be deleted by clicking on them with the right mouse "
 "button."
-msgstr "如果在图表中选择了多个区域（例如在一维 FFT 滤波中），可右键单击各区域将其删除。"
+msgstr "如果在曲线图中选择了多个区域（例如在一维 FFT 滤波中），可右键单击各区域将其删除。"
 
 #: gwyddion/tips.c:75
 msgid ""
@@ -3348,7 +3348,7 @@ msgstr "使用目录作为参数启动 Gwyddion 时，会打开显示该目录�
 msgid ""
 "File → Open Recent → Document History opens a browser of recently loaded "
 "files with the possibility to search them by name."
-msgstr "“文件 → 最近打开 → 文档历史”可打开最近加载文件的浏览器，并按名称搜索。"
+msgstr "“文件 → 打开最近文件 → 文档历史”可打开最近加载文件的浏览器，并按名称搜索。"
 
 #: gwyddion/tips.c:111
 msgid ""
@@ -3412,15 +3412,15 @@ msgstr "可通过通道或体数据的右键菜单中的“查看日志”浏览
 msgid ""
 "Curves can be copied to other (compatible) graphs by dragging them from "
 "Curves tab to the graph window."
-msgstr "将曲线从“曲线”选项卡拖到图表窗口，可将曲线复制到其他兼容的图表。"
+msgstr "将曲线从“曲线”选项卡拖到曲线图窗口，可将曲线复制到其他兼容的曲线图。"
 
 #: gwyddion/tips.c:175
 msgid "Graph curve properties can be edited by clicking on the curve."
-msgstr "单击图表中的曲线可编辑其属性。"
+msgstr "单击曲线图中的曲线可编辑其属性。"
 
 #: gwyddion/tips.c:179
 msgid "Graph axis labels can be edited after by clicking on the label."
-msgstr "单击图表轴标签可编辑标签。"
+msgstr "单击曲线图轴标签可编辑标签。"
 
 #: gwyddion/tips.c:183
 msgid ""
@@ -3432,7 +3432,7 @@ msgstr "双击图例可编辑图例属性。"
 msgid ""
 "Curves can be deleted from graphs by selecting the curve in Curves tab and "
 "pressing Delete."
-msgstr "在“曲线”选项卡中选择曲线并按 Delete，可从图表中删除该曲线。"
+msgstr "在“曲线”选项卡中选择曲线并按 Delete，可从曲线图中删除该曲线。"
 
 #: gwyddion/tips.c:194
 msgid "Key ‛+’ or ‛=’ zooms in a data window."
@@ -3488,13 +3488,13 @@ msgstr "使用“设为默认”按钮可将当前三维视图设置设为默认
 msgid ""
 "Pressing Ctrl-C copies the image of a channel, graph or 3D view to the "
 "clipboard."
-msgstr "按 Ctrl-C 可将通道、图表或三维视图的图像复制到剪贴板。"
+msgstr "按 Ctrl-C 可将通道、曲线图或三维视图的图像复制到剪贴板。"
 
 #: gwyddion/tips.c:245
 msgid ""
 "Dragging channels or graphs from Data Browser to a window copies them to the"
 " corresponding file."
-msgstr "将通道或图表从数据浏览器拖到窗口，可将它们复制到相应文件。"
+msgstr "将通道或曲线图从数据浏览器拖到窗口，可将它们复制到相应文件。"
 
 #: gwyddion/tips.c:250
 msgid "Info → Show Data Browser brings back a closed Data Browser."
@@ -3504,7 +3504,7 @@ msgstr "“信息 → 显示数据浏览器”可重新显示已关闭的数据�
 msgid ""
 "Channels and graphs can be renamed by double-clicking on their name in Data "
 "Browser."
-msgstr "在数据浏览器中双击通道或图表的名称可将其重命名。"
+msgstr "在数据浏览器中双击通道或曲线图的名称可将其重命名。"
 
 #: gwyddion/tips.c:260
 msgid ""
@@ -3552,7 +3552,7 @@ msgstr "“基底平坦化”可自动调平带有向上凸起特征的平坦基
 #: gwyddion/tips.c:296
 msgid ""
 "Too small grains can be filtered out with Data Process → Grains → Filter."
-msgstr "通过“数据处理 → 颗粒 → 过滤”可滤除过小的颗粒。"
+msgstr "通过“数据处理 → 颗粒 → 筛选”可滤除过小的颗粒。"
 
 #: gwyddion/tips.c:301
 msgid ""
@@ -3564,7 +3564,7 @@ msgstr "“数据处理 → 表示 → 边缘检测 → 阶跃”是一种动态
 msgid ""
 "Data Process → Basic Operations → Dimensions and Units changes scales, "
 "offsets and even lateral and value units."
-msgstr "“数据处理 → 基本操作 → 尺寸与单位”可更改比例、偏移量，甚至横向单位与数值单位。"
+msgstr "“数据处理 → 基本操作 → 尺寸和单位”可更改比例、偏移量，甚至横向单位与数值单位。"
 
 #: gwyddion/tips.c:311
 msgid ""
@@ -3589,11 +3589,11 @@ msgstr "“数据处理 → 掩膜 → 标记依据”可根据其他数据、�
 
 #: gwyddion/tips.c:333
 msgid "Graph → Critical Dimension measures steps on extracted profile graphs."
-msgstr "“图表 → 临界尺寸”可测量提取的轮廓图中的阶跃。"
+msgstr "“曲线图 → 临界尺寸”可测量提取的轮廓图中的阶跃。"
 
 #: gwyddion/tips.c:338
 msgid "All Graph functions are available also in the graph right-click menu."
-msgstr "所有“图表”功能也可通过图表右键菜单使用。"
+msgstr "所有“曲线图”功能也可通过曲线图右键菜单使用。"
 
 #: gwyddion/tips.c:344
 msgid "Pressing Esc hides tool windows."
@@ -3626,7 +3626,7 @@ msgid ""
 "Spectroscopy tool displays point spectroscopy data and extracts them to "
 "standalone graphs that can be subsequently analysed for instance with Graph "
 "→ Fit FD Curve."
-msgstr "“光谱”工具可显示点光谱数据，并将其提取为独立图表；之后可对其分析，例如使用“图表 → 拟合力-距离曲线”。"
+msgstr "“光谱”工具可显示点光谱数据，并将其提取为独立曲线图；之后可对其分析，例如使用“曲线图 → 拟合力-距离曲线”。"
 
 #: gwyddion/tips.c:373
 msgid ""
@@ -4767,7 +4767,7 @@ msgstr "输出拟合误差"
 
 #: modules/cmap/cmap_fit.c:219
 msgid "Output residual sum"
-msgstr "输出残差平方和"
+msgstr "输出残差均方"
 
 #: modules/cmap/cmap_fit.c:357
 msgid "Fit Curves"
@@ -4775,7 +4775,7 @@ msgstr "拟合曲线"
 
 #: modules/cmap/cmap_fit.c:431
 msgid "Residual sum:"
-msgstr "残差平方和："
+msgstr "残差均方："
 
 #: modules/cmap/cmap_fit.c:527 modules/cmap/cmap_fit.c:561
 #: modules/cmap/cmap_fit.c:602
@@ -5249,112 +5249,112 @@ msgstr "体数据尺寸：%d × %d × %d"
 
 #: modules/file/accurell.c:82
 msgid "Imports ASCII Accurion scanning ellipsometry maps."
-msgstr ""
+msgstr "导入 ASCII 格式的 Accurion 扫描椭偏图。"
 
 #: modules/file/accurell.c:95
 msgid "Accurion exported ellipsometry data (.txt)"
-msgstr ""
+msgstr "Accurion 导出的椭偏数据（.txt）"
 
 #: modules/file/accurexii-txt.c:69
 msgid "Imports Accurex II text files."
-msgstr ""
+msgstr "导入 Accurex II 文本文件。"
 
 #: modules/file/accurexii-txt.c:82
 msgid "Accurex II text files (.txt)"
-msgstr ""
+msgstr "Accurex II 文本文件（.txt）"
 
 #: modules/file/accurexii-txt.c:145
 msgid "File header cannot be converted from ISO-8859-1 character set."
-msgstr ""
+msgstr "无法将文件头从 ISO-8859-1 字符集转换。"
 
 #: modules/file/afmw-spec.c:99
 msgid "Imports AFM Workshop spectrum files."
-msgstr ""
+msgstr "导入 AFM Workshop 谱文件。"
 
 #: modules/file/afmw-spec.c:112
 msgid "AFM Workshop spectrum files (.csv)"
-msgstr ""
+msgstr "AFM Workshop 谱文件（.csv）"
 
 #: modules/file/aistfile.c:117
 msgid "Imports AIST-NT data files."
-msgstr ""
+msgstr "导入 AIST-NT 数据文件。"
 
 #: modules/file/aistfile.c:130
 msgid "AIST-NT files (.aist)"
-msgstr ""
+msgstr "AIST-NT 文件（.aist）"
 
 #: modules/file/alicona.c:144
 msgid "Imports Alicona Imaging AL3D files."
-msgstr ""
+msgstr "导入 Alicona Imaging AL3D 文件。"
 
 #: modules/file/alicona.c:157
 msgid "Alicona Imaging AL3D files (.al3d)"
-msgstr ""
+msgstr "Alicona Imaging AL3D 文件（.al3d）"
 
 #: modules/file/alicona.c:486
 #, c-format
 msgid "Invalid plane number %u in tag ‘%s’."
-msgstr ""
+msgstr "平面编号 %u 无效，所在标签为 ‘%s’。"
 
 #: modules/file/alicona.c:565
 msgid "Header tag key is not nul-terminated."
-msgstr ""
+msgstr "文件头标签的键不是以空字符结尾。"
 
 #: modules/file/alicona.c:570
 msgid "Header tag key is empty."
-msgstr ""
+msgstr "文件头标签的键为空。"
 
 #: modules/file/alicona.c:576
 #, c-format
 msgid "Header tag ‘%s’ key is not nul-padded."
-msgstr ""
+msgstr "文件头标签 ‘%s’ 的键不是以空字符填充。"
 
 #: modules/file/alicona.c:583
 #, c-format
 msgid "Header tag ‘%s’ lacks CRLF terminator."
-msgstr ""
+msgstr "文件头标签 ‘%s’ 缺少 CRLF 结束符。"
 
 #: modules/file/alicona.c:589
 #, c-format
 msgid "Header tag ‘%s’ value is not nul-terminated."
-msgstr ""
+msgstr "文件头标签 ‘%s’ 的值不是以空字符结尾。"
 
 #: modules/file/alicona.c:598
 #, c-format
 msgid "Header tag ‘%s’ value is not nul-padded."
-msgstr ""
+msgstr "文件头标签 ‘%s’ 的值不是以空字符填充。"
 
 #: modules/file/alicona.c:663
 msgid "Comment lacks CRLF termination."
-msgstr ""
+msgstr "注释缺少 CRLF 结束。"
 
 #: modules/file/alicona.c:668
 msgid "Comment is not nul-terminated."
-msgstr ""
+msgstr "注释不是以空字符结尾。"
 
 #: modules/file/ambfile.c:78
 msgid "Imports Ambios AMB data files."
-msgstr ""
+msgstr "导入 Ambios AMB 数据文件。"
 
 #: modules/file/ambfile.c:91
 msgid "Ambios amb files (.amb)"
-msgstr ""
+msgstr "Ambios amb 文件（.amb）"
 
 #: modules/file/ambprofile.c:104
 msgid "Imports Ambios 1D profilometry data files."
-msgstr ""
+msgstr "导入 Ambios 一维轮廓测量数据文件。"
 
 #: modules/file/ambprofile.c:117
 msgid "Ambios 1D profilometry data files (.xml)"
-msgstr ""
+msgstr "Ambios 一维轮廓测量数据文件（.xml）"
 
 #: modules/file/ambprofile.c:123
 msgid "Ambios 1D profilometry data files (.dat)"
-msgstr ""
+msgstr "Ambios 一维轮廓测量数据文件（.dat）"
 
 #: modules/file/ambprofile.c:377
 msgid "Different number of X and Z values"
-msgstr ""
+msgstr "X 值与 Z 值的数量不同。"
 
 #: modules/file/ambprofile.c:452 modules/file/dektakxml.c:359
 #: modules/file/evovisxml.c:321 modules/file/lextfile.c:166
@@ -5365,51 +5365,51 @@ msgstr "顶层元素不是 ‘%s’。"
 
 #: modules/file/anasys_xml.c:103
 msgid "Imports Analysis Studio XML (.axz & .axd) files."
-msgstr ""
+msgstr "导入 Analysis Studio XML（.axz 和 .axd）文件。"
 
 #: modules/file/anasys_xml.c:116
 msgid "Analysis Studio XML (.axz, .axd)"
-msgstr ""
+msgstr "Analysis Studio XML（.axz、.axd）"
 
 #: modules/file/andorsif.c:318
 msgid "Imports Andor SIF data files."
-msgstr ""
+msgstr "导入 Andor SIF 数据文件。"
 
 #: modules/file/andorsif.c:331
 msgid "Andor SIF files (.sif)"
-msgstr ""
+msgstr "Andor SIF 文件（.sif）"
 
 #: modules/file/anfatec.c:107
 msgid "Imports Anfatec data files (two-part .txt + .int)."
-msgstr ""
+msgstr "导入 Anfatec 数据文件（.txt 与 .int 两部分）。"
 
 #: modules/file/anfatec.c:120
 msgid "Anfatec files (.par + .int)"
-msgstr ""
+msgstr "Anfatec 文件（.par + .int）"
 
 #: modules/file/anfatec.c:244
 msgid "The parameter file cannot be loaded."
-msgstr ""
+msgstr "无法加载参数文件。"
 
 #: modules/file/anfatec.c:250
 msgid "Cannot find the corresponding parameter file."
-msgstr ""
+msgstr "找不到对应的参数文件。"
 
 #: modules/file/anfatec.c:270
 msgid "FileDescBegin cannot be inside another FileDesc."
-msgstr ""
+msgstr "FileDescBegin 不能出现在另一个 FileDesc 内部。"
 
 #: modules/file/anfatec.c:280
 msgid "FileDescEnd has no corresponding FileDescBegin."
-msgstr ""
+msgstr "FileDescEnd 没有对应的 FileDescBegin。"
 
 #: modules/file/anfatec.c:306
 msgid "FileDescBegin has no corresponding FileDescEnd."
-msgstr ""
+msgstr "FileDescBegin 没有对应的 FileDescEnd。"
 
 #: modules/file/anfatec.c:769 modules/file/anfatec.c:782
 msgid "Wrong number of header rows or columns."
-msgstr ""
+msgstr "文件头的行数或列数不正确。"
 
 #: modules/file/anfatec.c:812 modules/file/mifile.c:494
 #, c-format
@@ -5418,52 +5418,52 @@ msgstr "无法解析第 %d 行的数据值。"
 
 #: modules/file/anfatec.c:835
 msgid "Coordinates do not form a regular grid."
-msgstr ""
+msgstr "坐标不能构成规则网格。"
 
 #: modules/file/apedaxfile.c:258
 msgid "Imports A.P.E. Research DAX data files."
-msgstr ""
+msgstr "导入 A.P.E. Research DAX 数据文件。"
 
 #: modules/file/apedaxfile.c:273
 msgid "A.P.E. Research DAX Files (.dax) and APDT File (.apdt)"
-msgstr ""
+msgstr "A.P.E. Research DAX 文件（.dax）和 APDT 文件（.apdt）"
 
 #: modules/file/apefile.c:192
 msgid "Imports APE (Applied Physics and Engineering) data files."
-msgstr ""
+msgstr "导入 APE（Applied Physics and Engineering）数据文件。"
 
 #: modules/file/apefile.c:205
 msgid "APE files (.dat)"
-msgstr ""
+msgstr "APE 文件（.dat）"
 
 #: modules/file/ardf.c:224
 msgid "Imports Asylum Research ARDF files."
-msgstr ""
+msgstr "导入 Asylum Research ARDF 文件。"
 
 #: modules/file/ardf.c:237
 msgid "ARDF file (.ARDF)"
-msgstr ""
+msgstr "ARDF 文件（.ARDF）"
 
 #: modules/file/ardf.c:329
 msgid "Reading images and metadata..."
-msgstr ""
+msgstr "正在读取图像和元数据..."
 
 #: modules/file/ardf.c:484
 msgid "Reading volume data..."
-msgstr ""
+msgstr "正在读取体数据..."
 
 #: modules/file/ardf.c:843
 #, c-format
 msgid "Found data header %s instead of expected %s."
-msgstr ""
+msgstr "发现数据头 %s，而不是预期的 %s。"
 
 #: modules/file/asciicmap.c:51
 msgid "Reads curve maps exported to text."
-msgstr ""
+msgstr "读取导出为文本的曲线图谱。"
 
 #: modules/file/asciicmap.c:64
 msgid "Curve map text export (.txt)"
-msgstr ""
+msgstr "曲线图谱文本导出（.txt）"
 
 #: modules/file/asciicmap.c:306 modules/file/formats3d.c:1519
 #: modules/file/nanoscope.c:1019 modules/file/nanoscope.c:1025
@@ -5478,11 +5478,11 @@ msgstr "文件不完整。"
 
 #: modules/file/asciiexport.c:87
 msgid "Exports data as simple ASCII matrix and reads back this format."
-msgstr ""
+msgstr "将数据导出为简单 ASCII 矩阵，并可再次读入此格式。"
 
 #: modules/file/asciiexport.c:100
 msgid "ASCII data matrix (.txt)"
-msgstr ""
+msgstr "ASCII 数据矩阵（.txt）"
 
 #: modules/file/asciiexport.c:119 modules/file/xyzexport.c:112
 #: modules/process/grain_dist.c:149
@@ -5491,7 +5491,7 @@ msgstr "添加说明性注释头(_I)"
 
 #: modules/file/asciiexport.c:124
 msgid "Conca_tenate exports of all images"
-msgstr ""
+msgstr "拼接导出全部图像(_T)"
 
 #: modules/file/asciiexport.c:472 modules/file/xyzexport.c:217
 msgid "Value units:"
@@ -5499,35 +5499,35 @@ msgstr "数值单位："
 
 #: modules/file/asdfile.c:176
 msgid "Imports ASD high-speed AFM data files."
-msgstr ""
+msgstr "导入 ASD 高速原子力显微镜数据文件。"
 
 #: modules/file/asdfile.c:189
 msgid "ASD high-speed AFM files (.asd)"
-msgstr ""
+msgstr "ASD 高速原子力显微镜文件（.asd）"
 
 #: modules/file/assing-afm.c:65
 msgid "Imports Assing AFM data files."
-msgstr ""
+msgstr "导入 Assing AFM 数据文件。"
 
 #: modules/file/assing-afm.c:78
 msgid "Assing AFM files (.afm)"
-msgstr ""
+msgstr "Assing AFM 文件（.afm）"
 
 #: modules/file/attocube.c:80
 msgid "Imports Attocube Systems ASC files."
-msgstr ""
+msgstr "导入 Attocube Systems ASC 文件。"
 
 #: modules/file/attocube.c:93
 msgid "Attocube ASCII files (.asc)"
-msgstr ""
+msgstr "Attocube ASCII 文件（.asc）"
 
 #: modules/file/bcrfile.c:127
 msgid "Imports Image Metrology BCR data files."
-msgstr ""
+msgstr "导入 Image Metrology BCR 数据文件。"
 
 #: modules/file/bcrfile.c:140
 msgid "BCR files (.bcr, .bcrf)"
-msgstr ""
+msgstr "BCR 文件（.bcr、.bcrf）"
 
 #: modules/file/bcrfile.c:207 modules/file/keyence.c:1120
 #: modules/file/omicronflat.c:2505
@@ -5537,36 +5537,36 @@ msgstr "无法将字符串从 UTF-16 转换。"
 #: modules/file/bcrfile.c:310
 #, c-format
 msgid "Unknown file type header: `%s'."
-msgstr ""
+msgstr "未知的文件类型头：`%s’。"
 
 #: modules/file/burleigh.c:123
 msgid "Imports Burleigh IMG data files version 2.1."
-msgstr ""
+msgstr "导入 2.1 版 Burleigh IMG 数据文件。"
 
 #: modules/file/burleigh.c:136
 msgid "Burleigh 2.1 files (.img)"
-msgstr ""
+msgstr "Burleigh 2.1 文件（.img）"
 
 #: modules/file/burleigh.c:217
 #, c-format
 msgid "File format version %.1f is not supported."
-msgstr ""
+msgstr "不支持文件格式版本 %.1f。"
 
 #: modules/file/burleigh_bii.c:75
 msgid "Imports Burleigh BII binary data files."
-msgstr ""
+msgstr "导入 Burleigh BII 二进制数据文件。"
 
 #: modules/file/burleigh_bii.c:88
 msgid "Burleigh Image Studio files (.bii)"
-msgstr ""
+msgstr "Burleigh Image Studio 文件（.bii）"
 
 #: modules/file/burleigh_exp.c:84
 msgid "Imports Burleigh text/bin exported images."
-msgstr ""
+msgstr "导入 Burleigh 以文本或二进制导出的图像。"
 
 #: modules/file/burleigh_exp.c:97
 msgid "Burleigh exported data (.txt, .bin)"
-msgstr ""
+msgstr "Burleigh 导出数据（.txt、.bin）"
 
 #: modules/file/burleigh_exp.c:217 modules/file/burleigh_exp.c:254
 #: modules/file/nanoscope.c:2587 modules/file/omicron.c:402
@@ -5576,105 +5576,105 @@ msgstr "头部行中缺少冒号。"
 
 #: modules/file/codevfile.c:67
 msgid "Imports Code V interferogram files."
-msgstr ""
+msgstr "导入 Code V 干涉图文件。"
 
 #: modules/file/codevfile.c:80
 msgid "Code V interferogram files (.int)"
-msgstr ""
+msgstr "Code V 干涉图文件（.int）"
 
 #: modules/file/createc.c:129
 msgid "Imports Createc data files."
-msgstr ""
+msgstr "导入 Createc 数据文件。"
 
 #: modules/file/createc.c:142
 msgid "Createc files (.dat)"
-msgstr ""
+msgstr "Createc 文件（.dat）"
 
 #: modules/file/createc.c:180
 #, c-format
 msgid "Neither `%s' nor `%s' header field found."
-msgstr ""
+msgstr "未找到文件头字段 `%s’，也未找到 `%s’。"
 
 #: modules/file/csmfile.c:80
 msgid "Imports Benyuan CSM data files."
-msgstr ""
+msgstr "导入本原（Benyuan）CSM 数据文件。"
 
 #: modules/file/csmfile.c:93
 msgid "Benyuan CSM files (.csm)"
-msgstr ""
+msgstr "本原（Benyuan）CSM 文件（.csm）"
 
 #: modules/file/dektakvca.c:192
 msgid "Imports Dektak OPDx data files."
-msgstr ""
+msgstr "导入 Dektak OPDx 数据文件。"
 
 #: modules/file/dektakvca.c:205
 msgid "Dektak OPDx data files (.OPDx)"
-msgstr ""
+msgstr "Dektak OPDx 数据文件（.OPDx）"
 
 #: modules/file/dektakvca.c:611
 #, c-format
 msgid "Item `%s' has unexpected type %u instead of %u."
-msgstr ""
+msgstr "项 `%s’ 的类型是 %u，而不是 %u。"
 
 #: modules/file/dektakxml.c:114
 msgid "Imports Dektak XML data files."
-msgstr ""
+msgstr "导入 Dektak XML 数据文件。"
 
 #: modules/file/dektakxml.c:127
 msgid "Dektak XML data files (.xml)"
-msgstr ""
+msgstr "Dektak XML 数据文件（.xml）"
 
 #: modules/file/dimensionfile.c:71
 msgid "Imports old Veeco Dimension 3100D files."
-msgstr ""
+msgstr "导入旧版 Veeco Dimension 3100D 文件。"
 
 #: modules/file/dimensionfile.c:84
 msgid "Dimension 3100D files (.001, .002, ...)"
-msgstr ""
+msgstr "Dimension 3100D 文件（.001、.002 等）"
 
 #: modules/file/dm3file.c:283
 msgid "Reads Digital Micrograph DM3 and DM4 files."
-msgstr ""
+msgstr "读取 Digital Micrograph 的 DM3 和 DM4 文件。"
 
 #: modules/file/dm3file.c:296
 msgid "Digital Micrograph DM3 TEM data (.dm3)"
-msgstr ""
+msgstr "Digital Micrograph DM3 透射电镜数据（.dm3）"
 
 #: modules/file/dm3file.c:302
 msgid "Digital Micrograph DM4 TEM data (.dm4)"
-msgstr ""
+msgstr "Digital Micrograph DM4 透射电镜数据（.dm4）"
 
 #: modules/file/dm3file.c:1098
 #, c-format
 msgid "Invalid tag type definition in entry ‘%s’."
-msgstr ""
+msgstr "条目 ‘%s’ 中的标签类型定义无效。"
 
 #: modules/file/dm3file.c:1199 modules/file/dm3file.c:1258
 msgid "Tag entry type is neither group nor data."
-msgstr ""
+msgstr "标签条目的类型既不是组，也不是数据。"
 
 #: modules/file/dm3file.c:1317 modules/file/dm3file.c:1377
 #, c-format
 msgid "Tag type does not start with marker ‘%s’."
-msgstr ""
+msgstr "标签类型不是以标记 ‘%s’ 开头。"
 
 #: modules/file/dm3file.c:1516
 #, c-format
 msgid "Invalid or unsupported tag type %u."
-msgstr ""
+msgstr "标签类型 %u 无效或不受支持。"
 
 #: modules/file/dmefile.c:128
 msgid "Imports Danish Micro Engineering (DME) data files."
-msgstr ""
+msgstr "导入 Danish Micro Engineering（DME）数据文件。"
 
 #: modules/file/dmefile.c:141
 msgid "DME files (.img)"
-msgstr ""
+msgstr "DME 文件（.img）"
 
 #: modules/file/dmefile.c:193
 #, c-format
 msgid "Header is too short (only %d bytes)."
-msgstr ""
+msgstr "文件头过短（仅 %d 字节）。"
 
 #: modules/file/dmefile.c:205 modules/file/zonfile.c:437
 #, c-format
@@ -5683,11 +5683,11 @@ msgstr "数据大小 %u 与数据尺寸（%u×%u）不匹配。"
 
 #: modules/file/dumbfile.c:66
 msgid "Reads and exports Gwyddion dumb dump files."
-msgstr ""
+msgstr "读取并导出 Gwyddion 简易转储文件。"
 
 #: modules/file/dumbfile.c:79
 msgid "Gwyddion dumb dump files (.dump)"
-msgstr ""
+msgstr "Gwyddion 简易转储文件（.dump）"
 
 #: modules/file/dumbfile.c:155 modules/plugin-proxy.c:1255
 msgid "End of file reached when value was expected."
@@ -5715,15 +5715,15 @@ msgstr "缺少数据场结束标记。"
 
 #: modules/file/ecsfile.c:81
 msgid "Imports ECS IMG files."
-msgstr ""
+msgstr "导入 ECS IMG 文件。"
 
 #: modules/file/ecsfile.c:94
 msgid "ECS files (.img)"
-msgstr ""
+msgstr "ECS 文件（.img）"
 
 #: modules/file/ecsfile.c:168
 msgid "Scan size header field overlaps with data."
-msgstr ""
+msgstr "扫描尺寸文件头字段与数据重叠。"
 
 #: modules/file/err.h:45 modules/file/nrrdfile.c:725
 #: modules/file/nrrdfile.c:768 modules/pygwy/pygwy-console.c:494
@@ -5734,35 +5734,35 @@ msgstr "无法读取文件：%s。"
 #: modules/file/err.h:75
 #, c-format
 msgid "No data file corresponding to `%s' was found."
-msgstr ""
+msgstr "找不到与 `%s’ 对应的数据文件。"
 
 #: modules/file/err.h:83
 msgid "File is too short to be of the assumed file type."
-msgstr ""
+msgstr "文件过短，不可能属于假定的文件类型。"
 
 #: modules/file/err.h:90
 #, c-format
 msgid ""
 "File is not a %s file, it is seriously damaged, or it is of an unknown "
 "format version."
-msgstr ""
+msgstr "该文件不是 %s 文件，或者已严重损坏，或者属于未知的格式版本。"
 
 #: modules/file/err.h:101
 #, c-format
 msgid ""
 "Expected data size calculated from file headers is %u bytes, but the real "
 "size is %u bytes."
-msgstr ""
+msgstr "根据文件头算出的预期数据大小为 %u 字节，实际大小为 %u 字节。"
 
 #. TRANSLATORS: %s is replaced by some item, struct or file part id.
 #: modules/file/err.h:111
 #, c-format
 msgid "File component/item ‘%s’ is truncated."
-msgstr ""
+msgstr "文件组件 ‘%s’ 不完整。"
 
 #: modules/file/err.h:118
 msgid "File header is truncated."
-msgstr ""
+msgstr "文件头不完整。"
 
 #: modules/file/err.h:128 modules/file/rhk-sm4.c:760
 #, c-format
@@ -5774,72 +5774,72 @@ msgstr "无效的场尺寸：%d。"
 msgid ""
 "The number of bits per sample %d is invalid or unsupported for this file "
 "type."
-msgstr ""
+msgstr "对于此文件类型，每采样位数 %d 无效或不受支持。"
 
 #: modules/file/err.h:145
 #, c-format
 msgid "Data type %d is invalid or unsupported."
-msgstr ""
+msgstr "数据类型 %d 无效或不受支持。"
 
 #: modules/file/err.h:152
 #, c-format
 msgid "Header field `%s' is missing."
-msgstr ""
+msgstr "缺少文件头字段 `%s’。"
 
 #: modules/file/err.h:160
 #, c-format
 msgid "The value of parameter `%s' is invalid or unsupported."
-msgstr ""
+msgstr "参数 `%s’ 的值无效或不受支持。"
 
 #: modules/file/err.h:168
 #, c-format
 msgid "Parameter `%s' is missing or invalid."
-msgstr ""
+msgstr "参数 `%s’ 缺失或无效。"
 
 #: modules/file/err.h:176
 msgid "File contains no (importable) data."
-msgstr ""
+msgstr "文件中没有（可导入的）数据。"
 
 #: modules/file/err.h:199
 #, c-format
 msgid "XML parsing failed: %s"
-msgstr ""
+msgstr "XML 解析失败：%s"
 
 #: modules/file/err.h:209
 msgid "Inconsistent structure of individual spectra."
-msgstr ""
+msgstr "各条谱的结构不一致。"
 
 #: modules/file/err.h:217
 msgid "File contains no exportable channel."
-msgstr ""
+msgstr "文件中没有可导出的通道。"
 
 #: modules/file/err.h:225
 msgid "File import was canceled by user."
-msgstr ""
+msgstr "用户取消了文件导入。"
 
 #: modules/file/err.h:239
 msgid "Missing header."
-msgstr ""
+msgstr "缺少文件头。"
 
 #: modules/file/evovisxml.c:107
 msgid "Imports Evovis XML data files."
-msgstr ""
+msgstr "导入 Evovis XML 数据文件。"
 
 #: modules/file/evovisxml.c:120
 msgid "Evovis XML data files (.xml)"
-msgstr ""
+msgstr "Evovis XML 数据文件（.xml）"
 
 #: modules/file/ezdfile.c:132
 msgid "Imports Nanosurf EZD and NID data files."
-msgstr ""
+msgstr "导入 Nanosurf EZD 和 NID 数据文件。"
 
 #: modules/file/ezdfile.c:145
 msgid "Nanosurf files (.ezd, .nid)"
-msgstr ""
+msgstr "Nanosurf 文件（.ezd、.nid）"
 
 #: modules/file/ezdfile.c:303
 msgid "Garbage before first header section."
-msgstr ""
+msgstr "第一个文件头节之前存在多余内容。"
 
 #: modules/file/ezdfile.c:313 modules/file/nanoscope-ii.c:244
 msgid "Malformed header line (missing =)."
@@ -5847,37 +5847,37 @@ msgstr "头部行格式错误（缺少 =）。"
 
 #: modules/file/ezdfile.c:412
 msgid "First section isn't DataSet"
-msgstr ""
+msgstr "第一节不是 DataSet。"
 
 #: modules/file/ezdfile.c:417
 msgid "GroupCount in [DataSet]"
-msgstr ""
+msgstr "[DataSet] 中的 GroupCount"
 
 #: modules/file/femtoscan-txt.c:73
 msgid "Imports FemtoScan TXT files."
-msgstr ""
+msgstr "导入 FemtoScan TXT 文件。"
 
 #: modules/file/femtoscan-txt.c:86
 msgid "FemtoScan text files (.txt)"
-msgstr ""
+msgstr "FemtoScan 文本文件（.txt）"
 
 #: modules/file/femtoscan-txt.c:183
 msgid "Data line does not start with a Y abscissa."
-msgstr ""
+msgstr "数据行不是以 Y 坐标开头。"
 
 #: modules/file/femtoscan-txt.c:190
 #, c-format
 msgid ""
 "Data line length %u does not correspond to the number of X abscissas %u."
-msgstr ""
+msgstr "数据行长度 %u 与 X 坐标个数 %u 不符。"
 
 #: modules/file/femtoscan.c:77
 msgid "Imports FemtoScan SPM data files."
-msgstr ""
+msgstr "导入 FemtoScan 扫描探针显微数据文件。"
 
 #: modules/file/femtoscan.c:90
 msgid "FemtoScan SPM files"
-msgstr ""
+msgstr "FemtoScan SPM 文件"
 
 #: modules/file/femtoscan.c:272 modules/file/miffile.c:665
 #: modules/file/mulfile.c:294
@@ -5886,16 +5886,16 @@ msgstr "图像数据位于文件范围之外。"
 
 #: modules/file/fitsfile.c:77
 msgid "Reads Flexible Image Transport System (FITS) files."
-msgstr ""
+msgstr "读取灵活图像传输系统（FITS）文件。"
 
 #: modules/file/fitsfile.c:90
 msgid "Flexible Image Transport System FITS (.fits)"
-msgstr ""
+msgstr "灵活图像传输系统 FITS（.fits）"
 
 #: modules/file/fitsfile.c:129
 #, c-format
 msgid "CFITSIO error while reading the FITS file: %s."
-msgstr ""
+msgstr "读取 FITS 文件时发生 CFITSIO 错误：%s。"
 
 #: modules/file/fitsfile.c:161 modules/file/fitsfile.c:173
 #: modules/file/fitsfile.c:184 modules/file/spmxfile.c:367
@@ -5904,65 +5904,65 @@ msgstr "仅支持二维图像。"
 
 #: modules/file/formats3d.c:251
 msgid "VTK structured grid (.vtk)"
-msgstr ""
+msgstr "VTK 结构化网格（.vtk）"
 
 #: modules/file/formats3d.c:256
 msgid "Polygon file format (.ply)"
-msgstr ""
+msgstr "多边形文件格式（.ply）"
 
 #: modules/file/formats3d.c:261
 msgid "Wavefront geometry definition (.obj)"
-msgstr ""
+msgstr "Wavefront 几何定义（.obj）"
 
 #: modules/file/formats3d.c:266
 msgid "Object File Format (.off)"
-msgstr ""
+msgstr "对象文件格式 OFF（.off）"
 
 #: modules/file/formats3d.c:271
 msgid "Stereolitography STL (.stl)"
-msgstr ""
+msgstr "立体光刻 STL（.stl）"
 
 #: modules/file/formats3d.c:278
 msgid "XYZ data files (.xyz)"
-msgstr ""
+msgstr "XYZ 数据文件（.xyz）"
 
 #: modules/file/formats3d.c:287
 msgid ""
 "Exports images as miscellaneous 3D data formats and imports XYZ points from "
 "3D formats."
-msgstr ""
+msgstr "将图像导出为多种三维数据格式，并从三维格式导入 XYZ 点。"
 
 #: modules/file/formats3d.c:318
 msgid "_Automatic Z-scale"
-msgstr ""
+msgstr "自动 Z 标度(_A)"
 
 #: modules/file/formats3d.c:319
 msgid "_Physical 1:1"
-msgstr ""
+msgstr "物理比例 1:1(_P)"
 
 #: modules/file/formats3d.c:320
 msgid "Other _scale:"
-msgstr ""
+msgstr "其他比例(_S)："
 
 #: modules/file/formats3d.c:323
 msgid "None (only points)"
-msgstr ""
+msgstr "无（仅点）"
 
 #: modules/file/formats3d.c:324
 msgid "Plain along main diagonals"
-msgstr ""
+msgstr "沿主对角线"
 
 #: modules/file/formats3d.c:325
 msgid "With pixel midpoints"
-msgstr ""
+msgstr "含像素中点"
 
 #: modules/file/formats3d.c:326
 msgid "Random orientation"
-msgstr ""
+msgstr "随机取向"
 
 #: modules/file/formats3d.c:327
 msgid "Following features"
-msgstr ""
+msgstr "沿表面特征"
 
 #: modules/file/formats3d.c:338 modules/volume/volume_extract.c:331
 msgid "Z scale"
@@ -5970,27 +5970,27 @@ msgstr "Z 轴缩放"
 
 #: modules/file/formats3d.c:340
 msgid "Triangulation type"
-msgstr ""
+msgstr "三角剖分类型"
 
 #: modules/file/formats3d.c:342
 msgid "Swap X and Y axes"
-msgstr ""
+msgstr "交换 X 轴与 Y 轴"
 
 #: modules/file/formats3d.c:343
 msgid "Flip Z axis"
-msgstr ""
+msgstr "翻转 Z 轴"
 
 #: modules/file/formats3d.c:359
 msgid "_Lateral units"
-msgstr ""
+msgstr "横向单位(_L)"
 
 #: modules/file/formats3d.c:361
 msgid "_Value units"
-msgstr ""
+msgstr "数值单位(_V)"
 
 #: modules/file/formats3d.c:364
 msgid "Create image _directly from regular points"
-msgstr ""
+msgstr "由规则点直接创建图像(_D)"
 
 #. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
 #: modules/file/formats3d.c:1163 modules/file/hdrimage.cc:437
@@ -6001,7 +6001,7 @@ msgstr "导出 %s"
 
 #: modules/file/formats3d.c:1538
 msgid "File contains NaNs or infinities."
-msgstr ""
+msgstr "文件包含 NaN 或无穷大。"
 
 #. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
 #: modules/file/formats3d.c:1574 modules/file/hdrimage.cc:2011
@@ -6012,95 +6012,95 @@ msgstr "导入 %s"
 
 #: modules/file/formats3d.c:1582
 msgid "X-range"
-msgstr ""
+msgstr "X 范围"
 
 #: modules/file/formats3d.c:1583
 msgid "Y-range"
-msgstr ""
+msgstr "Y 范围"
 
 #: modules/file/formats3d.c:1584
 msgid "Z-range"
-msgstr ""
+msgstr "Z 范围"
 
 #: modules/file/gdeffile.c:129
 msgid "Imports DME GDEF data files."
-msgstr ""
+msgstr "导入 DME GDEF 数据文件。"
 
 #: modules/file/gdeffile.c:142
 msgid "DME GDEF files (.gdf)"
-msgstr ""
+msgstr "DME GDEF 文件（.gdf）"
 
 #: modules/file/gdeffile.c:186
 #, c-format
 msgid "File version %u.%u is not supported."
-msgstr ""
+msgstr "不支持文件版本 %u.%u。"
 
 #: modules/file/gdeffile.c:222
 msgid "Control block mark is not CB, file is damaged."
-msgstr ""
+msgstr "控制块标记不是 CB，文件已损坏。"
 
 #: modules/file/gdeffile.c:254
 #, c-format
 msgid "Unknown variable type %u."
-msgstr ""
+msgstr "未知的变量类型 %u。"
 
 #: modules/file/gsffile.c:87
 msgid "Reads and exports Gwyddion Simple Field files."
-msgstr ""
+msgstr "读取并导出 Gwyddion 简单场文件。"
 
 #: modules/file/gsffile.c:100
 msgid "Gwyddion Simple Field (.gsf)"
-msgstr ""
+msgstr "Gwyddion 简单场（.gsf）"
 
 #: modules/file/gwyfile.c:100
 msgid "Loads and saves Gwyddion native data files (serialized objects)."
-msgstr ""
+msgstr "加载并保存 Gwyddion 原生数据文件（序列化对象）。"
 
 #: modules/file/gwyfile.c:113
 msgid "Gwyddion native format (.gwy)"
-msgstr ""
+msgstr "Gwyddion 原生格式（.gwy）"
 
 #: modules/file/gwyfile.c:170
 msgid "Data deserialization failed."
-msgstr ""
+msgstr "数据反序列化失败。"
 
 #: modules/file/gwyfile.c:175
 #, c-format
 msgid ""
 "Data deserialization succeeded, but resulted in an unexpected object %s."
-msgstr ""
+msgstr "数据反序列化成功，但得到了意外的对象 %s。"
 
 #: modules/file/gwytiff.c:183 modules/file/gwytiff.c:198
 #, c-format
 msgid "TIFF directory %lu ended unexpectedly."
-msgstr ""
+msgstr "TIFF 目录 %lu 意外结束。"
 
 #: modules/file/gwytiff.c:233
 #, c-format
 msgid "BigTIFF data type %u was found in a classic TIFF."
-msgstr ""
+msgstr "在经典 TIFF 中发现了 BigTIFF 数据类型 %u。"
 
 #: modules/file/gwytiff.c:245
 msgid "Invalid tag data positions were found."
-msgstr ""
+msgstr "发现无效的标签数据位置。"
 
 #: modules/file/gwytiff.c:333
 #, c-format
 msgid "BigTIFF reserved fields are %u and %u instead of 8 and 0."
-msgstr ""
+msgstr "BigTIFF 保留字段为 %u 和 %u，而非 8 和 0。"
 
 #: modules/file/gwytiff.c:1223
 msgid "Non-uniform bits per sample are unsupported."
-msgstr ""
+msgstr "不支持不均匀的每采样位数。"
 
 #: modules/file/gwytiff.c:1317
 msgid "Unsupported sample format"
-msgstr ""
+msgstr "不支持的采样格式"
 
 #: modules/file/gwytiff.h:277
 #, c-format
 msgid "Required tag %u was not found."
-msgstr ""
+msgstr "未找到必需的标签 %u。"
 
 #: modules/file/gwyzip-libzip.h:50 modules/file/gwyzip-libzip.h:56
 #: modules/file/gwyzip-libzip.h:78 modules/file/gwyzip-minizip1.h:120
@@ -6123,7 +6123,7 @@ msgstr "文件列表结束"
 
 #: modules/file/gwyzip-libzip.h:192
 msgid "Cannot obtain the uncompressed file size."
-msgstr ""
+msgstr "无法获取解压后的文件大小。"
 
 #: modules/file/gwyzip-libzip.h:205 modules/file/gwyzip-zzlib.h:215
 msgid "Cannot read file contents."
@@ -6138,37 +6138,37 @@ msgstr "ZIP 文件中缺少文件 %s。"
 
 #: modules/file/gwyzip-minizip1.h:152
 msgid "Unknown error"
-msgstr ""
+msgstr "未知错误"
 
 #: modules/file/gwyzip-minizip1.h:157
 msgid "End of file"
-msgstr ""
+msgstr "文件结束"
 
 #: modules/file/gwyzip-minizip1.h:161
 msgid "Parameter error"
-msgstr ""
+msgstr "参数错误"
 
 #: modules/file/gwyzip-minizip1.h:163
 msgid "Bad zip file"
-msgstr ""
+msgstr "zip 文件损坏"
 
 #: modules/file/gwyzip-minizip1.h:165
 msgid "Internal error"
-msgstr ""
+msgstr "内部错误"
 
 #: modules/file/gwyzip-minizip1.h:167
 msgid "CRC error"
-msgstr ""
+msgstr "CRC 错误"
 
 #: modules/file/gwyzip-minizip1.h:170
 #, c-format
 msgid "%s error while reading the zip file: %s (%d)."
-msgstr ""
+msgstr "读取 zip 文件时发生 %s 错误：%s（%d）。"
 
 #: modules/file/gwyzlib.h:79
 #, c-format
 msgid "zlib initialization failed with error %d, cannot decompress data."
-msgstr ""
+msgstr "zlib 初始化失败，错误码为 %d，无法解压数据。"
 
 #: modules/file/gwyzlib.h:124 modules/file/hdf4file.c:475
 #, c-format
@@ -6179,7 +6179,7 @@ msgstr "解压缩数据失败，错误代码为 %d。"
 #, c-format
 msgid ""
 "Decompressed data size (%lu bytes) does not match expected size (%lu bytes)."
-msgstr ""
+msgstr "解压后的数据大小（%lu 字节）与预期大小（%lu 字节）不符。"
 
 #. TRANSLATORS: %s is replaced by a software library name like zlib.
 #: modules/file/gwyzlib.h:172 modules/file/hdf4file.c:481
@@ -6192,24 +6192,24 @@ msgstr "无法解压缩数据。Gwyddion 构建时未启用 %s 支持。"
 
 #: modules/file/gxyzffile.c:113
 msgid "Imports Gwyddion XYZ field files."
-msgstr ""
+msgstr "导入 Gwyddion XYZ 场文件。"
 
 #: modules/file/gxyzffile.c:126
 msgid "GwyXYZ data files"
-msgstr ""
+msgstr "GwyXYZ 数据文件"
 
 #: modules/file/gxyzffile.c:146
 msgid "Multi-channel file with all compatible data"
-msgstr ""
+msgstr "包含全部兼容数据的多通道文件"
 
 #: modules/file/gxyzffile.c:234
 #, c-format
 msgid "Data size %lu is not a multiple of point size %u."
-msgstr ""
+msgstr "数据大小 %lu 不是点大小 %u 的整数倍。"
 
 #: modules/file/gxyzffile.c:382
 msgid "Export GXYZF"
-msgstr ""
+msgstr "导出 GXYZF"
 
 #: modules/file/gxyzffile.c:386 modules/file/hdrimage.cc:1754
 #: modules/file/hdrimage.cc:1946 modules/file/xyzexport.c:260
@@ -6224,113 +6224,113 @@ msgstr "XYZ 数据"
 
 #: modules/file/hdf4file.c:322
 msgid "Imports Hierarchical Data Format (HDF) files, version 4."
-msgstr ""
+msgstr "导入第 4 版层次数据格式（HDF）文件。"
 
 #: modules/file/hdf4file.c:335
 msgid "Psi HDF4 files (.hdf)"
-msgstr ""
+msgstr "Psi HDF4 文件（.hdf）"
 
 #: modules/file/hdf4file.c:541
 msgid "PSI binary header is too short."
-msgstr ""
+msgstr "PSI 二进制文件头过短。"
 
 #: modules/file/hdf4file.c:669
 msgid "HDF data with `native' type is not supported."
-msgstr ""
+msgstr "不支持类型为 `native’ 的 HDF 数据。"
 
 #: modules/file/hdf5/datxfile.c:96
 msgid "Zygo DATX HDF5 files (.datx)"
-msgstr ""
+msgstr "Zygo DATX HDF5 文件（.datx）"
 
 #: modules/file/hdf5/epflfile.c:104
 msgid "EPFL HDF5 files (.h5)"
-msgstr ""
+msgstr "EPFL HDF5 文件（.h5）"
 
 #: modules/file/hdf5/ergofile.c:84
 msgid "Asylum Research Ergo HDF5 files (.h5,.aris)"
-msgstr ""
+msgstr "Asylum Research Ergo HDF5 文件（.h5、.aris）"
 
 #: modules/file/hdf5/fusionscope.c:137
 msgid "FusionScope HDF5 files (.fsexp)"
-msgstr ""
+msgstr "FusionScope HDF5 文件（.fsexp）"
 
 #: modules/file/hdf5/gwyhdf5.c:904
 #, c-format
 msgid "Dataset %s has %d dimensions instead of expected %d."
-msgstr ""
+msgstr "数据集 %s 有 %d 维，而非预期的 %d 维。"
 
 #: modules/file/hdf5/gwyhdf5.c:913
 #, c-format
 msgid ""
 "Dataset %s dimension #%d is %ld, which does not match image resolution %d."
-msgstr ""
+msgstr "数据集 %s 的第 %d 维为 %ld，与图像分辨率 %d 不符。"
 
 #: modules/file/hdf5/gwyhdf5.h:150
 #, c-format
 msgid "HDF5 library error %ld in function %s."
-msgstr ""
+msgstr "HDF5 库错误 %ld，发生于函数 %s。"
 
 #: modules/file/hdf5/gxsm4.c:80
 msgid "GXSM4 HDF5 files (.nc)"
-msgstr ""
+msgstr "GXSM4 HDF5 文件（.nc）"
 
 #: modules/file/hdf5/hdf5file.c:80
 msgid "Imports files based on Hierarchical Data Format (HDF), version 5."
-msgstr ""
+msgstr "导入基于第 5 版层次数据格式（HDF）的文件。"
 
 #: modules/file/hdf5/hdf5file.c:102
 msgid "Generic HDF5 files (.h5)"
-msgstr ""
+msgstr "通用 HDF5 文件（.h5）"
 
 #: modules/file/hdf5/hdf5file.c:110
 msgid "Matlab 7.x HDF5 MAT files (.mat)"
-msgstr ""
+msgstr "Matlab 7.x HDF5 MAT 文件（.mat）"
 
 #: modules/file/hdf5/nhffile.c:208
 msgid "Nanosurf NHF HDF5 files (.nhf)"
-msgstr ""
+msgstr "Nanosurf NHF HDF5 文件（.nhf）"
 
 #: modules/file/hdf5/nhffile.c:1286 modules/file/hdf5/nhffile.c:1382
 msgid "Sample"
-msgstr ""
+msgstr "采样点序号"
 
 #: modules/file/hdf5/nhffile.c:1296
 msgid "Time series"
-msgstr ""
+msgstr "时间序列"
 
 #: modules/file/hdf5/nsidfile.c:85
 msgid "N-Dimensional Spectroscopy and Imaging Data (NSID) HDF5 files (.h5)"
-msgstr ""
+msgstr "N 维谱学与成像数据（NSID）HDF5 文件（.h5）"
 
 #: modules/file/hdf5/shilpsfile.c:132
 msgid "Shilps Sciences Lucent HDF5 files (.h5)"
-msgstr ""
+msgstr "Shilps Sciences Lucent HDF5 文件（.h5）"
 
 #: modules/file/hdf5/veloxemd.c:186
 msgid "ThermoFisher Velox EMD HDF5 files (.emd)"
-msgstr ""
+msgstr "ThermoFisher Velox EMD HDF5 文件（.emd）"
 
 #: modules/file/hdrimage.cc:253
 msgid ""
 "Imports 16bit grayscale PPM, PNG and TIFF images, imports and exports "
 "OpenEXR images (if available)."
-msgstr ""
+msgstr "导入 16 位灰度 PPM、PNG 和 TIFF 图像，并在可用时导入和导出 OpenEXR 图像。"
 
 #: modules/file/hdrimage.cc:267
 msgid "OpenEXR images (.exr)"
-msgstr ""
+msgstr "OpenEXR 图像（.exr）"
 
 #: modules/file/hdrimage.cc:275
 msgid "PNG images with 16bit depth (.png)"
-msgstr ""
+msgstr "16 位深度的 PNG 图像（.png）"
 
 #: modules/file/hdrimage.cc:282
 msgid "PGM images with 16bit depth (.pgm)"
-msgstr ""
+msgstr "16 位深度的 PGM 图像（.pgm）"
 
 #: modules/file/hdrimage.cc:288
 msgid "TIFF and BigTIFF images with high depth (.tiff)"
-msgstr ""
+msgstr "高位深 TIFF 和 BigTIFF 图像（.tiff）"
 
 #: modules/file/hdrimage.cc:308 modules/file/nmmxyz.c:240
 #: modules/file/pixmap.c:286 modules/file/rawfile.c:342
@@ -6357,58 +6357,58 @@ msgstr "仅使用像素(_P)"
 
 #: modules/file/hdrimage.cc:316
 msgid "Import as _volume data"
-msgstr ""
+msgstr "作为体数据导入(_V)"
 
 #: modules/file/hdrimage.cc:324
 msgid "Half (16bit float)"
-msgstr ""
+msgstr "半精度（16 位浮点）"
 
 #: modules/file/hdrimage.cc:325
 msgid "Float (32bit)"
-msgstr ""
+msgstr "浮点（32 位）"
 
 #: modules/file/hdrimage.cc:326
 msgid "Integer (32bit)"
-msgstr ""
+msgstr "整数（32 位）"
 
 #: modules/file/hdrimage.cc:335
 msgid "_Data format"
-msgstr ""
+msgstr "数据格式(_D)"
 
 #: modules/file/hdrimage.cc:337
 msgid "_Z-scale"
-msgstr ""
+msgstr "Z 标度(_Z)"
 
 #: modules/file/hdrimage.cc:413
 #, c-format
 msgid "EXR image writing failed with libImf error: %s"
-msgstr ""
+msgstr "写入 EXR 图像失败，libImf 错误：%s"
 
 #: modules/file/hdrimage.cc:444
 msgid "Data range"
-msgstr ""
+msgstr "数据范围"
 
 #: modules/file/hdrimage.cc:445
 msgid "Representable range"
-msgstr ""
+msgstr "可表示范围"
 
 #: modules/file/hdrimage.cc:446
 msgid "Suggested Z-scale"
-msgstr ""
+msgstr "建议的 Z 标度"
 
 #: modules/file/hdrimage.cc:456
 msgid "_Use Suggested"
-msgstr ""
+msgstr "使用建议值(_U)"
 
 #: modules/file/hdrimage.cc:603
 #, c-format
 msgid "EXR image loading failed with libImf error: %s"
-msgstr ""
+msgstr "加载 EXR 图像失败，libImf 错误：%s"
 
 #: modules/file/hdrimage.cc:739
 #, c-format
 msgid "OpenEXR data type %u is invalid or unsupported."
-msgstr ""
+msgstr "OpenEXR 数据类型 %u 无效或不受支持。"
 
 #: modules/file/hdrimage.cc:1169 modules/file/hdrimage.cc:1177
 #: modules/file/imgexport.c:3943 modules/file/imgexport.c:3951
@@ -6423,7 +6423,7 @@ msgstr "发生 libpng 错误"
 #: modules/file/hdrimage.cc:1734 modules/file/hdrimage.cc:1788
 #: modules/file/hdrimage.cc:1880
 msgid "Failed to read image data."
-msgstr ""
+msgstr "读取图像数据失败。"
 
 #: modules/file/hdrimage.cc:2032 modules/file/pixmap.c:705
 #: modules/process/stitch.c:309
@@ -6432,11 +6432,11 @@ msgstr "通道"
 
 #: modules/file/hdrimage.cc:2033
 msgid "Depth"
-msgstr ""
+msgstr "位深"
 
 #: modules/file/hdrimage.cc:2034
 msgid "Pages"
-msgstr ""
+msgstr "页数"
 
 #: modules/file/hdrimage.cc:2044 modules/file/pixmap.c:709
 msgid "Image Information"
@@ -6448,32 +6448,32 @@ msgstr "数值映射"
 
 #: modules/file/hdrimage.cc:2076
 msgid "Image Stack"
-msgstr ""
+msgstr "图像堆栈"
 
 #: modules/file/hitachi-afm.c:103
 msgid "Imports Hitachi AFM files."
-msgstr ""
+msgstr "导入 Hitachi AFM 文件。"
 
 #: modules/file/hitachi-afm.c:117
 msgid "Hitachi AFM files (.afm)"
-msgstr ""
+msgstr "Hitachi AFM 文件（.afm）"
 
 #: modules/file/hitachi-afm.c:123
 msgid "Hitachi AFM files, old (.afm)"
-msgstr ""
+msgstr "旧版 Hitachi AFM 文件（.afm）"
 
 #: modules/file/hitachi-afm.c:199
 #, c-format
 msgid "Hitachi-AFM has not registered file type `%s'."
-msgstr ""
+msgstr "Hitachi-AFM 尚未注册文件类型 `%s’。"
 
 #: modules/file/hitachi-sem.c:80
 msgid "Imports Hitachi S-3700 and S-4800 SEM files."
-msgstr ""
+msgstr "导入 Hitachi S-3700 和 S-4800 扫描电镜文件。"
 
 #: modules/file/hitachi-sem.c:93
 msgid "Hitachi SEM files (.txt + image)"
-msgstr ""
+msgstr "Hitachi 扫描电镜文件（.txt + 图像）"
 
 #: modules/file/hitachi-sem.c:160 modules/file/oldmda.c:246
 #: modules/file/tescan.c:421 modules/file/unisoku.c:231
@@ -6483,43 +6483,43 @@ msgstr "找不到与头文件对应的数据文件。"
 #: modules/file/hitachi-sem.c:166
 #, c-format
 msgid "Cannot load image: %s"
-msgstr ""
+msgstr "无法加载图像：%s"
 
 #: modules/file/hitachi-sem.c:182
 #, c-format
 msgid "Field DataSize %ux%u does not match image dimensions %ux%u."
-msgstr ""
+msgstr "字段 DataSize %ux%u 与图像尺寸 %ux%u 不符。"
 
 #: modules/file/igorfile.c:313
 msgid "Imports Igor binary waves (.ibw)."
-msgstr ""
+msgstr "导入 Igor 二进制 wave（.ibw）。"
 
 #: modules/file/igorfile.c:326
 msgid "Igor binary waves (.ibw)"
-msgstr ""
+msgstr "Igor 二进制 wave（.ibw）"
 
 #: modules/file/igorfile.c:332
 msgid "Igor packed experiment files (.pxp)"
-msgstr ""
+msgstr "Igor 打包实验文件（.pxp）"
 
 #: modules/file/igorfile.c:452
 #, c-format
 msgid "Format version is %d.  Only version 5 is supported."
-msgstr ""
+msgstr "格式版本为 %d。仅支持版本 5。"
 
 #: modules/file/igorfile.c:520
 #, c-format
 msgid "Number of data points %u does not match resolutions %s."
-msgstr ""
+msgstr "数据点数 %u 与分辨率 %s 不符。"
 
 #: modules/file/igorfile.c:532
 #, c-format
 msgid "Data size %u does not match the number of data points %u×%u."
-msgstr ""
+msgstr "数据大小 %u 与数据点数 %u×%u 不符。"
 
 #: modules/file/igorfile.c:570
 msgid "Cannot read channel labels."
-msgstr ""
+msgstr "无法读取通道标签。"
 
 #: modules/file/imgexport.c:473 modules/file/pixmap.c:188
 msgid "Portable Network Graphics (.png)"
@@ -6555,15 +6555,15 @@ msgstr "JPEG XL（.jxl）"
 
 #: modules/file/imgexport.c:506
 msgid "Portable document format (.pdf)"
-msgstr ""
+msgstr "便携式文档格式（.pdf）"
 
 #: modules/file/imgexport.c:512
 msgid "Encapsulated PostScript (.eps)"
-msgstr ""
+msgstr "封装 PostScript（.eps）"
 
 #: modules/file/imgexport.c:518
 msgid "Scalable Vector Graphics (.svg)"
-msgstr ""
+msgstr "可缩放矢量图形（.svg）"
 
 #: modules/file/imgexport.c:539 modules/tools/selectionmanager.c:259
 msgid "Horiz./vert. lines"
@@ -6593,35 +6593,35 @@ msgstr "晶格"
 
 #: modules/file/imgexport.c:548
 msgid "Path"
-msgstr ""
+msgstr "路径"
 
 #: modules/file/imgexport.c:552 modules/file/imgexport.c:557
 msgid "ruler|_None"
-msgstr ""
+msgstr "无(_N)"
 
 #: modules/file/imgexport.c:553
 msgid "_Rulers"
-msgstr ""
+msgstr "标尺(_R)"
 
 #: modules/file/imgexport.c:554
 msgid "_Inset scale bar"
-msgstr ""
+msgstr "内嵌比例尺(_I)"
 
 #: modules/file/imgexport.c:558
 msgid "_False color ruler"
-msgstr ""
+msgstr "伪彩色标尺(_F)"
 
 #: modules/file/imgexport.c:561
 msgid "title|None"
-msgstr ""
+msgstr "无"
 
 #: modules/file/imgexport.c:562
 msgid "At the top"
-msgstr ""
+msgstr "顶部"
 
 #: modules/file/imgexport.c:563
 msgid "Along the right edge"
-msgstr ""
+msgstr "沿右边缘"
 
 #: modules/file/imgexport.c:569
 msgid ""
@@ -6629,14 +6629,16 @@ msgid ""
 "PPM, BMP, TARGA) images. Export to some formats relies on GDK and other "
 "libraries thus may be installation-dependent."
 msgstr ""
+"将数据渲染为矢量图像（SVG、PDF、EPS）和像素图（PNG、JPEG、TIFF、WebP、PPM、BMP、TARGA）。部分格式的导出依赖 GDK "
+"和其他库，因此可能随安装环境而不同。"
 
 #: modules/file/imgexport.c:673
 msgid "Pixels per _inch"
-msgstr ""
+msgstr "每英寸像素数(_I)"
 
 #: modules/file/imgexport.c:677 modules/file/imgexport.c:679
 msgid "O_pacity"
-msgstr ""
+msgstr "不透明度(_P)"
 
 #: modules/file/imgexport.c:712 modules/xyz/xyz_fft.c:171
 msgid "_Zoom"
@@ -6644,31 +6646,31 @@ msgstr "缩放(_Z)"
 
 #: modules/file/imgexport.c:713
 msgid "Pi_xel size"
-msgstr ""
+msgstr "像素大小(_X)"
 
 #: modules/file/imgexport.c:714
 msgid "_Font"
-msgstr ""
+msgstr "字体(_F)"
 
 #: modules/file/imgexport.c:716
 msgid "_Font size"
-msgstr ""
+msgstr "字号(_F)"
 
 #: modules/file/imgexport.c:717
 msgid "Line t_hickness"
-msgstr ""
+msgstr "线宽(_H)"
 
 #: modules/file/imgexport.c:718
 msgid "_Border width"
-msgstr ""
+msgstr "边框宽度(_B)"
 
 #: modules/file/imgexport.c:719
 msgid "_Tick length"
-msgstr ""
+msgstr "刻度长度(_T)"
 
 #: modules/file/imgexport.c:720
 msgid "Tie sizes to _data pixels"
-msgstr ""
+msgstr "将尺寸绑定到数据像素(_D)"
 
 #: modules/file/imgexport.c:721 modules/file/rawfile.c:367
 msgid "_Decimal separator is comma"
@@ -6676,15 +6678,15 @@ msgstr "小数分隔符为逗号(_D)"
 
 #: modules/file/imgexport.c:722
 msgid "_Line and text color"
-msgstr ""
+msgstr "线条与文字颜色(_L)"
 
 #: modules/file/imgexport.c:723
 msgid "_Background color"
-msgstr ""
+msgstr "背景颜色(_B)"
 
 #: modules/file/imgexport.c:724
 msgid "_Transparent background"
-msgstr ""
+msgstr "透明背景(_T)"
 
 #: modules/file/imgexport.c:727 modules/tools/filter.c:162
 msgid "_Type"
@@ -6703,47 +6705,47 @@ msgstr "位置"
 
 #: modules/file/imgexport.c:733 modules/file/imgexport.c:756
 msgid "Hori_zontal gap"
-msgstr ""
+msgstr "水平间距(_Z)"
 
 #: modules/file/imgexport.c:734 modules/file/imgexport.c:753
 msgid "_Vertical gap"
-msgstr ""
+msgstr "垂直间距(_V)"
 
 #: modules/file/imgexport.c:736 modules/file/imgexport.c:770
 msgid "Out_line color"
-msgstr ""
+msgstr "轮廓颜色(_L)"
 
 #: modules/file/imgexport.c:738 modules/file/imgexport.c:772
 msgid "O_utline thickness"
-msgstr ""
+msgstr "轮廓粗细(_U)"
 
 #: modules/file/imgexport.c:740
 msgid "Draw _ticks"
-msgstr ""
+msgstr "绘制刻度(_T)"
 
 #: modules/file/imgexport.c:741
 msgid "Draw _label"
-msgstr ""
+msgstr "绘制标签(_L)"
 
 #: modules/file/imgexport.c:743
 msgid "Draw text _above scale bar"
-msgstr ""
+msgstr "在比例尺上方绘制文字(_A)"
 
 #: modules/file/imgexport.c:748
 msgid "Draw _frame"
-msgstr ""
+msgstr "绘制边框(_F)"
 
 #: modules/file/imgexport.c:749
 msgid "Draw _mask"
-msgstr ""
+msgstr "绘制掩膜(_M)"
 
 #: modules/file/imgexport.c:750
 msgid "Draw mask _legend"
-msgstr ""
+msgstr "绘制掩膜图例(_L)"
 
 #: modules/file/imgexport.c:751
 msgid "_Label"
-msgstr ""
+msgstr "标签(_L)"
 
 #: modules/file/imgexport.c:752 modules/process/maskops.c:159
 msgid "Mask"
@@ -6751,83 +6753,83 @@ msgstr "掩膜"
 
 #: modules/file/imgexport.c:758
 msgid "Fi_xed precision"
-msgstr ""
+msgstr "固定精度(_X)"
 
 #: modules/file/imgexport.c:760
 msgid "Fixed _kilo threshold"
-msgstr ""
+msgstr "固定千倍阈值(_K)"
 
 #: modules/file/imgexport.c:762
 msgid "Posi_tion"
-msgstr ""
+msgstr "位置(_T)"
 
 #: modules/file/imgexport.c:764
 msgid "_Gap"
-msgstr ""
+msgstr "间距(_G)"
 
 #: modules/file/imgexport.c:765
 msgid "Put _units to title"
-msgstr ""
+msgstr "将单位放入标题(_U)"
 
 #: modules/file/imgexport.c:768
 msgid "Draw _selection"
-msgstr ""
+msgstr "绘制选区(_S)"
 
 #: modules/file/imgexport.c:774
 msgid "Draw _numbers"
-msgstr ""
+msgstr "绘制数字(_N)"
 
 #: modules/file/imgexport.c:775
 msgid "Marker _radius"
-msgstr ""
+msgstr "标记半径(_R)"
 
 #: modules/file/imgexport.c:777
 msgid "_End marker length"
-msgstr ""
+msgstr "端点标记长度(_E)"
 
 #: modules/file/imgexport.c:2866
 msgid "Black"
-msgstr ""
+msgstr "黑色"
 
 #: modules/file/imgexport.c:2867
 msgid "White"
-msgstr ""
+msgstr "白色"
 
 #: modules/file/imgexport.c:2926
 msgid "_Font:"
-msgstr ""
+msgstr "字体(_F)："
 
 #: modules/file/imgexport.c:2977
 msgid "Colors"
-msgstr ""
+msgstr "颜色"
 
 #: modules/file/imgexport.c:3024
 msgid "left"
-msgstr ""
+msgstr "左"
 
 #: modules/file/imgexport.c:3027
 msgid "center"
-msgstr ""
+msgstr "中"
 
 #: modules/file/imgexport.c:3030
 msgid "right"
-msgstr ""
+msgstr "右"
 
 #: modules/file/imgexport.c:3033
 msgid "top"
-msgstr ""
+msgstr "上"
 
 #: modules/file/imgexport.c:3041
 msgid "bottom"
-msgstr ""
+msgstr "下"
 
 #: modules/file/imgexport.c:3066 modules/file/imgexport.c:3602
 msgid "Lateral Scale"
-msgstr ""
+msgstr "横向标尺"
 
 #: modules/file/imgexport.c:3070
 msgid "Choose Length _Automatically"
-msgstr ""
+msgstr "自动选择长度(_A)"
 
 #: modules/file/imgexport.c:3097 modules/process/acf2d.c:410
 #: modules/process/curvature.c:506 modules/process/fit-shape.c:1644
@@ -6842,11 +6844,11 @@ msgstr "图像"
 
 #: modules/file/imgexport.c:3104
 msgid "Value Scale"
-msgstr ""
+msgstr "数值标尺"
 
 #: modules/file/imgexport.c:3111 modules/file/imgexport.c:3472
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: modules/file/imgexport.c:3210 modules/tools/selectionmanager.c:343
 msgid "Objects"
@@ -6873,7 +6875,7 @@ msgstr "重命名(_R)"
 
 #: modules/file/imgexport.c:3470
 msgid "Lateral"
-msgstr ""
+msgstr "横向"
 
 #: modules/file/imgexport.c:3522 modules/file/rawfile.c:738
 msgid "Preset _name:"
@@ -6881,15 +6883,15 @@ msgstr "预设名称(_N)："
 
 #: modules/file/imgexport.c:3583
 msgid "Export as 1_6 bit grayscale"
-msgstr ""
+msgstr "导出为 16 位灰度(_6)"
 
 #: modules/file/imgexport.c:3603
 msgid "Values"
-msgstr ""
+msgstr "数值"
 
 #: modules/file/imgexport.c:3604
 msgid "Selection"
-msgstr ""
+msgstr "选区"
 
 #: modules/file/imgexport.c:3605 modules/file/rawfile.c:473
 #: modules/process/convolution_filter.c:273 modules/process/domain_synth.c:286
@@ -6899,43 +6901,43 @@ msgstr "预设"
 #: modules/file/imgexport.c:4250
 #, c-format
 msgid "Cairo error occurred: %s"
-msgstr ""
+msgstr "发生 Cairo 错误：%s"
 
 #: modules/file/imgexport.c:4282
 #, c-format
 msgid "Pixbuf save failed: %s."
-msgstr ""
+msgstr "Pixbuf 保存失败：%s。"
 
 #: modules/file/imgexport.c:4551
 msgid "Image is too large to be stored as TARGA."
-msgstr ""
+msgstr "图像过大，无法存储为 TARGA。"
 
 #: modules/file/imgexport.c:4649
 #, c-format
 msgid "libjxl error occurred (%s)"
-msgstr ""
+msgstr "发生 libjxl 错误（%s）"
 
 #: modules/file/intelliwave.c:226
 msgid "Imports IntelliWave interferometric ESD data."
-msgstr ""
+msgstr "导入 IntelliWave 干涉 ESD 数据。"
 
 #: modules/file/intelliwave.c:239
 msgid "IntelliWave interferometric data (.esd)"
-msgstr ""
+msgstr "IntelliWave 干涉数据（.esd）"
 
 #: modules/file/intelliwave.c:297
 #, c-format
 msgid ""
 "Invalid data address 0x%0x found.  File is in some unknown format version."
-msgstr ""
+msgstr "发现无效的数据地址 0x%0x。文件属于某种未知的格式版本。"
 
 #: modules/file/intematix.c:117
 msgid "Imports Intematix SDF data files."
-msgstr ""
+msgstr "导入 Intematix SDF 数据文件。"
 
 #: modules/file/intematix.c:130
 msgid "Intematix SDF data files (.sdf)"
-msgstr ""
+msgstr "Intematix SDF 数据文件（.sdf）"
 
 #: modules/file/intematix.c:270 modules/file/ttffile.c:322
 msgid "Parameter tag set is incomplete."
@@ -6943,28 +6945,28 @@ msgstr "参数标签集不完整。"
 
 #: modules/file/intematix.c:275
 msgid "image depth"
-msgstr ""
+msgstr "图像深度"
 
 #: modules/file/iso28600.c:356
 msgid "Imports and exports ISO 28600:2011 SPM data transfer format."
-msgstr ""
+msgstr "导入并导出 ISO 28600:2011 扫描探针显微数据传输格式。"
 
 #: modules/file/iso28600.c:371
 msgid "ISO 28600:2011 SPM data transfer files (.spm)"
-msgstr ""
+msgstr "ISO 28600:2011 扫描探针显微数据传输文件（.spm）"
 
 #: modules/file/iso28600.c:457
 #, c-format
 msgid ""
 "Only regular and irregular mappings are implemented but the file has mapping"
 " type ‘%s’."
-msgstr ""
+msgstr "仅实现了规则映射和不规则映射，但文件的映射类型为 ‘%s’。"
 
 #: modules/file/iso28600.c:483 modules/file/iso28600.c:489
 #: modules/file/iso28600.c:495
 #, c-format
 msgid "List ‘%s’ has %u items which differs from the number %u given by ‘%s’."
-msgstr ""
+msgstr "列表 ‘%s’ 含有 %u 项，这与数量 %u 不同，后者由 ‘%s’ 给出。"
 
 #: modules/file/iso28600.c:560 modules/file/spip-asc.c:367
 #, c-format
@@ -6980,7 +6982,7 @@ msgstr "读取第 %u 个样本时遇到格式错误的数据"
 #: modules/file/iso28600.c:580 modules/file/iso28600.c:666
 #: modules/file/iso28600.c:789
 msgid "Missing end-of-data marker."
-msgstr ""
+msgstr "缺少数据结束标记。"
 
 #: modules/file/iso28600.c:772 modules/file/nova-asc.c:231
 #: modules/file/sdfile.c:821 modules/file/witec-asc.c:204
@@ -6997,44 +6999,44 @@ msgstr "读取第 %d 个样本（共 %d 个）时遇到格式错误的数据"
 #: modules/file/iso28600.c:931
 #, c-format
 msgid "Line %u does not contain mandatory label ‘%s’."
-msgstr ""
+msgstr "第 %u 行缺少必需标签 ‘%s’。"
 
 #: modules/file/jeol.c:420
 msgid "Imports JEOL data files."
-msgstr ""
+msgstr "导入 JEOL 数据文件。"
 
 #: modules/file/jeol.c:433
 msgid "JEOL data files (.tif)"
-msgstr ""
+msgstr "JEOL 数据文件（.tif）"
 
 #: modules/file/jeoltem.c:122
 msgid "Imports JEOL TEM images."
-msgstr ""
+msgstr "导入 JEOL 透射电镜图像。"
 
 #: modules/file/jeoltem.c:135
 msgid "JEOL TIF TEM image (.tif)"
-msgstr ""
+msgstr "JEOL TIF 透射电镜图像（.tif）"
 
 #: modules/file/jpkscan.c:285
 msgid "Imports JPK image scans."
-msgstr ""
+msgstr "导入 JPK 图像扫描。"
 
 #: modules/file/jpkscan.c:298
 msgid "JPK image scans (.jpk, .jpk-qi-image)"
-msgstr ""
+msgstr "JPK 图像扫描（.jpk、.jpk-qi-image）"
 
 #: modules/file/jpkscan.c:305
 msgid "JPK force curves (.jpk-force, .jpk-force-map, .jpk-qi-data)"
-msgstr ""
+msgstr "JPK 力曲线（.jpk-force、.jpk-force-map、.jpk-qi-data）"
 
 #: modules/file/jpkscan.c:369
 msgid "File does not contain grid dimensions."
-msgstr ""
+msgstr "文件中没有网格尺寸。"
 
 #: modules/file/jpkscan.c:671 modules/file/jpkscan.c:2445
 #, c-format
 msgid "Scanning file (%u curves)..."
-msgstr ""
+msgstr "正在扫描文件（%u 条曲线）..."
 
 #: modules/file/jpkscan.c:708 modules/file/nmmxyz.c:377
 msgid "Reading files..."
@@ -7042,283 +7044,283 @@ msgstr "正在读取文件..."
 
 #: modules/file/jpkscan.c:723
 msgid "Creating volume data..."
-msgstr ""
+msgstr "正在创建体数据..."
 
 #: modules/file/jpkscan.c:861
 msgid "Non-uniform point and/or segment numbering is not supported."
-msgstr ""
+msgstr "不支持不均匀的点编号和／或段编号。"
 
 #: modules/file/jpkscan.c:869
 msgid "Non-uniform channel lists are not supported."
-msgstr ""
+msgstr "不支持不均匀的通道列表。"
 
 #: modules/file/jpkscan.c:877
 #, c-format
 msgid "Data file %s was found instead of expected %s."
-msgstr ""
+msgstr "找到的数据文件为 %s，而非预期的 %s。"
 
 #: modules/file/jpkscan.c:1674
 #, c-format
 msgid "Header properties file for index %u is missing."
-msgstr ""
+msgstr "缺少索引 %u 的文件头属性文件。"
 
 #: modules/file/jpkscan.c:2257
 msgid "Cannot find any height channel."
-msgstr ""
+msgstr "找不到任何高度通道。"
 
 #: modules/file/jspmfile.c:185
 msgid "Imports JEOL JSPM data files."
-msgstr ""
+msgstr "导入 JEOL JSPM 数据文件。"
 
 #: modules/file/jspmfile.c:198
 msgid "JEOL JSPM data files (.tif)"
-msgstr ""
+msgstr "JEOL JSPM 数据文件（.tif）"
 
 #: modules/file/jspmfile.c:275
 #, c-format
 msgid "Header block %u has invalid position or size."
-msgstr ""
+msgstr "文件头块 %u 的位置或大小无效。"
 
 #: modules/file/jspmfile.c:354 modules/file/jspmfile.c:361
 #: modules/file/jspmfile.c:413 modules/file/jspmfile.c:420
 msgid "Cannot find image header block."
-msgstr ""
+msgstr "找不到图像文件头块。"
 
 #: modules/file/jspmfile.c:462
 msgid "Cannot find piezo header block."
-msgstr ""
+msgstr "找不到压电文件头块。"
 
 #: modules/file/keyence.c:442
 msgid "Imports Keyence VK3, VK4, VK6 and VK7 files."
-msgstr ""
+msgstr "导入 Keyence VK3、VK4、VK6 和 VK7 文件。"
 
 #: modules/file/keyence.c:455
 msgid "Keyence VK3 data files (.vk3)"
-msgstr ""
+msgstr "Keyence VK3 数据文件（.vk3）"
 
 #: modules/file/keyence.c:461
 msgid "Keyence VK4 data files (.vk4)"
-msgstr ""
+msgstr "Keyence VK4 数据文件（.vk4）"
 
 #: modules/file/keyence.c:468
 msgid "Keyence VK6 data files (.vk6)"
-msgstr ""
+msgstr "Keyence VK6 数据文件（.vk6）"
 
 #: modules/file/keyence.c:474
 msgid "Keyence VK7 data files (.vk7)"
-msgstr ""
+msgstr "Keyence VK7 数据文件（.vk7）"
 
 #: modules/file/lafmdmap.c:73
 msgid "Exports volume data as LAFM density map."
-msgstr ""
+msgstr "将体数据导出为 LAFM 密度图。"
 
 #: modules/file/lafmdmap.c:86
 msgid "LAFM density map (.afm)"
-msgstr ""
+msgstr "LAFM 密度图（.afm）"
 
 #: modules/file/leica.c:189
 msgid "Imports Leica CLSM image files (LIF)."
-msgstr ""
+msgstr "导入 Leica 共聚焦激光扫描显微镜图像文件（LIF）。"
 
 #: modules/file/leica.c:202
 msgid "Leica LIF image files (.lif)"
-msgstr ""
+msgstr "Leica LIF 图像文件（.lif）"
 
 #: modules/file/leica.c:804
 #, c-format
 msgid "Wrong XML element %s."
-msgstr ""
+msgstr "XML 元素 %s 不正确。"
 
 #: modules/file/lextfile.c:84
 msgid "Imports LEXT data files."
-msgstr ""
+msgstr "导入 LEXT 数据文件。"
 
 #: modules/file/lextfile.c:97
 msgid "Olympus LEXT OLS4000 (.lext)"
-msgstr ""
+msgstr "Olympus LEXT OLS4000（.lext）"
 
 #: modules/file/magellan.c:62
 msgid "Imports FEI Magellan SEM images."
-msgstr ""
+msgstr "导入 FEI Magellan 扫描电镜图像。"
 
 #: modules/file/magellan.c:75
 msgid "FEI Magellan SEM image (.tif)"
-msgstr ""
+msgstr "FEI Magellan 扫描电镜图像（.tif）"
 
 #: modules/file/mapvue.c:461
 msgid "Imports MapVue data files (.map)."
-msgstr ""
+msgstr "导入 MapVue 数据文件（.map）。"
 
 #: modules/file/mapvue.c:474
 msgid "MapVue files (.map)"
-msgstr ""
+msgstr "MapVue 文件（.map）"
 
 #: modules/file/mapvue.c:548 modules/file/mapvue.c:576
 #, c-format
 msgid "Required tag %u or %u was not found."
-msgstr ""
+msgstr "未找到必需的标签 %u 或 %u。"
 
 #: modules/file/mapvue.c:785
 msgid "File end was reached while scanning tags."
-msgstr ""
+msgstr "扫描标签时已到达文件末尾。"
 
 #: modules/file/mapvue.c:797
 #, c-format
 msgid "Expected tag %u size is %u bytes, but the actual size is %u bytes."
-msgstr ""
+msgstr "标签 %u 的预期大小为 %u 字节，实际为 %u 字节。"
 
 #: modules/file/mapvue.c:810
 #, c-format
 msgid "Tag %u size is %u bytes, which is not enough to hold the tag marker."
-msgstr ""
+msgstr "标签 %u 的大小为 %u 字节，不足以容纳标签标记。"
 
 #: modules/file/mapvue.c:819 modules/file/mapvue.c:829
 #, c-format
 msgid ""
 "Tag %u size is %u bytes, which is not enough to hold the tag marker and "
 "size."
-msgstr ""
+msgstr "标签 %u 的大小为 %u 字节，不足以容纳标签标记及其大小。"
 
 #: modules/file/mapvue.c:838
 #, c-format
 msgid "Tag marker is missing on an unknown tag %u."
-msgstr ""
+msgstr "未知标签 %u 缺少标签标记。"
 
 #: modules/file/mapvue.c:856 modules/file/mapvue.c:866
 msgid "Character array does not fit into the file."
-msgstr ""
+msgstr "字符数组超出文件范围。"
 
 #: modules/file/mapvue.c:883 modules/file/mapvue.c:894
 #: modules/file/mapvue.c:904
 msgid "Fiducial record does not fit into the file."
-msgstr ""
+msgstr "基准记录超出文件范围。"
 
 #: modules/file/mapvue.c:1128
 #, c-format
 msgid "Tag %u size is %u which is not sufficient to hold its content."
-msgstr ""
+msgstr "标签 %u 的大小 %u 不足以容纳其内容。"
 
 #: modules/file/matfile.c:189
 msgid "Imports Matlab MAT files v5."
-msgstr ""
+msgstr "导入 Matlab MAT 第 5 版文件。"
 
 #: modules/file/matfile.c:202
 msgid "Matlab MAT 5 file (.mat)"
-msgstr ""
+msgstr "Matlab MAT 5 文件（.mat）"
 
 #: modules/file/matfile.c:268
 msgid "Compressed data inside compressed data found."
-msgstr ""
+msgstr "在压缩数据内部又发现了压缩数据。"
 
 #: modules/file/matfile.c:301
 #, c-format
 msgid "Invalid short tag of type %u claims to consists of %u bytes."
-msgstr ""
+msgstr "类型为 %u 的短标签无效，却声称由 %u 字节组成。"
 
 #: modules/file/metropro.c:337
 msgid "Imports binary MetroPro (Zygo) data files."
-msgstr ""
+msgstr "导入 MetroPro（Zygo）二进制数据文件。"
 
 #: modules/file/metropro.c:350
 msgid "MetroPro files (.dat)"
-msgstr ""
+msgstr "MetroPro 文件（.dat）"
 
 #: modules/file/metropro.c:522
 msgid "File header is larger than file."
-msgstr ""
+msgstr "文件头比文件本身还大。"
 
 #: modules/file/microprof.c:972
 msgid "Imports MicroProf FRT profilometer data files."
-msgstr ""
+msgstr "导入 MicroProf FRT 轮廓仪数据文件。"
 
 #: modules/file/microprof.c:985
 msgid "MicroProf FRT files (.frt)"
-msgstr ""
+msgstr "MicroProf FRT 文件（.frt）"
 
 #: modules/file/microprof.c:991
 msgid "MicroProf FRT text files (.txt)"
-msgstr ""
+msgstr "MicroProf FRT 文本文件（.txt）"
 
 #: modules/file/microprof.c:1288
 #, c-format
 msgid "Duplicate block %02x."
-msgstr ""
+msgstr "块 %02x 重复。"
 
 #: modules/file/microprof.c:2581
 msgid "File contains fewer than XSize*YSize data points."
-msgstr ""
+msgstr "文件中的数据点少于 XSize*YSize。"
 
 #: modules/file/miffile.c:196
 msgid "Imports DME MIF data files."
-msgstr ""
+msgstr "导入 DME MIF 数据文件。"
 
 #: modules/file/miffile.c:209
 msgid "DME MIF files (.mif)"
-msgstr ""
+msgstr "DME MIF 文件（.mif）"
 
 #: modules/file/miffile.c:236
 msgid "Image header record is too short."
-msgstr ""
+msgstr "图像文件头记录过短。"
 
 #: modules/file/miffile.c:244
 msgid "Axis display info record is too short."
-msgstr ""
+msgstr "坐标轴显示信息记录过短。"
 
 #: modules/file/miffile.c:277
 #, c-format
 msgid "Loading of file version %u.%u is not implemented."
-msgstr ""
+msgstr "尚未实现文件版本 %u.%u 的加载。"
 
 #: modules/file/miffile.c:295
 msgid "File information block is outside the file."
-msgstr ""
+msgstr "文件信息块位于文件之外。"
 
 #: modules/file/miffile.c:330
 msgid "File information block size is invalid."
-msgstr ""
+msgstr "文件信息块的大小无效。"
 
 #: modules/file/miffile.c:395
 msgid "Unique id record is too short."
-msgstr ""
+msgstr "唯一标识记录过短。"
 
 #: modules/file/mifile.c:191
 msgid "Imports Molecular Imaging MI data files."
-msgstr ""
+msgstr "导入 Molecular Imaging MI 数据文件。"
 
 #: modules/file/mifile.c:204
 msgid "PicoView Data Files (.mi)"
-msgstr ""
+msgstr "PicoView 数据文件（.mi）"
 
 #: modules/file/mifile.c:470
 msgid "Spectroscopy Graph"
-msgstr ""
+msgstr "谱图"
 
 #: modules/file/mulfile.c:156
 msgid "Imports Aarhus MUL files."
-msgstr ""
+msgstr "导入 Aarhus MUL 文件。"
 
 #: modules/file/mulfile.c:169
 msgid "Aarhus MUL files (.mul)"
-msgstr ""
+msgstr "Aarhus MUL 文件（.mul）"
 
 #: modules/file/mulfile.c:286
 #, c-format
 msgid ""
 "Image number in the label %u does not match the number %u in the index."
-msgstr ""
+msgstr "标签中的图像编号 %u 与索引中的编号 %u 不符。"
 
 #: modules/file/mulfile.c:333 modules/file/mulfile.c:342
 #, c-format
 msgid "Label string length %u is larger than 20."
-msgstr ""
+msgstr "标签字符串长度 %u 大于 20。"
 
 #: modules/file/nanoeducator.c:287
 msgid "Imports Nanoeducator data files."
-msgstr ""
+msgstr "导入 Nanoeducator 数据文件。"
 
 #: modules/file/nanoeducator.c:300
 msgid "Nanoeducator files (.mspm, .spm, .stm)"
-msgstr ""
+msgstr "Nanoeducator 文件（.mspm、.spm、.stm）"
 
 #: modules/file/nanoeducator.c:357 modules/file/scafile.c:223
 #: modules/file/unisoku.c:294
@@ -7328,11 +7330,11 @@ msgstr "格式版本"
 #: modules/file/nanoeducator.c:382 modules/file/nanoeducator.c:420
 #: modules/file/nanoeducator.c:513
 msgid "Image data starts past the end of file."
-msgstr ""
+msgstr "图像数据的起始位置超出文件末尾。"
 
 #: modules/file/nanoeducator.c:457
 msgid "Spectra data starts past the end of file."
-msgstr ""
+msgstr "谱数据的起始位置超出文件末尾。"
 
 #: modules/file/nanoeducator.c:867 modules/file/nanoscope.c:1048
 #: modules/file/opengps.c:325 modules/file/sensofar.c:1020
@@ -7342,31 +7344,31 @@ msgstr "轮廓 %u"
 
 #: modules/file/nanoeducator.c:965
 msgid "F-D spectra"
-msgstr ""
+msgstr "力-距离谱"
 
 #: modules/file/nanoeducator.c:1038
 msgid "I-V spectra"
-msgstr ""
+msgstr "电流-电压谱"
 
 #: modules/file/nanoeducator.c:1107
 msgid "I-Z spectra"
-msgstr ""
+msgstr "电流-Z 谱"
 
 #: modules/file/nanomagnetics.c:399
 msgid "Imports Nanomagnetics' NMI file format version 3 and 5"
-msgstr ""
+msgstr "导入 Nanomagnetics 的 NMI 文件格式第 3 版和第 5 版。"
 
 #: modules/file/nanomagnetics.c:412
 msgid "Nanomagnetics File (.nmi)"
-msgstr ""
+msgstr "Nanomagnetics 文件（.nmi）"
 
 #: modules/file/nanonics.c:102
 msgid "Imports Nanonics NAN data files."
-msgstr ""
+msgstr "导入 Nanonics NAN 数据文件。"
 
 #: modules/file/nanonics.c:115
 msgid "Nanonics files (.nan)"
-msgstr ""
+msgstr "Nanonics 文件（.nan）"
 
 #: modules/file/nanonics.c:173 modules/file/nanonics.c:414
 #: modules/file/wsxmfile.c:310
@@ -7377,7 +7379,7 @@ msgstr "未找到预期的文件头结束标记“%s”。"
 #: modules/file/nanonics.c:204
 #, c-format
 msgid "HeaderLength %u differs from actual header length %u"
-msgstr ""
+msgstr "HeaderLength %u 与实际文件头长度 %u 不符。"
 
 #: modules/file/nanonics.c:342 modules/file/witec-asc.c:161
 #, c-format
@@ -7386,23 +7388,23 @@ msgstr "预期文件头开始标记为“%s”，但实际为“%s”。"
 
 #: modules/file/nanonis-spec.c:98
 msgid "Imports Nanonis DAT spectrum files."
-msgstr ""
+msgstr "导入 Nanonis DAT 谱文件。"
 
 #: modules/file/nanonis-spec.c:111
 msgid "Nanonis spectrum files (.dat)"
-msgstr ""
+msgstr "Nanonis 谱文件（.dat）"
 
 #: modules/file/nanonis-spec.c:446
 msgid "Data block is truncated"
-msgstr ""
+msgstr "数据块被截断。"
 
 #: modules/file/nanonis.c:113
 msgid "Imports Nanonis SXM data files."
-msgstr ""
+msgstr "导入 Nanonis SXM 数据文件。"
 
 #: modules/file/nanonis.c:133
 msgid "Nanonis SXM files (.sxm)"
-msgstr ""
+msgstr "Nanonis SXM 文件（.sxm）"
 
 #: modules/file/nanonis.c:246 modules/file/omicron.c:495
 #: modules/file/unisoku.c:271
@@ -7411,29 +7413,29 @@ msgstr "文件头意外结束。"
 
 #: modules/file/nanonis.c:267
 msgid "Garbage was found in place of tag header line."
-msgstr ""
+msgstr "标签头行的位置存在多余内容。"
 
 #: modules/file/nanonis.c:331
 #, c-format
 msgid "DATA_INFO does not contain the expected columns: %s."
-msgstr ""
+msgstr "DATA_INFO 未包含预期的列：%s。"
 
 #: modules/file/nanonis.c:353
 #, c-format
 msgid "DATA_INFO line contains fewer than %d fields."
-msgstr ""
+msgstr "DATA_INFO 行的字段少于 %d 个。"
 
 #: modules/file/nanonis.c:534
 msgid "Missing data start marker \\x1a\\x04."
-msgstr ""
+msgstr "缺少数据起始标记 \\x1a\\x04。"
 
 #: modules/file/nanoobserver.c:202
 msgid "Reads Nano-Solution/NanoObserver .nao files."
-msgstr ""
+msgstr "读取 Nano-Solution/NanoObserver .nao 文件。"
 
 #: modules/file/nanoobserver.c:215
 msgid "Nano-Solution/NanoObserver data (.nao)"
-msgstr ""
+msgstr "Nano-Solution/NanoObserver 数据（.nao）"
 
 #: modules/file/nanoobserver.c:419 modules/file/phoenix.c:668
 #: modules/file/spmlab.c:272 modules/file/ttffile.c:304
@@ -7443,47 +7445,47 @@ msgstr "数据块被截断。"
 
 #: modules/file/nanoobserver.c:430 modules/file/nanoobserver.c:470
 msgid "There are no valid scan lines."
-msgstr ""
+msgstr "没有有效的扫描线。"
 
 #: modules/file/nanoscan.c:187
 msgid "Imports NanoScan XML files."
-msgstr ""
+msgstr "导入 NanoScan XML 文件。"
 
 #: modules/file/nanoscan.c:200
 msgid "NanoScan XML files (.xml)"
-msgstr ""
+msgstr "NanoScan XML 文件（.xml）"
 
 #: modules/file/nanoscan.c:900
 msgid "Wrong size of Base64 encoded data."
-msgstr ""
+msgstr "Base64 编码数据的大小不正确。"
 
 #: modules/file/nanoscantech.c:125
 msgid "Imports NanoScanTech .nstdat files."
-msgstr ""
+msgstr "导入 NanoScanTech .nstdat 文件。"
 
 #: modules/file/nanoscantech.c:138
 msgid "NanoScanTech data (.nstdat)"
-msgstr ""
+msgstr "NanoScanTech 数据（.nstdat）"
 
 #: modules/file/nanoscope-ii.c:82
 msgid "Imports Digital Instruments Nanoscope II data files."
-msgstr ""
+msgstr "导入 Digital Instruments Nanoscope II 数据文件。"
 
 #: modules/file/nanoscope-ii.c:95
 msgid "Nanoscope II files"
-msgstr ""
+msgstr "Nanoscope II 文件"
 
 #: modules/file/nanoscope.c:273
 msgid "Imports Bruker Nanoscope data files, version 3 or newer."
-msgstr ""
+msgstr "导入第 3 版或更新版本的 Bruker Nanoscope 数据文件。"
 
 #: modules/file/nanoscope.c:286
 msgid "Nanoscope III files"
-msgstr ""
+msgstr "Nanoscope III 文件"
 
 #: modules/file/nanoscope.c:367
 msgid "File is not a Nanoscope file, or it is a unknown subtype."
-msgstr ""
+msgstr "文件不是 Nanoscope 文件，或者属于未知子类型。"
 
 #: modules/file/nanoscope.c:373
 msgid ""
@@ -7491,14 +7493,17 @@ msgid ""
 "\n"
 "Typically, this occurs if the file is treated as text when sent by e-mail uncompressed, sent by FTP in ascii mode (use binary), compressed by ‘Send to compressed folder’ in some versions of MS Windows, or any other file transfer that attempts to store text platform-independently."
 msgstr ""
+"换行符被更改，文件已损坏，其二进制部分遭到破坏。\n"
+"\n"
+"这通常发生在以下情形：文件未压缩即通过电子邮件按文本方式发送、以 ASCII 模式进行 FTP 传输（应使用二进制模式）、在某些版本的 MS Windows 中用“发送到压缩文件夹”压缩，或任何试图以与平台无关的方式保存文本的文件传输。"
 
 #: modules/file/nanoscope.c:474
 msgid "Reading channels..."
-msgstr ""
+msgstr "正在读取通道..."
 
 #: modules/file/nanoscope.c:2462 modules/file/nanoscope.c:2477
 msgid "Cannot parse `Scan size' field."
-msgstr ""
+msgstr "无法解析 `Scan size’ 字段。"
 
 #: modules/file/nanoscope.c:2527 modules/file/nrrdfile.c:1038
 #, c-format
@@ -7507,127 +7512,127 @@ msgstr "第 %u 个数据样本后存在多余内容。"
 
 #: modules/file/nanoscope.c:2579
 msgid "Truncated header line."
-msgstr ""
+msgstr "文件头行不完整。"
 
 #: modules/file/nanosystemz.c:95
 msgid "Imports NanoSystem profilometry data files."
-msgstr ""
+msgstr "导入 NanoSystem 轮廓测量数据文件。"
 
 #: modules/file/nanosystemz.c:108
 msgid "NanoSystem profilometry files (.spm)"
-msgstr ""
+msgstr "NanoSystem 轮廓测量文件（.spm）"
 
 #: modules/file/nanotop.c:107
 msgid "Imports NANOTOP AFM files"
-msgstr ""
+msgstr "导入 NANOTOP AFM 文件。"
 
 #: modules/file/nanotop.c:120
 msgid "Nanotop files (.spm)"
-msgstr ""
+msgstr "Nanotop 文件（.spm）"
 
 #: modules/file/netcdf.c:172
 msgid "Imports network Common Data Form (netCDF) files created by GXSM."
-msgstr ""
+msgstr "导入由 GXSM 创建的网络通用数据格式（netCDF）文件。"
 
 #: modules/file/netcdf.c:185
 msgid "GSXM netCDF files (.nc)"
-msgstr ""
+msgstr "GSXM netCDF 文件（.nc）"
 
 #: modules/file/netcdf.c:228
 #, c-format
 msgid "Variable `%s' refers to invalid or nonexistent data."
-msgstr ""
+msgstr "变量 `%s’ 引用了无效或不存在的数据。"
 
 #: modules/file/netcdf.c:267
 msgid "NetCDF records are not supported."
-msgstr ""
+msgstr "不支持 NetCDF 记录。"
 
 #: modules/file/netcdf.c:314
 msgid "Value series values must be of type FLOAT."
-msgstr ""
+msgstr "数值序列的值必须为 FLOAT 类型。"
 
 #: modules/file/netcdf.c:335
 msgid "Time values must be of type DOUBLE."
-msgstr ""
+msgstr "时间值必须为 DOUBLE 类型。"
 
 #: modules/file/netcdf.c:355
 msgid "Reading of fast scan files is not implemented - yet."
-msgstr ""
+msgstr "尚未实现快扫文件的读取。"
 
 #: modules/file/netcdf.c:425
 msgid "Time series order is wrong."
-msgstr ""
+msgstr "时间序列的顺序不正确。"
 
 #: modules/file/netcdf.c:959
 #, c-format
 msgid "File ended unexpectedly inside `%s'."
-msgstr ""
+msgstr "在 `%s’ 内部，文件意外结束。"
 
 #: modules/file/netcdf.c:968
 #, c-format
 msgid "Expected `%s' array or `ABSENT'."
-msgstr ""
+msgstr "预期为 `%s’ 数组或 `ABSENT’。"
 
 #: modules/file/netcdf.c:976
 #, c-format
 msgid "Array `%s' has non-zero number of elements in spite of being absent."
-msgstr ""
+msgstr "数组 `%s’ 被标记为缺失，元素个数却不为零。"
 
 #: modules/file/netcdf.c:1032
 msgid "More than one record dimension found."
-msgstr ""
+msgstr "发现多个记录维。"
 
 #: modules/file/nmmxyz.c:202
 msgid "Imports Nano Measuring Machine profile files."
-msgstr ""
+msgstr "导入纳米测量机轮廓文件。"
 
 #: modules/file/nmmxyz.c:215
 msgid "Nano Measuring Machine files (*.dsc)"
-msgstr ""
+msgstr "纳米测量机文件（*.dsc）"
 
 #: modules/file/nmmxyz.c:229
 msgid "Non-square pixels"
-msgstr ""
+msgstr "非正方形像素"
 
 #: modules/file/nmmxyz.c:230
 msgid "Specify X resolution"
-msgstr ""
+msgstr "指定 X 分辨率"
 
 #: modules/file/nmmxyz.c:231
 msgid "Specify Y resolution"
-msgstr ""
+msgstr "指定 Y 分辨率"
 
 #: modules/file/nmmxyz.c:242
 msgid "Plot point density map"
-msgstr ""
+msgstr "绘制点密度图"
 
 #: modules/file/nmmxyz.c:243
 msgid "Align scan lines with X axis"
-msgstr ""
+msgstr "将扫描线与 X 轴对齐"
 
 #: modules/file/nmmxyz.c:245
 msgid "Identical _measures"
-msgstr ""
+msgstr "像素尺寸相同(_M)"
 
 #: modules/file/nmmxyz.c:249
 msgid "Pixel resolution mode"
-msgstr ""
+msgstr "像素分辨率模式"
 
 #: modules/file/nmmxyz.c:252
 msgid "_Display with physical aspect ratio"
-msgstr ""
+msgstr "按物理宽高比显示(_D)"
 
 #: modules/file/nmmxyz.c:253
 msgid "_Filter out data using error channel"
-msgstr ""
+msgstr "使用误差通道滤除数据(_F)"
 
 #: modules/file/nmmxyz.c:256 modules/file/nmmxyz.c:277
 msgid "_Error channel"
-msgstr ""
+msgstr "误差通道(_E)"
 
 #: modules/file/nmmxyz.c:322
 msgid "Nano Measuring Machine data import must be run as interactive."
-msgstr ""
+msgstr "纳米测量机数据必须以交互方式导入。"
 
 #: modules/file/nmmxyz.c:384 modules/process/lat_synth.c:869
 #: modules/process/plateau_synth.c:874 modules/process/wave_synth.c:477
@@ -7636,7 +7641,7 @@ msgstr "正在渲染表面..."
 
 #: modules/file/nmmxyz.c:456
 msgid "Import NMM Profile Set"
-msgstr ""
+msgstr "导入 NMM 轮廓组"
 
 #: modules/file/nmmxyz.c:464 modules/file/rawfile.c:471
 msgid "Information"
@@ -7644,422 +7649,422 @@ msgstr "信息"
 
 #: modules/file/nmmxyz.c:466
 msgid "Number of data files"
-msgstr ""
+msgstr "数据文件数"
 
 #: modules/file/nmmxyz.c:469
 msgid "Total number of points"
-msgstr ""
+msgstr "点的总数"
 
 #: modules/file/nmmxyz.c:472
 msgid "Points per profile"
-msgstr ""
+msgstr "每条轮廓的点数"
 
 #: modules/file/nmmxyz.c:486
 msgid "_Auto"
-msgstr ""
+msgstr "自动(_A)"
 
 #: modules/file/nmmxyz.c:497
 msgid "Imported Channels"
-msgstr ""
+msgstr "已导入的通道"
 
 #: modules/file/nmmxyz.c:754
 msgid "Point density map"
-msgstr ""
+msgstr "点密度图"
 
 #: modules/file/nmmxyz.c:831
 msgid "Something is changing the data files on disk."
-msgstr ""
+msgstr "磁盘上的数据文件正在被更改。"
 
 #: modules/file/nova-asc.c:80
 msgid "Imports Nova ASC files."
-msgstr ""
+msgstr "导入 Nova ASC 文件。"
 
 #: modules/file/nova-asc.c:93
 msgid "Nova ASCII files (.txt)"
-msgstr ""
+msgstr "Nova ASCII 文件（.txt）"
 
 #: modules/file/npyfile.c:121
 msgid "Imports and exports binary serialized numpy arrays (NPY, NPZ)."
-msgstr ""
+msgstr "导入并导出二进制序列化的 numpy 数组（NPY、NPZ）。"
 
 #: modules/file/npyfile.c:134
 msgid "Serialized numpy array (.npy)"
-msgstr ""
+msgstr "序列化的 numpy 数组（.npy）"
 
 #: modules/file/npyfile.c:141
 msgid "Multiple serialized numpy arrays (.npz)"
-msgstr ""
+msgstr "多个序列化的 numpy 数组（.npz）"
 
 #: modules/file/npyfile.c:428
 msgid "Cannot parse NPY ASCII header."
-msgstr ""
+msgstr "无法解析 NPY 的 ASCII 文件头。"
 
 #: modules/file/nrrdfile.c:176
 msgid "Imports and exports nearly raw raster data (NRRD) files."
-msgstr ""
+msgstr "导入并导出近原始栅格数据（NRRD）文件。"
 
 #: modules/file/nrrdfile.c:189
 msgid "Nearly raw raster data (NRRD) files (.nrrd)"
-msgstr ""
+msgstr "近原始栅格数据（NRRD）文件（.nrrd）"
 
 #: modules/file/nrrdfile.c:322
 msgid "Detached header does not refer to any data file."
-msgstr ""
+msgstr "分离的文件头未指向任何数据文件。"
 
 #: modules/file/nrrdfile.c:346
 msgid "Only two- and three-dimensional data are supported."
-msgstr ""
+msgstr "仅支持二维和三维数据。"
 
 #: modules/file/nrrdfile.c:366
 msgid "Non-zero lineskip is supported only for uncompressed files."
-msgstr ""
+msgstr "仅未压缩文件支持非零 lineskip。"
 
 #: modules/file/nrrdfile.c:402
 msgid "Compression is supported only for detached files."
-msgstr ""
+msgstr "仅分离文件支持压缩。"
 
 #: modules/file/nrrdfile.c:693
 msgid "Split detached data files are not supported."
-msgstr ""
+msgstr "不支持拆分的分离数据文件。"
 
 #: modules/file/nrrdfile.c:912
 #, c-format
 msgid "Hex data contain fewer values (%u) than corresponds to the sizes (%u)."
-msgstr ""
+msgstr "十六进制数据中的值（%u）少于尺寸对应的数量（%u）。"
 
 #: modules/file/nrrdfile.c:1033
 #, c-format
 msgid ""
 "Text data contain fewer values (%u) than corresponds to the sizes (%u)."
-msgstr ""
+msgstr "文本数据中的值（%u）少于尺寸对应的数量（%u）。"
 
 #: modules/file/nrrdfile.c:1087
 msgid "Field byteskip cannot be -1 for text encodings."
-msgstr ""
+msgstr "对于文本编码，字段 byteskip 不能为 -1。"
 
 #: modules/file/nrrdfile.c:1097
 msgid "Field lineskip specifies more lines than there are in the file."
-msgstr ""
+msgstr "字段 lineskip 指定的行数超过文件中的实际行数。"
 
 #: modules/file/nrrdfile.c:1138
 msgid "Field byteskip specifies more bytes than there are in the file."
-msgstr ""
+msgstr "字段 byteskip 指定的字节数超过文件中的实际字节数。"
 
 #: modules/file/nrrdfile.c:1509
 #, c-format
 msgid "Items of per-axis header field %s are not quoted."
-msgstr ""
+msgstr "逐轴文件头字段 %s 的各项没有用引号括起。"
 
 #: modules/file/nrrdfile.c:1518
 #, c-format
 msgid "Per-axis header field %s contains too many items."
-msgstr ""
+msgstr "逐轴文件头字段 %s 的项过多。"
 
 #: modules/file/nrrdfile.c:1526
 #, c-format
 msgid "Per-axis header field %s contains too few items."
-msgstr ""
+msgstr "逐轴文件头字段 %s 的项过少。"
 
 #: modules/file/nt-mdt.c:722
 msgid "Imports NT-MDT data files."
-msgstr ""
+msgstr "导入 NT-MDT 数据文件。"
 
 #: modules/file/nt-mdt.c:735
 msgid "NT-MDT files (.mdt)"
-msgstr ""
+msgstr "NT-MDT 文件（.mdt）"
 
 #: modules/file/nt-mdt.c:1321 modules/file/nt-mdt.c:1427
 msgid "Frame is too short for Frame Mode."
-msgstr ""
+msgstr "帧长度不足以支持帧模式。"
 
 #: modules/file/nt-mdt.c:1336 modules/file/nt-mdt.c:1442
 msgid "Frame is too short for dots or data."
-msgstr ""
+msgstr "帧长度不足以容纳点或数据。"
 
 #: modules/file/nt-mdt.c:1697
 #, c-format
 msgid "End of file reached in frame header #%u."
-msgstr ""
+msgstr "读取帧文件头 #%u 时到达文件末尾。"
 
 #: modules/file/nt-mdt.c:1705
 #, c-format
 msgid "End of file reached in frame data #%u."
-msgstr ""
+msgstr "读取帧数据 #%u 时到达文件末尾。"
 
 #: modules/file/nt-mdt.c:1738
 #, c-format
 msgid "Frame #%u is too short for scanned data header."
-msgstr ""
+msgstr "帧 #%u 过短，无法容纳扫描数据的文件头。"
 
 #: modules/file/nt-mdt.c:1755
 #, c-format
 msgid "Frame #%u is too short for spectroscopy data header."
-msgstr ""
+msgstr "帧 #%u 过短，无法容纳谱数据的文件头。"
 
 #: modules/file/nxiifile.c:116
 msgid "Imports EM4SYS data files."
-msgstr ""
+msgstr "导入 EM4SYS 数据文件。"
 
 #: modules/file/nxiifile.c:129
 msgid "EM4SYS NX II files (.bmp)"
-msgstr ""
+msgstr "EM4SYS NX II 文件（.bmp）"
 
 #: modules/file/oirfile.c:241
 msgid "Imports Olympus OIR data files."
-msgstr ""
+msgstr "导入 Olympus OIR 数据文件。"
 
 #: modules/file/oirfile.c:258
 msgid "Olympus OIR data files (.oir)"
-msgstr ""
+msgstr "Olympus OIR 数据文件（.oir）"
 
 #: modules/file/oirfile.c:265
 msgid "Olympus packed OIR data files (.poir)"
-msgstr ""
+msgstr "Olympus 打包的 OIR 数据文件（.poir）"
 
 #: modules/file/oirfile.c:446 modules/file/oirfile.c:459
 #: modules/file/oirfile.c:484
 #, c-format
 msgid "Chunk type %u occured multiple times."
-msgstr ""
+msgstr "区块类型 %u 出现了多次。"
 
 #: modules/file/oldmda.c:152
 msgid "Imports old NTMDT MDA Spectra files."
-msgstr ""
+msgstr "导入旧版 NTMDT MDA 谱文件。"
 
 #: modules/file/oldmda.c:165
 msgid "NTMDT old MDA Spectra data (.sxml .dat)"
-msgstr ""
+msgstr "NTMDT 旧版 MDA 谱数据（.sxml .dat）"
 
 #: modules/file/oldmda.c:237
 msgid "Incorrect number of axes in parameter file."
-msgstr ""
+msgstr "参数文件中的轴数不正确。"
 
 #: modules/file/oldmda.c:252
 #, c-format
 msgid "Cannot load data file: %s"
-msgstr ""
+msgstr "无法加载数据文件：%s"
 
 #: modules/file/oldmda.c:260
 msgid "Data file is too short."
-msgstr ""
+msgstr "数据文件过短。"
 
 #: modules/file/ols.c:61
 msgid "Imports OLS data files."
-msgstr ""
+msgstr "导入 OLS 数据文件。"
 
 #: modules/file/ols.c:74
 msgid "Olympus LEXT OLS3000 (.ols)"
-msgstr ""
+msgstr "Olympus LEXT OLS3000（.ols）"
 
 #: modules/file/ometiff.c:150
 msgid "Imports OME-TIFF data files."
-msgstr ""
+msgstr "导入 OME-TIFF 数据文件。"
 
 #: modules/file/ometiff.c:163
 msgid "Open Microscopy OME-TIFF (.ome.tiff)"
-msgstr ""
+msgstr "Open Microscopy OME-TIFF（.ome.tiff）"
 
 #: modules/file/ometiff.c:590
 #, c-format
 msgid "ZTC coordinates (%u,%u,%u) fall outside the given ranges."
-msgstr ""
+msgstr "ZTC 坐标 (%u,%u,%u) 超出给定范围。"
 
 #: modules/file/ometiff.c:596
 msgid ""
 "The OME TIFF header specifies more TIFF directories than there are in the "
 "file."
-msgstr ""
+msgstr "OME TIFF 文件头指定的 TIFF 目录数多于文件中实际存在的目录。"
 
 #: modules/file/ometiff.c:602
 #, c-format
 msgid "TIFF directory %u is assigned to multiple conflicting ZTC coordinates."
-msgstr ""
+msgstr "TIFF 目录 %u 被赋予了多个相互冲突的 ZTC 坐标。"
 
 #: modules/file/omicron.c:160
 msgid "Imports Omicron data files (two-part .par + .tf*, .tb*, .sf*, .sb*)."
-msgstr ""
+msgstr "导入 Omicron 数据文件（.par 与 .tf*、.tb*、.sf*、.sb* 两部分）。"
 
 #: modules/file/omicron.c:173
 msgid "Omicron files (.par + data)"
-msgstr ""
+msgstr "Omicron 文件（.par + 数据）"
 
 #: modules/file/omicron.c:407
 msgid "Header line starts with a colon."
-msgstr ""
+msgstr "文件头行以冒号开头。"
 
 #: modules/file/omicron.c:503
 msgid "Channel information ended unexpectedly."
-msgstr ""
+msgstr "通道信息意外结束。"
 
 #: modules/file/omicronflat.c:359
 msgid "Imports Omicron flat files."
-msgstr ""
+msgstr "导入 Omicron flat 文件。"
 
 #: modules/file/omicronflat.c:372
 msgid "Omicron flat files (*.*_flat)"
-msgstr ""
+msgstr "Omicron flat 文件（*.*_flat）"
 
 #: modules/file/omicronflat.c:1710
 msgid "File name does not have the expected form for Omicron Flat files."
-msgstr ""
+msgstr "文件名不符合 Omicron Flat 文件的预期形式。"
 
 #: modules/file/omicronflat.c:2123
 msgid "Cannot understand the axis hierarchy."
-msgstr ""
+msgstr "无法识别坐标轴的层级关系。"
 
 #. TRANSLATORS: %s is replaced with an expression of the data shape.
 #: modules/file/omicronflat.c:2539
 #, c-format
 msgid "Cannot figure out how to load data in the following form: %s."
-msgstr ""
+msgstr "无法确定如何加载以下形式的数据：%s。"
 
 #: modules/file/omicronmatrix.c:219
 msgid "Omicron MATRIX (param.mtrx & data.mtrx)"
-msgstr ""
+msgstr "Omicron MATRIX（param.mtrx 和 data.mtrx）"
 
 #: modules/file/omicronmatrix.c:235
 msgid "Omicron MATRIX (.mtrx & .mtrx)"
-msgstr ""
+msgstr "Omicron MATRIX（.mtrx 和 .mtrx）"
 
 #: modules/file/opdfile.c:194
 msgid "Imports Wyko OPD and ASC files."
-msgstr ""
+msgstr "导入 Wyko OPD 和 ASC 文件。"
 
 #: modules/file/opdfile.c:207
 msgid "Wyko OPD files (.opd)"
-msgstr ""
+msgstr "Wyko OPD 文件（.opd）"
 
 #: modules/file/opdfile.c:214
 msgid "Wyko ASCII export files (.asc)"
-msgstr ""
+msgstr "Wyko ASCII 导出文件（.asc）"
 
 #: modules/file/opdfile.c:301
 #, c-format
 msgid "Item `%s' is beyond the end of the file."
-msgstr ""
+msgstr "项 `%s’ 超出了文件末尾。"
 
 #: modules/file/opdfile.c:599
 msgid "Nested directories found"
-msgstr ""
+msgstr "发现嵌套目录。"
 
 #: modules/file/opengps.c:131
 msgid "Reads ISO 5436-2 OpenGPS .x3p files."
-msgstr ""
+msgstr "读取 ISO 5436-2 OpenGPS .x3p 文件。"
 
 #: modules/file/opengps.c:144
 msgid "ISO 5436-2 OpenGPS data (.x3p)"
-msgstr ""
+msgstr "ISO 5436-2 OpenGPS 数据（.x3p）"
 
 #: modules/file/opengps.c:402 modules/file/opengps.c:433
 msgid "Too many DataList items for given matrix dimensions."
-msgstr ""
+msgstr "相对于给定的矩阵尺寸，DataList 项过多。"
 
 #: modules/file/opengps.c:514
 msgid "File main.xml contains multiple data elements."
-msgstr ""
+msgstr "文件 main.xml 包含多个 data 元素。"
 
 #. TRANSLATORS: type and axis are symbols such as I, CX, ...
 #: modules/file/opengps.c:543 modules/file/opengps.c:551
 #: modules/file/opengps.c:559
 #, c-format
 msgid "Only type %s is supported for axis %s."
-msgstr ""
+msgstr "类型 %s 是坐标轴 %s 唯一支持的类型。"
 
 #: modules/file/phoenix.c:215
 msgid "Imports AFM data files from NASA Phoenix Mars mission."
-msgstr ""
+msgstr "导入 NASA 凤凰号火星任务的 AFM 数据文件。"
 
 #: modules/file/phoenix.c:228
 msgid "AFM data from NASA Phoenix mission (.dat, .lbl + .tab)"
-msgstr ""
+msgstr "NASA 凤凰号任务的 AFM 数据（.dat、.lbl + .tab）"
 
 #: modules/file/phoenix.c:475
 #, c-format
 msgid "No previous record to continue at line %u."
-msgstr ""
+msgstr "第 %u 行没有可以继续的上一条记录。"
 
 #: modules/file/phoenix.c:508
 #, c-format
 msgid "Invalid object nesting at line %u."
-msgstr ""
+msgstr "第 %u 行的对象嵌套无效。"
 
 #: modules/file/phoenix.c:1018
 msgid "Cannot parse AFM HEADER_TABLE values."
-msgstr ""
+msgstr "无法解析 AFM HEADER_TABLE 的值。"
 
 #: modules/file/pixmap.c:173
 msgid "All channels"
-msgstr ""
+msgstr "全部通道"
 
 #: modules/file/pixmap.c:174
 msgid "Red"
-msgstr ""
+msgstr "红"
 
 #: modules/file/pixmap.c:175
 msgid "Green"
-msgstr ""
+msgstr "绿"
 
 #: modules/file/pixmap.c:176
 msgid "Blue"
-msgstr ""
+msgstr "蓝"
 
 #: modules/file/pixmap.c:177
 msgid "Gray"
-msgstr ""
+msgstr "灰"
 
 #: modules/file/pixmap.c:178
 msgid "Value (max)"
-msgstr ""
+msgstr "明度（最大）"
 
 #: modules/file/pixmap.c:179
 msgid "RGB sum"
-msgstr ""
+msgstr "RGB 之和"
 
 #: modules/file/pixmap.c:180
 msgid "Luma"
-msgstr ""
+msgstr "亮度"
 
 #: modules/file/pixmap.c:181
 msgid "Hue"
-msgstr ""
+msgstr "色相"
 
 #: modules/file/pixmap.c:182
 msgid "Alpha"
-msgstr ""
+msgstr "Alpha"
 
 #: modules/file/pixmap.c:198
 msgid "Graphics Interchange Format GIF (.gif)"
-msgstr ""
+msgstr "图形交换格式 GIF（.gif）"
 
 #: modules/file/pixmap.c:199
 msgid "JPEG 2000 (.jpx)"
-msgstr ""
+msgstr "JPEG 2000（.jpx）"
 
 #: modules/file/pixmap.c:201
 msgid "PCX (.pcx)"
-msgstr ""
+msgstr "PCX（.pcx）"
 
 #: modules/file/pixmap.c:202
 msgid "X Pixmap (.xpm)"
-msgstr ""
+msgstr "X Pixmap（.xpm）"
 
 #: modules/file/pixmap.c:203
 msgid "Sun raster image (.ras)"
-msgstr ""
+msgstr "Sun 光栅图像（.ras）"
 
 #: modules/file/pixmap.c:204
 msgid "Apple icon (.icns)"
-msgstr ""
+msgstr "Apple 图标（.icns）"
 
 #: modules/file/pixmap.c:206
 msgid "High Efficiency Image File Format (.heif)"
-msgstr ""
+msgstr "高效图像文件格式（.heif）"
 
 #: modules/file/pixmap.c:215
 msgid ""
 "Imports data from low-depth pixmap images (PNG, TIFF, JPEG, ...).  The set "
 "of available formats depends on available GDK pixbuf loaders."
-msgstr ""
+msgstr "从低位深像素图（PNG、TIFF、JPEG 等）导入数据。可用格式取决于已安装的 GDK pixbuf 加载器。"
 
 #: modules/file/pixmap.c:283 modules/process/smm.c:442
 msgid "Use"
@@ -8067,17 +8072,17 @@ msgstr "使用"
 
 #: modules/file/pixmap.c:285
 msgid "_Hue offset"
-msgstr ""
+msgstr "色相偏移(_H)"
 
 #: modules/file/pixmap.c:466
 #, c-format
 msgid "Pixmap has not registered file type `%s'."
-msgstr ""
+msgstr "像素图模块尚未注册文件类型 `%s’。"
 
 #: modules/file/pixmap.c:480
 #, c-format
 msgid "Cannot get pixbuf loader: %s."
-msgstr ""
+msgstr "无法获取 pixbuf 加载器：%s。"
 
 #: modules/file/pixmap.c:492 modules/file/pixmap.c:504
 #: modules/file/renishaw.c:568 modules/file/renishaw.c:578
@@ -8088,334 +8093,334 @@ msgstr "Pixbuf 加载器拒绝了数据：%s。"
 
 #: modules/file/pixmap.c:741
 msgid "as data"
-msgstr ""
+msgstr "作为数据"
 
 #: modules/file/pixmap.c:749
 msgid ""
 "Warning: Colorful images cannot be reliably mapped to meaningful values."
-msgstr ""
+msgstr "警告：彩色图像无法可靠地映射为有意义的数值。"
 
 #: modules/file/pltfile.c:75
 msgid "Imports Nanosurf PLT files."
-msgstr ""
+msgstr "导入 Nanosurf PLT 文件。"
 
 #: modules/file/pltfile.c:88
 msgid "Nanosurf PLT files (.plt)"
-msgstr ""
+msgstr "Nanosurf PLT 文件（.plt）"
 
 #: modules/file/pnifile.c:114
 msgid "Imports Pacific Nanotechnology PNI data files."
-msgstr ""
+msgstr "导入 Pacific Nanotechnology PNI 数据文件。"
 
 #: modules/file/pnifile.c:127
 msgid "PNI files (.pni)"
-msgstr ""
+msgstr "PNI 文件（.pni）"
 
 #: modules/file/princetonspe.c:106
 msgid "Princeton Instruments camera SPE files."
-msgstr ""
+msgstr "Princeton Instruments 相机 SPE 文件。"
 
 #: modules/file/princetonspe.c:119
 msgid "Princeton Instruments SPE files"
-msgstr ""
+msgstr "Princeton Instruments SPE 文件"
 
 #: modules/file/princetonspe.c:317
 msgid "XML footer overlaps with data."
-msgstr ""
+msgstr "XML 尾部与数据重叠。"
 
 #: modules/file/psia.c:245
 msgid "Imports Park Systems data files."
-msgstr ""
+msgstr "导入 Park Systems 数据文件。"
 
 #: modules/file/psia.c:258
 msgid "Park Systems data files (.tiff, .tif)"
-msgstr ""
+msgstr "Park Systems 数据文件（.tiff、.tif）"
 
 #: modules/file/psia.c:500
 #, c-format
 msgid "Header is too short (only %lu bytes)."
-msgstr ""
+msgstr "文件头过短（仅 %lu 字节）。"
 
 #: modules/file/psia.c:604
 #, c-format
 msgid "Spectroscopy header is too short (only %lu bytes)."
-msgstr ""
+msgstr "谱文件头过短（仅 %lu 字节）。"
 
 #: modules/file/psppt.c:142
 msgid "Imports Park Systems PS-PPT data files."
-msgstr ""
+msgstr "导入 Park Systems PS-PPT 数据文件。"
 
 #: modules/file/psppt.c:155
 msgid "Park Systems PS-PPT data files (.ps-ppt)"
-msgstr ""
+msgstr "Park Systems PS-PPT 数据文件（.ps-ppt）"
 
 #: modules/file/psppt.c:239
 msgid "Frame offsets do not increase monotonically."
-msgstr ""
+msgstr "帧偏移没有单调递增。"
 
 #: modules/file/psppt.c:267
 #, c-format
 msgid "Unexpected frame with data type %d."
-msgstr ""
+msgstr "出现意外的帧，其数据类型为 %d。"
 
 #: modules/file/psppt.c:290
 #, c-format
 msgid "Unexpected JSON structure: %s should be %s."
-msgstr ""
+msgstr "JSON 结构异常：%s 应为 %s。"
 
 #: modules/file/psppt.c:335
 #, c-format
 msgid "JSON parsing error: %s"
-msgstr ""
+msgstr "JSON 解析错误：%s"
 
 #: modules/file/psppt.c:620
 msgid "Reading frame table..."
-msgstr ""
+msgstr "正在读取帧表..."
 
 #: modules/file/psppt.c:627
 msgid "Reading curve data..."
-msgstr ""
+msgstr "正在读取曲线数据..."
 
 #: modules/file/pt3file.c:288
 msgid "Imports SymPhoTime data files, version 2.0."
-msgstr ""
+msgstr "导入 2.0 版 SymPhoTime 数据文件。"
 
 #: modules/file/pt3file.c:301
 msgid "PicoHarp files (.pt3)"
-msgstr ""
+msgstr "PicoHarp 文件（.pt3）"
 
 #: modules/file/pt3file.c:387
 msgid "T2 measurement mode is not implemented."
-msgstr ""
+msgstr "尚未实现 T2 测量模式。"
 
 #: modules/file/pt3file.c:393
 msgid "Only PI E710 and KDT180-100-Im imaging formats are implemented."
-msgstr ""
+msgstr "仅实现了 PI E710 和 KDT180-100-Im 成像格式。"
 
 #: modules/file/pt3file.c:518
 #, c-format
 msgid "Measurement mode must be 2 or 3; %u is invalid."
-msgstr ""
+msgstr "测量模式必须为 2 或 3；%u 无效。"
 
 #: modules/file/pt3file.c:524 modules/file/pt3file.c:536
 msgid "Only area imaging files are supported."
-msgstr ""
+msgstr "仅支持区域成像文件。"
 
 #: modules/file/pt3file.c:555
 #, c-format
 msgid "Unknown instrument number %u."
-msgstr ""
+msgstr "未知的仪器编号 %u。"
 
 #: modules/file/pt3file.c:561
 #, c-format
 msgid "Wrong imaging header size: %u instead of %u."
-msgstr ""
+msgstr "成像文件头大小错误：实际为 %u，应为 %u。"
 
 #: modules/file/pt3file.c:707
 #, c-format
 msgid ""
 "Number of line triggers %u is smaller than the number of scan lines %u."
-msgstr ""
+msgstr "行触发次数 %u 小于扫描线数 %u。"
 
 #: modules/file/qnami.c:65
 msgid "Imports Qnami ProteusQ SPM files."
-msgstr ""
+msgstr "导入 Qnami ProteusQ 扫描探针显微文件。"
 
 #: modules/file/qnami.c:78
 msgid "Qnami ProteusQ files (.dat)"
-msgstr ""
+msgstr "Qnami ProteusQ 文件（.dat）"
 
 #: modules/file/qnami.c:207
 msgid "Invalid file header structure."
-msgstr ""
+msgstr "文件头结构无效。"
 
 #: modules/file/quazarnpic.c:369
 msgid "Imports Quazar data files stored as Python pickles v4."
-msgstr ""
+msgstr "导入以 Python pickle 第 4 版存储的 Quazar 数据文件。"
 
 #: modules/file/quazarnpic.c:382
 msgid "Quazar Python-pickled data (.npic)"
-msgstr ""
+msgstr "Quazar Python pickle 数据（.npic）"
 
 #: modules/file/quazarnpic.c:427
 #, c-format
 msgid "Invalid stack state for opcode %02x."
-msgstr ""
+msgstr "操作码 %02x 的堆栈状态无效。"
 
 #: modules/file/quazarnpic.c:745
 #, c-format
 msgid "Uknown opcode 0x%02x encountered"
-msgstr ""
+msgstr "遇到未知操作码 0x%02x。"
 
 #: modules/file/quesant.c:67
 msgid "Imports Quesant file format."
-msgstr ""
+msgstr "导入 Quesant 文件格式。"
 
 #: modules/file/quesant.c:80
 msgid "Quesant files (.afm)"
-msgstr ""
+msgstr "Quesant 文件（.afm）"
 
 #: modules/file/rawfile.c:236
 msgid "User-specified"
-msgstr ""
+msgstr "用户指定"
 
 #: modules/file/rawfile.c:237
 msgid "Signed byte"
-msgstr ""
+msgstr "有符号字节"
 
 #: modules/file/rawfile.c:238
 msgid "Unsigned byte"
-msgstr ""
+msgstr "无符号字节"
 
 #: modules/file/rawfile.c:239
 msgid "Signed 16bit word"
-msgstr ""
+msgstr "有符号 16 位字"
 
 #: modules/file/rawfile.c:240
 msgid "Unsigned 16bit word"
-msgstr ""
+msgstr "无符号 16 位字"
 
 #: modules/file/rawfile.c:241
 msgid "Signed 32bit word"
-msgstr ""
+msgstr "有符号 32 位字"
 
 #: modules/file/rawfile.c:242
 msgid "Unsigned 32bit word"
-msgstr ""
+msgstr "无符号 32 位字"
 
 #: modules/file/rawfile.c:243
 msgid "Signed 64bit word"
-msgstr ""
+msgstr "有符号 64 位字"
 
 #: modules/file/rawfile.c:244
 msgid "Unsigned 64bit word"
-msgstr ""
+msgstr "无符号 64 位字"
 
 #: modules/file/rawfile.c:245
 msgid "IEEE single"
-msgstr ""
+msgstr "IEEE 单精度"
 
 #: modules/file/rawfile.c:246
 msgid "IEEE double"
-msgstr ""
+msgstr "IEEE 双精度"
 
 #: modules/file/rawfile.c:247
 msgid "IEEE half"
-msgstr ""
+msgstr "IEEE 半精度"
 
 #: modules/file/rawfile.c:248
 msgid "Pascal real"
-msgstr ""
+msgstr "Pascal 实数"
 
 #: modules/file/rawfile.c:258
 msgid ""
 "Imports raw data files, both ASCII and binary, according to user-specified "
 "format."
-msgstr ""
+msgstr "按用户指定的格式导入原始数据文件，包括 ASCII 和二进制。"
 
 #: modules/file/rawfile.c:277
 msgid "Raw data files"
-msgstr ""
+msgstr "原始数据文件"
 
 #: modules/file/rawfile.c:307
 msgid "Any whitespace"
-msgstr ""
+msgstr "任意空白"
 
 #: modules/file/rawfile.c:308
 msgid "TAB character"
-msgstr ""
+msgstr "TAB 字符"
 
 #: modules/file/rawfile.c:309
 msgid "Other character"
-msgstr ""
+msgstr "其他字符"
 
 #: modules/file/rawfile.c:322
 msgid "_Field delimiter"
-msgstr ""
+msgstr "字段分隔符(_F)"
 
 #: modules/file/rawfile.c:328
 msgid "_Automatically offer raw data import of unknown files"
-msgstr ""
+msgstr "对未知文件自动提供原始数据导入(_A)"
 
 #: modules/file/rawfile.c:337
 msgid "_Text data"
-msgstr ""
+msgstr "文本数据(_T)"
 
 #: modules/file/rawfile.c:338
 msgid "_Binary data"
-msgstr ""
+msgstr "二进制数据(_B)"
 
 #: modules/file/rawfile.c:349 modules/file/rawfile.c:350
 msgid "Missin_g value substitute"
-msgstr ""
+msgstr "缺失值替代(_G)"
 
 #: modules/file/rawfile.c:361
 msgid "Start from file _line"
-msgstr ""
+msgstr "起始文件行(_L)"
 
 #: modules/file/rawfile.c:362
 msgid "_Each image row skip"
-msgstr ""
+msgstr "每个图像行跳过(_E)"
 
 #: modules/file/rawfile.c:363
 msgid "One _value per line"
-msgstr ""
+msgstr "每行一个数值(_V)"
 
 #: modules/file/rawfile.c:364
 msgid "E_xtract column"
-msgstr ""
+msgstr "提取列(_X)"
 
 #: modules/file/rawfile.c:365
 msgid "_Other delimiter"
-msgstr ""
+msgstr "其他分隔符(_O)"
 
 #: modules/file/rawfile.c:370
 msgid "Data t_ype"
-msgstr ""
+msgstr "数据类型(_Y)"
 
 #: modules/file/rawfile.c:372
 msgid "Byte s_wap pattern"
-msgstr ""
+msgstr "字节交换模式(_W)"
 
 #: modules/file/rawfile.c:373
 msgid "Start at _offset"
-msgstr ""
+msgstr "起始偏移(_O)"
 
 #: modules/file/rawfile.c:374
 msgid "_Sample size"
-msgstr ""
+msgstr "采样大小(_S)"
 
 #: modules/file/rawfile.c:375
 msgid "After each sample s_kip"
-msgstr ""
+msgstr "每个采样之后跳过(_K)"
 
 #: modules/file/rawfile.c:376
 msgid "After each _row skip"
-msgstr ""
+msgstr "每行之后跳过(_R)"
 
 #: modules/file/rawfile.c:377
 msgid "_Reverse bits in bytes"
-msgstr ""
+msgstr "反转字节中的位(_R)"
 
 #: modules/file/rawfile.c:378
 msgid "Reverse bi_ts in samples"
-msgstr ""
+msgstr "反转采样中的位(_T)"
 
 #: modules/file/rawfile.c:379
 msgid "Samples are si_gned"
-msgstr ""
+msgstr "采样为有符号数(_G)"
 
 #: modules/file/rawfile.c:406
 msgid "Raw data import must be run as interactive."
-msgstr ""
+msgstr "原始数据导入必须以交互方式运行。"
 
 #: modules/file/rawfile.c:457
 msgid "Read Raw File"
-msgstr ""
+msgstr "读取原始文件"
 
 #: modules/file/rawfile.c:472
 msgid "Data Format"
-msgstr ""
+msgstr "数据格式"
 
 #: modules/file/rawfile.c:522 modules/graph/graph_measure_period.c:238
 #: modules/graph/graph_stats.c:212 modules/graph/graph_terraces.c:638
@@ -8432,42 +8437,42 @@ msgstr "文件"
 
 #: modules/file/rawfile.c:585
 msgid "fields"
-msgstr ""
+msgstr "字段"
 
 #: modules/file/rawfile.c:600
 msgid "bytes"
-msgstr ""
+msgstr "字节"
 
 #: modules/file/rawfile.c:602 modules/file/rawfile.c:605
 #: modules/file/rawfile.c:608
 msgid "bits"
-msgstr ""
+msgstr "位"
 
 #: modules/file/rawfile.c:637
 msgid "Binary"
-msgstr ""
+msgstr "二进制"
 
 #: modules/file/rawfile.c:637
 msgid "Text"
-msgstr ""
+msgstr "文本"
 
 #: modules/file/rawfile.c:658
 msgid "Delimiter: whitespace"
-msgstr ""
+msgstr "分隔符：空白"
 
 #: modules/file/rawfile.c:661
 #, c-format
 msgid "Delimiter: 0x%02x"
-msgstr ""
+msgstr "分隔符：0x%02x"
 
 #: modules/file/rawfile.c:663
 #, c-format
 msgid "Delimiter: %s"
-msgstr ""
+msgstr "分隔符：%s"
 
 #: modules/file/rawfile.c:692
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 #: modules/file/rawfile.c:1135
 #, c-format
@@ -8475,6 +8480,8 @@ msgid ""
 "<b>Too short file</b>\n"
 "The format would require %lu bytes long file (at least), but the length of `%s' is only %u bytes."
 msgstr ""
+"<b>文件过短</b>\n"
+"此格式至少需要 %lu 字节，但 `%s’ 的长度只有 %u 字节。"
 
 #: modules/file/rawfile.c:1166
 #, c-format
@@ -8482,155 +8489,157 @@ msgid ""
 "<b>Parsing failed</b>\n"
 "The contents of `%s' does not match format: %s."
 msgstr ""
+"<b>解析失败</b>\n"
+"`%s’ 的内容与格式不符：%s。"
 
 #: modules/file/rawfile.c:1514
 #, c-format
 msgid "Expected whitespace to skip more fields in row %u, got `%.16s'"
-msgstr ""
+msgstr "第 %u 行需要用空白跳过更多字段，实际遇到 `%.16s'"
 
 #: modules/file/rawfile.c:1526
 #, c-format
 msgid "Expected `%c' to skip more fields in row %u, got `%.16s'"
-msgstr ""
+msgstr "需要用 `%c’ 在第 %u 行跳过更多字段，实际遇到 `%.16s'"
 
 #: modules/file/rawfile.c:1538
 #, c-format
 msgid "Expected `%s' to skip more fields in row %u, got `%.16s'"
-msgstr ""
+msgstr "需要用 `%s’ 在第 %u 行跳过更多字段，实际遇到 `%.16s'"
 
 #: modules/file/rawfile.c:1569 modules/file/rawfile.c:1582
 #: modules/file/rawfile.c:1607
 #, c-format
 msgid "Garbage `%.16s' in row %u, column %u"
-msgstr ""
+msgstr "多余内容 `%.16s’ 出现在第 %u 行第 %u 列"
 
 #: modules/file/rawfile.c:1595
 #, c-format
 msgid "Expected delimiter `%c' after data in row %u, column %u, got `%c'"
-msgstr ""
+msgstr "数据之后应为分隔符 `%c’，位置在第 %u 行第 %u 列，实际为 `%c'"
 
 #: modules/file/rawfile.c:1620
 #, c-format
 msgid "Expected delimiter `%s' after data in row %u, column %u, got `%.16s'"
-msgstr ""
+msgstr "数据之后应为分隔符 `%s’，位置在第 %u 行第 %u 列，实际为 `%.16s'"
 
 #: modules/file/rawfile.c:1664
 #, c-format
 msgid "Not enough lines (%d) for offset (%d)"
-msgstr ""
+msgstr "行数（%d）不足以满足偏移（%d）"
 
 #: modules/file/rawgraph.c:87
 msgid "Imports simple text files as graph curves."
-msgstr ""
+msgstr "将简单文本文件作为曲线导入曲线图。"
 
 #: modules/file/rawgraph.c:100
 msgid "ASCII graph curve files"
-msgstr ""
+msgstr "ASCII 曲线文件"
 
 #: modules/file/rawgraph.c:121
 msgid "_Title"
-msgstr ""
+msgstr "标题(_T)"
 
 #: modules/file/rawgraph.c:123
 msgid "_X label"
-msgstr ""
+msgstr "X 标签(_X)"
 
 #: modules/file/rawgraph.c:125
 msgid "_Y label"
-msgstr ""
+msgstr "Y 标签(_Y)"
 
 #: modules/file/rawgraph.c:127
 msgid "X _units"
-msgstr ""
+msgstr "X 单位(_U)"
 
 #: modules/file/rawgraph.c:129
 msgid "Y u_nits"
-msgstr ""
+msgstr "Y 单位(_N)"
 
 #: modules/file/rawgraph.c:191
 msgid "ASCII graph import must be run as interactive."
-msgstr ""
+msgstr "ASCII 曲线图导入必须以交互方式运行。"
 
 #: modules/file/rawgraph.c:242
 msgid "Import Graph Data"
-msgstr ""
+msgstr "导入曲线图数据"
 
 #: modules/file/renishaw.c:393
 msgid "Imports Renishaw WiRE data files (WDF)."
-msgstr ""
+msgstr "导入 Renishaw WiRE 数据文件（WDF）。"
 
 #: modules/file/renishaw.c:406
 msgid "Renishaw WiRE data files (.wdf)"
-msgstr ""
+msgstr "Renishaw WiRE 数据文件（.wdf）"
 
 #: modules/file/renishaw.c:836
 msgid "Random points order unsupported"
-msgstr ""
+msgstr "不支持随机点顺序。"
 
 #: modules/file/rhk-sm3.c:231
 msgid "Imports RHK Technology SM3 data files."
-msgstr ""
+msgstr "导入 RHK Technology SM3 数据文件。"
 
 #: modules/file/rhk-sm3.c:251
 msgid "RHK SM3 files (.sm3)"
-msgstr ""
+msgstr "RHK SM3 文件（.sm3）"
 
 #: modules/file/rhk-sm3.c:323 modules/file/rhk-sm3.c:336
 msgid "End of file reached in page header."
-msgstr ""
+msgstr "读取页文件头时到达文件末尾。"
 
 #: modules/file/rhk-sm3.c:327
 msgid "magic page header"
-msgstr ""
+msgstr "页头魔数"
 
 #: modules/file/rhk-sm3.c:397
 #, c-format
 msgid "End of file reached in string #%u."
-msgstr ""
+msgstr "读取字符串 #%u 时到达文件末尾。"
 
 #: modules/file/rhk-sm3.c:417
 msgid "End of file reached in color data header."
-msgstr ""
+msgstr "读取颜色数据头时到达文件末尾。"
 
 #: modules/file/rhk-sm3.c:424
 msgid "End of file reached in color data."
-msgstr ""
+msgstr "读取颜色数据时到达文件末尾。"
 
 #: modules/file/rhk-sm3.c:666
 #, c-format
 msgid "Unknown line %d"
-msgstr ""
+msgstr "未知行 %d"
 
 #: modules/file/rhk-sm4.c:438
 msgid "Imports RHK Technology SM4 data files."
-msgstr ""
+msgstr "导入 RHK Technology SM4 数据文件。"
 
 #: modules/file/rhk-sm4.c:458
 msgid "RHK SM4 files (.sm4)"
-msgstr ""
+msgstr "RHK SM4 文件（.sm4）"
 
 #: modules/file/rhk-sm4.c:978
 #, c-format
 msgid "Object list in %s is truncated."
-msgstr ""
+msgstr "%s 中的对象列表被截断。"
 
 #: modules/file/rhk-sm4.c:992
 #, c-format
 msgid "Object of type %s is truncated."
-msgstr ""
+msgstr "类型为 %s 的对象被截断。"
 
 #: modules/file/rhk-sm4.c:1016
 #, c-format
 msgid "Cannot find object %s in %s."
-msgstr ""
+msgstr "找不到对象 %s，它应位于 %s 之中。"
 
 #: modules/file/rhk-spm32.c:173
 msgid "Imports RHK Technology SPM32 data files."
-msgstr ""
+msgstr "导入 RHK Technology SPM32 数据文件。"
 
 #: modules/file/rhk-spm32.c:193
 msgid "RHK SPM32 files (.sm2)"
-msgstr ""
+msgstr "RHK SPM32 文件（.sm2）"
 
 #: modules/file/rhk-spm32.c:355 modules/file/wrustfile.c:165
 msgid "Invalid file header."
@@ -8638,51 +8647,51 @@ msgstr "文件头无效。"
 
 #: modules/file/rhk-spm32.c:366
 msgid "Only image and line files are supported."
-msgstr ""
+msgstr "仅支持图像文件和行文件。"
 
 #: modules/file/rhk-spm32.c:380
 msgid "data type"
-msgstr ""
+msgstr "数据类型"
 
 #: modules/file/rhk-spm32.c:389
 msgid "data ranges"
-msgstr ""
+msgstr "数据范围"
 
 #: modules/file/rhk-spm32.c:453
 msgid "data offset"
-msgstr ""
+msgstr "数据偏移"
 
 #: modules/file/rmitmd.c:87
 msgid "Imports RMI TMD 3D measurements."
-msgstr ""
+msgstr "导入 RMI TMD 三维测量数据。"
 
 #: modules/file/rmitmd.c:100
 msgid "RMI TMD 3D scan files (.tmd)"
-msgstr ""
+msgstr "RMI TMD 三维扫描文件（.tmd）"
 
 #: modules/file/robotics.c:77
 msgid "Imports Automation & Robotics Dual Lensmapper data files"
-msgstr ""
+msgstr "导入 Automation & Robotics Dual Lensmapper 数据文件。"
 
 #: modules/file/robotics.c:90
 msgid "Dual Lensmapper files"
-msgstr ""
+msgstr "Dual Lensmapper 文件"
 
 #: modules/file/s94file.c:101
 msgid "Imports S94 STM data files."
-msgstr ""
+msgstr "导入 S94 扫描隧道显微镜数据文件。"
 
 #: modules/file/s94file.c:114
 msgid "S94 STM files (.s94)"
-msgstr ""
+msgstr "S94 STM 文件（.s94）"
 
 #: modules/file/scafile.c:93
 msgid "Imports SCA data files (two-part .sca + .dat)."
-msgstr ""
+msgstr "导入 SCA 数据文件（.sca 与 .dat 两部分）。"
 
 #: modules/file/scafile.c:106
 msgid "SCA files (.sca + .dat)"
-msgstr ""
+msgstr "SCA 文件（.sca + .dat）"
 
 #: modules/file/scafile.c:236 modules/file/unisoku.c:316
 msgid "resolution"
@@ -8690,75 +8699,75 @@ msgstr "分辨率"
 
 #: modules/file/scanfile.c:78
 msgid "Reads Cyber technologies SCAN files."
-msgstr ""
+msgstr "读取 Cyber technologies SCAN 文件。"
 
 #: modules/file/scanfile.c:91
 msgid "Cyber technologies SCAN data (.scan)"
-msgstr ""
+msgstr "Cyber technologies SCAN 数据（.scan）"
 
 #: modules/file/scnxfile.c:104
 msgid "Reads Cyber technologies SCNX files."
-msgstr ""
+msgstr "读取 Cyber technologies SCNX 文件。"
 
 #: modules/file/scnxfile.c:117
 msgid "Cyber technologies SCNX data (.scnx)"
-msgstr ""
+msgstr "Cyber technologies SCNX 数据（.scnx）"
 
 #: modules/file/sdfile.c:154
 msgid "Imports Surfstand group SDF (Surface Data File) files."
-msgstr ""
+msgstr "导入 Surfstand 项目的 SDF（表面数据文件）。"
 
 #: modules/file/sdfile.c:169
 msgid "Surfstand SDF files, binary (.sdf)"
-msgstr ""
+msgstr "Surfstand SDF 文件，二进制（.sdf）"
 
 #: modules/file/sdfile.c:175
 msgid "Surfstand SDF files, text (.sdf)"
-msgstr ""
+msgstr "Surfstand SDF 文件，文本（.sdf）"
 
 #: modules/file/sdfile.c:181
 msgid "Micromap SDF files (.sdfa)"
-msgstr ""
+msgstr "Micromap SDF 文件（.sdfa）"
 
 #: modules/file/sdfile.c:619
 #, c-format
 msgid "Invalid `%s' value: %d."
-msgstr ""
+msgstr "`%s’ 的值无效：%d。"
 
 #: modules/file/sdfile.c:628
 #, c-format
 msgid "Invalid `%s' value: %g."
-msgstr ""
+msgstr "`%s’ 的值无效：%g。"
 
 #: modules/file/sdfile.c:685
 msgid "Missing data start marker (*)."
-msgstr ""
+msgstr "缺少数据起始标记 (*)。"
 
 #: modules/file/sdfile.c:709
 #, c-format
 msgid "End of file reached when looking for `%s' field."
-msgstr ""
+msgstr "查找字段 `%s’ 时到达文件末尾。"
 
 #: modules/file/sdfile.c:717
 #, c-format
 msgid "Invalid line found when looking for `%s' field."
-msgstr ""
+msgstr "查找字段 `%s’ 时遇到无效行。"
 
 #: modules/file/seiko.c:114
 msgid "Imports Seiko XQB, XQD, XQT and XQP files."
-msgstr ""
+msgstr "导入 Seiko XQB、XQD、XQT 和 XQP 文件。"
 
 #: modules/file/seiko.c:127
 msgid "Seiko files (.xqb, .xqd, .xqt, .xqp)"
-msgstr ""
+msgstr "Seiko 文件（.xqb、.xqd、.xqt、.xqp）"
 
 #: modules/file/sensofar.c:551
 msgid "Imports Sensofar PLu file format, version 2000 or newer."
-msgstr ""
+msgstr "导入 2000 版或更新版本的 Sensofar PLu 文件格式。"
 
 #: modules/file/sensofar.c:564
 msgid "Sensofar PLu files (.plu, .apx)"
-msgstr ""
+msgstr "Sensofar PLu 文件（.plu、.apx）"
 
 #: modules/file/sensofar.c:988 modules/file/sensofar.c:1018
 #: modules/process/good_profile.c:127 modules/process/multiprofile.c:259
@@ -8767,488 +8776,488 @@ msgstr "轮廓"
 
 #: modules/file/sensofarx.c:86
 msgid "Reads Sensofar PLUx files."
-msgstr ""
+msgstr "读取 Sensofar PLUx 文件。"
 
 #: modules/file/sensofarx.c:99
 msgid "Sensofar PLUx files (.plux)"
-msgstr ""
+msgstr "Sensofar PLUx 文件（.plux）"
 
 #: modules/file/sensolytics.c:164
 msgid "Imports Sensolytics text files."
-msgstr ""
+msgstr "导入 Sensolytics 文本文件。"
 
 #: modules/file/sensolytics.c:177
 msgid "Sensolytics text files (.dat)"
-msgstr ""
+msgstr "Sensolytics 文本文件（.dat）"
 
 #: modules/file/sensolytics.c:1051 modules/file/sensolytics.c:1059
 msgid "Wrong number of initial data columns."
-msgstr ""
+msgstr "起始数据列数不正确。"
 
 #: modules/file/shimadzu.c:122
 msgid "Imports Shimadzu SPM data files."
-msgstr ""
+msgstr "导入岛津（Shimadzu）扫描探针显微数据文件。"
 
 #: modules/file/shimadzu.c:135
 msgid "Shimadzu files"
-msgstr ""
+msgstr "岛津（Shimadzu）文件"
 
 #: modules/file/sicmfile.c:205
 msgid "Imports IonScope SICM data files."
-msgstr ""
+msgstr "导入 IonScope 扫描离子电导显微数据文件。"
 
 #: modules/file/sicmfile.c:220
 msgid "IonScope SICM files (.img)"
-msgstr ""
+msgstr "IonScope 扫描离子电导显微文件（.img）"
 
 #: modules/file/sis.c:279
 msgid "Imports SIS (Surface Imaging Systems) data files."
-msgstr ""
+msgstr "导入 SIS（Surface Imaging Systems）数据文件。"
 
 #: modules/file/sis.c:292
 msgid "SIS files (.sis)"
-msgstr ""
+msgstr "SIS 文件（.sis）"
 
 #: modules/file/sis.c:579
 msgid "Block not a document block."
-msgstr ""
+msgstr "该块不是文档块。"
 
 #: modules/file/sis.c:587
 msgid "Too short document info."
-msgstr ""
+msgstr "文档信息过短。"
 
 #: modules/file/sis.c:607
 msgid "Too short parameter info."
-msgstr ""
+msgstr "参数信息过短。"
 
 #: modules/file/sis.c:699
 msgid "Unexpected image block."
-msgstr ""
+msgstr "出现意外的图像块。"
 
 #: modules/file/sis.c:730 modules/file/sis.c:758
 msgid "End of file reached in image block."
-msgstr ""
+msgstr "读取图像块时到达文件末尾。"
 
 #: modules/file/sis.c:771
 msgid "End of file reached in channel block."
-msgstr ""
+msgstr "读取通道块时到达文件末尾。"
 
 #: modules/file/sis.c:795
 msgid "End of file reached when another channel was expected."
-msgstr ""
+msgstr "预期还有下一个通道时已到达文件末尾。"
 
 #: modules/file/spcfile.c:274
 msgid "Imports Thermo Fisher SPC files."
-msgstr ""
+msgstr "导入 Thermo Fisher SPC 文件。"
 
 #: modules/file/spcfile.c:287
 msgid "Thermo Fisher SPC files"
-msgstr ""
+msgstr "Thermo Fisher SPC 文件"
 
 #: modules/file/spip-asc.c:95
 msgid "Imports and exports SPIP ASC files."
-msgstr ""
+msgstr "导入并导出 SPIP ASC 文件。"
 
 #: modules/file/spip-asc.c:108
 msgid "SPIP ASCII files (.asc)"
-msgstr ""
+msgstr "SPIP ASCII 文件（.asc）"
 
 #: modules/file/spml.c:117
 msgid "Loads SPML (Scanning Probe Microscopy Markup Language) data files."
-msgstr ""
+msgstr "加载扫描探针显微标记语言（SPML）数据文件。"
 
 #: modules/file/spml.c:131
 msgid "SPML files (.xml)"
-msgstr ""
+msgstr "SPML 文件（.xml）"
 
 #: modules/file/spmlab.c:172
 msgid "Imports Thermicroscopes SpmLab R3 to R7 data files."
-msgstr ""
+msgstr "导入 Thermicroscopes SpmLab R3 至 R7 数据文件。"
 
 #: modules/file/spmlab.c:185
 msgid "Thermicroscopes SpmLab files"
-msgstr ""
+msgstr "Thermicroscopes SpmLab 文件"
 
 #: modules/file/spmlab.c:251
 #, c-format
 msgid "Unknown format version %c."
-msgstr ""
+msgstr "未知的格式版本 %c。"
 
 #: modules/file/spmlabf.c:76
 msgid "Imports SPMLab floating-point files."
-msgstr ""
+msgstr "导入 SPMLab 浮点文件。"
 
 #: modules/file/spmlabf.c:89
 msgid "SPMLab floating-point files (.flt)"
-msgstr ""
+msgstr "SPMLab 浮点文件（.flt）"
 
 #: modules/file/spmlabf.c:148
 msgid "Missing data start marker [Data]."
-msgstr ""
+msgstr "缺少数据起始标记 [Data]。"
 
 #: modules/file/spmxfile.c:93
 msgid "Reads ATC SPMxFormat files."
-msgstr ""
+msgstr "读取 ATC SPMxFormat 文件。"
 
 #: modules/file/spmxfile.c:106
 msgid "ATC SPMxFormat data (.spm)"
-msgstr ""
+msgstr "ATC SPMxFormat 数据（.spm）"
 
 #: modules/file/stmprg.c:228
 msgid "Imports Omicron STMPRG data files (tp ta)."
-msgstr ""
+msgstr "导入 Omicron STMPRG 数据文件（tp ta）。"
 
 #: modules/file/stmprg.c:241
 msgid "Omicron STMPRG files (tp ta)"
-msgstr ""
+msgstr "Omicron STMPRG 文件（tp ta）"
 
 #: modules/file/stmprg.c:280
 msgid "Parameter file is too short."
-msgstr ""
+msgstr "参数文件过短。"
 
 #: modules/file/stmprg.c:532
 msgid "First channel is switched off."
-msgstr ""
+msgstr "第一个通道已关闭。"
 
 #: modules/file/stpfile.c:114
 msgid "Current or Deflection or Amplitude"
-msgstr ""
+msgstr "电流、偏转或振幅"
 
 #: modules/file/stpfile.c:115
 msgid "Electrochemical Voltage (Vec)"
-msgstr ""
+msgstr "电化学电压（Vec）"
 
 #: modules/file/stpfile.c:116
 msgid "Topography and SPS"
-msgstr ""
+msgstr "表面形貌与 SPS"
 
 #: modules/file/stpfile.c:117
 msgid "Topography and SPS (scripted)"
-msgstr ""
+msgstr "表面形貌与 SPS（脚本）"
 
 #: modules/file/stpfile.c:118
 msgid "Electrochemical Current (Iec)"
-msgstr ""
+msgstr "电化学电流（Iec）"
 
 #: modules/file/stpfile.c:119
 msgid "Friction or Phase"
-msgstr ""
+msgstr "摩擦或相位"
 
 #: modules/file/stpfile.c:120
 msgid "AUX in BNC"
-msgstr ""
+msgstr "AUX 输入 BNC"
 
 #: modules/file/stpfile.c:121
 msgid "AUX in 3 (Sum)"
-msgstr ""
+msgstr "AUX 输入 3（求和）"
 
 #: modules/file/stpfile.c:122
 msgid "AUX in 4 (Raw Deflection)"
-msgstr ""
+msgstr "AUX 输入 4（原始偏转）"
 
 #: modules/file/stpfile.c:123
 msgid "AUX in 5 (PicoPlus Aux BNC)"
-msgstr ""
+msgstr "AUX 输入 5（PicoPlus Aux BNC）"
 
 #: modules/file/stpfile.c:124
 msgid "AUX in 6 (Surface Potential)"
-msgstr ""
+msgstr "AUX 输入 6（表面电势）"
 
 #: modules/file/stpfile.c:125
 msgid "AUX in 7"
-msgstr ""
+msgstr "AUX 输入 7"
 
 #: modules/file/stpfile.c:126
 msgid "AUX in 8"
-msgstr ""
+msgstr "AUX 输入 8"
 
 #: modules/file/stpfile.c:127
 msgid "AUX in 9"
-msgstr ""
+msgstr "AUX 输入 9"
 
 #: modules/file/stpfile.c:128
 msgid "AUX in 10"
-msgstr ""
+msgstr "AUX 输入 10"
 
 #: modules/file/stpfile.c:129
 msgid "Topography and Flexgrid"
-msgstr ""
+msgstr "表面形貌与 Flexgrid"
 
 #: modules/file/stpfile.c:130
 msgid "External"
-msgstr ""
+msgstr "外部"
 
 #: modules/file/stpfile.c:136
 msgid "Imports Molecular Imaging STP data files."
-msgstr ""
+msgstr "导入 Molecular Imaging STP 数据文件。"
 
 #: modules/file/stpfile.c:149
 msgid "STP files (.stp)"
-msgstr ""
+msgstr "STP 文件（.stp）"
 
 #: modules/file/surffile.c:332
 msgid "Imports Surf data files."
-msgstr ""
+msgstr "导入 Surf 数据文件。"
 
 #: modules/file/surffile.c:345
 msgid "Surf files (.sur)"
-msgstr ""
+msgstr "Surf 文件（.sur）"
 
 #: modules/file/talos.c:70
 msgid "Imports ThermoFisher Talos TEM images."
-msgstr ""
+msgstr "导入 ThermoFisher Talos 透射电镜图像。"
 
 #: modules/file/talos.c:83
 msgid "ThermoFisher Talos TEM image (.tif)"
-msgstr ""
+msgstr "ThermoFisher Talos 透射电镜图像（.tif）"
 
 #: modules/file/tescan.c:114
 msgid "Imports Tescan SEM images."
-msgstr ""
+msgstr "导入 Tescan 扫描电镜图像。"
 
 #: modules/file/tescan.c:127
 msgid "Tescan TIF SEM image (.tif)"
-msgstr ""
+msgstr "Tescan TIF 扫描电镜图像（.tif）"
 
 #: modules/file/tescan.c:133
 msgid "Tescan two-part SEM image (.hdr + .png)"
-msgstr ""
+msgstr "Tescan 两部分扫描电镜图像（.hdr + .png）"
 
 #: modules/file/tiaser.c:175
 msgid "Imports FEI Tecnai imaging and analysis (former Emispec) files."
-msgstr ""
+msgstr "导入 FEI Tecnai 成像与分析（原 Emispec）文件。"
 
 #: modules/file/tiaser.c:188
 msgid "FEI TIA (Emispec) data"
-msgstr ""
+msgstr "FEI TIA（Emispec）数据"
 
 #: modules/file/ttffile.c:180
 msgid "Imports Corning Tropel UltraSort files."
-msgstr ""
+msgstr "导入 Corning Tropel UltraSort 文件。"
 
 #: modules/file/ttffile.c:193
 msgid "Corning Tropel UltraSort data (.ttf)"
-msgstr ""
+msgstr "Corning Tropel UltraSort 数据（.ttf）"
 
 #: modules/file/ttffile.c:199
 msgid "Corning Tropel UltraSort CSV export (.csv)"
-msgstr ""
+msgstr "Corning Tropel UltraSort CSV 导出（.csv）"
 
 #: modules/file/unisoku.c:142
 msgid "Imports Unisoku data files (two-part .hdr + .dat)."
-msgstr ""
+msgstr "导入 Unisoku 数据文件（.hdr 与 .dat 两部分）。"
 
 #: modules/file/unisoku.c:157
 msgid "Unisoku files (.hdr + .dat)"
-msgstr ""
+msgstr "Unisoku 文件（.hdr + .dat）"
 
 #: modules/file/unisoku.c:309
 msgid "format flags"
-msgstr ""
+msgstr "格式标志"
 
 #: modules/file/unisoku.c:340
 msgid "x scale parameters"
-msgstr ""
+msgstr "x 标度参数"
 
 #: modules/file/unisoku.c:350
 msgid "y scale parameters"
-msgstr ""
+msgstr "y 标度参数"
 
 #: modules/file/unisoku.c:360
 msgid "z scale parameters"
-msgstr ""
+msgstr "z 标度参数"
 
 #: modules/file/unisoku.c:367
 msgid "data type parameters"
-msgstr ""
+msgstr "数据类型参数"
 
 #: modules/file/win_stm.c:86
 msgid "Imports WinSTM (.stm) files."
-msgstr ""
+msgstr "导入 WinSTM（.stm）文件。"
 
 #: modules/file/win_stm.c:99
 msgid "WinSTM files (.stm)"
-msgstr ""
+msgstr "WinSTM 文件（.stm）"
 
 #: modules/file/wipfile.c:282
 msgid "Imports WItec Project data files."
-msgstr ""
+msgstr "导入 WItec Project 数据文件。"
 
 #: modules/file/wipfile.c:295
 msgid "WItec Project files (.wip)"
-msgstr ""
+msgstr "WItec Project 文件（.wip）"
 
 #: modules/file/wipfile.c:442
 msgid "Cannot read tag."
-msgstr ""
+msgstr "无法读取标签。"
 
 #: modules/file/witec-asc.c:70
 msgid "Imports WITec ASCII export files."
-msgstr ""
+msgstr "导入 WITec ASCII 导出文件。"
 
 #: modules/file/witec-asc.c:83
 msgid "WITec ASCII files (.dat)"
-msgstr ""
+msgstr "WITec ASCII 文件（.dat）"
 
 #: modules/file/witfile.c:205
 msgid "Imports WITec WIT data files."
-msgstr ""
+msgstr "导入 WITec WIT 数据文件。"
 
 #: modules/file/witfile.c:218
 msgid "WITec files (.wit)"
-msgstr ""
+msgstr "WITec 文件（.wit）"
 
 #: modules/file/wrustfile.c:68
 msgid "Imports AFM files from Department of Nanometrology, WRUST."
-msgstr ""
+msgstr "导入弗罗茨瓦夫科技大学（WRUST）纳米计量学系的 AFM 文件。"
 
 #: modules/file/wrustfile.c:81
 msgid "WRUST Department of Nanometrology AFM data (.dat)"
-msgstr ""
+msgstr "WRUST 纳米计量学系 AFM 数据（.dat）"
 
 #: modules/file/wsffile.c:85
 msgid "Imports WSF ASCII files."
-msgstr ""
+msgstr "导入 WSF ASCII 文件。"
 
 #: modules/file/wsffile.c:98
 msgid "WSF ASCII files (.wsf)"
-msgstr ""
+msgstr "WSF ASCII 文件（.wsf）"
 
 #: modules/file/wsffile.c:160
 msgid "File header does not end with an empty line."
-msgstr ""
+msgstr "文件头不是以空行结束。"
 
 #: modules/file/wsxmfile.c:118
 msgid "Imports Nanotec WSxM data files."
-msgstr ""
+msgstr "导入 Nanotec WSxM 数据文件。"
 
 #: modules/file/wsxmfile.c:131
 msgid "WSxM files (.tom, .top, .stp)"
-msgstr ""
+msgstr "WSxM 文件（.tom、.top、.stp）"
 
 #: modules/file/wsxmfile.c:137
 msgid "WSxM curve files (.cur)"
-msgstr ""
+msgstr "WSxM 曲线文件（.cur）"
 
 #: modules/file/wsxmfile.c:377
 #, c-format
 msgid "Unknown data type `%s'."
-msgstr ""
+msgstr "未知的数据类型 `%s’。"
 
 #: modules/file/xyzexport.c:80
 msgid "Exports data as simple XYZ text file."
-msgstr ""
+msgstr "将数据导出为简单的 XYZ 文本文件。"
 
 #: modules/file/xyzexport.c:93
 msgid "XYZ text data (.xyz)"
-msgstr ""
+msgstr "XYZ 文本数据（.xyz）"
 
 #: modules/file/xyzexport.c:207
 msgid "XYZ data:"
-msgstr ""
+msgstr "XYZ 数据："
 
 #: modules/file/xyzexport.c:213
 msgid "Lateral units:"
-msgstr ""
+msgstr "横向单位："
 
 #: modules/file/xyzexport.c:256
 msgid "Export XYZ"
-msgstr ""
+msgstr "导出 XYZ"
 
 #: modules/file/zeiss.c:62
 msgid "Imports Carl Zeiss SEM images."
-msgstr ""
+msgstr "导入 Carl Zeiss 扫描电镜图像。"
 
 #: modules/file/zeiss.c:75
 msgid "Carl Zeiss SEM scans (.tif)"
-msgstr ""
+msgstr "Carl Zeiss SEM 扫描图像（.tif）"
 
 #: modules/file/zeissczi.c:136
 msgid "Imports Carl Zeiss CZI images."
-msgstr ""
+msgstr "导入 Carl Zeiss CZI 图像。"
 
 #: modules/file/zeissczi.c:149
 msgid "Carl Zeiss CZI images (.czi)"
-msgstr ""
+msgstr "Carl Zeiss CZI 图像（.czi）"
 
 #: modules/file/zeisslsm.c:363
 msgid "Imports Carl Zeiss CLSM images."
-msgstr ""
+msgstr "导入 Carl Zeiss 共聚焦激光扫描显微镜图像。"
 
 #: modules/file/zeisslsm.c:376
 msgid "Carl Zeiss CLSM images (.lsm)"
-msgstr ""
+msgstr "Carl Zeiss CLSM 图像（.lsm）"
 
 #: modules/file/zemax.c:68
 msgid "Imports Zemax grid sag data files."
-msgstr ""
+msgstr "导入 Zemax 网格矢高数据文件。"
 
 #: modules/file/zemax.c:81
 msgid "Zemax grid sag data (.dat)"
-msgstr ""
+msgstr "Zemax 网格矢高数据（.dat）"
 
 #: modules/file/zemax.c:169
 #, c-format
 msgid "Data line %u does not contain four items."
-msgstr ""
+msgstr "数据行 %u 没有四项内容。"
 
 #: modules/file/zemax.c:291
 #, c-format
 msgid "Unit code %d is invalid or unsupported."
-msgstr ""
+msgstr "单位代码 %d 无效或不受支持。"
 
 #: modules/file/zemax.c:314
 msgid "The first line contains too many items."
-msgstr ""
+msgstr "第一行的项过多。"
 
 #: modules/file/zmgfile.c:67
 msgid "Imports KLA Zeta profilometry files."
-msgstr ""
+msgstr "导入 KLA Zeta 轮廓测量文件。"
 
 #: modules/file/zmgfile.c:80
 msgid "KLA Zeta profilometry files (.zmg)"
-msgstr ""
+msgstr "KLA Zeta 轮廓测量文件（.zmg）"
 
 #: modules/file/zonfile.c:111
 msgid "Reads Keyence ZON files."
-msgstr ""
+msgstr "读取 Keyence ZON 文件。"
 
 #: modules/file/zonfile.c:124
 msgid "Keyence ZON data (.zon)"
-msgstr ""
+msgstr "Keyence ZON 数据（.zon）"
 
 #: modules/file/zonfile.c:430
 #, c-format
 msgid "Rows stride %u does not match length and bytes per item (%u×%u)."
-msgstr ""
+msgstr "行跨度 %u 与长度及每项字节数（%u×%u）不符。"
 
 #: modules/file/zonfile.c:546
 #, c-format
 msgid "Libzstd error while reading the zst file: %s."
-msgstr ""
+msgstr "读取 zst 文件时发生 Libzstd 错误：%s。"
 
 #: modules/file/zyvex.c:66
 msgid "Imports ZyVector Scanz files."
-msgstr ""
+msgstr "导入 ZyVector Scanz 文件。"
 
 #: modules/file/zyvex.c:79
 msgid "ZyVector Scanz files (.zad)"
-msgstr ""
+msgstr "ZyVector Scanz 文件（.zad）"
 
 #: modules/file/zyvex.c:195
 #, c-format
 msgid "Data type `%s' is invalid or unsupported."
-msgstr ""
+msgstr "数据类型 `%s’ 无效或不受支持。"
 
 #: modules/file/zyvex.c:637
 #, c-format
 msgid "Compressed data CRC mismatch for channel `%s'."
-msgstr ""
+msgstr "通道 `%s’ 的压缩数据 CRC 不匹配。"
 
 #: modules/file/zyvex.c:657
 #, c-format
 msgid "Data CRC mismatch for channel `%s'."
-msgstr ""
+msgstr "通道 `%s’ 的数据 CRC 不匹配。"
 
 #: modules/graph/graph_align.c:60
 msgid "Aligns graph curves."
@@ -9383,7 +9392,7 @@ msgstr "DOS 谱"
 
 #: modules/graph/graph_dos_spectrum.c:56
 msgid "/Measure _Features/_DOS Spectrum"
-msgstr "/测量特征(_M)/DOS 谱"
+msgstr "/测量特征(_M)/DOS 谱(_D)"
 
 #: modules/graph/graph_dos_spectrum.c:59
 msgid "Calculate DOS spectrum from I-V tunneling spectroscopy"
@@ -10970,7 +10979,7 @@ msgstr "设置完整范围"
 
 #: modules/process/batchcolor.c:1062
 msgid "Zero to Min"
-msgstr "零到最小值"
+msgstr "最小值归零"
 
 #: modules/process/batchcolor.c:1131 modules/volume/volume_drift.c:209
 #: modules/volume/volume_drift.c:210 modules/volume/volume_drift.c:211
@@ -12290,7 +12299,7 @@ msgstr "设置选区(_S)"
 
 #: modules/process/curvature.c:132
 msgid "_Plot graph"
-msgstr "绘制图表(_P)"
+msgstr "绘制曲线图(_P)"
 
 #: modules/process/curvature.c:159
 msgid "Curvature Sections"
@@ -12876,7 +12885,7 @@ msgstr "X/Y 比值阈值"
 
 #: modules/process/dwtanisotropy.c:102
 msgid "Low level exclude limit"
-msgstr "低水平排除限值"
+msgstr "低层级排除限值"
 
 #: modules/process/dwtanisotropy.c:122
 msgid "DWT Anisotropy"
@@ -13713,7 +13722,7 @@ msgstr "导出量"
 
 #: modules/process/fit-shape.c:517
 msgid "Mean square difference:"
-msgstr "均方差："
+msgstr "均方差值："
 
 #: modules/process/fit-shape.c:695
 msgid "_Recalculate Image"
@@ -14056,7 +14065,7 @@ msgstr "导出原始数据(_E)"
 
 #: modules/process/grain_dist.c:137
 msgid "Plot _graphs"
-msgstr "绘制图表(_G)"
+msgstr "绘制曲线图(_G)"
 
 #: modules/process/grain_dist.c:203
 msgid "Grain Distributions"
@@ -16333,7 +16342,7 @@ msgstr "高斯形"
 
 #: modules/process/obj_synth.c:212
 msgid "Parabolic bumps"
-msgstr "抛物线凸起"
+msgstr "抛物面凸起"
 
 #: modules/process/obj_synth.c:213
 msgid "Full spheres"
@@ -17942,7 +17951,7 @@ msgstr "Im(S<sub>11</sub>)"
 #: modules/process/smm.c:1116 modules/process/smm.c:1207
 #, c-format
 msgid "Mean square difference: %g"
-msgstr "均方差：%g"
+msgstr "均方差值：%g"
 
 #: modules/process/smm.c:1209
 msgid "Fit failed."
@@ -17958,27 +17967,27 @@ msgstr "Im(S11)"
 
 #: modules/process/smm_apply.c:98
 msgid "Re(Ztip)"
-msgstr ""
+msgstr "Re(Ztip)"
 
 #: modules/process/smm_apply.c:99
 msgid "Im(Ztip)"
-msgstr ""
+msgstr "Im(Ztip)"
 
 #: modules/process/smm_apply.c:105
 msgid "Applies SMM calibration"
-msgstr ""
+msgstr "应用 SMM 校准"
 
 #: modules/process/smm_apply.c:119
 msgid "/_SPM Modes/_Electrical/_Apply SMM Calibration..."
-msgstr ""
+msgstr "/SPM 模式(_S)/电学(_E)/应用 SMM 校准(_A)..."
 
 #: modules/process/smm_apply.c:123
 msgid "Apply SMM calibration coefficients"
-msgstr ""
+msgstr "应用 SMM 校准系数"
 
 #: modules/process/smm_apply.c:234
 msgid "Apply SMM Calibration"
-msgstr ""
+msgstr "应用 SMM 校准"
 
 #: modules/process/sphere-revolve.c:72
 msgid "Subtracts background by sphere revolution."
@@ -18002,97 +18011,97 @@ msgstr "正在滚动球体..."
 
 #: modules/process/stitch.c:134
 msgid "Stitch multiple images based on offsets of origins."
-msgstr ""
+msgstr "根据原点偏移拼接多幅图像。"
 
 #: modules/process/stitch.c:148
 msgid "/M_ultidata/_Stitch..."
-msgstr ""
+msgstr "/多数据(_U)/拼接(_S)..."
 
 #: modules/process/stitch.c:152
 msgid "Stitch images using offsets"
-msgstr ""
+msgstr "使用偏移拼接图像"
 
 #: modules/process/stitch.c:268
 msgid "Stitch"
-msgstr ""
+msgstr "拼接"
 
 #: modules/process/stitch.c:370
 msgid "Stitch data"
-msgstr ""
+msgstr "拼接数据"
 
 #: modules/process/stitch.c:432
 msgid "Restore"
-msgstr ""
+msgstr "恢复"
 
 #: modules/process/stitch.c:442
 msgid "_Instant updates"
-msgstr ""
+msgstr "即时更新(_I)"
 
 #: modules/process/straighten_path.c:106
 msgid "Extracts a straightened part of image along a curve."
-msgstr ""
+msgstr "沿曲线提取图像的拉直部分。"
 
 #: modules/process/straighten_path.c:120
 msgid "/_Distortion/Straighten _Path..."
-msgstr ""
+msgstr "/畸变(_D)/拉直路径(_P)..."
 
 #: modules/process/straighten_path.c:124
 msgid "Straighten along a path"
-msgstr ""
+msgstr "沿路径拉直"
 
 #: modules/process/straighten_path.c:139
 msgid "C_losed curve"
-msgstr ""
+msgstr "闭合曲线(_L)"
 
 #: modules/process/straighten_path.c:142
 msgid "Out_put orientation"
-msgstr ""
+msgstr "输出方向(_P)"
 
 #: modules/process/straighten_path.c:144
 msgid "_Slackness"
-msgstr ""
+msgstr "松弛度(_S)"
 
 #: modules/process/straighten_path.c:211
 msgid "Straightened"
-msgstr ""
+msgstr "已拉直"
 
 #: modules/process/straighten_path.c:266
 msgid "Straighten Path"
-msgstr ""
+msgstr "拉直路径"
 
 #: modules/process/straighten_path.c:286
 msgid "Res_tore"
-msgstr ""
+msgstr "恢复(_T)"
 
 #: modules/process/straighten_path.c:290
 msgid "Re_verse"
-msgstr ""
+msgstr "反向(_V)"
 
 #: modules/process/superresolution.c:83
 msgid ""
 "Simple supres operations with two data fields (or a data field and a "
 "scalar)."
-msgstr ""
+msgstr "对两个数据场（或一个数据场和一个标量）进行简单超分辨率运算。"
 
 #: modules/process/superresolution.c:98
 msgid "/M_ultidata/_Super-resolution..."
-msgstr ""
+msgstr "/多数据(_U)/超分辨率(_S)..."
 
 #: modules/process/superresolution.c:102
 msgid "Super resolution of multiple images of same object"
-msgstr ""
+msgstr "对同一对象的多幅图像进行超分辨率处理"
 
 #: modules/process/superresolution.c:141
 msgid "Supres"
-msgstr ""
+msgstr "超分辨率"
 
 #: modules/process/superresolution.c:420
 msgid "Correlating to determine mean shift..."
-msgstr ""
+msgstr "正在通过相关确定平均偏移……"
 
 #: modules/process/superresolution.c:510
 msgid "Cross-correlation..."
-msgstr ""
+msgstr "互相关……"
 
 #: modules/process/superresolution.c:553 modules/xyz/xyz_raster.c:701
 #: modules/xyz/xyz_raster.c:765
@@ -18101,11 +18110,11 @@ msgstr "正在插值..."
 
 #: modules/process/synth.h:195
 msgid "R_andom seed:"
-msgstr ""
+msgstr "随机种子(_A)："
 
 #: modules/process/synth.h:213
 msgid "Randomi_ze"
-msgstr ""
+msgstr "随机化(_Z)"
 
 #: modules/process/terracefit.c:225 modules/process/terracefit.c:264
 msgid "Marked terraces"
@@ -18121,47 +18130,47 @@ msgstr "不进行分割，仅使用掩膜(_S)"
 
 #: modules/process/threshold.c:96
 msgid "Limit the data range using a lower/upper threshold."
-msgstr ""
+msgstr "使用下限/上限阈值限制数据范围。"
 
 #: modules/process/threshold.c:110
 msgid "/_Basic Operations/Li_mit Range..."
-msgstr ""
+msgstr "/基本操作(_B)/限制范围(_M)..."
 
 #: modules/process/threshold.c:114
 msgid "Limit data range"
-msgstr ""
+msgstr "限制数据范围"
 
 #: modules/process/threshold.c:123
 msgid "Specify _thresholds"
-msgstr ""
+msgstr "指定阈值(_T)"
 
 #: modules/process/threshold.c:124
 msgid "Use _display range"
-msgstr ""
+msgstr "使用显示范围(_D)"
 
 #: modules/process/threshold.c:125
 msgid "Cut off outlier_s"
-msgstr ""
+msgstr "截除异常值(_S)"
 
 #: modules/process/threshold.c:126
 msgid "Limit to _percentiles"
-msgstr ""
+msgstr "限制到百分位数(_P)"
 
 #: modules/process/threshold.c:137 modules/process/threshold.c:140
 msgid "_Lower"
-msgstr ""
+msgstr "下限(_L)"
 
 #: modules/process/threshold.c:138 modules/process/threshold.c:141
 msgid "_Upper"
-msgstr ""
+msgstr "上限(_U)"
 
 #: modules/process/threshold.c:139
 msgid "F_arther than"
-msgstr ""
+msgstr "偏离超过(_A)"
 
 #: modules/process/threshold.c:220
 msgid "Limit Range"
-msgstr ""
+msgstr "限制范围"
 
 #: modules/process/threshold.c:242 modules/tools/icolorange.c:339
 msgid "Set to _Full Range"
@@ -18171,23 +18180,23 @@ msgstr "设为完整范围(_F)"
 #: modules/process/threshold.c:249
 #, c-format
 msgid "%.*f to %.*f"
-msgstr ""
+msgstr "%.*f 至 %.*f"
 
 #: modules/process/tilt.c:69
 msgid "Tilts image by specified amount."
-msgstr ""
+msgstr "按指定量倾斜图像。"
 
 #: modules/process/tilt.c:83
 msgid "/_Basic Operations/_Tilt..."
-msgstr ""
+msgstr "/基本操作(_B)/倾斜(_T)..."
 
 #: modules/process/tilt.c:87
 msgid "Tilt by specified amount"
-msgstr ""
+msgstr "按指定量倾斜"
 
 #: modules/process/tilt.c:190
 msgid "Angles"
-msgstr ""
+msgstr "角度"
 
 #: modules/process/tip_blind.c:120
 msgid "Blind estimation of SPM tip using Villarubia's algorithm."
@@ -18472,27 +18481,27 @@ msgstr "截去最高值"
 
 #: modules/process/volumize.c:42
 msgid "Converts datafield to 3D volume data."
-msgstr ""
+msgstr "将数据场转换为三维体数据。"
 
 #: modules/process/volumize.c:56
 msgid "/_Basic Operations/Volumize"
-msgstr ""
+msgstr "/基本操作(_B)/转换为体数据"
 
 #: modules/process/volumize.c:60
 msgid "Convert datafield to 3D data"
-msgstr ""
+msgstr "将数据场转换为三维数据"
 
 #: modules/process/volumize_layers.c:78
 msgid "Converts all datafields to 3D volume data."
-msgstr ""
+msgstr "将所有数据场转换为三维体数据。"
 
 #: modules/process/volumize_layers.c:92
 msgid "/_Basic Operations/Volumize Layers..."
-msgstr ""
+msgstr "/基本操作(_B)/将图层转换为体数据..."
 
 #: modules/process/volumize_layers.c:96
 msgid "Convert all datafields to 3D data"
-msgstr ""
+msgstr "将所有数据场转换为三维数据"
 
 #: modules/process/volumize_layers.c:113
 #: modules/volume/volume_localdetect.c:169
@@ -18505,11 +18514,11 @@ msgstr "Z 单位(_U)"
 
 #: modules/process/volumize_layers.c:116
 msgid "_Extract offsets"
-msgstr ""
+msgstr "提取偏移(_E)"
 
 #: modules/process/volumize_layers.c:159
 msgid "All datafields must have same resolution to make a volume from them."
-msgstr ""
+msgstr "所有数据场必须具有相同分辨率才能构成体数据。"
 
 #: modules/process/volumize_layers.c:205 modules/process/volumize_layers.c:224
 #: modules/volume/volume_drift.c:297 modules/volume/volume_drift.c:317
@@ -18518,329 +18527,329 @@ msgstr "切片层级"
 
 #: modules/process/volumize_layers.c:251
 msgid "Volumize layers"
-msgstr ""
+msgstr "将图层转换为体数据"
 
 #: modules/process/wave_synth.c:152
 msgid "Generates various kinds of waves."
-msgstr ""
+msgstr "生成各种波。"
 
 #: modules/process/wave_synth.c:166
 msgid "/S_ynthetic/_Waves..."
-msgstr ""
+msgstr "/合成(_Y)/波(_W)..."
 
 #: modules/process/wave_synth.c:170
 msgid "Generate waves"
-msgstr ""
+msgstr "生成波"
 
 #: modules/process/wave_synth.c:179
 msgid "Cosine"
-msgstr ""
+msgstr "余弦"
 
 #: modules/process/wave_synth.c:180
 msgid "Inverse cosh"
-msgstr ""
+msgstr "双曲余弦倒数（sech）"
 
 #: modules/process/wave_synth.c:181
 msgid "Flat top"
-msgstr ""
+msgstr "平顶"
 
 #: modules/process/wave_synth.c:184
 msgid "Displacement 1"
-msgstr ""
+msgstr "位移 1"
 
 #: modules/process/wave_synth.c:185
 msgid "Displacement 2"
-msgstr ""
+msgstr "位移 2"
 
 #: modules/process/wave_synth.c:198
 msgid "_Number of waves"
-msgstr ""
+msgstr "波的数量(_N)"
 
 #: modules/process/wave_synth.c:199
 msgid "_Wave form"
-msgstr ""
+msgstr "波形(_W)"
 
 #: modules/process/wave_synth.c:203
 msgid "_Decay"
-msgstr ""
+msgstr "衰减(_D)"
 
 #: modules/process/wave_synth.c:205
 msgid "_Spatial frequency"
-msgstr ""
+msgstr "空间频率(_S)"
 
 #: modules/process/wave_synth.c:279
 msgid "Waves"
-msgstr ""
+msgstr "波"
 
 #: modules/process/wfr_synth.c:98
 msgid "Generates images by simulating a propagating wetting front."
-msgstr ""
+msgstr "通过模拟传播中的润湿前沿生成图像。"
 
 #: modules/process/wfr_synth.c:112
 msgid "/S_ynthetic/_Wetting..."
-msgstr ""
+msgstr "/合成(_Y)/润湿(_W)..."
 
 #: modules/process/wfr_synth.c:116
 msgid "Generate image by propagating wetting front"
-msgstr ""
+msgstr "通过传播润湿前沿生成图像"
 
 #: modules/process/wfr_synth.c:132
 msgid "_Diffusion"
-msgstr ""
+msgstr "扩散(_D)"
 
 #: modules/process/wfr_synth.c:203
 msgid "Wetting Front"
-msgstr ""
+msgstr "润湿前沿"
 
 #: modules/process/wpour_mark.c:117
 msgid "Segments image using watershed with pre- and postprocessing."
-msgstr ""
+msgstr "使用带预处理和后处理的分水岭分割图像。"
 
 #: modules/process/wpour_mark.c:131
 msgid "/_Grains/_Mark by Segmentation..."
-msgstr ""
+msgstr "/颗粒(_G)/按分割标记(_M)..."
 
 #: modules/process/wpour_mark.c:135
 msgid "Segment using watershed "
-msgstr ""
+msgstr "使用分水岭分割 "
 
 #: modules/process/wpour_mark.c:144
 msgid "Original image"
-msgstr ""
+msgstr "原始图像"
 
 #: modules/process/wpour_mark.c:145
 msgid "Preprocessed image"
-msgstr ""
+msgstr "预处理后图像"
 
 #: modules/process/wpour_mark.c:148
 msgid "No mask"
-msgstr ""
+msgstr "无掩膜"
 
 #: modules/process/wpour_mark.c:160
 msgid "_Image preview"
-msgstr ""
+msgstr "图像预览(_I)"
 
 #: modules/process/wpour_mark.c:162
 msgid "_Mask preview"
-msgstr ""
+msgstr "掩膜预览(_M)"
 
 #: modules/process/wpour_mark.c:165
 msgid "_Barrier level"
-msgstr ""
+msgstr "势垒水平(_B)"
 
 #: modules/process/wpour_mark.c:166
 msgid "Prefill _level"
-msgstr ""
+msgstr "预填充水平(_L)"
 
 #: modules/process/wpour_mark.c:167
 msgid "Pre_fill from minima"
-msgstr ""
+msgstr "从极小值预填充(_F)"
 
 #: modules/process/wpour_mark.c:168
 msgid "Add _gradient"
-msgstr ""
+msgstr "添加梯度(_G)"
 
 #: modules/process/wpour_mark.c:169
 msgid "Add _curvature"
-msgstr ""
+msgstr "添加曲率(_C)"
 
 #: modules/process/wpour_mark.c:238
 msgid "Segment by Watershed"
-msgstr ""
+msgstr "按分水岭分割"
 
 #: modules/process/wpour_mark.c:247
 msgid "Preprocessing"
-msgstr ""
+msgstr "预处理"
 
 #: modules/process/wrapvalue.c:91
 msgid "Wraps periodic values to a different range."
-msgstr ""
+msgstr "将周期数值环绕到另一范围。"
 
 #: modules/process/wrapvalue.c:105
 msgid "/_Basic Operations/_Wrap Value..."
-msgstr ""
+msgstr "/基本操作(_B)/数值环绕(_W)..."
 
 #: modules/process/wrapvalue.c:109
 msgid "Rewrap periodic values"
-msgstr ""
+msgstr "重新环绕周期数值"
 
 #: modules/process/wrapvalue.c:118
 msgid "360 deg"
-msgstr ""
+msgstr "360 度"
 
 #: modules/process/wrapvalue.c:119
 msgid "180 deg"
-msgstr ""
+msgstr "180 度"
 
 #: modules/process/wrapvalue.c:120 modules/process/wrapvalue.c:127
 #: modules/process/wrapvalue.c:131
 msgid "_Keep unchanged"
-msgstr ""
+msgstr "保持不变(_K)"
 
 #: modules/process/wrapvalue.c:121 modules/process/wrapvalue.c:128
 #: modules/process/wrapvalue.c:132 modules/process/wrapvalue.c:142
 msgid "Specify _range"
-msgstr ""
+msgstr "指定范围(_R)"
 
 #: modules/process/wrapvalue.c:124
 msgid "2π"
-msgstr ""
+msgstr "2π"
 
 #: modules/process/wrapvalue.c:125
 msgid "π"
-msgstr ""
+msgstr "π"
 
 #: modules/process/wrapvalue.c:126
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: modules/process/wrapvalue.c:141
 msgid "O_ffset"
-msgstr ""
+msgstr "偏移(_F)"
 
 #: modules/process/wrapvalue.c:219
 msgid "Wrap Value"
-msgstr ""
+msgstr "数值环绕"
 
 #: modules/process/xydenoise.c:66
 msgid "Denoises measurement on basis of two orthogonal scans."
-msgstr ""
+msgstr "基于两次正交扫描对测量去噪。"
 
 #: modules/process/xydenoise.c:80
 msgid "/M_ultidata/_XY Denoise..."
-msgstr ""
+msgstr "/多数据(_U)/XY 去噪(_X)..."
 
 #: modules/process/xydenoise.c:84
 msgid "Denoises horizontal/vertical measurement."
-msgstr ""
+msgstr "对水平/垂直测量去噪。"
 
 #: modules/process/xydenoise.c:99
 msgid "Second direction"
-msgstr ""
+msgstr "第二方向"
 
 #: modules/process/xydenoise.c:100
 msgid "Average denoising directions"
-msgstr ""
+msgstr "平均去噪方向"
 
 #: modules/process/xydenoise.c:127
 msgid "Denoised"
-msgstr ""
+msgstr "已去噪"
 
 #: modules/process/xydenoise.c:144
 msgid "XY Denoising"
-msgstr ""
+msgstr "XY 去噪"
 
 #: modules/process/xyz_channels.c:72
 msgid "Converts three channels to XYZ data."
-msgstr ""
+msgstr "将三个通道转换为 XYZ 数据。"
 
 #: modules/process/xyz_channels.c:86
 msgid "/_Basic Operations/XYZ from C_hannels..."
-msgstr ""
+msgstr "/基本操作(_B)/由通道生成 XYZ(_H)..."
 
 #: modules/process/xyz_channels.c:90
 msgid "Convert three channels to XYZ data"
-msgstr ""
+msgstr "将三个通道转换为 XYZ 数据"
 
 #: modules/process/xyz_channels.c:105
 msgid "_X data"
-msgstr ""
+msgstr "X 数据(_X)"
 
 #: modules/process/xyz_channels.c:106
 msgid "_Y data"
-msgstr ""
+msgstr "Y 数据(_Y)"
 
 #: modules/process/xyz_channels.c:107
 msgid "_Z data"
-msgstr ""
+msgstr "Z 数据(_Z)"
 
 #: modules/process/xyz_channels.c:151
 msgid "XYZ Channels"
-msgstr ""
+msgstr "XYZ 通道"
 
 #: modules/process/xyzize.c:41
 msgid "Converts data fields to XYZ data."
-msgstr ""
+msgstr "将数据场转换为 XYZ 数据。"
 
 #: modules/process/xyzize.c:55
 msgid "/_Basic Operations/_XYZize"
-msgstr ""
+msgstr "/基本操作(_B)/转换为 XYZ(_X)"
 
 #: modules/process/xyzize.c:59
 msgid "Convert to XYZ data"
-msgstr ""
+msgstr "转换为 XYZ 数据"
 
 #: modules/process/zero_crossing.c:83
 msgid "Zero crossing edge detection."
-msgstr ""
+msgstr "过零边缘检测。"
 
 #: modules/process/zero_crossing.c:97
 msgid "/_Presentation/_Edge Detection/_Zero Crossing..."
-msgstr ""
+msgstr "/展示(_P)/边缘检测(_E)/过零(_Z)..."
 
 #: modules/process/zero_crossing.c:101
 msgid "Zero crossing step detection presentation"
-msgstr ""
+msgstr "过零阶跃检测展示"
 
 #: modules/process/zero_crossing.c:111
 msgid "_LoG convolved"
-msgstr ""
+msgstr "LoG 卷积(_L)"
 
 #: modules/process/zero_crossing.c:112
 msgid "Detected st_ep"
-msgstr ""
+msgstr "检测到的阶跃(_E)"
 
 #: modules/process/zero_crossing.c:189
 msgid "Zero Crossing Step Detection"
-msgstr ""
+msgstr "过零阶跃检测"
 
 #: modules/pygwy/pygwy-console.c:91
 msgid "/Pygwy Console"
-msgstr ""
+msgstr "/Pygwy 控制台"
 
 #: modules/pygwy/pygwy-console.c:95
 msgid "Python wrapper console"
-msgstr ""
+msgstr "Python 封装控制台"
 
 #: modules/pygwy/pygwy-console.c:159 modules/pygwy/pygwy-console.c:471
 msgid "Pygwy Console"
-msgstr ""
+msgstr "Pygwy 控制台"
 
 #: modules/pygwy/pygwy-console.c:177
 msgid "Open script in Python language (Ctrl-O)"
-msgstr ""
+msgstr "打开 Python 脚本（Ctrl-O）"
 
 #: modules/pygwy/pygwy-console.c:187
 msgid "Save script (Ctrl-S)"
-msgstr ""
+msgstr "保存脚本（Ctrl-S）"
 
 #: modules/pygwy/pygwy-console.c:197
 msgid "Save script as (Ctrl-Shift-S)"
-msgstr ""
+msgstr "脚本另存为（Ctrl-Shift-S）"
 
 #: modules/pygwy/pygwy-console.c:207
 msgid "Execute script (Ctrl-E)"
-msgstr ""
+msgstr "执行脚本（Ctrl-E）"
 
 #: modules/pygwy/pygwy-console.c:217
 msgid "Clear Log"
-msgstr ""
+msgstr "清除日志"
 
 #: modules/pygwy/pygwy-console.c:275
 msgid "Command"
-msgstr ""
+msgstr "命令"
 
 #: modules/pygwy/pygwy-console.c:361
 msgid ">>> Running the script above\n"
-msgstr ""
+msgstr ">>> 正在运行上述脚本\n"
 
 #: modules/pygwy/pygwy-console.c:415
 msgid "Save Python Script as"
-msgstr ""
+msgstr "Python 脚本另存为"
 
 #: modules/pygwy/pygwy-console.c:419
 msgid "Open Python Script"
-msgstr ""
+msgstr "打开 Python 脚本"
 
 #: pygwy.c:130
 msgid "Pygwy, the Gwyddion Python wrapper."
@@ -18860,39 +18869,39 @@ msgstr "用 Python 编写的函数"
 
 #: modules/tools/corrlen.c:151
 msgid "Correlation length tool."
-msgstr ""
+msgstr "相关长度工具。"
 
 #: modules/tools/corrlen.c:174
 msgid "line-leveling|None"
-msgstr ""
+msgstr "无"
 
 #: modules/tools/corrlen.c:177
 msgid "Bow"
-msgstr ""
+msgstr "弓形"
 
 #: modules/tools/corrlen.c:178
 msgid "Cubic"
-msgstr ""
+msgstr "三次"
 
 #: modules/tools/corrlen.c:181
 msgid "Raw ACF"
-msgstr ""
+msgstr "原始 ACF"
 
 #: modules/tools/corrlen.c:182 modules/tools/corrlen.c:965
 msgid "Corrected ACF"
-msgstr ""
+msgstr "校正后 ACF"
 
 #: modules/tools/corrlen.c:183
 msgid "Both ACF"
-msgstr ""
+msgstr "两条 ACF"
 
 #: modules/tools/corrlen.c:195 modules/tools/corrlen.c:1082
 msgid "Line leveling"
-msgstr ""
+msgstr "扫描线调平"
 
 #: modules/tools/corrlen.c:197 modules/tools/corrlen.c:1083
 msgid "ACF model"
-msgstr ""
+msgstr "ACF 模型"
 
 #: modules/tools/corrlen.c:200 modules/tools/stats.c:161
 msgid "Save Statistical Quantities"
@@ -18901,7 +18910,7 @@ msgstr "保存统计量"
 #: modules/tools/corrlen.c:221 modules/tools/corrlen.c:222
 #: modules/tools/corrlen.c:1070
 msgid "Correlation Length"
-msgstr ""
+msgstr "相关长度"
 
 #: modules/tools/corrlen.c:300 modules/tools/cprofile.c:287
 #: modules/tools/linestats.c:269 modules/tools/profile.c:349
@@ -18912,23 +18921,23 @@ msgstr "<b>选项</b>"
 
 #: modules/tools/corrlen.c:308
 msgid "The degree must be ≥ any prior line leveling."
-msgstr ""
+msgstr "阶数必须不小于先前任何扫描线调平的阶数。"
 
 #: modules/tools/corrlen.c:318 modules/tools/corrlen.c:1086
 msgid "Correlation Length T"
-msgstr ""
+msgstr "相关长度 T"
 
 #: modules/tools/corrlen.c:322 modules/tools/corrlen.c:1095
 msgid "Relation to Image Size"
-msgstr ""
+msgstr "与图像尺寸的关系"
 
 #: modules/tools/corrlen.c:326 modules/tools/corrlen.c:1100
 msgid "Mean Square Roughness"
-msgstr ""
+msgstr "均方粗糙度"
 
 #: modules/tools/corrlen.c:970
 msgid "Biased fit"
-msgstr ""
+msgstr "有偏拟合"
 
 #: modules/tools/corrlen.c:1073 modules/tools/stats.c:701
 msgid "Selected area"
@@ -18944,55 +18953,55 @@ msgstr "%{w}v × %{h}v，位置（%{x}v, %{y}v）"
 
 #: modules/tools/corrlen.c:1087
 msgid "Raw ACF decay to 1/e"
-msgstr ""
+msgstr "原始 ACF 衰减至 1/e"
 
 #: modules/tools/corrlen.c:1088
 msgid "Corrected ACF decay to 1/e"
-msgstr ""
+msgstr "校正后 ACF 衰减至 1/e"
 
 #: modules/tools/corrlen.c:1089
 msgid "ACF zero crossing"
-msgstr ""
+msgstr "ACF 过零"
 
 #: modules/tools/corrlen.c:1090 modules/tools/corrlen.c:1103
 msgid "ACF fit with bias"
-msgstr ""
+msgstr "带偏置的 ACF 拟合"
 
 #: modules/tools/corrlen.c:1091 modules/tools/corrlen.c:1104
 msgid "PSDF fit"
-msgstr ""
+msgstr "PSDF 拟合"
 
 #: modules/tools/corrlen.c:1096
 msgid "Ratio α = T/L"
-msgstr ""
+msgstr "比值 α = T/L"
 
 #: modules/tools/corrlen.c:1097
 msgid "Image size measured in T"
-msgstr ""
+msgstr "以 T 计量的图像尺寸"
 
 #: modules/tools/corrlen.c:1101
 msgid "Raw ACF at zero"
-msgstr ""
+msgstr "零处原始 ACF"
 
 #: modules/tools/corrlen.c:1102
 msgid "Corrected ACF at zero"
-msgstr ""
+msgstr "零处校正后 ACF"
 
 #: modules/tools/cprofile.c:114
 msgid "Profile tool which reads horizontal and/or vertical scan lines."
-msgstr ""
+msgstr "读取水平和/或垂直扫描线的轮廓工具。"
 
 #: modules/tools/cprofile.c:152
 msgid "Cross at _zero"
-msgstr ""
+msgstr "在零处交叉(_Z)"
 
 #: modules/tools/cprofile.c:170
 msgid "Profiles Along Axes"
-msgstr ""
+msgstr "沿轴的轮廓"
 
 #: modules/tools/cprofile.c:171
 msgid "Read horizontal and/or vertical profiles"
-msgstr ""
+msgstr "读取水平和/或垂直轮廓"
 
 #: modules/tools/cprofile.c:243 modules/tools/profile.c:226
 #: modules/tools/profile.c:305
@@ -19002,28 +19011,28 @@ msgstr "轮廓"
 #: modules/tools/cprofile.c:752
 #, c-format
 msgid "Vertical profile %d"
-msgstr ""
+msgstr "垂直轮廓 %d"
 
 #: modules/tools/cprofile.c:754
 #, c-format
 msgid "Horizontal profile %d"
-msgstr ""
+msgstr "水平轮廓 %d"
 
 #: modules/tools/crop.c:82
 msgid "Crop tool, crops data to smaller size."
-msgstr ""
+msgstr "裁剪工具，将数据裁剪到较小尺寸。"
 
 #: modules/tools/crop.c:112
 msgid "Crop all compatible images"
-msgstr ""
+msgstr "裁剪所有兼容图像"
 
 #: modules/tools/distance.c:94
 msgid "Distance measurement tool, measures distances and angles."
-msgstr ""
+msgstr "距离测量工具，测量距离和角度。"
 
 #: modules/tools/distance.c:123
 msgid "Save Distance Table"
-msgstr ""
+msgstr "保存距离表"
 
 #. TRANSLATORS: Number is verb here.
 #: modules/tools/distance.c:126 modules/tools/profile.c:200
@@ -19033,37 +19042,37 @@ msgstr "为线条编号(_N)"
 
 #: modules/tools/distance.c:143
 msgid "Measure distances and directions between points"
-msgstr ""
+msgstr "测量点之间的距离和方向"
 
 #: modules/tools/filter.c:117
 msgid ""
 "Filter tool, processes selected part of data with a filter (conservative "
 "denoise, mean, median, Kuwahara, minimum, maximum)."
-msgstr ""
+msgstr "滤波工具，使用滤波器（保守去噪、均值、中值、Kuwahara、最小值、最大值）处理所选数据部分。"
 
 #: modules/tools/filter.c:143
 msgid "Conservative denoise"
-msgstr ""
+msgstr "保守去噪"
 
 #: modules/tools/filter.c:150
 msgid "Kuwahara"
-msgstr ""
+msgstr "Kuwahara"
 
 #: modules/tools/filter.c:151
 msgid "Dechecker"
-msgstr ""
+msgstr "去棋盘格"
 
 #: modules/tools/filter.c:152
 msgid "filter|Gaussian"
-msgstr ""
+msgstr "高斯"
 
 #: modules/tools/filter.c:153
 msgid "Sharpen"
-msgstr ""
+msgstr "锐化"
 
 #: modules/tools/filter.c:185
 msgid "Basic filters: mean, median, denoise, …"
-msgstr ""
+msgstr "基本滤波器：均值、中值、去噪……"
 
 #: modules/tools/filter.c:249 modules/tools/stats.c:250
 msgid "Masking Mode"
@@ -19116,75 +19125,75 @@ msgstr "移除单个颗粒（掩膜的连通区域）"
 msgid ""
 "Interactive color range tool, allows selecting the data range false color "
 "scale should map to, either on data or on height distribution histogram."
-msgstr ""
+msgstr "交互式颜色范围工具，可在数据或高度分布直方图上选择伪彩色色标应映射到的数据范围。"
 
 #: modules/tools/icolorange.c:174
 msgid "_Start"
-msgstr ""
+msgstr "起点(_S)"
 
 #: modules/tools/icolorange.c:175
 msgid "_End"
-msgstr ""
+msgstr "终点(_E)"
 
 #: modules/tools/icolorange.c:176
 msgid "_Adapt color range to selection"
-msgstr ""
+msgstr "使颜色范围适应所选内容(_A)"
 
 #: modules/tools/icolorange.c:192
 msgid "Color Range"
-msgstr ""
+msgstr "颜色范围"
 
 #: modules/tools/icolorange.c:193
 msgid "Stretch color range to part of data"
-msgstr ""
+msgstr "将颜色范围拉伸到部分数据"
 
 #: modules/tools/icolorange.c:255
 msgid "Full color range from minimum to maximum"
-msgstr ""
+msgstr "从最小值到最大值的完整颜色范围"
 
 #: modules/tools/icolorange.c:259
 msgid "Explicitly set fixed color range"
-msgstr ""
+msgstr "显式设置固定颜色范围"
 
 #: modules/tools/icolorange.c:263
 msgid "Automatic color range with tails cut off"
-msgstr ""
+msgstr "截去尾部后的自动颜色范围"
 
 #: modules/tools/icolorange.c:267
 msgid "Adaptive nonlinear color mapping"
-msgstr ""
+msgstr "自适应非线性颜色映射"
 
 #: modules/tools/icolorange.c:300
 msgid "_default"
-msgstr ""
+msgstr "默认(_D)"
 
 #: modules/tools/icolorange.c:307
 msgid "Height histogram"
-msgstr ""
+msgstr "高度直方图"
 
 #: modules/tools/icolorange.c:331
 msgid "Color Mapping"
-msgstr ""
+msgstr "颜色映射"
 
 #: modules/tools/icolorange.c:336
 msgid "Set to _Masked"
-msgstr ""
+msgstr "设为掩膜内(_M)"
 
 #: modules/tools/icolorange.c:338
 msgid "Set to _Unmasked"
-msgstr ""
+msgstr "设为掩膜外(_U)"
 
 #: modules/tools/icolorange.c:340
 msgid "_Invert Mapping"
-msgstr ""
+msgstr "反转映射(_I)"
 
 #: modules/tools/icolorange.c:343
 msgid "Data Range"
-msgstr ""
+msgstr "数据范围"
 
 #: modules/tools/icolorange.c:346
 msgid "Set Zero to Color Map Minimum"
-msgstr ""
+msgstr "将零设为色图最小值"
 
 #: modules/tools/level3.c:91
 msgid ""
@@ -19237,111 +19246,111 @@ msgstr "计算行／列统计函数"
 #: modules/tools/maskedit.c:155
 msgid ""
 "Mask editor tool, allows interactive modification of parts of the mask."
-msgstr ""
+msgstr "掩膜编辑器工具，可交互修改掩膜的部分区域。"
 
 #: modules/tools/maskedit.c:196
 msgid "_Shapes"
-msgstr ""
+msgstr "形状(_S)"
 
 #: modules/tools/maskedit.c:197
 msgid "_Drawing Tools"
-msgstr ""
+msgstr "绘图工具(_D)"
 
 #: modules/tools/maskedit.c:200
 msgid "Set mask to selection"
-msgstr ""
+msgstr "将掩膜设为所选内容"
 
 #: modules/tools/maskedit.c:201
 msgid "Add selection to mask"
-msgstr ""
+msgstr "将所选内容添加到掩膜"
 
 #: modules/tools/maskedit.c:202
 msgid "Subtract selection from mask"
-msgstr ""
+msgstr "从掩膜中减去所选内容"
 
 #: modules/tools/maskedit.c:203
 msgid "Intersect selection with mask"
-msgstr ""
+msgstr "将所选内容与掩膜求交"
 
 #: modules/tools/maskedit.c:206
 msgid "Rectangular shapes"
-msgstr ""
+msgstr "矩形"
 
 #: modules/tools/maskedit.c:207
 msgid "Elliptic shapes"
-msgstr ""
+msgstr "椭圆"
 
 #: modules/tools/maskedit.c:208
 msgid "Thin lines"
-msgstr ""
+msgstr "细线"
 
 #: modules/tools/maskedit.c:211
 msgid "Freehand mask drawing"
-msgstr ""
+msgstr "手绘掩膜"
 
 #: modules/tools/maskedit.c:212
 msgid "Freehand mask erasing"
-msgstr ""
+msgstr "手绘擦除掩膜"
 
 #: modules/tools/maskedit.c:213
 msgid "Fill continuous empty areas with mask"
-msgstr ""
+msgstr "用掩膜填充连续空白区域"
 
 #: modules/tools/maskedit.c:214
 msgid "Erase continuous parts of mask"
-msgstr ""
+msgstr "擦除掩膜的连续部分"
 
 #: modules/tools/maskedit.c:233
 msgid "_Amount"
-msgstr ""
+msgstr "数量(_A)"
 
 #: modules/tools/maskedit.c:234 modules/tools/maskedit.c:456
 msgid "Fill non-simple-connected"
-msgstr ""
+msgstr "填充非简单连通区域"
 
 #: modules/tools/maskedit.c:236
 msgid "_Prevent grain merging by growing"
-msgstr ""
+msgstr "通过生长防止颗粒合并(_P)"
 
 #: modules/tools/maskedit.c:239
 msgid "Thin lines are 4-connected"
-msgstr ""
+msgstr "细线为 4 连通"
 
 #: modules/tools/maskedit.c:254
 msgid "Mask Editor"
-msgstr ""
+msgstr "掩膜编辑器"
 
 #: modules/tools/maskedit.c:255
 msgid "Edit mask"
-msgstr ""
+msgstr "编辑掩膜"
 
 #: modules/tools/maskedit.c:308
 msgid "Editor"
-msgstr ""
+msgstr "编辑器"
 
 #: modules/tools/maskedit.c:320
 msgid "Actions"
-msgstr ""
+msgstr "操作"
 
 #: modules/tools/maskedit.c:324
 msgid "Grow/Shrink"
-msgstr ""
+msgstr "生长/收缩"
 
 #: modules/tools/maskedit.c:440
 msgid "_Invert"
-msgstr ""
+msgstr "反转(_I)"
 
 #: modules/tools/maskedit.c:454
 msgid "Fill _Voids"
-msgstr ""
+msgstr "填充空洞(_V)"
 
 #: modules/tools/maskedit.c:471
 msgid "_Grow"
-msgstr ""
+msgstr "生长(_G)"
 
 #: modules/tools/maskedit.c:472
 msgid "Shrin_k"
-msgstr ""
+msgstr "收缩(_K)"
 
 #: modules/tools/pathlevel.c:97
 msgid "Path level tool, performs row leveling along on user-set lines."
@@ -19357,11 +19366,11 @@ msgstr "利用与指定线条的交点对行进行调平"
 
 #: modules/tools/profile.c:159
 msgid "Profile tool, creates profile graphs from selected lines."
-msgstr ""
+msgstr "轮廓工具，从所选直线创建轮廓曲线图。"
 
 #: modules/tools/profile.c:182
 msgid "calib-data|None"
-msgstr ""
+msgstr "无"
 
 #: modules/tools/profile.c:201 modules/tools/rprofile.c:165
 msgid "_Separate profiles"
@@ -19369,71 +19378,71 @@ msgstr "分离轮廓(_S)"
 
 #: modules/tools/profile.c:209
 msgid "_Show profile"
-msgstr ""
+msgstr "显示轮廓(_S)"
 
 #: modules/tools/profile.c:210
 msgid "_Calibration data"
-msgstr ""
+msgstr "校准数据(_C)"
 
 #: modules/tools/profile.c:227
 msgid "Extract profiles along arbitrary lines"
-msgstr ""
+msgstr "沿任意直线提取轮廓"
 
 #: modules/tools/profile.c:356
 msgid "Improve _Direction"
-msgstr ""
+msgstr "改善方向(_D)"
 
 #: modules/tools/profile.c:357
 msgid "Improve _All"
-msgstr ""
+msgstr "改善全部(_A)"
 
 #: modules/tools/profile.c:607
 #, c-format
 msgid "X error %d"
-msgstr ""
+msgstr "X 误差 %d"
 
 #: modules/tools/profile.c:611
 #, c-format
 msgid "Y error %d"
-msgstr ""
+msgstr "Y 误差 %d"
 
 #: modules/tools/profile.c:615
 #, c-format
 msgid "Z error %d"
-msgstr ""
+msgstr "Z 误差 %d"
 
 #: modules/tools/profile.c:619
 #, c-format
 msgid "X uncertainty %d"
-msgstr ""
+msgstr "X 不确定度 %d"
 
 #: modules/tools/profile.c:623
 #, c-format
 msgid "Y uncertainty %d"
-msgstr ""
+msgstr "Y 不确定度 %d"
 
 #: modules/tools/profile.c:627
 #, c-format
 msgid "Z uncertainty %d"
-msgstr ""
+msgstr "Z 不确定度 %d"
 
 #: modules/tools/profile.c:631
 #, c-format
 msgid "Zunc up bound %d"
-msgstr ""
+msgstr "Z 不确定度上界 %d"
 
 #: modules/tools/profile.c:635
 #, c-format
 msgid "Zunc low bound %d"
-msgstr ""
+msgstr "Z 不确定度下界 %d"
 
 #: modules/tools/readvalue.c:155
 msgid "Pointer tool, reads value under pointer."
-msgstr ""
+msgstr "指针工具，读取指针下的数值。"
 
 #: modules/tools/readvalue.c:185
 msgid "Show _selection"
-msgstr ""
+msgstr "显示选择(_S)"
 
 #: modules/tools/readvalue.c:187 modules/tools/spotremove.c:214
 msgid "Adapt color range to detail"
@@ -19441,27 +19450,27 @@ msgstr "使颜色范围适应细节"
 
 #: modules/tools/readvalue.c:188
 msgid "Show _mask"
-msgstr ""
+msgstr "显示掩膜(_M)"
 
 #: modules/tools/readvalue.c:203
 msgid "Read Value"
-msgstr ""
+msgstr "读取数值"
 
 #: modules/tools/readvalue.c:204
 msgid "Read value under mouse cursor"
-msgstr ""
+msgstr "读取鼠标光标下的数值"
 
 #: modules/tools/readvalue.c:348
 msgid "Set _Zero"
-msgstr ""
+msgstr "设为零点(_Z)"
 
 #: modules/tools/readvalue.c:352
 msgid "Facet"
-msgstr ""
+msgstr "面片"
 
 #: modules/tools/readvalue.c:354
 msgid "Curvatures"
-msgstr ""
+msgstr "曲率"
 
 #: modules/tools/roughness.c:151
 msgid "Calculate surface profile parameters."
@@ -19650,181 +19659,181 @@ msgstr "表面轮廓"
 
 #: modules/tools/rprofile.c:133
 msgid "Creates angularly averaged profile graphs."
-msgstr ""
+msgstr "创建角度平均的轮廓曲线图。"
 
 #: modules/tools/rprofile.c:184
 msgid "Radial Profiles"
-msgstr ""
+msgstr "径向轮廓"
 
 #: modules/tools/rprofile.c:185
 msgid "Extract angularly averaged profiles"
-msgstr ""
+msgstr "提取角度平均的轮廓"
 
 #: modules/tools/rprofile.c:257
 msgid "Radial profiles"
-msgstr ""
+msgstr "径向轮廓"
 
 #: modules/tools/rprofile.c:305
 msgid "S_ymmetrize"
-msgstr ""
+msgstr "对称化(_Y)"
 
 #: modules/tools/rprofile.c:307
 msgid "Symmetrize _All"
-msgstr ""
+msgstr "全部对称化(_A)"
 
 #: modules/tools/rprofile.c:525
 #, c-format
 msgid "Radial profile %d"
-msgstr ""
+msgstr "径向轮廓 %d"
 
 #: modules/tools/selectionmanager.c:122
 msgid "Selection manager tool which lists, clears and copies selections."
-msgstr ""
+msgstr "选择管理器工具，可列出、清除和复制选择。"
 
 #: modules/tools/selectionmanager.c:163 modules/tools/selectionmanager.c:360
 msgid "to _all files"
-msgstr ""
+msgstr "到所有文件(_A)"
 
 #: modules/tools/selectionmanager.c:177
 msgid "Selection Manager"
-msgstr ""
+msgstr "选择管理器"
 
 #: modules/tools/selectionmanager.c:178
 msgid "Display, copy and export selections"
-msgstr ""
+msgstr "显示、复制和导出选择"
 
 #: modules/tools/selectionmanager.c:264
 msgid "Spline path"
-msgstr ""
+msgstr "样条路径"
 
 #: modules/tools/selectionmanager.c:266
 msgid "Projective rectangles"
-msgstr ""
+msgstr "投影矩形"
 
 #: modules/tools/selectionmanager.c:349
 msgid "Manage chosen selection"
-msgstr ""
+msgstr "管理所选选择"
 
 #: modules/tools/selectionmanager.c:357
 msgid "_Distribute"
-msgstr ""
+msgstr "分发(_D)"
 
 #: modules/tools/selectionmanager.c:368
 msgid "_Copy"
-msgstr ""
+msgstr "复制(_C)"
 
 #: modules/tools/sfunctions.c:163
 msgid ""
 "Statistical function tool, calculates one-dimensional statistical functions "
 "(height distribution, correlations, PSDF, Minkowski functionals) of selected"
 " part of data."
-msgstr ""
+msgstr "统计函数工具，计算所选数据部分的一维统计函数（高度分布、相关函数、PSDF、Minkowski 泛函）。"
 
 #: modules/tools/sfunctions.c:179
 msgid "Radial PSDF"
-msgstr ""
+msgstr "径向 PSDF"
 
 #: modules/tools/sfunctions.c:180
 msgid "Angularly averaged PSDF"
-msgstr ""
+msgstr "角度平均 PSDF"
 
 #: modules/tools/sfunctions.c:181
 msgid "Angular spectrum"
-msgstr ""
+msgstr "角谱"
 
 #: modules/tools/sfunctions.c:182
 msgid "Radial ACF"
-msgstr ""
+msgstr "径向 ACF"
 
 #: modules/tools/sfunctions.c:183
 msgid "Minkowski volume"
-msgstr ""
+msgstr "Minkowski 体积"
 
 #: modules/tools/sfunctions.c:184
 msgid "Minkowski boundary"
-msgstr ""
+msgstr "Minkowski 边界"
 
 #: modules/tools/sfunctions.c:185
 msgid "Minkowski connectivity"
-msgstr ""
+msgstr "Minkowski 连通性"
 
 #: modules/tools/sfunctions.c:187
 msgid "Area scale graph"
-msgstr ""
+msgstr "面积尺度曲线图"
 
 #: modules/tools/sfunctions.c:188
 msgid "IDF"
-msgstr ""
+msgstr "IDF"
 
 #: modules/tools/sfunctions.c:189
 msgid "Radial IDF"
-msgstr ""
+msgstr "径向 IDF"
 
 #: modules/tools/sfunctions.c:226
 msgid "_Separate uncertainty"
-msgstr ""
+msgstr "分离不确定度(_S)"
 
 #: modules/tools/spectro.c:131
 msgid "Point Spectrum, extracts point spectra to a graph."
-msgstr ""
+msgstr "点谱工具，将点谱提取到曲线图。"
 
 #: modules/tools/spectro.c:160
 msgid "_Separate spectra"
-msgstr ""
+msgstr "分离谱(_S)"
 
 #: modules/tools/spectro.c:161
 msgid "_Average spectra"
-msgstr ""
+msgstr "平均谱(_A)"
 
 #: modules/tools/spectro.c:177
 msgid "Point Spectroscopy"
-msgstr ""
+msgstr "点光谱"
 
 #: modules/tools/spectro.c:178
 msgid "Extract and view point spectroscopy data"
-msgstr ""
+msgstr "提取并查看点光谱数据"
 
 #: modules/tools/spectro.c:386
 msgid "Spectroscopy"
-msgstr ""
+msgstr "光谱"
 
 #: modules/tools/spotremove.c:168
 msgid ""
 "Spot removal tool, interpolates small parts of data (displayed on a zoomed "
 "view) using selected algorithm."
-msgstr ""
+msgstr "斑点去除工具，使用所选算法对数据的小部分（显示在放大视图中）进行插值。"
 
 #: modules/tools/spotremove.c:191
 msgid "Hyperbolic flatten"
-msgstr ""
+msgstr "双曲平坦化"
 
 #: modules/tools/spotremove.c:192
 msgid "Pseudo-Laplace"
-msgstr ""
+msgstr "伪拉普拉斯"
 
 #: modules/tools/spotremove.c:194
 msgid "Fractal interpolation"
-msgstr ""
+msgstr "分形插值"
 
 #: modules/tools/spotremove.c:200
 msgid "Ellipse"
-msgstr ""
+msgstr "椭圆"
 
 #: modules/tools/spotremove.c:229
 msgid "Remove Spots"
-msgstr ""
+msgstr "去除斑点"
 
 #: modules/tools/spotremove.c:230
 msgid "Interpolate small defects, manually selected"
-msgstr ""
+msgstr "对人工选择的小缺陷进行插值"
 
 #: modules/tools/spotremove.c:751
 msgid "No point in the image selected."
-msgstr ""
+msgstr "图像中未选择点。"
 
 #: modules/tools/spotremove.c:752
 msgid "No area in the zoom selected."
-msgstr ""
+msgstr "放大视图中未选择区域。"
 
 #: modules/tools/stats.c:130
 msgid "Statistics tool."
@@ -19888,79 +19897,79 @@ msgstr "扫描线差异"
 
 #: modules/volume/volume_1dfft.c:115
 msgid "Performs 1D FFT filtering for all the volume data levels."
-msgstr ""
+msgstr "对体数据的所有层进行一维 FFT 滤波。"
 
 #: modules/volume/volume_1dfft.c:133
 msgid "1D FFT filtering of all levels"
-msgstr ""
+msgstr "对所有层进行一维 FFT 滤波"
 
 #: modules/volume/volume_1dfft.c:150
 msgid "spectra|Individual"
-msgstr ""
+msgstr "单独"
 
 #: modules/volume/volume_1dfft.c:151
 msgid "spectra|Average"
-msgstr ""
+msgstr "平均"
 
 #: modules/volume/volume_1dfft.c:165
 msgid "_Shown spectrum"
-msgstr ""
+msgstr "显示的谱(_S)"
 
 #: modules/volume/volume_1dfft.c:207
 msgid "1D FFT Filtered"
-msgstr ""
+msgstr "一维 FFT 滤波后"
 
 #: modules/volume/volume_1dfft.c:256
 msgid "1D FFT Filter"
-msgstr ""
+msgstr "一维 FFT 滤波器"
 
 #: modules/volume/volume_addframe.c:88
 msgid "Add one frame to volume data stack"
-msgstr ""
+msgstr "向体数据堆栈添加一帧"
 
 #: modules/volume/volume_addframe.c:102
 msgid "/_Basic Operations/I_nsert XY Plane..."
-msgstr ""
+msgstr "/基本操作(_B)/插入 XY 平面(_N)..."
 
 #: modules/volume/volume_addframe.c:106
 msgid "Insert single XY plane to some level."
-msgstr ""
+msgstr "在某一层插入单个 XY 平面。"
 
 #: modules/volume/volume_addframe.c:121
 msgid "Data to insert"
-msgstr ""
+msgstr "要插入的数据"
 
 #: modules/volume/volume_addframe.c:159
 msgid "Frame added"
-msgstr ""
+msgstr "已添加帧"
 
 #: modules/volume/volume_addframe.c:197
 msgid "Add XY Plane"
-msgstr ""
+msgstr "添加 XY 平面"
 
 #: modules/volume/volume_addframe.c:211
 msgid "Insert _Before Current Level"
-msgstr ""
+msgstr "插入到当前层之前(_B)"
 
 #: modules/volume/volume_addframe.c:213
 msgid "_Replace Current Level"
-msgstr ""
+msgstr "替换当前层(_R)"
 
 #: modules/volume/volume_addframe.c:215
 msgid "Insert _After Current Level"
-msgstr ""
+msgstr "插入到当前层之后(_A)"
 
 #: modules/volume/volume_arithmetic.c:147
 msgid "Simple arithmetic operations with volume data."
-msgstr ""
+msgstr "对体数据进行简单算术运算。"
 
 #: modules/volume/volume_arithmetic.c:161
 msgid "/_Basic Operations/_Arithmetic..."
-msgstr ""
+msgstr "/基本操作(_B)/算术(_A)..."
 
 #: modules/volume/volume_arithmetic.c:165
 msgid "Arithmetic operations on volume data"
-msgstr ""
+msgstr "对体数据进行算术运算"
 
 #: modules/volume/volume_arithmetic.c:560
 #: modules/volume/volume_xyarithmetics.c:601
@@ -19969,31 +19978,31 @@ msgstr "Z 轴校准不同"
 
 #: modules/volume/volume_asciiexport.c:72
 msgid "Exports volume data in simple ASCII formats."
-msgstr ""
+msgstr "以简单 ASCII 格式导出体数据。"
 
 #: modules/volume/volume_asciiexport.c:86
 msgid "/_Basic Operations/Export _Text..."
-msgstr ""
+msgstr "/基本操作(_B)/导出文本(_T)..."
 
 #: modules/volume/volume_asciiexport.c:90
 msgid "Export volume data to a text file"
-msgstr ""
+msgstr "将体数据导出为文本文件"
 
 #: modules/volume/volume_asciiexport.c:99
 msgid "VTK structured grid"
-msgstr ""
+msgstr "VTK 结构网格"
 
 #: modules/volume/volume_asciiexport.c:100
 msgid "One Z-profile per line"
-msgstr ""
+msgstr "每行一个 Z 剖面"
 
 #: modules/volume/volume_asciiexport.c:101
 msgid "One XY-layer per line"
-msgstr ""
+msgstr "每行一个 XY 层"
 
 #: modules/volume/volume_asciiexport.c:102
 msgid "Blank-line separated matrices"
-msgstr ""
+msgstr "空行分隔矩阵"
 
 #: modules/volume/volume_asciiexport.c:142 modules/volume/volume_extract.c:256
 msgid "Volume data"
@@ -20001,11 +20010,11 @@ msgstr "体数据"
 
 #: modules/volume/volume_calibrate.c:142
 msgid "Recalibrate volume data dimensions or value range."
-msgstr ""
+msgstr "重新校准体数据尺寸或数值范围。"
 
 #: modules/volume/volume_calibrate.c:170
 msgid "Match voxel size"
-msgstr ""
+msgstr "匹配体素大小"
 
 #: modules/volume/volume_calibrate.c:206 modules/volume/volume_zposlevel.c:156
 msgid "_Z range"
@@ -20013,23 +20022,23 @@ msgstr "Z 范围(_Z)"
 
 #: modules/volume/volume_calibrate.c:215
 msgid "Z offset"
-msgstr ""
+msgstr "Z 偏移"
 
 #: modules/volume/volume_calibrate.c:222
 msgid "Value _range"
-msgstr ""
+msgstr "数值范围(_R)"
 
 #: modules/volume/volume_calibrate.c:223
 msgid "Value _minimum"
-msgstr ""
+msgstr "数值最小值(_M)"
 
 #: modules/volume/volume_calibrate.c:224
 msgid "Value shi_ft"
-msgstr ""
+msgstr "数值偏移(_F)"
 
 #: modules/volume/volume_calibrate.c:225
 msgid "_Value correction factor"
-msgstr ""
+msgstr "数值校正因子(_V)"
 
 #: modules/volume/volume_calibrate.c:228 modules/volume/volume_mfmrecalc.c:134
 #: modules/volume/volume_swaxes.c:129
@@ -20038,247 +20047,247 @@ msgstr "创建新的体数据"
 
 #: modules/volume/volume_calibrate.c:448
 msgid "XY Dimensions"
-msgstr ""
+msgstr "XY 尺寸"
 
 #: modules/volume/volume_calibrate.c:478
 msgid "Z Dimension"
-msgstr ""
+msgstr "Z 尺寸"
 
 #: modules/volume/volume_cluster.c:229
 msgid "K-means"
-msgstr ""
+msgstr "K 均值"
 
 #: modules/volume/volume_cluster.c:230
 msgid "K-medians"
-msgstr ""
+msgstr "K 中位数"
 
 #: modules/volume/volume_cluster.c:231
 msgid "DBSCAN"
-msgstr ""
+msgstr "DBSCAN"
 
 #: modules/volume/volume_cluster.c:232
 msgid "Nearest Neighbors"
-msgstr ""
+msgstr "最近邻"
 
 #: modules/volume/volume_cluster.c:238
 msgid "Splits data into clusters"
-msgstr ""
+msgstr "将数据划分为聚类"
 
 #: modules/volume/volume_cluster.c:252
 msgid "/_Statistics/_Clustering..."
-msgstr ""
+msgstr "/统计(_S)/聚类(_C)..."
 
 #: modules/volume/volume_cluster.c:256
 msgid "Split data into clusters"
-msgstr ""
+msgstr "将数据划分为聚类"
 
 #: modules/volume/volume_cluster.c:268 modules/volume/volume_cluster.c:329
 msgid "Preprocessed _data"
-msgstr ""
+msgstr "预处理后数据(_D)"
 
 #: modules/volume/volume_cluster.c:269
 msgid "Clustering _result"
-msgstr ""
+msgstr "聚类结果(_R)"
 
 #: modules/volume/volume_cluster.c:272 modules/volume/volume_cluster.c:278
 #: modules/volume/volume_cluster.c:285 modules/volume/volume_cluster.c:291
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: modules/volume/volume_cluster.c:273
 msgid "3 σ"
-msgstr ""
+msgstr "3 σ"
 
 #: modules/volume/volume_cluster.c:274
 msgid "3 MAD"
-msgstr ""
+msgstr "3 MAD"
 
 #: modules/volume/volume_cluster.c:281
 msgid "Quadratic"
-msgstr ""
+msgstr "二次"
 
 #: modules/volume/volume_cluster.c:282
 msgid "Mean curve"
-msgstr ""
+msgstr "均值曲线"
 
 #: modules/volume/volume_cluster.c:287
 msgid "Gradient"
-msgstr ""
+msgstr "梯度"
 
 #: modules/volume/volume_cluster.c:292
 msgid "Min/max"
-msgstr ""
+msgstr "最小/最大"
 
 #: modules/volume/volume_cluster.c:293
 msgid "Variance"
-msgstr ""
+msgstr "方差"
 
 #: modules/volume/volume_cluster.c:294
 msgid "Pareto"
-msgstr ""
+msgstr "Pareto"
 
 #: modules/volume/volume_cluster.c:295
 msgid "VAST"
-msgstr ""
+msgstr "VAST"
 
 #: modules/volume/volume_cluster.c:315
 msgid "_Outliers criterion"
-msgstr ""
+msgstr "异常值判据(_O)"
 
 #: modules/volume/volume_cluster.c:317
 msgid "_Background removal"
-msgstr ""
+msgstr "背景去除(_B)"
 
 #: modules/volume/volume_cluster.c:319
 msgid "_Transformation"
-msgstr ""
+msgstr "变换(_T)"
 
 #: modules/volume/volume_cluster.c:321
 msgid "_Scaling"
-msgstr ""
+msgstr "缩放(_S)"
 
 #: modules/volume/volume_cluster.c:325
 msgid "_Cluster map"
-msgstr ""
+msgstr "聚类图(_C)"
 
 #: modules/volume/volume_cluster.c:326
 msgid "Cluster centers _graph"
-msgstr ""
+msgstr "聚类中心曲线图(_G)"
 
 #: modules/volume/volume_cluster.c:327
 msgid "_Error map"
-msgstr ""
+msgstr "误差图(_E)"
 
 #: modules/volume/volume_cluster.c:328
 msgid "Outliers _mask"
-msgstr ""
+msgstr "异常值掩膜(_M)"
 
 #: modules/volume/volume_cluster.c:331
 msgid "Output _non-processed centers"
-msgstr ""
+msgstr "输出未处理的中心(_N)"
 
 #: modules/volume/volume_cluster.c:332
 msgid "Sho_w data with result"
-msgstr ""
+msgstr "显示带结果的数据(_W)"
 
 #: modules/volume/volume_cluster.c:390
 #, c-format
 msgid "%s: cluster map"
-msgstr ""
+msgstr "%s：聚类图"
 
 #: modules/volume/volume_cluster.c:406
 #, c-format
 msgid "%s: error map"
-msgstr ""
+msgstr "%s：误差图"
 
 #: modules/volume/volume_cluster.c:451
 #, c-format
 msgid "%s: cluster centers"
-msgstr ""
+msgstr "%s：聚类中心"
 
 #: modules/volume/volume_cluster.c:466
 #, c-format
 msgid "Pre-processed %s"
-msgstr ""
+msgstr "预处理后的 %s"
 
 #: modules/volume/volume_cluster.c:513
 msgid "Cluster Data"
-msgstr ""
+msgstr "聚类数据"
 
 #: modules/volume/volume_cluster.c:539
 msgid "Initialization"
-msgstr ""
+msgstr "初始化"
 
 #: modules/volume/volume_cluster.c:547
 msgid "Pre-processing"
-msgstr ""
+msgstr "预处理"
 
 #: modules/volume/volume_cluster.c:559
 msgid "Clustering"
-msgstr ""
+msgstr "聚类"
 
 #: modules/volume/volume_cluster.c:600 modules/volume/volume_cluster.c:775
 #: modules/volume/volume_cluster.c:830
 msgid "no clusters"
-msgstr ""
+msgstr "无聚类"
 
 #: modules/volume/volume_cluster.c:824
 #, c-format
 msgid "%d clusters, error: %g"
-msgstr ""
+msgstr "%d 个聚类，误差：%g"
 
 #: modules/volume/volume_cluster.c:1284
 #, c-format
 msgid "Cluster center %d"
-msgstr ""
+msgstr "聚类中心 %d"
 
 #: modules/volume/volume_cluster.c:1506 modules/volume/volume_cluster.c:1781
 msgid "Number of clusters"
-msgstr ""
+msgstr "聚类数"
 
 #: modules/volume/volume_cluster.c:1508 modules/volume/volume_cluster.c:1783
 msgid "_Max. iterations"
-msgstr ""
+msgstr "最大迭代次数(_M)"
 
 #: modules/volume/volume_cluster.c:1509 modules/volume/volume_cluster.c:1784
 msgid "Convergence _precision digits"
-msgstr ""
+msgstr "收敛精度位数(_P)"
 
 #: modules/volume/volume_cluster.c:1512
 msgid "_Remove outliers"
-msgstr ""
+msgstr "移除异常值(_R)"
 
 #: modules/volume/volume_cluster.c:1514
 msgid "Outliers _threshold"
-msgstr ""
+msgstr "异常值阈值(_T)"
 
 #: modules/volume/volume_cluster.c:1576
 msgid "K-means iteration..."
-msgstr ""
+msgstr "K 均值迭代……"
 
 #: modules/volume/volume_cluster.c:1848
 msgid "K-medians iteration..."
-msgstr ""
+msgstr "K 中位数迭代……"
 
 #: modules/volume/volume_cluster.c:1946
 msgid "Min. neighbors"
-msgstr ""
+msgstr "最小邻居数"
 
 #: modules/volume/volume_cluster.c:1947 modules/volume/volume_cluster.c:2234
 msgid "_Range factor"
-msgstr ""
+msgstr "范围因子(_R)"
 
 #: modules/volume/volume_cluster.c:2070 modules/volume/volume_cluster.c:2374
 msgid "Clustering..."
-msgstr ""
+msgstr "正在聚类……"
 
 #: modules/volume/volume_cluster.c:2227
 msgid "Number"
-msgstr ""
+msgstr "数量"
 
 #: modules/volume/volume_cluster.c:2228
 msgid "Number (weighted) "
-msgstr ""
+msgstr "数量（加权） "
 
 #: modules/volume/volume_cluster.c:2230
 msgid "Distance (weighted)"
-msgstr ""
+msgstr "距离（加权）"
 
 #: modules/volume/volume_cluster.c:2235
 msgid "_Criterion"
-msgstr ""
+msgstr "判据(_C)"
 
 #: modules/volume/volume_crop.c:88
 msgid "Performs XY plane cropping of all the levels."
-msgstr ""
+msgstr "对所有层进行 XY 平面裁剪。"
 
 #: modules/volume/volume_crop.c:102
 msgid "/_Basic Operations/_Crop..."
-msgstr ""
+msgstr "/基本操作(_B)/裁剪(_C)..."
 
 #: modules/volume/volume_crop.c:106
 msgid "Crop volume data as stack of images"
-msgstr ""
+msgstr "将体数据作为图像堆栈裁剪"
 
 #: modules/volume/volume_crop.c:122 modules/xyz/xyz_crop.c:118
 msgid "_Keep offsets"
@@ -20291,15 +20300,15 @@ msgstr "已裁剪"
 
 #: modules/volume/volume_drift.c:159
 msgid "Estimates drift across stacked high-speed SPM frames."
-msgstr ""
+msgstr "估计堆叠高速 SPM 帧之间的漂移。"
 
 #: modules/volume/volume_drift.c:173
 msgid "/_Correct Data/Estimate _Drift..."
-msgstr ""
+msgstr "/校正数据(_C)/估计漂移(_D)..."
 
 #: modules/volume/volume_drift.c:177
 msgid "Estimates drift"
-msgstr ""
+msgstr "估计漂移"
 
 #: modules/volume/volume_drift.c:188 modules/volume/volume_rephase.c:144
 #: modules/volume/volume_slice.c:201
@@ -20308,23 +20317,23 @@ msgstr "Z(_Z)"
 
 #: modules/volume/volume_drift.c:189
 msgid "_Rotation"
-msgstr ""
+msgstr "旋转(_R)"
 
 #: modules/volume/volume_drift.c:192
 msgid "_One by one"
-msgstr ""
+msgstr "逐个(_O)"
 
 #: modules/volume/volume_drift.c:193
 msgid "_Average"
-msgstr ""
+msgstr "平均(_A)"
 
 #: modules/volume/volume_drift.c:203
 msgid "Show direction"
-msgstr ""
+msgstr "显示方向"
 
 #: modules/volume/volume_drift.c:205
 msgid "XY search method"
-msgstr ""
+msgstr "XY 搜索方法"
 
 #: modules/volume/volume_drift.c:208 modules/volume/volume_xystitch.c:149
 msgid "Plot graphs"
@@ -20333,11 +20342,11 @@ msgstr "绘制曲线图"
 #: modules/volume/volume_drift.c:212 modules/volume/volume_drift.c:213
 #: modules/volume/volume_drift.c:214
 msgid "Use raw data"
-msgstr ""
+msgstr "使用原始数据"
 
 #: modules/volume/volume_drift.c:215
 msgid "XY rotate"
-msgstr ""
+msgstr "XY 旋转"
 
 #: modules/volume/volume_drift.c:216 modules/volume/volume_drift.c:217
 #: modules/volume/volume_drift.c:218 modules/xyz/xyz_zdrift.c:139
@@ -20346,15 +20355,15 @@ msgstr "多项式阶数"
 
 #: modules/volume/volume_drift.c:219
 msgid "_Number of rotations"
-msgstr ""
+msgstr "旋转次数(_N)"
 
 #: modules/volume/volume_drift.c:220
 msgid "_Rotation range"
-msgstr ""
+msgstr "旋转范围(_R)"
 
 #: modules/volume/volume_drift.c:295 modules/volume/volume_drift.c:296
 msgid "Lateral drift"
-msgstr ""
+msgstr "横向漂移"
 
 #: modules/volume/volume_drift.c:306 modules/xyz/xyz_drift.c:419
 msgid "y-axis drift"
@@ -20367,15 +20376,15 @@ msgstr "Z 漂移"
 
 #: modules/volume/volume_drift.c:321
 msgid "Z-axis drift"
-msgstr ""
+msgstr "Z 轴漂移"
 
 #: modules/volume/volume_drift.c:331
 msgid "Drift corrected"
-msgstr ""
+msgstr "漂移已校正"
 
 #: modules/volume/volume_drift.c:387
 msgid "Estimate Drift"
-msgstr ""
+msgstr "估计漂移"
 
 #: modules/volume/volume_drift.c:391 modules/xyz/xyz_zdrift.c:206
 msgid "_Calculate drift"
@@ -20387,55 +20396,55 @@ msgstr "应用校正(_A)"
 
 #: modules/volume/volume_drift.c:441
 msgid "X Correction"
-msgstr ""
+msgstr "X 校正"
 
 #: modules/volume/volume_drift.c:449
 msgid "Y Correction"
-msgstr ""
+msgstr "Y 校正"
 
 #: modules/volume/volume_drift.c:457
 msgid "Z Correction"
-msgstr ""
+msgstr "Z 校正"
 
 #: modules/volume/volume_drift.c:568
 msgid "Updating z drift data..."
-msgstr ""
+msgstr "正在更新 Z 漂移数据……"
 
 #: modules/volume/volume_drift.c:634
 msgid "Updating lateral drift data..."
-msgstr ""
+msgstr "正在更新横向漂移数据……"
 
 #: modules/volume/volume_drift.c:864
 msgid "x drift [px]"
-msgstr ""
+msgstr "x 漂移 [px]"
 
 #: modules/volume/volume_drift.c:869
 msgid "y drift [px]"
-msgstr ""
+msgstr "y 漂移 [px]"
 
 #: modules/volume/volume_drift.c:874
 msgid "z drift"
-msgstr ""
+msgstr "z 漂移"
 
 #: modules/volume/volume_drift.c:879
 msgid "rotation [deg]"
-msgstr ""
+msgstr "旋转 [deg]"
 
 #: modules/volume/volume_drift.c:967
 msgid "Cropping data..."
-msgstr ""
+msgstr "正在裁剪数据……"
 
 #: modules/volume/volume_equiplane.c:113
 msgid "Extracts z-coordinates of isosurfaces from volume data to an image."
-msgstr ""
+msgstr "将体数据中等值面的 z 坐标提取到图像。"
 
 #: modules/volume/volume_equiplane.c:127
 msgid "/SPM M_odes/_Isosurface Image..."
-msgstr ""
+msgstr "/SPM 模式(_O)/等值面图像(_I)..."
 
 #: modules/volume/volume_equiplane.c:131
 msgid "Extract z-coordinates of isosurface"
-msgstr ""
+msgstr "提取等值面的 z 坐标"
 
 #: modules/volume/volume_equiplane.c:141
 #: modules/volume/volume_strayfield.c:148
@@ -20445,15 +20454,15 @@ msgstr "结果(_R)"
 
 #: modules/volume/volume_equiplane.c:144
 msgid "Upwards"
-msgstr ""
+msgstr "向上"
 
 #: modules/volume/volume_equiplane.c:145
 msgid "Downwards"
-msgstr ""
+msgstr "向下"
 
 #: modules/volume/volume_equiplane.c:146
 msgid "Both directions"
-msgstr ""
+msgstr "两个方向"
 
 #: modules/volume/volume_equiplane.c:157 modules/volume/volume_zposlevel.c:155
 msgid "_Z value"
@@ -20461,20 +20470,20 @@ msgstr "Z 值(_Z)"
 
 #: modules/volume/volume_equiplane.c:158
 msgid "_Search direction"
-msgstr ""
+msgstr "搜索方向(_S)"
 
 #: modules/volume/volume_equiplane.c:160
 msgid "Preserve _intersection sign"
-msgstr ""
+msgstr "保留交点符号(_I)"
 
 #: modules/volume/volume_equiplane.c:219
 #, c-format
 msgid "Isosurface z for %.*f %s"
-msgstr ""
+msgstr "等值面 z（%.*f %s）"
 
 #: modules/volume/volume_equiplane.c:260
 msgid "Extract Z Isosurfaces"
-msgstr ""
+msgstr "提取 Z 等值面"
 
 #: modules/volume/volume_equiplane.c:295 modules/volume/volume_zposlevel.c:279
 msgid "Constant value"
@@ -20482,67 +20491,67 @@ msgstr "恒定值"
 
 #: modules/volume/volume_extract.c:183
 msgid "Shows 3D representations of volume data"
-msgstr ""
+msgstr "显示体数据的三维表示"
 
 #: modules/volume/volume_extract.c:197
 msgid "/_Basic Operations/3D View..."
-msgstr ""
+msgstr "/基本操作(_B)/三维视图..."
 
 #: modules/volume/volume_extract.c:201
 msgid "Show a 3D view for the volume data"
-msgstr ""
+msgstr "显示体数据的三维视图"
 
 #: modules/volume/volume_extract.c:259
 msgid "_Render"
-msgstr ""
+msgstr "渲染(_R)"
 
 #: modules/volume/volume_extract.c:269
 msgid "_Save image"
-msgstr ""
+msgstr "保存图像(_S)"
 
 #: modules/volume/volume_extract.c:324
 msgid "Wireframe threshold"
-msgstr ""
+msgstr "线框阈值"
 
 #: modules/volume/volume_extract.c:338
 msgid "Opacity scale"
-msgstr ""
+msgstr "不透明度尺度"
 
 #: modules/volume/volume_extract.c:344
 msgid "Apply perspective"
-msgstr ""
+msgstr "应用透视"
 
 #: modules/volume/volume_extract.c:353
 msgid "Instant 3D render"
-msgstr ""
+msgstr "即时三维渲染"
 
 #: modules/volume/volume_extract.c:407
 msgid "X view"
-msgstr ""
+msgstr "X 视图"
 
 #: modules/volume/volume_extract.c:412
 msgid "Y view"
-msgstr ""
+msgstr "Y 视图"
 
 #: modules/volume/volume_extract.c:417
 msgid "Z view"
-msgstr ""
+msgstr "Z 视图"
 
 #: modules/volume/volume_extract.c:605
 msgid "No image was rendered so far"
-msgstr ""
+msgstr "尚未渲染任何图像"
 
 #: modules/volume/volume_extract.c:610
 msgid "Export 3D view"
-msgstr ""
+msgstr "导出三维视图"
 
 #: modules/volume/volume_extract.c:627
 msgid "Cairo error while saving image"
-msgstr ""
+msgstr "保存图像时发生 Cairo 错误"
 
 #: modules/volume/volume_extract.c:1424
 msgid "Building wireframe model..."
-msgstr ""
+msgstr "正在构建线框模型……"
 
 #: modules/volume/volume_facetlevel.c:41
 msgid "Performs facet leveling on all XY planes"
@@ -20614,64 +20623,64 @@ msgstr "正在平坦化基底..."
 
 #: modules/volume/volume_imagize.c:35
 msgid "Extracts all XY slices from volume data"
-msgstr ""
+msgstr "从体数据中提取所有 XY 切片"
 
 #: modules/volume/volume_imagize.c:49
 msgid "/_Basic Operations/_Extract All _XY Planes"
-msgstr ""
+msgstr "/基本操作(_B)/提取所有(_E) XY 平面(_X)"
 
 #: modules/volume/volume_imagize.c:53
 msgid "Extract all XY planes to images"
-msgstr ""
+msgstr "将所有 XY 平面提取为图像"
 
 #: modules/volume/volume_imagize.c:84
 #, c-format
 msgid "%s, slice %d"
-msgstr ""
+msgstr "%s，切片 %d"
 
 #: modules/volume/volume_invert.c:39
 msgid "Inverts value in volume data"
-msgstr ""
+msgstr "反转体数据中的数值"
 
 #: modules/volume/volume_invert.c:57
 msgid "Invert value in volume data"
-msgstr ""
+msgstr "反转体数据中的数值"
 
 #: modules/volume/volume_invert.c:87
 msgid "Inverted"
-msgstr ""
+msgstr "已反转"
 
 #: modules/volume/volume_lawnize.c:85
 msgid "Creates curve map data from volume data."
-msgstr ""
+msgstr "从体数据创建曲线图谱数据。"
 
 #: modules/volume/volume_lawnize.c:99
 msgid "/_Basic Operations/Convert to _Curve Map..."
-msgstr ""
+msgstr "/基本操作(_B)/转换为曲线图谱(_C)..."
 
 #: modules/volume/volume_lawnize.c:103
 msgid "Convert to curve map"
-msgstr ""
+msgstr "转换为曲线图谱"
 
 #: modules/volume/volume_lawnize.c:121
 msgid "_Z calibration"
-msgstr ""
+msgstr "Z 校准(_Z)"
 
 #: modules/volume/volume_lawnize.c:122
 msgid "_All compatible data"
-msgstr ""
+msgstr "所有兼容数据(_A)"
 
 #: modules/volume/volume_lawnize.c:181
 msgid "Convert to Curve Map"
-msgstr ""
+msgstr "转换为曲线图谱"
 
 #: modules/volume/volume_lawnize.c:186
 msgid "Combine with other data:"
-msgstr ""
+msgstr "与其他数据合并："
 
 #: modules/volume/volume_lawnize.c:329
 msgid "Z calibration"
-msgstr ""
+msgstr "Z 校准"
 
 #: modules/volume/volume_linelevel.c:142
 msgid "Performe line leveling for all the volume data levels."
@@ -20719,83 +20728,83 @@ msgstr "汇总体数据轮廓"
 
 #: modules/volume/volume_localdetect.c:128
 msgid "Performs localization merge of all the levels"
-msgstr ""
+msgstr "对所有层进行定位合并"
 
 #: modules/volume/volume_localdetect.c:142
 msgid "/SPM M_odes/_Localization Merge..."
-msgstr ""
+msgstr "/SPM 模式(_O)/定位合并(_L)..."
 
 #: modules/volume/volume_localdetect.c:146
 msgid "Perform localization merge"
-msgstr ""
+msgstr "执行定位合并"
 
 #: modules/volume/volume_localdetect.c:156
 msgid "_pixel"
-msgstr ""
+msgstr "像素(_P)"
 
 #: modules/volume/volume_localdetect.c:157
 msgid "_sub-pixel"
-msgstr ""
+msgstr "亚像素(_S)"
 
 #: modules/volume/volume_localdetect.c:165
 msgid "Local maxima search"
-msgstr ""
+msgstr "局部极大值搜索"
 
 #: modules/volume/volume_localdetect.c:168
 msgid "_Upsampling factor"
-msgstr ""
+msgstr "上采样因子(_U)"
 
 #: modules/volume/volume_localdetect.c:170
 msgid "Keep upsampled"
-msgstr ""
+msgstr "保留上采样"
 
 #: modules/volume/volume_localdetect.c:171
 msgid "Extract volume density"
-msgstr ""
+msgstr "提取体密度"
 
 #: modules/volume/volume_localdetect.c:172
 msgid "_Half-bit wavelength"
-msgstr ""
+msgstr "半位波长(_H)"
 
 #: modules/volume/volume_localdetect.c:174
 msgid "_Peak width"
-msgstr ""
+msgstr "峰宽(_P)"
 
 #: modules/volume/volume_localdetect.c:176
 msgid "_Height threshold"
-msgstr ""
+msgstr "高度阈值(_H)"
 
 #: modules/volume/volume_localdetect.c:178
 msgid "Noise _filter width"
-msgstr ""
+msgstr "噪声滤波宽度(_F)"
 
 #: modules/volume/volume_localdetect.c:228
 msgid "Localization result"
-msgstr ""
+msgstr "定位结果"
 
 #: modules/volume/volume_localdetect.c:237
 msgid "Localisation density"
-msgstr ""
+msgstr "定位密度"
 
 #: modules/volume/volume_localdetect.c:304
 msgid "Localization Merge"
-msgstr ""
+msgstr "定位合并"
 
 #: modules/volume/volume_localdetect.c:306
 msgid "verb|_Update"
-msgstr ""
+msgstr "更新(_U)"
 
 #: modules/volume/volume_localdetect.c:368
 msgid "_Estimate"
-msgstr ""
+msgstr "估计(_E)"
 
 #: modules/volume/volume_localdetect.c:834
 msgid "HBW estimate: initializing 3D mask..."
-msgstr ""
+msgstr "HBW 估计：正在初始化三维掩膜……"
 
 #: modules/volume/volume_localdetect.c:1051
 msgid "Running localization..."
-msgstr ""
+msgstr "正在运行定位……"
 
 #: modules/volume/volume_meanplanelevel.c:40
 msgid "Levels all XY planes by their mean plane"
@@ -20816,11 +20825,11 @@ msgstr "已调平"
 
 #: modules/volume/volume_mfmrecalc.c:91
 msgid "/SPM M_odes/_Magnetic Data to Force Gradient..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁数据转换为力梯度(_M)..."
 
 #: modules/volume/volume_mfmrecalc.c:186
 msgid "Recalculated Data"
-msgstr ""
+msgstr "重新计算的数据"
 
 #: modules/volume/volume_outliers.c:44
 msgid "Removes outliers from all XY planes"
@@ -20876,113 +20885,113 @@ msgstr "汇总体数据平面"
 
 #: modules/volume/volume_psf.c:197
 msgid "Calculates the volume PSF."
-msgstr ""
+msgstr "计算体 PSF。"
 
 #: modules/volume/volume_psf.c:215
 msgid "Estimate transfer function from known data and ideal images"
-msgstr ""
+msgstr "根据已知数据和理想图像估计传递函数"
 
 #: modules/volume/volume_psf.c:245
 msgid "_Z level"
-msgstr ""
+msgstr "Z 层(_Z)"
 
 #: modules/volume/volume_psf.c:251
 msgid "_Estimate sigma for each level"
-msgstr ""
+msgstr "为每层估计 Sigma(_E)"
 
 #: modules/volume/volume_psf.c:255
 msgid "_Estimate size for each level"
-msgstr ""
+msgstr "为每层估计尺寸(_E)"
 
 #: modules/volume/volume_psf.c:361
 msgid "Sigma was fitted at Z level"
-msgstr ""
+msgstr "Sigma 在 Z 层拟合"
 
 #: modules/volume/volume_psf.c:719
 msgid "Calculating volume transfer function..."
-msgstr ""
+msgstr "正在计算体传递函数……"
 
 #: modules/volume/volume_psf.c:883
 msgid "Volume TF"
-msgstr ""
+msgstr "体传递函数"
 
 #: modules/volume/volume_psf.c:899
 msgid "z level"
-msgstr ""
+msgstr "z 层"
 
 #: modules/volume/volume_removeframe.c:80
 msgid "Remove one frame from volume data stack"
-msgstr ""
+msgstr "从体数据堆栈移除一帧"
 
 #: modules/volume/volume_removeframe.c:94
 msgid "/_Basic Operations/_Remove XY Plane..."
-msgstr ""
+msgstr "/基本操作(_B)/移除 XY 平面(_R)..."
 
 #: modules/volume/volume_removeframe.c:98
 msgid "Remove single XY plane"
-msgstr ""
+msgstr "移除单个 XY 平面"
 
 #: modules/volume/volume_removeframe.c:114
 msgid "_Extract the plane"
-msgstr ""
+msgstr "提取该平面(_E)"
 
 #: modules/volume/volume_removeframe.c:154
 msgid "Frame removed"
-msgstr ""
+msgstr "已移除帧"
 
 #: modules/volume/volume_removeframe.c:175
 #, c-format
 msgid "Extracted frame (%d)"
-msgstr ""
+msgstr "已提取帧（%d）"
 
 #: modules/volume/volume_removeframe.c:212
 msgid "Remove XY Plane"
-msgstr ""
+msgstr "移除 XY 平面"
 
 #: modules/volume/volume_removeframe.c:225
 msgid "_Remove Current Level"
-msgstr ""
+msgstr "移除当前层(_R)"
 
 #: modules/volume/volume_rephase.c:109
 msgid "Swaps phase in continuous data based on user's selection"
-msgstr ""
+msgstr "根据用户选择交换连续数据中的相位"
 
 #: modules/volume/volume_rephase.c:123
 msgid "/SPM M_odes/_Adjust Phase..."
-msgstr ""
+msgstr "/SPM 模式(_O)/调整相位(_A)..."
 
 #: modules/volume/volume_rephase.c:127
 msgid "Change phase in continuous data"
-msgstr ""
+msgstr "更改连续数据中的相位"
 
 #: modules/volume/volume_rephase.c:145
 msgid "Related dataset"
-msgstr ""
+msgstr "相关数据集"
 
 #: modules/volume/volume_rephase.c:146
 msgid "Place second curve to the _right"
-msgstr ""
+msgstr "将第二条曲线放在右侧(_R)"
 
 #: modules/volume/volume_rephase.c:147
 msgid "_Invert second curve"
-msgstr ""
+msgstr "反转第二条曲线(_I)"
 
 #: modules/volume/volume_rephase.c:217
 msgid "Adjust Phase in Volume Data"
-msgstr ""
+msgstr "调整体数据中的相位"
 
 #: modules/volume/volume_rephase.c:480
 msgid "Phase adjusted result A"
-msgstr ""
+msgstr "相位调整结果 A"
 
 #: modules/volume/volume_rephase.c:488
 msgid "Phase adjusted result B"
-msgstr ""
+msgstr "相位调整结果 B"
 
 #: modules/volume/volume_rephase.c:561
 #, c-format
 msgid "Merged graph at x: %d y: %d"
-msgstr ""
+msgstr "合并曲线图（x：%d，y：%d）"
 
 #: modules/volume/volume_rephase.c:584 modules/volume/volume_slice.c:928
 msgid "Volume Z graphs"
@@ -20990,161 +20999,161 @@ msgstr "体数据 Z 曲线图"
 
 #: modules/volume/volume_scars.c:101
 msgid "Performs scars removal for all the volume data levels."
-msgstr ""
+msgstr "对体数据的所有层执行划痕去除。"
 
 #: modules/volume/volume_scars.c:115
 msgid "/_Correct Data/_Scars..."
-msgstr ""
+msgstr "/校正数据(_C)/划痕(_S)..."
 
 #: modules/volume/volume_scars.c:119
 msgid "Remove scars in all levels"
-msgstr ""
+msgstr "移除所有层中的划痕"
 
 #: modules/volume/volume_scars.c:181
 msgid "Scars corrected"
-msgstr ""
+msgstr "划痕已校正"
 
 #: modules/volume/volume_scars.c:366
 msgid "Removing scars..."
-msgstr ""
+msgstr "正在移除划痕……"
 
 #: modules/volume/volume_slice.c:154
 msgid "Extracts image planes and line graphs from volume data."
-msgstr ""
+msgstr "从体数据提取图像平面和线图。"
 
 #: modules/volume/volume_slice.c:168
 msgid "/_Basic Operations/Cut and _Slice..."
-msgstr ""
+msgstr "/基本操作(_B)/切割与切片(_S)..."
 
 #: modules/volume/volume_slice.c:172
 msgid "Extract image planes and line graphs"
-msgstr ""
+msgstr "提取图像平面和线图"
 
 #: modules/volume/volume_slice.c:189
 msgid "Image slice"
-msgstr ""
+msgstr "图像切片"
 
 #: modules/volume/volume_slice.c:190
 msgid "Line graph"
-msgstr ""
+msgstr "线图"
 
 #: modules/volume/volume_slice.c:203
 msgid "_Base plane"
-msgstr ""
+msgstr "基准平面(_B)"
 
 #: modules/volume/volume_slice.c:286
 msgid "Slice Volume Data"
-msgstr ""
+msgstr "切片体数据"
 
 #: modules/volume/volume_slice.c:322
 msgid "Positions"
-msgstr ""
+msgstr "位置"
 
 #: modules/volume/volume_slice.c:815
 #, c-format
 msgid "Z slice at %.*f%s%s (#%d)"
-msgstr ""
+msgstr "Z 切片（%.*f%s%s，#%d）"
 
 #: modules/volume/volume_slice.c:822
 #, c-format
 msgid "Y slice at %.*f%s%s (#%d)"
-msgstr ""
+msgstr "Y 切片（%.*f%s%s，#%d）"
 
 #: modules/volume/volume_slice.c:829
 #, c-format
 msgid "X slice at %.*f%s%s (#%d)"
-msgstr ""
+msgstr "X 切片（%.*f%s%s，#%d）"
 
 #: modules/volume/volume_slice.c:886
 #, c-format
 msgid "Z graph at x: %d y: %d"
-msgstr ""
+msgstr "Z 曲线图（x：%d，y：%d）"
 
 #: modules/volume/volume_slice.c:891
 #, c-format
 msgid "X graph at y: %d z: %d"
-msgstr ""
+msgstr "X 曲线图（y：%d，z：%d）"
 
 #: modules/volume/volume_slice.c:896
 #, c-format
 msgid "Y graph at x: %d z: %d"
-msgstr ""
+msgstr "Y 曲线图（x：%d，z：%d）"
 
 #: modules/volume/volume_slice.c:933
 msgid "Volume X graphs"
-msgstr ""
+msgstr "体数据 X 曲线图"
 
 #: modules/volume/volume_slice.c:938
 msgid "Volume Y graphs"
-msgstr ""
+msgstr "体数据 Y 曲线图"
 
 #: modules/volume/volume_stepline.c:50
 msgid "Performs step line correction"
-msgstr ""
+msgstr "执行扫描线阶跃校正"
 
 #: modules/volume/volume_stepline.c:68
 msgid "Step line correction in all XY planes"
-msgstr ""
+msgstr "所有 XY 平面中的扫描线阶跃校正"
 
 #: modules/volume/volume_stepline.c:87
 msgid "Step line correction..."
-msgstr ""
+msgstr "扫描线阶跃校正……"
 
 #: modules/volume/volume_stepline.c:91
 msgid "Step line corrected"
-msgstr ""
+msgstr "扫描线阶跃已校正"
 
 #: modules/volume/volume_strayfield.c:120
 msgid "Checks the stray field dependence consistency."
-msgstr ""
+msgstr "检查杂散场依赖关系的一致性。"
 
 #: modules/volume/volume_strayfield.c:134
 msgid "/SPM M_odes/_Stray Field Consistency..."
-msgstr ""
+msgstr "/SPM 模式(_O)/杂散场一致性(_S)..."
 
 #: modules/volume/volume_strayfield.c:138
 msgid "MSM stray field consistency"
-msgstr ""
+msgstr "MSM 杂散场一致性"
 
 #: modules/volume/volume_strayfield.c:151
 msgid "Single value evolution"
-msgstr ""
+msgstr "单值演化"
 
 #: modules/volume/volume_strayfield.c:152
 msgid "Plane variance"
-msgstr ""
+msgstr "平面方差"
 
 #: modules/volume/volume_strayfield.c:154
 msgid "Z shift difference"
-msgstr ""
+msgstr "Z 偏移差"
 
 #: modules/volume/volume_strayfield.c:170
 msgid "_Z base"
-msgstr ""
+msgstr "Z 基准(_Z)"
 
 #: modules/volume/volume_strayfield.c:244
 msgid "Stray Field Consistency Check"
-msgstr ""
+msgstr "杂散场一致性检查"
 
 #: modules/volume/volume_strayfield.c:311
 msgid "Extracted"
-msgstr ""
+msgstr "已提取"
 
 #: modules/volume/volume_strayfield.c:454
 msgid "Building stray field dependence..."
-msgstr ""
+msgstr "正在构建杂散场依赖关系……"
 
 #: modules/volume/volume_swaxes.c:82
 msgid "Swaps axes of volume data."
-msgstr ""
+msgstr "交换体数据的坐标轴。"
 
 #: modules/volume/volume_swaxes.c:96
 msgid "/_Basic Operations/S_wap Axes..."
-msgstr ""
+msgstr "/基本操作(_B)/交换坐标轴(_W)..."
 
 #: modules/volume/volume_swaxes.c:100
 msgid "Swap axes"
-msgstr ""
+msgstr "交换坐标轴"
 
 #: modules/volume/volume_swaxes.c:109 modules/xyz/xyz_fft.c:156
 msgid "X"
@@ -21152,7 +21161,7 @@ msgstr "X"
 
 #: modules/volume/volume_swaxes.c:110
 msgid "X, reversed"
-msgstr ""
+msgstr "X，反向"
 
 #: modules/volume/volume_swaxes.c:111 modules/xyz/xyz_fft.c:157
 msgid "Y"
@@ -21160,7 +21169,7 @@ msgstr "Y"
 
 #: modules/volume/volume_swaxes.c:112
 msgid "Y, reversed"
-msgstr ""
+msgstr "Y，反向"
 
 #: modules/volume/volume_swaxes.c:113 modules/xyz/xyz_fft.c:158
 msgid "Z"
@@ -21168,230 +21177,230 @@ msgstr "Z"
 
 #: modules/volume/volume_swaxes.c:114
 msgid "Z, reversed"
-msgstr ""
+msgstr "Z，反向"
 
 #: modules/volume/volume_swaxes.c:123
 msgid "Current _X axis will become"
-msgstr ""
+msgstr "当前 X 轴将变为(_X)"
 
 #: modules/volume/volume_swaxes.c:125
 msgid "Current _Y axis will become"
-msgstr ""
+msgstr "当前 Y 轴将变为(_Y)"
 
 #: modules/volume/volume_swaxes.c:127
 msgid "Current _Z axis will become"
-msgstr ""
+msgstr "当前 Z 轴将变为(_Z)"
 
 #: modules/volume/volume_swaxes.c:176
 msgid "Swap Volume Axes"
-msgstr ""
+msgstr "交换体数据坐标轴"
 
 #: modules/volume/volume_swaxes.c:222
 msgid "Z axis calibration will be lost."
-msgstr ""
+msgstr "Z 轴校准将丢失。"
 
 #: modules/volume/volume_xyarithmetics.c:148
 msgid "Simple arithmetic operations with volume and plane data."
-msgstr ""
+msgstr "对体数据和平面数据进行简单算术运算。"
 
 #: modules/volume/volume_xyarithmetics.c:162
 msgid "/_Basic Operations/_XY Arithmetic..."
-msgstr ""
+msgstr "/基本操作(_B)/XY 算术(_X)..."
 
 #: modules/volume/volume_xyarithmetics.c:166
 msgid "Arithmetic operations on volume and plane data"
-msgstr ""
+msgstr "对体数据和平面数据进行算术运算"
 
 #: modules/volume/volume_xyarithmetics.c:290
 msgid "Volume - Plane Arithmetic"
-msgstr ""
+msgstr "体数据-平面算术"
 
 #: modules/volume/volume_xyarithmetics.c:334
 msgid "Volume data:"
-msgstr ""
+msgstr "体数据："
 
 #: modules/volume/volume_xyarithmetics.c:343
 msgid "Images:"
-msgstr ""
+msgstr "图像："
 
 #: modules/volume/volume_xyarithmetics.c:565
 msgid "No volume data in the expression"
-msgstr ""
+msgstr "表达式中没有体数据"
 
 #: modules/volume/volume_xystitch.c:105
 msgid "Merges all XY planes into XYZ data"
-msgstr ""
+msgstr "将所有 XY 平面合并为 XYZ 数据"
 
 #: modules/volume/volume_xystitch.c:119
 msgid "/SPM M_odes/_XY Stitch..."
-msgstr ""
+msgstr "/SPM 模式(_O)/XY 拼接(_X)..."
 
 #: modules/volume/volume_xystitch.c:123
 msgid "Merge all the XY planes to XYZ data"
-msgstr ""
+msgstr "将所有 XY 平面合并为 XYZ 数据"
 
 #: modules/volume/volume_xystitch.c:138
 msgid "X _offsets graph"
-msgstr ""
+msgstr "X 偏移曲线图(_O)"
 
 #: modules/volume/volume_xystitch.c:139
 msgid "X o_ffsets curve"
-msgstr ""
+msgstr "X 偏移曲线(_F)"
 
 #: modules/volume/volume_xystitch.c:140
 msgid "Y off_sets graph"
-msgstr ""
+msgstr "Y 偏移曲线图(_S)"
 
 #: modules/volume/volume_xystitch.c:141
 msgid "Y offs_ets curve"
-msgstr ""
+msgstr "Y 偏移曲线(_E)"
 
 #: modules/volume/volume_xystitch.c:142
 msgid "_Flip X axis"
-msgstr ""
+msgstr "翻转 X 轴(_F)"
 
 #: modules/volume/volume_xystitch.c:143
 msgid "F_lip Y axis"
-msgstr ""
+msgstr "翻转 Y 轴(_L)"
 
 #: modules/volume/volume_xystitch.c:144
 msgid "Adjust _X shifts"
-msgstr ""
+msgstr "调整 X 偏移(_X)"
 
 #: modules/volume/volume_xystitch.c:145
 msgid "Adjust _Y shifts"
-msgstr ""
+msgstr "调整 Y 偏移(_Y)"
 
 #: modules/volume/volume_xystitch.c:146
 msgid "Adjust _Z shifts"
-msgstr ""
+msgstr "调整 Z 偏移(_Z)"
 
 #: modules/volume/volume_xystitch.c:147
 msgid "X polynomial degree"
-msgstr ""
+msgstr "X 多项式阶数"
 
 #: modules/volume/volume_xystitch.c:148
 msgid "Y polynomial degree"
-msgstr ""
+msgstr "Y 多项式阶数"
 
 #: modules/volume/volume_xystitch.c:204
 msgid "Stitched"
-msgstr ""
+msgstr "已拼接"
 
 #: modules/volume/volume_xystitch.c:229 modules/volume/volume_xystitch.c:230
 msgid "X shift"
-msgstr ""
+msgstr "X 偏移"
 
 #: modules/volume/volume_xystitch.c:231
 msgid "Frame number"
-msgstr ""
+msgstr "帧编号"
 
 #: modules/volume/volume_xystitch.c:238
 msgid "x-axis shift"
-msgstr ""
+msgstr "x 轴偏移"
 
 #: modules/volume/volume_xystitch.c:248
 msgid "Y shift"
-msgstr ""
+msgstr "Y 偏移"
 
 #: modules/volume/volume_xystitch.c:249
 msgid "y shift"
-msgstr ""
+msgstr "y 偏移"
 
 #: modules/volume/volume_xystitch.c:257
 msgid "y-axis shift"
-msgstr ""
+msgstr "y 轴偏移"
 
 #: modules/volume/volume_xystitch.c:268
 msgid "Z shift"
-msgstr ""
+msgstr "Z 偏移"
 
 #: modules/volume/volume_xystitch.c:269
 msgid "z shift"
-msgstr ""
+msgstr "z 偏移"
 
 #: modules/volume/volume_xystitch.c:277
 msgid "z-axis shift"
-msgstr ""
+msgstr "z 轴偏移"
 
 #: modules/volume/volume_xystitch.c:320
 msgid "XY Stitch"
-msgstr ""
+msgstr "XY 拼接"
 
 #: modules/volume/volume_xystitch.c:322
 msgid "verb|_Stitch"
-msgstr ""
+msgstr "拼接(_S)"
 
 #: modules/volume/volume_xystitch.c:589
 msgid "Filling matrix..."
-msgstr ""
+msgstr "正在填充矩阵……"
 
 #: modules/volume/volume_xystitch.c:616
 msgid "Solving matrix..."
-msgstr ""
+msgstr "正在求解矩阵……"
 
 #: modules/volume/volume_xystitch.c:892
 msgid "Optimizing shifts..."
-msgstr ""
+msgstr "正在优化偏移……"
 
 #: modules/volume/volume_xystitch.c:1043
 msgid "Estimating shifts..."
-msgstr ""
+msgstr "正在估计偏移……"
 
 #: modules/volume/volume_zcal.c:91
 msgid "Attaches, extracts and removes volume data z-axis calibration."
-msgstr ""
+msgstr "附加、提取和移除体数据的 Z 轴校准。"
 
 #: modules/volume/volume_zcal.c:105
 msgid "/_Basic Operations/_Z-Calibration..."
-msgstr ""
+msgstr "/基本操作(_B)/Z 校准(_Z)..."
 
 #: modules/volume/volume_zcal.c:109
 msgid "Manage z-axis calibration"
-msgstr ""
+msgstr "管理 Z 轴校准"
 
 #: modules/volume/volume_zcal.c:118
 msgid "_Extract to a graph"
-msgstr ""
+msgstr "提取到曲线图(_E)"
 
 #: modules/volume/volume_zcal.c:120
 msgid "Attach from _file"
-msgstr ""
+msgstr "从文件附加(_F)"
 
 #: modules/volume/volume_zcal.c:121
 msgid "Copy from _another"
-msgstr ""
+msgstr "从另一数据复制(_A)"
 
 #: modules/volume/volume_zcal.c:131
 msgid "Z-calibration action"
-msgstr ""
+msgstr "Z 校准操作"
 
 #: modules/volume/volume_zcal.c:133 modules/volume/volume_zcal.c:134
 #: modules/volume/volume_zcal.c:196 modules/volume/volume_zcal.c:249
 msgid "Volume Z Calibration"
-msgstr ""
+msgstr "体数据 Z 校准"
 
 #: modules/volume/volume_zcal.c:338
 msgid "Calibration from file"
-msgstr ""
+msgstr "从文件校准"
 
 #: modules/volume/volume_zcal.c:338 modules/volume/volume_zcal.c:413
 msgid "Z-calibration curve"
-msgstr ""
+msgstr "Z 校准曲线"
 
 #: modules/volume/volume_zcal.c:375
 msgid "Index"
-msgstr ""
+msgstr "索引"
 
 #: modules/volume/volume_zcal.c:376
 msgid "Z axis value"
-msgstr ""
+msgstr "Z 轴数值"
 
 #: modules/volume/volume_zcal.c:460
 #, c-format
 msgid ""
 "The number of data file values %d differs from the number of planes %d."
-msgstr ""
+msgstr "数据文件中的数值数 %d 与平面数 %d 不同。"
 
 #: modules/volume/volume_zposlevel.c:112
 msgid "Shifts values in z curves to be zero at defined position."
@@ -21424,149 +21433,149 @@ msgstr "已将 z 层级 = %d 处的值平移至零"
 
 #: modules/volume/volume_zposlevel.c:241
 msgid "Shift Z to Zero"
-msgstr "将 Z 平移至零"
+msgstr "Z 曲线值归零"
 
 #: modules/volume/volumeops.c:35
 msgid "Extracts preview"
-msgstr ""
+msgstr "提取预览"
 
 #: modules/volume/volumeops.c:53
 msgid "Extract volume data preview to an image"
-msgstr ""
+msgstr "将体数据预览提取为图像"
 
 #: modules/xyz/xyz_autocrop.c:46
 msgid "Simple XYZ automated crop."
-msgstr ""
+msgstr "简单 XYZ 自动裁剪。"
 
 #: modules/xyz/xyz_autocrop.c:60
 msgid "/Crop Automatically"
-msgstr ""
+msgstr "/自动裁剪"
 
 #: modules/xyz/xyz_autocrop.c:64
 msgid "Crop data automatically to cover scanned areas"
-msgstr ""
+msgstr "自动裁剪数据以覆盖扫描区域"
 
 #: modules/xyz/xyz_crop.c:85
 msgid "XYZ data crop."
-msgstr ""
+msgstr "XYZ 数据裁剪。"
 
 #: modules/xyz/xyz_crop.c:99
 msgid "/Crop..."
-msgstr ""
+msgstr "/裁剪..."
 
 #: modules/xyz/xyz_drift.c:267
 msgid "Analyzes drift in XYZ data."
-msgstr ""
+msgstr "分析 XYZ 数据中的漂移。"
 
 #: modules/xyz/xyz_drift.c:281
 msgid "/Analyze _Drift..."
-msgstr ""
+msgstr "/分析漂移(_D)..."
 
 #: modules/xyz/xyz_drift.c:285
 msgid "Analyze and/or remove drift"
-msgstr ""
+msgstr "分析和/或去除漂移"
 
 #: modules/xyz/xyz_drift.c:389 modules/xyz/xyz_drift.c:840
 msgid "X drift"
-msgstr ""
+msgstr "X 漂移"
 
 #: modules/xyz/xyz_drift.c:408 modules/xyz/xyz_drift.c:841
 msgid "Y drift"
-msgstr ""
+msgstr "Y 漂移"
 
 #: modules/xyz/xyz_drift.c:438
 msgid "z-axis drift"
-msgstr ""
+msgstr "z 轴漂移"
 
 #: modules/xyz/xyz_drift.c:539
 msgid "Analyze XYZ Drift"
-msgstr ""
+msgstr "分析 XYZ 漂移"
 
 #: modules/xyz/xyz_drift.c:564
 msgid "Reset Ran_ges"
-msgstr ""
+msgstr "重置范围(_G)"
 
 #: modules/xyz/xyz_drift.c:612
 msgid "_Guess parameters"
-msgstr ""
+msgstr "估计参数(_G)"
 
 #: modules/xyz/xyz_drift.c:775
 msgid "_X-range:"
-msgstr ""
+msgstr "X 范围(_X)："
 
 #: modules/xyz/xyz_drift.c:797
 msgid "_Y-range:"
-msgstr ""
+msgstr "Y 范围(_Y)："
 
 #: modules/xyz/xyz_drift.c:831 modules/xyz/xyz_drift.c:836
 msgid "2nd order polynomial"
-msgstr ""
+msgstr "二阶多项式"
 
 #: modules/xyz/xyz_drift.c:853
 msgid "Initial values"
-msgstr ""
+msgstr "初始值"
 
 #: modules/xyz/xyz_drift.c:861
 msgid "_X drift:"
-msgstr ""
+msgstr "X 漂移(_X)："
 
 #: modules/xyz/xyz_drift.c:889 modules/xyz/xyz_drift.c:932
 #: modules/xyz/xyz_drift.c:977
 msgid "_fit"
-msgstr ""
+msgstr "拟合(_F)"
 
 #: modules/xyz/xyz_drift.c:901
 msgid "_Y drift:"
-msgstr ""
+msgstr "Y 漂移(_Y)："
 
 #: modules/xyz/xyz_drift.c:946
 msgid "Z fit _type:"
-msgstr ""
+msgstr "Z 拟合类型(_T)："
 
 #: modules/xyz/xyz_drift.c:1002
 msgid "Search parameters"
-msgstr ""
+msgstr "搜索参数"
 
 #: modules/xyz/xyz_drift.c:1007
 msgid "_Neighbors used:"
-msgstr ""
+msgstr "使用的邻居数(_N)："
 
 #: modules/xyz/xyz_drift.c:1024
 msgid "_Length threshold:"
-msgstr ""
+msgstr "长度阈值(_L)："
 
 #: modules/xyz/xyz_drift.c:1043
 msgid "_Time threshold:"
-msgstr ""
+msgstr "时间阈值(_T)："
 
 #: modules/xyz/xyz_drift.c:1061
 msgid "_Max iterations:"
-msgstr ""
+msgstr "最大迭代次数(_M)："
 
 #: modules/xyz/xyz_drift.c:1083
 msgid "_Graph:"
-msgstr ""
+msgstr "曲线图(_G)："
 
 #: modules/xyz/xyz_drift.c:1088
 msgid "X drift:"
-msgstr ""
+msgstr "X 漂移："
 
 #: modules/xyz/xyz_drift.c:1096 modules/xyz/xyz_drift.c:1114
 #: modules/xyz/xyz_drift.c:1131
 msgid "to inits"
-msgstr ""
+msgstr "恢复初始值"
 
 #: modules/xyz/xyz_drift.c:1106
 msgid "Y drift:"
-msgstr ""
+msgstr "Y 漂移："
 
 #: modules/xyz/xyz_drift.c:1123
 msgid "Z drift:"
-msgstr ""
+msgstr "Z 漂移："
 
 #: modules/xyz/xyz_drift.c:1738
 msgid "No neighbors found"
-msgstr ""
+msgstr "未找到邻居"
 
 #: modules/xyz/xyz_drift.c:2261 modules/xyz/xyz_raster.c:650
 msgid "Physical dimensions are invalid."
@@ -21574,43 +21583,43 @@ msgstr "物理尺寸无效。"
 
 #: modules/xyz/xyz_fft.c:116
 msgid "XYZ data 1D FFT correction."
-msgstr ""
+msgstr "XYZ 数据一维 FFT 校正。"
 
 #: modules/xyz/xyz_fft.c:130
 msgid "/_FFT Filtering..."
-msgstr ""
+msgstr "/FFT 滤波(_F)..."
 
 #: modules/xyz/xyz_fft.c:134
 msgid "Filter data using FFT"
-msgstr ""
+msgstr "使用 FFT 滤波数据"
 
 #: modules/xyz/xyz_fft.c:151
 msgid "100 %"
-msgstr ""
+msgstr "100 %"
 
 #: modules/xyz/xyz_fft.c:152
 msgid "20 %"
-msgstr ""
+msgstr "20 %"
 
 #: modules/xyz/xyz_fft.c:153
 msgid "1 %"
-msgstr ""
+msgstr "1 %"
 
 #: modules/xyz/xyz_fft.c:173
 msgid "_Axis"
-msgstr ""
+msgstr "坐标轴(_A)"
 
 #: modules/xyz/xyz_fft.c:175
 msgid "_Logarithmic scale"
-msgstr ""
+msgstr "对数标度(_L)"
 
 #: modules/xyz/xyz_fft.c:206
 msgid "FFT corrected"
-msgstr ""
+msgstr "FFT 校正后"
 
 #: modules/xyz/xyz_fft.c:368
 msgid "Calculating spectrum..."
-msgstr ""
+msgstr "正在计算频谱……"
 
 #: modules/xyz/xyz_level.c:83
 msgid "Simple XYZ data leveling."
@@ -21646,47 +21655,47 @@ msgstr "调平 XYZ 数据"
 
 #: modules/xyz/xyz_raster.c:176
 msgid "Rasterizes XYZ data to images."
-msgstr ""
+msgstr "将 XYZ 数据栅格化为图像。"
 
 #: modules/xyz/xyz_raster.c:190
 msgid "/_Rasterize..."
-msgstr ""
+msgstr "/栅格化(_R)..."
 
 #: modules/xyz/xyz_raster.c:194
 msgid "Rasterize to image"
-msgstr ""
+msgstr "栅格化为图像"
 
 #: modules/xyz/xyz_raster.c:206
 msgid "Field"
-msgstr ""
+msgstr "场"
 
 #: modules/xyz/xyz_raster.c:225
 msgid "_Mask empty regions"
-msgstr ""
+msgstr "遮蔽空白区域(_M)"
 
 #: modules/xyz/xyz_raster.c:228
 msgid "_Power"
-msgstr ""
+msgstr "幂次(_P)"
 
 #: modules/xyz/xyz_raster.c:230
 msgid "_X-range"
-msgstr ""
+msgstr "X 范围(_X)"
 
 #: modules/xyz/xyz_raster.c:232
 msgid "_Y-range"
-msgstr ""
+msgstr "Y 范围(_Y)"
 
 #: modules/xyz/xyz_raster.c:347
 msgid "Rasterize XYZ Data"
-msgstr ""
+msgstr "栅格化 XYZ 数据"
 
 #: modules/xyz/xyz_raster.c:356
 msgid "Create Image _Directly"
-msgstr ""
+msgstr "直接创建图像(_D)"
 
 #: modules/xyz/xyz_raster.c:360
 msgid "XY points form a regular grid so interpolation is not necessary."
-msgstr ""
+msgstr "XY 点构成规则网格，因此无需插值。"
 
 #: modules/xyz/xyz_raster.c:379 modules/xyz/xyz_volumize.c:242
 msgid "Make Pixels S_quare"
@@ -21694,109 +21703,111 @@ msgstr "使像素为正方形(_Q)"
 
 #: modules/xyz/xyz_raster.c:386
 msgid "Reset _Area"
-msgstr ""
+msgstr "重置区域(_A)"
 
 #: modules/xyz/xyz_raster.c:388
 msgid "_Previous Area"
-msgstr ""
+msgstr "先前区域(_P)"
 
 #: modules/xyz/xyz_raster.c:399
 msgid "Merged as too close"
-msgstr ""
+msgstr "因距离过近而合并"
 
 #: modules/xyz/xyz_raster.c:400
 msgid "Added on boundaries"
-msgstr ""
+msgstr "在边界上添加"
 
 #: modules/xyz/xyz_raster.c:711
 msgid ""
 "XYZ data regularization failed due to\n"
 "numerical instability or was interrupted."
 msgstr ""
+"XYZ 数据规则化因数值不稳定而失败，\n"
+"或已中断。"
 
 #: modules/xyz/xyz_reduce.c:55
 msgid "XYZ data size reduction by skipping points."
-msgstr ""
+msgstr "通过跳过点来缩减 XYZ 数据量。"
 
 #: modules/xyz/xyz_reduce.c:69
 msgid "/_Reduce Number of Points..."
-msgstr ""
+msgstr "/减少点数(_R)..."
 
 #: modules/xyz/xyz_reduce.c:73
 msgid "Reduce XYZ data size by skipping points"
-msgstr ""
+msgstr "通过跳过点缩减 XYZ 数据量"
 
 #: modules/xyz/xyz_reduce.c:82
 msgid "Skip"
-msgstr ""
+msgstr "跳过"
 
 #: modules/xyz/xyz_reduce.c:93
 msgid "Reduction factor"
-msgstr ""
+msgstr "缩减因子"
 
 #: modules/xyz/xyz_reduce.c:127
 msgid "Reduced points"
-msgstr ""
+msgstr "缩减后的点"
 
 #: modules/xyz/xyz_reduce.c:145
 msgid "Reduce XYZ Data"
-msgstr ""
+msgstr "缩减 XYZ 数据"
 
 #: modules/xyz/xyz_split.c:55
 msgid "XYZ data split based on direction."
-msgstr ""
+msgstr "按方向拆分 XYZ 数据。"
 
 #: modules/xyz/xyz_split.c:69
 msgid "/Split by Direction..."
-msgstr ""
+msgstr "/按方向拆分..."
 
 #: modules/xyz/xyz_split.c:73
 msgid "Split XYZ data based on direction"
-msgstr ""
+msgstr "按方向拆分 XYZ 数据"
 
 #: modules/xyz/xyz_split.c:82
 msgid "Left-right"
-msgstr ""
+msgstr "左右"
 
 #: modules/xyz/xyz_split.c:83
 msgid "Upward-downward"
-msgstr ""
+msgstr "上下"
 
 #: modules/xyz/xyz_split.c:92
 msgid "Split direction"
-msgstr ""
+msgstr "拆分方向"
 
 #: modules/xyz/xyz_split.c:129
 msgid "Split right direction"
-msgstr ""
+msgstr "向右拆分"
 
 #: modules/xyz/xyz_split.c:131
 msgid "Split down direction"
-msgstr ""
+msgstr "向下拆分"
 
 #: modules/xyz/xyz_split.c:139
 msgid "Split left direction"
-msgstr ""
+msgstr "向左拆分"
 
 #: modules/xyz/xyz_split.c:141
 msgid "Split up direction"
-msgstr ""
+msgstr "向上拆分"
 
 #: modules/xyz/xyz_split.c:157
 msgid "Split XYZ Data"
-msgstr ""
+msgstr "拆分 XYZ 数据"
 
 #: modules/xyz/xyz_tcut.c:82
 msgid "XYZ data crop as time series."
-msgstr ""
+msgstr "按时间序列裁剪 XYZ 数据。"
 
 #: modules/xyz/xyz_tcut.c:96
 msgid "/Crop as _Time Series..."
-msgstr ""
+msgstr "/按时间序列裁剪(_T)..."
 
 #: modules/xyz/xyz_tcut.c:100
 msgid "Crop XYZ data as time series"
-msgstr ""
+msgstr "按时间序列裁剪 XYZ 数据"
 
 #: modules/xyz/xyz_tcut.c:109 modules/xyz/xyz_tstep.c:119
 #: modules/xyz/xyz_volumize.c:119
@@ -21823,132 +21834,132 @@ msgstr "结束索引"
 
 #: modules/xyz/xyz_tcut.c:158
 msgid "Time cropped"
-msgstr ""
+msgstr "已按时间裁剪"
 
 #: modules/xyz/xyz_tcut.c:179
 msgid "Crop XYZ Data as Time Series"
-msgstr ""
+msgstr "按时间序列裁剪 XYZ 数据"
 
 #: modules/xyz/xyz_tstep.c:92
 msgid "Detect and remove steps in time series XYZ data."
-msgstr ""
+msgstr "检测并移除时间序列 XYZ 数据中的阶跃。"
 
 #: modules/xyz/xyz_tstep.c:106
 msgid "/Remove Steps from T_ime Series..."
-msgstr ""
+msgstr "/从时间序列移除阶跃(_I)..."
 
 #: modules/xyz/xyz_tstep.c:110
 msgid "Remove steps from XYZ data"
-msgstr ""
+msgstr "从 XYZ 数据中移除阶跃"
 
 #: modules/xyz/xyz_tstep.c:137
 msgid "Positive threshold"
-msgstr ""
+msgstr "正阈值"
 
 #: modules/xyz/xyz_tstep.c:138
 msgid "Negative threshold"
-msgstr ""
+msgstr "负阈值"
 
 #: modules/xyz/xyz_tstep.c:139
 msgid "Step direction"
-msgstr ""
+msgstr "阶跃方向"
 
 #: modules/xyz/xyz_tstep.c:177
 msgid "Steps removed"
-msgstr ""
+msgstr "已移除阶跃"
 
 #: modules/xyz/xyz_tstep.c:198
 msgid "Remove Steps from Time Series"
-msgstr ""
+msgstr "从时间序列移除阶跃"
 
 #: modules/xyz/xyz_volumize.c:92 modules/xyz/xyz_volumize.c:110
 msgid "Split XYZ data stream image stack."
-msgstr ""
+msgstr "将 XYZ 数据流拆分为图像堆栈。"
 
 #: modules/xyz/xyz_volumize.c:106
 msgid "/Split to Image _Stack..."
-msgstr ""
+msgstr "/拆分为图像堆栈(_S)..."
 
 #: modules/xyz/xyz_volumize.c:132
 msgid "F_rames"
-msgstr ""
+msgstr "帧数(_R)"
 
 #: modules/xyz/xyz_volumize.c:133
 msgid "Border _width"
-msgstr ""
+msgstr "边框宽度(_W)"
 
 #: modules/xyz/xyz_volumize.c:173
 msgid "Stack from XYZ data"
-msgstr ""
+msgstr "由 XYZ 数据生成堆栈"
 
 #: modules/xyz/xyz_volumize.c:194
 msgid "Split to Image Stack"
-msgstr ""
+msgstr "拆分为图像堆栈"
 
 #: modules/xyz/xyz_zdrift.c:98
 msgid "XYZ data z-drift correction."
-msgstr ""
+msgstr "XYZ 数据 Z 漂移校正。"
 
 #: modules/xyz/xyz_zdrift.c:112
 msgid "/Correct Z _Drift..."
-msgstr ""
+msgstr "/校正 Z 漂移(_D)..."
 
 #: modules/xyz/xyz_zdrift.c:116 modules/xyz/xyz_zdrift.c:203
 msgid "Correct z drift"
-msgstr ""
+msgstr "校正 z 漂移"
 
 #: modules/xyz/xyz_zdrift.c:125
 msgid "Full data"
-msgstr ""
+msgstr "完整数据"
 
 #: modules/xyz/xyz_zdrift.c:126
 msgid "XY neighbors"
-msgstr ""
+msgstr "XY 邻居"
 
 #: modules/xyz/xyz_zdrift.c:140
 msgid "Neighbor distance"
-msgstr ""
+msgstr "邻居距离"
 
 #: modules/xyz/xyz_zdrift.c:180
 msgid "Z drift corrected"
-msgstr ""
+msgstr "Z 漂移已校正"
 
 #: modules/xyz/xyz_zdrift.c:427
 msgid "Searching for neighbors..."
-msgstr ""
+msgstr "正在搜索邻居……"
 
 #: modules/xyz/xyzops.c:89
 msgid "Elementary XYZ data operations."
-msgstr ""
+msgstr "基本 XYZ 数据操作。"
 
 #: modules/xyz/xyzops.c:107
 msgid "Merge two XYZ point sets"
-msgstr ""
+msgstr "合并两个 XYZ 点集"
 
 #: modules/xyz/xyzops.c:111
 msgid "/_Average Identical Positions"
-msgstr ""
+msgstr "/平均相同位置(_A)"
 
 #: modules/xyz/xyzops.c:115
 msgid "Average points with identical XY positions"
-msgstr ""
+msgstr "平均具有相同 XY 位置的点"
 
 #: modules/xyz/xyzops.c:178
 msgid "Merge XYZ Data"
-msgstr ""
+msgstr "合并 XYZ 数据"
 
 #: modules/xyz/xyzops.c:202
 msgid "Second _XYZ data:"
-msgstr ""
+msgstr "第二组 XYZ 数据(_X)："
 
 #: modules/xyz/xyzops.c:206
 msgid "_Average coincident points"
-msgstr ""
+msgstr "平均重合点(_A)"
 
 #: modules/xyz/xyzops.c:351
 msgid "Merged"
-msgstr ""
+msgstr "已合并"
 
 #: modules/xyz/xyzops.c:408
 msgid "Points averaged"
-msgstr ""
+msgstr "点已平均"

@@ -261,7 +261,7 @@ msgstr "环形"
 
 #: libprocess/gwyshapefitpreset.c:550
 msgid "Lunette"
-msgstr ""
+msgstr "月牙形（Lunette）"
 
 #: libprocess/lawn.c:1184 gwyddion/gwyddion.c:690
 #: modules/file/hdf5/shilpsfile.c:636 modules/file/hdf5/shilpsfile.c:637
@@ -332,7 +332,7 @@ msgstr "解析式"
 
 #: libprocess/tip.c:491 modules/process/fibre_synth.c:185
 msgid "Parabola"
-msgstr ""
+msgstr "抛物形"
 
 #: libprocess/tip.c:492 libprocess/tip.c:498 libprocess/tip.c:510
 msgid "Symmetric"
@@ -402,7 +402,7 @@ msgstr "标签"
 
 #: libgwydgets/gwy3dwindow.c:720
 msgid "Colorbar"
-msgstr "颜色条"
+msgstr "色条"
 
 #: libgwydgets/gwy3dwindow.c:836
 msgid "φ:"

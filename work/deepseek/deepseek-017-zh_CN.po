@@ -1,0 +1,426 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/tools/maskedit.c:201
+msgid "Add selection to mask"
+msgstr "将所选内容添加到掩膜"
+
+#: modules/tools/maskedit.c:202
+msgid "Subtract selection from mask"
+msgstr "从掩膜中减去所选内容"
+
+#: modules/tools/maskedit.c:203
+msgid "Intersect selection with mask"
+msgstr "将所选内容与掩膜求交"
+
+#: modules/tools/maskedit.c:206
+msgid "Rectangular shapes"
+msgstr "矩形"
+
+#: modules/tools/maskedit.c:207
+msgid "Elliptic shapes"
+msgstr "椭圆"
+
+#: modules/tools/maskedit.c:208
+msgid "Thin lines"
+msgstr "细线"
+
+#: modules/tools/maskedit.c:211
+msgid "Freehand mask drawing"
+msgstr "手绘掩膜"
+
+#: modules/tools/maskedit.c:212
+msgid "Freehand mask erasing"
+msgstr "手绘擦除掩膜"
+
+#: modules/tools/maskedit.c:213
+msgid "Fill continuous empty areas with mask"
+msgstr "用掩膜填充连续空白区域"
+
+#: modules/tools/maskedit.c:214
+msgid "Erase continuous parts of mask"
+msgstr "擦除掩膜的连续部分"
+
+#: modules/tools/maskedit.c:233
+msgid "_Amount"
+msgstr "数量(_A)"
+
+#: modules/tools/maskedit.c:234 modules/tools/maskedit.c:456
+msgid "Fill non-simple-connected"
+msgstr "填充非简单连通区域"
+
+#: modules/tools/maskedit.c:236
+msgid "_Prevent grain merging by growing"
+msgstr "通过生长防止颗粒合并(_P)"
+
+#: modules/tools/maskedit.c:239
+msgid "Thin lines are 4-connected"
+msgstr "细线为 4 连通"
+
+#: modules/tools/maskedit.c:254
+msgid "Mask Editor"
+msgstr "掩膜编辑器"
+
+#: modules/tools/maskedit.c:255
+msgid "Edit mask"
+msgstr "编辑掩膜"
+
+#: modules/tools/maskedit.c:308
+msgid "Editor"
+msgstr "编辑器"
+
+#: modules/tools/maskedit.c:320
+msgid "Actions"
+msgstr "操作"
+
+#: modules/tools/maskedit.c:324
+msgid "Grow/Shrink"
+msgstr "生长/收缩"
+
+#: modules/tools/maskedit.c:440
+msgid "_Invert"
+msgstr "反转(_I)"
+
+#: modules/tools/maskedit.c:454
+msgid "Fill _Voids"
+msgstr "填充空洞(_V)"
+
+#: modules/tools/maskedit.c:471
+msgid "_Grow"
+msgstr "生长(_G)"
+
+#: modules/tools/maskedit.c:472
+msgid "Shrin_k"
+msgstr "收缩(_K)"
+
+#: modules/tools/profile.c:159
+msgid "Profile tool, creates profile graphs from selected lines."
+msgstr "轮廓工具，从所选直线创建轮廓曲线图。"
+
+#: modules/tools/profile.c:182
+msgid "calib-data|None"
+msgstr "无"
+
+#: modules/tools/profile.c:209
+msgid "_Show profile"
+msgstr "显示轮廓(_S)"
+
+#: modules/tools/profile.c:210
+msgid "_Calibration data"
+msgstr "校准数据(_C)"
+
+#: modules/tools/profile.c:227
+msgid "Extract profiles along arbitrary lines"
+msgstr "沿任意直线提取轮廓"
+
+#: modules/tools/profile.c:356
+msgid "Improve _Direction"
+msgstr "改善方向(_D)"
+
+#: modules/tools/profile.c:357
+msgid "Improve _All"
+msgstr "改善全部(_A)"
+
+#: modules/tools/profile.c:607
+#, c-format
+msgid "X error %d"
+msgstr "X 误差 %d"
+
+#: modules/tools/profile.c:611
+#, c-format
+msgid "Y error %d"
+msgstr "Y 误差 %d"
+
+#: modules/tools/profile.c:615
+#, c-format
+msgid "Z error %d"
+msgstr "Z 误差 %d"
+
+#: modules/tools/profile.c:619
+#, c-format
+msgid "X uncertainty %d"
+msgstr "X 不确定度 %d"
+
+#: modules/tools/profile.c:623
+#, c-format
+msgid "Y uncertainty %d"
+msgstr "Y 不确定度 %d"
+
+#: modules/tools/profile.c:627
+#, c-format
+msgid "Z uncertainty %d"
+msgstr "Z 不确定度 %d"
+
+#: modules/tools/profile.c:631
+#, c-format
+msgid "Zunc up bound %d"
+msgstr "Z 不确定度上界 %d"
+
+#: modules/tools/profile.c:635
+#, c-format
+msgid "Zunc low bound %d"
+msgstr "Z 不确定度下界 %d"
+
+#: modules/tools/readvalue.c:155
+msgid "Pointer tool, reads value under pointer."
+msgstr "指针工具，读取指针下的数值。"
+
+#: modules/tools/readvalue.c:185
+msgid "Show _selection"
+msgstr "显示选择(_S)"
+
+#: modules/tools/readvalue.c:188
+msgid "Show _mask"
+msgstr "显示掩膜(_M)"
+
+#: modules/tools/readvalue.c:203
+msgid "Read Value"
+msgstr "读取数值"
+
+#: modules/tools/readvalue.c:204
+msgid "Read value under mouse cursor"
+msgstr "读取鼠标光标下的数值"
+
+#: modules/tools/readvalue.c:348
+msgid "Set _Zero"
+msgstr "设为零点(_Z)"
+
+#: modules/tools/readvalue.c:352
+msgid "Facet"
+msgstr "面片"
+
+#: modules/tools/readvalue.c:354
+msgid "Curvatures"
+msgstr "曲率"
+
+#: modules/tools/rprofile.c:133
+msgid "Creates angularly averaged profile graphs."
+msgstr "创建角度平均的轮廓曲线图。"
+
+#: modules/tools/rprofile.c:184
+msgid "Radial Profiles"
+msgstr "径向轮廓"
+
+#: modules/tools/rprofile.c:185
+msgid "Extract angularly averaged profiles"
+msgstr "提取角度平均的轮廓"
+
+#: modules/tools/rprofile.c:257
+msgid "Radial profiles"
+msgstr "径向轮廓"
+
+#: modules/tools/rprofile.c:305
+msgid "S_ymmetrize"
+msgstr "对称化(_Y)"
+
+#: modules/tools/rprofile.c:307
+msgid "Symmetrize _All"
+msgstr "全部对称化(_A)"
+
+#: modules/tools/rprofile.c:525
+#, c-format
+msgid "Radial profile %d"
+msgstr "径向轮廓 %d"
+
+#: modules/tools/selectionmanager.c:122
+msgid "Selection manager tool which lists, clears and copies selections."
+msgstr "选择管理器工具，可列出、清除和复制选择。"
+
+#: modules/tools/selectionmanager.c:163 modules/tools/selectionmanager.c:360
+msgid "to _all files"
+msgstr "到所有文件(_A)"
+
+#: modules/tools/selectionmanager.c:177
+msgid "Selection Manager"
+msgstr "选择管理器"
+
+#: modules/tools/selectionmanager.c:178
+msgid "Display, copy and export selections"
+msgstr "显示、复制和导出选择"
+
+#: modules/tools/selectionmanager.c:264
+msgid "Spline path"
+msgstr "样条路径"
+
+#: modules/tools/selectionmanager.c:266
+msgid "Projective rectangles"
+msgstr "投影矩形"
+
+#: modules/tools/selectionmanager.c:349
+msgid "Manage chosen selection"
+msgstr "管理所选选择"
+
+#: modules/tools/selectionmanager.c:357
+msgid "_Distribute"
+msgstr "分发(_D)"
+
+#: modules/tools/selectionmanager.c:368
+msgid "_Copy"
+msgstr "复制(_C)"
+
+#: modules/tools/sfunctions.c:163
+msgid "Statistical function tool, calculates one-dimensional statistical functions (height distribution, correlations, PSDF, Minkowski functionals) of selected part of data."
+msgstr "统计函数工具，计算所选数据部分的一维统计函数（高度分布、相关函数、PSDF、Minkowski 泛函）。"
+
+#: modules/tools/sfunctions.c:179
+msgid "Radial PSDF"
+msgstr "径向 PSDF"
+
+#: modules/tools/sfunctions.c:180
+msgid "Angularly averaged PSDF"
+msgstr "角度平均 PSDF"
+
+#: modules/tools/sfunctions.c:181
+msgid "Angular spectrum"
+msgstr "角谱"
+
+#: modules/tools/sfunctions.c:182
+msgid "Radial ACF"
+msgstr "径向 ACF"
+
+#: modules/tools/sfunctions.c:183
+msgid "Minkowski volume"
+msgstr "Minkowski 体积"
+
+#: modules/tools/sfunctions.c:184
+msgid "Minkowski boundary"
+msgstr "Minkowski 边界"
+
+#: modules/tools/sfunctions.c:185
+msgid "Minkowski connectivity"
+msgstr "Minkowski 连通性"
+
+#: modules/tools/sfunctions.c:187
+msgid "Area scale graph"
+msgstr "面积尺度曲线图"
+
+#: modules/tools/sfunctions.c:188
+msgid "IDF"
+msgstr "IDF"
+
+#: modules/tools/sfunctions.c:189
+msgid "Radial IDF"
+msgstr "径向 IDF"
+
+#: modules/tools/sfunctions.c:226
+msgid "_Separate uncertainty"
+msgstr "分离不确定度(_S)"
+
+#: modules/tools/spectro.c:131
+msgid "Point Spectrum, extracts point spectra to a graph."
+msgstr "点谱工具，将点谱提取到曲线图。"
+
+#: modules/tools/spectro.c:160
+msgid "_Separate spectra"
+msgstr "分离谱(_S)"
+
+#: modules/tools/spectro.c:161
+msgid "_Average spectra"
+msgstr "平均谱(_A)"
+
+#: modules/tools/spectro.c:177
+msgid "Point Spectroscopy"
+msgstr "点光谱"
+
+#: modules/tools/spectro.c:178
+msgid "Extract and view point spectroscopy data"
+msgstr "提取并查看点光谱数据"
+
+#: modules/tools/spectro.c:386
+msgid "Spectroscopy"
+msgstr "光谱"
+
+#: modules/tools/spotremove.c:168
+msgid "Spot removal tool, interpolates small parts of data (displayed on a zoomed view) using selected algorithm."
+msgstr "斑点去除工具，使用所选算法对数据的小部分（显示在放大视图中）进行插值。"
+
+#: modules/tools/spotremove.c:191
+msgid "Hyperbolic flatten"
+msgstr "双曲平坦化"
+
+#: modules/tools/spotremove.c:192
+msgid "Pseudo-Laplace"
+msgstr "伪拉普拉斯"
+
+#: modules/tools/spotremove.c:194
+msgid "Fractal interpolation"
+msgstr "分形插值"
+
+#: modules/tools/spotremove.c:200
+msgid "Ellipse"
+msgstr "椭圆"
+
+#: modules/tools/spotremove.c:229
+msgid "Remove Spots"
+msgstr "去除斑点"
+
+#: modules/tools/spotremove.c:230
+msgid "Interpolate small defects, manually selected"
+msgstr "对人工选择的小缺陷进行插值"
+
+#: modules/tools/spotremove.c:751
+msgid "No point in the image selected."
+msgstr "图像中未选择点。"
+
+#: modules/tools/spotremove.c:752
+msgid "No area in the zoom selected."
+msgstr "放大视图中未选择区域。"
+
+#: modules/volume/volume_1dfft.c:115
+msgid "Performs 1D FFT filtering for all the volume data levels."
+msgstr "对体数据的所有层进行一维 FFT 滤波。"
+
+#: modules/volume/volume_1dfft.c:133
+msgid "1D FFT filtering of all levels"
+msgstr "对所有层进行一维 FFT 滤波"
+
+#: modules/volume/volume_1dfft.c:150
+msgid "spectra|Individual"
+msgstr "单独"
+
+#: modules/volume/volume_1dfft.c:151
+msgid "spectra|Average"
+msgstr "平均"
+
+#: modules/volume/volume_1dfft.c:165
+msgid "_Shown spectrum"
+msgstr "显示的谱(_S)"
+
+#: modules/volume/volume_1dfft.c:207
+msgid "1D FFT Filtered"
+msgstr "一维 FFT 滤波后"
+
+#: modules/volume/volume_1dfft.c:256
+msgid "1D FFT Filter"
+msgstr "一维 FFT 滤波器"
+
+#: modules/volume/volume_addframe.c:88
+msgid "Add one frame to volume data stack"
+msgstr "向体数据堆栈添加一帧"
+
+#: modules/volume/volume_addframe.c:102
+msgid "/_Basic Operations/I_nsert XY Plane..."
+msgstr "/基本操作(_B)/插入 XY 平面(_N)..."
+
+#: modules/volume/volume_addframe.c:106
+msgid "Insert single XY plane to some level."
+msgstr "在某一层插入单个 XY 平面。"
+
+#: modules/volume/volume_addframe.c:121
+msgid "Data to insert"
+msgstr "要插入的数据"

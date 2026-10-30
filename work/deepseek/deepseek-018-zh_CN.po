@@ -1,0 +1,423 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/volume/volume_addframe.c:159
+msgid "Frame added"
+msgstr "已添加帧"
+
+#: modules/volume/volume_addframe.c:197
+msgid "Add XY Plane"
+msgstr "添加 XY 平面"
+
+#: modules/volume/volume_addframe.c:211
+msgid "Insert _Before Current Level"
+msgstr "插入到当前层之前(_B)"
+
+#: modules/volume/volume_addframe.c:213
+msgid "_Replace Current Level"
+msgstr "替换当前层(_R)"
+
+#: modules/volume/volume_addframe.c:215
+msgid "Insert _After Current Level"
+msgstr "插入到当前层之后(_A)"
+
+#: modules/volume/volume_arithmetic.c:147
+msgid "Simple arithmetic operations with volume data."
+msgstr "对体数据进行简单算术运算。"
+
+#: modules/volume/volume_arithmetic.c:161
+msgid "/_Basic Operations/_Arithmetic..."
+msgstr "/基本操作(_B)/算术(_A)..."
+
+#: modules/volume/volume_arithmetic.c:165
+msgid "Arithmetic operations on volume data"
+msgstr "对体数据进行算术运算"
+
+#: modules/volume/volume_asciiexport.c:72
+msgid "Exports volume data in simple ASCII formats."
+msgstr "以简单 ASCII 格式导出体数据。"
+
+#: modules/volume/volume_asciiexport.c:86
+msgid "/_Basic Operations/Export _Text..."
+msgstr "/基本操作(_B)/导出文本(_T)..."
+
+#: modules/volume/volume_asciiexport.c:90
+msgid "Export volume data to a text file"
+msgstr "将体数据导出为文本文件"
+
+#: modules/volume/volume_asciiexport.c:99
+msgid "VTK structured grid"
+msgstr "VTK 结构网格"
+
+#: modules/volume/volume_asciiexport.c:100
+msgid "One Z-profile per line"
+msgstr "每行一个 Z 剖面"
+
+#: modules/volume/volume_asciiexport.c:101
+msgid "One XY-layer per line"
+msgstr "每行一个 XY 层"
+
+#: modules/volume/volume_asciiexport.c:102
+msgid "Blank-line separated matrices"
+msgstr "空行分隔矩阵"
+
+#: modules/volume/volume_calibrate.c:142
+msgid "Recalibrate volume data dimensions or value range."
+msgstr "重新校准体数据尺寸或数值范围。"
+
+#: modules/volume/volume_calibrate.c:170
+msgid "Match voxel size"
+msgstr "匹配体素大小"
+
+#: modules/volume/volume_calibrate.c:215
+msgid "Z offset"
+msgstr "Z 偏移"
+
+#: modules/volume/volume_calibrate.c:222
+msgid "Value _range"
+msgstr "数值范围(_R)"
+
+#: modules/volume/volume_calibrate.c:223
+msgid "Value _minimum"
+msgstr "数值最小值(_M)"
+
+#: modules/volume/volume_calibrate.c:224
+msgid "Value shi_ft"
+msgstr "数值偏移(_F)"
+
+#: modules/volume/volume_calibrate.c:225
+msgid "_Value correction factor"
+msgstr "数值校正因子(_V)"
+
+#: modules/volume/volume_calibrate.c:448
+msgid "XY Dimensions"
+msgstr "XY 尺寸"
+
+#: modules/volume/volume_calibrate.c:478
+msgid "Z Dimension"
+msgstr "Z 尺寸"
+
+#: modules/volume/volume_cluster.c:229
+msgid "K-means"
+msgstr "K 均值"
+
+#: modules/volume/volume_cluster.c:230
+msgid "K-medians"
+msgstr "K 中位数"
+
+#: modules/volume/volume_cluster.c:231
+msgid "DBSCAN"
+msgstr "DBSCAN"
+
+#: modules/volume/volume_cluster.c:232
+msgid "Nearest Neighbors"
+msgstr "最近邻"
+
+#: modules/volume/volume_cluster.c:238
+msgid "Splits data into clusters"
+msgstr "将数据划分为聚类"
+
+#: modules/volume/volume_cluster.c:252
+msgid "/_Statistics/_Clustering..."
+msgstr "/统计(_S)/聚类(_C)..."
+
+#: modules/volume/volume_cluster.c:256
+msgid "Split data into clusters"
+msgstr "将数据划分为聚类"
+
+#: modules/volume/volume_cluster.c:268 modules/volume/volume_cluster.c:329
+msgid "Preprocessed _data"
+msgstr "预处理后数据(_D)"
+
+#: modules/volume/volume_cluster.c:269
+msgid "Clustering _result"
+msgstr "聚类结果(_R)"
+
+#: modules/volume/volume_cluster.c:272 modules/volume/volume_cluster.c:278 modules/volume/volume_cluster.c:285 modules/volume/volume_cluster.c:291
+msgid "None"
+msgstr "无"
+
+#: modules/volume/volume_cluster.c:273
+msgid "3 σ"
+msgstr "3 σ"
+
+#: modules/volume/volume_cluster.c:274
+msgid "3 MAD"
+msgstr "3 MAD"
+
+#: modules/volume/volume_cluster.c:281
+msgid "Quadratic"
+msgstr "二次"
+
+#: modules/volume/volume_cluster.c:282
+msgid "Mean curve"
+msgstr "均值曲线"
+
+#: modules/volume/volume_cluster.c:287
+msgid "Gradient"
+msgstr "梯度"
+
+#: modules/volume/volume_cluster.c:292
+msgid "Min/max"
+msgstr "最小/最大"
+
+#: modules/volume/volume_cluster.c:293
+msgid "Variance"
+msgstr "方差"
+
+#: modules/volume/volume_cluster.c:294
+msgid "Pareto"
+msgstr "Pareto"
+
+#: modules/volume/volume_cluster.c:295
+msgid "VAST"
+msgstr "VAST"
+
+#: modules/volume/volume_cluster.c:315
+msgid "_Outliers criterion"
+msgstr "异常值判据(_O)"
+
+#: modules/volume/volume_cluster.c:317
+msgid "_Background removal"
+msgstr "背景去除(_B)"
+
+#: modules/volume/volume_cluster.c:319
+msgid "_Transformation"
+msgstr "变换(_T)"
+
+#: modules/volume/volume_cluster.c:321
+msgid "_Scaling"
+msgstr "缩放(_S)"
+
+#: modules/volume/volume_cluster.c:325
+msgid "_Cluster map"
+msgstr "聚类图(_C)"
+
+#: modules/volume/volume_cluster.c:326
+msgid "Cluster centers _graph"
+msgstr "聚类中心曲线图(_G)"
+
+#: modules/volume/volume_cluster.c:327
+msgid "_Error map"
+msgstr "误差图(_E)"
+
+#: modules/volume/volume_cluster.c:328
+msgid "Outliers _mask"
+msgstr "异常值掩膜(_M)"
+
+#: modules/volume/volume_cluster.c:331
+msgid "Output _non-processed centers"
+msgstr "输出未处理的中心(_N)"
+
+#: modules/volume/volume_cluster.c:332
+msgid "Sho_w data with result"
+msgstr "显示带结果的数据(_W)"
+
+#: modules/volume/volume_cluster.c:390
+#, c-format
+msgid "%s: cluster map"
+msgstr "%s：聚类图"
+
+#: modules/volume/volume_cluster.c:406
+#, c-format
+msgid "%s: error map"
+msgstr "%s：误差图"
+
+#: modules/volume/volume_cluster.c:451
+#, c-format
+msgid "%s: cluster centers"
+msgstr "%s：聚类中心"
+
+#: modules/volume/volume_cluster.c:466
+#, c-format
+msgid "Pre-processed %s"
+msgstr "预处理后的 %s"
+
+#: modules/volume/volume_cluster.c:513
+msgid "Cluster Data"
+msgstr "聚类数据"
+
+#: modules/volume/volume_cluster.c:539
+msgid "Initialization"
+msgstr "初始化"
+
+#: modules/volume/volume_cluster.c:547
+msgid "Pre-processing"
+msgstr "预处理"
+
+#: modules/volume/volume_cluster.c:559
+msgid "Clustering"
+msgstr "聚类"
+
+#: modules/volume/volume_cluster.c:600 modules/volume/volume_cluster.c:775 modules/volume/volume_cluster.c:830
+msgid "no clusters"
+msgstr "无聚类"
+
+#: modules/volume/volume_cluster.c:824
+#, c-format
+msgid "%d clusters, error: %g"
+msgstr "%d 个聚类，误差：%g"
+
+#: modules/volume/volume_cluster.c:1284
+#, c-format
+msgid "Cluster center %d"
+msgstr "聚类中心 %d"
+
+#: modules/volume/volume_cluster.c:1506 modules/volume/volume_cluster.c:1781
+msgid "Number of clusters"
+msgstr "聚类数"
+
+#: modules/volume/volume_cluster.c:1508 modules/volume/volume_cluster.c:1783
+msgid "_Max. iterations"
+msgstr "最大迭代次数(_M)"
+
+#: modules/volume/volume_cluster.c:1509 modules/volume/volume_cluster.c:1784
+msgid "Convergence _precision digits"
+msgstr "收敛精度位数(_P)"
+
+#: modules/volume/volume_cluster.c:1512
+msgid "_Remove outliers"
+msgstr "移除异常值(_R)"
+
+#: modules/volume/volume_cluster.c:1514
+msgid "Outliers _threshold"
+msgstr "异常值阈值(_T)"
+
+#: modules/volume/volume_cluster.c:1576
+msgid "K-means iteration..."
+msgstr "K 均值迭代……"
+
+#: modules/volume/volume_cluster.c:1848
+msgid "K-medians iteration..."
+msgstr "K 中位数迭代……"
+
+#: modules/volume/volume_cluster.c:1946
+msgid "Min. neighbors"
+msgstr "最小邻居数"
+
+#: modules/volume/volume_cluster.c:1947 modules/volume/volume_cluster.c:2234
+msgid "_Range factor"
+msgstr "范围因子(_R)"
+
+#: modules/volume/volume_cluster.c:2070 modules/volume/volume_cluster.c:2374
+msgid "Clustering..."
+msgstr "正在聚类……"
+
+#: modules/volume/volume_cluster.c:2227
+msgid "Number"
+msgstr "数量"
+
+#: modules/volume/volume_cluster.c:2228
+msgid "Number (weighted) "
+msgstr "数量（加权） "
+
+#: modules/volume/volume_cluster.c:2230
+msgid "Distance (weighted)"
+msgstr "距离（加权）"
+
+#: modules/volume/volume_cluster.c:2235
+msgid "_Criterion"
+msgstr "判据(_C)"
+
+#: modules/volume/volume_crop.c:88
+msgid "Performs XY plane cropping of all the levels."
+msgstr "对所有层进行 XY 平面裁剪。"
+
+#: modules/volume/volume_crop.c:102
+msgid "/_Basic Operations/_Crop..."
+msgstr "/基本操作(_B)/裁剪(_C)..."
+
+#: modules/volume/volume_crop.c:106
+msgid "Crop volume data as stack of images"
+msgstr "将体数据作为图像堆栈裁剪"
+
+#: modules/volume/volume_drift.c:159
+msgid "Estimates drift across stacked high-speed SPM frames."
+msgstr "估计堆叠高速 SPM 帧之间的漂移。"
+
+#: modules/volume/volume_drift.c:173
+msgid "/_Correct Data/Estimate _Drift..."
+msgstr "/校正数据(_C)/估计漂移(_D)..."
+
+#: modules/volume/volume_drift.c:177
+msgid "Estimates drift"
+msgstr "估计漂移"
+
+#: modules/volume/volume_drift.c:189
+msgid "_Rotation"
+msgstr "旋转(_R)"
+
+#: modules/volume/volume_drift.c:192
+msgid "_One by one"
+msgstr "逐个(_O)"
+
+#: modules/volume/volume_drift.c:193
+msgid "_Average"
+msgstr "平均(_A)"
+
+#: modules/volume/volume_drift.c:203
+msgid "Show direction"
+msgstr "显示方向"
+
+#: modules/volume/volume_drift.c:205
+msgid "XY search method"
+msgstr "XY 搜索方法"
+
+#: modules/volume/volume_drift.c:212 modules/volume/volume_drift.c:213 modules/volume/volume_drift.c:214
+msgid "Use raw data"
+msgstr "使用原始数据"
+
+#: modules/volume/volume_drift.c:215
+msgid "XY rotate"
+msgstr "XY 旋转"
+
+#: modules/volume/volume_drift.c:219
+msgid "_Number of rotations"
+msgstr "旋转次数(_N)"
+
+#: modules/volume/volume_drift.c:220
+msgid "_Rotation range"
+msgstr "旋转范围(_R)"
+
+#: modules/volume/volume_drift.c:295 modules/volume/volume_drift.c:296
+msgid "Lateral drift"
+msgstr "横向漂移"
+
+#: modules/volume/volume_drift.c:321
+msgid "Z-axis drift"
+msgstr "Z 轴漂移"
+
+#: modules/volume/volume_drift.c:331
+msgid "Drift corrected"
+msgstr "漂移已校正"
+
+#: modules/volume/volume_drift.c:387
+msgid "Estimate Drift"
+msgstr "估计漂移"
+
+#: modules/volume/volume_drift.c:441
+msgid "X Correction"
+msgstr "X 校正"
+
+#: modules/volume/volume_drift.c:449
+msgid "Y Correction"
+msgstr "Y 校正"
+
+#: modules/volume/volume_drift.c:457
+msgid "Z Correction"
+msgstr "Z 校正"

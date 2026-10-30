@@ -39,7 +39,7 @@ msgstr "使用目录作为参数启动 Gwyddion 时，会打开显示该目录�
 msgid ""
 "File → Open Recent → Document History opens a browser of recently loaded "
 "files with the possibility to search them by name."
-msgstr "“文件 → 最近打开 → 文档历史”可打开最近加载文件的浏览器，并按名称搜索。"
+msgstr "“文件 → 打开最近文件 → 文档历史”可打开最近加载文件的浏览器，并按名称搜索。"
 
 #: gwyddion/tips.c:111
 msgid ""
@@ -103,15 +103,15 @@ msgstr "可通过通道或体数据的右键菜单中的“查看日志”浏览
 msgid ""
 "Curves can be copied to other (compatible) graphs by dragging them from "
 "Curves tab to the graph window."
-msgstr "将曲线从“曲线”选项卡拖到图表窗口，可将曲线复制到其他兼容的图表。"
+msgstr "将曲线从“曲线”选项卡拖到曲线图窗口，可将曲线复制到其他兼容的曲线图。"
 
 #: gwyddion/tips.c:175
 msgid "Graph curve properties can be edited by clicking on the curve."
-msgstr "单击图表中的曲线可编辑其属性。"
+msgstr "单击曲线图中的曲线可编辑其属性。"
 
 #: gwyddion/tips.c:179
 msgid "Graph axis labels can be edited after by clicking on the label."
-msgstr "单击图表轴标签可编辑标签。"
+msgstr "单击曲线图轴标签可编辑标签。"
 
 #: gwyddion/tips.c:183
 msgid ""
@@ -122,7 +122,7 @@ msgstr "双击图例可编辑图例属性。"
 msgid ""
 "Curves can be deleted from graphs by selecting the curve in Curves tab and "
 "pressing Delete."
-msgstr "在“曲线”选项卡中选择曲线并按 Delete，可从图表中删除该曲线。"
+msgstr "在“曲线”选项卡中选择曲线并按 Delete，可从曲线图中删除该曲线。"
 
 #: gwyddion/tips.c:194
 msgid "Key ‛+’ or ‛=’ zooms in a data window."
@@ -177,13 +177,13 @@ msgstr "使用“设为默认”按钮可将当前三维视图设置设为默认
 msgid ""
 "Pressing Ctrl-C copies the image of a channel, graph or 3D view to the "
 "clipboard."
-msgstr "按 Ctrl-C 可将通道、图表或三维视图的图像复制到剪贴板。"
+msgstr "按 Ctrl-C 可将通道、曲线图或三维视图的图像复制到剪贴板。"
 
 #: gwyddion/tips.c:245
 msgid ""
 "Dragging channels or graphs from Data Browser to a window copies them to the "
 "corresponding file."
-msgstr "将通道或图表从数据浏览器拖到窗口，可将它们复制到相应文件。"
+msgstr "将通道或曲线图从数据浏览器拖到窗口，可将它们复制到相应文件。"
 
 #: gwyddion/tips.c:250
 msgid "Info → Show Data Browser brings back a closed Data Browser."
@@ -193,7 +193,7 @@ msgstr "“信息 → 显示数据浏览器”可重新显示已关闭的数据�
 msgid ""
 "Channels and graphs can be renamed by double-clicking on their name in Data "
 "Browser."
-msgstr "在数据浏览器中双击通道或图表的名称可将其重命名。"
+msgstr "在数据浏览器中双击通道或曲线图的名称可将其重命名。"
 
 #: gwyddion/tips.c:260
 msgid ""
@@ -241,7 +241,7 @@ msgstr "“基底平坦化”可自动调平带有向上凸起特征的平坦基
 #: gwyddion/tips.c:296
 msgid ""
 "Too small grains can be filtered out with Data Process → Grains → Filter."
-msgstr "通过“数据处理 → 颗粒 → 过滤”可滤除过小的颗粒。"
+msgstr "通过“数据处理 → 颗粒 → 筛选”可滤除过小的颗粒。"
 
 #: gwyddion/tips.c:301
 msgid ""
@@ -253,7 +253,7 @@ msgstr "“数据处理 → 表示 → 边缘检测 → 阶跃”是一种动态
 msgid ""
 "Data Process → Basic Operations → Dimensions and Units changes scales, "
 "offsets and even lateral and value units."
-msgstr "“数据处理 → 基本操作 → 尺寸与单位”可更改比例、偏移量，甚至横向单位与数值单位。"
+msgstr "“数据处理 → 基本操作 → 尺寸和单位”可更改比例、偏移量，甚至横向单位与数值单位。"
 
 #: gwyddion/tips.c:311
 msgid ""
@@ -278,11 +278,11 @@ msgstr "“数据处理 → 掩膜 → 标记依据”可根据其他数据、�
 
 #: gwyddion/tips.c:333
 msgid "Graph → Critical Dimension measures steps on extracted profile graphs."
-msgstr "“图表 → 临界尺寸”可测量提取的轮廓图中的阶跃。"
+msgstr "“曲线图 → 临界尺寸”可测量提取的轮廓图中的阶跃。"
 
 #: gwyddion/tips.c:338
 msgid "All Graph functions are available also in the graph right-click menu."
-msgstr "所有“图表”功能也可通过图表右键菜单使用。"
+msgstr "所有“曲线图”功能也可通过曲线图右键菜单使用。"
 
 #: gwyddion/tips.c:344
 msgid "Pressing Esc hides tool windows."
@@ -315,7 +315,7 @@ msgid ""
 "Spectroscopy tool displays point spectroscopy data and extracts them to "
 "standalone graphs that can be subsequently analysed for instance with Graph "
 "→ Fit FD Curve."
-msgstr "“光谱”工具可显示点光谱数据，并将其提取为独立图表；之后可对其分析，例如使用“图表 → 拟合力-距离曲线”。"
+msgstr "“光谱”工具可显示点光谱数据，并将其提取为独立曲线图；之后可对其分析，例如使用“曲线图 → 拟合力-距离曲线”。"
 
 #: gwyddion/tips.c:373
 msgid ""

@@ -1,0 +1,49 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/xyz/xyzops.c:107
+msgid "Merge two XYZ point sets"
+msgstr "合并两个 XYZ 点集"
+
+#: modules/xyz/xyzops.c:111
+msgid "/_Average Identical Positions"
+msgstr "/平均相同位置(_A)"
+
+#: modules/xyz/xyzops.c:115
+msgid "Average points with identical XY positions"
+msgstr "平均具有相同 XY 位置的点"
+
+#: modules/xyz/xyzops.c:178
+msgid "Merge XYZ Data"
+msgstr "合并 XYZ 数据"
+
+#: modules/xyz/xyzops.c:202
+msgid "Second _XYZ data:"
+msgstr "第二组 XYZ 数据(_X)："
+
+#: modules/xyz/xyzops.c:206
+msgid "_Average coincident points"
+msgstr "平均重合点(_A)"
+
+#: modules/xyz/xyzops.c:351
+msgid "Merged"
+msgstr "已合并"
+
+#: modules/xyz/xyzops.c:408
+msgid "Points averaged"
+msgstr "点已平均"

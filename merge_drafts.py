@@ -1,8 +1,6 @@
-"""Merge verified batches into draft catalogs; generate fuzzy regional drafts."""
-from copy import deepcopy
+# Merge verified simplified-Chinese batches without modifying regional catalogs.
 from pathlib import Path
 import polib
-from opencc import OpenCC
 from check_batches import check_batch, key
 
 ROOT = Path(__file__).resolve().parent
@@ -43,24 +41,5 @@ for entry in catalog:
 output = ROOT / 'translations'
 output.mkdir(exist_ok=True)
 catalog.save(str(output / 'zh_CN.po'))
-for locale, scheme in [('zh_HK', 's2hk'), ('zh_TW', 's2twp')]:
-    result = deepcopy(catalog)
-    result.metadata['Language'] = locale
-    result.header = ('Automatically converted regional draft, not yet reviewed. '
-                     'Distributed under the same license as Gwyddion.')
-    converter = OpenCC(scheme)
-    for entry in result:
-        if entry.msgstr:
-            entry.msgstr = converter.convert(entry.msgstr)
-            if 'fuzzy' not in entry.flags:
-                entry.flags.append('fuzzy')
-        if entry.msgstr_plural:
-            entry.msgstr_plural = {i: converter.convert(s) for i, s in entry.msgstr_plural.items()}
-            if any(entry.msgstr_plural.values()) and 'fuzzy' not in entry.flags:
-                entry.flags.append('fuzzy')
-    result.save(str(output / f'{locale}.po'))
-    print(f'{locale}: converted entries marked fuzzy; regional review required')
 print(f'zh_CN: {len(translations)} imported source entries, '
       f'{catalog.percent_translated()}% of {len(catalog)} complete')
-
-

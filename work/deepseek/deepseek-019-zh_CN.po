@@ -1,0 +1,421 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/volume/volume_drift.c:568
+msgid "Updating z drift data..."
+msgstr "正在更新 Z 漂移数据……"
+
+#: modules/volume/volume_drift.c:634
+msgid "Updating lateral drift data..."
+msgstr "正在更新横向漂移数据……"
+
+#: modules/volume/volume_drift.c:864
+msgid "x drift [px]"
+msgstr "x 漂移 [px]"
+
+#: modules/volume/volume_drift.c:869
+msgid "y drift [px]"
+msgstr "y 漂移 [px]"
+
+#: modules/volume/volume_drift.c:874
+msgid "z drift"
+msgstr "z 漂移"
+
+#: modules/volume/volume_drift.c:879
+msgid "rotation [deg]"
+msgstr "旋转 [deg]"
+
+#: modules/volume/volume_drift.c:967
+msgid "Cropping data..."
+msgstr "正在裁剪数据……"
+
+#: modules/volume/volume_equiplane.c:113
+msgid "Extracts z-coordinates of isosurfaces from volume data to an image."
+msgstr "将体数据中等值面的 z 坐标提取到图像。"
+
+#: modules/volume/volume_equiplane.c:127
+msgid "/SPM M_odes/_Isosurface Image..."
+msgstr "/SPM 模式(_O)/等值面图像(_I)..."
+
+#: modules/volume/volume_equiplane.c:131
+msgid "Extract z-coordinates of isosurface"
+msgstr "提取等值面的 z 坐标"
+
+#: modules/volume/volume_equiplane.c:144
+msgid "Upwards"
+msgstr "向上"
+
+#: modules/volume/volume_equiplane.c:145
+msgid "Downwards"
+msgstr "向下"
+
+#: modules/volume/volume_equiplane.c:146
+msgid "Both directions"
+msgstr "两个方向"
+
+#: modules/volume/volume_equiplane.c:158
+msgid "_Search direction"
+msgstr "搜索方向(_S)"
+
+#: modules/volume/volume_equiplane.c:160
+msgid "Preserve _intersection sign"
+msgstr "保留交点符号(_I)"
+
+#: modules/volume/volume_equiplane.c:219
+#, c-format
+msgid "Isosurface z for %.*f %s"
+msgstr "等值面 z（%.*f %s）"
+
+#: modules/volume/volume_equiplane.c:260
+msgid "Extract Z Isosurfaces"
+msgstr "提取 Z 等值面"
+
+#: modules/volume/volume_extract.c:183
+msgid "Shows 3D representations of volume data"
+msgstr "显示体数据的三维表示"
+
+#: modules/volume/volume_extract.c:197
+msgid "/_Basic Operations/3D View..."
+msgstr "/基本操作(_B)/三维视图..."
+
+#: modules/volume/volume_extract.c:201
+msgid "Show a 3D view for the volume data"
+msgstr "显示体数据的三维视图"
+
+#: modules/volume/volume_extract.c:259
+msgid "_Render"
+msgstr "渲染(_R)"
+
+#: modules/volume/volume_extract.c:269
+msgid "_Save image"
+msgstr "保存图像(_S)"
+
+#: modules/volume/volume_extract.c:324
+msgid "Wireframe threshold"
+msgstr "线框阈值"
+
+#: modules/volume/volume_extract.c:338
+msgid "Opacity scale"
+msgstr "不透明度尺度"
+
+#: modules/volume/volume_extract.c:344
+msgid "Apply perspective"
+msgstr "应用透视"
+
+#: modules/volume/volume_extract.c:353
+msgid "Instant 3D render"
+msgstr "即时三维渲染"
+
+#: modules/volume/volume_extract.c:407
+msgid "X view"
+msgstr "X 视图"
+
+#: modules/volume/volume_extract.c:412
+msgid "Y view"
+msgstr "Y 视图"
+
+#: modules/volume/volume_extract.c:417
+msgid "Z view"
+msgstr "Z 视图"
+
+#: modules/volume/volume_extract.c:605
+msgid "No image was rendered so far"
+msgstr "尚未渲染任何图像"
+
+#: modules/volume/volume_extract.c:610
+msgid "Export 3D view"
+msgstr "导出三维视图"
+
+#: modules/volume/volume_extract.c:627
+msgid "Cairo error while saving image"
+msgstr "保存图像时发生 Cairo 错误"
+
+#: modules/volume/volume_extract.c:1424
+msgid "Building wireframe model..."
+msgstr "正在构建线框模型……"
+
+#: modules/volume/volume_imagize.c:35
+msgid "Extracts all XY slices from volume data"
+msgstr "从体数据中提取所有 XY 切片"
+
+#: modules/volume/volume_imagize.c:49
+msgid "/_Basic Operations/_Extract All _XY Planes"
+msgstr "/基本操作(_B)/提取所有(_E) XY 平面(_X)"
+
+#: modules/volume/volume_imagize.c:53
+msgid "Extract all XY planes to images"
+msgstr "将所有 XY 平面提取为图像"
+
+#: modules/volume/volume_imagize.c:84
+#, c-format
+msgid "%s, slice %d"
+msgstr "%s，切片 %d"
+
+#: modules/volume/volume_invert.c:39
+msgid "Inverts value in volume data"
+msgstr "反转体数据中的数值"
+
+#: modules/volume/volume_invert.c:57
+msgid "Invert value in volume data"
+msgstr "反转体数据中的数值"
+
+#: modules/volume/volume_invert.c:87
+msgid "Inverted"
+msgstr "已反转"
+
+#: modules/volume/volume_lawnize.c:85
+msgid "Creates curve map data from volume data."
+msgstr "从体数据创建曲线图谱数据。"
+
+#: modules/volume/volume_lawnize.c:99
+msgid "/_Basic Operations/Convert to _Curve Map..."
+msgstr "/基本操作(_B)/转换为曲线图谱(_C)..."
+
+#: modules/volume/volume_lawnize.c:103
+msgid "Convert to curve map"
+msgstr "转换为曲线图谱"
+
+#: modules/volume/volume_lawnize.c:121
+msgid "_Z calibration"
+msgstr "Z 校准(_Z)"
+
+#: modules/volume/volume_lawnize.c:122
+msgid "_All compatible data"
+msgstr "所有兼容数据(_A)"
+
+#: modules/volume/volume_lawnize.c:181
+msgid "Convert to Curve Map"
+msgstr "转换为曲线图谱"
+
+#: modules/volume/volume_lawnize.c:186
+msgid "Combine with other data:"
+msgstr "与其他数据合并："
+
+#: modules/volume/volume_lawnize.c:329
+msgid "Z calibration"
+msgstr "Z 校准"
+
+#: modules/volume/volume_localdetect.c:128
+msgid "Performs localization merge of all the levels"
+msgstr "对所有层进行定位合并"
+
+#: modules/volume/volume_localdetect.c:142
+msgid "/SPM M_odes/_Localization Merge..."
+msgstr "/SPM 模式(_O)/定位合并(_L)..."
+
+#: modules/volume/volume_localdetect.c:146
+msgid "Perform localization merge"
+msgstr "执行定位合并"
+
+#: modules/volume/volume_localdetect.c:156
+msgid "_pixel"
+msgstr "像素(_P)"
+
+#: modules/volume/volume_localdetect.c:157
+msgid "_sub-pixel"
+msgstr "亚像素(_S)"
+
+#: modules/volume/volume_localdetect.c:165
+msgid "Local maxima search"
+msgstr "局部极大值搜索"
+
+#: modules/volume/volume_localdetect.c:168
+msgid "_Upsampling factor"
+msgstr "上采样因子(_U)"
+
+#: modules/volume/volume_localdetect.c:170
+msgid "Keep upsampled"
+msgstr "保留上采样"
+
+#: modules/volume/volume_localdetect.c:171
+msgid "Extract volume density"
+msgstr "提取体密度"
+
+#: modules/volume/volume_localdetect.c:172
+msgid "_Half-bit wavelength"
+msgstr "半位波长(_H)"
+
+#: modules/volume/volume_localdetect.c:174
+msgid "_Peak width"
+msgstr "峰宽(_P)"
+
+#: modules/volume/volume_localdetect.c:176
+msgid "_Height threshold"
+msgstr "高度阈值(_H)"
+
+#: modules/volume/volume_localdetect.c:178
+msgid "Noise _filter width"
+msgstr "噪声滤波宽度(_F)"
+
+#: modules/volume/volume_localdetect.c:228
+msgid "Localization result"
+msgstr "定位结果"
+
+#: modules/volume/volume_localdetect.c:237
+msgid "Localisation density"
+msgstr "定位密度"
+
+#: modules/volume/volume_localdetect.c:304
+msgid "Localization Merge"
+msgstr "定位合并"
+
+#: modules/volume/volume_localdetect.c:306
+msgid "verb|_Update"
+msgstr "更新(_U)"
+
+#: modules/volume/volume_localdetect.c:368
+msgid "_Estimate"
+msgstr "估计(_E)"
+
+#: modules/volume/volume_localdetect.c:834
+msgid "HBW estimate: initializing 3D mask..."
+msgstr "HBW 估计：正在初始化三维掩膜……"
+
+#: modules/volume/volume_localdetect.c:1051
+msgid "Running localization..."
+msgstr "正在运行定位……"
+
+#: modules/volume/volume_mfmrecalc.c:91
+msgid "/SPM M_odes/_Magnetic Data to Force Gradient..."
+msgstr "/SPM 模式(_O)/磁数据转换为力梯度(_M)..."
+
+#: modules/volume/volume_mfmrecalc.c:186
+msgid "Recalculated Data"
+msgstr "重新计算的数据"
+
+#: modules/volume/volume_psf.c:197
+msgid "Calculates the volume PSF."
+msgstr "计算体 PSF。"
+
+#: modules/volume/volume_psf.c:215
+msgid "Estimate transfer function from known data and ideal images"
+msgstr "根据已知数据和理想图像估计传递函数"
+
+#: modules/volume/volume_psf.c:245
+msgid "_Z level"
+msgstr "Z 层(_Z)"
+
+#: modules/volume/volume_psf.c:251
+msgid "_Estimate sigma for each level"
+msgstr "为每层估计 Sigma(_E)"
+
+#: modules/volume/volume_psf.c:255
+msgid "_Estimate size for each level"
+msgstr "为每层估计尺寸(_E)"
+
+#: modules/volume/volume_psf.c:361
+msgid "Sigma was fitted at Z level"
+msgstr "Sigma 在 Z 层拟合"
+
+#: modules/volume/volume_psf.c:719
+msgid "Calculating volume transfer function..."
+msgstr "正在计算体传递函数……"
+
+#: modules/volume/volume_psf.c:883
+msgid "Volume TF"
+msgstr "体传递函数"
+
+#: modules/volume/volume_psf.c:899
+msgid "z level"
+msgstr "z 层"
+
+#: modules/volume/volume_removeframe.c:80
+msgid "Remove one frame from volume data stack"
+msgstr "从体数据堆栈移除一帧"
+
+#: modules/volume/volume_removeframe.c:94
+msgid "/_Basic Operations/_Remove XY Plane..."
+msgstr "/基本操作(_B)/移除 XY 平面(_R)..."
+
+#: modules/volume/volume_removeframe.c:98
+msgid "Remove single XY plane"
+msgstr "移除单个 XY 平面"
+
+#: modules/volume/volume_removeframe.c:114
+msgid "_Extract the plane"
+msgstr "提取该平面(_E)"
+
+#: modules/volume/volume_removeframe.c:154
+msgid "Frame removed"
+msgstr "已移除帧"
+
+#: modules/volume/volume_removeframe.c:175
+#, c-format
+msgid "Extracted frame (%d)"
+msgstr "已提取帧（%d）"
+
+#: modules/volume/volume_removeframe.c:212
+msgid "Remove XY Plane"
+msgstr "移除 XY 平面"
+
+#: modules/volume/volume_removeframe.c:225
+msgid "_Remove Current Level"
+msgstr "移除当前层(_R)"
+
+#: modules/volume/volume_rephase.c:109
+msgid "Swaps phase in continuous data based on user's selection"
+msgstr "根据用户选择交换连续数据中的相位"
+
+#: modules/volume/volume_rephase.c:123
+msgid "/SPM M_odes/_Adjust Phase..."
+msgstr "/SPM 模式(_O)/调整相位(_A)..."
+
+#: modules/volume/volume_rephase.c:127
+msgid "Change phase in continuous data"
+msgstr "更改连续数据中的相位"
+
+#: modules/volume/volume_rephase.c:145
+msgid "Related dataset"
+msgstr "相关数据集"
+
+#: modules/volume/volume_rephase.c:146
+msgid "Place second curve to the _right"
+msgstr "将第二条曲线放在右侧(_R)"
+
+#: modules/volume/volume_rephase.c:147
+msgid "_Invert second curve"
+msgstr "反转第二条曲线(_I)"
+
+#: modules/volume/volume_rephase.c:217
+msgid "Adjust Phase in Volume Data"
+msgstr "调整体数据中的相位"
+
+#: modules/volume/volume_rephase.c:480
+msgid "Phase adjusted result A"
+msgstr "相位调整结果 A"
+
+#: modules/volume/volume_rephase.c:488
+msgid "Phase adjusted result B"
+msgstr "相位调整结果 B"
+
+#: modules/volume/volume_rephase.c:561
+#, c-format
+msgid "Merged graph at x: %d y: %d"
+msgstr "合并曲线图（x：%d，y：%d）"
+
+#: modules/volume/volume_scars.c:101
+msgid "Performs scars removal for all the volume data levels."
+msgstr "对体数据的所有层执行划痕去除。"
+
+#: modules/volume/volume_scars.c:115
+msgid "/_Correct Data/_Scars..."
+msgstr "/校正数据(_C)/划痕(_S)..."
+
+#: modules/volume/volume_scars.c:119
+msgid "Remove scars in all levels"
+msgstr "移除所有层中的划痕"

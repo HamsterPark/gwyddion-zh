@@ -290,7 +290,7 @@ msgstr "导出量"
 
 #: modules/process/fit-shape.c:517
 msgid "Mean square difference:"
-msgstr "均方差："
+msgstr "均方差值："
 
 #: modules/process/fit-shape.c:695
 msgid "_Recalculate Image"

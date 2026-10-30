@@ -147,7 +147,7 @@ msgstr "设置选区(_S)"
 
 #: modules/process/curvature.c:132
 msgid "_Plot graph"
-msgstr "绘制图表(_P)"
+msgstr "绘制曲线图(_P)"
 
 #: modules/process/curvature.c:159
 msgid "Curvature Sections"

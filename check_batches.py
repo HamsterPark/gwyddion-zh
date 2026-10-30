@@ -43,6 +43,10 @@ def check_batch(po_path):
         errors.append(f'{po_path.name}: missing {len(src_entries.keys() - out_entries.keys())}, unexpected {len(out_entries.keys() - src_entries.keys())}')
     if out.metadata.get('Language') != 'zh_CN':
         errors.append(f'{po_path.name}: expected Language: zh_CN')
+    if re.sub(r'\s+', '', out.metadata.get('Plural-Forms', '')) != 'nplurals=1;plural=0;':
+        errors.append(f'{po_path.name}: expected Chinese plural rule')
+    if 'charset=UTF-8' not in out.metadata.get('Content-Type', ''):
+        errors.append(f'{po_path.name}: expected UTF-8 charset')
     count = 0
     for k, entry in out_entries.items():
         original = src_entries.get(k)
@@ -64,6 +68,14 @@ def check_batch(po_path):
                 expected.append(tokens(entry.msgid_plural))
             if tokens(translation) not in expected:
                 errors.append(f'{po_path.name}: placeholders or tags differ for {entry.msgid!r}')
+            if 'c-format' in entry.flags:
+                source_orders = [PRINTF.findall(entry.msgid)]
+                if entry.msgid_plural:
+                    source_orders.append(PRINTF.findall(entry.msgid_plural))
+                target_order = PRINTF.findall(translation)
+                positional = target_order and all(re.match(r'%\d+\$', x) for x in target_order if x != '%%')
+                if not positional and target_order not in source_orders:
+                    errors.append(f'{po_path.name}: printf argument order differs for {entry.msgid!r}')
     return errors, count, len(src_entries)
 
 

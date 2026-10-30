@@ -1,0 +1,445 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/quazarnpic.c:427
+#, c-format
+msgid "Invalid stack state for opcode %02x."
+msgstr "操作码 %02x 的堆栈状态无效。"
+
+#: modules/file/quazarnpic.c:745
+#, c-format
+msgid "Uknown opcode 0x%02x encountered"
+msgstr "遇到未知操作码 0x%02x。"
+
+#: modules/file/quesant.c:67
+msgid "Imports Quesant file format."
+msgstr "导入 Quesant 文件格式。"
+
+#: modules/file/quesant.c:80
+msgid "Quesant files (.afm)"
+msgstr "Quesant 文件（.afm）"
+
+#: modules/file/rawfile.c:236
+msgid "User-specified"
+msgstr "用户指定"
+
+#: modules/file/rawfile.c:237
+msgid "Signed byte"
+msgstr "有符号字节"
+
+#: modules/file/rawfile.c:238
+msgid "Unsigned byte"
+msgstr "无符号字节"
+
+#: modules/file/rawfile.c:239
+msgid "Signed 16bit word"
+msgstr "有符号 16 位字"
+
+#: modules/file/rawfile.c:240
+msgid "Unsigned 16bit word"
+msgstr "无符号 16 位字"
+
+#: modules/file/rawfile.c:241
+msgid "Signed 32bit word"
+msgstr "有符号 32 位字"
+
+#: modules/file/rawfile.c:242
+msgid "Unsigned 32bit word"
+msgstr "无符号 32 位字"
+
+#: modules/file/rawfile.c:243
+msgid "Signed 64bit word"
+msgstr "有符号 64 位字"
+
+#: modules/file/rawfile.c:244
+msgid "Unsigned 64bit word"
+msgstr "无符号 64 位字"
+
+#: modules/file/rawfile.c:245
+msgid "IEEE single"
+msgstr "IEEE 单精度"
+
+#: modules/file/rawfile.c:246
+msgid "IEEE double"
+msgstr "IEEE 双精度"
+
+#: modules/file/rawfile.c:247
+msgid "IEEE half"
+msgstr "IEEE 半精度"
+
+#: modules/file/rawfile.c:248
+msgid "Pascal real"
+msgstr "Pascal 实数"
+
+#: modules/file/rawfile.c:258
+msgid ""
+"Imports raw data files, both ASCII and binary, according to user-specified "
+"format."
+msgstr "按用户指定的格式导入原始数据文件，包括 ASCII 和二进制。"
+
+#: modules/file/rawfile.c:277
+msgid "Raw data files"
+msgstr "原始数据文件"
+
+#: modules/file/rawfile.c:307
+msgid "Any whitespace"
+msgstr "任意空白"
+
+#: modules/file/rawfile.c:308
+msgid "TAB character"
+msgstr "TAB 字符"
+
+#: modules/file/rawfile.c:309
+msgid "Other character"
+msgstr "其他字符"
+
+#: modules/file/rawfile.c:322
+msgid "_Field delimiter"
+msgstr "字段分隔符(_F)"
+
+#: modules/file/rawfile.c:328
+msgid "_Automatically offer raw data import of unknown files"
+msgstr "对未知文件自动提供原始数据导入(_A)"
+
+#: modules/file/rawfile.c:337
+msgid "_Text data"
+msgstr "文本数据(_T)"
+
+#: modules/file/rawfile.c:338
+msgid "_Binary data"
+msgstr "二进制数据(_B)"
+
+#: modules/file/rawfile.c:349 modules/file/rawfile.c:350
+msgid "Missin_g value substitute"
+msgstr "缺失值替代(_G)"
+
+#: modules/file/rawfile.c:361
+msgid "Start from file _line"
+msgstr "起始文件行(_L)"
+
+#: modules/file/rawfile.c:362
+msgid "_Each image row skip"
+msgstr "每个图像行跳过(_E)"
+
+#: modules/file/rawfile.c:363
+msgid "One _value per line"
+msgstr "每行一个数值(_V)"
+
+#: modules/file/rawfile.c:364
+msgid "E_xtract column"
+msgstr "提取列(_X)"
+
+#: modules/file/rawfile.c:365
+msgid "_Other delimiter"
+msgstr "其他分隔符(_O)"
+
+#: modules/file/rawfile.c:370
+msgid "Data t_ype"
+msgstr "数据类型(_Y)"
+
+#: modules/file/rawfile.c:372
+msgid "Byte s_wap pattern"
+msgstr "字节交换模式(_W)"
+
+#: modules/file/rawfile.c:373
+msgid "Start at _offset"
+msgstr "起始偏移(_O)"
+
+#: modules/file/rawfile.c:374
+msgid "_Sample size"
+msgstr "采样大小(_S)"
+
+#: modules/file/rawfile.c:375
+msgid "After each sample s_kip"
+msgstr "每个采样之后跳过(_K)"
+
+#: modules/file/rawfile.c:376
+msgid "After each _row skip"
+msgstr "每行之后跳过(_R)"
+
+#: modules/file/rawfile.c:377
+msgid "_Reverse bits in bytes"
+msgstr "反转字节中的位(_R)"
+
+#: modules/file/rawfile.c:378
+msgid "Reverse bi_ts in samples"
+msgstr "反转采样中的位(_T)"
+
+#: modules/file/rawfile.c:379
+msgid "Samples are si_gned"
+msgstr "采样为有符号数(_G)"
+
+#: modules/file/rawfile.c:406
+msgid "Raw data import must be run as interactive."
+msgstr "原始数据导入必须以交互方式运行。"
+
+#: modules/file/rawfile.c:457
+msgid "Read Raw File"
+msgstr "读取原始文件"
+
+#: modules/file/rawfile.c:472
+msgid "Data Format"
+msgstr "数据格式"
+
+#: modules/file/rawfile.c:585
+msgid "fields"
+msgstr "字段"
+
+#: modules/file/rawfile.c:600
+msgid "bytes"
+msgstr "字节"
+
+#: modules/file/rawfile.c:602 modules/file/rawfile.c:605
+#: modules/file/rawfile.c:608
+msgid "bits"
+msgstr "位"
+
+#: modules/file/rawfile.c:637
+msgid "Binary"
+msgstr "二进制"
+
+#: modules/file/rawfile.c:637
+msgid "Text"
+msgstr "文本"
+
+#: modules/file/rawfile.c:658
+msgid "Delimiter: whitespace"
+msgstr "分隔符：空白"
+
+#: modules/file/rawfile.c:661
+#, c-format
+msgid "Delimiter: 0x%02x"
+msgstr "分隔符：0x%02x"
+
+#: modules/file/rawfile.c:663
+#, c-format
+msgid "Delimiter: %s"
+msgstr "分隔符：%s"
+
+#: modules/file/rawfile.c:692
+msgid "Info"
+msgstr "信息"
+
+#: modules/file/rawfile.c:1135
+#, c-format
+msgid ""
+"<b>Too short file</b>\n"
+"The format would require %lu bytes long file (at least), but the length of "
+"`%s' is only %u bytes."
+msgstr "<b>文件过短</b>\n此格式至少需要 %lu 字节，但 `%s’ 的长度只有 %u 字节。"
+
+#: modules/file/rawfile.c:1166
+#, c-format
+msgid ""
+"<b>Parsing failed</b>\n"
+"The contents of `%s' does not match format: %s."
+msgstr "<b>解析失败</b>\n`%s’ 的内容与格式不符：%s。"
+
+#: modules/file/rawfile.c:1514
+#, c-format
+msgid "Expected whitespace to skip more fields in row %u, got `%.16s'"
+msgstr "第 %u 行需要用空白跳过更多字段，实际遇到 `%.16s'"
+
+#: modules/file/rawfile.c:1526
+#, c-format
+msgid "Expected `%c' to skip more fields in row %u, got `%.16s'"
+msgstr "需要用 `%c’ 在第 %u 行跳过更多字段，实际遇到 `%.16s'"
+
+#: modules/file/rawfile.c:1538
+#, c-format
+msgid "Expected `%s' to skip more fields in row %u, got `%.16s'"
+msgstr "需要用 `%s’ 在第 %u 行跳过更多字段，实际遇到 `%.16s'"
+
+#: modules/file/rawfile.c:1569 modules/file/rawfile.c:1582
+#: modules/file/rawfile.c:1607
+#, c-format
+msgid "Garbage `%.16s' in row %u, column %u"
+msgstr "多余内容 `%.16s’ 出现在第 %u 行第 %u 列"
+
+#: modules/file/rawfile.c:1595
+#, c-format
+msgid "Expected delimiter `%c' after data in row %u, column %u, got `%c'"
+msgstr "数据之后应为分隔符 `%c’，位置在第 %u 行第 %u 列，实际为 `%c'"
+
+#: modules/file/rawfile.c:1620
+#, c-format
+msgid "Expected delimiter `%s' after data in row %u, column %u, got `%.16s'"
+msgstr "数据之后应为分隔符 `%s’，位置在第 %u 行第 %u 列，实际为 `%.16s'"
+
+#: modules/file/rawfile.c:1664
+#, c-format
+msgid "Not enough lines (%d) for offset (%d)"
+msgstr "行数（%d）不足以满足偏移（%d）"
+
+#: modules/file/rawgraph.c:87
+msgid "Imports simple text files as graph curves."
+msgstr "将简单文本文件作为曲线导入曲线图。"
+
+#: modules/file/rawgraph.c:100
+msgid "ASCII graph curve files"
+msgstr "ASCII 曲线文件"
+
+#: modules/file/rawgraph.c:121
+msgid "_Title"
+msgstr "标题(_T)"
+
+#: modules/file/rawgraph.c:123
+msgid "_X label"
+msgstr "X 标签(_X)"
+
+#: modules/file/rawgraph.c:125
+msgid "_Y label"
+msgstr "Y 标签(_Y)"
+
+#: modules/file/rawgraph.c:127
+msgid "X _units"
+msgstr "X 单位(_U)"
+
+#: modules/file/rawgraph.c:129
+msgid "Y u_nits"
+msgstr "Y 单位(_N)"
+
+#: modules/file/rawgraph.c:191
+msgid "ASCII graph import must be run as interactive."
+msgstr "ASCII 曲线图导入必须以交互方式运行。"
+
+#: modules/file/rawgraph.c:242
+msgid "Import Graph Data"
+msgstr "导入曲线图数据"
+
+#: modules/file/renishaw.c:393
+msgid "Imports Renishaw WiRE data files (WDF)."
+msgstr "导入 Renishaw WiRE 数据文件（WDF）。"
+
+#: modules/file/renishaw.c:406
+msgid "Renishaw WiRE data files (.wdf)"
+msgstr "Renishaw WiRE 数据文件（.wdf）"
+
+#: modules/file/renishaw.c:836
+msgid "Random points order unsupported"
+msgstr "不支持随机点顺序。"
+
+#: modules/file/rhk-sm3.c:231
+msgid "Imports RHK Technology SM3 data files."
+msgstr "导入 RHK Technology SM3 数据文件。"
+
+#: modules/file/rhk-sm3.c:251
+msgid "RHK SM3 files (.sm3)"
+msgstr "RHK SM3 文件（.sm3）"
+
+#: modules/file/rhk-sm3.c:323 modules/file/rhk-sm3.c:336
+msgid "End of file reached in page header."
+msgstr "读取页文件头时到达文件末尾。"
+
+#: modules/file/rhk-sm3.c:327
+msgid "magic page header"
+msgstr "页头魔数"
+
+#: modules/file/rhk-sm3.c:397
+#, c-format
+msgid "End of file reached in string #%u."
+msgstr "读取字符串 #%u 时到达文件末尾。"
+
+#: modules/file/rhk-sm3.c:417
+msgid "End of file reached in color data header."
+msgstr "读取颜色数据头时到达文件末尾。"
+
+#: modules/file/rhk-sm3.c:424
+msgid "End of file reached in color data."
+msgstr "读取颜色数据时到达文件末尾。"
+
+#: modules/file/rhk-sm3.c:666
+#, c-format
+msgid "Unknown line %d"
+msgstr "未知行 %d"
+
+#: modules/file/rhk-sm4.c:438
+msgid "Imports RHK Technology SM4 data files."
+msgstr "导入 RHK Technology SM4 数据文件。"
+
+#: modules/file/rhk-sm4.c:458
+msgid "RHK SM4 files (.sm4)"
+msgstr "RHK SM4 文件（.sm4）"
+
+#: modules/file/rhk-sm4.c:978
+#, c-format
+msgid "Object list in %s is truncated."
+msgstr "%s 中的对象列表被截断。"
+
+#: modules/file/rhk-sm4.c:992
+#, c-format
+msgid "Object of type %s is truncated."
+msgstr "类型为 %s 的对象被截断。"
+
+#: modules/file/rhk-sm4.c:1016
+#, c-format
+msgid "Cannot find object %s in %s."
+msgstr "找不到对象 %s，它应位于 %s 之中。"
+
+#: modules/file/rhk-spm32.c:173
+msgid "Imports RHK Technology SPM32 data files."
+msgstr "导入 RHK Technology SPM32 数据文件。"
+
+#: modules/file/rhk-spm32.c:193
+msgid "RHK SPM32 files (.sm2)"
+msgstr "RHK SPM32 文件（.sm2）"
+
+#: modules/file/rhk-spm32.c:366
+msgid "Only image and line files are supported."
+msgstr "仅支持图像文件和行文件。"
+
+#: modules/file/rhk-spm32.c:380
+msgid "data type"
+msgstr "数据类型"
+
+#: modules/file/rhk-spm32.c:389
+msgid "data ranges"
+msgstr "数据范围"
+
+#: modules/file/rhk-spm32.c:453
+msgid "data offset"
+msgstr "数据偏移"
+
+#: modules/file/rmitmd.c:87
+msgid "Imports RMI TMD 3D measurements."
+msgstr "导入 RMI TMD 三维测量数据。"
+
+#: modules/file/rmitmd.c:100
+msgid "RMI TMD 3D scan files (.tmd)"
+msgstr "RMI TMD 三维扫描文件（.tmd）"
+
+#: modules/file/robotics.c:77
+msgid "Imports Automation & Robotics Dual Lensmapper data files"
+msgstr "导入 Automation & Robotics Dual Lensmapper 数据文件。"
+
+#: modules/file/robotics.c:90
+msgid "Dual Lensmapper files"
+msgstr "Dual Lensmapper 文件"
+
+#: modules/file/s94file.c:101
+msgid "Imports S94 STM data files."
+msgstr "导入 S94 扫描隧道显微镜数据文件。"
+
+#: modules/file/s94file.c:114
+msgid "S94 STM files (.s94)"
+msgstr "S94 STM 文件（.s94）"
+
+#: modules/file/scafile.c:93
+msgid "Imports SCA data files (two-part .sca + .dat)."
+msgstr "导入 SCA 数据文件（.sca 与 .dat 两部分）。"

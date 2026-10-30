@@ -71,7 +71,7 @@ msgstr "颜色(_R)"
 
 #: app/param-def.c:917
 msgid "Target _graph"
-msgstr "目标图表(_G)"
+msgstr "目标曲线图(_G)"
 
 #: app/param-def.c:1104 app/param-def.c:1142
 msgid "C_urve"
@@ -107,7 +107,7 @@ msgstr "展开的组"
 
 #: app/param-table.c:2223
 msgid "New graph"
-msgstr "新建图表"
+msgstr "新建曲线图"
 
 #: app/param-table.c:5960 modules/graph/graph_cd.c:330
 #: modules/graph/graph_fdfit.c:433 modules/graph/graph_fit.c:446
@@ -219,7 +219,7 @@ msgstr "通道 %d 不存在（%s）"
 #: app/validate.c:393
 #, c-format
 msgid "no graph %d exists for %s"
-msgstr "图表 %d 不存在（%s）"
+msgstr "曲线图 %d 不存在（%s）"
 
 #: app/validate.c:401
 #, c-format
@@ -473,4 +473,4 @@ msgid ""
 "If multiple regions are selected on a graph, e.g. in 1D FFT Filtering, "
 "individual regions can be deleted by clicking on them with the right mouse "
 "button."
-msgstr "如果在图表中选择了多个区域（例如在一维 FFT 滤波中），可右键单击各区域将其删除。"
+msgstr "如果在曲线图中选择了多个区域（例如在一维 FFT 滤波中），可右键单击各区域将其删除。"

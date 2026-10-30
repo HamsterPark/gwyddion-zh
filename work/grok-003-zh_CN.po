@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/hdf5/gxsm4.c:80
+msgid "GXSM4 HDF5 files (.nc)"
+msgstr "GXSM4 HDF5 文件（.nc）"
+
+#: modules/file/hdf5/hdf5file.c:80
+msgid "Imports files based on Hierarchical Data Format (HDF), version 5."
+msgstr "导入基于第 5 版层次数据格式（HDF）的文件。"
+
+#: modules/file/hdf5/hdf5file.c:102
+msgid "Generic HDF5 files (.h5)"
+msgstr "通用 HDF5 文件（.h5）"
+
+#: modules/file/hdf5/hdf5file.c:110
+msgid "Matlab 7.x HDF5 MAT files (.mat)"
+msgstr "Matlab 7.x HDF5 MAT 文件（.mat）"
+
+#: modules/file/hdf5/nhffile.c:208
+msgid "Nanosurf NHF HDF5 files (.nhf)"
+msgstr "Nanosurf NHF HDF5 文件（.nhf）"
+
+#: modules/file/hdf5/nhffile.c:1286 modules/file/hdf5/nhffile.c:1382
+msgid "Sample"
+msgstr "采样点序号"
+
+#: modules/file/hdf5/nhffile.c:1296
+msgid "Time series"
+msgstr "时间序列"
+
+#: modules/file/hdf5/nsidfile.c:85
+msgid "N-Dimensional Spectroscopy and Imaging Data (NSID) HDF5 files (.h5)"
+msgstr "N 维谱学与成像数据（NSID）HDF5 文件（.h5）"
+
+#: modules/file/hdf5/shilpsfile.c:132
+msgid "Shilps Sciences Lucent HDF5 files (.h5)"
+msgstr "Shilps Sciences Lucent HDF5 文件（.h5）"
+
+#: modules/file/hdf5/veloxemd.c:186
+msgid "ThermoFisher Velox EMD HDF5 files (.emd)"
+msgstr "ThermoFisher Velox EMD HDF5 文件（.emd）"
+
+#: modules/file/hdrimage.cc:253
+msgid ""
+"Imports 16bit grayscale PPM, PNG and TIFF images, imports and exports "
+"OpenEXR images (if available)."
+msgstr "导入 16 位灰度 PPM、PNG 和 TIFF 图像，并在可用时导入和导出 OpenEXR 图像。"
+
+#: modules/file/hdrimage.cc:267
+msgid "OpenEXR images (.exr)"
+msgstr "OpenEXR 图像（.exr）"
+
+#: modules/file/hdrimage.cc:275
+msgid "PNG images with 16bit depth (.png)"
+msgstr "16 位深度的 PNG 图像（.png）"
+
+#: modules/file/hdrimage.cc:282
+msgid "PGM images with 16bit depth (.pgm)"
+msgstr "16 位深度的 PGM 图像（.pgm）"
+
+#: modules/file/hdrimage.cc:288
+msgid "TIFF and BigTIFF images with high depth (.tiff)"
+msgstr "高位深 TIFF 和 BigTIFF 图像（.tiff）"
+
+#: modules/file/hdrimage.cc:316
+msgid "Import as _volume data"
+msgstr "作为体数据导入(_V)"
+
+#: modules/file/hdrimage.cc:324
+msgid "Half (16bit float)"
+msgstr "半精度（16 位浮点）"
+
+#: modules/file/hdrimage.cc:325
+msgid "Float (32bit)"
+msgstr "浮点（32 位）"
+
+#: modules/file/hdrimage.cc:326
+msgid "Integer (32bit)"
+msgstr "整数（32 位）"
+
+#: modules/file/hdrimage.cc:335
+msgid "_Data format"
+msgstr "数据格式(_D)"
+
+#: modules/file/hdrimage.cc:337
+msgid "_Z-scale"
+msgstr "Z 标度(_Z)"
+
+#: modules/file/hdrimage.cc:413
+#, c-format
+msgid "EXR image writing failed with libImf error: %s"
+msgstr "写入 EXR 图像失败，libImf 错误：%s"
+
+#: modules/file/hdrimage.cc:444
+msgid "Data range"
+msgstr "数据范围"
+
+#: modules/file/hdrimage.cc:445
+msgid "Representable range"
+msgstr "可表示范围"
+
+#: modules/file/hdrimage.cc:446
+msgid "Suggested Z-scale"
+msgstr "建议的 Z 标度"
+
+#: modules/file/hdrimage.cc:456
+msgid "_Use Suggested"
+msgstr "使用建议值(_U)"
+
+#: modules/file/hdrimage.cc:603
+#, c-format
+msgid "EXR image loading failed with libImf error: %s"
+msgstr "加载 EXR 图像失败，libImf 错误：%s"
+
+#: modules/file/hdrimage.cc:739
+#, c-format
+msgid "OpenEXR data type %u is invalid or unsupported."
+msgstr "OpenEXR 数据类型 %u 无效或不受支持。"
+
+#: modules/file/hdrimage.cc:1734 modules/file/hdrimage.cc:1788
+#: modules/file/hdrimage.cc:1880
+msgid "Failed to read image data."
+msgstr "读取图像数据失败。"
+
+#: modules/file/hdrimage.cc:2033
+msgid "Depth"
+msgstr "位深"
+
+#: modules/file/hdrimage.cc:2034
+msgid "Pages"
+msgstr "页数"
+
+#: modules/file/hdrimage.cc:2076
+msgid "Image Stack"
+msgstr "图像堆栈"
+
+#: modules/file/hitachi-afm.c:103
+msgid "Imports Hitachi AFM files."
+msgstr "导入 Hitachi AFM 文件。"
+
+#: modules/file/hitachi-afm.c:117
+msgid "Hitachi AFM files (.afm)"
+msgstr "Hitachi AFM 文件（.afm）"
+
+#: modules/file/hitachi-afm.c:123
+msgid "Hitachi AFM files, old (.afm)"
+msgstr "旧版 Hitachi AFM 文件（.afm）"
+
+#: modules/file/hitachi-afm.c:199
+#, c-format
+msgid "Hitachi-AFM has not registered file type `%s'."
+msgstr "Hitachi-AFM 尚未注册文件类型 `%s’。"
+
+#: modules/file/hitachi-sem.c:80
+msgid "Imports Hitachi S-3700 and S-4800 SEM files."
+msgstr "导入 Hitachi S-3700 和 S-4800 扫描电镜文件。"
+
+#: modules/file/hitachi-sem.c:93
+msgid "Hitachi SEM files (.txt + image)"
+msgstr "Hitachi 扫描电镜文件（.txt + 图像）"
+
+#: modules/file/hitachi-sem.c:166
+#, c-format
+msgid "Cannot load image: %s"
+msgstr "无法加载图像：%s"
+
+#: modules/file/hitachi-sem.c:182
+#, c-format
+msgid "Field DataSize %ux%u does not match image dimensions %ux%u."
+msgstr "字段 DataSize %ux%u 与图像尺寸 %ux%u 不符。"
+
+#: modules/file/igorfile.c:313
+msgid "Imports Igor binary waves (.ibw)."
+msgstr "导入 Igor 二进制 wave（.ibw）。"
+
+#: modules/file/igorfile.c:326
+msgid "Igor binary waves (.ibw)"
+msgstr "Igor 二进制 wave（.ibw）"
+
+#: modules/file/igorfile.c:332
+msgid "Igor packed experiment files (.pxp)"
+msgstr "Igor 打包实验文件（.pxp）"
+
+#: modules/file/igorfile.c:452
+#, c-format
+msgid "Format version is %d.  Only version 5 is supported."
+msgstr "格式版本为 %d。仅支持版本 5。"
+
+#: modules/file/igorfile.c:520
+#, c-format
+msgid "Number of data points %u does not match resolutions %s."
+msgstr "数据点数 %u 与分辨率 %s 不符。"
+
+#: modules/file/igorfile.c:532
+#, c-format
+msgid "Data size %u does not match the number of data points %u×%u."
+msgstr "数据大小 %u 与数据点数 %u×%u 不符。"
+
+#: modules/file/igorfile.c:570
+msgid "Cannot read channel labels."
+msgstr "无法读取通道标签。"
+
+#: modules/file/imgexport.c:506
+msgid "Portable document format (.pdf)"
+msgstr "便携式文档格式（.pdf）"
+
+#: modules/file/imgexport.c:512
+msgid "Encapsulated PostScript (.eps)"
+msgstr "封装 PostScript（.eps）"
+
+#: modules/file/imgexport.c:518
+msgid "Scalable Vector Graphics (.svg)"
+msgstr "可缩放矢量图形（.svg）"
+
+#: modules/file/imgexport.c:548
+msgid "Path"
+msgstr "路径"
+
+#: modules/file/imgexport.c:552 modules/file/imgexport.c:557
+msgid "ruler|_None"
+msgstr "无(_N)"
+
+#: modules/file/imgexport.c:553
+msgid "_Rulers"
+msgstr "标尺(_R)"
+
+#: modules/file/imgexport.c:554
+msgid "_Inset scale bar"
+msgstr "内嵌比例尺(_I)"
+
+#: modules/file/imgexport.c:558
+msgid "_False color ruler"
+msgstr "伪彩色标尺(_F)"
+
+#: modules/file/imgexport.c:561
+msgid "title|None"
+msgstr "无"
+
+#: modules/file/imgexport.c:562
+msgid "At the top"
+msgstr "顶部"
+
+#: modules/file/imgexport.c:563
+msgid "Along the right edge"
+msgstr "沿右边缘"
+
+#: modules/file/imgexport.c:569
+msgid ""
+"Renders data into vector (SVG, PDF, EPS) and pixmap (PNG, JPEG, TIFF, WebP, "
+"PPM, BMP, TARGA) images. Export to some formats relies on GDK and other "
+"libraries thus may be installation-dependent."
+msgstr "将数据渲染为矢量图像（SVG、PDF、EPS）和像素图（PNG、JPEG、TIFF、WebP、PPM、BMP、TARGA）。部分格式的导出依赖 GDK 和其他库，因此可能随安装环境而不同。"
+
+#: modules/file/imgexport.c:673
+msgid "Pixels per _inch"
+msgstr "每英寸像素数(_I)"
+
+#: modules/file/imgexport.c:677 modules/file/imgexport.c:679
+msgid "O_pacity"
+msgstr "不透明度(_P)"
+
+#: modules/file/imgexport.c:713
+msgid "Pi_xel size"
+msgstr "像素大小(_X)"
+
+#: modules/file/imgexport.c:714
+msgid "_Font"
+msgstr "字体(_F)"
+
+#: modules/file/imgexport.c:716
+msgid "_Font size"
+msgstr "字号(_F)"
+
+#: modules/file/imgexport.c:717
+msgid "Line t_hickness"
+msgstr "线宽(_H)"
+
+#: modules/file/imgexport.c:718
+msgid "_Border width"
+msgstr "边框宽度(_B)"
+
+#: modules/file/imgexport.c:719
+msgid "_Tick length"
+msgstr "刻度长度(_T)"
+
+#: modules/file/imgexport.c:720
+msgid "Tie sizes to _data pixels"
+msgstr "将尺寸绑定到数据像素(_D)"
+
+#: modules/file/imgexport.c:722
+msgid "_Line and text color"
+msgstr "线条与文字颜色(_L)"
+
+#: modules/file/imgexport.c:723
+msgid "_Background color"
+msgstr "背景颜色(_B)"
+
+#: modules/file/imgexport.c:724
+msgid "_Transparent background"
+msgstr "透明背景(_T)"
+
+#: modules/file/imgexport.c:733 modules/file/imgexport.c:756
+msgid "Hori_zontal gap"
+msgstr "水平间距(_Z)"
+
+#: modules/file/imgexport.c:734 modules/file/imgexport.c:753
+msgid "_Vertical gap"
+msgstr "垂直间距(_V)"
+
+#: modules/file/imgexport.c:736 modules/file/imgexport.c:770
+msgid "Out_line color"
+msgstr "轮廓颜色(_L)"
+
+#: modules/file/imgexport.c:738 modules/file/imgexport.c:772
+msgid "O_utline thickness"
+msgstr "轮廓粗细(_U)"
+
+#: modules/file/imgexport.c:740
+msgid "Draw _ticks"
+msgstr "绘制刻度(_T)"
+
+#: modules/file/imgexport.c:741
+msgid "Draw _label"
+msgstr "绘制标签(_L)"
+
+#: modules/file/imgexport.c:743
+msgid "Draw text _above scale bar"
+msgstr "在比例尺上方绘制文字(_A)"
+
+#: modules/file/imgexport.c:748
+msgid "Draw _frame"
+msgstr "绘制边框(_F)"
+
+#: modules/file/imgexport.c:749
+msgid "Draw _mask"
+msgstr "绘制掩膜(_M)"
+
+#: modules/file/imgexport.c:750
+msgid "Draw mask _legend"
+msgstr "绘制掩膜图例(_L)"
+
+#: modules/file/imgexport.c:751
+msgid "_Label"
+msgstr "标签(_L)"
+
+#: modules/file/imgexport.c:758
+msgid "Fi_xed precision"
+msgstr "固定精度(_X)"
+
+#: modules/file/imgexport.c:760
+msgid "Fixed _kilo threshold"
+msgstr "固定千倍阈值(_K)"
+
+#: modules/file/imgexport.c:762
+msgid "Posi_tion"
+msgstr "位置(_T)"
+
+#: modules/file/imgexport.c:764
+msgid "_Gap"
+msgstr "间距(_G)"
+
+#: modules/file/imgexport.c:765
+msgid "Put _units to title"
+msgstr "将单位放入标题(_U)"
+
+#: modules/file/imgexport.c:768
+msgid "Draw _selection"
+msgstr "绘制选区(_S)"
+
+#: modules/file/imgexport.c:774
+msgid "Draw _numbers"
+msgstr "绘制数字(_N)"
+
+#: modules/file/imgexport.c:775
+msgid "Marker _radius"
+msgstr "标记半径(_R)"
+
+#: modules/file/imgexport.c:777
+msgid "_End marker length"
+msgstr "端点标记长度(_E)"
+
+#: modules/file/imgexport.c:2866
+msgid "Black"
+msgstr "黑色"
+
+#: modules/file/imgexport.c:2867
+msgid "White"
+msgstr "白色"
+
+#: modules/file/imgexport.c:2926
+msgid "_Font:"
+msgstr "字体(_F)："
+
+#: modules/file/imgexport.c:2977
+msgid "Colors"
+msgstr "颜色"
+
+#: modules/file/imgexport.c:3024
+msgid "left"
+msgstr "左"
+
+#: modules/file/imgexport.c:3027
+msgid "center"
+msgstr "中"
+
+#: modules/file/imgexport.c:3030
+msgid "right"
+msgstr "右"
+
+#: modules/file/imgexport.c:3033
+msgid "top"
+msgstr "上"
+
+#: modules/file/imgexport.c:3041
+msgid "bottom"
+msgstr "下"

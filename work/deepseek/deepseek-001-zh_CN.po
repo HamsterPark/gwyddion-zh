@@ -327,7 +327,7 @@ msgstr "输出拟合误差"
 
 #: modules/cmap/cmap_fit.c:219
 msgid "Output residual sum"
-msgstr "输出残差平方和"
+msgstr "输出残差均方"
 
 #: modules/cmap/cmap_fit.c:357
 msgid "Fit Curves"
@@ -335,7 +335,7 @@ msgstr "拟合曲线"
 
 #: modules/cmap/cmap_fit.c:431
 msgid "Residual sum:"
-msgstr "残差平方和："
+msgstr "残差均方："
 
 #: modules/cmap/cmap_fit.c:527 modules/cmap/cmap_fit.c:561 modules/cmap/cmap_fit.c:602
 msgid "data not fitted"

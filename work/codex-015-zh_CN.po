@@ -348,7 +348,7 @@ msgstr "导出原始数据(_E)"
 
 #: modules/process/grain_dist.c:137
 msgid "Plot _graphs"
-msgstr "绘制图表(_G)"
+msgstr "绘制曲线图(_G)"
 
 #: modules/process/grain_dist.c:203
 msgid "Grain Distributions"

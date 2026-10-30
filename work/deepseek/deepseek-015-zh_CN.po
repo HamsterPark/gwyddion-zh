@@ -1,0 +1,419 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/smm_apply.c:98
+msgid "Re(Ztip)"
+msgstr "Re(Ztip)"
+
+#: modules/process/smm_apply.c:99
+msgid "Im(Ztip)"
+msgstr "Im(Ztip)"
+
+#: modules/process/smm_apply.c:105
+msgid "Applies SMM calibration"
+msgstr "应用 SMM 校准"
+
+#: modules/process/smm_apply.c:119
+msgid "/_SPM Modes/_Electrical/_Apply SMM Calibration..."
+msgstr "/SPM 模式(_S)/电学(_E)/应用 SMM 校准(_A)..."
+
+#: modules/process/smm_apply.c:123
+msgid "Apply SMM calibration coefficients"
+msgstr "应用 SMM 校准系数"
+
+#: modules/process/smm_apply.c:234
+msgid "Apply SMM Calibration"
+msgstr "应用 SMM 校准"
+
+#: modules/process/stitch.c:134
+msgid "Stitch multiple images based on offsets of origins."
+msgstr "根据原点偏移拼接多幅图像。"
+
+#: modules/process/stitch.c:148
+msgid "/M_ultidata/_Stitch..."
+msgstr "/多数据(_U)/拼接(_S)..."
+
+#: modules/process/stitch.c:152
+msgid "Stitch images using offsets"
+msgstr "使用偏移拼接图像"
+
+#: modules/process/stitch.c:268
+msgid "Stitch"
+msgstr "拼接"
+
+#: modules/process/stitch.c:370
+msgid "Stitch data"
+msgstr "拼接数据"
+
+#: modules/process/stitch.c:432
+msgid "Restore"
+msgstr "恢复"
+
+#: modules/process/stitch.c:442
+msgid "_Instant updates"
+msgstr "即时更新(_I)"
+
+#: modules/process/straighten_path.c:106
+msgid "Extracts a straightened part of image along a curve."
+msgstr "沿曲线提取图像的拉直部分。"
+
+#: modules/process/straighten_path.c:120
+msgid "/_Distortion/Straighten _Path..."
+msgstr "/畸变(_D)/拉直路径(_P)..."
+
+#: modules/process/straighten_path.c:124
+msgid "Straighten along a path"
+msgstr "沿路径拉直"
+
+#: modules/process/straighten_path.c:139
+msgid "C_losed curve"
+msgstr "闭合曲线(_L)"
+
+#: modules/process/straighten_path.c:142
+msgid "Out_put orientation"
+msgstr "输出方向(_P)"
+
+#: modules/process/straighten_path.c:144
+msgid "_Slackness"
+msgstr "松弛度(_S)"
+
+#: modules/process/straighten_path.c:211
+msgid "Straightened"
+msgstr "已拉直"
+
+#: modules/process/straighten_path.c:266
+msgid "Straighten Path"
+msgstr "拉直路径"
+
+#: modules/process/straighten_path.c:286
+msgid "Res_tore"
+msgstr "恢复(_T)"
+
+#: modules/process/straighten_path.c:290
+msgid "Re_verse"
+msgstr "反向(_V)"
+
+#: modules/process/superresolution.c:83
+msgid "Simple supres operations with two data fields (or a data field and a scalar)."
+msgstr "对两个数据场（或一个数据场和一个标量）进行简单超分辨率运算。"
+
+#: modules/process/superresolution.c:98
+msgid "/M_ultidata/_Super-resolution..."
+msgstr "/多数据(_U)/超分辨率(_S)..."
+
+#: modules/process/superresolution.c:102
+msgid "Super resolution of multiple images of same object"
+msgstr "对同一对象的多幅图像进行超分辨率处理"
+
+#: modules/process/superresolution.c:141
+msgid "Supres"
+msgstr "超分辨率"
+
+#: modules/process/superresolution.c:420
+msgid "Correlating to determine mean shift..."
+msgstr "正在通过相关确定平均偏移……"
+
+#: modules/process/superresolution.c:510
+msgid "Cross-correlation..."
+msgstr "互相关……"
+
+#: modules/process/synth.h:195
+msgid "R_andom seed:"
+msgstr "随机种子(_A)："
+
+#: modules/process/synth.h:213
+msgid "Randomi_ze"
+msgstr "随机化(_Z)"
+
+#: modules/process/threshold.c:96
+msgid "Limit the data range using a lower/upper threshold."
+msgstr "使用下限/上限阈值限制数据范围。"
+
+#: modules/process/threshold.c:110
+msgid "/_Basic Operations/Li_mit Range..."
+msgstr "/基本操作(_B)/限制范围(_M)..."
+
+#: modules/process/threshold.c:114
+msgid "Limit data range"
+msgstr "限制数据范围"
+
+#: modules/process/threshold.c:123
+msgid "Specify _thresholds"
+msgstr "指定阈值(_T)"
+
+#: modules/process/threshold.c:124
+msgid "Use _display range"
+msgstr "使用显示范围(_D)"
+
+#: modules/process/threshold.c:125
+msgid "Cut off outlier_s"
+msgstr "截除异常值(_S)"
+
+#: modules/process/threshold.c:126
+msgid "Limit to _percentiles"
+msgstr "限制到百分位数(_P)"
+
+#: modules/process/threshold.c:137 modules/process/threshold.c:140
+msgid "_Lower"
+msgstr "下限(_L)"
+
+#: modules/process/threshold.c:138 modules/process/threshold.c:141
+msgid "_Upper"
+msgstr "上限(_U)"
+
+#: modules/process/threshold.c:139
+msgid "F_arther than"
+msgstr "偏离超过(_A)"
+
+#: modules/process/threshold.c:220
+msgid "Limit Range"
+msgstr "限制范围"
+
+#. TRANSLATORS: This is a range: 123 to 456.
+#: modules/process/threshold.c:249
+#, c-format
+msgid "%.*f to %.*f"
+msgstr "%.*f 至 %.*f"
+
+#: modules/process/tilt.c:69
+msgid "Tilts image by specified amount."
+msgstr "按指定量倾斜图像。"
+
+#: modules/process/tilt.c:83
+msgid "/_Basic Operations/_Tilt..."
+msgstr "/基本操作(_B)/倾斜(_T)..."
+
+#: modules/process/tilt.c:87
+msgid "Tilt by specified amount"
+msgstr "按指定量倾斜"
+
+#: modules/process/tilt.c:190
+msgid "Angles"
+msgstr "角度"
+
+#: modules/process/volumize.c:42
+msgid "Converts datafield to 3D volume data."
+msgstr "将数据场转换为三维体数据。"
+
+#: modules/process/volumize.c:56
+msgid "/_Basic Operations/Volumize"
+msgstr "/基本操作(_B)/转换为体数据"
+
+#: modules/process/volumize.c:60
+msgid "Convert datafield to 3D data"
+msgstr "将数据场转换为三维数据"
+
+#: modules/process/volumize_layers.c:78
+msgid "Converts all datafields to 3D volume data."
+msgstr "将所有数据场转换为三维体数据。"
+
+#: modules/process/volumize_layers.c:92
+msgid "/_Basic Operations/Volumize Layers..."
+msgstr "/基本操作(_B)/将图层转换为体数据..."
+
+#: modules/process/volumize_layers.c:96
+msgid "Convert all datafields to 3D data"
+msgstr "将所有数据场转换为三维数据"
+
+#: modules/process/volumize_layers.c:116
+msgid "_Extract offsets"
+msgstr "提取偏移(_E)"
+
+#: modules/process/volumize_layers.c:159
+msgid "All datafields must have same resolution to make a volume from them."
+msgstr "所有数据场必须具有相同分辨率才能构成体数据。"
+
+#: modules/process/volumize_layers.c:251
+msgid "Volumize layers"
+msgstr "将图层转换为体数据"
+
+#: modules/process/wave_synth.c:152
+msgid "Generates various kinds of waves."
+msgstr "生成各种波。"
+
+#: modules/process/wave_synth.c:166
+msgid "/S_ynthetic/_Waves..."
+msgstr "/合成(_Y)/波(_W)..."
+
+#: modules/process/wave_synth.c:170
+msgid "Generate waves"
+msgstr "生成波"
+
+#: modules/process/wave_synth.c:179
+msgid "Cosine"
+msgstr "余弦"
+
+#: modules/process/wave_synth.c:180
+msgid "Inverse cosh"
+msgstr "双曲余弦倒数（sech）"
+
+#: modules/process/wave_synth.c:181
+msgid "Flat top"
+msgstr "平顶"
+
+#: modules/process/wave_synth.c:184
+msgid "Displacement 1"
+msgstr "位移 1"
+
+#: modules/process/wave_synth.c:185
+msgid "Displacement 2"
+msgstr "位移 2"
+
+#: modules/process/wave_synth.c:198
+msgid "_Number of waves"
+msgstr "波的数量(_N)"
+
+#: modules/process/wave_synth.c:199
+msgid "_Wave form"
+msgstr "波形(_W)"
+
+#: modules/process/wave_synth.c:203
+msgid "_Decay"
+msgstr "衰减(_D)"
+
+#: modules/process/wave_synth.c:205
+msgid "_Spatial frequency"
+msgstr "空间频率(_S)"
+
+#: modules/process/wave_synth.c:279
+msgid "Waves"
+msgstr "波"
+
+#: modules/process/wfr_synth.c:98
+msgid "Generates images by simulating a propagating wetting front."
+msgstr "通过模拟传播中的润湿前沿生成图像。"
+
+#: modules/process/wfr_synth.c:112
+msgid "/S_ynthetic/_Wetting..."
+msgstr "/合成(_Y)/润湿(_W)..."
+
+#: modules/process/wfr_synth.c:116
+msgid "Generate image by propagating wetting front"
+msgstr "通过传播润湿前沿生成图像"
+
+#: modules/process/wfr_synth.c:132
+msgid "_Diffusion"
+msgstr "扩散(_D)"
+
+#: modules/process/wfr_synth.c:203
+msgid "Wetting Front"
+msgstr "润湿前沿"
+
+#: modules/process/wpour_mark.c:117
+msgid "Segments image using watershed with pre- and postprocessing."
+msgstr "使用带预处理和后处理的分水岭分割图像。"
+
+#: modules/process/wpour_mark.c:131
+msgid "/_Grains/_Mark by Segmentation..."
+msgstr "/颗粒(_G)/按分割标记(_M)..."
+
+#: modules/process/wpour_mark.c:135
+msgid "Segment using watershed "
+msgstr "使用分水岭分割 "
+
+#: modules/process/wpour_mark.c:144
+msgid "Original image"
+msgstr "原始图像"
+
+#: modules/process/wpour_mark.c:145
+msgid "Preprocessed image"
+msgstr "预处理后图像"
+
+#: modules/process/wpour_mark.c:148
+msgid "No mask"
+msgstr "无掩膜"
+
+#: modules/process/wpour_mark.c:160
+msgid "_Image preview"
+msgstr "图像预览(_I)"
+
+#: modules/process/wpour_mark.c:162
+msgid "_Mask preview"
+msgstr "掩膜预览(_M)"
+
+#: modules/process/wpour_mark.c:165
+msgid "_Barrier level"
+msgstr "势垒水平(_B)"
+
+#: modules/process/wpour_mark.c:166
+msgid "Prefill _level"
+msgstr "预填充水平(_L)"
+
+#: modules/process/wpour_mark.c:167
+msgid "Pre_fill from minima"
+msgstr "从极小值预填充(_F)"
+
+#: modules/process/wpour_mark.c:168
+msgid "Add _gradient"
+msgstr "添加梯度(_G)"
+
+#: modules/process/wpour_mark.c:169
+msgid "Add _curvature"
+msgstr "添加曲率(_C)"
+
+#: modules/process/wpour_mark.c:238
+msgid "Segment by Watershed"
+msgstr "按分水岭分割"
+
+#: modules/process/wpour_mark.c:247
+msgid "Preprocessing"
+msgstr "预处理"
+
+#: modules/process/wrapvalue.c:91
+msgid "Wraps periodic values to a different range."
+msgstr "将周期数值环绕到另一范围。"
+
+#: modules/process/wrapvalue.c:105
+msgid "/_Basic Operations/_Wrap Value..."
+msgstr "/基本操作(_B)/数值环绕(_W)..."
+
+#: modules/process/wrapvalue.c:109
+msgid "Rewrap periodic values"
+msgstr "重新环绕周期数值"
+
+#: modules/process/wrapvalue.c:118
+msgid "360 deg"
+msgstr "360 度"
+
+#: modules/process/wrapvalue.c:119
+msgid "180 deg"
+msgstr "180 度"
+
+#: modules/process/wrapvalue.c:120 modules/process/wrapvalue.c:127 modules/process/wrapvalue.c:131
+msgid "_Keep unchanged"
+msgstr "保持不变(_K)"
+
+#: modules/process/wrapvalue.c:121 modules/process/wrapvalue.c:128 modules/process/wrapvalue.c:132 modules/process/wrapvalue.c:142
+msgid "Specify _range"
+msgstr "指定范围(_R)"
+
+#: modules/process/wrapvalue.c:124
+msgid "2π"
+msgstr "2π"
+
+#: modules/process/wrapvalue.c:125
+msgid "π"
+msgstr "π"
+
+#: modules/process/wrapvalue.c:126
+msgid "1"
+msgstr "1"
+
+#: modules/process/wrapvalue.c:141
+msgid "O_ffset"
+msgstr "偏移(_F)"

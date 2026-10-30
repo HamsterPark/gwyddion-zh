@@ -190,7 +190,7 @@ msgstr "X/Y 比值阈值"
 
 #: modules/process/dwtanisotropy.c:102
 msgid "Low level exclude limit"
-msgstr "低水平排除限值"
+msgstr "低层级排除限值"
 
 #: modules/process/dwtanisotropy.c:122
 msgid "DWT Anisotropy"

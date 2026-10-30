@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/scafile.c:106
+msgid "SCA files (.sca + .dat)"
+msgstr "SCA 文件（.sca + .dat）"
+
+#: modules/file/scanfile.c:78
+msgid "Reads Cyber technologies SCAN files."
+msgstr "读取 Cyber technologies SCAN 文件。"
+
+#: modules/file/scanfile.c:91
+msgid "Cyber technologies SCAN data (.scan)"
+msgstr "Cyber technologies SCAN 数据（.scan）"
+
+#: modules/file/scnxfile.c:104
+msgid "Reads Cyber technologies SCNX files."
+msgstr "读取 Cyber technologies SCNX 文件。"
+
+#: modules/file/scnxfile.c:117
+msgid "Cyber technologies SCNX data (.scnx)"
+msgstr "Cyber technologies SCNX 数据（.scnx）"
+
+#: modules/file/sdfile.c:154
+msgid "Imports Surfstand group SDF (Surface Data File) files."
+msgstr "导入 Surfstand 项目的 SDF（表面数据文件）。"
+
+#: modules/file/sdfile.c:169
+msgid "Surfstand SDF files, binary (.sdf)"
+msgstr "Surfstand SDF 文件，二进制（.sdf）"
+
+#: modules/file/sdfile.c:175
+msgid "Surfstand SDF files, text (.sdf)"
+msgstr "Surfstand SDF 文件，文本（.sdf）"
+
+#: modules/file/sdfile.c:181
+msgid "Micromap SDF files (.sdfa)"
+msgstr "Micromap SDF 文件（.sdfa）"
+
+#: modules/file/sdfile.c:619
+#, c-format
+msgid "Invalid `%s' value: %d."
+msgstr "`%s’ 的值无效：%d。"
+
+#: modules/file/sdfile.c:628
+#, c-format
+msgid "Invalid `%s' value: %g."
+msgstr "`%s’ 的值无效：%g。"
+
+#: modules/file/sdfile.c:685
+msgid "Missing data start marker (*)."
+msgstr "缺少数据起始标记 (*)。"
+
+#: modules/file/sdfile.c:709
+#, c-format
+msgid "End of file reached when looking for `%s' field."
+msgstr "查找字段 `%s’ 时到达文件末尾。"
+
+#: modules/file/sdfile.c:717
+#, c-format
+msgid "Invalid line found when looking for `%s' field."
+msgstr "查找字段 `%s’ 时遇到无效行。"
+
+#: modules/file/seiko.c:114
+msgid "Imports Seiko XQB, XQD, XQT and XQP files."
+msgstr "导入 Seiko XQB、XQD、XQT 和 XQP 文件。"
+
+#: modules/file/seiko.c:127
+msgid "Seiko files (.xqb, .xqd, .xqt, .xqp)"
+msgstr "Seiko 文件（.xqb、.xqd、.xqt、.xqp）"
+
+#: modules/file/sensofar.c:551
+msgid "Imports Sensofar PLu file format, version 2000 or newer."
+msgstr "导入 2000 版或更新版本的 Sensofar PLu 文件格式。"
+
+#: modules/file/sensofar.c:564
+msgid "Sensofar PLu files (.plu, .apx)"
+msgstr "Sensofar PLu 文件（.plu、.apx）"
+
+#: modules/file/sensofarx.c:86
+msgid "Reads Sensofar PLUx files."
+msgstr "读取 Sensofar PLUx 文件。"
+
+#: modules/file/sensofarx.c:99
+msgid "Sensofar PLUx files (.plux)"
+msgstr "Sensofar PLUx 文件（.plux）"
+
+#: modules/file/sensolytics.c:164
+msgid "Imports Sensolytics text files."
+msgstr "导入 Sensolytics 文本文件。"
+
+#: modules/file/sensolytics.c:177
+msgid "Sensolytics text files (.dat)"
+msgstr "Sensolytics 文本文件（.dat）"
+
+#: modules/file/sensolytics.c:1051 modules/file/sensolytics.c:1059
+msgid "Wrong number of initial data columns."
+msgstr "起始数据列数不正确。"
+
+#: modules/file/shimadzu.c:122
+msgid "Imports Shimadzu SPM data files."
+msgstr "导入岛津（Shimadzu）扫描探针显微数据文件。"
+
+#: modules/file/shimadzu.c:135
+msgid "Shimadzu files"
+msgstr "岛津（Shimadzu）文件"
+
+#: modules/file/sicmfile.c:205
+msgid "Imports IonScope SICM data files."
+msgstr "导入 IonScope 扫描离子电导显微数据文件。"
+
+#: modules/file/sicmfile.c:220
+msgid "IonScope SICM files (.img)"
+msgstr "IonScope 扫描离子电导显微文件（.img）"
+
+#: modules/file/sis.c:279
+msgid "Imports SIS (Surface Imaging Systems) data files."
+msgstr "导入 SIS（Surface Imaging Systems）数据文件。"
+
+#: modules/file/sis.c:292
+msgid "SIS files (.sis)"
+msgstr "SIS 文件（.sis）"
+
+#: modules/file/sis.c:579
+msgid "Block not a document block."
+msgstr "该块不是文档块。"
+
+#: modules/file/sis.c:587
+msgid "Too short document info."
+msgstr "文档信息过短。"
+
+#: modules/file/sis.c:607
+msgid "Too short parameter info."
+msgstr "参数信息过短。"
+
+#: modules/file/sis.c:699
+msgid "Unexpected image block."
+msgstr "出现意外的图像块。"
+
+#: modules/file/sis.c:730 modules/file/sis.c:758
+msgid "End of file reached in image block."
+msgstr "读取图像块时到达文件末尾。"
+
+#: modules/file/sis.c:771
+msgid "End of file reached in channel block."
+msgstr "读取通道块时到达文件末尾。"
+
+#: modules/file/sis.c:795
+msgid "End of file reached when another channel was expected."
+msgstr "预期还有下一个通道时已到达文件末尾。"
+
+#: modules/file/spcfile.c:274
+msgid "Imports Thermo Fisher SPC files."
+msgstr "导入 Thermo Fisher SPC 文件。"
+
+#: modules/file/spcfile.c:287
+msgid "Thermo Fisher SPC files"
+msgstr "Thermo Fisher SPC 文件"
+
+#: modules/file/spip-asc.c:95
+msgid "Imports and exports SPIP ASC files."
+msgstr "导入并导出 SPIP ASC 文件。"
+
+#: modules/file/spip-asc.c:108
+msgid "SPIP ASCII files (.asc)"
+msgstr "SPIP ASCII 文件（.asc）"
+
+#: modules/file/spml.c:117
+msgid "Loads SPML (Scanning Probe Microscopy Markup Language) data files."
+msgstr "加载扫描探针显微标记语言（SPML）数据文件。"
+
+#: modules/file/spml.c:131
+msgid "SPML files (.xml)"
+msgstr "SPML 文件（.xml）"
+
+#: modules/file/spmlab.c:172
+msgid "Imports Thermicroscopes SpmLab R3 to R7 data files."
+msgstr "导入 Thermicroscopes SpmLab R3 至 R7 数据文件。"
+
+#: modules/file/spmlab.c:185
+msgid "Thermicroscopes SpmLab files"
+msgstr "Thermicroscopes SpmLab 文件"
+
+#: modules/file/spmlab.c:251
+#, c-format
+msgid "Unknown format version %c."
+msgstr "未知的格式版本 %c。"
+
+#: modules/file/spmlabf.c:76
+msgid "Imports SPMLab floating-point files."
+msgstr "导入 SPMLab 浮点文件。"
+
+#: modules/file/spmlabf.c:89
+msgid "SPMLab floating-point files (.flt)"
+msgstr "SPMLab 浮点文件（.flt）"
+
+#: modules/file/spmlabf.c:148
+msgid "Missing data start marker [Data]."
+msgstr "缺少数据起始标记 [Data]。"
+
+#: modules/file/spmxfile.c:93
+msgid "Reads ATC SPMxFormat files."
+msgstr "读取 ATC SPMxFormat 文件。"
+
+#: modules/file/spmxfile.c:106
+msgid "ATC SPMxFormat data (.spm)"
+msgstr "ATC SPMxFormat 数据（.spm）"
+
+#: modules/file/stmprg.c:228
+msgid "Imports Omicron STMPRG data files (tp ta)."
+msgstr "导入 Omicron STMPRG 数据文件（tp ta）。"
+
+#: modules/file/stmprg.c:241
+msgid "Omicron STMPRG files (tp ta)"
+msgstr "Omicron STMPRG 文件（tp ta）"
+
+#: modules/file/stmprg.c:280
+msgid "Parameter file is too short."
+msgstr "参数文件过短。"
+
+#: modules/file/stmprg.c:532
+msgid "First channel is switched off."
+msgstr "第一个通道已关闭。"
+
+#: modules/file/stpfile.c:114
+msgid "Current or Deflection or Amplitude"
+msgstr "电流、偏转或振幅"
+
+#: modules/file/stpfile.c:115
+msgid "Electrochemical Voltage (Vec)"
+msgstr "电化学电压（Vec）"
+
+#: modules/file/stpfile.c:116
+msgid "Topography and SPS"
+msgstr "表面形貌与 SPS"
+
+#: modules/file/stpfile.c:117
+msgid "Topography and SPS (scripted)"
+msgstr "表面形貌与 SPS（脚本）"
+
+#: modules/file/stpfile.c:118
+msgid "Electrochemical Current (Iec)"
+msgstr "电化学电流（Iec）"
+
+#: modules/file/stpfile.c:119
+msgid "Friction or Phase"
+msgstr "摩擦或相位"
+
+#: modules/file/stpfile.c:120
+msgid "AUX in BNC"
+msgstr "AUX 输入 BNC"
+
+#: modules/file/stpfile.c:121
+msgid "AUX in 3 (Sum)"
+msgstr "AUX 输入 3（求和）"
+
+#: modules/file/stpfile.c:122
+msgid "AUX in 4 (Raw Deflection)"
+msgstr "AUX 输入 4（原始偏转）"
+
+#: modules/file/stpfile.c:123
+msgid "AUX in 5 (PicoPlus Aux BNC)"
+msgstr "AUX 输入 5（PicoPlus Aux BNC）"
+
+#: modules/file/stpfile.c:124
+msgid "AUX in 6 (Surface Potential)"
+msgstr "AUX 输入 6（表面电势）"
+
+#: modules/file/stpfile.c:125
+msgid "AUX in 7"
+msgstr "AUX 输入 7"
+
+#: modules/file/stpfile.c:126
+msgid "AUX in 8"
+msgstr "AUX 输入 8"
+
+#: modules/file/stpfile.c:127
+msgid "AUX in 9"
+msgstr "AUX 输入 9"
+
+#: modules/file/stpfile.c:128
+msgid "AUX in 10"
+msgstr "AUX 输入 10"
+
+#: modules/file/stpfile.c:129
+msgid "Topography and Flexgrid"
+msgstr "表面形貌与 Flexgrid"
+
+#: modules/file/stpfile.c:130
+msgid "External"
+msgstr "外部"
+
+#: modules/file/stpfile.c:136
+msgid "Imports Molecular Imaging STP data files."
+msgstr "导入 Molecular Imaging STP 数据文件。"
+
+#: modules/file/stpfile.c:149
+msgid "STP files (.stp)"
+msgstr "STP 文件（.stp）"
+
+#: modules/file/surffile.c:332
+msgid "Imports Surf data files."
+msgstr "导入 Surf 数据文件。"
+
+#: modules/file/surffile.c:345
+msgid "Surf files (.sur)"
+msgstr "Surf 文件（.sur）"
+
+#: modules/file/talos.c:70
+msgid "Imports ThermoFisher Talos TEM images."
+msgstr "导入 ThermoFisher Talos 透射电镜图像。"
+
+#: modules/file/talos.c:83
+msgid "ThermoFisher Talos TEM image (.tif)"
+msgstr "ThermoFisher Talos 透射电镜图像（.tif）"
+
+#: modules/file/tescan.c:114
+msgid "Imports Tescan SEM images."
+msgstr "导入 Tescan 扫描电镜图像。"
+
+#: modules/file/tescan.c:127
+msgid "Tescan TIF SEM image (.tif)"
+msgstr "Tescan TIF 扫描电镜图像（.tif）"
+
+#: modules/file/tescan.c:133
+msgid "Tescan two-part SEM image (.hdr + .png)"
+msgstr "Tescan 两部分扫描电镜图像（.hdr + .png）"
+
+#: modules/file/tiaser.c:175
+msgid "Imports FEI Tecnai imaging and analysis (former Emispec) files."
+msgstr "导入 FEI Tecnai 成像与分析（原 Emispec）文件。"
+
+#: modules/file/tiaser.c:188
+msgid "FEI TIA (Emispec) data"
+msgstr "FEI TIA（Emispec）数据"
+
+#: modules/file/ttffile.c:180
+msgid "Imports Corning Tropel UltraSort files."
+msgstr "导入 Corning Tropel UltraSort 文件。"
+
+#: modules/file/ttffile.c:193
+msgid "Corning Tropel UltraSort data (.ttf)"
+msgstr "Corning Tropel UltraSort 数据（.ttf）"
+
+#: modules/file/ttffile.c:199
+msgid "Corning Tropel UltraSort CSV export (.csv)"
+msgstr "Corning Tropel UltraSort CSV 导出（.csv）"
+
+#: modules/file/unisoku.c:142
+msgid "Imports Unisoku data files (two-part .hdr + .dat)."
+msgstr "导入 Unisoku 数据文件（.hdr 与 .dat 两部分）。"
+
+#: modules/file/unisoku.c:157
+msgid "Unisoku files (.hdr + .dat)"
+msgstr "Unisoku 文件（.hdr + .dat）"
+
+#: modules/file/unisoku.c:309
+msgid "format flags"
+msgstr "格式标志"
+
+#: modules/file/unisoku.c:340
+msgid "x scale parameters"
+msgstr "x 标度参数"
+
+#: modules/file/unisoku.c:350
+msgid "y scale parameters"
+msgstr "y 标度参数"
+
+#: modules/file/unisoku.c:360
+msgid "z scale parameters"
+msgstr "z 标度参数"
+
+#: modules/file/unisoku.c:367
+msgid "data type parameters"
+msgstr "数据类型参数"
+
+#: modules/file/win_stm.c:86
+msgid "Imports WinSTM (.stm) files."
+msgstr "导入 WinSTM（.stm）文件。"
+
+#: modules/file/win_stm.c:99
+msgid "WinSTM files (.stm)"
+msgstr "WinSTM 文件（.stm）"
+
+#: modules/file/wipfile.c:282
+msgid "Imports WItec Project data files."
+msgstr "导入 WItec Project 数据文件。"
+
+#: modules/file/wipfile.c:295
+msgid "WItec Project files (.wip)"
+msgstr "WItec Project 文件（.wip）"
+
+#: modules/file/wipfile.c:442
+msgid "Cannot read tag."
+msgstr "无法读取标签。"
+
+#: modules/file/witec-asc.c:70
+msgid "Imports WITec ASCII export files."
+msgstr "导入 WITec ASCII 导出文件。"
+
+#: modules/file/witec-asc.c:83
+msgid "WITec ASCII files (.dat)"
+msgstr "WITec ASCII 文件（.dat）"
+
+#: modules/file/witfile.c:205
+msgid "Imports WITec WIT data files."
+msgstr "导入 WITec WIT 数据文件。"

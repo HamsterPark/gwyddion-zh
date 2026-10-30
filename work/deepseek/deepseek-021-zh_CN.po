@@ -1,0 +1,417 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/xyz/xyz_drift.c:267
+msgid "Analyzes drift in XYZ data."
+msgstr "分析 XYZ 数据中的漂移。"
+
+#: modules/xyz/xyz_drift.c:281
+msgid "/Analyze _Drift..."
+msgstr "/分析漂移(_D)..."
+
+#: modules/xyz/xyz_drift.c:285
+msgid "Analyze and/or remove drift"
+msgstr "分析和/或去除漂移"
+
+#: modules/xyz/xyz_drift.c:389 modules/xyz/xyz_drift.c:840
+msgid "X drift"
+msgstr "X 漂移"
+
+#: modules/xyz/xyz_drift.c:408 modules/xyz/xyz_drift.c:841
+msgid "Y drift"
+msgstr "Y 漂移"
+
+#: modules/xyz/xyz_drift.c:438
+msgid "z-axis drift"
+msgstr "z 轴漂移"
+
+#: modules/xyz/xyz_drift.c:539
+msgid "Analyze XYZ Drift"
+msgstr "分析 XYZ 漂移"
+
+#: modules/xyz/xyz_drift.c:564
+msgid "Reset Ran_ges"
+msgstr "重置范围(_G)"
+
+#: modules/xyz/xyz_drift.c:612
+msgid "_Guess parameters"
+msgstr "估计参数(_G)"
+
+#: modules/xyz/xyz_drift.c:775
+msgid "_X-range:"
+msgstr "X 范围(_X)："
+
+#: modules/xyz/xyz_drift.c:797
+msgid "_Y-range:"
+msgstr "Y 范围(_Y)："
+
+#: modules/xyz/xyz_drift.c:831 modules/xyz/xyz_drift.c:836
+msgid "2nd order polynomial"
+msgstr "二阶多项式"
+
+#: modules/xyz/xyz_drift.c:853
+msgid "Initial values"
+msgstr "初始值"
+
+#: modules/xyz/xyz_drift.c:861
+msgid "_X drift:"
+msgstr "X 漂移(_X)："
+
+#: modules/xyz/xyz_drift.c:889 modules/xyz/xyz_drift.c:932 modules/xyz/xyz_drift.c:977
+msgid "_fit"
+msgstr "拟合(_F)"
+
+#: modules/xyz/xyz_drift.c:901
+msgid "_Y drift:"
+msgstr "Y 漂移(_Y)："
+
+#: modules/xyz/xyz_drift.c:946
+msgid "Z fit _type:"
+msgstr "Z 拟合类型(_T)："
+
+#: modules/xyz/xyz_drift.c:1002
+msgid "Search parameters"
+msgstr "搜索参数"
+
+#: modules/xyz/xyz_drift.c:1007
+msgid "_Neighbors used:"
+msgstr "使用的邻居数(_N)："
+
+#: modules/xyz/xyz_drift.c:1024
+msgid "_Length threshold:"
+msgstr "长度阈值(_L)："
+
+#: modules/xyz/xyz_drift.c:1043
+msgid "_Time threshold:"
+msgstr "时间阈值(_T)："
+
+#: modules/xyz/xyz_drift.c:1061
+msgid "_Max iterations:"
+msgstr "最大迭代次数(_M)："
+
+#: modules/xyz/xyz_drift.c:1083
+msgid "_Graph:"
+msgstr "曲线图(_G)："
+
+#: modules/xyz/xyz_drift.c:1088
+msgid "X drift:"
+msgstr "X 漂移："
+
+#: modules/xyz/xyz_drift.c:1096 modules/xyz/xyz_drift.c:1114 modules/xyz/xyz_drift.c:1131
+msgid "to inits"
+msgstr "恢复初始值"
+
+#: modules/xyz/xyz_drift.c:1106
+msgid "Y drift:"
+msgstr "Y 漂移："
+
+#: modules/xyz/xyz_drift.c:1123
+msgid "Z drift:"
+msgstr "Z 漂移："
+
+#: modules/xyz/xyz_drift.c:1738
+msgid "No neighbors found"
+msgstr "未找到邻居"
+
+#: modules/xyz/xyz_fft.c:116
+msgid "XYZ data 1D FFT correction."
+msgstr "XYZ 数据一维 FFT 校正。"
+
+#: modules/xyz/xyz_fft.c:130
+msgid "/_FFT Filtering..."
+msgstr "/FFT 滤波(_F)..."
+
+#: modules/xyz/xyz_fft.c:134
+msgid "Filter data using FFT"
+msgstr "使用 FFT 滤波数据"
+
+#: modules/xyz/xyz_fft.c:151
+msgid "100 %"
+msgstr "100 %"
+
+#: modules/xyz/xyz_fft.c:152
+msgid "20 %"
+msgstr "20 %"
+
+#: modules/xyz/xyz_fft.c:153
+msgid "1 %"
+msgstr "1 %"
+
+#: modules/xyz/xyz_fft.c:173
+msgid "_Axis"
+msgstr "坐标轴(_A)"
+
+#: modules/xyz/xyz_fft.c:175
+msgid "_Logarithmic scale"
+msgstr "对数标度(_L)"
+
+#: modules/xyz/xyz_fft.c:206
+msgid "FFT corrected"
+msgstr "FFT 校正后"
+
+#: modules/xyz/xyz_fft.c:368
+msgid "Calculating spectrum..."
+msgstr "正在计算频谱……"
+
+#: modules/xyz/xyz_raster.c:176
+msgid "Rasterizes XYZ data to images."
+msgstr "将 XYZ 数据栅格化为图像。"
+
+#: modules/xyz/xyz_raster.c:190
+msgid "/_Rasterize..."
+msgstr "/栅格化(_R)..."
+
+#: modules/xyz/xyz_raster.c:194
+msgid "Rasterize to image"
+msgstr "栅格化为图像"
+
+#: modules/xyz/xyz_raster.c:206
+msgid "Field"
+msgstr "场"
+
+#: modules/xyz/xyz_raster.c:225
+msgid "_Mask empty regions"
+msgstr "遮蔽空白区域(_M)"
+
+#: modules/xyz/xyz_raster.c:228
+msgid "_Power"
+msgstr "幂次(_P)"
+
+#: modules/xyz/xyz_raster.c:230
+msgid "_X-range"
+msgstr "X 范围(_X)"
+
+#: modules/xyz/xyz_raster.c:232
+msgid "_Y-range"
+msgstr "Y 范围(_Y)"
+
+#: modules/xyz/xyz_raster.c:347
+msgid "Rasterize XYZ Data"
+msgstr "栅格化 XYZ 数据"
+
+#: modules/xyz/xyz_raster.c:356
+msgid "Create Image _Directly"
+msgstr "直接创建图像(_D)"
+
+#: modules/xyz/xyz_raster.c:360
+msgid "XY points form a regular grid so interpolation is not necessary."
+msgstr "XY 点构成规则网格，因此无需插值。"
+
+#: modules/xyz/xyz_raster.c:386
+msgid "Reset _Area"
+msgstr "重置区域(_A)"
+
+#: modules/xyz/xyz_raster.c:388
+msgid "_Previous Area"
+msgstr "先前区域(_P)"
+
+#: modules/xyz/xyz_raster.c:399
+msgid "Merged as too close"
+msgstr "因距离过近而合并"
+
+#: modules/xyz/xyz_raster.c:400
+msgid "Added on boundaries"
+msgstr "在边界上添加"
+
+#: modules/xyz/xyz_raster.c:711
+msgid "XYZ data regularization failed due to\nnumerical instability or was interrupted."
+msgstr "XYZ 数据规则化因数值不稳定而失败，\n或已中断。"
+
+#: modules/xyz/xyz_reduce.c:55
+msgid "XYZ data size reduction by skipping points."
+msgstr "通过跳过点来缩减 XYZ 数据量。"
+
+#: modules/xyz/xyz_reduce.c:69
+msgid "/_Reduce Number of Points..."
+msgstr "/减少点数(_R)..."
+
+#: modules/xyz/xyz_reduce.c:73
+msgid "Reduce XYZ data size by skipping points"
+msgstr "通过跳过点缩减 XYZ 数据量"
+
+#: modules/xyz/xyz_reduce.c:82
+msgid "Skip"
+msgstr "跳过"
+
+#: modules/xyz/xyz_reduce.c:93
+msgid "Reduction factor"
+msgstr "缩减因子"
+
+#: modules/xyz/xyz_reduce.c:127
+msgid "Reduced points"
+msgstr "缩减后的点"
+
+#: modules/xyz/xyz_reduce.c:145
+msgid "Reduce XYZ Data"
+msgstr "缩减 XYZ 数据"
+
+#: modules/xyz/xyz_split.c:55
+msgid "XYZ data split based on direction."
+msgstr "按方向拆分 XYZ 数据。"
+
+#: modules/xyz/xyz_split.c:69
+msgid "/Split by Direction..."
+msgstr "/按方向拆分..."
+
+#: modules/xyz/xyz_split.c:73
+msgid "Split XYZ data based on direction"
+msgstr "按方向拆分 XYZ 数据"
+
+#: modules/xyz/xyz_split.c:82
+msgid "Left-right"
+msgstr "左右"
+
+#: modules/xyz/xyz_split.c:83
+msgid "Upward-downward"
+msgstr "上下"
+
+#: modules/xyz/xyz_split.c:92
+msgid "Split direction"
+msgstr "拆分方向"
+
+#: modules/xyz/xyz_split.c:129
+msgid "Split right direction"
+msgstr "向右拆分"
+
+#: modules/xyz/xyz_split.c:131
+msgid "Split down direction"
+msgstr "向下拆分"
+
+#: modules/xyz/xyz_split.c:139
+msgid "Split left direction"
+msgstr "向左拆分"
+
+#: modules/xyz/xyz_split.c:141
+msgid "Split up direction"
+msgstr "向上拆分"
+
+#: modules/xyz/xyz_split.c:157
+msgid "Split XYZ Data"
+msgstr "拆分 XYZ 数据"
+
+#: modules/xyz/xyz_tcut.c:82
+msgid "XYZ data crop as time series."
+msgstr "按时间序列裁剪 XYZ 数据。"
+
+#: modules/xyz/xyz_tcut.c:96
+msgid "/Crop as _Time Series..."
+msgstr "/按时间序列裁剪(_T)..."
+
+#: modules/xyz/xyz_tcut.c:100
+msgid "Crop XYZ data as time series"
+msgstr "按时间序列裁剪 XYZ 数据"
+
+#: modules/xyz/xyz_tcut.c:158
+msgid "Time cropped"
+msgstr "已按时间裁剪"
+
+#: modules/xyz/xyz_tcut.c:179
+msgid "Crop XYZ Data as Time Series"
+msgstr "按时间序列裁剪 XYZ 数据"
+
+#: modules/xyz/xyz_tstep.c:92
+msgid "Detect and remove steps in time series XYZ data."
+msgstr "检测并移除时间序列 XYZ 数据中的阶跃。"
+
+#: modules/xyz/xyz_tstep.c:106
+msgid "/Remove Steps from T_ime Series..."
+msgstr "/从时间序列移除阶跃(_I)..."
+
+#: modules/xyz/xyz_tstep.c:110
+msgid "Remove steps from XYZ data"
+msgstr "从 XYZ 数据中移除阶跃"
+
+#: modules/xyz/xyz_tstep.c:137
+msgid "Positive threshold"
+msgstr "正阈值"
+
+#: modules/xyz/xyz_tstep.c:138
+msgid "Negative threshold"
+msgstr "负阈值"
+
+#: modules/xyz/xyz_tstep.c:139
+msgid "Step direction"
+msgstr "阶跃方向"
+
+#: modules/xyz/xyz_tstep.c:177
+msgid "Steps removed"
+msgstr "已移除阶跃"
+
+#: modules/xyz/xyz_tstep.c:198
+msgid "Remove Steps from Time Series"
+msgstr "从时间序列移除阶跃"
+
+#: modules/xyz/xyz_volumize.c:92 modules/xyz/xyz_volumize.c:110
+msgid "Split XYZ data stream image stack."
+msgstr "将 XYZ 数据流拆分为图像堆栈。"
+
+#: modules/xyz/xyz_volumize.c:106
+msgid "/Split to Image _Stack..."
+msgstr "/拆分为图像堆栈(_S)..."
+
+#: modules/xyz/xyz_volumize.c:132
+msgid "F_rames"
+msgstr "帧数(_R)"
+
+#: modules/xyz/xyz_volumize.c:133
+msgid "Border _width"
+msgstr "边框宽度(_W)"
+
+#: modules/xyz/xyz_volumize.c:173
+msgid "Stack from XYZ data"
+msgstr "由 XYZ 数据生成堆栈"
+
+#: modules/xyz/xyz_volumize.c:194
+msgid "Split to Image Stack"
+msgstr "拆分为图像堆栈"
+
+#: modules/xyz/xyz_zdrift.c:98
+msgid "XYZ data z-drift correction."
+msgstr "XYZ 数据 Z 漂移校正。"
+
+#: modules/xyz/xyz_zdrift.c:112
+msgid "/Correct Z _Drift..."
+msgstr "/校正 Z 漂移(_D)..."
+
+#: modules/xyz/xyz_zdrift.c:116 modules/xyz/xyz_zdrift.c:203
+msgid "Correct z drift"
+msgstr "校正 z 漂移"
+
+#: modules/xyz/xyz_zdrift.c:125
+msgid "Full data"
+msgstr "完整数据"
+
+#: modules/xyz/xyz_zdrift.c:126
+msgid "XY neighbors"
+msgstr "XY 邻居"
+
+#: modules/xyz/xyz_zdrift.c:140
+msgid "Neighbor distance"
+msgstr "邻居距离"
+
+#: modules/xyz/xyz_zdrift.c:180
+msgid "Z drift corrected"
+msgstr "Z 漂移已校正"
+
+#: modules/xyz/xyz_zdrift.c:427
+msgid "Searching for neighbors..."
+msgstr "正在搜索邻居……"
+
+#: modules/xyz/xyzops.c:89
+msgid "Elementary XYZ data operations."
+msgstr "基本 XYZ 数据操作。"

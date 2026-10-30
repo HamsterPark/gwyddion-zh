@@ -407,7 +407,7 @@ msgstr "Im(S<sub>11</sub>)"
 #: modules/process/smm.c:1116 modules/process/smm.c:1207
 #, c-format
 msgid "Mean square difference: %g"
-msgstr "均方差：%g"
+msgstr "均方差值：%g"
 
 #: modules/process/smm.c:1209
 msgid "Fit failed."

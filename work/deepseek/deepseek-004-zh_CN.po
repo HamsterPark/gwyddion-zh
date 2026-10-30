@@ -135,7 +135,7 @@ msgstr "设置完整范围"
 
 #: modules/process/batchcolor.c:1062
 msgid "Zero to Min"
-msgstr "零到最小值"
+msgstr "最小值归零"
 
 #: modules/process/batchcolor.c:1146
 msgid "Select All"

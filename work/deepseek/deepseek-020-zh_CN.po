@@ -1,0 +1,424 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/volume/volume_scars.c:181
+msgid "Scars corrected"
+msgstr "划痕已校正"
+
+#: modules/volume/volume_scars.c:366
+msgid "Removing scars..."
+msgstr "正在移除划痕……"
+
+#: modules/volume/volume_slice.c:154
+msgid "Extracts image planes and line graphs from volume data."
+msgstr "从体数据提取图像平面和线图。"
+
+#: modules/volume/volume_slice.c:168
+msgid "/_Basic Operations/Cut and _Slice..."
+msgstr "/基本操作(_B)/切割与切片(_S)..."
+
+#: modules/volume/volume_slice.c:172
+msgid "Extract image planes and line graphs"
+msgstr "提取图像平面和线图"
+
+#: modules/volume/volume_slice.c:189
+msgid "Image slice"
+msgstr "图像切片"
+
+#: modules/volume/volume_slice.c:190
+msgid "Line graph"
+msgstr "线图"
+
+#: modules/volume/volume_slice.c:203
+msgid "_Base plane"
+msgstr "基准平面(_B)"
+
+#: modules/volume/volume_slice.c:286
+msgid "Slice Volume Data"
+msgstr "切片体数据"
+
+#: modules/volume/volume_slice.c:322
+msgid "Positions"
+msgstr "位置"
+
+#: modules/volume/volume_slice.c:815
+#, c-format
+msgid "Z slice at %.*f%s%s (#%d)"
+msgstr "Z 切片（%.*f%s%s，#%d）"
+
+#: modules/volume/volume_slice.c:822
+#, c-format
+msgid "Y slice at %.*f%s%s (#%d)"
+msgstr "Y 切片（%.*f%s%s，#%d）"
+
+#: modules/volume/volume_slice.c:829
+#, c-format
+msgid "X slice at %.*f%s%s (#%d)"
+msgstr "X 切片（%.*f%s%s，#%d）"
+
+#: modules/volume/volume_slice.c:886
+#, c-format
+msgid "Z graph at x: %d y: %d"
+msgstr "Z 曲线图（x：%d，y：%d）"
+
+#: modules/volume/volume_slice.c:891
+#, c-format
+msgid "X graph at y: %d z: %d"
+msgstr "X 曲线图（y：%d，z：%d）"
+
+#: modules/volume/volume_slice.c:896
+#, c-format
+msgid "Y graph at x: %d z: %d"
+msgstr "Y 曲线图（x：%d，z：%d）"
+
+#: modules/volume/volume_slice.c:933
+msgid "Volume X graphs"
+msgstr "体数据 X 曲线图"
+
+#: modules/volume/volume_slice.c:938
+msgid "Volume Y graphs"
+msgstr "体数据 Y 曲线图"
+
+#: modules/volume/volume_stepline.c:50
+msgid "Performs step line correction"
+msgstr "执行扫描线阶跃校正"
+
+#: modules/volume/volume_stepline.c:68
+msgid "Step line correction in all XY planes"
+msgstr "所有 XY 平面中的扫描线阶跃校正"
+
+#: modules/volume/volume_stepline.c:87
+msgid "Step line correction..."
+msgstr "扫描线阶跃校正……"
+
+#: modules/volume/volume_stepline.c:91
+msgid "Step line corrected"
+msgstr "扫描线阶跃已校正"
+
+#: modules/volume/volume_strayfield.c:120
+msgid "Checks the stray field dependence consistency."
+msgstr "检查杂散场依赖关系的一致性。"
+
+#: modules/volume/volume_strayfield.c:134
+msgid "/SPM M_odes/_Stray Field Consistency..."
+msgstr "/SPM 模式(_O)/杂散场一致性(_S)..."
+
+#: modules/volume/volume_strayfield.c:138
+msgid "MSM stray field consistency"
+msgstr "MSM 杂散场一致性"
+
+#: modules/volume/volume_strayfield.c:151
+msgid "Single value evolution"
+msgstr "单值演化"
+
+#: modules/volume/volume_strayfield.c:152
+msgid "Plane variance"
+msgstr "平面方差"
+
+#: modules/volume/volume_strayfield.c:154
+msgid "Z shift difference"
+msgstr "Z 偏移差"
+
+#: modules/volume/volume_strayfield.c:170
+msgid "_Z base"
+msgstr "Z 基准(_Z)"
+
+#: modules/volume/volume_strayfield.c:244
+msgid "Stray Field Consistency Check"
+msgstr "杂散场一致性检查"
+
+#: modules/volume/volume_strayfield.c:311
+msgid "Extracted"
+msgstr "已提取"
+
+#: modules/volume/volume_strayfield.c:454
+msgid "Building stray field dependence..."
+msgstr "正在构建杂散场依赖关系……"
+
+#: modules/volume/volume_swaxes.c:82
+msgid "Swaps axes of volume data."
+msgstr "交换体数据的坐标轴。"
+
+#: modules/volume/volume_swaxes.c:96
+msgid "/_Basic Operations/S_wap Axes..."
+msgstr "/基本操作(_B)/交换坐标轴(_W)..."
+
+#: modules/volume/volume_swaxes.c:100
+msgid "Swap axes"
+msgstr "交换坐标轴"
+
+#: modules/volume/volume_swaxes.c:110
+msgid "X, reversed"
+msgstr "X，反向"
+
+#: modules/volume/volume_swaxes.c:112
+msgid "Y, reversed"
+msgstr "Y，反向"
+
+#: modules/volume/volume_swaxes.c:114
+msgid "Z, reversed"
+msgstr "Z，反向"
+
+#: modules/volume/volume_swaxes.c:123
+msgid "Current _X axis will become"
+msgstr "当前 X 轴将变为(_X)"
+
+#: modules/volume/volume_swaxes.c:125
+msgid "Current _Y axis will become"
+msgstr "当前 Y 轴将变为(_Y)"
+
+#: modules/volume/volume_swaxes.c:127
+msgid "Current _Z axis will become"
+msgstr "当前 Z 轴将变为(_Z)"
+
+#: modules/volume/volume_swaxes.c:176
+msgid "Swap Volume Axes"
+msgstr "交换体数据坐标轴"
+
+#: modules/volume/volume_swaxes.c:222
+msgid "Z axis calibration will be lost."
+msgstr "Z 轴校准将丢失。"
+
+#: modules/volume/volume_xyarithmetics.c:148
+msgid "Simple arithmetic operations with volume and plane data."
+msgstr "对体数据和平面数据进行简单算术运算。"
+
+#: modules/volume/volume_xyarithmetics.c:162
+msgid "/_Basic Operations/_XY Arithmetic..."
+msgstr "/基本操作(_B)/XY 算术(_X)..."
+
+#: modules/volume/volume_xyarithmetics.c:166
+msgid "Arithmetic operations on volume and plane data"
+msgstr "对体数据和平面数据进行算术运算"
+
+#: modules/volume/volume_xyarithmetics.c:290
+msgid "Volume - Plane Arithmetic"
+msgstr "体数据-平面算术"
+
+#: modules/volume/volume_xyarithmetics.c:334
+msgid "Volume data:"
+msgstr "体数据："
+
+#: modules/volume/volume_xyarithmetics.c:343
+msgid "Images:"
+msgstr "图像："
+
+#: modules/volume/volume_xyarithmetics.c:565
+msgid "No volume data in the expression"
+msgstr "表达式中没有体数据"
+
+#: modules/volume/volume_xystitch.c:105
+msgid "Merges all XY planes into XYZ data"
+msgstr "将所有 XY 平面合并为 XYZ 数据"
+
+#: modules/volume/volume_xystitch.c:119
+msgid "/SPM M_odes/_XY Stitch..."
+msgstr "/SPM 模式(_O)/XY 拼接(_X)..."
+
+#: modules/volume/volume_xystitch.c:123
+msgid "Merge all the XY planes to XYZ data"
+msgstr "将所有 XY 平面合并为 XYZ 数据"
+
+#: modules/volume/volume_xystitch.c:138
+msgid "X _offsets graph"
+msgstr "X 偏移曲线图(_O)"
+
+#: modules/volume/volume_xystitch.c:139
+msgid "X o_ffsets curve"
+msgstr "X 偏移曲线(_F)"
+
+#: modules/volume/volume_xystitch.c:140
+msgid "Y off_sets graph"
+msgstr "Y 偏移曲线图(_S)"
+
+#: modules/volume/volume_xystitch.c:141
+msgid "Y offs_ets curve"
+msgstr "Y 偏移曲线(_E)"
+
+#: modules/volume/volume_xystitch.c:142
+msgid "_Flip X axis"
+msgstr "翻转 X 轴(_F)"
+
+#: modules/volume/volume_xystitch.c:143
+msgid "F_lip Y axis"
+msgstr "翻转 Y 轴(_L)"
+
+#: modules/volume/volume_xystitch.c:144
+msgid "Adjust _X shifts"
+msgstr "调整 X 偏移(_X)"
+
+#: modules/volume/volume_xystitch.c:145
+msgid "Adjust _Y shifts"
+msgstr "调整 Y 偏移(_Y)"
+
+#: modules/volume/volume_xystitch.c:146
+msgid "Adjust _Z shifts"
+msgstr "调整 Z 偏移(_Z)"
+
+#: modules/volume/volume_xystitch.c:147
+msgid "X polynomial degree"
+msgstr "X 多项式阶数"
+
+#: modules/volume/volume_xystitch.c:148
+msgid "Y polynomial degree"
+msgstr "Y 多项式阶数"
+
+#: modules/volume/volume_xystitch.c:204
+msgid "Stitched"
+msgstr "已拼接"
+
+#: modules/volume/volume_xystitch.c:229 modules/volume/volume_xystitch.c:230
+msgid "X shift"
+msgstr "X 偏移"
+
+#: modules/volume/volume_xystitch.c:231
+msgid "Frame number"
+msgstr "帧编号"
+
+#: modules/volume/volume_xystitch.c:238
+msgid "x-axis shift"
+msgstr "x 轴偏移"
+
+#: modules/volume/volume_xystitch.c:248
+msgid "Y shift"
+msgstr "Y 偏移"
+
+#: modules/volume/volume_xystitch.c:249
+msgid "y shift"
+msgstr "y 偏移"
+
+#: modules/volume/volume_xystitch.c:257
+msgid "y-axis shift"
+msgstr "y 轴偏移"
+
+#: modules/volume/volume_xystitch.c:268
+msgid "Z shift"
+msgstr "Z 偏移"
+
+#: modules/volume/volume_xystitch.c:269
+msgid "z shift"
+msgstr "z 偏移"
+
+#: modules/volume/volume_xystitch.c:277
+msgid "z-axis shift"
+msgstr "z 轴偏移"
+
+#: modules/volume/volume_xystitch.c:320
+msgid "XY Stitch"
+msgstr "XY 拼接"
+
+#: modules/volume/volume_xystitch.c:322
+msgid "verb|_Stitch"
+msgstr "拼接(_S)"
+
+#: modules/volume/volume_xystitch.c:589
+msgid "Filling matrix..."
+msgstr "正在填充矩阵……"
+
+#: modules/volume/volume_xystitch.c:616
+msgid "Solving matrix..."
+msgstr "正在求解矩阵……"
+
+#: modules/volume/volume_xystitch.c:892
+msgid "Optimizing shifts..."
+msgstr "正在优化偏移……"
+
+#: modules/volume/volume_xystitch.c:1043
+msgid "Estimating shifts..."
+msgstr "正在估计偏移……"
+
+#: modules/volume/volume_zcal.c:91
+msgid "Attaches, extracts and removes volume data z-axis calibration."
+msgstr "附加、提取和移除体数据的 Z 轴校准。"
+
+#: modules/volume/volume_zcal.c:105
+msgid "/_Basic Operations/_Z-Calibration..."
+msgstr "/基本操作(_B)/Z 校准(_Z)..."
+
+#: modules/volume/volume_zcal.c:109
+msgid "Manage z-axis calibration"
+msgstr "管理 Z 轴校准"
+
+#: modules/volume/volume_zcal.c:118
+msgid "_Extract to a graph"
+msgstr "提取到曲线图(_E)"
+
+#: modules/volume/volume_zcal.c:120
+msgid "Attach from _file"
+msgstr "从文件附加(_F)"
+
+#: modules/volume/volume_zcal.c:121
+msgid "Copy from _another"
+msgstr "从另一数据复制(_A)"
+
+#: modules/volume/volume_zcal.c:131
+msgid "Z-calibration action"
+msgstr "Z 校准操作"
+
+#: modules/volume/volume_zcal.c:133 modules/volume/volume_zcal.c:134 modules/volume/volume_zcal.c:196 modules/volume/volume_zcal.c:249
+msgid "Volume Z Calibration"
+msgstr "体数据 Z 校准"
+
+#: modules/volume/volume_zcal.c:338
+msgid "Calibration from file"
+msgstr "从文件校准"
+
+#: modules/volume/volume_zcal.c:338 modules/volume/volume_zcal.c:413
+msgid "Z-calibration curve"
+msgstr "Z 校准曲线"
+
+#: modules/volume/volume_zcal.c:375
+msgid "Index"
+msgstr "索引"
+
+#: modules/volume/volume_zcal.c:376
+msgid "Z axis value"
+msgstr "Z 轴数值"
+
+#: modules/volume/volume_zcal.c:460
+#, c-format
+msgid "The number of data file values %d differs from the number of planes %d."
+msgstr "数据文件中的数值数 %d 与平面数 %d 不同。"
+
+#: modules/volume/volumeops.c:35
+msgid "Extracts preview"
+msgstr "提取预览"
+
+#: modules/volume/volumeops.c:53
+msgid "Extract volume data preview to an image"
+msgstr "将体数据预览提取为图像"
+
+#: modules/xyz/xyz_autocrop.c:46
+msgid "Simple XYZ automated crop."
+msgstr "简单 XYZ 自动裁剪。"
+
+#: modules/xyz/xyz_autocrop.c:60
+msgid "/Crop Automatically"
+msgstr "/自动裁剪"
+
+#: modules/xyz/xyz_autocrop.c:64
+msgid "Crop data automatically to cover scanned areas"
+msgstr "自动裁剪数据以覆盖扫描区域"
+
+#: modules/xyz/xyz_crop.c:85
+msgid "XYZ data crop."
+msgstr "XYZ 数据裁剪。"
+
+#: modules/xyz/xyz_crop.c:99
+msgid "/Crop..."
+msgstr "/裁剪..."

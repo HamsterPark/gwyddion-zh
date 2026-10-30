@@ -1,0 +1,531 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 19:45+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/cmap/cmap_cutter.c:139 modules/cmap/cmap_cutter.c:145
+#: modules/cmap/cmap_simplemech.c:214 modules/cmap/cmap_simplemech.c:362
+msgid "Approach"
+msgstr "接近"
+
+#: modules/cmap/cmap_cutter.c:141 modules/cmap/cmap_cutter.c:146
+#: modules/cmap/cmap_simplemech.c:215 modules/cmap/cmap_simplemech.c:371
+msgid "Retract"
+msgstr "回撤"
+
+#: modules/cmap/cmap_cutter.c:375 modules/cmap/cmap_simplemech.c:212
+msgid "Z curve"
+msgstr "Z 曲线"
+
+#: modules/cmap/cmap_cutter.c:454 modules/cmap/cmap_simplemech.c:900
+#: modules/graph/graph_terraces.c:2021 modules/process/terracefit.c:2240
+#: modules/xyz/xyz_drift.c:1913
+msgid "Fitting in progress..."
+msgstr "正在拟合..."
+
+#: modules/cmap/cmap_cutter.c:667 modules/cmap/cmap_extractcurve.c:560
+#: modules/cmap/cmap_fit.c:1137 modules/cmap/cmap_linestat.c:300
+#: modules/cmap/cmap_lockin.c:878 modules/cmap/cmap_peaks.c:282
+msgid "sample"
+msgstr "样本"
+
+#: modules/cmap/cmap_extractcurve.c:145 modules/volume/volume_slice.c:202
+msgid "Extract _multiple"
+msgstr "提取多个(_M)"
+
+#: modules/cmap/cmap_fdfit.c:225 modules/cmap/cmap_fit.c:206
+#: modules/process/fit-shape.c:288
+msgid "_Function"
+msgstr "函数(_F)"
+
+#: modules/cmap/cmap_fdfit.c:231 modules/cmap/cmap_filter.c:146
+#: modules/cmap/cmap_fit.c:213 modules/cmap/cmap_lockin.c:204
+#: modules/cmap/cmap_polylevel.c:168 modules/cmap/cmap_sinebg.c:162
+#: modules/xyz/xyz_volumize.c:134
+msgid "_From"
+msgstr "从(_F)"
+
+#: modules/cmap/cmap_fdfit.c:232 modules/cmap/cmap_filter.c:147
+#: modules/cmap/cmap_fit.c:214 modules/cmap/cmap_lockin.c:205
+#: modules/cmap/cmap_polylevel.c:169 modules/cmap/cmap_sinebg.c:163
+#: modules/xyz/xyz_volumize.c:135
+msgid "_To"
+msgstr "到(_T)"
+
+#: modules/cmap/cmap_fdfit.c:235 modules/cmap/cmap_fit.c:217
+msgid "Run _estimate at each point"
+msgstr "在每个点进行估计(_E)"
+
+#: modules/cmap/cmap_fdfit.c:239 modules/cmap/cmap_simplemech.c:216
+#: modules/graph/graph_simplemech.c:115
+msgid "Baseline _range"
+msgstr "基线范围(_R)"
+
+#: modules/cmap/cmap_fdfit.c:338 modules/cmap/cmap_fit.c:359
+msgid "verb|_Estimate single"
+msgstr "估计单条曲线(_E)"
+
+#: modules/cmap/cmap_fdfit.c:339 modules/cmap/cmap_fit.c:360
+msgid "verb|_Fit single"
+msgstr "拟合单条曲线(_F)"
+
+#: modules/cmap/cmap_fdfit.c:359 modules/cmap/cmap_filter.c:245
+#: modules/cmap/cmap_fit.c:380 modules/cmap/cmap_lockin.c:354
+#: modules/cmap/cmap_polylevel.c:268 modules/cmap/cmap_sinebg.c:256
+msgid "data"
+msgstr "数据"
+
+#: modules/cmap/cmap_fdfit.c:368 modules/cmap/cmap_fit.c:389
+#: modules/cmap/cmap_lockin.c:363 modules/cmap/cmap_polylevel.c:278
+#: modules/cmap/cmap_sinebg.c:266 modules/graph/graph_polylevel.c:397
+#: modules/graph/graph_sinebg.c:398 modules/tools/corrlen.c:1002
+msgid "fit"
+msgstr "拟合"
+
+#: modules/cmap/cmap_fdfit.c:1201 modules/cmap/cmap_fit.c:1162
+#: modules/graph/graph_fdfit.c:366 modules/graph/graph_fit.c:377
+#: modules/process/fit-shape.c:685 modules/volume/volume_fdfit-WTF.c:420
+#: modules/volume/volume_fdfit.c:420
+msgid "Fix"
+msgstr "固定"
+
+#: modules/cmap/cmap_fdfit.c:1203 modules/cmap/cmap_fit.c:1164
+#: modules/graph/graph_cd.c:305 modules/graph/graph_fdfit.c:368
+#: modules/graph/graph_fit.c:379 modules/process/fit-shape.c:686
+#: modules/process/smm.c:520 modules/volume/volume_fdfit-WTF.c:422
+#: modules/volume/volume_fdfit.c:422
+msgid "Parameter"
+msgstr "参数"
+
+#: modules/cmap/cmap_fdfit.c:1205 modules/cmap/cmap_fit.c:1166
+#: modules/graph/graph_cd.c:307 modules/graph/graph_fdfit.c:370
+#: modules/graph/graph_fit.c:381 modules/process/fit-shape.c:687
+#: modules/volume/volume_fdfit-WTF.c:424 modules/volume/volume_fdfit.c:424
+msgid "Error"
+msgstr "误差"
+
+#: modules/cmap/cmap_filter.c:133 modules/process/fft_filter_1d.c:118
+#: modules/process/wpour_mark.c:149 modules/volume/volume_1dfft.c:142
+#: modules/xyz/xyz_fft.c:143
+msgid "Marked"
+msgstr "已标记"
+
+#: modules/cmap/cmap_filter.c:134 modules/process/fft_filter_1d.c:119
+#: modules/volume/volume_1dfft.c:143 modules/xyz/xyz_fft.c:144
+msgid "Unmarked"
+msgstr "未标记"
+
+#: modules/cmap/cmap_filter.c:150 modules/tools/grainremover.c:130
+msgid "Remove"
+msgstr "移除"
+
+#: modules/cmap/cmap_fztofd.c:139 modules/graph/graph_fztofd.c:120
+msgid "Convert Force-Z Piezo to Force-Distance"
+msgstr "将力-压电 Z 位移曲线转换为力-距离曲线"
+
+#: modules/cmap/cmap_fztofd.c:151 modules/graph/graph_fztofd.c:89
+msgid "Piezo extension"
+msgstr "压电位移"
+
+#: modules/cmap/cmap_fztofd.c:165 modules/graph/graph_fztofd.c:137
+msgid "_Z input"
+msgstr "Z 输入(_Z)"
+
+#: modules/cmap/cmap_fztofd.c:167 modules/graph/graph_fztofd.c:142
+msgid "Cantilever _stiffness"
+msgstr "悬臂梁刚度(_S)"
+
+#: modules/cmap/cmap_fztofd.c:168 modules/graph/graph_fztofd.c:144
+msgid "Cantilever _tilt"
+msgstr "悬臂梁倾角(_T)"
+
+#: modules/cmap/cmap_fztofd.c:169 modules/graph/graph_fztofd.c:143
+msgid "_Deflection sensitivity"
+msgstr "偏转灵敏度(_D)"
+
+#: modules/cmap/cmap_fztofd.c:243 modules/graph/graph_fztofd.c:210
+msgid "Convert FZ to FD Curve"
+msgstr "将 FZ 曲线转换为 FD 曲线"
+
+#: modules/cmap/cmap_linestat.c:148
+msgid "Summarizes curves in curve map data to an image."
+msgstr "将曲线图谱数据中的曲线汇总为图像。"
+
+#: modules/cmap/cmap_linestat.c:162
+msgid "/_Summarize Curves..."
+msgstr "/汇总曲线(_S)..."
+
+#: modules/cmap/cmap_linestat.c:166
+msgid "Summarize curves"
+msgstr "汇总曲线"
+
+#: modules/cmap/cmap_linestat.c:175 modules/volume/volume_linestat.c:190
+msgid "_Extract image"
+msgstr "提取图像(_E)"
+
+#: modules/cmap/cmap_linestat.c:176 modules/volume/volume_linestat.c:191
+msgid "Set _preview"
+msgstr "设置预览(_P)"
+
+#: modules/cmap/cmap_linestat.c:190 modules/graph/graph_sfuncs.c:125
+#: modules/process/wave_synth.c:196 modules/tools/linestats.c:160
+#: modules/tools/sfunctions.c:214 modules/volume/volume_linestat.c:205
+#: modules/volume/volume_planestat.c:274 modules/volume/volume_strayfield.c:164
+msgid "_Quantity"
+msgstr "量(_Q)"
+
+#: modules/cmap/cmap_linestat.c:192 modules/cmap/cmap_lockin.c:212
+#: modules/process/cpde_synth.c:746 modules/process/crosscor.c:158
+#: modules/process/domain_synth.c:188 modules/process/freq_split.c:162
+#: modules/process/mask_edt.c:114 modules/process/pfm.c:161
+#: modules/process/slope_dist.c:147 modules/process/smm_apply.c:155
+#: modules/volume/volume_linestat.c:207 modules/volume/volume_slice.c:205
+msgid "Output type"
+msgstr "输出类型"
+
+#: modules/cmap/cmap_linestat.c:283
+msgid "Summarize Map Curves"
+msgstr "汇总图谱曲线"
+
+#: modules/cmap/cmap_linestat.c:441
+msgid "(interpolated)"
+msgstr "（已插值）"
+
+#: modules/cmap/cmap_lockin.c:203 modules/cmap/cmap_polylevel.c:167
+#: modules/graph/graph_polylevel.c:117
+msgid "_Degree"
+msgstr "阶数(_D)"
+
+#: modules/cmap/cmap_lockin.c:208 modules/process/multiprofile.c:310
+#: modules/process/smm.c:443
+msgid "Show"
+msgstr "显示"
+
+#: modules/cmap/cmap_lockin.c:282 modules/graph/graph_sinebg.c:416
+#: modules/process/wave_synth.c:186 modules/process/wave_synth.c:329
+#: modules/tools/roughness.c:386
+msgid "Amplitude"
+msgstr "振幅"
+
+#: modules/cmap/cmap_lockin.c:295 modules/process/fft.c:121
+#: modules/process/smm.c:214 modules/process/smm_apply.c:137
+#: modules/process/wave_synth.c:187
+msgid "Phase"
+msgstr "相位"
+
+#: modules/cmap/cmap_polylevel.c:129
+msgid "Removes polynomial background from curves."
+msgstr "从曲线中去除多项式背景。"
+
+#: modules/cmap/cmap_polylevel.c:143
+msgid "/Remove _Polynomial Background..."
+msgstr "/去除多项式背景(_P)..."
+
+#: modules/cmap/cmap_polylevel.c:147
+msgid "Remove polynomial background from all curves"
+msgstr "从所有曲线中去除多项式背景"
+
+#: modules/cmap/cmap_polylevel.c:173
+msgid "Use _mean polynome"
+msgstr "使用平均多项式(_M)"
+
+#: modules/cmap/cmap_polylevel.c:174
+msgid "Apply to _all segments"
+msgstr "应用于所有片段(_A)"
+
+#: modules/cmap/cmap_polylevel.c:248 modules/graph/graph_polylevel.c:176
+#: modules/process/polylevel.c:319
+msgid "Remove Polynomial Background"
+msgstr "去除多项式背景"
+
+#: modules/cmap/cmap_possearch.c:176 modules/process/arc-revolve.c:121
+#: modules/process/crosscor.c:109 modules/process/measure_lattice.c:347
+#: modules/process/measure_lattice.c:354
+msgid "Direction"
+msgstr "方向"
+
+#: modules/cmap/cmap_possearch.c:180 modules/process/grain_edge.c:181
+msgid "Threshold"
+msgstr "阈值"
+
+#: modules/cmap/cmap_simplemech.c:155 modules/graph/graph_simplemech.c:568
+msgid "DMT modulus"
+msgstr "DMT 模量"
+
+#: modules/cmap/cmap_simplemech.c:156 modules/graph/graph_simplemech.c:569
+msgid "Adhesion"
+msgstr "黏附力"
+
+#: modules/cmap/cmap_simplemech.c:157 modules/graph/graph_simplemech.c:570
+#: modules/process/fibre_synth.c:371 modules/process/lat_synth.c:511
+#: modules/process/pat_synth.c:1673
+msgid "Deformation"
+msgstr "形变"
+
+#: modules/cmap/cmap_simplemech.c:158 modules/graph/graph_simplemech.c:571
+msgid "Dissipated work"
+msgstr "耗散功"
+
+#: modules/cmap/cmap_simplemech.c:159 modules/graph/graph_simplemech.c:572
+msgid "Baseline force"
+msgstr "基线力"
+
+#: modules/cmap/cmap_simplemech.c:160 modules/graph/graph_simplemech.c:573
+msgid "Maximum force"
+msgstr "最大力"
+
+#: modules/cmap/cmap_simplemech.c:166 modules/graph/graph_simplemech.c:76
+msgid "Get simple mechanical quantities"
+msgstr "获取简单力学量"
+
+#: modules/cmap/cmap_simplemech.c:184 modules/graph/graph_simplemech.c:93
+msgid "Evaluate DMT modulus, adhesion, deformation and dissipation"
+msgstr "计算 DMT 模量、黏附力、形变和耗散"
+
+#: modules/cmap/cmap_simplemech.c:217 modules/graph/graph_simplemech.c:116
+msgid "Fit _upper limit"
+msgstr "拟合上限(_U)"
+
+#: modules/cmap/cmap_simplemech.c:218 modules/graph/graph_simplemech.c:117
+msgid "Fit _lower limit"
+msgstr "拟合下限(_L)"
+
+#: modules/cmap/cmap_simplemech.c:219 modules/graph/graph_simplemech.c:118
+#: modules/process/hertz.c:125
+msgid "_Tip radius"
+msgstr "针尖半径(_T)"
+
+#: modules/cmap/cmap_simplemech.c:220 modules/graph/graph_simplemech.c:119
+msgid "_Poisson's ratio"
+msgstr "泊松比(_P)"
+
+#: modules/cmap/cmap_simplemech.c:223 modules/graph/graph_terraces.c:272
+#: modules/process/blockstep.c:144 modules/process/correct_perspective.c:150
+#: modules/process/drift.c:165 modules/process/fit-shape.c:291
+#: modules/process/freq_split.c:164 modules/process/good_profile.c:137
+#: modules/process/hertz.c:126 modules/process/multiprofile.c:159
+#: modules/process/pid.c:149 modules/process/ptranslate.c:151
+#: modules/process/smm.c:232 modules/process/terracefit.c:296
+#: modules/process/zero_crossing.c:124
+msgid "verb|Display"
+msgstr "显示"
+
+#: modules/cmap/cmap_simplemech.c:259 modules/cmap/cmap_simplemech.c:342
+#: modules/graph/graph_simplemech.c:178
+msgid "Nanomechanical Fit"
+msgstr "纳米力学拟合"
+
+#: modules/cmap/cmap_simplemech.c:344 modules/graph/graph_cd.c:212
+#: modules/graph/graph_fdfit.c:254 modules/graph/graph_fit.c:270
+#: modules/process/fit-shape.c:495 modules/process/smm.c:366
+#: modules/process/terracefit.c:451 modules/volume/volume_fdfit-WTF.c:299
+#: modules/volume/volume_fdfit.c:299
+msgid "verb|_Fit"
+msgstr "拟合(_F)"
+
+#: modules/cmap/cmap_simplemech.c:389 modules/graph/graph_simplemech.c:523
+msgid "Baseline fit"
+msgstr "基线拟合"
+
+#: modules/cmap/cmap_simplemech.c:399 modules/graph/graph_simplemech.c:534
+msgid "DMT fit"
+msgstr "DMT 拟合"
+
+#: modules/cmap/cmap_simplemech.c:445 modules/graph/graph_terraces.c:637
+#: modules/process/fit-shape.c:1639 modules/process/relate.c:363
+#: modules/process/relate.c:665 modules/process/terracefit.c:494
+msgid "Fit Results"
+msgstr "拟合结果"
+
+#: modules/cmap/cmap_simplemech.c:473 modules/graph/graph_measure_period.c:249
+#: modules/graph/graph_simplemech.c:217 modules/graph/graph_simplemech.c:567
+#: modules/xyz/xyz_drift.c:1074
+msgid "Results"
+msgstr "结果"
+
+#: modules/cmap/cmap_sinebg.c:236 modules/graph/graph_sinebg.c:173
+msgid "Remove Sine Background"
+msgstr "去除正弦背景"
+
+#: modules/file/ambprofile.c:452 modules/file/dektakxml.c:359
+#: modules/file/evovisxml.c:321 modules/file/lextfile.c:166
+#: modules/file/nanoscan.c:670 modules/file/ometiff.c:411
+#, c-format
+msgid "Top-level element is not ‘%s’."
+msgstr "顶层元素不是 ‘%s’。"
+
+#: modules/file/anfatec.c:812 modules/file/mifile.c:494
+#, c-format
+msgid "Cannot parse data values at line %d."
+msgstr "无法解析第 %d 行的数据值。"
+
+#: modules/file/asciicmap.c:306 modules/file/formats3d.c:1519
+#: modules/file/nanoscope.c:1019 modules/file/nanoscope.c:1025
+#: modules/file/nanoscope.c:1138 modules/file/nanoscope.c:1144
+#: modules/file/nanoscope.c:2372 modules/file/nanosystemz.c:232
+#: modules/file/nanosystemz.c:260 modules/file/phoenix.c:905
+#: modules/file/phoenix.c:918 modules/file/princetonspe.c:323
+#: modules/file/psia.c:377 modules/file/wsxmfile.c:697 modules/file/zemax.c:160
+msgid "File is truncated."
+msgstr "文件不完整。"
+
+#: modules/file/asciiexport.c:119 modules/file/xyzexport.c:112
+#: modules/process/grain_dist.c:149
+msgid "Add _informational comment header"
+msgstr "添加说明性注释头(_I)"
+
+#: modules/file/asciiexport.c:472 modules/file/xyzexport.c:217
+msgid "Value units:"
+msgstr "数值单位："
+
+#: modules/file/bcrfile.c:207 modules/file/keyence.c:1120
+#: modules/file/omicronflat.c:2505
+msgid "Cannot convert string from UTF-16."
+msgstr "无法将字符串从 UTF-16 转换。"
+
+#: modules/file/burleigh_exp.c:217 modules/file/burleigh_exp.c:254
+#: modules/file/nanoscope.c:2587 modules/file/omicron.c:402
+#: modules/file/shimadzu.c:416
+msgid "Missing colon in header line."
+msgstr "头部行中缺少冒号。"
+
+#: modules/file/dmefile.c:205 modules/file/zonfile.c:437
+#, c-format
+msgid "Data size %u does not match data dimensions (%u×%u)."
+msgstr "数据大小 %u 与数据尺寸（%u×%u）不匹配。"
+
+#: modules/file/dumbfile.c:155 modules/plugin-proxy.c:1255
+msgid "End of file reached when value was expected."
+msgstr "需要读取数值时已到达文件末尾。"
+
+#: modules/file/dumbfile.c:185 modules/plugin-proxy.c:1284
+msgid "Missing data field width."
+msgstr "缺少数据场宽度。"
+
+#: modules/file/dumbfile.c:197 modules/plugin-proxy.c:1297
+msgid "Missing data field height."
+msgstr "缺少数据场高度。"
+
+#: modules/file/dumbfile.c:226 modules/plugin-proxy.c:1327
+msgid "Data field dimensions are not positive numbers."
+msgstr "数据场尺寸不是正数。"
+
+#: modules/file/dumbfile.c:266 modules/plugin-proxy.c:1368
+msgid "End of file reached inside a data field."
+msgstr "读取数据场时已到达文件末尾。"
+
+#: modules/file/dumbfile.c:285 modules/plugin-proxy.c:1389
+msgid "Missing end of data field marker."
+msgstr "缺少数据场结束标记。"
+
+#: modules/file/err.h:45 modules/file/nrrdfile.c:725
+#: modules/file/nrrdfile.c:768 modules/pygwy/pygwy-console.c:494
+#, c-format
+msgid "Cannot read from file: %s."
+msgstr "无法读取文件：%s。"
+
+#: modules/file/err.h:128 modules/file/rhk-sm4.c:760
+#, c-format
+msgid "Invalid field dimension: %d."
+msgstr "无效的场尺寸：%d。"
+
+#: modules/file/ezdfile.c:313 modules/file/nanoscope-ii.c:244
+msgid "Malformed header line (missing =)."
+msgstr "头部行格式错误（缺少 =）。"
+
+#: modules/file/femtoscan.c:272 modules/file/miffile.c:665
+#: modules/file/mulfile.c:294
+msgid "Image data are outside the file."
+msgstr "图像数据位于文件范围之外。"
+
+#: modules/file/fitsfile.c:161 modules/file/fitsfile.c:173
+#: modules/file/fitsfile.c:184 modules/file/spmxfile.c:367
+msgid "Only two-dimensional images are supported."
+msgstr "仅支持二维图像。"
+
+#: modules/file/formats3d.c:338 modules/volume/volume_extract.c:331
+msgid "Z scale"
+msgstr "Z 轴缩放"
+
+#. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
+#: modules/file/formats3d.c:1163 modules/file/hdrimage.cc:437
+#: modules/file/imgexport.c:3573
+#, c-format
+msgid "Export %s"
+msgstr "导出 %s"
+
+#. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
+#: modules/file/formats3d.c:1574 modules/file/hdrimage.cc:2011
+#: modules/file/pixmap.c:683
+#, c-format
+msgid "Import %s"
+msgstr "导入 %s"
+
+#: modules/file/gwyzip-libzip.h:50 modules/file/gwyzip-libzip.h:56
+#: modules/file/gwyzip-libzip.h:78 modules/file/gwyzip-minizip1.h:120
+#: modules/file/gwyzip-minizip1.h:138 modules/file/gwyzip-zzlib.h:48
+#, c-format
+msgid "%s cannot open the file as a ZIP file."
+msgstr "%s 无法将文件作为 ZIP 文件打开。"
+
+#: modules/file/gwyzip-libzip.h:104 modules/file/gwyzip-libzip.h:115
+#: modules/file/gwyzip-minizip-ng.h:61 modules/file/gwyzip-minizip2.h:69
+#: modules/file/gwyzip-zzlib.h:82 modules/file/gwyzip-zzlib.h:90
+#, c-format
+msgid "%s error while reading the zip file: %s."
+msgstr "%s 读取 ZIP 文件时出错：%s。"
+
+#: modules/file/gwyzip-libzip.h:104 modules/file/gwyzip-minizip1.h:159
+#: modules/file/gwyzip-zzlib.h:82
+msgid "End of list of files"
+msgstr "文件列表结束"
+
+#: modules/file/gwyzip-libzip.h:205 modules/file/gwyzip-zzlib.h:215
+msgid "Cannot read file contents."
+msgstr "无法读取文件内容。"
+
+#: modules/file/gwyzip-minizip-ng.h:205 modules/file/gwyzip-minizip1.h:271
+#: modules/file/gwyzip-minizip1.h:284 modules/file/gwyzip-minizip2.h:211
+#: modules/file/gwyzip-zzlib.h:178 modules/file/jpkscan.c:2499
+#, c-format
+msgid "File %s is missing in the zip file."
+msgstr "ZIP 文件中缺少文件 %s。"
+
+#: modules/file/gwyzlib.h:124 modules/file/hdf4file.c:475
+#, c-format
+msgid "Decompression of compressed data failed with error %d."
+msgstr "解压缩数据失败，错误代码为 %d。"
+
+#. TRANSLATORS: %s is replaced by a software library name like zlib.
+#: modules/file/gwyzlib.h:172 modules/file/hdf4file.c:481
+#: modules/file/nrrdfile.c:738 modules/file/nrrdfile.c:781
+#: modules/file/zonfile.c:490
+#, c-format
+msgid ""
+"Cannot decompress compressed data.  Gwyddion was built without %s support."
+msgstr "无法解压缩数据。Gwyddion 构建时未启用 %s 支持。"
+
+#: modules/file/gxyzffile.c:386 modules/file/hdrimage.cc:1754
+#: modules/file/hdrimage.cc:1946 modules/file/xyzexport.c:260
+#: modules/process/batchcolor.c:1308
+msgid "Channel"
+msgstr "通道"
+
+#: modules/file/gxyzffile.c:388 modules/file/xyzexport.c:262
+#: modules/process/fit-shape.c:1642
+msgid "XYZ data"
+msgstr "XYZ 数据"

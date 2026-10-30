@@ -1,0 +1,426 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/graph/graph_invert.c:52
+msgid "/_Basic Operations/_Invert"
+msgstr "/基本操作(_B)/反转(_I)"
+
+#: modules/graph/graph_invert.c:55
+msgid "Invert graph curves"
+msgstr "反转曲线图中的曲线"
+
+#: modules/graph/graph_logscale.c:77
+msgid "Physically transforms graph data to logarithmic scale."
+msgstr "将曲线图数据实际变换为对数标度。"
+
+#: modules/graph/graph_logscale.c:91
+msgid "/_Correct Data/_Logscale Transform..."
+msgstr "/校正数据(_C)/对数标度变换(_L)..."
+
+#: modules/graph/graph_logscale.c:94
+msgid "Transform graph axes to logarithmic scale"
+msgstr "将曲线图坐标轴变换为对数标度"
+
+#: modules/graph/graph_logscale.c:103
+msgid "Abscissa _X"
+msgstr "横坐标 X(_X)"
+
+#: modules/graph/graph_logscale.c:104
+msgid "Ordinate _Y"
+msgstr "纵坐标 Y(_Y)"
+
+#: modules/graph/graph_logscale.c:108
+msgid "O_mit"
+msgstr "忽略(_M)"
+
+#: modules/graph/graph_logscale.c:109
+msgid "_Take absolute value"
+msgstr "取绝对值(_T)"
+
+#: modules/graph/graph_logscale.c:112
+msgid "Natural (e)"
+msgstr "自然对数（e）"
+
+#: modules/graph/graph_logscale.c:113
+msgid "10"
+msgstr "10"
+
+#: modules/graph/graph_logscale.c:114
+msgid "2"
+msgstr "2"
+
+#: modules/graph/graph_logscale.c:123
+msgid "Axes to transform"
+msgstr "要变换的坐标轴"
+
+#: modules/graph/graph_logscale.c:125
+msgid "Negative abscissa handling"
+msgstr "负横坐标处理"
+
+#: modules/graph/graph_logscale.c:127
+msgid "Negative ordinate handling"
+msgstr "负纵坐标处理"
+
+#: modules/graph/graph_logscale.c:129 modules/graph/graph_logscale.c:131
+msgid "Base"
+msgstr "底数"
+
+#: modules/graph/graph_logscale.c:287
+msgid "Logscale Transform"
+msgstr "对数标度变换"
+
+#: modules/graph/graph_measure_period.c:91
+msgid "Evaluates the period of a one-dimensional periodic structure."
+msgstr "评估一维周期结构的周期。"
+
+#: modules/graph/graph_measure_period.c:105
+msgid "/Measure _Features/_Period..."
+msgstr "/测量特征(_M)/周期(_P)..."
+
+#: modules/graph/graph_measure_period.c:108
+msgid "Measure grating period"
+msgstr "测量光栅周期"
+
+#: modules/graph/graph_measure_period.c:126
+msgid "_Subtract background"
+msgstr "扣除背景(_S)"
+
+#: modules/graph/graph_measure_period.c:127
+msgid "Show _leveled curve"
+msgstr "显示调平后的曲线(_L)"
+
+#: modules/graph/graph_measure_period.c:166
+msgid "Measure Period"
+msgstr "测量周期"
+
+#: modules/graph/graph_measure_period.c:187
+msgid "Fourier Transform"
+msgstr "傅里叶变换"
+
+#: modules/graph/graph_measure_period.c:189
+msgid "Autocorrelation"
+msgstr "自相关"
+
+#: modules/graph/graph_measure_period.c:191
+msgid "Direct Methods"
+msgstr "直接法"
+
+#: modules/graph/graph_measure_period.c:237
+msgid "Grating Period"
+msgstr "光栅周期"
+
+#: modules/graph/graph_measure_period.c:250
+msgid "Simple FFT"
+msgstr "简单 FFT"
+
+#: modules/graph/graph_measure_period.c:251
+msgid "Refined FFT"
+msgstr "精细 FFT"
+
+#: modules/graph/graph_measure_period.c:252
+msgid "Simple ACF"
+msgstr "简单 ACF"
+
+#: modules/graph/graph_measure_period.c:253
+msgid "Multi-peak ACF"
+msgstr "多峰 ACF"
+
+#: modules/graph/graph_measure_period.c:254
+msgid "Gravity centers"
+msgstr "重心"
+
+#: modules/graph/graph_measure_period.c:255
+msgid "Zero crossings"
+msgstr "过零点"
+
+#: modules/graph/graph_measure_period.c:1050
+msgid "Leveled profile"
+msgstr "调平后的轮廓"
+
+#: modules/graph/graph_merge.c:34
+msgid "Merges and averages graph curves."
+msgstr "合并并平均曲线图中的曲线。"
+
+#: modules/graph/graph_merge.c:48
+msgid "/_Correct Data/_Merge Curves"
+msgstr "/校正数据(_C)/合并曲线(_M)"
+
+#: modules/graph/graph_merge.c:51
+msgid "Merge data of all curves"
+msgstr "合并所有曲线的数据"
+
+#: modules/graph/graph_merge.c:54
+msgid "/_Correct Data/_Average Curves"
+msgstr "/校正数据(_C)/平均曲线(_A)"
+
+#: modules/graph/graph_merge.c:57
+msgid "Average all curves"
+msgstr "对所有曲线求平均"
+
+#: modules/graph/graph_merge.c:168
+msgid "Average curve"
+msgstr "平均曲线"
+
+#: modules/graph/graph_merge.c:178
+msgid "Merged curves"
+msgstr "合并后的曲线"
+
+#: modules/graph/graph_peaks.c:105
+msgid "Finds peaks on graph curves."
+msgstr "查找曲线图中的峰。"
+
+#: modules/graph/graph_peaks.c:119
+msgid "/Measure _Features/Find _Peaks..."
+msgstr "/测量特征(_M)/查找峰(_P)..."
+
+#: modules/graph/graph_peaks.c:122
+msgid "Find graph curve peaks"
+msgstr "查找曲线图中的峰"
+
+#: modules/graph/graph_peaks.c:132
+msgid "Prominence"
+msgstr "突出度"
+
+#: modules/graph/graph_peaks.c:136
+msgid "Bilateral minimum"
+msgstr "双侧最小值"
+
+#: modules/graph/graph_peaks.c:146
+msgid "_Background type"
+msgstr "背景类型(_B)"
+
+#: modules/graph/graph_peaks.c:148
+msgid "Order peaks _by"
+msgstr "峰排序依据(_B)"
+
+#: modules/graph/graph_peaks.c:150
+msgid "Invert (find valleys)"
+msgstr "反转（查找谷）"
+
+#: modules/graph/graph_peaks.c:151
+msgid "Number of _peaks"
+msgstr "峰数(_P)"
+
+#: modules/graph/graph_peaks.c:152
+msgid "Save Peak Parameters"
+msgstr "保存峰参数"
+
+#: modules/graph/graph_peaks.c:190
+msgid "Graph Peaks"
+msgstr "曲线图峰"
+
+#: modules/graph/graph_sfuncs.c:91
+msgid "Calculates one-dimensional statistical functions (height distribution, correlations, PSDF)."
+msgstr "计算一维统计函数（高度分布、相关函数、PSDF）。"
+
+#: modules/graph/graph_sfuncs.c:105
+msgid "/_Statistics/Statistical _Functions..."
+msgstr "/统计(_S)/统计函数(_F)..."
+
+#: modules/graph/graph_sfuncs.c:127
+msgid "O_versampling"
+msgstr "过采样(_V)"
+
+#: modules/graph/graph_simplemech.c:90
+msgid "/_Force Distance/_Nanomechanical Fit..."
+msgstr "/力-距离(_F)/纳米力学拟合(_N)..."
+
+#: modules/graph/graph_simplemech.c:110
+msgid "Approach curve"
+msgstr "接近曲线"
+
+#: modules/graph/graph_simplemech.c:113
+msgid "Retract curve"
+msgstr "回撤曲线"
+
+#: modules/graph/graph_simplemech.c:516
+msgid "pick points"
+msgstr "选取点"
+
+#: modules/graph/graph_sinebg.c:83
+msgid "Remove sine background"
+msgstr "去除正弦背景"
+
+#: modules/graph/graph_sinebg.c:97
+msgid "/_Force Distance/_Remove Sine Background..."
+msgstr "/力-距离(_F)/去除正弦背景(_R)..."
+
+#: modules/graph/graph_sinebg.c:100
+msgid "Remove interference effects from FZ curve"
+msgstr "从 FZ 曲线中去除干涉效应"
+
+#: modules/layer/axis.c:143
+msgid "Layer allowing selection of horizontal or vertical lines."
+msgstr "允许选择水平线或垂直线的图层。"
+
+#: modules/layer/cross.c:152
+msgid "Layer allowing selection of combined horizontal and vertical lines."
+msgstr "允许选择水平与垂直组合线的图层。"
+
+#: modules/layer/ellipse.c:146
+msgid "Layer allowing selection of elliptic areas."
+msgstr "允许选择椭圆区域的图层。"
+
+#: modules/layer/line.c:179
+msgid "Layer allowing selection of arbitrary straight lines."
+msgstr "允许选择任意直线的图层。"
+
+#: modules/layer/path.c:174
+msgid "Layer allowing selection of a single long curve."
+msgstr "允许选择单条长曲线的图层。"
+
+#: modules/layer/point.c:172
+msgid "Layer allowing selection of several points, displayed as crosses or invisible."
+msgstr "允许选择多个点的图层，这些点显示为十字或不可见。"
+
+#: modules/layer/projective.c:142
+msgid "Layer allowing selection of a projective plane."
+msgstr "允许选择投影平面的图层。"
+
+#: modules/layer/rectangle.c:149
+msgid "Layer allowing selection of rectangular areas."
+msgstr "允许选择矩形区域的图层。"
+
+#: modules/plugin-proxy.c:145
+msgid "Plug-in proxy is a module capable of querying, registering, and running external programs (plug-ins) on data pretending they are data processing or file loading/saving modules."
+msgstr "插件代理模块可查询、注册并运行外部程序（插件），并让它们以数据处理或文件加载/保存模块的身份处理数据。"
+
+#: modules/plugin-proxy.c:463
+msgid "/_Plug-Ins"
+msgstr "/插件(_P)"
+
+#: modules/plugin-proxy.c:464
+#, c-format
+msgid "Run plug-in %s"
+msgstr "运行插件 %s"
+
+#: modules/plugin-proxy.c:737 modules/plugin-proxy.c:838
+msgid "Plugin-proxy must be run as interactive."
+msgstr "插件代理必须以交互方式运行。"
+
+#: modules/plugin-proxy.c:743
+#, c-format
+msgid "Plug-in `%s' does not implement file loading."
+msgstr "插件“%s”未实现文件加载功能。"
+
+#: modules/plugin-proxy.c:761
+#, c-format
+msgid "Cannot read temporary file: %s."
+msgstr "无法读取临时文件：%s。"
+
+#: modules/plugin-proxy.c:768 modules/plugin-proxy.c:863
+#, c-format
+msgid "Cannot execute plug-in `%s': %s."
+msgstr "无法执行插件“%s”：%s。"
+
+#: modules/plugin-proxy.c:777 modules/plugin-proxy.c:872
+#, c-format
+msgid "Plug-in `%s' returned non-zero exit status: %d."
+msgstr "插件“%s”返回了非零退出状态：%d。"
+
+#: modules/plugin-proxy.c:790
+#, c-format
+msgid "Plug-in `%s' did not return any meaningful data."
+msgstr "插件“%s”未返回任何有效数据。"
+
+#: modules/plugin-proxy.c:844
+#, c-format
+msgid "Plug-in `%s' does not implement file saving."
+msgstr "插件“%s”未实现文件保存功能。"
+
+#: modules/plugin-proxy.c:1204 modules/plugin-proxy.c:1213
+#, c-format
+msgid "Cannot create a temporary file: %s."
+msgstr "无法创建临时文件：%s。"
+
+#: modules/plugin-proxy.c:1221
+#, c-format
+msgid "Cannot fdopen() already open file: %s."
+msgstr "无法对已打开的文件调用 fdopen()：%s。"
+
+#: modules/process/angle_dist.c:79
+msgid "Calculates two-dimensional distribution of angles, that is projections of slopes to all directions."
+msgstr "计算角度的二维分布，即斜率在所有方向上的投影。"
+
+#: modules/process/angle_dist.c:93
+msgid "/_Statistics/An_gle Distribution..."
+msgstr "/统计(_S)/角度分布(_G)..."
+
+#: modules/process/angle_dist.c:97
+msgid "Calculate two-dimensional angle distribution"
+msgstr "计算二维角度分布"
+
+#: modules/process/angle_dist.c:113
+msgid "Number of steps"
+msgstr "步数"
+
+#: modules/process/angle_dist.c:149
+msgid "Angle distribution"
+msgstr "角度分布"
+
+#: modules/process/angle_dist.c:165
+msgid "Angle Distribution"
+msgstr "角度分布"
+
+#: modules/process/angle_dist.c:206
+msgid "Computing angle distribution..."
+msgstr "正在计算角度分布……"
+
+#: modules/process/anneal_synth.c:109
+msgid "Generates images by annealing a lattice gas model."
+msgstr "通过对晶格气模型进行退火生成图像。"
+
+#: modules/process/anneal_synth.c:123
+msgid "/S_ynthetic/_Order and Disorder/_Anneal..."
+msgstr "/合成(_Y)/有序与无序(_O)/退火(_A)..."
+
+#: modules/process/anneal_synth.c:127
+msgid "Generate image by annealing a lattice gas"
+msgstr "通过晶格气退火生成图像"
+
+#: modules/process/anneal_synth.c:143
+msgid "_Initial temperature"
+msgstr "初始温度(_I)"
+
+#: modules/process/anneal_synth.c:144
+msgid "Final _temperature"
+msgstr "最终温度(_T)"
+
+#: modules/process/anneal_synth.c:145
+msgid "Component _fraction"
+msgstr "组分比例(_F)"
+
+#: modules/process/anneal_synth.c:146
+msgid "Enable three components"
+msgstr "启用三组分"
+
+#: modules/process/anneal_synth.c:147
+msgid "F_raction of B"
+msgstr "B 的比例(_R)"
+
+#: modules/process/anneal_synth.c:148
+msgid "Mixing energy AB"
+msgstr "混合能 AB"
+
+#: modules/process/anneal_synth.c:149
+msgid "Mixing energy AC"
+msgstr "混合能 AC"
+
+#: modules/process/anneal_synth.c:150
+msgid "Mixing energy BC"
+msgstr "混合能 BC"

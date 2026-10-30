@@ -1,0 +1,491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/graph/graph_polylevel.c:198 modules/graph/graph_polylevel.c:410
+#: modules/graph/graph_sinebg.c:194 modules/graph/graph_sinebg.c:414
+msgid "Fit results"
+msgstr "拟合结果"
+
+#: modules/graph/graph_polylevel.c:411
+msgid "P0"
+msgstr "P0"
+
+#: modules/graph/graph_polylevel.c:412
+msgid "P1"
+msgstr "P1"
+
+#: modules/graph/graph_polylevel.c:413
+msgid "P2"
+msgstr "P2"
+
+#: modules/graph/graph_polylevel.c:414
+msgid "P3"
+msgstr "P3"
+
+#: modules/graph/graph_polylevel.c:415
+msgid "P4"
+msgstr "P4"
+
+#: modules/graph/graph_polylevel.c:416
+msgid "P5"
+msgstr "P5"
+
+#: modules/graph/graph_sfuncs.c:79 modules/tools/sfunctions.c:172
+msgid "Height distribution"
+msgstr "高度分布"
+
+#: modules/graph/graph_sfuncs.c:80 modules/tools/sfunctions.c:173
+msgid "Cum. height distribution"
+msgstr "累积高度分布"
+
+#: modules/graph/graph_sfuncs.c:81 modules/tools/sfunctions.c:174
+msgid "Distribution of angles"
+msgstr "角度分布"
+
+#: modules/graph/graph_sfuncs.c:82 modules/tools/sfunctions.c:175
+msgid "Cum. distribution of angles"
+msgstr "累积角度分布"
+
+#: modules/graph/graph_sfuncs.c:83 modules/tools/corrlen.c:961
+#: modules/tools/sfunctions.c:176
+msgid "ACF"
+msgstr "ACF"
+
+#: modules/graph/graph_sfuncs.c:84 modules/tools/sfunctions.c:177
+msgid "HHCF"
+msgstr "HHCF"
+
+#: modules/graph/graph_sfuncs.c:85 modules/process/freq_split.c:613
+#: modules/tools/corrlen.c:999 modules/tools/sfunctions.c:178
+msgid "PSDF"
+msgstr "PSDF"
+
+#: modules/graph/graph_sfuncs.c:108 modules/tools/sfunctions.c:245
+msgid "Calculate 1D statistical functions"
+msgstr "计算一维统计函数"
+
+#: modules/graph/graph_sfuncs.c:128 modules/process/acf2d.c:191
+#: modules/process/acf2d.c:192 modules/process/grain_dist.c:146
+#: modules/process/grain_dist.c:148 modules/process/psdf2d.c:170
+#: modules/process/psdf2d.c:171 modules/tools/profile.c:198
+#: modules/tools/profile.c:199 modules/tools/rprofile.c:162
+#: modules/tools/rprofile.c:163 modules/tools/sfunctions.c:223
+#: modules/tools/sfunctions.c:224
+msgid "_Fixed resolution"
+msgstr "固定分辨率(_F)"
+
+#: modules/graph/graph_sfuncs.c:180 modules/tools/sfunctions.c:244
+msgid "Statistical Functions"
+msgstr "统计函数"
+
+#: modules/graph/graph_sinebg.c:415 modules/process/pat_synth.c:1915
+#: modules/process/pat_synth.c:2146 modules/process/pat_synth.c:2456
+#: modules/process/pat_synth.c:2603
+msgid "Period"
+msgstr "周期"
+
+#: modules/graph/graph_sinebg.c:417 modules/process/calibrate.c:222
+#: modules/process/volumize_layers.c:223 modules/process/volumize_layers.c:225
+#: modules/volume/volume_calibrate.c:214
+msgid "Y offset"
+msgstr "Y 偏移"
+
+#: modules/graph/graph_stats.c:76
+msgid "Calculates simple graph curve statistics."
+msgstr "计算曲线图曲线的简单统计量。"
+
+#: modules/graph/graph_stats.c:90
+msgid "/_Statistics/_Statistical Quantities..."
+msgstr "/统计(_S)/统计量(_S)..."
+
+#: modules/graph/graph_stats.c:93
+msgid "Calculate graph curve statistics"
+msgstr "计算曲线图曲线的统计量"
+
+#: modules/graph/graph_stats.c:148 modules/tools/stats.c:178
+#: modules/tools/stats.c:698
+msgid "Statistical Quantities"
+msgstr "统计量"
+
+#: modules/graph/graph_stats.c:167 modules/graph/graph_stats.c:223
+msgid "Simple Parameters"
+msgstr "简单参数"
+
+#: modules/graph/graph_stats.c:170 modules/graph/graph_stats.c:234
+msgid "Integrals"
+msgstr "积分"
+
+#: modules/graph/graph_stats.c:211
+msgid "Graph Statistics"
+msgstr "曲线图统计"
+
+#: modules/graph/graph_stats.c:229
+msgid "Rms (Rq)"
+msgstr "均方根（Rq）"
+
+#: modules/graph/graph_stats.c:235
+msgid "Projected length"
+msgstr "投影长度"
+
+#: modules/graph/graph_stats.c:239
+msgid "Area under curve"
+msgstr "曲线下方面积"
+
+#: modules/graph/graph_stats.c:243
+msgid "Positive area"
+msgstr "正面积"
+
+#: modules/graph/graph_stats.c:247
+msgid "Negative area"
+msgstr "负面积"
+
+#: modules/graph/graph_stats.c:251
+msgid "Root mean square"
+msgstr "均方根"
+
+#: modules/graph/graph_terraces.c:209 modules/graph/graph_terraces.c:247
+msgid "Data + polynomials"
+msgstr "数据 + 多项式"
+
+#: modules/graph/graph_terraces.c:210 modules/graph/graph_terraces.c:248
+#: modules/process/deconvolve.c:147 modules/process/deconvolve.c:184
+#: modules/process/deconvolve.c:189 modules/process/deconvolve.c:245
+#: modules/process/fft_filter_2d.c:299 modules/process/fit-shape.c:273
+#: modules/process/fit-shape.c:277 modules/process/fit-shape.c:386
+#: modules/process/fit-shape.c:426 modules/process/mcrop.c:131
+#: modules/process/neural.c:221 modules/process/psf-fit.c:220
+#: modules/process/psf-fit.c:286 modules/process/psf.c:201
+#: modules/process/psf.c:212 modules/process/psf.c:290
+#: modules/process/terracefit.c:227 modules/process/terracefit.c:266
+#: modules/volume/volume_psf.c:232
+msgid "Difference"
+msgstr "差值"
+
+#: modules/graph/graph_terraces.c:211 modules/graph/graph_terraces.c:249
+#: modules/process/terracefit.c:228 modules/process/terracefit.c:267
+msgid "Terraces (ideal)"
+msgstr "台阶平台（理想）"
+
+#: modules/graph/graph_terraces.c:212 modules/graph/graph_terraces.c:250
+#: modules/graph/graph_terraces.c:932 modules/process/terracefit.c:229
+#: modules/process/terracefit.c:268
+msgid "Leveled surface"
+msgstr "调平后的表面"
+
+#: modules/graph/graph_terraces.c:213 modules/graph/graph_terraces.c:251
+#: modules/graph/graph_terraces.c:941 modules/process/terracefit.c:230
+#: modules/process/terracefit.c:269
+msgid "Polynomial background"
+msgstr "多项式背景"
+
+#: modules/graph/graph_terraces.c:220 modules/process/terracefit.c:236
+msgid "Fits terraces with polynomial background."
+msgstr "用多项式背景拟合台阶平台。"
+
+#: modules/graph/graph_terraces.c:234 modules/process/terracefit.c:250
+msgid "/Measure _Features/_Terraces..."
+msgstr "/测量特征(_F)/台阶平台(_T)..."
+
+#: modules/graph/graph_terraces.c:237 modules/process/terracefit.c:254
+msgid "Fit terraces with polynomial background"
+msgstr "用多项式背景拟合台阶平台"
+
+#: modules/graph/graph_terraces.c:252
+msgid "Step detection"
+msgstr "阶跃检测"
+
+#: modules/graph/graph_terraces.c:262 modules/process/terracefit.c:282
+msgid "_Step detection kernel"
+msgstr "阶跃检测核(_S)"
+
+#: modules/graph/graph_terraces.c:264 modules/process/terracefit.c:284
+msgid "Step detection _threshold"
+msgstr "阶跃检测阈值(_T)"
+
+#: modules/graph/graph_terraces.c:266 modules/graph/graph_terraces.c:282
+#: modules/process/terracefit.c:286 modules/process/terracefit.c:303
+msgid "Step _broadening"
+msgstr "阶跃展宽(_B)"
+
+#: modules/graph/graph_terraces.c:268
+msgid "Minimum terrace _length"
+msgstr "最小平台长度(_L)"
+
+#: modules/graph/graph_terraces.c:270 modules/graph/graph_terraces.c:281
+#: modules/process/linematch.c:173 modules/process/terracefit.c:281
+#: modules/process/terracefit.c:302 modules/volume/volume_flattenbase.c:105
+#: modules/volume/volume_linelevel.c:177
+msgid "_Polynomial degree"
+msgstr "多项式阶数(_P)"
+
+#: modules/graph/graph_terraces.c:271 modules/process/terracefit.c:291
+msgid "_Independent heights"
+msgstr "独立高度(_I)"
+
+#: modules/graph/graph_terraces.c:274
+msgid "Select regions _manually"
+msgstr "手动选择区域(_M)"
+
+#: modules/graph/graph_terraces.c:277 modules/process/terracefit.c:298
+msgid "Save Terrace Table"
+msgstr "保存台阶平台表"
+
+#: modules/graph/graph_terraces.c:279 modules/graph/graph_terraces.c:366
+#: modules/process/anneal_synth.c:293 modules/process/cpde_synth.c:268
+#: modules/process/crosscor.c:238 modules/process/deconvolve.c:200
+#: modules/process/domain_synth.c:334 modules/process/drift.c:403
+#: modules/process/dune_synth.c:283 modules/process/fft.c:315
+#: modules/process/good_profile.c:285 modules/process/indent_analyze.c:365
+#: modules/process/maskcor.c:222 modules/process/mfm_current.c:279
+#: modules/process/multiprofile.c:273 modules/process/pid.c:151
+#: modules/process/pid.c:271 modules/process/plateau_synth.c:320
+#: modules/process/psf-fit.c:237 modules/process/psf.c:234
+#: modules/process/residue_synth.c:277 modules/process/smm.c:403
+#: modules/process/terracefit.c:300 modules/process/terracefit.c:462
+#: modules/process/wfr_synth.c:255 modules/tools/corrlen.c:333
+#: modules/volume/volume_cluster.c:577 modules/volume/volume_psf.c:259
+msgid "Output"
+msgstr "输出"
+
+#: modules/graph/graph_terraces.c:283 modules/process/terracefit.c:304
+msgid "M_inimum polynomial degree"
+msgstr "最小多项式阶数(_I)"
+
+#: modules/graph/graph_terraces.c:285 modules/process/polylevel.c:145
+#: modules/process/terracefit.c:306
+msgid "_Maximum polynomial degree"
+msgstr "最大多项式阶数(_M)"
+
+#: modules/graph/graph_terraces.c:287 modules/process/terracefit.c:308
+msgid "Minimum broadening"
+msgstr "最小展宽"
+
+#: modules/graph/graph_terraces.c:289 modules/process/terracefit.c:310
+msgid "Maximum broadening"
+msgstr "最大展宽"
+
+#: modules/graph/graph_terraces.c:353 modules/process/terracefit.c:449
+msgid "Fit Terraces"
+msgstr "拟合台阶平台"
+
+#: modules/graph/graph_terraces.c:365 modules/process/terracefit.c:461
+msgid "Terrace List"
+msgstr "台阶平台列表"
+
+#: modules/graph/graph_terraces.c:367 modules/process/terracefit.c:463
+msgid "Survey"
+msgstr "参数扫描"
+
+#: modules/graph/graph_terraces.c:461 modules/process/entropy.c:187
+#: modules/process/fractal.c:273 modules/process/indent_analyze.c:355
+#: modules/process/mark_with.c:284 modules/process/neural.c:220
+#: modules/process/psf.c:365 modules/process/smm.c:522
+#: modules/process/terracefit.c:571 modules/volume/volume_psf.c:383
+msgid "Result"
+msgstr "结果"
+
+#: modules/graph/graph_terraces.c:621 modules/process/classify.c:245
+#: modules/process/terracefit.c:750
+msgid "_Execute"
+msgstr "执行(_E)"
+
+#: modules/graph/graph_terraces.c:643 modules/process/terracefit.c:500
+msgid "Fitted step height"
+msgstr "拟合阶跃高度"
+
+#: modules/graph/graph_terraces.c:644 modules/process/fit-shape.c:1649
+#: modules/process/relate.c:366 modules/process/relate.c:672
+#: modules/process/terracefit.c:501
+msgid "Mean square difference"
+msgstr "均方差值"
+
+#: modules/graph/graph_terraces.c:645 modules/process/terracefit.c:502
+msgid "Terrace discrepancy"
+msgstr "平台偏差"
+
+#: modules/graph/graph_terraces.c:646 modules/process/terracefit.c:503
+msgid "Number of terraces"
+msgstr "平台数量"
+
+#: modules/graph/graph_terraces.c:730 modules/process/terracefit.c:840
+msgid "Survey cannot be run with independent heights."
+msgstr "使用独立高度时无法运行参数扫描。"
+
+#: modules/graph/graph_terraces.c:732 modules/process/terracefit.c:842
+msgid "No free parameters are selected."
+msgstr "未选择自由参数。"
+
+#: modules/graph/graph_terraces.c:734 modules/process/terracefit.c:844
+#, c-format
+msgid "Number of combinations: %u."
+msgstr "组合数：%u。"
+
+#: modules/graph/graph_terraces.c:787 modules/graph/graph_terraces.c:872
+#, c-format
+msgid "Segment %u"
+msgstr "段 %u"
+
+#: modules/graph/graph_terraces.c:894
+#, c-format
+msgid "Level %d"
+msgstr "层级 %d"
+
+#: modules/graph/graph_terraces.c:1552 modules/graph/graph_terraces.c:1566
+#: modules/graph/graph_terraces.c:1699 modules/graph/graph_terraces.c:1713
+#: modules/process/fit-shape.c:1494 modules/process/terracefit.c:1314
+#: modules/process/terracefit.c:1330 modules/process/terracefit.c:1481
+#: modules/process/terracefit.c:1497
+msgid "Fit failed"
+msgstr "拟合失败"
+
+#: modules/graph/graph_terraces.c:1739 modules/process/terracefit.c:1528
+msgid "No suitable terrace steps found"
+msgstr "未找到合适的平台阶跃"
+
+#: modules/graph/graph_terraces.c:1819 modules/process/terracefit.c:1699
+#: modules/process/terracefit.c:2059
+msgid "No terraces were found"
+msgstr "未找到台阶平台"
+
+#: modules/graph/graph_terraces.c:2083 modules/process/terracefit.c:2310
+msgid "Save Terrace Fit Survey"
+msgstr "保存台阶平台拟合参数扫描结果"
+
+#: modules/layer/lattice.c:126
+msgid "Layer allowing selection of a two-dimensional lattice."
+msgstr "允许选择二维晶格的图层。"
+
+#: modules/process/acf2d.c:140
+msgid "Calculates and analyzes two-dimensional autocorrelation function."
+msgstr "计算并分析二维自相关函数。"
+
+#: modules/process/acf2d.c:154
+msgid "/_Statistics/2D Auto_correlation..."
+msgstr "/统计(_S)/二维自相关(_C)..."
+
+#: modules/process/acf2d.c:158
+msgid "Calculate 2D autocorrelation function"
+msgstr "计算二维自相关函数"
+
+#: modules/process/acf2d.c:167
+msgid "data-adjustment|None"
+msgstr "无"
+
+#: modules/process/acf2d.c:168
+msgid "Mean value subtraction"
+msgstr "减去平均值"
+
+#: modules/process/acf2d.c:169
+msgid "Plane leveling"
+msgstr "平面调平"
+
+#: modules/process/acf2d.c:185 modules/process/measure_lattice.c:196
+#: modules/process/psdf2d.c:164 modules/volume/volume_extract.c:317
+msgid "Zoom"
+msgstr "缩放"
+
+#: modules/process/acf2d.c:186
+msgid "Data adjustment"
+msgstr "数据调整"
+
+#: modules/process/acf2d.c:189
+msgid "Create ACF image"
+msgstr "创建 ACF 图像"
+
+#: modules/process/acf2d.c:190 modules/process/psdf2d.c:169
+msgid "Only zoomed part"
+msgstr "仅缩放部分"
+
+#: modules/process/acf2d.c:194 modules/process/multiprofile.c:152
+#: modules/process/psdf2d.c:173 modules/process/straighten_path.c:145
+#: modules/tools/cprofile.c:151 modules/tools/pathlevel.c:126
+#: modules/tools/profile.c:197 modules/tools/roughness.c:193
+msgid "_Thickness"
+msgstr "厚度(_T)"
+
+#: modules/process/acf2d.c:195 modules/process/psdf2d.c:174
+msgid "_Separate curves"
+msgstr "分离曲线(_S)"
+
+#: modules/process/acf2d.c:199 modules/process/blockstep.c:140
+#: modules/process/calcoefs_simple.c:468 modules/process/mark_disconn.c:122
+#: modules/process/zero_crossing.c:122
+msgid "_Threshold"
+msgstr "阈值(_T)"
+
+#: modules/process/acf2d.c:254
+msgid "2D ACF"
+msgstr "二维 ACF"
+
+#: modules/process/acf2d.c:313 modules/process/acf2d.c:408
+msgid "Autocorrelation Function"
+msgstr "自相关函数"
+
+#: modules/process/acf2d.c:337
+msgid "ACF Section"
+msgstr "ACF 截面"
+
+#: modules/process/acf2d.c:411 modules/process/curvature.c:507
+#: modules/process/psdf2d.c:384 modules/process/terracefit.c:497
+#: modules/tools/corrlen.c:1081 modules/tools/stats.c:709
+msgid "Mask in use"
+msgstr "使用的掩膜"
+
+#: modules/process/acf2d.c:414 modules/process/col_synth.c:150
+#: modules/process/fft_synth.c:131 modules/process/fft_synth.c:135
+msgid "Autocorrelation length"
+msgstr "自相关长度"
+
+#: modules/process/acf2d.c:416
+msgid "Slowest decay length"
+msgstr "最慢衰减长度"
+
+#: modules/process/acf2d.c:417
+msgid "Fastest decay direction"
+msgstr "最快衰减方向"
+
+#: modules/process/acf2d.c:418
+msgid "Slowest decay direction"
+msgstr "最慢衰减方向"
+
+#: modules/process/acf2d.c:419
+msgid "Texture aspect ratio"
+msgstr "纹理纵横比"
+
+#: modules/process/acf2d.c:595
+#, c-format
+msgid "ACF %.0f°"
+msgstr "ACF %.0f°"
+
+#: modules/process/angle_dist.c:112 modules/process/slope_dist.c:149
+msgid "Output size"
+msgstr "输出尺寸"
+
+#: modules/process/angle_dist.c:114 modules/process/slope_dist.c:150
+msgid "_Logarithmic value scale"
+msgstr "数值采用对数刻度(_L)"
+
+#: modules/process/angle_dist.c:115 modules/process/entropy.c:129
+#: modules/process/slope_dist.c:151
+msgid "Use local plane _fitting"
+msgstr "使用局部平面拟合(_F)"
+
+#: modules/process/angle_dist.c:116 modules/process/slope_dist.c:152
+msgid "Plane size"
+msgstr "平面大小"

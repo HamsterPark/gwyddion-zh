@@ -1,0 +1,439 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 19:47+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/mfm_field.c:157 modules/process/mfm_parallel.c:166
+msgid "_Probe type"
+msgstr "探针类型(_P)"
+
+#: modules/process/mfm_field.c:161 modules/process/mfm_parallel.c:169
+msgid "_Film thickness"
+msgstr "薄膜厚度(_F)"
+
+#: modules/process/mfm_recalc.c:122 modules/volume/volume_mfmrecalc.c:77
+msgid "Converts the MFM data to force gradient."
+msgstr "将 MFM 数据转换为力梯度。"
+
+#: modules/process/mfm_recalc.c:140 modules/volume/volume_mfmrecalc.c:95
+msgid "Recalculate to force gradient"
+msgstr "重新计算为力梯度"
+
+#: modules/process/mfm_recalc.c:150 modules/volume/volume_mfmrecalc.c:104
+msgid "Phase (radians)"
+msgstr "相位（弧度）"
+
+#: modules/process/mfm_recalc.c:151 modules/volume/volume_mfmrecalc.c:105
+msgid "Phase (degrees)"
+msgstr "相位（度）"
+
+#: modules/process/mfm_recalc.c:152 modules/volume/volume_mfmrecalc.c:106
+msgid "Frequency shift"
+msgstr "频率偏移"
+
+#: modules/process/mfm_recalc.c:153 modules/volume/volume_mfmrecalc.c:107
+msgid "Amplitude (V)"
+msgstr "振幅（V）"
+
+#: modules/process/mfm_recalc.c:154 modules/volume/volume_mfmrecalc.c:108
+msgid "Amplitude (m)"
+msgstr "振幅（m）"
+
+#: modules/process/mfm_recalc.c:157 modules/volume/volume_mfmrecalc.c:111
+msgid "Force gradient"
+msgstr "力梯度"
+
+#: modules/process/mfm_recalc.c:158 modules/volume/volume_mfmrecalc.c:112
+msgid "MFM force gradient"
+msgstr "MFM 力梯度"
+
+#: modules/process/mfm_recalc.c:159 modules/volume/volume_mfmrecalc.c:113
+msgid "Pixel area MFM force gradient"
+msgstr "按像素面积归一化的 MFM 力梯度"
+
+#: modules/process/mfm_recalc.c:172 modules/volume/volume_mfmrecalc.c:126
+msgid "_Spring constant"
+msgstr "弹簧常数(_S)"
+
+#: modules/process/mfm_recalc.c:174 modules/volume/volume_mfmrecalc.c:128
+msgid "_Quality factor"
+msgstr "品质因数(_Q)"
+
+#: modules/process/mfm_recalc.c:176 modules/volume/volume_mfmrecalc.c:130
+msgid "_Base frequency"
+msgstr "基准频率(_B)"
+
+#: modules/process/mfm_recalc.c:178 modules/volume/volume_mfmrecalc.c:132
+msgid "_Base amplitude"
+msgstr "基准振幅(_B)"
+
+#: modules/process/mfm_recalc.c:182 modules/volume/volume_mfmrecalc.c:124
+msgid "Result _type"
+msgstr "结果类型(_T)"
+
+#: modules/process/mfm_recalc.c:198 modules/volume/volume_mfmrecalc.c:144
+msgid "Data value units must be deg, rad, m, Hz or V for the recalculation"
+msgstr "重新计算时，数据值的单位必须为 deg、rad、m、Hz 或 V"
+
+#: modules/process/mfm_recalc.c:304 modules/volume/volume_mfmrecalc.c:213
+msgid "MFM Recalculate Data"
+msgstr "MFM 数据重新计算"
+
+#: modules/process/multiprofile.c:111
+msgid ""
+"Displays and extracts scan line graphs from multiple images simultaneously."
+msgstr "同时显示和提取多幅图像的扫描线曲线。"
+
+#: modules/process/multiprofile.c:125
+msgid "/M_ultidata/_Multiprofile..."
+msgstr "/多数据(_U)/多剖面(_M)..."
+
+#: modules/process/multiprofile.c:129
+msgid "Read lines from multiple images simultaneously"
+msgstr "同时读取多幅图像中的扫描线"
+
+#: modules/process/multiprofile.c:138
+msgid "All profiles"
+msgstr "所有剖面"
+
+#: modules/process/multiprofile.c:139
+msgid "Mean and deviation"
+msgstr "平均值与偏差"
+
+#: modules/process/multiprofile.c:140
+msgid "Minimum and maximum"
+msgstr "最小值和最大值"
+
+#: modules/process/multiprofile.c:151
+msgid "_Scan line"
+msgstr "扫描线(_S)"
+
+#: modules/process/multiprofile.c:154
+msgid "Use _first mask for all images"
+msgstr "对所有图像使用第一个掩膜(_F)"
+
+#: modules/process/multiprofile.c:156 modules/tools/cprofile.c:148
+msgid "_Mode"
+msgstr "模式(_M)"
+
+#: modules/process/multiprofile.c:233
+msgid "Multiprofile"
+msgstr "多剖面"
+
+#: modules/process/multiprofile.c:782 modules/process/multiprofile.c:793
+msgid "Lower"
+msgstr "下限"
+
+#: modules/process/multiprofile.c:784 modules/process/multiprofile.c:794
+msgid "Upper"
+msgstr "上限"
+
+#: modules/process/neural.c:219 modules/volume/volume_mfmrecalc.c:122
+msgid "Signal"
+msgstr "信号"
+
+#: modules/process/obj_synth.c:282 modules/process/pileup_synth.c:219
+msgid "Colum_narity"
+msgstr "柱状度(_N)"
+
+#: modules/process/obj_synth.c:283 modules/process/pileup_synth.c:220
+msgid "_Avoid stacking"
+msgstr "避免堆叠(_A)"
+
+#: modules/process/obj_synth.c:286 modules/process/pileup_synth.c:223
+msgid "_Aspect ratio"
+msgstr "纵横比(_A)"
+
+#: modules/process/obj_synth.c:416 modules/process/pileup_synth.c:348
+msgid "Aspect Ratio"
+msgstr "纵横比"
+
+#: modules/process/outliers.c:41
+msgid "Creates mask of outliers."
+msgstr "为异常值创建掩膜。"
+
+#: modules/process/outliers.c:55
+msgid "/_Correct Data/Mask of _Outliers"
+msgstr "/校正数据(_C)/异常值掩膜(_O)"
+
+#: modules/process/outliers.c:59
+msgid "Mark data farther than 3σ from mean value"
+msgstr "标记与平均值相距超过 3σ 的数据"
+
+#: modules/process/pat_synth.c:2018 modules/process/pat_synth.c:2129
+#: modules/process/pat_synth.c:2254 modules/process/wave_synth.c:207
+msgid "_X center"
+msgstr "X 中心(_X)"
+
+#: modules/process/pat_synth.c:2019 modules/process/pat_synth.c:2130
+#: modules/process/pat_synth.c:2255 modules/process/wave_synth.c:209
+msgid "_Y center"
+msgstr "Y 中心(_Y)"
+
+#: modules/process/plateau_synth.c:179 modules/process/residue_synth.c:156
+msgid "Size power _law"
+msgstr "尺寸幂律(_L)"
+
+#: modules/process/polylevel.c:101
+msgid "Independent degrees"
+msgstr "独立阶数"
+
+#: modules/process/polylevel.c:102
+msgid "Limited total degree"
+msgstr "限制总阶数"
+
+#: modules/process/polylevel.c:108
+msgid "Subtracts polynomial background."
+msgstr "扣除多项式背景。"
+
+#: modules/process/polylevel.c:122
+msgid "/_Level/_Polynomial Background..."
+msgstr "/调平(_L)/多项式背景(_P)..."
+
+#: modules/process/polylevel.c:141
+msgid "_Horizontal polynomial degree"
+msgstr "水平多项式阶数(_H)"
+
+#: modules/process/polylevel.c:143
+msgid "_Vertical polynomial degree"
+msgstr "垂直多项式阶数(_V)"
+
+#: modules/process/polylevel.c:148
+msgid "_Same degrees"
+msgstr "相同阶数(_S)"
+
+#: modules/process/polylevel.c:394
+msgid "Polynomial Coefficients"
+msgstr "多项式系数"
+
+#: modules/process/polylevel.c:432 modules/process/smm.c:574
+msgid "Save table to a file"
+msgstr "将表格保存到文件"
+
+#: modules/process/polylevel.c:439 modules/process/smm.c:581
+msgid "Copy table to clipboard"
+msgstr "将表格复制到剪贴板"
+
+#: modules/process/polylevel.c:613 modules/process/smm.c:1223
+#: modules/tools/selectionmanager.c:679
+msgid "Save Table"
+msgstr "保存表格"
+
+#: modules/process/psdf2d.c:124
+msgid ""
+"Calculates two-dimensional power spectrum density function and extracts its "
+"linear profiles."
+msgstr "计算二维功率谱密度函数并提取其线性剖面。"
+
+#: modules/process/psdf2d.c:138
+msgid "/_Statistics/2D _PSDF..."
+msgstr "/统计(_S)/二维 PSDF(_P)..."
+
+#: modules/process/psdf2d.c:142
+msgid "Calculate 2D power spectrum density"
+msgstr "计算二维功率谱密度"
+
+#: modules/process/psdf2d.c:168
+msgid "Create PSDF image"
+msgstr "创建 PSDF 图像"
+
+#: modules/process/psdf2d.c:229
+msgid "2D PSDF"
+msgstr "二维 PSDF"
+
+#: modules/process/psdf2d.c:288
+msgid "Power Spectrum Density"
+msgstr "功率谱密度"
+
+#: modules/process/psdf2d.c:312
+msgid "PSDF Section"
+msgstr "PSDF 截面"
+
+#: modules/process/psdf2d.c:381
+msgid "Power Spectral Density"
+msgstr "功率谱密度"
+
+#: modules/process/psdf2d.c:387
+msgid "Texture direction"
+msgstr "纹理方向"
+
+#: modules/process/psdf2d.c:391
+msgid "Texture direction index"
+msgstr "纹理方向指数"
+
+#: modules/process/psdf2d.c:577
+#, c-format
+msgid "PSDF %.0f°"
+msgstr "PSDF %.0f°"
+
+#: modules/process/psdf_logphi.c:59
+msgid ""
+"Two-dimensional FFT (Fast Fourier Transform) transformed to coordinates (log-"
+"frequency, angle)."
+msgstr "将二维 FFT（快速傅里叶变换）转换到（对数频率，角度）坐标。"
+
+#: modules/process/psdf_logphi.c:73
+msgid "/_Statistics/_Log-Phi PSDF..."
+msgstr "/统计(_S)/Log-Phi PSDF(_L)..."
+
+#: modules/process/psdf_logphi.c:77
+msgid "Compute PSDF in Log-Phi coordinates"
+msgstr "计算 Log-Phi 坐标下的 PSDF"
+
+#: modules/process/psdf_logphi.c:92 modules/process/wpour_mark.c:164
+msgid "Gaussian _smoothing"
+msgstr "高斯平滑(_S)"
+
+#: modules/process/psdf_logphi.c:139
+msgid "Log-Phi PSDF"
+msgstr "Log-Phi PSDF"
+
+#: modules/process/psf-fit.c:218 modules/process/psf-fit.c:280
+#: modules/process/psf.c:199 modules/process/psf.c:210
+#: modules/process/psf.c:286 modules/volume/volume_psf.c:186
+#: modules/volume/volume_psf.c:230
+msgid "Transfer function"
+msgstr "传递函数"
+
+#: modules/process/psf-fit.c:233 modules/process/relate.c:272
+msgid "_Function type"
+msgstr "函数类型(_F)"
+
+#: modules/process/psf-fit.c:239 modules/process/psf.c:221
+#: modules/volume/volume_psf.c:241
+msgid "_Ideal response"
+msgstr "理想响应(_I)"
+
+#: modules/process/psf.c:186 modules/volume/volume_psf.c:211
+msgid "/_Statistics/_Transfer Function Guess..."
+msgstr "/统计(_S)/估计传递函数(_T)..."
+
+#: modules/process/psf.c:204 modules/volume/volume_psf.c:224
+msgid "Regularized filter"
+msgstr "正则化滤波器"
+
+#: modules/process/psf.c:205 modules/volume/volume_psf.c:225
+msgid "Least squares"
+msgstr "最小二乘法"
+
+#: modules/process/psf.c:206 modules/volume/volume_psf.c:226
+msgid "Wiener filter"
+msgstr "维纳滤波器"
+
+#: modules/process/psf.c:222 modules/volume/volume_psf.c:242
+msgid "_Border"
+msgstr "边界(_B)"
+
+#: modules/process/psf.c:261 modules/volume/volume_psf.c:288
+msgid "Image is too small."
+msgstr "图像太小。"
+
+#: modules/process/psf.c:326 modules/volume/volume_psf.c:335
+msgid "Estimate Transfer Function"
+msgstr "估计传递函数"
+
+#: modules/process/psf.c:328 modules/volume/volume_psf.c:337
+msgid "_Fit Sigma"
+msgstr "拟合 Sigma(_F)"
+
+#: modules/process/psf.c:346 modules/volume/volume_psf.c:364
+msgid "Transfer Function Size"
+msgstr "传递函数尺寸"
+
+#: modules/process/psf.c:357 modules/volume/volume_psf.c:375
+msgid "_Full Size"
+msgstr "完整尺寸(_F)"
+
+#: modules/process/psf.c:359 modules/volume/volume_psf.c:377
+msgid "_Estimate Size"
+msgstr "估计尺寸(_E)"
+
+#: modules/process/psf.c:400 modules/volume/volume_psf.c:422
+msgid "Transfer Function"
+msgstr "传递函数"
+
+#: modules/process/psf.c:405 modules/volume/volume_psf.c:187
+#: modules/volume/volume_psf.c:427
+msgid "TF width"
+msgstr "传递函数宽度"
+
+#: modules/process/psf.c:406 modules/volume/volume_psf.c:188
+#: modules/volume/volume_psf.c:428
+msgid "TF height"
+msgstr "传递函数高度"
+
+#: modules/process/psf.c:407 modules/volume/volume_psf.c:189
+#: modules/volume/volume_psf.c:429
+msgid "TF norm"
+msgstr "传递函数范数"
+
+#: modules/process/psf.c:408 modules/volume/volume_psf.c:190
+#: modules/volume/volume_psf.c:430
+msgid "Difference norm"
+msgstr "差值范数"
+
+#: modules/process/rank-filter.c:82
+msgid ""
+"General k-th rank filter replacing data with k-th rank values from the "
+"neighborhood."
+msgstr "通用第 k 秩滤波器：将数据替换为邻域中第 k 秩的值。"
+
+#: modules/process/rank-filter.c:96
+msgid "/_Integral Transforms/_Rank Filter..."
+msgstr "/积分变换(_I)/秩滤波器(_R)..."
+
+#: modules/process/rank-filter.c:100
+msgid "K-th rank filter"
+msgstr "第 k 秩滤波器"
+
+#: modules/process/rank-filter.c:115
+msgid "_Pixel radius"
+msgstr "像素半径(_P)"
+
+#: modules/process/rank-filter.c:116 modules/process/rank-filter.c:117
+#: modules/process/trimmed-mean.c:113 modules/process/trimmed-mean.c:114
+msgid "_Percentile"
+msgstr "百分位数(_P)"
+
+#: modules/process/rank-filter.c:118 modules/process/rank-filter.c:119
+msgid "Ra_nk"
+msgstr "秩(_N)"
+
+#: modules/process/rank-filter.c:120
+msgid "_Second filter"
+msgstr "第二个滤波器(_S)"
+
+#: modules/process/rank-filter.c:121
+msgid "Calculate _difference"
+msgstr "计算差值(_D)"
+
+#: modules/process/rank-filter.c:192
+msgid "Rank difference"
+msgstr "秩差"
+
+#: modules/process/rank-filter.c:194
+#, c-format
+msgid "Rank filtered (%.1f %%)"
+msgstr "秩滤波（%.1f %%）"
+
+#: modules/process/rank-filter.c:211
+msgid "Rank Filter"
+msgstr "秩滤波器"
+
+#: modules/process/rank-filter.c:217 modules/process/trimmed-mean.c:213
+msgid "Kernel Size"
+msgstr "核大小"

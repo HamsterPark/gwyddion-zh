@@ -1,0 +1,495 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: libgwyddion/gwyexpr.c:863
+msgid "Invalid token"
+msgstr "无效的词法单元"
+
+#: libgwyddion/gwyexpr.c:871
+msgid "Empty expression"
+msgstr "空表达式"
+
+#. TRANSLATORS: %c is replaced with +, -, *, /, etc.
+#: libgwyddion/gwyexpr.c:1105
+#, c-format
+msgid "Missing operator %c argument"
+msgstr "缺少运算符 %c 的操作数"
+
+#. TRANSLATORS: %c is replaced with +, -, *, /, etc.
+#: libgwyddion/gwyexpr.c:1112
+#, c-format
+msgid "Invalid operator %c argument"
+msgstr "运算符 %c 的操作数无效"
+
+#. TRANSLATORS: %s is replaced with sin, cos, sqrt, etc.
+#: libgwyddion/gwyexpr.c:1160
+#, c-format
+msgid "Missing argument of %s"
+msgstr "缺少 %s 的参数"
+
+#. TRANSLATORS: %s is replaced with sin, cos, sqrt, etc.
+#: libgwyddion/gwyexpr.c:1167
+#, c-format
+msgid "Invalid argument of %s"
+msgstr "%s 的参数无效"
+
+#: libgwyddion/gwyexpr.c:1216
+msgid "Missing opening parenthesis"
+msgstr "缺少左括号"
+
+#: libgwyddion/gwyexpr.c:1257
+msgid "Missing closing parenthesis"
+msgstr "缺少右括号"
+
+#: libgwyddion/gwyexpr.c:1261
+msgid "Empty parentheses"
+msgstr "空括号"
+
+#: libgwyddion/gwyexpr.c:1269
+msgid "Stray comma"
+msgstr "多余的逗号"
+
+#: libgwyddion/gwyexpr.c:1304
+#, c-format
+msgid "Stray symbol %d"
+msgstr "多余的符号 %d"
+
+#: libgwyddion/gwyexpr.c:1355
+msgid "Trailing garbage"
+msgstr "末尾存在多余内容"
+
+#: libgwyddion/gwyexpr.c:1374
+msgid "Stack is not executable"
+msgstr "堆栈无法执行"
+
+#: libgwyddion/gwyexpr.c:1484
+msgid "Unresolved identifiers"
+msgstr "未解析的标识符"
+
+#: libgwyddion/gwyfdcurvepreset.c:1270
+msgid "vdW: semisphere"
+msgstr "vdW：半球"
+
+#: libgwyddion/gwyfdcurvepreset.c:1284
+msgid "vdW: pyramide"
+msgstr "vdW：棱锥"
+
+#: libgwyddion/gwyfdcurvepreset.c:1296
+msgid "vdW: truncated pyramid"
+msgstr "vdW：截棱锥"
+
+#: libgwyddion/gwyfdcurvepreset.c:1308
+msgid "vdW: sphere"
+msgstr "vdW：球体"
+
+#: libgwyddion/gwyfdcurvepreset.c:1320
+msgid "vdW: offset sphere"
+msgstr "vdW：偏移球体"
+
+#: libgwyddion/gwyfdcurvepreset.c:1332
+msgid "vdW: two spheres"
+msgstr "vdW：双球体"
+
+#: libgwyddion/gwyfdcurvepreset.c:1345
+msgid "vdW: cone"
+msgstr "vdW：圆锥"
+
+#: libgwyddion/gwyfdcurvepreset.c:1357
+msgid "vdW: cylinder"
+msgstr "vdW：圆柱"
+
+#: libgwyddion/gwyfdcurvepreset.c:1369
+msgid "vdW: paraboloid"
+msgstr "vdW：抛物面"
+
+#: libgwyddion/gwyfdcurvepreset.c:1381
+msgid "Hertz: spherical"
+msgstr "Hertz：球形"
+
+#: libgwyddion/gwyfdcurvepreset.c:1393
+msgid "Hertz: spherical, fixed film"
+msgstr "Hertz：球形，固定薄膜"
+
+#: libgwyddion/gwyfdcurvepreset.c:1405
+msgid "Hertz: spherical, free film"
+msgstr "Hertz：球形，自由薄膜"
+
+#: libgwyddion/gwyfdcurvepreset.c:1417
+msgid "DMT: spherical"
+msgstr "DMT：球形"
+
+#: libgwyddion/gwyfdcurvepreset.c:1429
+msgid "Sneddon: conical"
+msgstr "Sneddon：圆锥形"
+
+#: libgwyddion/gwyfdcurvepreset.c:1441
+msgid "Sneddon: conical, fixed film"
+msgstr "Sneddon：圆锥形，固定薄膜"
+
+#: libgwyddion/gwyfdcurvepreset.c:1453
+msgid "Sneddon: conical, free film"
+msgstr "Sneddon：圆锥形，自由薄膜"
+
+#: libgwyddion/gwyinventory.c:1309 libgwydgets/gwycombobox.c:466
+#: libgwydgets/gwycombobox.c:527 libgwydgets/gwygraphwindow.c:718
+#: app/data-browser-aux.c:1351 app/data-browser-aux.c:1423
+#: app/data-browser-aux.c:1479 app/data-browser-aux.c:1535
+#: app/data-browser-aux.c:3202 app/data-browser-aux.c:3213
+#: app/data-browser.c:2348 app/data-browser.c:3050 app/data-browser.c:3807
+#: app/data-browser.c:3909 app/data-browser.c:4137 app/data-browser.c:4453
+#: app/data-browser.c:4572 app/data-browser.c:4941 app/data-browser.c:5008
+#: app/data-browser.c:5332 app/gwyappfilechooser.c:1285
+#: app/gwyresultsexport.c:808 app/resource-editor.c:360
+#: modules/cmap/cmap_align.c:658 modules/cmap/cmap_align.c:659
+#: modules/cmap/cmap_curvefilter.c:194 modules/cmap/cmap_cutter.c:345
+#: modules/cmap/cmap_cutter.c:668 modules/cmap/cmap_extractcurve.c:568
+#: modules/cmap/cmap_extractcurve.c:569 modules/cmap/cmap_fdfit.c:1187
+#: modules/cmap/cmap_fdfit.c:1188 modules/cmap/cmap_filter.c:585
+#: modules/cmap/cmap_filter.c:586 modules/cmap/cmap_fit.c:1145
+#: modules/cmap/cmap_fit.c:1146 modules/cmap/cmap_fztofd.c:507
+#: modules/cmap/cmap_fztofd.c:508 modules/cmap/cmap_linestat.c:417
+#: modules/cmap/cmap_lockin.c:879 modules/cmap/cmap_peaks.c:443
+#: modules/cmap/cmap_polylevel.c:692 modules/cmap/cmap_polylevel.c:693
+#: modules/cmap/cmap_possearch.c:644 modules/cmap/cmap_possearch.c:645
+#: modules/cmap/cmap_simplemech.c:1002 modules/cmap/cmap_simplemech.c:1003
+#: modules/cmap/cmap_sinebg.c:630 modules/cmap/cmap_sinebg.c:631
+#: modules/file/formats3d.c:913 modules/file/lafmdmap.c:203
+#: modules/file/xyzexport.c:181 modules/process/batchcolor.c:1277
+#: modules/process/convolution_filter.c:658
+msgid "Untitled"
+msgstr "未命名"
+
+#: libgwyddion/gwynlfit.c:402 modules/cmap/cmap_fdfit.c:862
+#: modules/cmap/cmap_fit.c:884 modules/cmap/cmap_lockin.c:576
+#: modules/cmap/cmap_sinebg.c:451 modules/process/fit-shape.c:1349
+msgid "Fitting..."
+msgstr "正在拟合..."
+
+#: libgwyddion/gwynlfitpreset.c:1587 libprocess/gwyprocessenums.c:94
+#: libprocess/gwyshapefitpreset.c:538 modules/process/psf-fit.c:172
+#: modules/tools/corrlen.c:144
+msgid "Gaussian"
+msgstr "高斯"
+
+#: libgwyddion/gwynlfitpreset.c:1602
+msgid "Gaussian (PSDF)"
+msgstr "高斯（PSDF）"
+
+#: libgwyddion/gwynlfitpreset.c:1615
+msgid "Gaussian (ACF)"
+msgstr "高斯（ACF）"
+
+#: libgwyddion/gwynlfitpreset.c:1628
+msgid "Gaussian (HHCF)"
+msgstr "高斯（HHCF）"
+
+#: libgwyddion/gwynlfitpreset.c:1641
+msgid "Gaussian (RPSDF)"
+msgstr "高斯（RPSDF）"
+
+#: libgwyddion/gwynlfitpreset.c:1654
+msgid "Two Gaussians (PSDF)"
+msgstr "双高斯（PSDF）"
+
+#: libgwyddion/gwynlfitpreset.c:1669 libprocess/gwyshapefitpreset.c:551
+#: modules/tools/corrlen.c:145 modules/xyz/xyz_drift.c:832
+#: modules/xyz/xyz_drift.c:837 modules/xyz/xyz_drift.c:1811
+msgid "Exponential"
+msgstr "指数"
+
+#: libgwyddion/gwynlfitpreset.c:1681
+msgid "Exponential (PSDF)"
+msgstr "指数（PSDF）"
+
+#: libgwyddion/gwynlfitpreset.c:1694
+msgid "Exponential (ACF)"
+msgstr "指数（ACF）"
+
+#: libgwyddion/gwynlfitpreset.c:1706
+msgid "Exponential (HHCF)"
+msgstr "指数（HHCF）"
+
+#: libgwyddion/gwynlfitpreset.c:1719
+msgid "Exponential (RPSDF)"
+msgstr "指数（RPSDF）"
+
+#: libgwyddion/gwynlfitpreset.c:1733
+msgid "K-correlated (PSDF)"
+msgstr "K 相关（PSDF）"
+
+#: libgwyddion/gwynlfitpreset.c:1747
+msgid "Power-exponential (ACF)"
+msgstr "幂指数（ACF）"
+
+#: libgwyddion/gwynlfitpreset.c:1760
+msgid "Polynomial (order 0)"
+msgstr "多项式（0 阶）"
+
+#: libgwyddion/gwynlfitpreset.c:1771 modules/xyz/xyz_drift.c:1797
+msgid "Polynomial (order 1)"
+msgstr "多项式（1 阶）"
+
+#: libgwyddion/gwynlfitpreset.c:1782
+msgid "Polynomial (order 2)"
+msgstr "多项式（2 阶）"
+
+#: libgwyddion/gwynlfitpreset.c:1794
+msgid "Polynomial (order 3)"
+msgstr "多项式（3 阶）"
+
+#: libgwyddion/gwynlfitpreset.c:1807
+msgid "Polynomial (order 4)"
+msgstr "多项式（4 阶）"
+
+#: libgwyddion/gwynlfitpreset.c:1820
+msgid "Polynomial (order 5)"
+msgstr "多项式（5 阶）"
+
+#: libgwyddion/gwynlfitpreset.c:1834
+msgid "Square wave"
+msgstr "方波"
+
+#: libgwyddion/gwynlfitpreset.c:1850
+msgid "Parabolic step"
+msgstr "抛物线阶跃"
+
+#: libgwyddion/gwynlfitpreset.c:1866
+msgid "Smooth slanted step"
+msgstr "平滑倾斜阶跃"
+
+#: libgwyddion/gwynlfitpreset.c:1883
+msgid "Smooth bent step"
+msgstr "平滑弯曲阶跃"
+
+#: libgwyddion/gwynlfitpreset.c:1899
+msgid "Boltzmann bent step"
+msgstr "玻尔兹曼弯曲阶跃"
+
+#: libgwyddion/gwynlfitpreset.c:1915 modules/process/relate.c:221
+msgid "Power"
+msgstr "幂函数"
+
+#: libgwyddion/gwynlfitpreset.c:1927 libprocess/gwyshapefitpreset.c:539
+msgid "Lorentzian"
+msgstr "洛伦兹"
+
+#: libgwyddion/gwynlfitpreset.c:1941
+msgid "Sinc"
+msgstr "Sinc"
+
+#: libgwyddion/gwynlfitpreset.c:1953
+msgid "Sine"
+msgstr "正弦"
+
+#: libgwyddion/gwyresource.c:886
+msgid "Resource directory cannot be created."
+msgstr "无法创建资源目录。"
+
+#: libgwyddion/gwyresults.c:1679
+msgid "Yes"
+msgstr "是"
+
+#: libgwyddion/gwyresults.c:1679
+msgid "No"
+msgstr "否"
+
+#: libgwyddion/gwyresults.c:1695
+msgid "(fixed)"
+msgstr "（固定）"
+
+#: libgwyddion/gwyresults.c:1801 libgwydgets/gwy3dwindow.c:836
+#: libgwydgets/gwy3dwindow.c:841 libgwydgets/gwy3dwindow.c:1011
+#: libgwydgets/gwy3dwindow.c:1018 app/param-table.c:7320
+#: modules/process/correct_affine.c:459 modules/process/facet_analysis.c:604
+#: modules/process/facet_analysis.c:641 modules/process/facet_analysis.c:643
+#: modules/process/facet_analysis.c:645 modules/process/facet_analysis.c:679
+#: modules/process/facet_analysis.c:910 modules/process/facet_analysis.c:911
+#: modules/process/facet_analysis.c:1142 modules/process/facet_analysis.c:1144
+#: modules/process/facet_analysis.c:1146 modules/process/facet_measure.c:362
+#: modules/process/facet_measure.c:366 modules/process/facet_measure.c:368
+#: modules/process/facet_measure.c:535 modules/process/facet_measure.c:536
+#: modules/process/facet_measure.c:537 modules/process/facet_measure.c:541
+#: modules/process/facet_measure.c:957 modules/process/facet_measure.c:959
+#: modules/process/facet_measure.c:961 modules/process/grain_stat.c:358
+#: modules/process/grain_stat.c:622 modules/process/indent_analyze.c:346
+#: modules/process/measure_lattice.c:272 modules/process/rotate.c:280
+#: modules/tools/distance.c:180 modules/tools/distance.c:484
+msgid "deg"
+msgstr "deg"
+
+#: libgwyddion/gwyresults.c:1971 modules/cmap/cmap_fdfit.c:513
+#: modules/cmap/cmap_fdfit.c:548 modules/cmap/cmap_fdfit.c:589
+#: modules/graph/graph_cd.c:710 modules/graph/graph_fdfit.c:814
+#: modules/graph/graph_fit.c:863 modules/process/grain_stat.c:261
+#: modules/tools/grainmeasure.c:202 modules/volume/volume_fdfit-WTF.c:1128
+#: modules/volume/volume_fdfit.c:1128 modules/xyz/xyz_drift.c:1092
+#: modules/xyz/xyz_drift.c:1110 modules/xyz/xyz_drift.c:1127
+msgid "N.A."
+msgstr "不可用"
+
+#: libgwyddion/gwyutils.c:1658
+#, c-format
+msgid "Data ended prematurely at line %d and column %d."
+msgstr "数据在第 %d 行、第 %d 列提前结束。"
+
+#: libgwyddion/gwyutils.c:1663
+#, c-format
+msgid "Malformed data encountered at line %d and column %d."
+msgstr "第 %d 行、第 %d 列遇到格式错误的数据。"
+
+#: libgwyddion/gwyutils.c:1681
+#, c-format
+msgid "Line %d has %d columns instead of expected %d."
+msgstr "第 %d 行有 %d 列，预期应为 %d 列。"
+
+#: libgwyddion/gwyutils.c:1716
+msgid "Empty data."
+msgstr "数据为空。"
+
+#: libprocess/cdline.c:568
+msgid "Edge height (right)"
+msgstr "边缘高度（右）"
+
+#: libprocess/cdline.c:569 libprocess/cdline.c:578
+#: modules/process/pat_synth.c:2274
+msgid "Edge"
+msgstr "边缘"
+
+#: libprocess/cdline.c:577
+msgid "Edge height (left)"
+msgstr "边缘高度（左）"
+
+#: libprocess/cdline.c:586
+msgid "Step height (positive)"
+msgstr "阶跃高度（正）"
+
+#: libprocess/cdline.c:587 libprocess/cdline.c:596
+#: libgwydgets/gwydgetenums.c:48 modules/process/hough.c:81
+msgid "Line"
+msgstr "线"
+
+#: libprocess/cdline.c:595
+msgid "Step height (negative)"
+msgstr "阶跃高度（负）"
+
+#: libprocess/cdline.c:604
+msgid "Circle (down)"
+msgstr "圆（向下）"
+
+#: libprocess/cdline.c:605 libprocess/cdline.c:614
+#: libgwydgets/gwygraphareadialog.c:552 modules/process/hough.c:82
+#: modules/process/pat_synth.c:2568
+msgid "Circle"
+msgstr "圆"
+
+#: libprocess/cdline.c:613
+msgid "Circle (up)"
+msgstr "圆（向上）"
+
+#: libprocess/gwygrainvalue.c:59
+msgid "Grain number"
+msgstr "颗粒编号"
+
+#: libprocess/gwygrainvalue.c:68 modules/process/curvature.c:510
+msgid "Center x position"
+msgstr "中心 x 位置"
+
+#: libprocess/gwygrainvalue.c:77 modules/process/curvature.c:511
+msgid "Center y position"
+msgstr "中心 y 位置"
+
+#: libprocess/gwygrainvalue.c:86
+msgid "Minimum value"
+msgstr "最小值"
+
+#: libprocess/gwygrainvalue.c:95
+msgid "Maximum value"
+msgstr "最大值"
+
+#: libprocess/gwygrainvalue.c:104 modules/graph/graph_stats.c:226
+#: modules/graph/graph_stats.c:238 modules/process/bdep_synth.c:110
+#: modules/tools/filter.c:141
+msgid "Mean value"
+msgstr "平均值"
+
+#: libprocess/gwygrainvalue.c:113 modules/tools/filter.c:142
+msgid "Median value"
+msgstr "中位数"
+
+#: libprocess/gwygrainvalue.c:122
+msgid "RMS value"
+msgstr "均方根值"
+
+#: libprocess/gwygrainvalue.c:131
+msgid "Minimum value on boundary"
+msgstr "边界上的最小值"
+
+#: libprocess/gwygrainvalue.c:140
+msgid "Maximum value on boundary"
+msgstr "边界上的最大值"
+
+#: libprocess/gwygrainvalue.c:149
+msgid "Pixel area"
+msgstr "面积（像素数）"
+
+#: libprocess/gwygrainvalue.c:158 modules/tools/stats.c:730
+msgid "Projected area"
+msgstr "投影面积"
+
+#: libprocess/gwygrainvalue.c:167 modules/tools/stats.c:734
+msgid "Surface area"
+msgstr "表面积"
+
+#: libprocess/gwygrainvalue.c:176
+msgid "Equivalent square side"
+msgstr "等效正方形边长"
+
+#: libprocess/gwygrainvalue.c:185
+msgid "Equivalent disc radius"
+msgstr "等效圆半径"
+
+#: libprocess/gwygrainvalue.c:194
+msgid "Area above half-height"
+msgstr "半高以上面积"
+
+#: libprocess/gwygrainvalue.c:203
+msgid "Area of convex hull"
+msgstr "凸包面积"
+
+#. TRANSLATORS: Grain volume calculated using basis (foot) set to
+#. * zero.
+#: libprocess/gwygrainvalue.c:214
+msgid "Zero basis volume"
+msgstr "零基准体积"
+
+#. TRANSLATORS: Grain volume calculated using basis (foot) set to the
+#. * grain minimum.
+#: libprocess/gwygrainvalue.c:225
+msgid "Grain minimum basis volume"
+msgstr "颗粒最小值基准体积"
+
+#. TRANSLATORS: Grain volume calculated using basis (foot) set to the
+#. * Laplacian background.
+#: libprocess/gwygrainvalue.c:236
+msgid "Laplacian background basis volume"
+msgstr "拉普拉斯背景基准体积"
+
+#: libprocess/gwygrainvalue.c:245
+msgid "Projected boundary length"
+msgstr "投影边界长度"

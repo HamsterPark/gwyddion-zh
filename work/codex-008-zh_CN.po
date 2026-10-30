@@ -1,0 +1,518 @@
+# Simplified Chinese translation for Gwyddion.
+# This file is distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gwyddion/tips.c:75
+msgid ""
+"Data presentations created by functions in Data Process → Presentation do "
+"not change the underlying data.  All subsequent operations still apply to "
+"the underlying data."
+msgstr "通过“数据处理 → 表示”中的功能创建的数据表示不会改变底层数据，所有后续操作仍作用于底层数据。"
+
+#: gwyddion/tips.c:88
+msgid ""
+"Pressing Ctrl-F runs the last used data processing function with with the "
+"same parameters on the current data."
+msgstr "按 Ctrl-F 可在当前数据上使用相同参数运行上一次使用的数据处理功能。"
+
+#: gwyddion/tips.c:93
+msgid ""
+"Pressing Ctrl-Shift-F re-shows the parameter dialog of the last used data "
+"processing function (or executes it immediately if it has no parameters)."
+msgstr "按 Ctrl-Shift-F 可重新显示上一次使用的数据处理功能的参数对话框（若该功能没有参数则立即执行）。"
+
+#: gwyddion/tips.c:100
+msgid ""
+"When Gwyddion is run with a directory argument it opens a file open dialog "
+"showing this directory."
+msgstr "使用目录作为参数启动 Gwyddion 时，会打开显示该目录的文件选择对话框。"
+
+#: gwyddion/tips.c:105
+msgid ""
+"File → Open Recent → Document History opens a browser of recently loaded "
+"files with the possibility to search them by name."
+msgstr "“文件 → 最近打开 → 文档历史”可打开最近加载文件的浏览器，并按名称搜索。"
+
+#: gwyddion/tips.c:111
+msgid ""
+"Automatic import of unrecognized files as raw data can be enabled/disabled "
+"in the Raw file import dialog."
+msgstr "可在原始文件导入对话框中启用或禁用将无法识别的文件自动作为原始数据导入。"
+
+#: gwyddion/tips.c:116
+msgid ""
+"To export the image of a channel to a pixmap graphic format (PNG, TIFF, "
+"JPEG, ...) just save it as this format with File → Save As."
+msgstr "要将通道图像导出为位图格式（PNG、TIFF、JPEG 等），使用“文件 → 另存为”将其保存为对应格式即可。"
+
+#: gwyddion/tips.c:122
+msgid "File → Merge imports all data from selected file to the current file."
+msgstr "“文件 → 合并”将选中文件中的所有数据导入当前文件。"
+
+#: gwyddion/tips.c:127
+msgid ""
+"Previews in the file open dialog can be shown with plane and/or line "
+"leveling applied.  Use the switches at the bottom of the preview list."
+msgstr "文件打开对话框中的预览可以应用平面调平和／或扫描线调平。使用预览列表底部的开关进行设置。"
+
+#: gwyddion/tips.c:134
+msgid ""
+"Your favorite false color gradient can be set as default in the gradient "
+"editor: Edit → Color Gradients.  The default gradient is shown in bold face."
+msgstr "可在渐变编辑器“编辑 → 颜色渐变”中将喜欢的伪彩色渐变设为默认。默认渐变以粗体显示。"
+
+#: gwyddion/tips.c:140
+msgid ""
+"Your favorite GL material can be set as default in the material editor: Edit "
+"→ GL Materials.  The default material is shown in bold face."
+msgstr "可在材质编辑器“编辑 → GL 材质”中将喜欢的 GL 材质设为默认。默认材质以粗体显示。"
+
+#: gwyddion/tips.c:146
+msgid ""
+"Edit → Default Mask Color sets the default mask color.  This color is used "
+"when a mask is created on data that have not had a mask before."
+msgstr "“编辑 → 默认掩膜颜色”可设置默认掩膜颜色。当为此前没有掩膜的数据创建掩膜时，会使用该颜色。"
+
+#: gwyddion/tips.c:152
+msgid ""
+"Each channel has its own metadata.  Display them by clicking with the right "
+"mouse button and choosing Metadata Browser."
+msgstr "每个通道都有自己的元数据。右键单击并选择“元数据浏览器”可查看。"
+
+#: gwyddion/tips.c:158
+msgid ""
+"Each volume data have their own metadata.  Display them by clicking with the "
+"right mouse button and choosing Metadata Browser."
+msgstr "每组体数据都有自己的元数据。右键单击并选择“元数据浏览器”可查看。"
+
+#: gwyddion/tips.c:164
+msgid ""
+"A record of applied data processing operations can be browsed using View Log "
+"in the channel or volume data right-click menu."
+msgstr "可通过通道或体数据的右键菜单中的“查看日志”浏览已执行的数据处理操作记录。"
+
+#: gwyddion/tips.c:170
+msgid ""
+"Curves can be copied to other (compatible) graphs by dragging them from "
+"Curves tab to the graph window."
+msgstr "将曲线从“曲线”选项卡拖到图表窗口，可将曲线复制到其他兼容的图表。"
+
+#: gwyddion/tips.c:175
+msgid "Graph curve properties can be edited by clicking on the curve."
+msgstr "单击图表中的曲线可编辑其属性。"
+
+#: gwyddion/tips.c:179
+msgid "Graph axis labels can be edited after by clicking on the label."
+msgstr "单击图表轴标签可编辑标签。"
+
+#: gwyddion/tips.c:183
+msgid ""
+"Graph key (legend) properties can be edited by double-clicking on the legend."
+msgstr "双击图例可编辑图例属性。"
+
+#: gwyddion/tips.c:188
+msgid ""
+"Curves can be deleted from graphs by selecting the curve in Curves tab and "
+"pressing Delete."
+msgstr "在“曲线”选项卡中选择曲线并按 Delete，可从图表中删除该曲线。"
+
+#: gwyddion/tips.c:194
+msgid "Key ‛+’ or ‛=’ zooms in a data window."
+msgstr "按“+”或“=”键可放大数据窗口。"
+
+#: gwyddion/tips.c:198
+msgid "Key ‛-’ (minus) zooms out a data window."
+msgstr "按“-”（减号）键可缩小数据窗口。"
+
+#: gwyddion/tips.c:202
+msgid "Key ‛Z’ resets data window zoom to 1:1."
+msgstr "按“Z”键可将数据窗口缩放重置为 1:1。"
+
+#: gwyddion/tips.c:206
+msgid ""
+"Data with different <i>x</i> and <i>y</i> measures can be displayed either "
+"with pixel-wise or realistic aspect ratio.  The menu in data window top left "
+"corner enables switching between these two modes."
+msgstr "<i>x</i> 和 <i>y</i> 方向尺寸不同的数据既可以按像素比例显示，也可以按实际比例显示。使用数据窗口左上角的菜单可切换这两种模式。"
+
+#: gwyddion/tips.c:213
+msgid ""
+"Clicking on a false color scale with the right mouse button brings a false "
+"color gradient selector."
+msgstr "右键单击伪彩色色标可打开伪彩色渐变选择器。"
+
+#: gwyddion/tips.c:218
+msgid ""
+"Mask color can be changed by right-clicking on a data view and selecting "
+"Mask Color from the menu."
+msgstr "右键单击数据视图并在菜单中选择“掩膜颜色”，可更改掩膜颜色。"
+
+#: gwyddion/tips.c:224
+msgid ""
+"Clicking on a 3D view with the right mouse button brings a GL material or "
+"false color gradient selector."
+msgstr "右键单击三维视图可打开 GL 材质或伪彩色渐变选择器。"
+
+#: gwyddion/tips.c:229
+msgid ""
+"3D view transformation modes can be selected with keys: R (rotate), S "
+"(scale), V (value scale) and L (light source)."
+msgstr "可用以下按键选择三维视图变换模式：R（旋转）、S（缩放）、V（数值比例）和 L（光源）。"
+
+#: gwyddion/tips.c:234
+msgid ""
+"You can make a specific 3D view setup the default using the Set as Default "
+"button."
+msgstr "使用“设为默认”按钮可将当前三维视图设置设为默认。"
+
+#: gwyddion/tips.c:240
+msgid ""
+"Pressing Ctrl-C copies the image of a channel, graph or 3D view to the "
+"clipboard."
+msgstr "按 Ctrl-C 可将通道、图表或三维视图的图像复制到剪贴板。"
+
+#: gwyddion/tips.c:245
+msgid ""
+"Dragging channels or graphs from Data Browser to a window copies them to the "
+"corresponding file."
+msgstr "将通道或图表从数据浏览器拖到窗口，可将它们复制到相应文件。"
+
+#: gwyddion/tips.c:250
+msgid "Info → Show Data Browser brings back a closed Data Browser."
+msgstr "“信息 → 显示数据浏览器”可重新显示已关闭的数据浏览器。"
+
+#: gwyddion/tips.c:254
+msgid ""
+"Channels and graphs can be renamed by double-clicking on their name in Data "
+"Browser."
+msgstr "在数据浏览器中双击通道或图表的名称可将其重命名。"
+
+#: gwyddion/tips.c:260
+msgid ""
+"Facet Level offers to use/exclude the masked area if a mask is present on "
+"the data."
+msgstr "如果数据中存在掩膜，“面片调平”允许使用或排除掩膜区域。"
+
+#: gwyddion/tips.c:265
+msgid ""
+"Plane Level offers to use/exclude the masked area if a mask is present on "
+"the data."
+msgstr "如果数据中存在掩膜，“平面调平”允许使用或排除掩膜区域。"
+
+#: gwyddion/tips.c:270
+msgid ""
+"Align Rows offers to use/exclude the masked area if a mask is present on the "
+"data."
+msgstr "如果数据中存在掩膜，“对齐扫描行”允许使用或排除掩膜区域。"
+
+#: gwyddion/tips.c:275
+msgid ""
+"Data Arithmetic works as a scientific calculator: just type an arithmetic "
+"expression."
+msgstr "“数据运算”可用作科学计算器：只需输入一个算术表达式。"
+
+#: gwyddion/tips.c:280
+msgid ""
+"Data Arithmetic expressions can include values (d), mask values (m), "
+"derivatives (bx, by) and coordinates (x, y)."
+msgstr "数据运算表达式可包含数值（d）、掩膜值（m）、导数（bx、by）和坐标（x、y）。"
+
+#: gwyddion/tips.c:285
+msgid ""
+"Facet Level can often level data with large features that make impossible to "
+"use standard plane leveling.  It levels the surface by making normals of "
+"flat areas point upwards."
+msgstr "对于含有大型特征、无法使用标准平面调平的数据，“面片调平”通常仍然有效。它通过使平坦区域的法线朝上来调平表面。"
+
+#: gwyddion/tips.c:291
+msgid ""
+"Flatten Base performs automated leveling of base flat surface with positive "
+"features."
+msgstr "“基底平坦化”可自动调平带有向上凸起特征的平坦基底。"
+
+#: gwyddion/tips.c:296
+msgid ""
+"Too small grains can be filtered out with Data Process → Grains → Filter."
+msgstr "通过“数据处理 → 颗粒 → 过滤”可滤除过小的颗粒。"
+
+#: gwyddion/tips.c:301
+msgid ""
+"Data Process → Presentation → Edge Detection → Step is a fine step detector "
+"with a good dynamic range"
+msgstr "“数据处理 → 表示 → 边缘检测 → 阶跃”是一种动态范围良好的精细阶跃检测方法。"
+
+#: gwyddion/tips.c:306
+msgid ""
+"Data Process → Basic Operations → Dimensions and Units changes scales, "
+"offsets and even lateral and value units."
+msgstr "“数据处理 → 基本操作 → 尺寸与单位”可更改比例、偏移量，甚至横向单位与数值单位。"
+
+#: gwyddion/tips.c:311
+msgid ""
+"Grains or other areas of interest are marked with masks.  Many functions "
+"then can do something interesting with the masked areas."
+msgstr "颗粒或其他感兴趣区域使用掩膜标记，许多功能可以对掩膜区域进行处理。"
+
+#: gwyddion/tips.c:317
+msgid ""
+"Remove Scars in the toolbox runs with the settings last used in Mark Scars."
+msgstr "工具箱中的“去除划痕”使用“标记划痕”上次使用的设置运行。"
+
+#: gwyddion/tips.c:322
+msgid "Data synthesis modules can be also used to modify existing images."
+msgstr "数据合成模块也可用于修改现有图像。"
+
+#: gwyddion/tips.c:327
+msgid ""
+"Data Process → Mask → Mark With can set the image mask based on another "
+"data, mask or presentation."
+msgstr "“数据处理 → 掩膜 → 标记依据”可根据其他数据、掩膜或表示设置图像掩膜。"
+
+#: gwyddion/tips.c:333
+msgid "Graph → Critical Dimension measures steps on extracted profile graphs."
+msgstr "“图表 → 临界尺寸”可测量提取的轮廓图中的阶跃。"
+
+#: gwyddion/tips.c:338
+msgid "All Graph functions are available also in the graph right-click menu."
+msgstr "所有“图表”功能也可通过图表右键菜单使用。"
+
+#: gwyddion/tips.c:344
+msgid "Pressing Esc hides tool windows."
+msgstr "按 Esc 可隐藏工具窗口。"
+
+#: gwyddion/tips.c:348
+msgid "Read Value tool displays also the local facet normal."
+msgstr "“读取数值”工具还会显示局部面片法线。"
+
+#: gwyddion/tips.c:352
+msgid ""
+"Read Value tool can shift data to make <i>z</i>=0 plane pass through the "
+"selected point."
+msgstr "“读取数值”工具可平移数据，使 <i>z</i>=0 平面通过选定点。"
+
+#: gwyddion/tips.c:357
+msgid ""
+"Individual lines can be deleted in Distance tool by selecting them in the "
+"list and pressing Delete."
+msgstr "在“距离”工具的列表中选择单条线并按 Delete，可将其删除。"
+
+#: gwyddion/tips.c:362
+msgid ""
+"Individual lines can be deleted in Profiles tool by selecting them in the "
+"list and pressing Delete."
+msgstr "在“轮廓”工具的列表中选择单条线并按 Delete，可将其删除。"
+
+#: gwyddion/tips.c:367
+msgid ""
+"Spectroscopy tool displays point spectroscopy data and extracts them to "
+"standalone graphs that can be subsequently analysed for instance with Graph "
+"→ Fit FD Curve."
+msgstr "“光谱”工具可显示点光谱数据，并将其提取为独立图表；之后可对其分析，例如使用“图表 → 拟合力-距离曲线”。"
+
+#: gwyddion/tips.c:373
+msgid ""
+"Statistical Quantities tool allows limiting the area of interest by a mask, "
+"rectangular selection or the intersection of both."
+msgstr "“统计量”工具允许使用掩膜、矩形选区或二者的交集来限定感兴趣区域。"
+
+#: gwyddion/tips.c:378
+msgid ""
+"Beside height and angle distributions, Statistical Functions tool calculates "
+"also correlation functions, power spectrum density (PSDF) and some more "
+"exotic functions."
+msgstr "除了高度和角度分布，“统计函数”工具还可计算相关函数、功率谱密度函数（PSDF）及其他一些较少见的函数。"
+
+#: gwyddion/tips.c:384
+msgid ""
+"Path Level tool levels misaligned rows by lining them up along manually "
+"selected lines.  If there are no large features automatic Align Rows usually "
+"works well."
+msgstr "“路径调平”工具通过沿手动选择的线对齐扫描行，来校正未对齐的行。如果没有大型特征，自动“对齐扫描行”通常效果良好。"
+
+#: gwyddion/tips.c:390
+msgid ""
+"Grain Measure tool is great for examining individual grains.  Overall grain "
+"statistics are available in Data Processing → Grains."
+msgstr "“颗粒测量”工具适合检查单个颗粒。整体颗粒统计可通过“数据处理 → 颗粒”获得。"
+
+#: gwyddion/tips.c:396
+msgid "Mask Editor tool can create, edit, invert, grow and shrink masks."
+msgstr "“掩膜编辑器”工具可创建、编辑、反转、扩张和收缩掩膜。"
+
+#: gwyddion/tips.c:400
+msgid ""
+"Color Range tool offers several false color scale mapping modes and can make "
+"any of them the default mode."
+msgstr "“颜色范围”工具提供多种伪彩色色标映射模式，并可将其中任意一种设为默认模式。"
+
+#: gwyddion/tips.c:405
+msgid ""
+"Dragging selections from Selections Manager tool to a data window copies the "
+"selection to the target data."
+msgstr "将选区从“选区管理器”工具拖到数据窗口，可将选区复制到目标数据。"
+
+#: gwyddion/tips.c:411
+msgid ""
+"Pressing F1 or the Help buttons in most windows shows a relevant part of the "
+"user guide in a web browser."
+msgstr "在大多数窗口中按 F1 或单击“帮助”按钮，可在网页浏览器中显示用户手册的相关内容。"
+
+#: gwyddion/tips.c:416
+msgid ""
+"Gwyddion User Guide explains in detail many of the methods and algorithms "
+"implemented in Gwyddion."
+msgstr "Gwyddion 用户手册详细说明了 Gwyddion 实现的许多方法和算法。"
+
+#: gwyddion/tips.c:421
+msgid "Gwyddion is a son of Math."
+msgstr "Gwyddion 是 Math 的儿子。"
+
+#: gwyddion/tips.c:483
+msgid "Gwyddion Tip of the Day"
+msgstr "Gwyddion 每日提示"
+
+#: gwyddion/tips.c:496
+msgid "_Previous Tip"
+msgstr "上一条提示(_P)"
+
+#: gwyddion/tips.c:502
+msgid "_Next Tip"
+msgstr "下一条提示(_N)"
+
+#: gwyddion/tips.c:532
+msgid "_Show tips at startup"
+msgstr "启动时显示提示(_S)"
+
+#: gwyddion/toolbox-editor.c:208
+msgid "Toolbox Editor"
+msgstr "工具箱编辑器"
+
+#: gwyddion/toolbox-editor.c:241
+msgid "_New Item"
+msgstr "新建项目(_N)"
+
+#: gwyddion/toolbox-editor.c:245
+msgid "_New Group"
+msgstr "新建组(_N)"
+
+#: gwyddion/toolbox-editor.c:249 gwyddion/toolbox.c:595
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: gwyddion/toolbox-editor.c:253 modules/process/fft_filter_2d.c:485
+#: modules/tools/maskedit.c:441 modules/volume/volume_zcal.c:119
+msgid "_Remove"
+msgstr "移除(_R)"
+
+#: gwyddion/toolbox-editor.c:257
+msgid "Move _Up"
+msgstr "上移(_U)"
+
+#: gwyddion/toolbox-editor.c:261
+msgid "Move _Down"
+msgstr "下移(_D)"
+
+#: gwyddion/toolbox-editor.c:268 modules/process/dimensions.h:481
+msgid "_Width:"
+msgstr "宽度(_W):"
+
+#: gwyddion/toolbox-editor.c:736
+msgid "Toolbox Group"
+msgstr "工具箱组"
+
+#: gwyddion/toolbox-editor.c:748
+msgid "_Title:"
+msgstr "标题(_T):"
+
+#: gwyddion/toolbox-editor.c:760
+msgid "_Id:"
+msgstr "标识符(_I):"
+
+#: gwyddion/toolbox-editor.c:771
+msgid "_Suggest"
+msgstr "建议(_S)"
+
+#: gwyddion/toolbox-editor.c:776
+msgid "Trans_latable title"
+msgstr "可翻译标题(_L)"
+
+#: gwyddion/toolbox-editor.c:822
+msgid "Group id is not a valid identifier"
+msgstr "组标识符不是有效的标识符"
+
+#: gwyddion/toolbox-editor.c:829
+msgid "Group id is not unique"
+msgstr "组标识符不唯一"
+
+#: gwyddion/toolbox-editor.c:907
+msgid "Toolbox Item"
+msgstr "工具箱项目"
+
+#: gwyddion/toolbox-editor.c:923
+msgid "_Type:"
+msgstr "类型(_T):"
+
+#: gwyddion/toolbox-editor.c:928
+msgid "Placeholder"
+msgstr "占位符"
+
+#: gwyddion/toolbox-editor.c:929
+msgid "Builtin"
+msgstr "内置"
+
+#: gwyddion/toolbox-editor.c:930 gwyddion/toolbox.c:107
+msgid "Data Process"
+msgstr "数据处理"
+
+#: gwyddion/toolbox-editor.c:932
+msgid "Volume Data"
+msgstr "体数据"
+
+#: gwyddion/toolbox-editor.c:933
+msgid "XYZ Data"
+msgstr "XYZ 数据"
+
+#: gwyddion/toolbox-editor.c:935 modules/tools/maskedit.c:230
+msgid "Tool"
+msgstr "工具"
+
+#: gwyddion/toolbox-editor.c:941
+msgid "_Mode:"
+msgstr "模式(_M):"
+
+#: gwyddion/toolbox-editor.c:946 gwyddion/toolbox-editor.c:960
+#: modules/cmap/cmap_simplemech.c:202
+msgid "Default"
+msgstr "默认"
+
+#: gwyddion/toolbox-editor.c:947
+msgid "Interactive"
+msgstr "交互式"
+
+#: gwyddion/toolbox-editor.c:948
+msgid "Non-interactive"
+msgstr "非交互式"
+
+#: gwyddion/toolbox-editor.c:954
+msgid "Use _icon from:"
+msgstr "使用图标，来源(_I):"
+
+#: gwyddion/toolbox-editor.c:981
+msgid "Functions"
+msgstr "功能"
+
+#: gwyddion/toolbox-spec.c:591
+msgid "placeholder"
+msgstr "占位符"
+
+#: gwyddion/toolbox-spec.c:599
+msgid "remaining tools"
+msgstr "其余工具"

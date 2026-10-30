@@ -1,0 +1,455 @@
+# Chinese translation for Gwyddion.
+# Distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: libgwydgets/gwy3dwindow.c:898
+msgid "Show _labels"
+msgstr "显示标签(_L)"
+
+#: libgwydgets/gwy3dwindow.c:907
+msgid "_Orthographic projection"
+msgstr "正交投影(_O)"
+
+#: libgwydgets/gwy3dwindow.c:916
+msgid "_Hide masked"
+msgstr "隐藏掩膜区域(_H)"
+
+#: libgwydgets/gwy3dwindow.c:932
+msgid "_Lighting"
+msgstr "光照(_L)"
+
+#: libgwydgets/gwy3dwindow.c:933 modules/cmap/cmap_peaks.c:163
+msgid "_Gradient"
+msgstr "渐变(_G)"
+
+#: libgwydgets/gwy3dwindow.c:934
+msgid "_Overlay"
+msgstr "叠加(_O)"
+
+#: libgwydgets/gwy3dwindow.c:935
+msgid "_Overlay - no light"
+msgstr "叠加（无光照）(_O)"
+
+#: libgwydgets/gwy3dwindow.c:990
+msgid "_Material:"
+msgstr "材质(_M)："
+
+#: libgwydgets/gwy3dwindow.c:1011
+msgid "_Light φ:"
+msgstr "光照 φ(_L)："
+
+#: libgwydgets/gwy3dwindow.c:1018
+msgid "L_ight θ:"
+msgstr "光照 θ(_I)："
+
+#: libgwydgets/gwy3dwindow.c:1050 libgwydgets/gwy3dwindow.c:1242
+#: app/dialog.c:216 gwyddion/toolbox-editor.c:209
+#: modules/cmap/cmap_classify.c:406 modules/process/calcoefs_new.c:372
+#: modules/process/correct_affine.c:345 modules/process/fft_filter_2d.c:409
+#: modules/process/polydistort.c:210 modules/process/roddeposit_synth.c:384
+#: modules/process/smm.c:367 modules/process/straighten_path.c:282
+#: modules/volume/volume_drift.c:395 modules/volume/volume_extract.c:264
+#: modules/xyz/xyz_zdrift.c:208
+msgid "_Reset"
+msgstr "重置(_R)"
+
+#: libgwydgets/gwy3dwindow.c:1139
+msgid "X-axis"
+msgstr "X 轴"
+
+#: libgwydgets/gwy3dwindow.c:1140
+msgid "Y-axis"
+msgstr "Y 轴"
+
+#: libgwydgets/gwy3dwindow.c:1141
+msgid "Minimum z value"
+msgstr "Z 最小值"
+
+#: libgwydgets/gwy3dwindow.c:1142
+msgid "Maximum z value"
+msgstr "Z 最大值"
+
+#: libgwydgets/gwy3dwindow.c:1165
+msgid "_Label:"
+msgstr "标签(_L)："
+
+#: libgwydgets/gwy3dwindow.c:1179
+msgid "_Text:"
+msgstr "文本(_T)："
+
+#: libgwydgets/gwy3dwindow.c:1184
+msgid "Move label"
+msgstr "移动标签"
+
+#: libgwydgets/gwy3dwindow.c:1193
+msgid "_Horizontally:"
+msgstr "水平方向(_H)："
+
+#: libgwydgets/gwy3dwindow.c:1203
+msgid "_Vertically:"
+msgstr "垂直方向(_V)："
+
+#: libgwydgets/gwy3dwindow.c:1211
+msgid "A_ll labels have the same size"
+msgstr "所有标签使用相同大小(_L)"
+
+#: libgwydgets/gwy3dwindow.c:1222
+msgid "Scale size _automatically"
+msgstr "自动调整大小(_A)"
+
+#: libgwydgets/gwy3dwindow.c:1234
+msgid "Si_ze:"
+msgstr "大小(_Z)："
+
+#: libgwydgets/gwy3dwindow.c:1276
+msgid "Show false _colorbar"
+msgstr "显示伪彩色色条(_C)"
+
+#: libgwydgets/gwy3dwindow.c:1285
+msgid "Reserve space for _colorbar"
+msgstr "为色条预留空间(_C)"
+
+#: libgwydgets/gwy3dwindow.c:1301
+msgid "_Size:"
+msgstr "大小(_S)："
+
+#: libgwydgets/gwy3dwindow.c:1310
+msgid "_Vertical alignment:"
+msgstr "垂直对齐(_V)："
+
+#: libgwydgets/gwy3dwindow.c:1840 libgwydgets/gwy3dwindow.c:1893
+msgid "S_witch to Lighting Mode"
+msgstr "切换到光照模式(_W)"
+
+#: libgwydgets/gwy3dwindow.c:1848 libgwydgets/gwy3dwindow.c:1870
+msgid "S_witch to Overlay Mode"
+msgstr "切换到叠加模式(_W)"
+
+#: libgwydgets/gwy3dwindow.c:1862 libgwydgets/gwy3dwindow.c:1885
+msgid "S_witch to Color Gradient Mode"
+msgstr "切换到颜色渐变模式(_W)"
+
+#: libgwydgets/gwy3dwindow.c:1901
+msgid "T_oggle light"
+msgstr "切换光照(_O)"
+
+#: libgwydgets/gwyaxisdialog.c:75
+msgid "Axis Properties"
+msgstr "坐标轴属性"
+
+#: libgwydgets/gwyaxisdialog.c:88
+msgid "Label Text"
+msgstr "标签文本"
+
+#: libgwydgets/gwydatawindow.c:929
+msgid "_Unset Color Gradient"
+msgstr "取消颜色渐变(_U)"
+
+#. TRANSLATORS: Countable (more false colour gradients).
+#: libgwydgets/gwydatawindow.c:937
+msgid "_More..."
+msgstr "更多(_M)…"
+
+#: libgwydgets/gwydatawindow.c:966 libgwydgets/gwyoptionmenus.c:830
+msgid "Choose Color Gradient"
+msgstr "选择颜色渐变"
+
+#: libgwydgets/gwydgetenums.c:46 modules/process/neural.c:419
+msgid "Hidden"
+msgstr "隐藏"
+
+#: libgwydgets/gwydgetenums.c:47 libgwydgets/gwygraphwindowmeasuredialog.c:572
+#: modules/file/imgexport.c:545 modules/tools/selectionmanager.c:265
+msgid "Points"
+msgstr "点"
+
+#: libgwydgets/gwydgetenums.c:49
+msgid "Line + points"
+msgstr "线和点"
+
+#: libgwydgets/gwydgetutils.c:850
+msgid "Change Mask Color"
+msgstr "更改掩膜颜色"
+
+#: libgwydgets/gwygrainvaluemenu.c:184 modules/cmap/cmap_classify.c:458
+#: modules/cmap/cmap_classify.c:475 modules/cmap/cmap_lockin.c:185
+#: modules/cmap/cmap_lockin.c:200
+msgid "Quantity"
+msgstr "量"
+
+#: libgwydgets/gwygrainvaluemenu.c:194 libgwydgets/gwygrainvaluemenu.c:207
+msgid "Symbol"
+msgstr "符号"
+
+#: libgwydgets/gwygrainvaluemenu.c:217 modules/process/lat_synth.c:368
+msgid "Enabled"
+msgstr "已启用"
+
+#: libgwydgets/gwygraphareadialog.c:100
+msgid "Curve Properties"
+msgstr "曲线属性"
+
+#: libgwydgets/gwygraphareadialog.c:101
+msgid "Pre_v"
+msgstr "上一个(_V)"
+
+#: libgwydgets/gwygraphareadialog.c:104
+msgid "_Next"
+msgstr "下一个(_N)"
+
+#: libgwydgets/gwygraphareadialog.c:123
+msgid "Plot _style:"
+msgstr "绘图样式(_S)："
+
+#: libgwydgets/gwygraphareadialog.c:131
+msgid "Pl_ot color:"
+msgstr "绘图颜色(_O)："
+
+#: libgwydgets/gwygraphareadialog.c:151
+msgid "Point _type:"
+msgstr "点类型(_T)："
+
+#: libgwydgets/gwygraphareadialog.c:157
+msgid "_Point size:"
+msgstr "点大小(_P)："
+
+#: libgwydgets/gwygraphareadialog.c:168
+msgid "_Line type:"
+msgstr "线型(_L)："
+
+#: libgwydgets/gwygraphareadialog.c:174
+msgid "Line t_hickness:"
+msgstr "线宽(_H)："
+
+#: libgwydgets/gwygraphareadialog.c:182
+msgid "<b>Label Te_xt</b>"
+msgstr "<b>标签文本(_X)</b>"
+
+#: libgwydgets/gwygraphareadialog.c:399
+msgid "Set Curve Color"
+msgstr "设置曲线颜色"
+
+#: libgwydgets/gwygraphareadialog.c:551 modules/process/mask_morph.c:130
+#: modules/process/pat_synth.c:2569 modules/process/relate.c:211
+msgid "Square"
+msgstr "正方形"
+
+#: libgwydgets/gwygraphareadialog.c:553 modules/process/mask_morph.c:131
+msgid "Diamond"
+msgstr "菱形"
+
+#: libgwydgets/gwygraphareadialog.c:554 modules/tools/cprofile.c:137
+msgid "Cross"
+msgstr "十字"
+
+#: libgwydgets/gwygraphareadialog.c:555
+msgid "Diagonal cross"
+msgstr "斜十字"
+
+#: libgwydgets/gwygraphareadialog.c:556
+msgid "Asterisk"
+msgstr "星号"
+
+#: libgwydgets/gwygraphareadialog.c:557
+msgid "Star"
+msgstr "星形"
+
+#: libgwydgets/gwygraphareadialog.c:558
+msgid "Triangle up"
+msgstr "上三角形"
+
+#: libgwydgets/gwygraphareadialog.c:559
+msgid "Triangle down"
+msgstr "下三角形"
+
+#: libgwydgets/gwygraphareadialog.c:560
+msgid "Triangle left"
+msgstr "左三角形"
+
+#: libgwydgets/gwygraphareadialog.c:561
+msgid "Triangle right"
+msgstr "右三角形"
+
+#: libgwydgets/gwygraphareadialog.c:562
+msgid "Full square"
+msgstr "实心正方形"
+
+#: libgwydgets/gwygraphareadialog.c:563 modules/process/mask_morph.c:128
+msgid "Disc"
+msgstr "圆盘"
+
+#: libgwydgets/gwygraphareadialog.c:564
+msgid "Full diamond"
+msgstr "实心菱形"
+
+#: libgwydgets/gwygraphareadialog.c:565
+msgid "Full triangle up"
+msgstr "实心上三角形"
+
+#: libgwydgets/gwygraphareadialog.c:566
+msgid "Full triangle down"
+msgstr "实心下三角形"
+
+#: libgwydgets/gwygraphareadialog.c:567
+msgid "Full triangle left"
+msgstr "实心左三角形"
+
+#: libgwydgets/gwygraphareadialog.c:568
+msgid "Full triangle right"
+msgstr "实心右三角形"
+
+#: libgwydgets/gwygraphareadialog.c:630
+msgid "line-style|Solid"
+msgstr "实线"
+
+#: libgwydgets/gwygraphareadialog.c:631
+msgid "line-style|Dash"
+msgstr "虚线"
+
+#: libgwydgets/gwygraphcurves.c:448
+msgid "Description"
+msgstr "描述"
+
+#: libgwydgets/gwygraphcurves.c:460 modules/cmap/cmap_cutter.c:196
+#: modules/process/entropy.c:128 modules/process/good_profile.c:139
+#: modules/process/logistic.c:143 modules/tools/maskedit.c:227
+msgid "Mode"
+msgstr "模式"
+
+#: libgwydgets/gwygraphcurves.c:478
+msgid "Color"
+msgstr "颜色"
+
+#: libgwydgets/gwygraphcurves.c:491
+msgid "Point Type"
+msgstr "点类型"
+
+#: libgwydgets/gwygraphcurves.c:513
+msgid "Line Style"
+msgstr "线型"
+
+#: libgwydgets/gwygraphlabeldialog.c:63
+msgid "Label Properties"
+msgstr "标签属性"
+
+#: libgwydgets/gwygraphlabeldialog.c:74
+msgid "_Frame thickness:"
+msgstr "边框粗细(_F)："
+
+#: libgwydgets/gwygraphlabeldialog.c:81
+msgid "_Reversed layout"
+msgstr "反向布局(_R)"
+
+#: libgwydgets/gwygraphmodel.c:2188 modules/cmap/cmap_align.c:169
+#: modules/cmap/cmap_classify.c:266 modules/cmap/cmap_extractcurve.c:139
+#: modules/cmap/cmap_fdfit.c:227 modules/cmap/cmap_filter.c:142
+#: modules/cmap/cmap_fit.c:208 modules/cmap/cmap_fztofd.c:161
+#: modules/cmap/cmap_peaks.c:185 modules/cmap/cmap_polylevel.c:162
+#: modules/cmap/cmap_sinebg.c:158
+msgid "Abscissa"
+msgstr "横坐标"
+
+#: libgwydgets/gwygraphwindow.c:161 gwyddion/toolbox-editor.c:931
+#: gwyddion/toolbox.c:107 modules/graph/graph_measure_period.c:239
+#: modules/graph/graph_stats.c:213 modules/graph/graph_terraces.c:639
+#: modules/xyz/xyz_tcut.c:120 modules/xyz/xyz_tstep.c:135
+#: modules/xyz/xyz_volumize.c:130 modules/xyz/xyz_zdrift.c:135
+msgid "Graph"
+msgstr "曲线图"
+
+#: libgwydgets/gwygraphwindow.c:168 modules/cmap/cmap_peaks.c:181
+#: modules/process/classify.c:294 modules/process/deconvolve.c:187
+#: modules/process/fit-shape.c:271 modules/process/freq_split.c:143
+#: modules/process/good_profile.c:126 modules/process/psf.c:209
+#: modules/process/relate.c:474 modules/process/terracefit.c:263
+#: modules/volume/volume_psf.c:229
+msgid "Data"
+msgstr "数据"
+
+#: libgwydgets/gwygraphwindow.c:181
+msgid "Curves"
+msgstr "曲线"
+
+#: libgwydgets/gwygraphwindow.c:194
+msgid "Measure distances in graph"
+msgstr "测量曲线图中的距离"
+
+#: libgwydgets/gwygraphwindow.c:205
+msgid "Zoom in by mouse selection"
+msgstr "通过鼠标选择区域放大"
+
+#: libgwydgets/gwygraphwindow.c:216
+msgid "Zoom out to full curve"
+msgstr "缩小以显示完整曲线"
+
+#: libgwydgets/gwygraphwindow.c:227
+msgid "Toggle logarithmic x axis"
+msgstr "切换 X 轴对数坐标"
+
+#: libgwydgets/gwygraphwindow.c:238
+msgid "Toggle logarithmic y axis"
+msgstr "切换 Y 轴对数坐标"
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:48
+msgid "Intersections"
+msgstr "交点"
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:50
+msgid "Points anywhere"
+msgstr "任意点"
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:377
+#: libgwydgets/gwygraphwindowmeasuredialog.c:577
+#: modules/process/facet_analysis.c:713 modules/process/measure_lattice.c:346
+#: modules/process/measure_lattice.c:353 modules/tools/roughness.c:471
+msgid "Length"
+msgstr "长度"
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:379
+#: libgwydgets/gwygraphwindowmeasuredialog.c:581 app/gwyplaintool.c:1059
+#: modules/cmap/cmap_fztofd.c:150 modules/graph/graph_fztofd.c:88
+#: modules/process/disc_synth.c:290 modules/process/fibre_synth.c:337
+#: modules/process/lat_synth.c:566 modules/process/obj_synth.c:420
+#: modules/process/pat_synth.c:1735 modules/process/pat_synth.c:1829
+#: modules/process/pat_synth.c:1936 modules/process/pat_synth.c:2046
+#: modules/process/pat_synth.c:2169 modules/process/pat_synth.c:2280
+#: modules/process/pat_synth.c:2486 modules/process/pat_synth.c:2628
+#: modules/tools/spotremove.c:377
+msgid "Height"
+msgstr "高度"
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:528
+msgid "Measure Distances"
+msgstr "测量距离"
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:550 app/app.c:2293
+msgid "Curve:"
+msgstr "曲线："
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:555
+msgid "Method:"
+msgstr "方法："
+
+#: libgwydgets/gwygraphwindowmeasuredialog.c:583
+#: modules/process/facet_analysis.c:715 modules/process/measure_lattice.c:359
+msgid "Angle"
+msgstr "角度"
+
+#. TRANSLATORS: Preferred resource.
+#: libgwydgets/gwyoptionmenus.c:445
+msgid "Preferred"
+msgstr "首选"
+
+#: libgwydgets/gwyoptionmenus.c:458 app/meta.c:464
+#: modules/file/imgexport.c:3208 modules/file/imgexport.c:3469
+#: modules/file/rawfile.c:689 modules/process/convolution_filter.c:535
+#: modules/process/neural.c:417 modules/tools/selectionmanager.c:329
+msgid "Name"
+msgstr "名称"

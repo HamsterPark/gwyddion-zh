@@ -1,0 +1,423 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/calcoefs_view.c:742
+#, c-format
+msgid "X span: (%.*f - %.*f) %s"
+msgstr "X 范围：（%.*f - %.*f）%s"
+
+#: modules/process/calcoefs_view.c:748
+#, c-format
+msgid "Y span: (%.*f - %.*f) %s"
+msgstr "Y 范围：（%.*f - %.*f）%s"
+
+#: modules/process/calcoefs_view.c:754
+#, c-format
+msgid "Z span: (%.*f - %.*f) %s"
+msgstr "Z 范围：（%.*f - %.*f）%s"
+
+#: modules/process/calcoefs_view.c:778
+msgid "Error: out of range."
+msgstr "错误：超出范围。"
+
+#: modules/process/calcoefs_view.c:787
+msgid "Building mesh..."
+msgstr "正在构建网格……"
+
+#: modules/process/calcoefs_view.c:1137
+msgid "Constant X"
+msgstr "固定 X"
+
+#: modules/process/calcoefs_view.c:1138
+msgid "Constant Y"
+msgstr "固定 Y"
+
+#: modules/process/calcoefs_view.c:1139
+msgid "Constant Z"
+msgstr "固定 Z"
+
+#: modules/process/calcoefs_view.c:1150
+msgid "NNA 3D"
+msgstr "NNA 3D"
+
+#: modules/process/calcoefs_view.c:1151
+msgid "Snap to planes"
+msgstr "吸附到平面"
+
+#: modules/process/calcoefs_view.c:1152
+msgid "Delaunay"
+msgstr "Delaunay"
+
+#: modules/process/calibrate.c:145
+msgid "Recalibrates scan lateral dimensions or value range."
+msgstr "重新校准扫描横向尺寸或数值范围。"
+
+#: modules/process/calibrate.c:166
+msgid "/_Dimensions and Units..."
+msgstr "/尺寸和单位(_D)..."
+
+#: modules/process/calibrate.c:170 modules/process/calibrate.c:177
+msgid "Change physical dimensions or units"
+msgstr "更改物理尺寸或单位"
+
+#: modules/process/calibrate.c:187
+msgid "Match pixel size"
+msgstr "匹配像素大小"
+
+#: modules/process/calibrate.c:237
+msgid "Z _minimum"
+msgstr "Z 最小值(_M)"
+
+#: modules/process/calibrate.c:238
+msgid "Z shi_ft"
+msgstr "Z 偏移(_F)"
+
+#: modules/process/calibrate.c:274
+msgid "_Equal XY factors"
+msgstr "XY 因子相等(_E)"
+
+#: modules/process/calibrate.c:275
+msgid "Create new XYZ data"
+msgstr "创建新的 XYZ 数据"
+
+#: modules/process/calibrate.c:292
+msgid "Create new curve map"
+msgstr "创建新的曲线图谱"
+
+#: modules/process/classify.c:174
+msgid "Classify data sets using multiple data fields."
+msgstr "使用多个数据场对数据集进行分类。"
+
+#: modules/process/classify.c:194
+msgid "/M_ultidata/_Classify..."
+msgstr "/多数据(_U)/分类(_C)..."
+
+#: modules/process/classify.c:198
+msgid "Classify data sets"
+msgstr "对数据集分类"
+
+#: modules/process/classify.c:337
+#, c-format
+msgid "Mask A is in data d%d"
+msgstr "掩膜 A 位于数据 d%d 中"
+
+#: modules/process/classify.c:350
+#, c-format
+msgid "Mask B is in data d%d"
+msgstr "掩膜 B 位于数据 d%d 中"
+
+#: modules/process/classify.c:375 modules/process/classify.c:390
+msgid "Criterion"
+msgstr "判据"
+
+#: modules/process/classify.c:380 modules/process/classify.c:395
+msgid "Scale"
+msgstr "尺度"
+
+#: modules/process/classify.c:469
+msgid "Display mask:"
+msgstr "显示掩膜："
+
+#: modules/process/classify.c:550
+msgid "LoG"
+msgstr "LoG"
+
+#: modules/process/classify.c:856
+msgid "No data are selected for any criterion (all IDs are 0)."
+msgstr "未为任何判据选择数据（所有 ID 均为 0）。"
+
+#: modules/process/classify.c:875
+msgid "Image A has no mask."
+msgstr "图像 A 没有掩膜。"
+
+#: modules/process/classify.c:892
+msgid "Image B has no mask."
+msgstr "图像 B 没有掩膜。"
+
+#: modules/process/coerce.c:131
+msgid "Transforms surfaces to have prescribed statistical properties."
+msgstr "变换表面，使其具有指定的统计特性。"
+
+#: modules/process/coerce.c:145
+msgid "/_Distortion/Co_erce..."
+msgstr "/畸变(_D)/统计特性强制(_E)..."
+
+#: modules/process/coerce.c:149
+msgid "Enforce prescribed statistical properties"
+msgstr "强制应用指定的统计特性"
+
+#: modules/process/coerce.c:160
+msgid "distribution|Skew-normal"
+msgstr "偏正态分布"
+
+#: modules/process/coerce.c:161
+msgid "As another data"
+msgstr "同另一数据"
+
+#: modules/process/coerce.c:162
+msgid "Discrete levels"
+msgstr "离散层级"
+
+#: modules/process/coerce.c:165
+msgid "Entire image"
+msgstr "整幅图像"
+
+#: modules/process/coerce.c:166
+msgid "By row (identically)"
+msgstr "按行（相同方式）"
+
+#: modules/process/coerce.c:170
+msgid "Same area"
+msgstr "相同区域"
+
+#: modules/process/coerce.c:179
+msgid "Coerce value distribution to"
+msgstr "将数值分布强制为"
+
+#: modules/process/coerce.c:181
+msgid "Level _type"
+msgstr "层级类型(_T)"
+
+#: modules/process/coerce.c:183
+msgid "Number of _levels"
+msgstr "层级数(_L)"
+
+#: modules/process/coerce.c:184
+msgid "Data processing"
+msgstr "数据处理"
+
+#: modules/process/coerce.c:186
+msgid "_Skew"
+msgstr "偏度(_S)"
+
+#: modules/process/coerce.c:223
+msgid "Coerced"
+msgstr "已强制"
+
+#: modules/process/coerce.c:251
+msgid "Coerce Statistics"
+msgstr "统计特性强制"
+
+#: modules/process/col_synth.c:147
+msgid "Number of maxima"
+msgstr "极大值数"
+
+#: modules/process/col_synth.c:156
+msgid "Generates columnar surfaces by a simple growth algorithm."
+msgstr "通过简单的生长算法生成柱状表面。"
+
+#: modules/process/col_synth.c:170
+msgid "/S_ynthetic/_Deposition/_Columnar..."
+msgstr "/合成(_Y)/沉积(_D)/柱状生长(_C)..."
+
+#: modules/process/col_synth.c:174
+msgid "Generate columnar surface"
+msgstr "生成柱状表面"
+
+#: modules/process/col_synth.c:183
+msgid "Weak"
+msgstr "弱"
+
+#: modules/process/col_synth.c:184
+msgid "Strong"
+msgstr "强"
+
+#: modules/process/col_synth.c:195
+msgid "Size spread"
+msgstr "尺寸分布宽度"
+
+#: modules/process/col_synth.c:196
+msgid "_Inclination"
+msgstr "倾角(_I)"
+
+#: modules/process/col_synth.c:200
+msgid "Relaxation type"
+msgstr "弛豫类型"
+
+#: modules/process/col_synth.c:202
+msgid "_Melting"
+msgstr "熔化(_M)"
+
+#: modules/process/col_synth.c:334
+msgid "Grow Columnar Surface"
+msgstr "生长柱状表面"
+
+#: modules/process/col_synth.c:383
+msgid "Particle Size"
+msgstr "颗粒尺寸"
+
+#: modules/process/col_synth.c:392
+msgid "Incidence"
+msgstr "入射角"
+
+#: modules/process/convolution_filter.c:122
+msgid "symmetry|None"
+msgstr "无"
+
+#: modules/process/convolution_filter.c:123
+msgid "symmetry|Even"
+msgstr "偶对称"
+
+#: modules/process/convolution_filter.c:124
+msgid "symmetry|Odd"
+msgstr "奇对称"
+
+#: modules/process/convolution_filter.c:130
+msgid "Generic convolution filter with a user-defined matrix."
+msgstr "使用用户定义矩阵的通用卷积滤波器。"
+
+#: modules/process/convolution_filter.c:155
+msgid "/_Integral Transforms/Con_volution Filter..."
+msgstr "/积分变换(_I)/卷积滤波器(_V)..."
+
+#: modules/process/convolution_filter.c:159
+msgid "General convolution filter"
+msgstr "通用卷积滤波器"
+
+#: modules/process/convolution_filter.c:231
+msgid "Convolution Filter"
+msgstr "卷积滤波器"
+
+#: modules/process/convolution_filter.c:364
+msgid "Coefficient Matrix"
+msgstr "系数矩阵"
+
+#: modules/process/convolution_filter.c:384
+msgid "_Divisor:"
+msgstr "除数(_D)："
+
+#: modules/process/convolution_filter.c:389
+msgid "_automatic"
+msgstr "自动(_A)"
+
+#: modules/process/convolution_filter.c:399
+msgid "Symmetry"
+msgstr "对称性"
+
+#: modules/process/convolution_filter.c:558
+msgid "HSym"
+msgstr "水平对称"
+
+#: modules/process/convolution_filter.c:568
+msgid "VSym"
+msgstr "垂直对称"
+
+#: modules/process/convolve.c:72
+msgid "Convolves two images."
+msgstr "对两幅图像进行卷积。"
+
+#: modules/process/convolve.c:86
+msgid "/M_ultidata/_Convolve..."
+msgstr "/多数据(_U)/卷积(_C)..."
+
+#: modules/process/convolve.c:90
+msgid "Convolve two images"
+msgstr "对两幅图像卷积"
+
+#: modules/process/convolve.c:106
+msgid "Crop to interior"
+msgstr "裁剪到内部区域"
+
+#: modules/process/convolve.c:107
+msgid "Keep size"
+msgstr "保持尺寸"
+
+#: modules/process/convolve.c:108
+msgid "Extend to convolved"
+msgstr "扩展到卷积后尺寸"
+
+#: modules/process/convolve.c:119
+msgid "Output _size"
+msgstr "输出尺寸(_S)"
+
+#: modules/process/convolve.c:122
+msgid "Normalize as _integral"
+msgstr "按积分归一化(_I)"
+
+#: modules/process/convolve.c:170
+msgid "Convolve"
+msgstr "卷积"
+
+#: modules/process/correct_affine.c:220
+msgid "Corrects affine distortion of images by matching image Bravais lattice to the true one."
+msgstr "通过将图像的布拉伐晶格与真实晶格匹配，校正图像的仿射畸变。"
+
+#: modules/process/correct_affine.c:235
+msgid "/_Distortion/_Affine..."
+msgstr "/畸变(_D)/仿射(_A)..."
+
+#: modules/process/correct_affine.c:239
+msgid "Correct affine distortion"
+msgstr "校正仿射畸变"
+
+#: modules/process/correct_affine.c:342
+msgid "Affine Correction"
+msgstr "仿射校正"
+
+#: modules/process/correct_affine.c:411
+msgid "2D _ACF"
+msgstr "二维 ACF(_A)"
+
+#: modules/process/correct_affine.c:423
+msgid "ACF zoom:"
+msgstr "ACF 缩放："
+
+#. TRANSLATORS: Correct is an adjective here.
+#: modules/process/correct_affine.c:467
+msgid "Correct Lattice"
+msgstr "目标晶格"
+
+#: modules/process/correct_affine.c:471
+msgid "_Lattice type:"
+msgstr "晶格类型(_L)："
+
+#: modules/process/correct_affine.c:478
+msgid "User defined"
+msgstr "用户定义"
+
+#: modules/process/correct_affine.c:493
+msgid "_Different lengths"
+msgstr "长度不同(_D)"
+
+#: modules/process/correct_affine.c:522
+msgid "Image for _ACF:"
+msgstr "用于 ACF 的图像(_A)："
+
+#: modules/process/correct_affine.c:549
+msgid "_Scaling:"
+msgstr "缩放(_S)："
+
+#: modules/process/correct_affine.c:556
+msgid "Exactly as specified"
+msgstr "严格按指定值"
+
+#: modules/process/correct_affine.c:558
+msgid "Preserve area"
+msgstr "保持面积"
+
+#: modules/process/correct_affine.c:560
+msgid "Preserve X scale"
+msgstr "保持 X 尺度"
+
+#: modules/process/correct_perspective.c:108
+msgid "Corrects or applies perspective distortion of images."
+msgstr "校正或施加图像的透视畸变。"
+
+#: modules/process/correct_perspective.c:122
+msgid "/_Distortion/_Perspective..."
+msgstr "/畸变(_D)/透视(_P)..."

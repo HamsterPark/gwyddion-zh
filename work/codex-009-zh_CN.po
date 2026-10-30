@@ -1,0 +1,528 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 19:45+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gwyddion/toolbox.c:107 modules/volume/volume_cluster.c:536
+msgid "View"
+msgstr "视图"
+
+#: gwyddion/toolbox.c:107
+msgid "Tools"
+msgstr "工具"
+
+#: gwyddion/toolbox.c:594
+msgid "_File"
+msgstr "文件(_F)"
+
+#: gwyddion/toolbox.c:613
+msgid "_Info"
+msgstr "信息(_I)"
+
+#: gwyddion/toolbox.c:716
+msgid "Display a 3D view of data"
+msgstr "显示数据的三维视图"
+
+#: gwyddion/toolbox.c:720
+msgid "Undo"
+msgstr "撤销"
+
+#: gwyddion/toolbox.c:720
+msgid "Undo last action"
+msgstr "撤销上一次操作"
+
+#: gwyddion/toolbox.c:724
+msgid "Redo"
+msgstr "重做"
+
+#: gwyddion/toolbox.c:724
+msgid "Redo again last undone action"
+msgstr "重做上一次撤销的操作"
+
+#: gwyddion/toolbox.c:728
+msgid "Zoom in"
+msgstr "放大"
+
+#: gwyddion/toolbox.c:732
+msgid "Zoom out"
+msgstr "缩小"
+
+#: gwyddion/toolbox.c:736
+msgid "Zoom 1:1"
+msgstr "按 1:1 缩放"
+
+#: gwyddion/toolbox.c:801
+msgid "/Show _Data Browser"
+msgstr "/显示数据浏览器(_D)"
+
+#: gwyddion/toolbox.c:805
+msgid "/Module _Browser"
+msgstr "/模块浏览器(_B)"
+
+#: gwyddion/toolbox.c:809
+msgid "/Program _Messages"
+msgstr "/程序消息(_M)"
+
+#: gwyddion/toolbox.c:816
+msgid "/_User Guide"
+msgstr "/用户指南(_U)"
+
+#: gwyddion/toolbox.c:820
+msgid "/_Tip of the Day"
+msgstr "/每日提示(_T)"
+
+#: gwyddion/toolbox.c:824
+msgid "/_About Gwyddion"
+msgstr "/关于 Gwyddion(_A)"
+
+#: gwyddion/toolbox.c:852
+msgid "/_Open..."
+msgstr "/打开(_O)..."
+
+#: gwyddion/toolbox.c:856 modules/xyz/xyzops.c:103
+msgid "/_Merge..."
+msgstr "/合并(_M)..."
+
+#: gwyddion/toolbox.c:860
+msgid "/Open _Recent"
+msgstr "/打开最近文件(_R)"
+
+#: gwyddion/toolbox.c:864
+msgid "/Open _Image Stack..."
+msgstr "/打开图像堆栈(_I)..."
+
+#: gwyddion/toolbox.c:868
+msgid "/_Save"
+msgstr "/保存(_S)"
+
+#: gwyddion/toolbox.c:872
+msgid "/Save _As..."
+msgstr "/另存为(_A)..."
+
+#: gwyddion/toolbox.c:876
+msgid "/_Close"
+msgstr "/关闭(_C)"
+
+#: gwyddion/toolbox.c:880
+msgid "/Remo_ve All Logs"
+msgstr "/删除所有日志(_V)"
+
+#: gwyddion/toolbox.c:888
+msgid "/_Quit"
+msgstr "/退出(_Q)"
+
+#: gwyddion/toolbox.c:921
+msgid "/_Undo"
+msgstr "/撤销(_U)"
+
+#: gwyddion/toolbox.c:925
+msgid "/_Redo"
+msgstr "/重做(_R)"
+
+#: gwyddion/toolbox.c:933
+msgid "/Default Mask _Color..."
+msgstr "/默认掩膜颜色(_C)..."
+
+#: gwyddion/toolbox.c:937
+msgid "/Color _Gradients..."
+msgstr "/颜色渐变(_G)..."
+
+#: gwyddion/toolbox.c:941
+msgid "/G_L Materials..."
+msgstr "/GL 材质(_L)..."
+
+#: gwyddion/toolbox.c:945
+msgid "/_Toolbox..."
+msgstr "/工具箱(_T)..."
+
+#: gwyddion/toolbox.c:949
+msgid "/_Keyboard Shortcuts"
+msgstr "/键盘快捷键(_K)"
+
+#: gwyddion/toolbox.c:953
+msgid "/_Logging Enabled"
+msgstr "/启用日志记录(_L)"
+
+#: gwyddion/toolbox.c:1051
+msgid "Program Messages"
+msgstr "程序消息"
+
+#: gwyddion/toolbox.c:1279
+msgid "Change Default Mask Color"
+msgstr "更改默认掩膜颜色"
+
+#: gwyddion/toolbox.c:1305
+msgid "OpenGL 3D graphics not available"
+msgstr "OpenGL 三维图形不可用"
+
+#: gwyddion/toolbox.c:1309
+msgid "OpenGL was disabled with a command-line option."
+msgstr "OpenGL 已通过命令行选项禁用。"
+
+#: gwyddion/toolbox.c:1316
+msgid ""
+"Initialization of OpenGL failed.  Check output of <tt>glxinfo</tt> and "
+"warning messages printed to console during Gwyddion startup."
+msgstr "OpenGL 初始化失败。请检查 <tt>glxinfo</tt> 的输出以及 Gwyddion 启动时在控制台输出的警告消息。"
+
+#: gwyddion/toolbox.c:1322
+msgid "This version of Gwyddion was built without OpenGL support."
+msgstr "此版本的 Gwyddion 构建时未启用 OpenGL 支持。"
+
+#: modules/cmap/cmap_align.c:156 modules/graph/graph_align.c:77
+msgid "Align curves"
+msgstr "对齐曲线"
+
+#: modules/cmap/cmap_align.c:158 modules/cmap/cmap_lockin.c:181
+#: modules/cmap/cmap_possearch.c:165
+msgid "Set preview"
+msgstr "设置预览"
+
+#: modules/cmap/cmap_align.c:167 modules/cmap/cmap_possearch.c:174
+#: modules/process/linematch.c:168 modules/process/semsim.c:135
+#: modules/process/threshold.c:135 modules/volume/volume_linelevel.c:175
+#: modules/xyz/xyz_level.c:134 modules/xyz/xyz_reduce.c:94
+msgid "Method"
+msgstr "方法"
+
+#: modules/cmap/cmap_align.c:170 modules/cmap/cmap_extractcurve.c:140
+#: modules/cmap/cmap_fdfit.c:228 modules/cmap/cmap_filter.c:143
+#: modules/cmap/cmap_fit.c:209 modules/cmap/cmap_fztofd.c:162
+#: modules/cmap/cmap_peaks.c:186 modules/cmap/cmap_polylevel.c:163
+#: modules/cmap/cmap_sinebg.c:159
+msgid "Ordinate"
+msgstr "纵坐标"
+
+#: modules/cmap/cmap_align.c:175 modules/cmap/cmap_cutter.c:194
+#: modules/cmap/cmap_possearch.c:185 modules/process/fft.c:131
+#: modules/process/fit-shape.c:293 modules/process/maskcor.c:129
+#: modules/process/mfm_current.c:158 modules/process/mfm_field.c:155
+#: modules/process/mfm_parallel.c:164 modules/tools/corrlen.c:202
+msgid "Output _type"
+msgstr "输出类型(_T)"
+
+#: modules/cmap/cmap_align.c:229 modules/file/stpfile.c:113
+msgid "Topography"
+msgstr "表面形貌"
+
+#: modules/cmap/cmap_asciiexport.c:103 modules/graph/graph_fztofd.c:136
+#: modules/graph/graph_polylevel.c:116 modules/graph/graph_sfuncs.c:124
+#: modules/graph/graph_sinebg.c:116
+msgid "_All curves"
+msgstr "所有曲线(_A)"
+
+#: modules/cmap/cmap_asciiexport.c:107 modules/file/asciiexport.c:121
+msgid "Keep comment in English"
+msgstr "保留英文注释"
+
+#: modules/cmap/cmap_asciiexport.c:109 modules/file/asciiexport.c:123
+#: modules/file/xyzexport.c:114 modules/volume/volume_asciiexport.c:113
+msgid "Use _dot as decimal separator"
+msgstr "使用点作为小数分隔符(_D)"
+
+#: modules/cmap/cmap_asciiexport.c:110 modules/file/asciiexport.c:125
+#: modules/file/xyzexport.c:115 modules/volume/volume_asciiexport.c:114
+msgid "_Precision"
+msgstr "精度(_P)"
+
+#: modules/cmap/cmap_asciiexport.c:137 modules/graph/graph_export_ascii.c:186
+#: modules/volume/volume_asciiexport.c:144
+msgid "Export to Text File"
+msgstr "导出到文本文件"
+
+#: modules/cmap/cmap_asciiexport.c:155 modules/file/asciiexport.c:397
+#: modules/graph/graph_export_ascii.c:135
+#: modules/volume/volume_asciiexport.c:159
+msgid "Export Text"
+msgstr "导出文本"
+
+#: modules/cmap/cmap_asciiexport.c:235 modules/file/asciiexport.c:455
+#: modules/file/xyzexport.c:202
+msgid "Channel:"
+msgstr "通道："
+
+#: modules/cmap/cmap_asciiexport.c:251 modules/file/asciiexport.c:460
+msgid "Width:"
+msgstr "宽度："
+
+#: modules/cmap/cmap_asciiexport.c:252 modules/file/asciiexport.c:465
+msgid "Height:"
+msgstr "高度："
+
+#: modules/cmap/cmap_basicops.c:68 modules/process/basicops.c:72
+msgid "/_Basic Operations/Flip _Horizontally"
+msgstr "/基本操作(_B)/水平翻转(_H)"
+
+#: modules/cmap/cmap_basicops.c:72 modules/process/basicops.c:76
+msgid "Flip data horizontally"
+msgstr "水平翻转数据"
+
+#: modules/cmap/cmap_basicops.c:75 modules/process/basicops.c:79
+msgid "/_Basic Operations/Flip _Vertically"
+msgstr "/基本操作(_B)/垂直翻转(_V)"
+
+#: modules/cmap/cmap_basicops.c:79 modules/process/basicops.c:83
+msgid "Flip data vertically"
+msgstr "垂直翻转数据"
+
+#: modules/cmap/cmap_basicops.c:82 modules/process/basicops.c:93
+msgid "/_Basic Operations/Flip _Both"
+msgstr "/基本操作(_B)/双向翻转(_B)"
+
+#: modules/cmap/cmap_basicops.c:86 modules/process/basicops.c:97
+msgid "Flip data both horizontally and vertically"
+msgstr "在水平和垂直方向翻转数据"
+
+#: modules/cmap/cmap_basicops.c:90 modules/process/basicops.c:86
+msgid "/_Basic Operations/Flip Dia_gonally"
+msgstr "/基本操作(_B)/沿对角线翻转(_G)"
+
+#: modules/cmap/cmap_basicops.c:94 modules/process/basicops.c:90
+msgid "Flip data diagonally"
+msgstr "沿对角线翻转数据"
+
+#: modules/cmap/cmap_basicops.c:98 modules/process/basicops.c:100
+msgid "/_Basic Operations/Rotate C_lockwise"
+msgstr "/基本操作(_B)/顺时针旋转(_L)"
+
+#: modules/cmap/cmap_basicops.c:102 modules/process/basicops.c:104
+msgid "Rotate data 90 degrees clockwise"
+msgstr "将数据顺时针旋转 90 度"
+
+#: modules/cmap/cmap_basicops.c:105 modules/process/basicops.c:107
+msgid "/_Basic Operations/Rotate _Counterclockwise"
+msgstr "/基本操作(_B)/逆时针旋转(_C)"
+
+#: modules/cmap/cmap_basicops.c:109 modules/process/basicops.c:111
+msgid "Rotate data 90 degrees counterclockwise"
+msgstr "将数据逆时针旋转 90 度"
+
+#: modules/cmap/cmap_basicops.c:112 modules/process/basicops.c:121
+msgid "/_Basic Operations/_Null Offsets"
+msgstr "/基本操作(_B)/偏移归零(_N)"
+
+#: modules/cmap/cmap_basicops.c:116 modules/process/basicops.c:125
+msgid "Null horizontal offsets, moving the origin to the upper left corner"
+msgstr "将横向偏移归零，把原点移至左上角"
+
+#: modules/cmap/cmap_basicops.c:126 modules/volume/volumeops.c:49
+msgid "/_Basic Operations/Extract _Preview"
+msgstr "/基本操作(_B)/提取预览(_P)"
+
+#: modules/cmap/cmap_classify.c:194 modules/cmap/cmap_classify.c:374
+#: modules/cmap/cmap_linestat.c:124 modules/graph/graph_stats.c:227
+#: modules/process/grain_stat.c:161 modules/process/linematch.c:123
+#: modules/tools/linestats.c:116 modules/tools/stats.c:723
+#: modules/volume/volume_linelevel.c:129 modules/volume/volume_linestat.c:142
+#: modules/volume/volume_planestat.c:211
+msgid "Median"
+msgstr "中位数"
+
+#: modules/cmap/cmap_classify.c:197 modules/cmap/cmap_classify.c:377
+#: modules/cmap/cmap_linestat.c:138 modules/tools/linestats.c:125
+#: modules/volume/volume_linestat.c:153
+msgid "Rq (RMS)"
+msgstr "Rq（均方根）"
+
+#: modules/cmap/cmap_classify.c:198 modules/cmap/cmap_classify.c:378
+#: modules/graph/graph_stats.c:236 modules/tools/linestats.c:120
+#: modules/volume/volume_linestat.c:151
+msgid "Developed length"
+msgstr "展开长度"
+
+#: modules/cmap/cmap_classify.c:200 modules/cmap/cmap_classify.c:380
+#: modules/tools/linestats.c:122 modules/volume/volume_linestat.c:149
+msgid "tan β<sub>0</sub>"
+msgstr "tan β<sub>0</sub>"
+
+#: modules/cmap/cmap_classify.c:201 modules/cmap/cmap_classify.c:381
+#: modules/cmap/cmap_linestat.c:137 modules/graph/graph_stats.c:228
+#: modules/tools/linestats.c:124 modules/volume/volume_linestat.c:152
+msgid "Ra"
+msgstr "Ra"
+
+#: modules/cmap/cmap_classify.c:202 modules/cmap/cmap_classify.c:382
+#: modules/cmap/cmap_linestat.c:139 modules/tools/linestats.c:126
+#: modules/volume/volume_linestat.c:154
+msgid "Rz"
+msgstr "Rz"
+
+#: modules/cmap/cmap_classify.c:203 modules/cmap/cmap_classify.c:383
+#: modules/cmap/cmap_linestat.c:140 modules/tools/linestats.c:127
+#: modules/volume/volume_linestat.c:155
+msgid "Rt"
+msgstr "Rt"
+
+#: modules/cmap/cmap_classify.c:204 modules/cmap/cmap_classify.c:384
+#: modules/cmap/cmap_linestat.c:141 modules/graph/graph_stats.c:230
+#: modules/process/col_synth.c:148 modules/tools/linestats.c:128
+#: modules/tools/stats.c:717 modules/volume/volume_linestat.c:156
+#: modules/volume/volume_planestat.c:199
+msgid "Skew"
+msgstr "偏度"
+
+#: modules/cmap/cmap_classify.c:205 modules/cmap/cmap_classify.c:385
+#: modules/cmap/cmap_linestat.c:142 modules/graph/graph_stats.c:231
+#: modules/process/col_synth.c:149 modules/tools/linestats.c:129
+#: modules/tools/stats.c:718 modules/volume/volume_linestat.c:157
+#: modules/volume/volume_planestat.c:203
+msgid "Excess kurtosis"
+msgstr "超额峰度"
+
+#: modules/cmap/cmap_classify.c:206 modules/cmap/cmap_classify.c:386
+#: modules/cmap/cmap_linestat.c:136 modules/graph/graph_cut.c:100
+#: modules/graph/graph_measure_period.c:129
+#: modules/graph/graph_measure_period.c:241 modules/graph/graph_polylevel.c:122
+#: modules/graph/graph_sinebg.c:121 modules/graph/graph_stats.c:112
+#: modules/graph/graph_stats.c:215 modules/tools/linestats.c:119
+#: modules/tools/sfunctions.c:186 modules/volume/volume_linestat.c:147
+#: modules/volume/volume_planestat.c:195
+msgid "Range"
+msgstr "范围"
+
+#: modules/cmap/cmap_classify.c:207 modules/cmap/cmap_classify.c:387
+#: modules/graph/graph_stats.c:237 modules/process/diff_synth.c:197
+#: modules/process/good_profile.c:282 modules/tools/linestats.c:123
+#: modules/tools/stats.c:747 modules/volume/volume_linestat.c:150
+#: modules/volume/volume_planestat.c:215
+msgid "Variation"
+msgstr "总变差"
+
+#: modules/cmap/cmap_classify.c:246 modules/cmap/cmap_classify.c:264
+#: modules/process/classify.c:299 modules/process/classify.c:565
+#: modules/volume/volume_cluster.c:2232
+msgid "Mask A"
+msgstr "掩膜 A"
+
+#: modules/cmap/cmap_classify.c:247 modules/cmap/cmap_classify.c:265
+#: modules/process/classify.c:304 modules/process/classify.c:566
+#: modules/volume/volume_cluster.c:2233
+msgid "Mask B"
+msgstr "掩膜 B"
+
+#: modules/cmap/cmap_classify.c:248 modules/process/classify.c:567
+msgid "Result A"
+msgstr "结果 A"
+
+#: modules/cmap/cmap_classify.c:249 modules/process/classify.c:568
+msgid "Result B"
+msgstr "结果 B"
+
+#: modules/cmap/cmap_classify.c:400 modules/process/classify.c:242
+msgid "Classify"
+msgstr "分类"
+
+#: modules/cmap/cmap_classify.c:435 modules/volume/volume_cluster.c:585
+msgid "Result:"
+msgstr "结果："
+
+#: modules/cmap/cmap_classify.c:448 modules/cmap/cmap_classify.c:465
+#: modules/file/rawgraph.c:122 modules/graph/graph_measure_period.c:240
+#: modules/graph/graph_stats.c:214 modules/graph/graph_terraces.c:640
+msgid "Curve"
+msgstr "曲线"
+
+#: modules/cmap/cmap_classify.c:986 modules/process/classify.c:923
+msgid "Training classifier..."
+msgstr "正在训练分类器..."
+
+#: modules/cmap/cmap_crop.c:94 modules/tools/crop.c:130
+#: modules/volume/volume_drift.c:207
+msgid "Crop data"
+msgstr "裁剪数据"
+
+#: modules/cmap/cmap_crop.c:109 modules/process/ptranslate.c:143
+#: modules/process/ptranslate.c:146 modules/process/tilt.c:102
+#: modules/volume/volume_cluster.c:311 modules/volume/volume_drift.c:186
+#: modules/volume/volume_equiplane.c:155 modules/volume/volume_planestat.c:268
+#: modules/volume/volume_planestat.c:473 modules/volume/volume_rephase.c:142
+#: modules/volume/volume_slice.c:199 modules/volume/volume_strayfield.c:168
+#: modules/volume/volume_zposlevel.c:153
+msgid "_X"
+msgstr "_X"
+
+#: modules/cmap/cmap_crop.c:110 modules/process/ptranslate.c:144
+#: modules/process/ptranslate.c:147 modules/process/tilt.c:103
+#: modules/volume/volume_cluster.c:312 modules/volume/volume_drift.c:187
+#: modules/volume/volume_equiplane.c:156 modules/volume/volume_planestat.c:269
+#: modules/volume/volume_planestat.c:475 modules/volume/volume_rephase.c:143
+#: modules/volume/volume_slice.c:200 modules/volume/volume_strayfield.c:169
+#: modules/volume/volume_zposlevel.c:154
+msgid "_Y"
+msgstr "_Y"
+
+#: modules/cmap/cmap_crop.c:113 modules/process/extend.c:132
+#: modules/tools/crop.c:111
+msgid "Keep lateral offsets"
+msgstr "保留横向偏移"
+
+#: modules/cmap/cmap_crop.c:156 modules/process/calcoefs_simple.c:352
+#: modules/tools/crop.c:306
+msgid "Detail"
+msgstr "细节"
+
+#: modules/cmap/cmap_crop.c:191 modules/tools/crop.c:129
+#: modules/volume/volume_crop.c:192 modules/xyz/xyz_crop.c:103
+#: modules/xyz/xyz_crop.c:181
+msgid "Crop"
+msgstr "裁剪"
+
+#: modules/cmap/cmap_crop.c:213 modules/file/asciiexport.c:402
+#: modules/file/gxyzffile.c:393 modules/file/imgexport.c:3076
+#: modules/file/imgexport.c:3253 modules/file/nmmxyz.c:488
+#: modules/file/rawfile.c:563 modules/file/xyzexport.c:267
+#: modules/process/anneal_synth.c:301 modules/process/bdep_synth.c:337
+#: modules/process/binning.c:242 modules/process/calibrate.c:625
+#: modules/process/coerce.c:277 modules/process/col_synth.c:399
+#: modules/process/correct_affine.c:518 modules/process/cpde_synth.c:276
+#: modules/process/deposit_synth.c:283 modules/process/diff_synth.c:439
+#: modules/process/disc_synth.c:299 modules/process/displfield.c:258
+#: modules/process/domain_synth.c:343 modules/process/dune_synth.c:291
+#: modules/process/extend.c:319 modules/process/fbm_synth.c:274
+#: modules/process/fft.c:318 modules/process/fft_synth.c:284
+#: modules/process/fibre_synth.c:380 modules/process/good_profile.c:289
+#: modules/process/grain_edge.c:183 modules/process/grain_mark.c:224
+#: modules/process/grain_wshed.c:208 modules/process/lat_synth.c:518
+#: modules/process/linematch.c:321 modules/process/lno_synth.c:413
+#: modules/process/mark_disconn.c:212 modules/process/mfm_current.c:301
+#: modules/process/mfm_parallel.c:310 modules/process/noise_synth.c:306
+#: modules/process/obj_synth.c:459 modules/process/pat_synth.c:517
+#: modules/process/phase_synth.c:251 modules/process/pileup_synth.c:361
+#: modules/process/plateau_synth.c:331 modules/process/ptranslate.c:263
+#: modules/process/rank-filter.c:231 modules/process/residue_synth.c:286
+#: modules/process/rotate.c:288 modules/process/scars.c:305
+#: modules/process/slope_dist.c:259 modules/process/tip_blind.c:297
+#: modules/process/wave_synth.c:366 modules/process/wfr_synth.c:263
+#: modules/process/wpour_mark.c:259 modules/tools/corrlen.c:304
+#: modules/tools/spotremove.c:321 modules/tools/stats.c:254
+#: modules/volume/volume_asciiexport.c:163
+#: modules/volume/volume_calibrate.c:389 modules/volume/volume_scars.c:246
+#: modules/xyz/xyz_raster.c:391
+msgid "Options"
+msgstr "选项"
+
+#: modules/cmap/cmap_curvefilter.c:111 modules/cmap/cmap_cutter.c:198
+msgid "Keep curves"
+msgstr "保留曲线"
+
+#: modules/cmap/cmap_curvefilter.c:165 modules/cmap/cmap_cutter.c:278
+msgid "Cut to Segments"
+msgstr "切分为片段"
+
+#: modules/cmap/cmap_curvefilter.c:203 modules/cmap/cmap_cutter.c:354
+msgid "Keep curves:"
+msgstr "保留曲线："

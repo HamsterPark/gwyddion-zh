@@ -1,0 +1,418 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/correct_perspective.c:126
+msgid "Correct perspective distortion"
+msgstr "校正透视畸变"
+
+#: modules/process/correct_perspective.c:147
+msgid "Specify output _dimensions"
+msgstr "指定输出尺寸(_D)"
+
+#: modules/process/correct_perspective.c:330
+msgid "Projective Correction"
+msgstr "投影校正"
+
+#: modules/process/cpde_synth.c:133
+msgid "Turing pattern"
+msgstr "图灵斑图"
+
+#: modules/process/cpde_synth.c:134
+msgid "Diffusion-reaction"
+msgstr "扩散-反应"
+
+#: modules/process/cpde_synth.c:140
+msgid "Generates images by assorted coupled partial differential equation models."
+msgstr "使用各种耦合偏微分方程模型生成图像。"
+
+#: modules/process/cpde_synth.c:154
+msgid "/S_ynthetic/_Order and Disorder/Coupled PD_Es..."
+msgstr "/合成(_Y)/有序与无序(_O)/耦合偏微分方程(_E)..."
+
+#: modules/process/cpde_synth.c:158
+msgid "Generate image by coupled PDEs"
+msgstr "通过耦合偏微分方程生成图像"
+
+#: modules/process/cpde_synth.c:254
+msgid "Coupled PDEs"
+msgstr "耦合偏微分方程"
+
+#: modules/process/cpde_synth.c:530
+msgid "Degree of _chaos"
+msgstr "混沌程度(_C)"
+
+#: modules/process/cpde_synth.c:749
+msgid "_Removal rate"
+msgstr "去除速率(_R)"
+
+#: modules/process/cpde_synth.c:751
+msgid "_Feed rate"
+msgstr "供给速率(_F)"
+
+#: modules/process/cpde_synth.c:753
+msgid "_Source density"
+msgstr "源密度(_S)"
+
+#: modules/process/cpde_synth.c:755
+msgid "No-sour_ce iterations"
+msgstr "无源迭代次数(_C)"
+
+#: modules/process/crosscor.c:106
+msgid "Absolute difference"
+msgstr "绝对差值"
+
+#: modules/process/crosscor.c:107
+msgid "X difference"
+msgstr "X 差值"
+
+#: modules/process/crosscor.c:108
+msgid "Y difference"
+msgstr "Y 差值"
+
+#: modules/process/crosscor.c:110
+msgid "Score"
+msgstr "得分"
+
+#: modules/process/crosscor.c:111
+msgid "Corrected second image"
+msgstr "校正后的第二幅图像"
+
+#: modules/process/crosscor.c:117
+msgid "Calculates cross-correlation of two data fields."
+msgstr "计算两个数据场的互相关。"
+
+#: modules/process/crosscor.c:131
+msgid "/M_ultidata/_Cross-Correlation..."
+msgstr "/多数据(_U)/互相关(_C)..."
+
+#: modules/process/crosscor.c:135
+msgid "Cross-correlate two data fields"
+msgstr "对两个数据场进行互相关"
+
+#: modules/process/crosscor.c:150 modules/process/crosscor.c:168
+msgid "Co_rrelate with"
+msgstr "关联对象(_R)"
+
+#: modules/process/crosscor.c:160
+msgid "Add _low score results mask"
+msgstr "添加低得分结果掩膜(_L)"
+
+#: modules/process/crosscor.c:163
+msgid "Apply Ga_ussian filter of width"
+msgstr "应用指定宽度的高斯滤波(_U)"
+
+#: modules/process/crosscor.c:165
+msgid "Extend results to borders"
+msgstr "将结果扩展到边界"
+
+#: modules/process/crosscor.c:166
+msgid "Multichannel cross-corelation"
+msgstr "多通道互相关"
+
+#: modules/process/crosscor.c:167
+msgid "Second _source data"
+msgstr "第二源数据(_S)"
+
+#: modules/process/crosscor.c:230
+msgid "Cross-Correlation"
+msgstr "互相关"
+
+#: modules/process/crosscor.c:239
+msgid "Multichannel"
+msgstr "多通道"
+
+#: modules/process/crosscor.c:269
+msgid "Search Region"
+msgstr "搜索区域"
+
+#: modules/process/crosscor.c:272
+msgid "_Guess"
+msgstr "估计值(_G)"
+
+#: modules/process/crosscor.c:273
+msgid "Global offset of second image"
+msgstr "第二幅图像的全局偏移"
+
+#: modules/process/crosscor.c:275
+msgid "Search Detail"
+msgstr "搜索细节"
+
+#: modules/process/crosscor.c:296
+msgid "Postprocessing"
+msgstr "后处理"
+
+#: modules/process/crosscor.c:502
+msgid "Correlating first set..."
+msgstr "正在关联第一组……"
+
+#: modules/process/crosscor.c:519
+msgid "Correlating second set..."
+msgstr "正在关联第二组……"
+
+#: modules/process/cwt.c:56
+msgid "Two-dimensional CWT (Continuous Wavelet Transform)."
+msgstr "二维 CWT（连续小波变换）。"
+
+#: modules/process/cwt.c:70
+msgid "/_Integral Transforms/2D _CWT..."
+msgstr "/积分变换(_I)/二维 CWT(_C)..."
+
+#: modules/process/cwt.c:74
+msgid "Compute continuous wavelet transform"
+msgstr "计算连续小波变换"
+
+#: modules/process/cwt.c:91
+msgid "_Scale"
+msgstr "尺度(_S)"
+
+#: modules/process/cwt.c:131
+msgid "CWT"
+msgstr "CWT"
+
+#: modules/process/cwt.c:148
+msgid "2D CWT"
+msgstr "二维 CWT"
+
+#: modules/process/deconvolve.c:150
+msgid "L-curve"
+msgstr "L 曲线"
+
+#: modules/process/deconvolve.c:156
+msgid "Regularized image deconvolution."
+msgstr "正则化图像反卷积。"
+
+#: modules/process/deconvolve.c:170
+msgid "/M_ultidata/_Deconvolve..."
+msgstr "/多数据(_U)/反卷积(_D)..."
+
+#: modules/process/deconvolve.c:174
+msgid "Deconvolve image"
+msgstr "对图像反卷积"
+
+#: modules/process/deconvolve.c:183 modules/process/deconvolve.c:188 modules/process/deconvolve.c:243
+msgid "Deconvolved"
+msgstr "已反卷积"
+
+#: modules/process/deconvolve.c:204
+msgid "_L-curve display"
+msgstr "L 曲线显示(_L)"
+
+#: modules/process/deconvolve.c:207
+msgid "_Sigma range"
+msgstr "Sigma 范围(_S)"
+
+#: modules/process/deconvolve.c:271
+msgid "Deconvolve"
+msgstr "反卷积"
+
+#: modules/process/deconvolve.c:300
+msgid "L-Curve"
+msgstr "L 曲线"
+
+#: modules/process/deconvolve.c:304
+msgid "Best estimate sigma"
+msgstr "最佳估计 Sigma"
+
+#: modules/process/deconvolve.c:306
+msgid "_Update L-Curve"
+msgstr "更新 L 曲线(_U)"
+
+#: modules/process/deconvolve.c:308
+msgid "_Use Estimate"
+msgstr "使用估计值(_U)"
+
+#: modules/process/deconvolve.c:375
+msgid "unknown"
+msgstr "未知"
+
+#: modules/process/deconvolve.c:583
+msgid "Computing L-curve data..."
+msgstr "正在计算 L 曲线数据……"
+
+#: modules/process/deposit_synth.c:119
+msgid "Generates particles using simple dynamical model"
+msgstr "使用简单动力学模型生成颗粒"
+
+#: modules/process/deposit_synth.c:133
+msgid "/S_ynthetic/_Deposition/_Particles..."
+msgstr "/合成(_Y)/沉积(_D)/颗粒(_P)..."
+
+#: modules/process/deposit_synth.c:137
+msgid "Generate particles using dynamical model"
+msgstr "使用动力学模型生成颗粒"
+
+#: modules/process/deposit_synth.c:150
+msgid "_Relax steps"
+msgstr "弛豫步数(_R)"
+
+#: modules/process/deposit_synth.c:151
+msgid "Particle r_adius"
+msgstr "颗粒半径(_A)"
+
+#: modules/process/deposit_synth.c:152
+msgid "Distribution _width"
+msgstr "分布宽度(_W)"
+
+#: modules/process/deposit_synth.c:368
+#, c-format
+msgid "Only %d particles were deposited. Try more revise steps."
+msgstr "仅沉积了 %d 个颗粒。请尝试增加修正步数。"
+
+#: modules/process/deposit_synth.c:599
+msgid "Initial particle set..."
+msgstr "初始颗粒集……"
+
+#: modules/process/diff_synth.c:198
+msgid "Number of islands"
+msgstr "岛数量"
+
+#: modules/process/diff_synth.c:204
+msgid "Generates surfaces by diffusion limited aggregation."
+msgstr "通过扩散限制聚集生成表面。"
+
+#: modules/process/diff_synth.c:218
+msgid "/S_ynthetic/_Deposition/_Diffusion..."
+msgstr "/合成(_Y)/沉积(_D)/扩散限制聚集(_D)..."
+
+#: modules/process/diff_synth.c:222
+msgid "Generate surface by diffusion limited aggregation"
+msgstr "通过扩散限制聚集生成表面"
+
+#: modules/process/diff_synth.c:238
+msgid "_Flux"
+msgstr "通量(_F)"
+
+#: modules/process/diff_synth.c:240
+msgid "_Sticking"
+msgstr "黏附(_S)"
+
+#: modules/process/diff_synth.c:241
+msgid "_Activation"
+msgstr "激活(_A)"
+
+#: modules/process/diff_synth.c:242
+msgid "Passing Sch_woebel"
+msgstr "跨越 Schwoebel 势垒(_W)"
+
+#: modules/process/diff_synth.c:373
+msgid "Diffusion Limited Aggregation"
+msgstr "扩散限制聚集"
+
+#: modules/process/diff_synth.c:431
+msgid "Probabilities"
+msgstr "概率"
+
+#: modules/process/dimensions.h:485
+msgid "H_eight:"
+msgstr "高度(_E)："
+
+#: modules/process/dimensions.h:499
+msgid "_Dimension units:"
+msgstr "尺寸单位(_D)："
+
+#: modules/process/dimensions.h:505
+msgid "_Value units:"
+msgstr "数值单位(_V)："
+
+#: modules/process/disc_synth.c:115
+msgid "Generates random more or less touching discs."
+msgstr "生成随机且大致相互接触的圆盘。"
+
+#: modules/process/disc_synth.c:129
+msgid "/S_ynthetic/D_iscs..."
+msgstr "/合成(_Y)/圆盘(_I)..."
+
+#: modules/process/disc_synth.c:133
+msgid "Generate surface of random discs"
+msgstr "生成随机圆盘表面"
+
+#: modules/process/disc_synth.c:148
+msgid "Starting _radius"
+msgstr "起始半径(_R)"
+
+#: modules/process/disc_synth.c:151
+msgid "_Separation"
+msgstr "间距(_S)"
+
+#: modules/process/disc_synth.c:152
+msgid "_Transform to tiles"
+msgstr "转换为瓦片(_T)"
+
+#: modules/process/disc_synth.c:153
+msgid "_Gap thickness"
+msgstr "间隙厚度(_G)"
+
+#: modules/process/disc_synth.c:154
+msgid "Apply opening _filter"
+msgstr "应用开运算滤波(_F)"
+
+#: modules/process/disc_synth.c:223
+msgid "Random Discs"
+msgstr "随机圆盘"
+
+#: modules/process/disc_synth.c:268
+msgid "Discs"
+msgstr "圆盘"
+
+#: modules/process/disc_synth.c:280
+msgid "Tiles"
+msgstr "瓦片"
+
+#: modules/process/displfield.c:110
+msgid "Distorts image or individual scan lines in plane using a displacement field."
+msgstr "使用位移场在平面内使图像或单条扫描线发生畸变。"
+
+#: modules/process/displfield.c:124
+msgid "/_Distortion/Displacement _Field..."
+msgstr "/畸变(_D)/位移场(_F)..."
+
+#: modules/process/displfield.c:128
+msgid "Deform image or scan lines in plane"
+msgstr "在平面内使图像或扫描线变形"
+
+#: modules/process/displfield.c:137
+msgid "Gaussian (scan lines)"
+msgstr "高斯（扫描线）"
+
+#: modules/process/displfield.c:138
+msgid "Gaussian (two-dimensional)"
+msgstr "高斯（二维）"
+
+#: modules/process/displfield.c:139
+msgid "Tear scan lines"
+msgstr "撕裂扫描线"
+
+#: modules/process/displfield.c:140
+msgid "Image (scan lines)"
+msgstr "图像（扫描线）"
+
+#: modules/process/displfield.c:141
+msgid "Images (two-dimensional)"
+msgstr "图像（二维）"
+
+#: modules/process/displfield.c:168
+msgid "_X displacement"
+msgstr "X 位移(_X)"
+
+#: modules/process/displfield.c:169
+msgid "_Y displacement"
+msgstr "Y 位移(_Y)"
+
+#: modules/process/displfield.c:231 modules/process/displfield.c:240
+msgid "Displacement Field"
+msgstr "位移场"

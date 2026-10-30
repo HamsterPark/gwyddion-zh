@@ -1,0 +1,46 @@
+# Simplified Chinese translation for Gwyddion.
+# This file is distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/xyz/xyz_level.c:136
+msgid "Update X and Y of _all compatible data"
+msgstr "更新所有兼容数据的 X 和 Y(_A)"
+
+#: modules/xyz/xyz_level.c:246
+msgid "Level XYZ Data"
+msgstr "调平 XYZ 数据"
+
+#: modules/xyz/xyz_raster.c:379 modules/xyz/xyz_volumize.c:242
+msgid "Make Pixels S_quare"
+msgstr "使像素为正方形(_Q)"
+
+#: modules/xyz/xyz_tcut.c:109 modules/xyz/xyz_tstep.c:119
+#: modules/xyz/xyz_volumize.c:119
+msgid "X value"
+msgstr "X 值"
+
+#: modules/xyz/xyz_tcut.c:110 modules/xyz/xyz_tstep.c:120
+#: modules/xyz/xyz_volumize.c:120
+msgid "Y value"
+msgstr "Y 值"
+
+#: modules/xyz/xyz_tcut.c:111 modules/xyz/xyz_tstep.c:121
+#: modules/xyz/xyz_volumize.c:121
+msgid "Z value"
+msgstr "Z 值"
+
+#: modules/xyz/xyz_tcut.c:122 modules/xyz/xyz_zdrift.c:137
+msgid "From index"
+msgstr "起始索引"
+
+#: modules/xyz/xyz_tcut.c:123 modules/xyz/xyz_zdrift.c:138
+msgid "To index"
+msgstr "结束索引"

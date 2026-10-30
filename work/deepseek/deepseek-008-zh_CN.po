@@ -1,0 +1,417 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/fft.c:109
+msgid "Compute Fast Fourier Transform"
+msgstr "计算快速傅里叶变换"
+
+#: modules/process/fft.c:118
+msgid "Real"
+msgstr "实部"
+
+#: modules/process/fft.c:119
+msgid "Imaginary"
+msgstr "虚部"
+
+#: modules/process/fft.c:120
+msgid "Modulus"
+msgstr "模"
+
+#: modules/process/fft.c:133
+msgid "_Preserve RMS"
+msgstr "保持 RMS(_P)"
+
+#: modules/process/fft.c:134
+msgid "Ra_w transform"
+msgstr "原始变换(_W)"
+
+#: modules/process/fft.c:137
+msgid "Subtract mean _value beforehand"
+msgstr "预先减去均值(_V)"
+
+#: modules/process/fft.c:138
+msgid "I_maginary part"
+msgstr "虚部(_M)"
+
+#: modules/process/fft.c:212
+msgid "FFT Real"
+msgstr "FFT 实部"
+
+#: modules/process/fft.c:214
+msgid "FFT Imaginary"
+msgstr "FFT 虚部"
+
+#: modules/process/fft.c:218
+msgid "FFT Phase"
+msgstr "FFT 相位"
+
+#: modules/process/fft.c:303 modules/process/fft.c:308
+msgid "2D FFT"
+msgstr "二维 FFT"
+
+#: modules/process/fft_filter_1d.c:110
+msgid "1D FFT Filtering"
+msgstr "一维 FFT 滤波"
+
+#: modules/process/fft_filter_1d.c:172
+msgid "1D FFT Filtered Data"
+msgstr "一维 FFT 滤波后数据"
+
+#: modules/process/fft_filter_1d.c:208
+msgid "1D FFT filter"
+msgstr "一维 FFT 滤波器"
+
+#: modules/process/fft_filter_2d.c:157 modules/process/fft_filter_2d.c:408
+msgid "2D FFT Filtering"
+msgstr "二维 FFT 滤波"
+
+#: modules/process/fft_filter_2d.c:171
+msgid "/_Correct Data/_2D FFT Filtering..."
+msgstr "/校正数据(_C)/二维 FFT 滤波(_2)..."
+
+#: modules/process/fft_filter_2d.c:175
+msgid "Two-dimensional FFT filtering"
+msgstr "二维 FFT 滤波"
+
+#: modules/process/fft_filter_2d.c:284
+msgid "Filtered Data"
+msgstr "滤波后数据"
+
+#: modules/process/fft_filter_2d.c:312
+msgid "Filtered FFT"
+msgstr "滤波后 FFT"
+
+#: modules/process/fft_filter_2d.c:336
+msgid "Add an ellipse to the FFT mask"
+msgstr "向 FFT 掩膜添加椭圆"
+
+#: modules/process/fft_filter_2d.c:341
+msgid "Add a rectangle to the FFT mask"
+msgstr "向 FFT 掩膜添加矩形"
+
+#: modules/process/fft_filter_2d.c:346
+msgid "Subtract an ellipse from the FFT mask"
+msgstr "从 FFT 掩膜中减去椭圆"
+
+#: modules/process/fft_filter_2d.c:351
+msgid "Subtract a rectangle from the FFT mask"
+msgstr "从 FFT 掩膜中减去矩形"
+
+#: modules/process/fft_filter_2d.c:362
+msgid "_FFT mask editor"
+msgstr "FFT 掩膜编辑器(_F)"
+
+#: modules/process/fft_filter_2d.c:370
+msgid "Fi_ltered image"
+msgstr "滤波后图像(_L)"
+
+#: modules/process/fft_filter_2d.c:374
+msgid "Image _difference"
+msgstr "图像差值(_D)"
+
+#: modules/process/fft_filter_2d.c:385
+msgid "Filtered i_mage"
+msgstr "滤波后图像(_M)"
+
+#: modules/process/fft_filter_2d.c:389
+msgid "Ima_ge difference"
+msgstr "图像差值(_G)"
+
+#: modules/process/fft_filter_2d.c:393
+msgid "Filtered FFT mo_dulus"
+msgstr "滤波后 FFT 模(_D)"
+
+#: modules/process/fft_filter_2d.c:442
+msgid "Filter Mask"
+msgstr "滤波掩膜"
+
+#: modules/process/fft_filter_2d.c:477
+msgid "_Undo"
+msgstr "撤销(_U)"
+
+#: modules/process/fft_filter_2d.c:480
+msgid "Undo the last change to the filter mask"
+msgstr "撤销对滤波掩膜的最后一次更改"
+
+#: modules/process/fft_filter_2d.c:487
+msgid "Clear the entire filter mask"
+msgstr "清除整个滤波掩膜"
+
+#: modules/process/fft_filter_2d.c:494
+msgid "Fill the entire filter mask"
+msgstr "填充整个滤波掩膜"
+
+#: modules/process/fft_filter_2d.c:500
+msgid "_Snap to origin"
+msgstr "吸附到原点(_S)"
+
+#: modules/process/fft_filter_2d.c:502
+msgid "Force shapes to center around the origin"
+msgstr "强制图形以原点为中心"
+
+#: modules/process/fft_filter_2d.c:547
+msgid "Zoom:"
+msgstr "缩放："
+
+#: modules/process/fft_synth.c:92
+msgid "Generates random surfaces using spectral synthesis."
+msgstr "使用频谱合成生成随机表面。"
+
+#: modules/process/fft_synth.c:106
+msgid "/S_ynthetic/_Noise/_Spectral..."
+msgstr "/合成(_Y)/噪声(_N)/频谱(_S)..."
+
+#: modules/process/fft_synth.c:110
+msgid "Generate surface using spectral synthesis"
+msgstr "使用频谱合成生成表面"
+
+#: modules/process/fft_synth.c:126
+msgid "M_inimum frequency"
+msgstr "最小频率(_I)"
+
+#: modules/process/fft_synth.c:128
+msgid "Ma_ximum frequency"
+msgstr "最大频率(_X)"
+
+#: modules/process/fft_synth.c:130
+msgid "Enable _Gaussian multiplier"
+msgstr "启用高斯乘子(_G)"
+
+#: modules/process/fft_synth.c:132 modules/process/fft_synth.c:133
+msgid "General power"
+msgstr "通用幂次"
+
+#: modules/process/fft_synth.c:134
+msgid "Enable _Lorentz multiplier"
+msgstr "启用 Lorentz 乘子(_L)"
+
+#: modules/process/fft_synth.c:137
+msgid "Enable _power multiplier"
+msgstr "启用幂律乘子(_P)"
+
+#: modules/process/fft_synth.c:204
+msgid "Spectral Synthesis"
+msgstr "频谱合成"
+
+#: modules/process/fft_synth.c:258 modules/process/fft_synth.c:261
+msgid "px<sup>-1</sup>"
+msgstr "px<sup>-1</sup>"
+
+#: modules/process/fibre_synth.c:155
+msgid "Generates surfaces composed from randomly placed fibers."
+msgstr "生成由随机放置的纤维构成的表面。"
+
+#: modules/process/fibre_synth.c:169
+msgid "/S_ynthetic/_Deposition/_Fibers..."
+msgstr "/合成(_Y)/沉积(_D)/纤维(_F)..."
+
+#: modules/process/fibre_synth.c:173
+msgid "Generate surface of randomly placed fibers"
+msgstr "生成随机放置纤维的表面"
+
+#: modules/process/fibre_synth.c:182
+msgid "Semi-circle"
+msgstr "半圆形"
+
+#: modules/process/fibre_synth.c:183
+msgid "Triangle"
+msgstr "三角形"
+
+#: modules/process/fibre_synth.c:186
+msgid "Quadratic spline"
+msgstr "二次样条"
+
+#: modules/process/fibre_synth.c:199 modules/process/fibre_synth.c:202
+msgid "Along fiber"
+msgstr "沿纤维"
+
+#: modules/process/fibre_synth.c:211
+msgid "_Lateral"
+msgstr "横向(_L)"
+
+#: modules/process/fibre_synth.c:213
+msgid "Le_ngthwise"
+msgstr "纵向(_G)"
+
+#: modules/process/fibre_synth.c:281
+msgid "Random Fibers"
+msgstr "随机纤维"
+
+#: modules/process/fibre_synth.c:751
+msgid "Generating fibers..."
+msgstr "正在生成纤维……"
+
+#: modules/process/fit-shape.c:237
+msgid "Fits predefined geometrical shapes to data."
+msgstr "将预定义几何形状拟合到数据。"
+
+#: modules/process/fit-shape.c:251
+msgid "/Measure _Features/_Fit Shape..."
+msgstr "/测量特征(_M)/拟合形状(_F)..."
+
+#: modules/process/fit-shape.c:255 modules/process/fit-shape.c:262
+msgid "Fit geometrical shapes"
+msgstr "拟合几何形状"
+
+#: modules/process/fit-shape.c:258
+msgid "/_Fit Shape..."
+msgstr "/拟合形状(_F)..."
+
+#: modules/process/fit-shape.c:300
+msgid "Calculate differences for e_xcluded pixels"
+msgstr "计算被排除像素的差值(_X)"
+
+#: modules/process/fit-shape.c:491
+msgid "Fit Shape"
+msgstr "拟合形状"
+
+#: modules/process/fit-shape.c:496
+msgid "verb|_Quick Fit"
+msgstr "快速拟合(_Q)"
+
+#: modules/process/fit-shape.c:513 modules/process/fit-shape.c:1676
+msgid "Derived Quantities"
+msgstr "导出量"
+
+#: modules/process/fit-shape.c:517
+msgid "Mean square difference:"
+msgstr "均方差："
+
+#: modules/process/fit-shape.c:695
+msgid "_Recalculate Image"
+msgstr "重新计算图像(_R)"
+
+#: modules/process/fit-shape.c:700
+msgid "Revert to _Previous Values"
+msgstr "恢复为先前值(_P)"
+
+#: modules/process/fit-shape.c:1492
+msgid "Parameter estimation failed"
+msgstr "参数估计失败"
+
+#: modules/process/fit-shape.c:1496
+msgid "Fit was interrupted"
+msgstr "拟合已中断"
+
+#: modules/process/fraccor.c:39
+msgid "Removes data under mask using fractal interpolation."
+msgstr "使用分形插值移除掩膜下的数据。"
+
+#: modules/process/fraccor.c:53
+msgid "/_Correct Data/_Fractal Correction"
+msgstr "/校正数据(_C)/分形校正(_F)"
+
+#: modules/process/fraccor.c:57
+msgid "Interpolate data under mask with fractal interpolation"
+msgstr "用分形插值对掩膜下的数据插值"
+
+#: modules/process/freq_split.c:110
+msgid "Splits image into low and high frequency components."
+msgstr "将图像分解为低频和高频分量。"
+
+#: modules/process/freq_split.c:124
+msgid "/_Level/_Frequency Split..."
+msgstr "/调平(_L)/频率分解(_F)..."
+
+#: modules/process/freq_split.c:128
+msgid "Split into low and high frequencies"
+msgstr "分解为低频和高频"
+
+#: modules/process/freq_split.c:137
+msgid "boundary-handling|None"
+msgstr "无"
+
+#: modules/process/freq_split.c:138
+msgid "Laplace"
+msgstr "Laplace"
+
+#: modules/process/freq_split.c:139
+msgid "Smooth connect"
+msgstr "平滑连接"
+
+#: modules/process/freq_split.c:140
+msgid "Mirror"
+msgstr "镜像"
+
+#: modules/process/freq_split.c:144 modules/process/freq_split.c:216
+msgid "High-pass"
+msgstr "高通"
+
+#: modules/process/freq_split.c:145 modules/process/freq_split.c:206
+msgid "Low-pass"
+msgstr "低通"
+
+#: modules/process/freq_split.c:148
+msgid "Low-pass image"
+msgstr "低通图像"
+
+#: modules/process/freq_split.c:149
+msgid "High-pass image"
+msgstr "高通图像"
+
+#: modules/process/freq_split.c:249
+msgid "Frequency Split"
+msgstr "频率分解"
+
+#: modules/process/freq_split.c:275
+msgid "Wavelength"
+msgstr "波长"
+
+#: modules/process/gaussian_step.c:66
+msgid "Edge detection using a Gaussian step filter."
+msgstr "使用高斯阶跃滤波器进行边缘检测。"
+
+#: modules/process/gaussian_step.c:80
+msgid "/_Presentation/_Edge Detection/_Gaussian Step..."
+msgstr "/展示(_P)/边缘检测(_E)/高斯阶跃(_G)..."
+
+#: modules/process/gaussian_step.c:84
+msgid "Detect edges using Gaussian step filter"
+msgstr "使用高斯阶跃滤波器检测边缘"
+
+#: modules/process/gaussian_step.c:159
+msgid "Gaussian Step Detection"
+msgstr "高斯阶跃检测"
+
+#: modules/process/good_profile.c:95
+msgid "Calculates good average row from one or multiple images of repeated scanning of the same feature."
+msgstr "从一幅或多幅对同一特征重复扫描的图像计算优质平均行。"
+
+#: modules/process/good_profile.c:109
+msgid "/_Correct Data/_Good Mean Profile..."
+msgstr "/校正数据(_C)/优质平均轮廓(_G)..."
+
+#: modules/process/good_profile.c:113
+msgid "Calculate good mean profile"
+msgstr "计算优质平均轮廓"
+
+#: modules/process/good_profile.c:122
+msgid "_Single image"
+msgstr "单幅图像(_S)"
+
+#: modules/process/good_profile.c:123
+msgid "_Multiple images"
+msgstr "多幅图像(_M)"
+
+#: modules/process/good_profile.c:250
+msgid "Good Mean Profile"
+msgstr "优质平均轮廓"
+
+#: modules/process/good_profile.c:507 modules/process/good_profile.c:514
+msgid "Mean profile"
+msgstr "平均轮廓"

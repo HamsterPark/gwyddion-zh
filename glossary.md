@@ -1,6 +1,6 @@
 # Gwyddion 中文术语表（简体初稿）
 
-本表目前仅为简体中文的翻译协作暂定约定；香港／澳门与台湾繁体术语及地区差异另行审校。本表，不代表 Gwyddion 官方中文译名。请结合界面位置、源代码和实际功能审校；有歧义的词不要机械替换。遇到可能改变科学含义的译法，请记录待讨论项。术语也应根据词性与上下文灵活调整。
+本表目前仅为简体中文的翻译协作暂定约定；香港／澳门与台湾繁体术语及地区差异另行审校。本表不代表 Gwyddion 官方中文译名。请结合界面位置、源代码和实际功能审校；有歧义的词不要机械替换。遇到可能改变科学含义的译法，请记录待讨论项。术语也应根据词性与上下文灵活调整。
 
 | 英文 | 建议译法 | 说明 |
 | --- | --- | --- |
@@ -31,7 +31,7 @@
 | waviness | 波纹度 | 与粗糙度区分。 |
 | root mean square roughness | 均方根粗糙度 | 保留 Sq、Rq 等具体符号。 |
 | skewness | 偏度 | 保留具体统计量的符号。 |
-| kurtosis / excess kurtosis | 峰度 / 超额峰度 | 两者不能混同；Gwyddion 手册中相关统计量采用超额峰度。 |
+| kurtosis / excess kurtosis | 峰度 / 超额峰度 | 两者不能混同；不同功能定义可能不同，须查公式和源码，不能一概而论。 |
 | autocorrelation function (ACF) | 自相关函数 | 可保留 ACF 缩写。 |
 | height-height correlation function (HHCF) | 高度-高度相关函数 | 与自相关函数区分。 |
 | power spectral density (PSD) | 功率谱密度 | 可保留 PSD 缩写。 |
@@ -41,6 +41,16 @@
 | trace / retrace | 正向扫描 / 反向扫描 | 仅用于扫描方向语境；其他语境按含义翻译。 |
 | outlier | 异常值 | 具体处理方式视功能而定。 |
 
+## 补充：处理算法与统计量
+
+| 英文 | 建议译法 | 说明 |
+| --- | --- | --- |
+| Revolve Arc | 滚动圆弧 | 将虚拟圆弧沿数据表面滚动，包络用于背景估计，避免理解成原地旋转。 |
+| Revolve Sphere | 滚动球体 | 将虚拟球体沿数据表面滚动，包络用于背景估计。 |
+| total variation | 总变差 | Gwyddion 的 Variation 在相关统计界面表示总变差，具体维度依数据而定。 |
+| ASF Opening / Closing | 交替顺序滤波（以开运算／闭运算结束） | 分别为以开运算或闭运算结束的交替顺序滤波，二者包含开、闭运算。 |
+| pixel area MFM force gradient | 按像素面积归一化的 MFM 力梯度 | 程序将 MFM 力梯度再除以像素面积。 |
+
 ## 主要依据
 
 - [Gwyddion 用户手册：数据调平与背景扣除](https://gwyddion.net/documentation/user-guide-en/leveling-and-background.html)，用于区分平面调平、面片调平及基底平坦化等操作。
@@ -49,4 +59,5 @@
 - [Gwyddion 用户手册：图像堆栈](https://gwyddion.net/documentation/user-guide-en/image-stacks-processing.html)，说明体数据可用于表示图像堆栈。
 
 上述官方页面用于核对功能含义，并非中文译名来源。
+
 

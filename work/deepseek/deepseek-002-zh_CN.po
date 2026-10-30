@@ -1,0 +1,423 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/cmap/cmap_peaks.c:184
+msgid "Apply _individually"
+msgstr "分别应用(_I)"
+
+#: modules/cmap/cmap_peaks.c:190
+msgid "Window size"
+msgstr "窗口大小"
+
+#: modules/cmap/cmap_peaks.c:234
+msgid "Number of peaks"
+msgstr "峰数"
+
+#: modules/cmap/cmap_peaks.c:265
+msgid "Count Peaks"
+msgstr "计数峰"
+
+#: modules/cmap/cmap_peaks.c:515
+msgid "No data"
+msgstr "无数据"
+
+#: modules/cmap/cmap_possearch.c:129
+msgid "Picks a quantity at some threshold position."
+msgstr "在指定阈值位置读取某一量值。"
+
+#: modules/cmap/cmap_possearch.c:143
+msgid "/_Position Search..."
+msgstr "/位置搜索(_P)..."
+
+#: modules/cmap/cmap_possearch.c:147
+msgid "Search for a threshold"
+msgstr "搜索阈值"
+
+#: modules/cmap/cmap_possearch.c:156
+msgid "Below threshold"
+msgstr "低于阈值"
+
+#: modules/cmap/cmap_possearch.c:157
+msgid "Above threshold"
+msgstr "高于阈值"
+
+#: modules/cmap/cmap_possearch.c:160
+msgid "Left to right"
+msgstr "从左到右"
+
+#: modules/cmap/cmap_possearch.c:161
+msgid "Right to left"
+msgstr "从右到左"
+
+#: modules/cmap/cmap_possearch.c:164
+msgid "Extract quantity"
+msgstr "提取量值"
+
+#: modules/cmap/cmap_possearch.c:178
+msgid "Pick value curve"
+msgstr "读取数值曲线"
+
+#: modules/cmap/cmap_possearch.c:179
+msgid "Search curve"
+msgstr "搜索曲线"
+
+#: modules/cmap/cmap_possearch.c:279
+msgid "Search for threshold"
+msgstr "搜索阈值"
+
+#: modules/cmap/cmap_simplemech.c:180
+msgid "/_Nanomechanical Fit..."
+msgstr "/纳米力学拟合(_N)..."
+
+#: modules/cmap/cmap_simplemech.c:213
+msgid "Force curve"
+msgstr "力曲线"
+
+#: modules/cmap/cmap_simplemech.c:221
+msgid "Output images"
+msgstr "输出图像"
+
+#: modules/cmap/cmap_simplemech.c:259
+#, c-format
+msgid "%s: Curves have to be segmented."
+msgstr "%s：曲线必须分段。"
+
+#: modules/cmap/cmap_simplemech.c:380
+msgid "Control points"
+msgstr "控制点"
+
+#: modules/cmap/cmap_sinebg.c:125
+msgid "Remove sine background from curves."
+msgstr "从曲线中去除正弦背景。"
+
+#: modules/cmap/cmap_sinebg.c:139
+msgid "/Remove _Sine Background..."
+msgstr "/去除正弦背景(_S)..."
+
+#: modules/cmap/cmap_sinebg.c:143
+msgid "Remove sine background from all curves"
+msgstr "从所有曲线中去除正弦背景"
+
+#: modules/cmap/cmap_volumize.c:85
+msgid "Volumize curves."
+msgstr "将曲线转换为体数据。"
+
+#: modules/cmap/cmap_volumize.c:99
+msgid "/_Volumize Curves..."
+msgstr "/曲线转换为体数据(_V)..."
+
+#: modules/cmap/cmap_volumize.c:103
+msgid "Volumize curves"
+msgstr "将曲线转换为体数据"
+
+#: modules/cmap/cmap_volumize.c:113
+msgid "Beginning"
+msgstr "开头"
+
+#: modules/cmap/cmap_volumize.c:114
+msgid "End"
+msgstr "末尾"
+
+#: modules/cmap/cmap_volumize.c:123
+msgid "_Ordinate"
+msgstr "纵坐标(_O)"
+
+#: modules/cmap/cmap_volumize.c:126
+msgid "_Cut curves"
+msgstr "裁剪曲线(_C)"
+
+#: modules/cmap/cmap_volumize.c:127
+msgid "_Size"
+msgstr "大小(_S)"
+
+#: modules/cmap/cmap_volumize.c:128
+msgid "_Cut data from"
+msgstr "裁剪数据起点(_C)"
+
+#: modules/cmap/cmap_volumize.c:182
+#, c-format
+msgid "%s: (Segment %d)"
+msgstr "%s：（分段 %d）"
+
+#: modules/cmap/cmap_volumize.c:214
+msgid "Volumize Curves"
+msgstr "曲线转换为体数据"
+
+#: modules/cmap/cmap_volumize.c:317
+msgid "No data to convert."
+msgstr "没有可转换的数据。"
+
+#: modules/cmap/cmap_volumize.c:320
+#, c-format
+msgid "Z mismatch, loadable volume size: %d × %d × %d"
+msgstr "Z 轴不匹配，可加载的体数据尺寸：%d × %d × %d"
+
+#: modules/cmap/cmap_volumize.c:324
+#, c-format
+msgid "Volume size: %d × %d × %d"
+msgstr "体数据尺寸：%d × %d × %d"
+
+#: modules/graph/graph_align.c:60
+msgid "Aligns graph curves."
+msgstr "对齐曲线图中的曲线。"
+
+#: modules/graph/graph_align.c:74
+msgid "/_Correct Data/_Align"
+msgstr "/校正数据(_C)/对齐(_A)"
+
+#: modules/graph/graph_cd.c:136
+msgid "Critical dimension measurements"
+msgstr "临界尺寸测量"
+
+#: modules/graph/graph_cd.c:150
+msgid "/Measure _Features/_Critical Dimension..."
+msgstr "/测量特征(_M)/临界尺寸(_C)..."
+
+#: modules/graph/graph_cd.c:153
+msgid "Fit critical dimension"
+msgstr "拟合临界尺寸"
+
+#: modules/graph/graph_cd.c:347
+msgid "_Draw whole circle"
+msgstr "绘制完整圆(_D)"
+
+#: modules/graph/graph_cut.c:65
+msgid "Cut graph"
+msgstr "裁剪曲线图"
+
+#: modules/graph/graph_cut.c:79
+msgid "/_Basic Operations/_Cut..."
+msgstr "/基本操作(_B)/裁剪(_C)..."
+
+#: modules/graph/graph_cut.c:82
+msgid "Extract part of graph into new one"
+msgstr "将曲线图的一部分提取到新曲线图"
+
+#: modules/graph/graph_cut.c:98
+msgid "Cut _all curves"
+msgstr "裁剪所有曲线(_A)"
+
+#: modules/graph/graph_cut.c:138
+msgid "Cut Graph"
+msgstr "裁剪曲线图"
+
+#: modules/graph/graph_dos_spectrum.c:42
+msgid "DOS Spectrum"
+msgstr "DOS 谱"
+
+#: modules/graph/graph_dos_spectrum.c:56
+msgid "/Measure _Features/_DOS Spectrum"
+msgstr "/测量特征(_M)/DOS 谱"
+
+#: modules/graph/graph_dos_spectrum.c:59
+msgid "Calculate DOS spectrum from I-V tunneling spectroscopy"
+msgstr "由 I-V 隧道谱计算 DOS 谱"
+
+#: modules/graph/graph_dos_spectrum.c:95
+#, c-format
+msgid "%s: Graph should be I-V spectroscopy."
+msgstr "%s：曲线图应为 I-V 谱。"
+
+#: modules/graph/graph_dos_spectrum.c:115
+#, c-format
+msgid "DOS Spectrum for \"%s\""
+msgstr "“%s”的 DOS 谱"
+
+#: modules/graph/graph_export_ascii.c:59
+msgid "Exports graph data to text files."
+msgstr "将曲线图数据导出为文本文件。"
+
+#: modules/graph/graph_export_ascii.c:73
+msgid "/_Export/_Text..."
+msgstr "/导出(_E)/文本(_T)..."
+
+#: modules/graph/graph_export_ascii.c:76
+msgid "Export graph data to a text file"
+msgstr "将曲线图数据导出为文本文件"
+
+#: modules/graph/graph_export_ascii.c:85
+msgid "Plain text"
+msgstr "纯文本"
+
+#: modules/graph/graph_export_ascii.c:86
+msgid "Gnuplot friendly"
+msgstr "Gnuplot 兼容格式"
+
+#: modules/graph/graph_export_ascii.c:87
+msgid "Comma separated values"
+msgstr "逗号分隔值"
+
+#: modules/graph/graph_export_ascii.c:88
+msgid "Origin friendly"
+msgstr "Origin 兼容格式"
+
+#: modules/graph/graph_export_ascii.c:89
+msgid "Igor Pro text wave"
+msgstr "Igor Pro 文本波"
+
+#: modules/graph/graph_export_ascii.c:100
+msgid "Export _units"
+msgstr "导出单位(_U)"
+
+#: modules/graph/graph_export_ascii.c:101
+msgid "Export _labels"
+msgstr "导出标签(_L)"
+
+#: modules/graph/graph_export_ascii.c:102
+msgid "Export _metadata"
+msgstr "导出元数据(_M)"
+
+#: modules/graph/graph_export_ascii.c:103
+msgid "POSIX _number format"
+msgstr "POSIX 数字格式(_N)"
+
+#: modules/graph/graph_export_ascii.c:104
+msgid "Single _merged abscissa"
+msgstr "单一合并横坐标(_M)"
+
+#: modules/graph/graph_export_bitmap.c:32
+msgid "Export graph into bitmap"
+msgstr "将曲线图导出为位图"
+
+#: modules/graph/graph_export_bitmap.c:46
+msgid "/_Export/_Bitmap"
+msgstr "/导出(_E)/位图(_B)"
+
+#: modules/graph/graph_export_bitmap.c:49
+msgid "Export graph to a raster image"
+msgstr "将曲线图导出为栅格图像"
+
+#: modules/graph/graph_export_bitmap.c:63
+msgid "Export to Image"
+msgstr "导出为图像"
+
+#: modules/graph/graph_export_vector.c:33
+msgid "Exports graphs to PostScript"
+msgstr "将曲线图导出为 PostScript"
+
+#: modules/graph/graph_export_vector.c:47
+msgid "/_Export/_PostScript"
+msgstr "/导出(_E)/PostScript(_P)"
+
+#: modules/graph/graph_export_vector.c:50
+msgid "Export graph to PostScript"
+msgstr "将曲线图导出为 PostScript"
+
+#: modules/graph/graph_export_vector.c:59
+msgid "Export to PostScript"
+msgstr "导出为 PostScript"
+
+#: modules/graph/graph_fdfit.c:169
+msgid "Fit force-distance data"
+msgstr "拟合力-距离数据"
+
+#: modules/graph/graph_fdfit.c:183
+msgid "/_Force Distance/_Fit FD Curve..."
+msgstr "/力-距离(_F)/拟合 FD 曲线(_F)..."
+
+#: modules/graph/graph_fdfit.c:186
+msgid "Fit a force-distance curve"
+msgstr "拟合力-距离曲线"
+
+#: modules/graph/graph_filter.c:36
+msgid "Remove graph noise by filtering."
+msgstr "通过过滤去除曲线图噪声。"
+
+#: modules/graph/graph_filter.c:50
+msgid "/_Correct Data/_Filter"
+msgstr "/校正数据(_C)/过滤(_F)"
+
+#: modules/graph/graph_filter.c:53
+msgid "Remove noise from graph curves"
+msgstr "从曲线图曲线中去除噪声"
+
+#: modules/graph/graph_fit.c:182
+msgid "Fit graph with function"
+msgstr "用函数拟合曲线图"
+
+#: modules/graph/graph_fit.c:196
+msgid "/Measure _Features/_Fit Function..."
+msgstr "/测量特征(_M)/拟合函数(_F)..."
+
+#: modules/graph/graph_fit.c:199
+msgid "Fit a function on graph data"
+msgstr "对曲线图数据拟合函数"
+
+#: modules/graph/graph_fit.c:390
+msgid "Copy all fitted values to estimates"
+msgstr "将所有拟合值复制到估计值"
+
+#: modules/graph/graph_fit.c:462
+msgid "Plot full range"
+msgstr "绘制完整范围"
+
+#: modules/graph/graph_fit.c:472
+msgid "Create a difference graph"
+msgstr "创建差值曲线图"
+
+#: modules/graph/graph_flip.c:39
+msgid "Flip graph along the y axis."
+msgstr "沿 y 轴翻转曲线图。"
+
+#: modules/graph/graph_flip.c:53
+msgid "/_Basic Operations/_Flip"
+msgstr "/基本操作(_B)/翻转(_F)"
+
+#: modules/graph/graph_flip.c:56
+msgid "Flip graph along the y axis"
+msgstr "沿 y 轴翻转曲线图"
+
+#: modules/graph/graph_fztofd.c:93
+msgid "Min. distance"
+msgstr "最小距离"
+
+#: modules/graph/graph_fztofd.c:94
+msgid "Max. distance"
+msgstr "最大距离"
+
+#: modules/graph/graph_fztofd.c:95
+msgid "Min. force"
+msgstr "最小力"
+
+#: modules/graph/graph_fztofd.c:96
+msgid "Max. force"
+msgstr "最大力"
+
+#: modules/graph/graph_fztofd.c:97
+msgid "Pick from graph"
+msgstr "从曲线图中选取"
+
+#: modules/graph/graph_fztofd.c:103
+msgid "Convert FZ to FD curve"
+msgstr "将 FZ 曲线转换为 FD 曲线"
+
+#: modules/graph/graph_fztofd.c:117
+msgid "/_Force Distance/_FZ to FD Curve..."
+msgstr "/力-距离(_F)/FZ 转换为 FD 曲线(_F)..."
+
+#: modules/graph/graph_fztofd.c:139
+msgid "Z_ero point"
+msgstr "零点(_E)"
+
+#: modules/graph/graph_fztofd.c:145
+msgid "Zero position"
+msgstr "零位置"
+
+#: modules/graph/graph_invert.c:38
+msgid "Invert graph."
+msgstr "反转曲线图。"

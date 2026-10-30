@@ -1,0 +1,491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: libgwydgets/gwyoptionmenus.c:829
+msgid "Color Gradient"
+msgstr "色彩渐变"
+
+#: libgwydgets/gwyoptionmenus.c:844
+msgid "GL Material"
+msgstr "GL 材质"
+
+#: libgwydgets/gwyoptionmenus.c:845
+msgid "Choose GL Material"
+msgstr "选择 GL 材质"
+
+#: libgwydgets/gwyscitext.c:80
+msgid "_Bold"
+msgstr "粗体(_B)"
+
+#: libgwydgets/gwyscitext.c:86
+msgid "_Italic"
+msgstr "斜体(_I)"
+
+#: libgwydgets/gwyscitext.c:92
+msgid "_Subscript"
+msgstr "下标(_S)"
+
+#: libgwydgets/gwyscitext.c:98
+msgid "Su_perscript"
+msgstr "上标(_P)"
+
+#: libgwydgets/gwyscitext.c:251
+msgid "A_dd symbol"
+msgstr "添加符号(_D)"
+
+#: libgwydgets/gwyscitext.c:274 modules/cmap/cmap_lockin.c:210
+#: modules/file/rawfile.c:495 modules/process/neural.c:235
+#: modules/xyz/xyz_drift.c:578
+msgid "Preview"
+msgstr "预览"
+
+#: libgwymodule/gwymodule-file.c:528 modules/file/err.h:38
+#, c-format
+msgid "Cannot open file for reading: %s."
+msgstr "无法打开文件进行读取：%s。"
+
+#: libgwymodule/gwymodule-file.c:536
+msgid "No module can load this file type."
+msgstr "没有模块能加载此文件类型。"
+
+#: libgwymodule/gwymodule-file.c:637
+msgid "No module can save to this file type."
+msgstr "没有模块能保存为此文件类型。"
+
+#: libgwymodule/gwymodulebrowser.c:62
+msgid "Module Browser"
+msgstr "模块浏览器"
+
+#: libgwymodule/gwymodulebrowser.c:183
+msgid "Module"
+msgstr "模块"
+
+#: libgwymodule/gwymodulebrowser.c:183
+msgid "Version"
+msgstr "版本"
+
+#: libgwymodule/gwymodulebrowser.c:183
+msgid "Author"
+msgstr "作者"
+
+#: libgwymodule/gwymodulebrowser.c:229
+msgid "Name-Version:"
+msgstr "名称-版本："
+
+#: libgwymodule/gwymodulebrowser.c:230 libgwymodule/gwymodulebrowser.c:253
+msgid "File:"
+msgstr "文件："
+
+#: libgwymodule/gwymodulebrowser.c:231
+msgid "Registered functions:"
+msgstr "已注册的函数："
+
+#: libgwymodule/gwymodulebrowser.c:232
+msgid "Authors:"
+msgstr "作者："
+
+#: libgwymodule/gwymodulebrowser.c:233
+msgid "Copyright:"
+msgstr "版权："
+
+#: libgwymodule/gwymodulebrowser.c:234
+msgid "Date:"
+msgstr "日期："
+
+#: libgwymodule/gwymodulebrowser.c:235
+msgid "Description:"
+msgstr "说明："
+
+#: libgwymodule/gwymodulebrowser.c:252
+msgid "Name:"
+msgstr "名称："
+
+#: libgwymodule/gwymodulebrowser.c:254
+msgid "Failure:"
+msgstr "失败原因："
+
+#: app/app.c:333
+#, c-format
+msgid ""
+"Some data are unsaved:\n"
+"%s\n"
+"Really quit?"
+msgstr "有些数据尚未保存：\n%s\n确定要退出吗？"
+
+#: app/app.c:459
+msgid "Mask _Color..."
+msgstr "掩膜颜色(_C)..."
+
+#: app/app.c:475 app/app.c:1748 app/app.c:2431
+msgid "Zoom _1:1"
+msgstr "缩放至 1:1(_1)"
+
+#: app/app.c:479 app/app.c:1752 app/app.c:1959 app/app.c:2435
+msgid "Metadata _Browser..."
+msgstr "元数据浏览器(_B)..."
+
+#: app/app.c:483 app/app.c:1756 app/app.c:1963 app/app.c:2439
+msgid "View _Log..."
+msgstr "查看日志(_L)..."
+
+#: app/app.c:662
+msgid "Pi_xelwise Square"
+msgstr "按像素显示为正方形(_X)"
+
+#: app/app.c:669
+msgid "_Physically Square"
+msgstr "按物理尺寸显示为正方形(_P)"
+
+#: app/app.c:856
+msgid "Set as Default"
+msgstr "设为默认值"
+
+#: app/app.c:857
+msgid "Set the current view setup as the default"
+msgstr "将当前视图设置设为默认值"
+
+#: app/app.c:865
+msgid "verb|Save"
+msgstr "保存"
+
+#: app/app.c:866 app/app.c:868
+msgid "Save 3D view to an image"
+msgstr "将三维视图保存为图像"
+
+#: app/app.c:875
+msgid "_Autocrop"
+msgstr "自动裁剪(_A)"
+
+#: app/app.c:878
+msgid "Remove white borders from exported image"
+msgstr "去除导出图像的白色边框"
+
+#: app/app.c:882
+msgid "_Transparent"
+msgstr "透明(_T)"
+
+#: app/app.c:885
+msgid "Export PNG images with transparent background"
+msgstr "以透明背景导出 PNG 图像"
+
+#: app/app.c:961
+msgid "_Show mask"
+msgstr "显示掩膜(_S)"
+
+#: app/app.c:1149
+#, c-format
+msgid "Saving of 3D view to `%s' failed"
+msgstr "无法将三维视图保存至“%s”"
+
+#: app/app.c:1220
+msgid "Export 3D View"
+msgstr "导出三维视图"
+
+#: app/app.c:1458 app/app.c:2087
+msgid "_Change Preview"
+msgstr "更改预览(_C)"
+
+#: app/app.c:1516 app/app.c:2306 modules/cmap/cmap_classify.c:193
+#: modules/cmap/cmap_classify.c:373 modules/cmap/cmap_linestat.c:123
+#: modules/process/extend.c:111 modules/process/grain_stat.c:161
+#: modules/process/multiprofile.c:773 modules/tools/linestats.c:115
+#: modules/volume/volume_cluster.c:279 modules/volume/volume_linestat.c:141
+#: modules/volume/volume_planestat.c:179
+msgid "Mean"
+msgstr "平均值"
+
+#: app/app.c:1517 app/app.c:2307 modules/cmap/cmap_align.c:150
+#: modules/cmap/cmap_classify.c:195 modules/cmap/cmap_classify.c:375
+#: modules/cmap/cmap_linestat.c:125 modules/graph/graph_stats.c:224
+#: modules/process/polydistort.c:258 modules/tools/filter.c:144
+#: modules/tools/icolorange.c:344 modules/tools/linestats.c:117
+#: modules/tools/stats.c:721 modules/volume/volume_linestat.c:143
+#: modules/volume/volume_planestat.c:187
+msgid "Minimum"
+msgstr "最小值"
+
+#: app/app.c:1518 app/app.c:2308 modules/cmap/cmap_align.c:151
+#: modules/cmap/cmap_classify.c:196 modules/cmap/cmap_classify.c:376
+#: modules/cmap/cmap_linestat.c:126 modules/graph/graph_stats.c:225
+#: modules/process/col_synth.c:145 modules/process/indent_analyze.c:396
+#: modules/tools/filter.c:145 modules/tools/icolorange.c:345
+#: modules/tools/linestats.c:118 modules/tools/stats.c:722
+#: modules/volume/volume_linestat.c:144 modules/volume/volume_planestat.c:191
+msgid "Maximum"
+msgstr "最大值"
+
+#: app/app.c:1519 modules/cmap/cmap_classify.c:208
+#: modules/cmap/cmap_classify.c:388 modules/tools/linestats.c:130
+#: modules/volume/volume_linestat.c:145
+msgid "Min. position"
+msgstr "最小值位置"
+
+#: app/app.c:1520 modules/cmap/cmap_classify.c:209
+#: modules/cmap/cmap_classify.c:389 modules/tools/linestats.c:131
+#: modules/volume/volume_linestat.c:146
+msgid "Max. position"
+msgstr "最大值位置"
+
+#: app/app.c:1521 app/app.c:2309 modules/process/bdep_synth.c:111
+#: modules/process/blockstep.c:219 modules/process/col_synth.c:146
+#: modules/process/deconvolve.c:148 modules/process/grain_stat.c:161
+#: modules/process/indent_analyze.c:343 modules/process/scars.c:298
+#: modules/process/scars.c:300 modules/process/threshold.c:259
+#: modules/process/zero_crossing.c:201 modules/volume/volume_planestat.c:183
+#: modules/volume/volume_scars.c:239 modules/volume/volume_scars.c:241
+msgid "RMS"
+msgstr "均方根"
+
+#: app/app.c:1522 app/app.c:2311
+msgid "Image:"
+msgstr "图像："
+
+#: app/app.c:1523
+msgid "Section:"
+msgstr "截面："
+
+#: app/app.c:1527
+msgid "Preview quantity"
+msgstr "预览量"
+
+#: app/app.c:1531 app/app.c:2325
+msgid "Ignore outliers"
+msgstr "忽略异常值"
+
+#: app/app.c:1685
+msgid "Change Volume Data Preview"
+msgstr "更改体数据预览"
+
+#: app/app.c:1867
+msgid "_Update Preview"
+msgstr "更新预览(_U)"
+
+#: app/app.c:1872
+msgid "_Density Map"
+msgstr "密度图(_D)"
+
+#: app/app.c:2284
+msgid "Change Curve Map Preview"
+msgstr "更改曲线图谱预览"
+
+#: app/app.c:2301
+msgid "Preview quantity:"
+msgstr "预览量："
+
+#. TRANSLATORS: %{n}i and %{total}i are ids, do NOT translate them.
+#: app/app.c:2310 modules/file/formats3d.c:1581
+#: modules/graph/graph_measure_period.c:185
+#: modules/graph/graph_measure_period.c:246 modules/graph/graph_stats.c:165
+#: modules/graph/graph_stats.c:220 modules/process/fit-shape.c:1645
+#: modules/process/relate.c:670 modules/xyz/xyz_raster.c:398
+msgid "Number of points"
+msgstr "点数"
+
+#: app/data-browser-aux.c:1381
+#, c-format
+msgid "Unknown channel %d"
+msgstr "未知通道 %d"
+
+#: app/data-browser-aux.c:1456
+#, c-format
+msgid "Unknown volume %d"
+msgstr "未知体数据 %d"
+
+#: app/data-browser-aux.c:1512
+#, c-format
+msgid "Unknown XYZ %d"
+msgstr "未知 XYZ 数据 %d"
+
+#: app/data-browser-aux.c:1568
+#, c-format
+msgid "Unknown curve map %d"
+msgstr "未知曲线图谱 %d"
+
+#: app/data-browser-aux.c:3143
+#, c-format
+msgid "Z levels: %d, Z unit: %s"
+msgstr "Z 层数：%d，Z 单位：%s"
+
+#: app/data-browser-aux.c:3168
+#, c-format
+msgid "Points: %d"
+msgstr "点数：%d"
+
+#: app/data-browser-aux.c:3194 modules/cmap/cmap_asciiexport.c:240
+msgid "Curves:"
+msgstr "曲线："
+
+#: app/data-browser-aux.c:3207
+msgid "Segments:"
+msgstr "分段："
+
+#: app/data-browser.c:5785
+msgid "Extract to a new file"
+msgstr "提取到新文件"
+
+#: app/data-browser.c:5792
+msgid "Duplicate"
+msgstr "复制"
+
+#: app/data-browser.c:5799
+msgid "Delete"
+msgstr "删除"
+
+#: app/data-browser.c:5841
+msgid "Data Browser"
+msgstr "数据浏览器"
+
+#: app/data-browser.c:5865
+msgid "Show file messages"
+msgstr "显示文件消息"
+
+#: app/data-browser.c:5875
+msgid "Close file"
+msgstr "关闭文件"
+
+#: app/data-browser.c:5886 modules/process/multiprofile.c:309
+msgid "Images"
+msgstr "图像"
+
+#: app/data-browser.c:5898
+msgid "Graphs"
+msgstr "曲线图"
+
+#: app/data-browser.c:5910
+msgid "Spectra"
+msgstr "谱"
+
+#: app/data-browser.c:5934
+msgid "XYZ"
+msgstr "XYZ"
+
+#: app/data-browser.c:5946 gwyddion/toolbox-editor.c:934
+msgid "Curve Maps"
+msgstr "曲线图谱"
+
+#: app/data-browser.c:7074
+#, c-format
+msgid "Messages for %s"
+msgstr "“%s”的消息"
+
+#: app/data-browser.c:7078
+msgid "Messages for Untitled"
+msgstr "未命名文件的消息"
+
+#: app/datachooser.c:272 app/datachooser.c:579
+msgid "channel|None"
+msgstr "无"
+
+#: app/dialog.c:219 modules/cmap/cmap_classify.c:404
+#: modules/process/calcoefs_view.c:320 modules/process/convolution_filter.c:234
+#: modules/process/grain_filter.c:324 modules/process/polydistort.c:205
+#: modules/process/stitch.c:271 modules/process/synth.h:132
+#: modules/process/synth.h:159 modules/tools/corrlen.c:351
+#: modules/tools/linestats.c:286 modules/tools/sfunctions.c:357
+#: modules/tools/stats.c:284 modules/xyz/xyz_drift.c:615
+msgid "_Update"
+msgstr "更新(_U)"
+
+#: app/file.c:199 app/file.c:635
+msgid "Imported data are likely incorrect."
+msgstr "导入的数据可能不正确。"
+
+#: app/file.c:202
+#, c-format
+msgid ""
+"Import support for files of type\n"
+"\n"
+"%s\n"
+"\n"
+"is incomplete due to the lack of documentation, testing files and/or people "
+"willing to help with the testing.\n"
+"\n"
+"If you can help to improve the import please contact the author of module %s-"
+"%s:\n"
+"\n"
+"%s"
+msgstr "由于缺少文档、测试文件或愿意协助测试的人员，对以下类型文件的导入支持尚不完整：\n\n%s\n\n如能协助改进导入功能，请联系模块 %s-%s 的作者：\n\n%s"
+
+#: app/file.c:271
+#, c-format
+msgid "Opening of `%s' failed"
+msgstr "无法打开“%s”"
+
+#: app/file.c:275 app/file.c:756
+#, c-format
+msgid "Full file path: %s."
+msgstr "完整文件路径：%s。"
+
+#: app/file.c:278
+#, c-format
+msgid "Loaded using: %s."
+msgstr "加载所用模块：%s。"
+
+#: app/file.c:362
+msgid "Merge File"
+msgstr "合并文件"
+
+#: app/file.c:364 app/file.c:435 app/gwyappfilechooser.c:221
+msgid "Open File"
+msgstr "打开文件"
+
+#: app/file.c:491
+msgid "Cannot import data."
+msgstr "无法导入数据。"
+
+#: app/file.c:494
+#, c-format
+msgid "Cannot open file %s"
+msgstr "无法打开文件 %s"
+
+#: app/file.c:528
+msgid "Select Channel to Load"
+msgstr "选择要加载的通道"
+
+#: app/file.c:639
+msgid "There are multiple channels with same name."
+msgstr "存在多个同名通道。"
+
+#: app/file.c:642
+msgid "Channels physically differ."
+msgstr "通道的物理属性不同。"
+
+#: app/file.c:645
+msgid "There is no channel name common to all the files."
+msgstr "所有文件中没有共同的通道名称。"
+
+#: app/file.c:648
+msgid "Error loading data."
+msgstr "加载数据出错。"
+
+#: app/file.c:752 app/gwymoduleutils.c:202
+#: modules/graph/graph_export_bitmap.c:89
+#, c-format
+msgid "Saving of `%s' failed"
+msgstr "无法保存“%s”"
+
+#: app/file.c:759
+#, c-format
+msgid "Saved using: %s."
+msgstr "保存所用模块：%s。"
+
+#: app/file.c:908
+#, c-format
+msgid "File `%s' already exists.  Replace?"
+msgstr "文件“%s”已存在。要替换吗？"

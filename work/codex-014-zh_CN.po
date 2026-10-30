@@ -1,0 +1,473 @@
+# Simplified Chinese translation for Gwyddion.
+# This file is distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/convolve.c:100 modules/process/displfield.c:144
+#: modules/process/extend.c:112 modules/process/mask_shift.c:105
+#: modules/process/polydistort.c:259 modules/xyz/xyz_raster.c:210
+msgid "exterior|Border"
+msgstr "边界"
+
+#: modules/process/convolve.c:101 modules/process/displfield.c:145
+#: modules/process/extend.c:113 modules/process/mask_shift.c:106
+#: modules/process/polydistort.c:261 modules/xyz/xyz_raster.c:211
+msgid "exterior|Mirror"
+msgstr "镜像"
+
+#: modules/process/convolve.c:102 modules/process/displfield.c:146
+#: modules/process/extend.c:114 modules/process/mask_shift.c:107
+#: modules/process/polydistort.c:263 modules/xyz/xyz_raster.c:212
+msgid "exterior|Periodic"
+msgstr "周期"
+
+#: modules/process/convolve.c:103 modules/process/displfield.c:147
+#: modules/process/extend.c:115
+msgid "exterior|Laplace"
+msgstr "拉普拉斯"
+
+#: modules/process/convolve.c:117 modules/process/displfield.c:157
+#: modules/process/extend.c:130 modules/process/mask_shift.c:116
+#: modules/xyz/xyz_raster.c:223
+msgid "_Exterior type"
+msgstr "外部处理方式(_E)"
+
+#: modules/process/convolve.c:121 modules/process/deconvolve.c:198
+msgid "Convolution _kernel"
+msgstr "卷积核(_K)"
+
+#: modules/process/convolve.c:153 modules/process/psf-fit.c:219
+#: modules/process/psf-fit.c:282 modules/process/psf.c:200
+#: modules/process/psf.c:211 modules/process/psf.c:288
+#: modules/volume/volume_psf.c:231
+msgid "Convolved"
+msgstr "已卷积"
+
+#: modules/process/correct_affine.c:308 modules/process/correct_affine.c:632
+#: modules/process/correct_perspective.c:284
+msgid "Corrected"
+msgstr "已校正"
+
+#: modules/process/correct_affine.c:348 modules/process/facet_analysis.c:560
+#: modules/process/facet_measure.c:371 modules/process/immerse.c:277
+#: modules/process/measure_lattice.c:292
+msgid "_Refine"
+msgstr "细化(_R)"
+
+#: modules/process/correct_affine.c:397 modules/process/fft_filter_2d.c:512
+#: modules/process/psf.c:361 modules/volume/volume_psf.c:379
+msgid "Preview Options"
+msgstr "预览选项"
+
+#: modules/process/correct_affine.c:402 modules/process/fft_filter_2d.c:517
+msgid "Display:"
+msgstr "显示："
+
+#: modules/process/correct_affine.c:410
+#: modules/process/correct_perspective.c:135
+#: modules/process/measure_lattice.c:171 modules/tools/grainremover.c:114
+#: modules/volume/volume_equiplane.c:140 modules/volume/volume_strayfield.c:147
+#: modules/volume/volume_zposlevel.c:139
+msgid "_Data"
+msgstr "数据(_D)"
+
+#: modules/process/correct_affine.c:440 modules/process/measure_lattice.c:197
+msgid "Interpolate _horizontal ACF"
+msgstr "插值水平自相关函数(_H)"
+
+#: modules/process/correct_affine.c:450 modules/process/measure_lattice.c:310
+msgid "Lattice Vectors"
+msgstr "晶格矢量"
+
+#: modules/process/correct_affine.c:569
+#: modules/process/correct_perspective.c:153 modules/process/drift.c:160
+msgid "_Apply to all compatible images"
+msgstr "应用到所有兼容图像(_A)"
+
+#: modules/process/correct_affine.c:690 modules/process/measure_lattice.c:386
+msgid "length"
+msgstr "长度"
+
+#: modules/process/correct_affine.c:697 modules/process/measure_lattice.c:386
+msgid "angle"
+msgstr "角度"
+
+#: modules/process/correct_perspective.c:148
+#: modules/process/volumize_layers.c:111
+msgid "_X resolution"
+msgstr "X 分辨率(_X)"
+
+#: modules/process/correct_perspective.c:149
+#: modules/process/volumize_layers.c:112
+msgid "_Y resolution"
+msgstr "Y 分辨率(_Y)"
+
+#: modules/process/cpde_synth.c:178 modules/process/pat_synth.c:429
+msgid "_Pattern"
+msgstr "图案(_P)"
+
+#: modules/process/cpde_synth.c:529 modules/process/disc_synth.c:155
+#: modules/process/lat_synth.c:354 modules/process/obj_synth.c:284
+#: modules/process/phase_synth.c:127 modules/tools/filter.c:167
+#: modules/tools/filter.c:168 modules/tools/filter.c:169
+msgid "Si_ze"
+msgstr "尺寸(_Z)"
+
+#: modules/process/crosscor.c:161 modules/process/grain_wshed.c:110
+#: modules/process/maskcor.c:131
+msgid "T_hreshold"
+msgstr "阈值(_H)"
+
+#: modules/process/crosscor.c:237 modules/process/merge.c:187
+msgid "Correlation"
+msgstr "相关性"
+
+#: modules/process/curvature.c:97
+msgid "Calculates overall curvature."
+msgstr "计算整体曲率。"
+
+#: modules/process/curvature.c:111
+msgid "/Measure _Features/_Curvature..."
+msgstr "/测量特征(_F)/曲率(_C)..."
+
+#: modules/process/curvature.c:115
+msgid "Calculate overall curvature"
+msgstr "计算整体曲率"
+
+#: modules/process/curvature.c:131
+msgid "_Set selection"
+msgstr "设置选区(_S)"
+
+#: modules/process/curvature.c:132
+msgid "_Plot graph"
+msgstr "绘制图表(_P)"
+
+#: modules/process/curvature.c:159
+msgid "Curvature Sections"
+msgstr "曲率截面"
+
+#: modules/process/curvature.c:364 modules/tools/profile.c:783
+#, c-format
+msgid "Profile %d"
+msgstr "轮廓 %d"
+
+#: modules/process/curvature.c:445 modules/process/fft_filter_2d.c:573
+msgid "Output type:"
+msgstr "输出类型："
+
+#: modules/process/curvature.c:512 modules/process/indent_analyze.c:395
+msgid "Center value"
+msgstr "中心值"
+
+#: modules/process/curvature.c:514
+msgid "Curvature radius 1"
+msgstr "曲率半径 1"
+
+#: modules/process/curvature.c:515
+msgid "Curvature radius 2"
+msgstr "曲率半径 2"
+
+#: modules/process/curvature.c:516
+msgid "Direction 1"
+msgstr "方向 1"
+
+#: modules/process/curvature.c:517
+msgid "Direction 2"
+msgstr "方向 2"
+
+#: modules/process/curvature.c:573
+msgid "Axes are outside the image."
+msgstr "坐标轴位于图像之外。"
+
+#: modules/process/cwt.c:89 modules/process/dwt.c:99
+#: modules/process/dwtanisotropy.c:99
+msgid "_Wavelet type"
+msgstr "小波类型(_W)"
+
+#: modules/process/deconvolve.c:202 modules/process/domain_synth.c:179
+#: modules/process/indent_analyze.c:235 modules/process/mcrop.c:142
+#: modules/process/psf.c:223 modules/volume/volume_cluster.c:323
+#: modules/volume/volume_equiplane.c:161 modules/volume/volume_psf.c:243
+#: modules/volume/volume_strayfield.c:166 modules/volume/volume_zposlevel.c:157
+msgid "verb|_Display"
+msgstr "显示(_D)"
+
+#: modules/process/deconvolve.c:206 modules/process/psf.c:229
+#: modules/volume/volume_psf.c:250
+msgid "_Sigma"
+msgstr "西格玛(_S)"
+
+#: modules/process/deconvolve.c:298 modules/volume/volume_psf.c:191
+msgid "Sigma"
+msgstr "西格玛"
+
+#: modules/process/deposit_synth.c:227 modules/process/deposit_synth.c:270
+#: modules/process/roddeposit_synth.c:382
+msgid "Particle Generation"
+msgstr "粒子生成"
+
+#: modules/process/deposit_synth.c:276 modules/process/fibre_synth.c:365
+#: modules/process/obj_synth.c:447 modules/process/pileup_synth.c:339
+msgid "Number of objects"
+msgstr "对象数量"
+
+#: modules/process/deposit_synth.c:769 modules/process/roddeposit_synth.c:1935
+msgid "Error: too many particles."
+msgstr "错误：粒子过多。"
+
+#: modules/process/deposit_synth.c:770 modules/process/roddeposit_synth.c:1937
+msgid "Error: no particles."
+msgstr "错误：没有粒子。"
+
+#: modules/process/deposit_synth.c:771 modules/process/roddeposit_synth.c:1939
+msgid "Error: particles too large."
+msgstr "错误：粒子过大。"
+
+#: modules/process/deposit_synth.c:772 modules/process/roddeposit_synth.c:1941
+msgid "Error: particles too small."
+msgstr "错误：粒子过小。"
+
+#: modules/process/dimensions.h:459 modules/xyz/xyz_drift.c:726
+msgid "_Horizontal size:"
+msgstr "水平尺寸(_H):"
+
+#: modules/process/dimensions.h:462 modules/xyz/xyz_drift.c:741
+msgid "_Vertical size:"
+msgstr "垂直尺寸(_V):"
+
+#: modules/process/disc_synth.c:150 modules/process/residue_synth.c:154
+msgid "_Minimum radius"
+msgstr "最小半径(_M)"
+
+#: modules/process/displfield.c:156 modules/process/fibre_synth.c:209
+#: modules/process/lno_synth.c:544 modules/process/lno_synth.c:727
+#: modules/process/mask_noisify.c:102 modules/process/noise_synth.c:185
+msgid "Densi_ty"
+msgstr "密度(_T)"
+
+#: modules/process/displfield.c:161 modules/process/fractal.c:194
+#: modules/process/mcrop.c:146 modules/process/psf.c:227
+#: modules/volume/volume_cluster.c:308 modules/volume/volume_psf.c:248
+msgid "_Method"
+msgstr "方法(_M)"
+
+#: modules/process/displfield.c:165 modules/process/lat_synth.c:358
+#: modules/process/pat_synth.c:1713 modules/process/pat_synth.c:1809
+#: modules/process/pat_synth.c:1904 modules/process/pat_synth.c:2021
+#: modules/process/pat_synth.c:2132 modules/process/pat_synth.c:2257
+#: modules/process/pat_synth.c:2447 modules/process/pat_synth.c:2592
+#: modules/process/wave_synth.c:201
+msgid "_Amplitude"
+msgstr "振幅(_A)"
+
+#: modules/process/displfield.c:166 modules/process/lat_synth.c:359
+#: modules/process/pat_synth.c:1714 modules/process/pat_synth.c:1810
+#: modules/process/pat_synth.c:1905 modules/process/pat_synth.c:2022
+#: modules/process/pat_synth.c:2133 modules/process/pat_synth.c:2258
+#: modules/process/pat_synth.c:2448 modules/process/pat_synth.c:2593
+msgid "_Lateral scale"
+msgstr "横向尺度(_L)"
+
+#: modules/process/displfield.c:203 modules/process/polydistort.c:502
+msgid "Distorted"
+msgstr "已畸变"
+
+#: modules/process/drift.c:222 modules/xyz/xyz_drift.c:390
+#: modules/xyz/xyz_drift.c:409 modules/xyz/xyz_drift.c:428
+msgid "drift"
+msgstr "漂移"
+
+#: modules/process/drift.c:228 modules/volume/volume_drift.c:301
+#: modules/xyz/xyz_drift.c:400
+msgid "x-axis drift"
+msgstr "x 轴漂移"
+
+#: modules/process/dwt.c:101 modules/process/fft.c:130
+msgid "_Inverse transform"
+msgstr "逆变换(_I)"
+
+#: modules/process/dwt.c:169 modules/process/dwtanisotropy.c:173
+#, c-format
+msgid "Size %d is not a power of 2."
+msgstr "尺寸 %d 不是 2 的幂。"
+
+#: modules/process/dwt.c:172 modules/process/dwtanisotropy.c:176
+#, c-format
+msgid "Image will be resampled to %d×%d for DWT."
+msgstr "图像将重采样为 %d×%d，以进行离散小波变换。"
+
+#: modules/process/entropy.c:89
+msgid "Visualizes entropy calculation for value and slope distribution."
+msgstr "可视化数值和斜率分布的熵计算。"
+
+#: modules/process/entropy.c:103
+msgid "/_Statistics/_Entropy..."
+msgstr "/统计(_S)/熵(_E)..."
+
+#: modules/process/entropy.c:107
+msgid "Calculate entropy of value and slope distributions"
+msgstr "计算数值和斜率分布的熵"
+
+#: modules/process/entropy.c:116
+msgid "Value distribution"
+msgstr "数值分布"
+
+#: modules/process/entropy.c:117
+msgid "Slope derivative distribution"
+msgstr "斜率（导数）分布"
+
+#: modules/process/entropy.c:118
+msgid "Slope angle distribution"
+msgstr "斜率角度分布"
+
+#: modules/process/entropy.c:130
+msgid "_Plane size"
+msgstr "平面尺寸(_P)"
+
+#: modules/process/entropy.c:131
+msgid "_Zoom graph around estimate"
+msgstr "围绕估计值缩放图表(_Z)"
+
+#: modules/process/entropy.c:169 modules/process/entropy.c:213
+#: modules/volume/volume_planestat.c:219
+msgid "Entropy"
+msgstr "熵"
+
+#: modules/process/entropy.c:214 modules/volume/volume_planestat.c:223
+msgid "Entropy deficit"
+msgstr "熵亏损"
+
+#: modules/process/entropy.c:421
+msgid "Entropy at scales"
+msgstr "各尺度下的熵"
+
+#: modules/process/entropy.c:440
+msgid "Best estimate"
+msgstr "最佳估计"
+
+#: modules/process/extract_path.c:101 modules/process/immerse.c:192
+msgid "X position"
+msgstr "X 位置"
+
+#: modules/process/extract_path.c:102 modules/process/immerse.c:193
+msgid "Y position"
+msgstr "Y 位置"
+
+#: modules/process/extract_path.c:344 modules/process/extract_path.c:349
+#: modules/tools/distance.c:142 modules/volume/volume_cluster.c:2229
+msgid "Distance"
+msgstr "距离"
+
+#: modules/process/facet-level.c:53
+msgid ""
+"Automatic facet-orientation based leveling. Levels data to make facets point "
+"up."
+msgstr "基于面片方向自动调平。调平数据，使面片朝上。"
+
+#: modules/process/facet-level.c:67
+msgid "/_Level/_Facet Level"
+msgstr "/调平(_L)/面片调平(_F)"
+
+#: modules/process/facet-level.c:71
+msgid "Level data to make facets point upward"
+msgstr "调平数据，使面片朝上"
+
+#: modules/process/facet-level.c:105 modules/process/facet-level.c:135
+msgid "Facet Level"
+msgstr "面片调平"
+
+#: modules/process/facet-level.c:153 modules/process/flatten_base.c:181
+#: modules/volume/volume_facetlevel.c:98
+msgid "Facet-leveling..."
+msgstr "正在进行面片调平..."
+
+#: modules/process/facet_analysis.c:275 modules/process/facet_measure.c:208
+msgid "Visualizes, marks and measures facet orientation."
+msgstr "可视化、标记和测量面片方向。"
+
+#: modules/process/facet_analysis.c:289
+msgid "/Measure _Features/Facet _Analysis..."
+msgstr "/测量特征(_F)/面片分析(_A)..."
+
+#: modules/process/facet_analysis.c:293
+msgid "Mark areas by 2D slope"
+msgstr "按二维斜率标记区域"
+
+#: modules/process/facet_analysis.c:302
+msgid "lattice|Cubic"
+msgstr "立方"
+
+#: modules/process/facet_analysis.c:303
+msgid "lattice|Rhombohedral"
+msgstr "菱方"
+
+#: modules/process/facet_analysis.c:304 modules/process/lat_synth.c:330
+msgid "lattice|Hexagonal"
+msgstr "六方"
+
+#: modules/process/facet_analysis.c:305
+msgid "lattice|Tetragonal"
+msgstr "四方"
+
+#: modules/process/facet_analysis.c:306
+msgid "lattice|Orthorhombic"
+msgstr "斜方"
+
+#: modules/process/facet_analysis.c:307
+msgid "lattice|Monoclinic"
+msgstr "单斜"
+
+#: modules/process/facet_analysis.c:308
+msgid "lattice|Triclinic"
+msgstr "三斜"
+
+#: modules/process/facet_analysis.c:317 modules/process/facet_measure.c:241
+msgid "_Facet plane size"
+msgstr "面片平面尺寸(_F)"
+
+#: modules/process/facet_analysis.c:318 modules/process/facet_measure.c:242
+msgid "_Tolerance"
+msgstr "容差(_T)"
+
+#: modules/process/facet_analysis.c:319 modules/process/facet_measure.c:243
+#: modules/process/facet_measure.c:367
+msgid "Selected φ"
+msgstr "选定的 φ"
+
+#: modules/process/facet_analysis.c:321 modules/process/facet_measure.c:245
+#: modules/process/facet_measure.c:365
+msgid "Selected ϑ"
+msgstr "选定的 ϑ"
+
+#. TRANSLATORS: Number is verb here.
+#: modules/process/facet_analysis.c:323
+msgid "_Number points"
+msgstr "为点编号(_N)"
+
+#: modules/process/facet_analysis.c:324 modules/process/facet_measure.c:247
+msgid "Save Facet Vectors"
+msgstr "保存面片矢量"
+
+#: modules/process/facet_analysis.c:330
+msgid "_Lattice type"
+msgstr "晶格类型(_L)"
+
+#: modules/process/facet_analysis.c:369 modules/process/facet_analysis.c:445
+msgid "Facet Analysis"
+msgstr "面片分析"
+
+#: modules/process/facet_analysis.c:472
+msgid "Mean normal"
+msgstr "平均法线"
+
+#: modules/process/facet_analysis.c:497
+msgid "Facets"
+msgstr "面片"
+

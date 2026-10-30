@@ -1,0 +1,417 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/domain_synth.c:119
+msgid "Discrete state"
+msgstr "离散状态"
+
+#: modules/process/domain_synth.c:120
+msgid "Continuous inhibitor"
+msgstr "连续抑制因子"
+
+#: modules/process/domain_synth.c:136
+msgid "Generates domain images using a hybrid Ising model."
+msgstr "使用混合伊辛模型生成畴图像。"
+
+#: modules/process/domain_synth.c:150
+msgid "/S_ynthetic/_Order and Disorder/_Domains..."
+msgstr "/合成(_Y)/有序与无序(_O)/畴(_D)..."
+
+#: modules/process/domain_synth.c:154
+msgid "Generate image with domains"
+msgstr "生成含畴的图像"
+
+#: modules/process/domain_synth.c:182
+msgid "_Temperature"
+msgstr "温度(_T)"
+
+#: modules/process/domain_synth.c:183
+msgid "_Inhibitor strength"
+msgstr "抑制因子强度(_I)"
+
+#: modules/process/domain_synth.c:184
+msgid "In_hibitor coupling"
+msgstr "抑制因子耦合(_H)"
+
+#: modules/process/domain_synth.c:185
+msgid "_Bias"
+msgstr "偏置(_B)"
+
+#: modules/process/domain_synth.c:186
+msgid "_Monte Carlo time step"
+msgstr "Monte Carlo 时间步(_M)"
+
+#: modules/process/domain_synth.c:190
+msgid "Preset"
+msgstr "预设"
+
+#: modules/process/domain_synth.c:274
+msgid "Domains"
+msgstr "畴"
+
+#: modules/process/domain_synth.c:364
+msgid "Use Selected _Preset"
+msgstr "使用所选预设(_P)"
+
+#: modules/process/drift.c:120
+msgid "Evaluates and/or correct thermal drift in fast scan axis."
+msgstr "评估和/或校正快速扫描轴上的热漂移。"
+
+#: modules/process/drift.c:134
+msgid "/_Distortion/Compensate _Drift..."
+msgstr "/畸变(_D)/补偿漂移(_D)..."
+
+#: modules/process/drift.c:138
+msgid "Evaluate/correct thermal drift in fast scan axis"
+msgstr "评估/校正快速扫描轴上的热漂移"
+
+#: modules/process/drift.c:148
+msgid "Drift _lines"
+msgstr "漂移扫描线(_L)"
+
+#: modules/process/drift.c:159
+msgid "_Search range"
+msgstr "搜索范围(_S)"
+
+#: modules/process/drift.c:162
+msgid "Correct _data"
+msgstr "校正数据(_D)"
+
+#: modules/process/drift.c:163
+msgid "Plot drift _graph"
+msgstr "绘制漂移曲线图(_G)"
+
+#: modules/process/drift.c:164
+msgid "_Exclude linear skew"
+msgstr "排除线性倾斜(_E)"
+
+#: modules/process/drift.c:221 modules/process/drift.c:393
+msgid "Drift"
+msgstr "漂移"
+
+#: modules/process/drift.c:331
+msgid "Drift-corrected"
+msgstr "漂移校正后"
+
+#: modules/process/drift.c:380
+msgid "Compensate Drift"
+msgstr "补偿漂移"
+
+#: modules/process/drift.c:395
+msgid "rows"
+msgstr "行"
+
+#: modules/process/dune_synth.c:108
+msgid "Generates images by simulating formation of sand dunes."
+msgstr "通过模拟沙丘形成生成图像。"
+
+#: modules/process/dune_synth.c:122
+msgid "/S_ynthetic/_Deposition/_Dunes..."
+msgstr "/合成(_Y)/沉积(_D)/沙丘(_D)..."
+
+#: modules/process/dune_synth.c:126
+msgid "Generate image by transporting sand"
+msgstr "通过沙粒输运生成图像"
+
+#: modules/process/dune_synth.c:145
+msgid "_Minimum step"
+msgstr "最小步长(_M)"
+
+#: modules/process/dune_synth.c:146
+msgid "Step range"
+msgstr "步长范围"
+
+#: modules/process/dune_synth.c:147
+msgid "Sticking probability on _rock"
+msgstr "在岩石上的黏附概率(_R)"
+
+#: modules/process/dune_synth.c:148
+msgid "Sticking _probability on sand"
+msgstr "在沙上的黏附概率(_P)"
+
+#: modules/process/dune_synth.c:149
+msgid "Maximum s_lope"
+msgstr "最大坡度(_L)"
+
+#: modules/process/dune_synth.c:220
+msgid "Dunes"
+msgstr "沙丘"
+
+#: modules/process/dwt.c:64
+msgid "Two-dimensional DWT (Discrete Wavelet Transform)."
+msgstr "二维 DWT（离散小波变换）。"
+
+#: modules/process/dwt.c:78
+msgid "/_Integral Transforms/2D _DWT..."
+msgstr "/积分变换(_I)/二维 DWT(_D)..."
+
+#: modules/process/dwt.c:82
+msgid "Compute Discrete Wavelet Transform"
+msgstr "计算离散小波变换"
+
+#: modules/process/dwt.c:119 modules/process/dwt.c:136
+msgid "DWT"
+msgstr "DWT"
+
+#: modules/process/dwt.c:159
+msgid "2D DWT"
+msgstr "二维 DWT"
+
+#: modules/process/dwtanisotropy.c:64
+msgid "2D DWT anisotropy detection based on X/Y components ratio."
+msgstr "基于 X/Y 分量比的二维 DWT 各向异性检测。"
+
+#: modules/process/dwtanisotropy.c:78
+msgid "/_Integral Transforms/DWT _Anisotropy..."
+msgstr "/积分变换(_I)/DWT 各向异性(_A)..."
+
+#: modules/process/dwtanisotropy.c:82
+msgid "DWT anisotropy detection"
+msgstr "DWT 各向异性检测"
+
+#: modules/process/dwtanisotropy.c:101
+msgid "X/Y ratio threshold"
+msgstr "X/Y 比值阈值"
+
+#: modules/process/dwtanisotropy.c:102
+msgid "Low level exclude limit"
+msgstr "低水平排除限值"
+
+#: modules/process/dwtanisotropy.c:122
+msgid "DWT Anisotropy"
+msgstr "DWT 各向异性"
+
+#: modules/process/dwtanisotropy.c:161
+msgid "2D DWT Anisotropy"
+msgstr "二维 DWT 各向异性"
+
+#: modules/process/edge.c:63
+msgid "Several edge detection methods (Laplacian of Gaussian, Canny, and some experimental), creates presentation."
+msgstr "多种边缘检测方法（高斯拉普拉斯、Canny 及一些实验性方法），生成展示图像。"
+
+#: modules/process/edge.c:77
+msgid "/_Presentation/_Edge Detection/_Laplacian of Gaussian"
+msgstr "/展示(_P)/边缘检测(_E)/高斯拉普拉斯(_L)"
+
+#: modules/process/edge.c:81
+msgid "Laplacian of Gaussian step detection presentation"
+msgstr "高斯拉普拉斯阶跃检测展示"
+
+#: modules/process/edge.c:85
+msgid "/_Presentation/_Edge Detection/_Canny"
+msgstr "/展示(_P)/边缘检测(_E)/Canny(_C)"
+
+#: modules/process/edge.c:89
+msgid "Canny edge detection presentation"
+msgstr "Canny 边缘检测展示"
+
+#: modules/process/edge.c:92
+msgid "/_Presentation/_Edge Detection/_RMS"
+msgstr "/展示(_P)/边缘检测(_E)/RMS(_R)"
+
+#: modules/process/edge.c:96
+msgid "Local RMS value based step detection presentation"
+msgstr "基于局部 RMS 值的阶跃检测展示"
+
+#: modules/process/edge.c:100
+msgid "/_Presentation/_Edge Detection/RMS _Edge"
+msgstr "/展示(_P)/边缘检测(_E)/RMS 边缘(_E)"
+
+#: modules/process/edge.c:104
+msgid "Local RMS value based step detection with postprocessing"
+msgstr "带后处理的基于局部 RMS 值的阶跃检测"
+
+#: modules/process/edge.c:107
+msgid "/_Presentation/_Edge Detection/Local _Nonlinearity"
+msgstr "/展示(_P)/边缘检测(_E)/局部非线性(_N)"
+
+#: modules/process/edge.c:111
+msgid "Local nonlinearity based edge detection presentation"
+msgstr "基于局部非线性的边缘检测展示"
+
+#: modules/process/edge.c:115
+msgid "/_Presentation/_Edge Detection/_Hough Lines"
+msgstr "/展示(_P)/边缘检测(_E)/Hough 直线(_H)"
+
+#: modules/process/edge.c:120
+msgid "Hough lines presentation"
+msgstr "Hough 直线展示"
+
+#: modules/process/edge.c:123
+msgid "/_Presentation/_Edge Detection/_Harris Corner"
+msgstr "/展示(_P)/边缘检测(_E)/Harris 角点(_H)"
+
+#: modules/process/edge.c:128
+msgid "Harris corner presentation"
+msgstr "Harris 角点展示"
+
+#: modules/process/edge.c:131
+msgid "/_Presentation/_Edge Detection/_Inclination"
+msgstr "/展示(_P)/边缘检测(_E)/倾角(_I)"
+
+#: modules/process/edge.c:135
+msgid "Local inclination visualization presentation"
+msgstr "局部倾角可视化展示"
+
+#: modules/process/edge.c:138
+msgid "/_Presentation/_Edge Detection/_Step"
+msgstr "/展示(_P)/边缘检测(_E)/阶跃(_S)"
+
+#: modules/process/edge.c:142
+msgid "Fine step detection presentation"
+msgstr "精细阶跃检测展示"
+
+#: modules/process/edge.c:145
+msgid "/_Presentation/_Edge Detection/_Sobel"
+msgstr "/展示(_P)/边缘检测(_E)/Sobel(_S)"
+
+#: modules/process/edge.c:149
+msgid "Sobel edge presentation"
+msgstr "Sobel 边缘展示"
+
+#: modules/process/edge.c:152
+msgid "/_Presentation/_Edge Detection/_Prewitt"
+msgstr "/展示(_P)/边缘检测(_E)/Prewitt(_P)"
+
+#: modules/process/edge.c:156
+msgid "Prewitt edge presentation"
+msgstr "Prewitt 边缘展示"
+
+#: modules/process/edge.c:159
+msgid "/_Integral Transforms/Local Slope"
+msgstr "/积分变换(_I)/局部斜率"
+
+#: modules/process/edge.c:163
+msgid "First derivative slope transformation"
+msgstr "一阶导数斜率变换"
+
+#: modules/process/edge.c:485
+msgid "Slope map"
+msgstr "斜率图"
+
+#: modules/process/extend.c:84
+msgid "Extends image by adding borders."
+msgstr "通过添加边框扩展图像。"
+
+#: modules/process/extend.c:98
+msgid "/_Basic Operations/E_xtend..."
+msgstr "/基本操作(_B)/扩展(_X)..."
+
+#: modules/process/extend.c:102
+msgid "Extend by adding borders"
+msgstr "通过添加边框扩展"
+
+#: modules/process/extend.c:125
+msgid "_Up"
+msgstr "上(_U)"
+
+#: modules/process/extend.c:126
+msgid "_Down"
+msgstr "下(_D)"
+
+#: modules/process/extend.c:127
+msgid "_Left"
+msgstr "左(_L)"
+
+#: modules/process/extend.c:128
+msgid "_Right"
+msgstr "右(_R)"
+
+#: modules/process/extend.c:129
+msgid "Extend _symmetrically"
+msgstr "对称扩展(_S)"
+
+#: modules/process/extend.c:221
+msgid "Extended"
+msgstr "已扩展"
+
+#: modules/process/extend.c:291
+msgid "Extend"
+msgstr "扩展"
+
+#: modules/process/extend.c:299
+msgid "Borders"
+msgstr "边框"
+
+#: modules/process/extract_path.c:68
+msgid "Extracts coordinates and tangents along a path selection."
+msgstr "沿路径选择提取坐标和切线。"
+
+#: modules/process/extract_path.c:82
+msgid "/_Distortion/Extract _Path Selection..."
+msgstr "/畸变(_D)/提取路径选择(_P)..."
+
+#: modules/process/extract_path.c:86
+msgid "Extract path selection data"
+msgstr "提取路径选择数据"
+
+#: modules/process/extract_path.c:103
+msgid "X tangent"
+msgstr "X 切线"
+
+#: modules/process/extract_path.c:104
+msgid "Y tangent"
+msgstr "Y 切线"
+
+#: modules/process/extract_path.c:166
+msgid "Extract Path Selection"
+msgstr "提取路径选择"
+
+#: modules/process/extract_path.c:172
+msgid "Number of path points"
+msgstr "路径点数"
+
+#: modules/process/extract_path.c:177
+msgid "There is no path selection."
+msgstr "没有路径选择。"
+
+#: modules/process/fbm_synth.c:105
+msgid "Generates random surfaces similar to fractional Brownian motion."
+msgstr "生成类似分数布朗运动的随机表面。"
+
+#: modules/process/fbm_synth.c:119
+msgid "/S_ynthetic/_Noise/_Brownian..."
+msgstr "/合成(_Y)/噪声(_N)/布朗运动(_B)..."
+
+#: modules/process/fbm_synth.c:123
+msgid "Generate fractional Brownian motion-like surface"
+msgstr "生成类分数布朗运动表面"
+
+#: modules/process/fbm_synth.c:135
+msgid "distribution|Power"
+msgstr "幂律分布"
+
+#: modules/process/fbm_synth.c:144
+msgid "_Hurst exponent"
+msgstr "Hurst 指数(_H)"
+
+#: modules/process/fbm_synth.c:145
+msgid "_Stationarity scale"
+msgstr "平稳尺度(_S)"
+
+#: modules/process/fbm_synth.c:215
+msgid "Fractional Brownian Motion"
+msgstr "分数布朗运动"
+
+#: modules/process/fft.c:91
+msgid "Two-dimensional FFT (Fast Fourier Transform)."
+msgstr "二维 FFT（快速傅里叶变换）。"
+
+#: modules/process/fft.c:105
+msgid "/_Integral Transforms/2D _FFT..."
+msgstr "/积分变换(_I)/二维 FFT(_F)..."

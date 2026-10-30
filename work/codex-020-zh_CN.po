@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/tipshape.c:111
+msgid "_Resolution"
+msgstr "分辨率(_R)"
+
+#: modules/process/tipshape.c:112
+msgid "Range minimum"
+msgstr "范围最小值"
+
+#: modules/process/tipshape.c:113
+msgid "Range maximum"
+msgstr "范围最大值"
+
+#: modules/process/tipshape.c:114
+msgid "Calculate uncertainties"
+msgstr "计算不确定度"
+
+#: modules/process/tipshape.c:115
+msgid "_X pixel size uncertainty"
+msgstr "X 像素尺寸不确定度(_X)"
+
+#: modules/process/tipshape.c:116
+msgid "_Y pixel size uncertainty"
+msgstr "Y 像素尺寸不确定度(_Y)"
+
+#: modules/process/tipshape.c:117
+msgid "Uncertainty _z"
+msgstr "z 不确定度(_Z)"
+
+#: modules/process/tipshape.c:185 modules/process/tipshape.c:195
+msgid "Tip Area Function"
+msgstr "针尖面积函数"
+
+#: modules/process/tipshape.c:206
+msgid "Recommended maximum"
+msgstr "建议的最大值"
+
+#: modules/process/tipshape.c:215
+msgid "Uncertainties"
+msgstr "不确定度"
+
+#: modules/process/tipshape.c:290 modules/process/tipshape.c:298
+msgid "Area function"
+msgstr "面积函数"
+
+#: modules/process/trimmed-mean.c:79
+msgid "Trimmed mean filtering and leveling."
+msgstr "截尾均值滤波与调平。"
+
+#: modules/process/trimmed-mean.c:93
+msgid "/_Level/_Trimmed Mean..."
+msgstr "/调平(_L)/截尾均值(_T)..."
+
+#: modules/process/trimmed-mean.c:97
+msgid "Trimmed mean leveling and filter"
+msgstr "截尾均值调平与滤波"
+
+#: modules/process/trimmed-mean.c:115 modules/process/trimmed-mean.c:116
+msgid "_Number of values"
+msgstr "数值个数(_N)"
+
+#: modules/process/trimmed-mean.c:207
+msgid "Trimmed Mean"
+msgstr "截尾均值"
+
+#: modules/process/trimmed-mean.c:218
+msgid "Trim Lowest"
+msgstr "截去最低值"
+
+#: modules/process/trimmed-mean.c:224
+msgid "Trim Highest"
+msgstr "截去最高值"
+
+#: modules/process/volumize_layers.c:113
+#: modules/volume/volume_localdetect.c:169
+msgid "_Z resolution"
+msgstr "Z 分辨率(_Z)"
+
+#: modules/process/volumize_layers.c:115 modules/volume/volume_calibrate.c:209
+msgid "Z _unit"
+msgstr "Z 单位(_U)"
+
+#: modules/process/volumize_layers.c:205 modules/process/volumize_layers.c:224
+#: modules/volume/volume_drift.c:297 modules/volume/volume_drift.c:317
+msgid "Slice level"
+msgstr "切片层级"
+
+#: pygwy.c:130
+msgid "Pygwy, the Gwyddion Python wrapper."
+msgstr "Pygwy，Gwyddion 的 Python 封装。"
+
+#: pygwy.c:271
+msgid "Python Interpreter Errors"
+msgstr "Python 解释器错误"
+
+#: pygwy.c:402
+msgid "Python interpreter error occurred."
+msgstr "发生 Python 解释器错误。"
+
+#: pygwy.c:502
+msgid "Function written in Python"
+msgstr "用 Python 编写的函数"
+
+#: modules/tools/corrlen.c:200 modules/tools/stats.c:161
+msgid "Save Statistical Quantities"
+msgstr "保存统计量"
+
+#: modules/tools/corrlen.c:300 modules/tools/cprofile.c:287
+#: modules/tools/linestats.c:269 modules/tools/profile.c:349
+#: modules/tools/rprofile.c:301 modules/tools/sfunctions.c:335
+#: modules/tools/spectro.c:292
+msgid "<b>Options</b>"
+msgstr "<b>选项</b>"
+
+#: modules/tools/corrlen.c:1073 modules/tools/stats.c:701
+msgid "Selected area"
+msgstr "选定区域"
+
+#: modules/tools/corrlen.c:1074 modules/tools/stats.c:702
+msgid "%{w}i × %{h}i at (%{x}i, %{y}i)"
+msgstr "%{w}i × %{h}i，位置（%{x}i, %{y}i）"
+
+#: modules/tools/corrlen.c:1078 modules/tools/stats.c:706
+msgid "%{w}v × %{h}v at (%{x}v, %{y}v)"
+msgstr "%{w}v × %{h}v，位置（%{x}v, %{y}v）"
+
+#: modules/tools/cprofile.c:243 modules/tools/profile.c:226
+#: modules/tools/profile.c:305
+msgid "Profiles"
+msgstr "轮廓"
+
+#. TRANSLATORS: Number is verb here.
+#: modules/tools/distance.c:126 modules/tools/profile.c:200
+#: modules/tools/rprofile.c:164
+msgid "_Number lines"
+msgstr "为线条编号(_N)"
+
+#: modules/tools/filter.c:249 modules/tools/stats.c:250
+msgid "Masking Mode"
+msgstr "掩膜模式"
+
+#: modules/tools/grainmeasure.c:85
+msgid ""
+"Grain measurement tool, calculates characteristics of selected continuous "
+"parts of mask."
+msgstr "颗粒测量工具，计算选定掩膜连通区域的特征。"
+
+#: modules/tools/grainmeasure.c:128
+msgid "Grain Measure"
+msgstr "颗粒测量"
+
+#: modules/tools/grainmeasure.c:129
+msgid "Measure individual grains (continuous parts of mask)"
+msgstr "测量单个颗粒（掩膜的连通区域）"
+
+#: modules/tools/grainremover.c:90
+msgid ""
+"Grain removal tool, removes continuous parts of mask and/or underlying data."
+msgstr "颗粒移除工具，移除掩膜的连通区域和／或其下方的数据。"
+
+#: modules/tools/grainremover.c:118 modules/tools/spotremove.c:193
+msgid "Laplace solver"
+msgstr "拉普拉斯求解器"
+
+#: modules/tools/grainremover.c:119
+msgid "Fractal correction"
+msgstr "分形校正"
+
+#: modules/tools/grainremover.c:120 modules/tools/spotremove.c:195
+msgid "Fractal-Laplace blend"
+msgstr "分形-拉普拉斯混合"
+
+#: modules/tools/grainremover.c:132 modules/tools/spotremove.c:209
+msgid "_Interpolation method"
+msgstr "插值方法(_I)"
+
+#: modules/tools/grainremover.c:148
+msgid "Grain Remove"
+msgstr "移除颗粒"
+
+#: modules/tools/grainremover.c:149
+msgid "Remove individual grains (continuous parts of mask)"
+msgstr "移除单个颗粒（掩膜的连通区域）"
+
+#: modules/tools/level3.c:91
+msgid ""
+"Three-point level tool, levels data by subtracting a plane fitted through "
+"three selected points."
+msgstr "三点调平工具：减去通过三个选定点拟合的平面来调平数据。"
+
+#: modules/tools/level3.c:120 modules/tools/readvalue.c:184
+msgid "_Averaging radius"
+msgstr "平均半径(_A)"
+
+#: modules/tools/level3.c:121
+msgid "_Instant apply"
+msgstr "立即应用(_I)"
+
+#: modules/tools/level3.c:122
+msgid "Set plane to _zero"
+msgstr "将平面设为零(_Z)"
+
+#: modules/tools/level3.c:137
+msgid "Three Point Level"
+msgstr "三点调平"
+
+#: modules/tools/level3.c:138
+msgid "Level data by fitting a plane through three points"
+msgstr "通过三个点拟合平面对数据调平"
+
+#: modules/tools/linestats.c:106
+msgid ""
+"Row/column statistical function tool, mean values, medians, maxima, minima, "
+"RMS, ..., of rows or columns."
+msgstr "行／列统计函数工具，计算各行或列的平均值、中位数、最大值、最小值、均方根等。"
+
+#: modules/tools/linestats.c:150
+msgid "Ro_ws"
+msgstr "行(_W)"
+
+#: modules/tools/linestats.c:151
+msgid "Co_lumns"
+msgstr "列(_L)"
+
+#: modules/tools/linestats.c:183
+msgid "Row/Column Statistics"
+msgstr "行／列统计"
+
+#: modules/tools/linestats.c:184
+msgid "Calculate row/column statistical functions"
+msgstr "计算行／列统计函数"
+
+#: modules/tools/pathlevel.c:97
+msgid "Path level tool, performs row leveling along on user-set lines."
+msgstr "路径调平工具，沿用户指定的线条对行进行调平。"
+
+#: modules/tools/pathlevel.c:141
+msgid "Path Level"
+msgstr "路径调平"
+
+#: modules/tools/pathlevel.c:142
+msgid "Level rows using intersections with given lines"
+msgstr "利用与指定线条的交点对行进行调平"
+
+#: modules/tools/profile.c:201 modules/tools/rprofile.c:165
+msgid "_Separate profiles"
+msgstr "分离轮廓(_S)"
+
+#: modules/tools/readvalue.c:187 modules/tools/spotremove.c:214
+msgid "Adapt color range to detail"
+msgstr "使颜色范围适应细节"
+
+#: modules/tools/roughness.c:151
+msgid "Calculate surface profile parameters."
+msgstr "计算表面轮廓参数。"
+
+#: modules/tools/roughness.c:173 modules/tools/roughness.c:1001
+msgid "Texture"
+msgstr "纹理"
+
+#: modules/tools/roughness.c:174 modules/tools/roughness.c:1001
+msgid "Waviness"
+msgstr "波纹度"
+
+#: modules/tools/roughness.c:175 modules/tools/roughness.c:211
+#: modules/tools/roughness.c:1001
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: modules/tools/roughness.c:176
+msgid "ADF"
+msgstr "ADF"
+
+#: modules/tools/roughness.c:177
+msgid "BRC"
+msgstr "BRC"
+
+#: modules/tools/roughness.c:178 modules/tools/roughness.c:1002
+msgid "Peak Count"
+msgstr "峰数"
+
+#: modules/tools/roughness.c:191
+msgid "Save Roughness Parameters"
+msgstr "保存粗糙度参数"
+
+#: modules/tools/roughness.c:212
+msgid "Calculate roughness parameters"
+msgstr "计算粗糙度参数"
+
+#: modules/tools/roughness.c:372
+msgid "Roughness Parameters"
+msgstr "粗糙度参数"
+
+#: modules/tools/roughness.c:375
+msgid "Selected line"
+msgstr "选定线条"
+
+#: modules/tools/roughness.c:376
+msgid "(%{x1}i, %{y1}i) to (%{x2}i, %{y2}i)"
+msgstr "（%{x1}i, %{y1}i）至（%{x2}i, %{y2}i）"
+
+#: modules/tools/roughness.c:380
+msgid "(%{x1}v, %{y1}v) to (%{x2}v, %{y2}v)"
+msgstr "（%{x1}v, %{y1}v）至（%{x2}v, %{y2}v）"
+
+#: modules/tools/roughness.c:383
+msgid "Cut-off"
+msgstr "截止波长"
+
+#: modules/tools/roughness.c:387
+msgid "Roughness average"
+msgstr "平均粗糙度"
+
+#: modules/tools/roughness.c:390
+msgid "Root mean square roughness"
+msgstr "均方根粗糙度"
+
+#: modules/tools/roughness.c:393
+msgid "Maximum height of the roughness"
+msgstr "粗糙度最大高度"
+
+#: modules/tools/roughness.c:396
+msgid "Maximum roughness valley depth"
+msgstr "粗糙度最大谷深"
+
+#: modules/tools/roughness.c:399
+msgid "Maximum roughness peak height"
+msgstr "粗糙度最大峰高"
+
+#: modules/tools/roughness.c:402 modules/tools/roughness.c:420
+msgid "Average maximum height of the roughness"
+msgstr "粗糙度平均最大高度"
+
+#: modules/tools/roughness.c:405
+msgid "Average maximum roughness valley depth"
+msgstr "粗糙度平均最大谷深"
+
+#: modules/tools/roughness.c:408
+msgid "Average maximum roughness peak height"
+msgstr "粗糙度平均最大峰高"
+
+#: modules/tools/roughness.c:411 modules/tools/roughness.c:414
+msgid "Average third highest peak to third lowest valley height"
+msgstr "第三高峰与第三低谷的平均高度差"
+
+#: modules/tools/roughness.c:417
+msgid "Average maximum height of the profile"
+msgstr "轮廓平均最大高度"
+
+#: modules/tools/roughness.c:423
+msgid "Maximum peak to valley roughness"
+msgstr "最大峰谷粗糙度"
+
+#: modules/tools/roughness.c:426
+msgid "Skewness"
+msgstr "偏度"
+
+#: modules/tools/roughness.c:429
+msgid "Kurtosis"
+msgstr "峰度"
+
+#: modules/tools/roughness.c:432
+msgid "Waviness average"
+msgstr "平均波纹度"
+
+#: modules/tools/roughness.c:435
+msgid "Root mean square waviness"
+msgstr "均方根波纹度"
+
+#: modules/tools/roughness.c:438
+msgid "Waviness maximum height"
+msgstr "波纹度最大高度"
+
+#: modules/tools/roughness.c:441
+msgid "Maximum height of the profile"
+msgstr "轮廓最大高度"
+
+#: modules/tools/roughness.c:446
+msgid "Spatial"
+msgstr "空间参数"
+
+#: modules/tools/roughness.c:453
+msgid "Mean spacing of profile irregularities"
+msgstr "轮廓不规则度平均间距"
+
+#: modules/tools/roughness.c:456
+msgid "Average wavelength of the profile"
+msgstr "轮廓平均波长"
+
+#: modules/tools/roughness.c:459
+msgid "Root mean square (RMS) wavelength of the profile"
+msgstr "轮廓均方根（RMS）波长"
+
+#: modules/tools/roughness.c:464
+msgid "parameters|Hybrid"
+msgstr "混合参数"
+
+#: modules/tools/roughness.c:465
+msgid "Average absolute slope"
+msgstr "平均绝对斜率"
+
+#: modules/tools/roughness.c:468
+msgid "Root mean square (RMS) slope"
+msgstr "均方根（RMS）斜率"
+
+#: modules/tools/roughness.c:474
+msgid "Developed profile length"
+msgstr "展开轮廓长度"
+
+#: modules/tools/roughness.c:477
+msgid "Profile length ratio"
+msgstr "轮廓长度比"
+
+#: modules/tools/roughness.c:482
+msgid "parameters|Functional"
+msgstr "功能参数"

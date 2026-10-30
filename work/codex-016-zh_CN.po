@@ -1,0 +1,413 @@
+# Simplified Chinese translation for Gwyddion.
+# This file is distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/grain_makesel.c:65
+msgid "/_Grains/Select _Circumscribed Circles"
+msgstr "/颗粒(_G)/选择外接圆(_C)"
+
+#: modules/process/grain_makesel.c:69
+msgid "Create a selection visualizing grain circumcircles"
+msgstr "创建选区以显示颗粒外接圆"
+
+#: modules/process/grain_makesel.c:72
+msgid "/_Grains/Select Inscribed _Rectangles"
+msgstr "/颗粒(_G)/选择内接矩形(_R)"
+
+#: modules/process/grain_makesel.c:76
+msgid "Create a selection visualizing rectangles inscribed into grains"
+msgstr "创建选区以显示颗粒内接矩形"
+
+#: modules/process/grain_makesel.c:79
+msgid "/_Grains/Select _Bounding Boxes"
+msgstr "/颗粒(_G)/选择边界框(_B)"
+
+#: modules/process/grain_makesel.c:83
+msgid "Create a selection visualizing grain bounding boxes"
+msgstr "创建选区以显示颗粒边界框"
+
+#: modules/process/grain_mark.c:85
+msgid "Marks grains by thresholding (height, slope, curvature)."
+msgstr "按阈值（高度、斜率、曲率）标记颗粒。"
+
+#: modules/process/grain_mark.c:99
+msgid "/_Grains/_Mark by Threshold..."
+msgstr "/颗粒(_G)/按阈值标记(_M)..."
+
+#: modules/process/grain_mark.c:103
+msgid "Mark grains by threshold"
+msgstr "按阈值标记颗粒"
+
+#: modules/process/grain_mark.c:120
+msgid "_Rank"
+msgstr "秩(_R)"
+
+#: modules/process/grain_mark.c:122
+msgid "_Slope"
+msgstr "斜率(_S)"
+
+#: modules/process/grain_mark.c:124
+msgid "_Curvature"
+msgstr "曲率(_C)"
+
+#: modules/process/grain_mark.c:127
+msgid "Criteria combination"
+msgstr "条件组合"
+
+#: modules/process/grain_mark.c:200
+msgid "Mark Grains by Threshold"
+msgstr "按阈值标记颗粒"
+
+#: modules/process/grain_mark.c:208
+msgid "Threshold by"
+msgstr "阈值依据"
+
+#: modules/process/grain_stat.c:100
+msgid "Calculates statistics for all grain quantities."
+msgstr "计算所有颗粒量的统计数据。"
+
+#: modules/process/grain_stat.c:114
+msgid "/_Grains/S_tatistics..."
+msgstr "/颗粒(_G)/统计(_T)..."
+
+#: modules/process/grain_stat.c:118
+msgid "Grain property statistics"
+msgstr "颗粒属性统计"
+
+#: modules/process/grain_stat.c:133
+msgid "Save Grain Statistics"
+msgstr "保存颗粒统计"
+
+#: modules/process/grain_stat.c:161
+msgid "IQR"
+msgstr "四分位距（IQR）"
+
+#: modules/process/grain_stat.c:177
+msgid "Grain Statistics"
+msgstr "颗粒统计"
+
+#: modules/process/grain_stat.c:354
+msgid "px<sup>2</sup>"
+msgstr "px<sup>2</sup>"
+
+#: modules/process/grain_summary.c:66
+msgid "Displays overall grain statistics."
+msgstr "显示整体颗粒统计数据。"
+
+#: modules/process/grain_summary.c:80
+msgid "/_Grains/S_ummary..."
+msgstr "/颗粒(_G)/摘要(_U)..."
+
+#: modules/process/grain_summary.c:84
+msgid "Grain summary information"
+msgstr "颗粒摘要信息"
+
+#: modules/process/grain_summary.c:99
+msgid "Save Grain Summary"
+msgstr "保存颗粒摘要"
+
+#: modules/process/grain_summary.c:139 modules/process/grain_summary.c:165
+msgid "Grain Summary"
+msgstr "颗粒摘要"
+
+#: modules/process/grain_summary.c:169
+msgid "Number of grains"
+msgstr "颗粒数量"
+
+#: modules/process/grain_summary.c:170
+msgid "Density"
+msgstr "密度"
+
+#: modules/process/grain_summary.c:171
+msgid "Total projected area (abs.)"
+msgstr "总投影面积（绝对值）"
+
+#: modules/process/grain_summary.c:174
+msgid "Total projected area (rel.)"
+msgstr "总投影面积（相对值）"
+
+#: modules/process/grain_summary.c:175
+msgid "Mean grain area"
+msgstr "平均颗粒面积"
+
+#: modules/process/grain_summary.c:178
+msgid "Mean grain size"
+msgstr "平均颗粒尺寸"
+
+#: modules/process/grain_summary.c:179
+msgid "Total grain volume (zero)"
+msgstr "颗粒总体积（零基准）"
+
+#: modules/process/grain_summary.c:182
+msgid "Total grain volume (minimum)"
+msgstr "颗粒总体积（最小值基准）"
+
+#: modules/process/grain_summary.c:185
+msgid "Total grain volume (Laplace)"
+msgstr "颗粒总体积（拉普拉斯基准）"
+
+#: modules/process/grain_summary.c:188
+msgid "Total projected boundary length"
+msgstr "总投影边界长度"
+
+#: modules/process/grain_wshed.c:75
+msgid "Marks grains by watershed algorithm."
+msgstr "使用分水岭算法标记颗粒。"
+
+#: modules/process/grain_wshed.c:89
+msgid "/_Grains/Mark by _Watershed..."
+msgstr "/颗粒(_G)/通过分水岭标记(_W)..."
+
+#: modules/process/grain_wshed.c:93
+msgid "Mark grains by watershed"
+msgstr "通过分水岭标记颗粒"
+
+#: modules/process/grain_wshed.c:109
+msgid "_Number of steps"
+msgstr "步数(_N)"
+
+#: modules/process/grain_wshed.c:111
+msgid "_Drop size"
+msgstr "水滴大小(_D)"
+
+#: modules/process/grain_wshed.c:112
+msgid "Num_ber of steps"
+msgstr "步数(_B)"
+
+#: modules/process/grain_wshed.c:113
+msgid "Dr_op size"
+msgstr "水滴大小(_O)"
+
+#: modules/process/grain_wshed.c:183
+msgid "Mark Grains by Watershed"
+msgstr "通过分水岭标记颗粒"
+
+#: modules/process/grain_wshed.c:192
+msgid "Grain Location"
+msgstr "颗粒定位"
+
+#: modules/process/grain_wshed.c:202
+msgid "Segmentation"
+msgstr "分割"
+
+#: modules/process/grain_wshed.c:283
+msgid "Finding minima..."
+msgstr "正在查找极小值..."
+
+#: modules/process/grain_wshed.c:285
+msgid "Locating..."
+msgstr "正在定位..."
+
+#: modules/process/grain_wshed.c:287
+msgid "Simulating watershed..."
+msgstr "正在模拟分水岭..."
+
+#: modules/process/grain_wshed.c:289
+msgid "Marking boundaries..."
+msgstr "正在标记边界..."
+
+#: modules/process/hertz.c:96
+msgid "/SPM M_odes/_Force and Indentation/_Hertz contact..."
+msgstr "/SPM 模式(_O)/力与压入(_F)/赫兹接触(_H)..."
+
+#: modules/process/hertz.c:100
+msgid "Hertzian contact theory"
+msgstr "赫兹接触理论"
+
+#: modules/process/hertz.c:109
+msgid "Mean _curvature"
+msgstr "平均曲率(_C)"
+
+#: modules/process/hertz.c:110
+msgid "Gaussian c_urvature"
+msgstr "高斯曲率(_U)"
+
+#: modules/process/hertz.c:111
+msgid "Contact _modulus"
+msgstr "接触模量(_M)"
+
+#: modules/process/hertz.c:112
+msgid "_Deformation"
+msgstr "形变(_D)"
+
+#: modules/process/hertz.c:113
+msgid "Excluded _points"
+msgstr "排除的点(_P)"
+
+#: modules/process/hertz.c:123
+msgid "_Contact modulus"
+msgstr "接触模量(_C)"
+
+#: modules/process/hertz.c:124
+msgid "_Load applied"
+msgstr "施加载荷(_L)"
+
+#: modules/process/hertz.c:137
+msgid "Mean curvature"
+msgstr "平均曲率"
+
+#: modules/process/hertz.c:138
+msgid "Gaussian curvature"
+msgstr "高斯曲率"
+
+#: modules/process/hertz.c:139
+msgid "Hertzian contact modulus"
+msgstr "赫兹接触模量"
+
+#: modules/process/hertz.c:140
+msgid "Hertzian theory deformation"
+msgstr "赫兹理论形变"
+
+#: modules/process/hertz.c:163 modules/process/hertz.c:232
+msgid "Hertzian Contact Modulus"
+msgstr "赫兹接触模量"
+
+#: modules/process/hertz.c:243
+msgid ""
+"Values should be height (meters).\n"
+"The following results do not make much sense."
+msgstr "数值应为高度（米）。\n以下结果可能没有实际意义。"
+
+#: modules/process/indent_analyze.c:179
+msgid "Analyses nanoindentation structure (volumes, surfaces, ...)."
+msgstr "分析纳米压痕结构（体积、表面等）。"
+
+#: modules/process/indent_analyze.c:193
+msgid "/SPM M_odes/_Force and Indentation/_Analyze Imprint..."
+msgstr "/SPM 模式(_O)/力与压入(_F)/分析压痕(_A)..."
+
+#: modules/process/indent_analyze.c:197
+msgid "Analyze indentation imprint"
+msgstr "分析压痕"
+
+#: modules/process/indent_analyze.c:211
+msgid "Nothing"
+msgstr "无"
+
+#: modules/process/indent_analyze.c:212 modules/process/mask_edt.c:102
+msgid "Exterior"
+msgstr "外部"
+
+#: modules/process/indent_analyze.c:214
+msgid "Imprint"
+msgstr "压痕"
+
+#: modules/process/indent_analyze.c:215
+msgid "Imprint faces"
+msgstr "压痕面"
+
+#: modules/process/indent_analyze.c:216 modules/process/indent_analyze.c:400
+msgid "Contact area"
+msgstr "接触面积"
+
+#: modules/process/indent_analyze.c:217
+msgid "Pile-up"
+msgstr "堆积"
+
+#: modules/process/indent_analyze.c:218
+msgid "Inner pile-up"
+msgstr "内部堆积"
+
+#: modules/process/indent_analyze.c:219
+msgid "Outer pile-up"
+msgstr "外部堆积"
+
+#: modules/process/indent_analyze.c:220
+msgid "Faces border"
+msgstr "面边界"
+
+#: modules/process/indent_analyze.c:229
+msgid "Level using imprint exterior"
+msgstr "使用压痕外部区域调平"
+
+#: modules/process/indent_analyze.c:230
+msgid "Exterior width"
+msgstr "外部区域宽度"
+
+#: modules/process/indent_analyze.c:231
+msgid "Ref. plane _tolerance"
+msgstr "参考平面容差(_T)"
+
+#: modules/process/indent_analyze.c:232
+msgid "_Angle tolerance"
+msgstr "角度容差(_A)"
+
+#: modules/process/indent_analyze.c:233
+msgid "_Indenter shape"
+msgstr "压头形状(_I)"
+
+#: modules/process/indent_analyze.c:262
+msgid "Analyze imprint"
+msgstr "分析压痕"
+
+#: modules/process/indent_analyze.c:325
+msgid "Analyze Imprint"
+msgstr "分析压痕"
+
+#: modules/process/indent_analyze.c:335
+msgid "Leveling"
+msgstr "调平"
+
+#: modules/process/indent_analyze.c:340
+msgid "Marking"
+msgstr "标记"
+
+#: modules/process/indent_analyze.c:388
+msgid "Indentation"
+msgstr "压入"
+
+#: modules/process/indent_analyze.c:393
+msgid "Imprint center x"
+msgstr "压痕中心 x"
+
+#: modules/process/indent_analyze.c:394
+msgid "Imprint center y"
+msgstr "压痕中心 y"
+
+#: modules/process/indent_analyze.c:398
+msgid "Imprint surface area"
+msgstr "压痕表面积"
+
+#: modules/process/indent_analyze.c:399
+msgid "Imprint projected area"
+msgstr "压痕投影面积"
+
+#: modules/process/indent_analyze.c:401
+msgid "Imprint volume"
+msgstr "压痕体积"
+
+#: modules/process/indent_analyze.c:402
+msgid "Pile-up volume"
+msgstr "堆积体积"
+
+#: modules/process/indent_analyze.c:403
+msgid "Pile-up surface area"
+msgstr "堆积表面积"
+
+#: modules/process/indent_analyze.c:404
+msgid "Pile-up projected area"
+msgstr "堆积投影面积"
+
+#: modules/process/indent_analyze.c:405
+msgid "Inner pile-up surface area"
+msgstr "内部堆积表面积"
+
+#: modules/process/indent_analyze.c:406
+msgid "Inner pile-up projected area"
+msgstr "内部堆积投影面积"
+
+#: modules/process/indent_analyze.c:407
+msgid "Outer pile-up surface area"
+msgstr "外部堆积表面积"
+
+#: modules/process/indent_analyze.c:408
+msgid "Outer pile-up projected area"
+msgstr "外部堆积投影面积"

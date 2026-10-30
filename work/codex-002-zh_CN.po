@@ -1,0 +1,476 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 19:43+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: libprocess/gwygrainvalue.c:254
+msgid "Minimum bounding size"
+msgstr "最小包围尺寸"
+
+#: libprocess/gwygrainvalue.c:263
+msgid "Minimum bounding direction"
+msgstr "最小包围方向"
+
+#: libprocess/gwygrainvalue.c:272
+msgid "Maximum bounding size"
+msgstr "最大包围尺寸"
+
+#: libprocess/gwygrainvalue.c:281
+msgid "Maximum bounding direction"
+msgstr "最大包围方向"
+
+#: libprocess/gwygrainvalue.c:290
+msgid "Maximum inscribed disc radius"
+msgstr "最大内切圆半径"
+
+#: libprocess/gwygrainvalue.c:299
+msgid "Maximum inscribed disc center x position"
+msgstr "最大内切圆圆心 x 坐标"
+
+#: libprocess/gwygrainvalue.c:308
+msgid "Maximum inscribed disc center y position"
+msgstr "最大内切圆圆心 y 坐标"
+
+#: libprocess/gwygrainvalue.c:317
+msgid "Minimum circumcircle radius"
+msgstr "最小外接圆半径"
+
+#: libprocess/gwygrainvalue.c:326
+msgid "Minimum circumcircle center x position"
+msgstr "最小外接圆圆心 x 坐标"
+
+#: libprocess/gwygrainvalue.c:335
+msgid "Minimum circumcircle center y position"
+msgstr "最小外接圆圆心 y 坐标"
+
+#: libprocess/gwygrainvalue.c:344 libprocess/gwyshapefitpreset.c:473
+msgid "Mean radius"
+msgstr "平均半径"
+
+#: libprocess/gwygrainvalue.c:353
+msgid "Minimum Martin diameter"
+msgstr "最小 Martin 直径"
+
+#: libprocess/gwygrainvalue.c:362
+msgid "Direction of minimum Martin diameter"
+msgstr "最小 Martin 直径的方向"
+
+#: libprocess/gwygrainvalue.c:371
+msgid "Maximum Martin diameter"
+msgstr "最大 Martin 直径"
+
+#: libprocess/gwygrainvalue.c:380
+msgid "Direction of maximum Martin diameter"
+msgstr "最大 Martin 直径的方向"
+
+#: libprocess/gwygrainvalue.c:389 modules/tools/readvalue.c:262
+#: modules/tools/stats.c:751
+msgid "Inclination θ"
+msgstr "倾角 θ"
+
+#: libprocess/gwygrainvalue.c:398 modules/tools/readvalue.c:263
+#: modules/tools/stats.c:752
+msgid "Inclination φ"
+msgstr "方位角 φ"
+
+#: libprocess/gwygrainvalue.c:407
+msgid "Curvature center x position"
+msgstr "曲率中心 x 坐标"
+
+#: libprocess/gwygrainvalue.c:416
+msgid "Curvature center y position"
+msgstr "曲率中心 y 坐标"
+
+#: libprocess/gwygrainvalue.c:425
+msgid "Curvature center z value"
+msgstr "曲率中心 z 值"
+
+#: libprocess/gwygrainvalue.c:434 modules/tools/readvalue.c:264
+msgid "Curvature 1"
+msgstr "曲率 1"
+
+#: libprocess/gwygrainvalue.c:443 modules/tools/readvalue.c:265
+msgid "Curvature 2"
+msgstr "曲率 2"
+
+#: libprocess/gwygrainvalue.c:452
+msgid "Curvature angle 1"
+msgstr "曲率方向角 1"
+
+#: libprocess/gwygrainvalue.c:461
+msgid "Curvature angle 2"
+msgstr "曲率方向角 2"
+
+#: libprocess/gwygrainvalue.c:470
+msgid "Major semiaxis of equivalent ellipse"
+msgstr "等效椭圆长半轴"
+
+#: libprocess/gwygrainvalue.c:479
+msgid "Minor semiaxis of equivalent ellipse"
+msgstr "等效椭圆短半轴"
+
+#: libprocess/gwygrainvalue.c:488
+msgid "Orientation of equivalent ellipse"
+msgstr "等效椭圆的方向"
+
+#: libprocess/gwygrainvalue.c:1167 modules/process/classify.c:289
+#: modules/process/classify.c:370 modules/process/classify.c:385
+msgid "Id"
+msgstr "编号"
+
+#: libprocess/gwygrainvalue.c:1168 modules/cmap/cmap_possearch.c:241
+#: modules/graph/graph_peaks.c:131 modules/process/extract_path.c:344
+#: modules/process/extract_path.c:349 modules/process/immerse.c:272
+#: modules/process/pat_synth.c:1683 modules/process/wave_synth.c:360
+#: modules/tools/readvalue.c:336
+msgid "Position"
+msgstr "位置"
+
+#: libprocess/gwygrainvalue.c:1169 app/meta.c:465
+#: modules/cmap/cmap_linestat.c:323 modules/cmap/cmap_peaks.c:313
+#: modules/file/imgexport.c:3471 modules/process/classify.c:549
+#: modules/tools/level3.c:362 modules/tools/readvalue.c:346
+#: modules/volume/volume_linestat.c:335 modules/volume/volume_planestat.c:395
+msgid "Value"
+msgstr "数值"
+
+#: libprocess/gwygrainvalue.c:1170 modules/process/measure_lattice.c:358
+#: modules/volume/volume_cluster.c:296
+msgid "Area"
+msgstr "面积"
+
+#: libprocess/gwygrainvalue.c:1171 app/data-browser.c:5922
+#: gwyddion/toolbox.c:107 modules/tools/stats.c:743
+msgid "Volume"
+msgstr ""
+
+#: libprocess/gwygrainvalue.c:1172
+msgid "Boundary"
+msgstr "边界"
+
+#: libprocess/gwygrainvalue.c:1173 libprocess/gwyshapefitpreset.c:429
+#: libprocess/gwyshapefitpreset.c:442 modules/cmap/cmap_classify.c:199
+#: modules/cmap/cmap_classify.c:379 modules/process/classify.c:551
+#: modules/process/pat_synth.c:1730 modules/process/pat_synth.c:1928
+#: modules/process/pat_synth.c:2041 modules/process/pat_synth.c:2161
+#: modules/process/pat_synth.c:2476 modules/process/pat_synth.c:2619
+#: modules/tools/linestats.c:121 modules/volume/volume_linestat.c:148
+msgid "Slope"
+msgstr "斜率"
+
+#: libprocess/gwygrainvalue.c:1174 libprocess/gwyshapefitpreset.c:317
+#: libprocess/gwyshapefitpreset.c:329 libprocess/gwyshapefitpreset.c:340
+#: modules/process/curvature.c:155 modules/process/curvature.c:423
+#: modules/process/curvature.c:504 modules/process/deconvolve.c:149
+#: modules/volume/volume_cluster.c:288
+msgid "Curvature"
+msgstr "曲率"
+
+#: libprocess/gwygrainvalue.c:1175
+msgid "Moment"
+msgstr "矩"
+
+#: libprocess/gwygrainvalue.c:1179
+msgid "User"
+msgstr "用户"
+
+#: libprocess/gwyprocessenums.c:40
+msgid "Union"
+msgstr "并集"
+
+#: libprocess/gwyprocessenums.c:41
+msgid "Intersection"
+msgstr "交集"
+
+#: libprocess/gwyprocessenums.c:72 modules/process/rotate.c:275
+msgid "Detected"
+msgstr "检测结果"
+
+#: libprocess/gwyprocessenums.c:73
+msgid "Parallel"
+msgstr "平行"
+
+#: libprocess/gwyprocessenums.c:74
+msgid "Triangular"
+msgstr "三角形"
+
+#: libprocess/gwyprocessenums.c:75
+msgid "symmetry|Square"
+msgstr "正方形"
+
+#: libprocess/gwyprocessenums.c:76
+msgid "Rhombic"
+msgstr "菱形"
+
+#: libprocess/gwyprocessenums.c:77
+msgid "Hexagonal"
+msgstr "六边形"
+
+#: libprocess/gwyprocessenums.c:95
+msgid "Hat"
+msgstr "帽形"
+
+#: libprocess/gwyprocessenums.c:119
+#: libgwydgets/gwygraphwindowmeasuredialog.c:49
+#: modules/process/convolution_filter.c:410 modules/tools/cprofile.c:138
+msgid "Horizontal"
+msgstr "水平"
+
+#: libprocess/gwyprocessenums.c:120 modules/process/convolution_filter.c:426
+#: modules/tools/cprofile.c:139
+msgid "Vertical"
+msgstr "垂直"
+
+#: libprocess/gwyprocessenums.c:137
+msgid "Haar"
+msgstr "Haar"
+
+#: libprocess/gwyprocessenums.c:138
+msgid "Daubechies 4"
+msgstr "Daubechies 4"
+
+#: libprocess/gwyprocessenums.c:139
+msgid "Daubechies 6"
+msgstr "Daubechies 6"
+
+#: libprocess/gwyprocessenums.c:140
+msgid "Daubechies 8"
+msgstr "Daubechies 8"
+
+#: libprocess/gwyprocessenums.c:141
+msgid "Daubechies 12"
+msgstr "Daubechies 12"
+
+#: libprocess/gwyprocessenums.c:142
+msgid "Daubechies 20"
+msgstr "Daubechies 20"
+
+#: libprocess/gwyprocessenums.c:159
+msgid "Universal"
+msgstr "通用"
+
+#: libprocess/gwyprocessenums.c:160
+msgid "Scale adaptive"
+msgstr "尺度自适应"
+
+#: libprocess/gwyprocessenums.c:161
+msgid "Scale and space adaptive"
+msgstr "尺度和空间自适应"
+
+#. TRANSLATORS: Interpolation type (AKA nearest neighbour)
+#: libprocess/gwyprocessenums.c:200 modules/file/imgexport.c:658
+#: modules/xyz/xyz_raster.c:203
+msgid "Round"
+msgstr "最近邻"
+
+#: libprocess/gwyprocessenums.c:201 modules/file/imgexport.c:659
+#: modules/process/relate.c:206 modules/volume/volume_cluster.c:280
+#: modules/xyz/xyz_raster.c:205
+msgid "Linear"
+msgstr "线性"
+
+#: libprocess/gwyprocessenums.c:202
+msgid "Key"
+msgstr "Key"
+
+#: libprocess/gwyprocessenums.c:203
+msgid "BSpline"
+msgstr "B 样条"
+
+#: libprocess/gwyprocessenums.c:204
+msgid "OMOMS"
+msgstr "OMOMS"
+
+#: libprocess/gwyprocessenums.c:205 modules/xyz/xyz_raster.c:204
+msgid "NNA"
+msgstr "NNA"
+
+#: libprocess/gwyprocessenums.c:206
+msgid "Schaum"
+msgstr "Schaum"
+
+#: libprocess/gwyprocessenums.c:238
+msgid "windowing|None"
+msgstr "无"
+
+#: libprocess/gwyprocessenums.c:239
+msgid "Hann"
+msgstr "Hann"
+
+#: libprocess/gwyprocessenums.c:240
+msgid "Hamming"
+msgstr "Hamming"
+
+#: libprocess/gwyprocessenums.c:241
+msgid "Blackmann"
+msgstr "Blackmann"
+
+#: libprocess/gwyprocessenums.c:242
+msgid "Lanczos"
+msgstr "Lanczos"
+
+#: libprocess/gwyprocessenums.c:243
+msgid "Welch"
+msgstr "Welch"
+
+#: libprocess/gwyprocessenums.c:244
+msgid "Rect"
+msgstr "矩形"
+
+#: libprocess/gwyprocessenums.c:245
+msgid "Nuttall"
+msgstr "Nuttall"
+
+#: libprocess/gwyprocessenums.c:246
+msgid "Flat-top"
+msgstr "平顶"
+
+#: libprocess/gwyprocessenums.c:247
+msgid "Kaiser 2.5"
+msgstr "Kaiser 2.5"
+
+#: libprocess/gwyprocessenums.c:264
+msgid "correlation|Normal"
+msgstr "普通"
+
+#: libprocess/gwyprocessenums.c:265
+msgid "FFT"
+msgstr "FFT"
+
+#: libprocess/gwyprocessenums.c:266
+msgid "Phase only"
+msgstr "仅相位"
+
+#: libprocess/gwyprocessenums.c:298
+msgid "Exclude masked region"
+msgstr "排除掩膜区域"
+
+#: libprocess/gwyprocessenums.c:299
+msgid "Include only masked region"
+msgstr "仅包含掩膜区域"
+
+#: libprocess/gwyprocessenums.c:300
+msgid "Use entire image (ignore mask)"
+msgstr "使用整幅图像（忽略掩膜）"
+
+#: libprocess/gwyprocessenums.c:528
+msgid "distance|City-block"
+msgstr "曼哈顿距离"
+
+#: libprocess/gwyprocessenums.c:529
+msgid "distance|Chess"
+msgstr "棋盘距离"
+
+#: libprocess/gwyprocessenums.c:530
+msgid "distance|Octagonal 4,8"
+msgstr "八边形距离 4,8"
+
+#: libprocess/gwyprocessenums.c:531
+msgid "distance|Octagonal 8,4"
+msgstr "八边形距离 8,4"
+
+#: libprocess/gwyprocessenums.c:532
+msgid "distance|Octagonal"
+msgstr "八边形距离"
+
+#: libprocess/gwyprocessenums.c:533
+msgid "distance|Euclidean"
+msgstr "欧氏距离"
+
+#: libprocess/gwyshapefitpreset.c:226
+msgid "Value at the origin"
+msgstr "原点处的值"
+
+#: libprocess/gwyshapefitpreset.c:227 libprocess/gwyshapefitpreset.c:242
+#: libprocess/gwyshapefitpreset.c:255 libprocess/gwyshapefitpreset.c:357
+#: libprocess/gwyshapefitpreset.c:374 libprocess/gwyshapefitpreset.c:398
+#: libprocess/gwyshapefitpreset.c:418 libprocess/gwyshapefitpreset.c:431
+#: libprocess/gwyshapefitpreset.c:445 libprocess/gwyshapefitpreset.c:462
+#: libprocess/gwyshapefitpreset.c:477 libprocess/gwyshapefitpreset.c:494
+#: libprocess/gwyshapefitpreset.c:509
+msgid "Base plane x-coefficient"
+msgstr "基准平面的 x 系数"
+
+#: libprocess/gwyshapefitpreset.c:228 libprocess/gwyshapefitpreset.c:243
+#: libprocess/gwyshapefitpreset.c:256 libprocess/gwyshapefitpreset.c:358
+#: libprocess/gwyshapefitpreset.c:375 libprocess/gwyshapefitpreset.c:399
+#: libprocess/gwyshapefitpreset.c:419 libprocess/gwyshapefitpreset.c:432
+#: libprocess/gwyshapefitpreset.c:446 libprocess/gwyshapefitpreset.c:463
+#: libprocess/gwyshapefitpreset.c:478 libprocess/gwyshapefitpreset.c:495
+#: libprocess/gwyshapefitpreset.c:510
+msgid "Base plane y-coefficient"
+msgstr "基准平面的 y 系数"
+
+#: libprocess/gwyshapefitpreset.c:232
+msgid "Angle from horizontal plane"
+msgstr "与水平面的夹角"
+
+#: libprocess/gwyshapefitpreset.c:233 libprocess/gwyshapefitpreset.c:304
+#: libprocess/gwyshapefitpreset.c:341 libprocess/gwyshapefitpreset.c:505
+#: modules/process/fibre_synth.c:367 modules/process/lat_synth.c:508
+#: modules/process/obj_synth.c:455 modules/process/pat_synth.c:1670
+#: modules/process/pat_synth.c:2624 modules/process/pileup_synth.c:357
+msgid "Orientation"
+msgstr "方向"
+
+#: libprocess/gwyshapefitpreset.c:237 libprocess/gwyshapefitpreset.c:249
+#: libprocess/gwyshapefitpreset.c:263 libprocess/gwyshapefitpreset.c:301
+msgid "Step height"
+msgstr "台阶高度"
+
+#: libprocess/gwyshapefitpreset.c:238 libprocess/gwyshapefitpreset.c:251
+msgid "Slope width"
+msgstr "斜坡宽度"
+
+#: libprocess/gwyshapefitpreset.c:239 libprocess/gwyshapefitpreset.c:252
+#: libprocess/gwyshapefitpreset.c:265 libprocess/gwyshapefitpreset.c:282
+#: libprocess/gwyshapefitpreset.c:298 libprocess/gwyshapefitpreset.c:316
+#: libprocess/gwyshapefitpreset.c:328 libprocess/gwyshapefitpreset.c:339
+#: libprocess/gwyshapefitpreset.c:352 libprocess/gwyshapefitpreset.c:369
+#: libprocess/gwyshapefitpreset.c:393 libprocess/gwyshapefitpreset.c:413
+#: libprocess/gwyshapefitpreset.c:427 libprocess/gwyshapefitpreset.c:440
+#: libprocess/gwyshapefitpreset.c:457 libprocess/gwyshapefitpreset.c:471
+#: libprocess/gwyshapefitpreset.c:489 libprocess/gwyshapefitpreset.c:503
+msgid "Base plane value at the origin"
+msgstr "基准平面在原点处的值"
+
+#: libprocess/gwyshapefitpreset.c:240 libprocess/gwyshapefitpreset.c:253
+msgid "Distance of step center from the origin"
+msgstr "台阶中心到原点的距离"
+
+#: libprocess/gwyshapefitpreset.c:241 libprocess/gwyshapefitpreset.c:254
+#: libprocess/gwyshapefitpreset.c:267 libprocess/gwyshapefitpreset.c:284
+msgid "Direction perpendicular to edges"
+msgstr "垂直于边缘的方向"
+
+#: libprocess/gwyshapefitpreset.c:250 libprocess/gwyshapefitpreset.c:491
+msgid "Width at half-height"
+msgstr "半高宽"
+
+#: libprocess/gwyshapefitpreset.c:262 libprocess/gwyshapefitpreset.c:274
+#: libprocess/gwyshapefitpreset.c:299
+msgid "Spatial period (pitch)"
+msgstr "空间周期（间距）"
+
+#: libprocess/gwyshapefitpreset.c:264 libprocess/gwyshapefitpreset.c:278
+msgid "Fill ratio at base"
+msgstr "底部填充比"
+
+#: libprocess/gwyshapefitpreset.c:266 libprocess/gwyshapefitpreset.c:283
+#: libprocess/gwyshapefitpreset.c:338
+msgid "Offset from origin"
+msgstr "相对原点的偏移"

@@ -1,0 +1,488 @@
+# Simplified Chinese translation for Gwyddion.
+# This file is distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: libprocess/gwyshapefitpreset.c:268
+msgid "Top edge sharpness"
+msgstr "顶部边缘锐度"
+
+#: libprocess/gwyshapefitpreset.c:275
+msgid "Bottom tier height"
+msgstr "底层高度"
+
+#: libprocess/gwyshapefitpreset.c:276
+msgid "Middle tier height"
+msgstr "中间层高度"
+
+#: libprocess/gwyshapefitpreset.c:277
+msgid "Top tier height"
+msgstr "顶层高度"
+
+#: libprocess/gwyshapefitpreset.c:279
+msgid "Bottom tier tapering factor"
+msgstr "底层锥度因子"
+
+#: libprocess/gwyshapefitpreset.c:280
+msgid "Middle tier tapering factor"
+msgstr "中间层锥度因子"
+
+#: libprocess/gwyshapefitpreset.c:281
+msgid "Top tier tapering factor"
+msgstr "顶层锥度因子"
+
+#: libprocess/gwyshapefitpreset.c:288
+msgid "Feature height"
+msgstr "特征高度"
+
+#: libprocess/gwyshapefitpreset.c:296
+msgid "Offset from origin in X"
+msgstr "相对于原点的 X 方向偏移"
+
+#: libprocess/gwyshapefitpreset.c:297
+msgid "Offset from origin in Y"
+msgstr "相对于原点的 Y 方向偏移"
+
+#: libprocess/gwyshapefitpreset.c:303
+msgid "Corner roundness"
+msgstr "角部圆滑度"
+
+#: libprocess/gwyshapefitpreset.c:308
+msgid "Width at base"
+msgstr "底部宽度"
+
+#: libprocess/gwyshapefitpreset.c:309
+msgid "Width at the top"
+msgstr "顶部宽度"
+
+#: libprocess/gwyshapefitpreset.c:310
+msgid "Corner radius"
+msgstr "角部半径"
+
+#: libprocess/gwyshapefitpreset.c:314 libprocess/gwyshapefitpreset.c:326
+#: libprocess/gwyshapefitpreset.c:350 libprocess/gwyshapefitpreset.c:367
+#: libprocess/gwyshapefitpreset.c:391 libprocess/gwyshapefitpreset.c:411
+#: libprocess/gwyshapefitpreset.c:425 libprocess/gwyshapefitpreset.c:438
+#: libprocess/gwyshapefitpreset.c:455 libprocess/gwyshapefitpreset.c:469
+#: libprocess/gwyshapefitpreset.c:487 libprocess/gwyshapefitpreset.c:501
+msgid "X-coordinate of the center"
+msgstr "中心的 X 坐标"
+
+#: libprocess/gwyshapefitpreset.c:315 libprocess/gwyshapefitpreset.c:327
+#: libprocess/gwyshapefitpreset.c:351 libprocess/gwyshapefitpreset.c:368
+#: libprocess/gwyshapefitpreset.c:392 libprocess/gwyshapefitpreset.c:412
+#: libprocess/gwyshapefitpreset.c:426 libprocess/gwyshapefitpreset.c:439
+#: libprocess/gwyshapefitpreset.c:456 libprocess/gwyshapefitpreset.c:470
+#: libprocess/gwyshapefitpreset.c:488 libprocess/gwyshapefitpreset.c:502
+msgid "Y-coordinate of the center"
+msgstr "中心的 Y 坐标"
+
+#: libprocess/gwyshapefitpreset.c:321 modules/process/mask_morph.c:145
+msgid "Radius"
+msgstr "半径"
+
+#: libprocess/gwyshapefitpreset.c:322
+msgid "Value at the apex"
+msgstr "顶点处的值"
+
+#: libprocess/gwyshapefitpreset.c:342
+msgid "Base plane longitudal coefficient"
+msgstr "基准平面纵向系数"
+
+#: libprocess/gwyshapefitpreset.c:353 libprocess/gwyshapefitpreset.c:370
+#: libprocess/gwyshapefitpreset.c:394 libprocess/gwyshapefitpreset.c:414
+#: libprocess/gwyshapefitpreset.c:428 libprocess/gwyshapefitpreset.c:441
+#: libprocess/gwyshapefitpreset.c:458 libprocess/gwyshapefitpreset.c:472
+#: libprocess/gwyshapefitpreset.c:492
+msgid "Height of the feature"
+msgstr "特征的高度"
+
+#: libprocess/gwyshapefitpreset.c:354
+msgid "Mean standard deviation"
+msgstr "平均标准差"
+
+#: libprocess/gwyshapefitpreset.c:355 libprocess/gwyshapefitpreset.c:372
+#: libprocess/gwyshapefitpreset.c:396 libprocess/gwyshapefitpreset.c:416
+#: libprocess/gwyshapefitpreset.c:460 libprocess/gwyshapefitpreset.c:475
+msgid "Elongation ratio"
+msgstr "伸长比"
+
+#: libprocess/gwyshapefitpreset.c:356 libprocess/gwyshapefitpreset.c:373
+#: libprocess/gwyshapefitpreset.c:397 libprocess/gwyshapefitpreset.c:417
+#: libprocess/gwyshapefitpreset.c:444 libprocess/gwyshapefitpreset.c:461
+#: libprocess/gwyshapefitpreset.c:476
+msgid "Direction of elongation (φ=0 means y-axis)"
+msgstr "伸长方向（φ=0 表示 y 轴方向）"
+
+#: libprocess/gwyshapefitpreset.c:362
+msgid "Standard deviation 1"
+msgstr "标准差 1"
+
+#: libprocess/gwyshapefitpreset.c:363
+msgid "Standard deviation 2"
+msgstr "标准差 2"
+
+#: libprocess/gwyshapefitpreset.c:371
+msgid "Mean width"
+msgstr "平均宽度"
+
+#: libprocess/gwyshapefitpreset.c:379 libprocess/gwyshapefitpreset.c:386
+msgid "Width 1"
+msgstr "宽度 1"
+
+#: libprocess/gwyshapefitpreset.c:380 libprocess/gwyshapefitpreset.c:387
+msgid "Width 2"
+msgstr "宽度 2"
+
+#: libprocess/gwyshapefitpreset.c:395
+msgid "Side length of the base"
+msgstr "底面边长"
+
+#: libprocess/gwyshapefitpreset.c:415
+msgid "Base radius"
+msgstr "底面半径"
+
+#: libprocess/gwyshapefitpreset.c:430 libprocess/gwyshapefitpreset.c:443
+msgid "Radius at apex"
+msgstr "顶点处的半径"
+
+#: libprocess/gwyshapefitpreset.c:459
+msgid "Mean curvature at apex"
+msgstr "顶点处的平均曲率"
+
+#: libprocess/gwyshapefitpreset.c:482
+msgid "Radius 1"
+msgstr "半径 1"
+
+#: libprocess/gwyshapefitpreset.c:483
+msgid "Radius 2"
+msgstr "半径 2"
+
+#: libprocess/gwyshapefitpreset.c:490
+msgid "Mean circle radius"
+msgstr "圆的平均半径"
+
+#: libprocess/gwyshapefitpreset.c:504
+msgid "Outer radius"
+msgstr "外半径"
+
+#: libprocess/gwyshapefitpreset.c:507
+msgid "Distance between centers"
+msgstr "中心之间的距离"
+
+#: libprocess/gwyshapefitpreset.c:508
+msgid "Inner radius"
+msgstr "内半径"
+
+#: libprocess/gwyshapefitpreset.c:529 modules/process/indent_analyze.c:213
+msgid "Plane"
+msgstr "平面"
+
+#: libprocess/gwyshapefitpreset.c:530
+msgid "Step (one-sided)"
+msgstr "阶跃（单侧）"
+
+#: libprocess/gwyshapefitpreset.c:531
+msgid "Step (two-sided)"
+msgstr "阶跃（双侧）"
+
+#: libprocess/gwyshapefitpreset.c:532
+msgid "Grating (simple)"
+msgstr "光栅（简单）"
+
+#: libprocess/gwyshapefitpreset.c:533
+msgid "Grating (3-level)"
+msgstr "光栅（三级）"
+
+#: libprocess/gwyshapefitpreset.c:534
+msgid "Holes"
+msgstr "孔洞"
+
+#: libprocess/gwyshapefitpreset.c:535 modules/process/indent_analyze.c:206
+msgid "Sphere"
+msgstr "球体"
+
+#: libprocess/gwyshapefitpreset.c:536
+msgid "Half-sphere"
+msgstr "半球"
+
+#: libprocess/gwyshapefitpreset.c:537
+msgid "Cylinder (lying)"
+msgstr "圆柱体（横置）"
+
+#: libprocess/gwyshapefitpreset.c:540 modules/process/indent_analyze.c:208
+#: modules/process/indent_analyze.c:800
+msgid "Pyramid (rectangle)"
+msgstr "棱锥（矩形底面）"
+
+#: libprocess/gwyshapefitpreset.c:541
+msgid "Pyramid (diamond)"
+msgstr "棱锥（菱形底面）"
+
+#: libprocess/gwyshapefitpreset.c:542 modules/process/indent_analyze.c:207
+#: modules/process/indent_analyze.c:799
+msgid "Pyramid (3-sided)"
+msgstr "棱锥（三棱）"
+
+#: libprocess/gwyshapefitpreset.c:543
+msgid "Parabolic bump"
+msgstr "抛物面凸起"
+
+#: libprocess/gwyshapefitpreset.c:544 libprocess/tip.c:497
+msgid "Cone"
+msgstr "圆锥"
+
+#: libprocess/gwyshapefitpreset.c:545
+msgid "Smooth cone"
+msgstr "光滑圆锥"
+
+#: libprocess/gwyshapefitpreset.c:546
+msgid "Smooth pyramid"
+msgstr "光滑棱锥"
+
+#: libprocess/gwyshapefitpreset.c:547
+msgid "Smooth pyramid (3-sided)"
+msgstr "光滑棱锥（三棱）"
+
+#: libprocess/gwyshapefitpreset.c:548
+msgid "Cylinder"
+msgstr "圆柱体"
+
+#: libprocess/gwyshapefitpreset.c:549
+msgid "Ring"
+msgstr "环形"
+
+#: libprocess/gwyshapefitpreset.c:550
+msgid "Lunette"
+msgstr ""
+
+#: libprocess/lawn.c:1184 gwyddion/gwyddion.c:690
+#: modules/file/hdf5/shilpsfile.c:636 modules/file/hdf5/shilpsfile.c:637
+msgid "Unknown"
+msgstr "未知"
+
+#: libprocess/lawn.c:1664 libgwydgets/gwycombobox.c:573
+#: modules/cmap/cmap_classify.c:453 modules/cmap/cmap_classify.c:470
+msgid "Segment"
+msgstr "段"
+
+#: libprocess/morph_lib.c:180 libprocess/tip.c:1095
+msgid "Dilation..."
+msgstr "膨胀..."
+
+#: libprocess/morph_lib.c:260 libprocess/tip.c:1226
+msgid "Erosion..."
+msgstr "腐蚀..."
+
+#: libprocess/morph_lib.c:345
+msgid "Certainty map..."
+msgstr "确定性图..."
+
+#: libprocess/morph_lib.c:481 libprocess/morph_lib.c:698
+#, c-format
+msgid "One image location produced refinement"
+msgid_plural "%d image locations produced refinement"
+msgstr[0] "%d 个图像位置产生了细化"
+
+#: libprocess/morph_lib.c:539 libprocess/morph_lib.c:678
+#, c-format
+msgid "Iterating estimate (iteration %d)..."
+msgstr "正在迭代估计（第 %d 次迭代）..."
+
+#: libprocess/morph_lib.c:638
+msgid "Searching for local maxima..."
+msgstr "正在搜索局部极大值..."
+
+#: libprocess/morph_lib.c:662
+#, c-format
+msgid "Found one internal local maximum"
+msgid_plural "Found %d internal local maxima"
+msgstr[0] "找到 %d 个内部局部极大值"
+
+#: libprocess/tip.c:467
+msgid "Pyramid"
+msgstr "棱锥"
+
+#: libprocess/tip.c:468 libprocess/tip.c:474 libprocess/tip.c:480
+msgid "Pyramidal"
+msgstr "棱锥形"
+
+#: libprocess/tip.c:473 modules/cmap/cmap_cutter.c:140
+msgid "Contact"
+msgstr "接触"
+
+#: libprocess/tip.c:479
+msgid "Noncontact"
+msgstr "非接触"
+
+#: libprocess/tip.c:485
+msgid "Delta function"
+msgstr "δ 函数"
+
+#: libprocess/tip.c:486
+msgid "Analytical"
+msgstr "解析式"
+
+#: libprocess/tip.c:491 modules/process/fibre_synth.c:185
+msgid "Parabola"
+msgstr ""
+
+#: libprocess/tip.c:492 libprocess/tip.c:498 libprocess/tip.c:510
+msgid "Symmetric"
+msgstr "对称"
+
+#: libprocess/tip.c:503
+msgid "Elliptical parabola"
+msgstr "椭圆抛物面"
+
+#: libprocess/tip.c:504
+msgid "Asymmetric"
+msgstr "非对称"
+
+#: libprocess/tip.c:509
+msgid "Ball on stick"
+msgstr "杆上球体"
+
+#: libprocess/tip.c:1545
+msgid "Starting partial estimation"
+msgstr "正在开始部分估计"
+
+#: libprocess/tip.c:1617
+msgid "Starting full estimation..."
+msgstr "正在开始完整估计..."
+
+#: libprocess/triangulation.c:3248 modules/process/calcoefs_view.c:793
+#: modules/process/lat_synth.c:843
+msgid "Triangulating..."
+msgstr "正在进行三角剖分..."
+
+#: libgwydgets/gwy3dwindow.c:573
+msgid "Rotate view (R)"
+msgstr "旋转视图（R）"
+
+#: libgwydgets/gwy3dwindow.c:578
+msgid "Scale view as a whole (S)"
+msgstr "整体缩放视图（S）"
+
+#: libgwydgets/gwy3dwindow.c:583
+msgid "Scale value range (V)"
+msgstr "缩放数值范围（V）"
+
+#: libgwydgets/gwy3dwindow.c:588
+msgid "Move light source (L)"
+msgstr "移动光源（L）"
+
+#: libgwydgets/gwy3dwindow.c:664
+msgid "Show full controls"
+msgstr "显示完整控件"
+
+#: libgwydgets/gwy3dwindow.c:689
+msgid "Hide full controls"
+msgstr "隐藏完整控件"
+
+#: libgwydgets/gwy3dwindow.c:705 modules/file/imgexport.c:3601
+#: modules/process/fit-shape.c:510
+msgid "adjective|Basic"
+msgstr "基本"
+
+#: libgwydgets/gwy3dwindow.c:710
+msgid "Light & Material"
+msgstr "光照与材质"
+
+#: libgwydgets/gwy3dwindow.c:715
+msgid "Labels"
+msgstr "标签"
+
+#: libgwydgets/gwy3dwindow.c:720
+msgid "Colorbar"
+msgstr "颜色条"
+
+#: libgwydgets/gwy3dwindow.c:836
+msgid "φ:"
+msgstr "φ:"
+
+#: libgwydgets/gwy3dwindow.c:841
+msgid "θ:"
+msgstr "θ:"
+
+#: libgwydgets/gwy3dwindow.c:847
+msgid "_Scale:"
+msgstr "缩放(_S):"
+
+#: libgwydgets/gwy3dwindow.c:854
+msgid "_Value scale:"
+msgstr "数值比例(_V):"
+
+#: libgwydgets/gwy3dwindow.c:860
+msgid "Ph_ysical scale:"
+msgstr "物理比例(_Y):"
+
+#: libgwydgets/gwy3dwindow.c:874
+msgid "verb|Set"
+msgstr "设置"
+
+#: libgwydgets/gwy3dwindow.c:884
+msgid "Line _width:"
+msgstr "线宽(_W):"
+
+#: libgwydgets/gwy3dwindow.c:884 libgwydgets/gwy3dwindow.c:1193
+#: libgwydgets/gwy3dwindow.c:1203 libgwydgets/gwy3dwindow.c:1234
+#: libgwydgets/gwygraphareadialog.c:157 libgwydgets/gwygraphareadialog.c:174
+#: app/filelist.c:468 app/gwyappfilechooser.c:1003 app/gwyappfilechooser.c:1129
+#: app/gwyappfilechooser.c:1291 app/gwymoduleutils-synth.c:153
+#: app/gwymoduleutils-synth.c:156 app/gwymoduleutils-synth.c:373
+#: app/gwyplaintool.c:984 app/param-table.c:3174 app/param-table.c:3202
+#: app/param-table.c:3230 app/param-table.c:3258 app/param-table.c:3289
+#: app/param-table.c:3317 app/param-table.c:3345 modules/file/nmmxyz.c:481
+#: modules/file/nmmxyz.c:484 modules/file/rawfile.c:541
+#: modules/file/rawfile.c:544 modules/graph/graph_terraces.c:446
+#: modules/graph/graph_terraces.c:450 modules/graph/graph_terraces.c:617
+#: modules/graph/graph_terraces.c:619 modules/process/binning.c:234
+#: modules/process/binning.c:238 modules/process/binning.c:240
+#: modules/process/classify.c:594 modules/process/classify.c:596
+#: modules/process/classify.c:598 modules/process/classify.c:600
+#: modules/process/classify.c:602 modules/process/classify.c:604
+#: modules/process/correct_perspective.c:352
+#: modules/process/correct_perspective.c:355 modules/process/dimensions.h:89
+#: modules/process/disc_synth.c:288 modules/process/entropy.c:186
+#: modules/process/extend.c:316 modules/process/facet_analysis.c:599
+#: modules/process/facet_measure.c:358 modules/process/grain_wshed.c:198
+#: modules/process/hough.c:174 modules/process/mark_disconn.c:207
+#: modules/process/mask_morph.c:226 modules/process/mcrop.c:256
+#: modules/process/multiprofile.c:261 modules/process/neural.c:550
+#: modules/process/neural.c:552 modules/process/ptranslate.c:247
+#: modules/process/ptranslate.c:254 modules/process/resample.c:241
+#: modules/process/scale.c:213 modules/process/scale.c:216
+#: modules/process/scars.c:292 modules/process/scars.c:295
+#: modules/process/straighten_path.c:299 modules/process/tip_blind.c:292
+#: modules/process/tip_blind.c:294 modules/process/tip_model.c:258
+#: modules/process/tip_model.c:259 modules/process/volumize_layers.c:257
+#: modules/process/volumize_layers.c:259 modules/process/volumize_layers.c:261
+#: modules/tools/corrlen.c:1075 modules/tools/cprofile.c:216
+#: modules/tools/cprofile.c:294 modules/tools/filter.c:247
+#: modules/tools/level3.c:211 modules/tools/maskedit.c:318
+#: modules/tools/maskedit.c:327 modules/tools/pathlevel.c:227
+#: modules/tools/profile.c:277 modules/tools/profile.c:359
+#: modules/tools/readvalue.c:285 modules/tools/readvalue.c:358
+#: modules/tools/roughness.c:312 modules/tools/roughness.c:377
+#: modules/tools/rprofile.c:229 modules/tools/spotremove.c:269
+#: modules/tools/stats.c:703 modules/volume/volume_planestat.c:451
+#: modules/volume/volume_psf.c:362 modules/volume/volume_rephase.c:185
+#: modules/volume/volume_scars.c:233 modules/volume/volume_scars.c:236
+#: modules/volume/volume_slice.c:252 modules/volume/volume_zposlevel.c:277
+#: modules/xyz/xyz_drift.c:735 modules/xyz/xyz_drift.c:750
+#: modules/xyz/xyz_raster.c:375 modules/xyz/xyz_raster.c:378
+#: modules/xyz/xyz_volumize.c:238 modules/xyz/xyz_volumize.c:241
+msgid "px"
+msgstr "px"
+
+#: libgwydgets/gwy3dwindow.c:889
+msgid "Show _axes"
+msgstr "显示坐标轴(_A)"

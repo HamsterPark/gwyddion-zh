@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 19:47+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/rank-filter.c:222
+msgid "Rank"
+msgstr "秩"
+
+#: modules/process/rank.c:98 modules/process/wrapvalue.c:143
+#: modules/process/wrapvalue.c:145 modules/process/wrapvalue.c:147
+msgid "Value range"
+msgstr "数值范围"
+
+#: modules/process/relate.c:201 modules/tools/corrlen.c:175
+msgid "Offset"
+msgstr "偏移"
+
+#: modules/process/relate.c:226 modules/volume/volume_cluster.c:286
+msgid "Logarithm"
+msgstr "对数"
+
+#: modules/process/roddeposit_synth.c:765 modules/process/shade.c:108
+#: modules/process/tilt.c:105
+msgid "φ"
+msgstr "φ"
+
+#: modules/process/rotate.c:238 modules/volume/volume_swaxes.c:348
+msgid "Rotated Data"
+msgstr "旋转后的数据"
+
+#: modules/process/scars.c:134 modules/volume/volume_scars.c:140
+msgid "Scars type"
+msgstr "划痕伪影类型"
+
+#: modules/process/scars.c:136 modules/volume/volume_scars.c:142
+msgid "_Hard threshold"
+msgstr "硬阈值(_H)"
+
+#: modules/process/scars.c:137 modules/volume/volume_scars.c:143
+msgid "_Soft threshold"
+msgstr "软阈值(_S)"
+
+#: modules/process/scars.c:138 modules/volume/volume_scars.c:144
+msgid "Minimum _length"
+msgstr "最小长度(_L)"
+
+#: modules/process/scars.c:139 modules/volume/volume_scars.c:145
+msgid "Maximum _width"
+msgstr "最大宽度(_W)"
+
+#: modules/process/shade.c:107 modules/process/tilt.c:104
+msgid "θ"
+msgstr "θ"
+
+#: modules/process/slope_dist.c:108
+msgid ""
+"Calculates one- or two-dimensional distribution of slopes or graph of their "
+"angular distribution."
+msgstr "计算一维或二维斜率分布，或绘制斜率角度分布曲线。"
+
+#: modules/process/slope_dist.c:122
+msgid "/_Statistics/_Slope Distribution..."
+msgstr "/统计(_S)/斜率分布(_S)..."
+
+#: modules/process/slope_dist.c:126
+msgid "Calculate angular slope distribution"
+msgstr "计算斜率角度分布"
+
+#: modules/process/slope_dist.c:135
+msgid "_Two-dimensional distribution"
+msgstr "二维分布(_T)"
+
+#: modules/process/slope_dist.c:136
+msgid "Directional (φ) _graph"
+msgstr "方向角（φ）曲线(_G)"
+
+#: modules/process/slope_dist.c:137
+msgid "_Inclination (θ) graph"
+msgstr "倾角（θ）曲线(_I)"
+
+#: modules/process/slope_dist.c:138
+msgid "Inclination (gra_dient) graph"
+msgstr "倾斜（梯度）曲线(_D)"
+
+#: modules/process/slope_dist.c:195
+msgid "Slope distribution"
+msgstr "斜率分布"
+
+#: modules/process/slope_dist.c:225
+msgid "Slope Distribution"
+msgstr "斜率分布"
+
+#: modules/process/slope_dist.c:577
+msgid "Angular Slope Distribution"
+msgstr "斜率角度分布"
+
+#: modules/process/slope_dist.c:578 modules/process/tilt.c:182
+msgid "Slopes"
+msgstr "斜率"
+
+#: modules/process/slope_dist.c:585 modules/process/slope_dist.c:593
+msgid "Inclination Distribution"
+msgstr "倾角分布"
+
+#: modules/process/slope_dist.c:586 modules/process/slope_dist.c:594
+msgid "Inclinations"
+msgstr "倾角"
+
+#: modules/process/smm.c:210 modules/process/smm_apply.c:133
+msgid "Re"
+msgstr "Re"
+
+#: modules/process/smm.c:211 modules/process/smm_apply.c:134
+msgid "Im"
+msgstr "Im"
+
+#: modules/process/smm.c:212 modules/process/smm_apply.c:135
+msgid "Mag"
+msgstr "幅值"
+
+#: modules/process/smm.c:213 modules/process/smm_apply.c:136
+msgid "logMag"
+msgstr "对数幅值"
+
+#: modules/process/smm.c:219 modules/process/smm.c:265
+#: modules/process/smm.c:301 modules/process/smm.c:303
+#: modules/process/smm.c:997 modules/process/smm.c:998
+#: modules/process/smm_apply.c:95
+msgid "Capacitance"
+msgstr "电容"
+
+#: modules/process/smm.c:233 modules/process/smm_apply.c:147
+msgid "First channel"
+msgstr "第一个通道"
+
+#: modules/process/smm.c:234 modules/process/smm_apply.c:148
+msgid "Second channel"
+msgstr "第二个通道"
+
+#: modules/process/smm.c:242 modules/process/smm_apply.c:153
+msgid "Reference impedance"
+msgstr "参考阻抗"
+
+#: modules/process/smm.c:245 modules/process/smm_apply.c:154
+#: modules/process/wave_synth.c:344
+msgid "Frequency"
+msgstr "频率"
+
+#: modules/process/smm.c:268 modules/process/smm_apply.c:158
+msgid "Re(e00)"
+msgstr "Re(e00)"
+
+#: modules/process/smm.c:269 modules/process/smm_apply.c:159
+msgid "Im(e00)"
+msgstr "Im(e00)"
+
+#: modules/process/smm.c:270 modules/process/smm_apply.c:160
+msgid "Re(e01)"
+msgstr "Re(e01)"
+
+#: modules/process/smm.c:271 modules/process/smm_apply.c:161
+msgid "Im(e01)"
+msgstr "Im(e01)"
+
+#: modules/process/smm.c:272 modules/process/smm_apply.c:162
+msgid "Re(e11)"
+msgstr "Re(e11)"
+
+#: modules/process/smm.c:273 modules/process/smm_apply.c:163
+msgid "Im(e11)"
+msgstr "Im(e11)"
+
+#: modules/process/sphere-revolve.c:72
+msgid "Subtracts background by sphere revolution."
+msgstr "通过滚动球体扣除背景。"
+
+#: modules/process/sphere-revolve.c:86
+msgid "/_Level/Revolve _Sphere..."
+msgstr "/调平(_L)/滚动球体(_S)..."
+
+#: modules/process/sphere-revolve.c:90
+msgid "Level data by sphere revolution"
+msgstr "通过滚动球体对数据调平"
+
+#: modules/process/sphere-revolve.c:179
+msgid "Revolve Sphere"
+msgstr "滚动球体"
+
+#: modules/process/sphere-revolve.c:236
+msgid "Revolving sphere..."
+msgstr "正在滚动球体..."
+
+#: modules/process/superresolution.c:553 modules/xyz/xyz_raster.c:701
+#: modules/xyz/xyz_raster.c:765
+msgid "Interpolating..."
+msgstr "正在插值..."
+
+#: modules/process/terracefit.c:225 modules/process/terracefit.c:264
+msgid "Marked terraces"
+msgstr "已标记的台阶面"
+
+#: modules/process/terracefit.c:289
+msgid "Minimum terrace _area"
+msgstr "最小台阶面面积(_A)"
+
+#: modules/process/terracefit.c:293
+msgid "Do not _segment, use only mask"
+msgstr "不进行分割，仅使用掩膜(_S)"
+
+#: modules/process/threshold.c:242 modules/tools/icolorange.c:339
+msgid "Set to _Full Range"
+msgstr "设为完整范围(_F)"
+
+#: modules/process/tip_blind.c:120
+msgid "Blind estimation of SPM tip using Villarubia's algorithm."
+msgstr "使用 Villarubia 算法盲估计扫描探针显微镜针尖。"
+
+#: modules/process/tip_blind.c:134
+msgid "/SPM M_odes/_Tip/_Blind Estimation..."
+msgstr "/SPM 模式(_O)/针尖(_T)/盲针尖估计(_B)..."
+
+#: modules/process/tip_blind.c:138
+msgid "Blind tip estimation"
+msgstr "盲针尖估计"
+
+#: modules/process/tip_blind.c:153
+msgid "Related _data"
+msgstr "相关数据(_D)"
+
+#: modules/process/tip_blind.c:156
+msgid "Noise suppression t_hreshold"
+msgstr "噪声抑制阈值(_H)"
+
+#: modules/process/tip_blind.c:158
+msgid "_Same resolution"
+msgstr "相同分辨率(_S)"
+
+#: modules/process/tip_blind.c:159
+msgid "Use _boundaries"
+msgstr "使用边界(_B)"
+
+#: modules/process/tip_blind.c:160 modules/process/tip_blind.c:161
+msgid "_Split to stripes"
+msgstr "分割为条带(_S)"
+
+#: modules/process/tip_blind.c:162
+msgid "_Preview stripe"
+msgstr "预览条带(_P)"
+
+#: modules/process/tip_blind.c:163
+msgid "Create tip i_mages"
+msgstr "创建针尖图像(_M)"
+
+#: modules/process/tip_blind.c:164
+msgid "Plot size _graph"
+msgstr "绘制尺寸曲线(_G)"
+
+#: modules/process/tip_blind.c:227 modules/process/tip_blind.c:231
+msgid "Estimated tip"
+msgstr "估计的针尖"
+
+#: modules/process/tip_blind.c:256
+msgid "Blind Tip Estimation"
+msgstr "盲针尖估计"
+
+#: modules/process/tip_blind.c:258
+msgid "Run _Partial"
+msgstr "运行部分估计(_P)"
+
+#: modules/process/tip_blind.c:259
+msgid "Run _Full"
+msgstr "运行完整估计(_F)"
+
+#: modules/process/tip_blind.c:260
+msgid "_Reset Tip"
+msgstr "重置针尖(_R)"
+
+#: modules/process/tip_blind.c:290
+msgid "Tip Size"
+msgstr "针尖尺寸"
+
+#: modules/process/tip_blind.c:307
+msgid "Stripes"
+msgstr "条带"
+
+#. TRANSLATORS: Prefix for the progressbar message.
+#: modules/process/tip_blind.c:483
+#, c-format
+msgid "Stripe %u: "
+msgstr "条带 %u： "
+
+#: modules/process/tip_blind.c:649 modules/process/tip_blind.c:677
+msgid "Tip radius evolution"
+msgstr "针尖半径变化"
+
+#: modules/process/tip_model.c:87
+msgid "Models SPM tip."
+msgstr "为扫描探针显微镜针尖建模。"
+
+#: modules/process/tip_model.c:101
+msgid "/SPM M_odes/_Tip/_Model Tip..."
+msgstr "/SPM 模式(_O)/针尖(_T)/针尖建模(_M)..."
+
+#: modules/process/tip_model.c:105
+msgid "Model AFM tip"
+msgstr "为原子力显微镜针尖建模"
+
+#: modules/process/tip_model.c:129
+msgid "_Tip type"
+msgstr "针尖类型(_T)"
+
+#: modules/process/tip_model.c:130
+msgid "_Number of sides"
+msgstr "侧面数量(_N)"
+
+#: modules/process/tip_model.c:131
+msgid "Tip _slope"
+msgstr "针尖斜率(_S)"
+
+#: modules/process/tip_model.c:132
+msgid "Tip _rotation"
+msgstr "针尖旋转角(_R)"
+
+#: modules/process/tip_model.c:133
+msgid "Tip _apex radius"
+msgstr "针尖顶点半径(_A)"
+
+#: modules/process/tip_model.c:134
+msgid "Tip _anisotropy"
+msgstr "针尖各向异性(_A)"
+
+#: modules/process/tip_model.c:135
+msgid "Make tip image square"
+msgstr "使针尖图像成为正方形"
+
+#: modules/process/tip_model.c:152 modules/process/tip_model.c:195
+msgid "Model Tip"
+msgstr "针尖建模"
+
+#: modules/process/tip_model.c:171
+msgid "Modeled tip"
+msgstr "模型针尖"
+
+#: modules/process/tip_model.c:222
+msgid "Tip resolution"
+msgstr "针尖分辨率"
+
+#: modules/process/tipops.c:74
+msgid ""
+"Tip operations: dilation (convolution), erosion (reconstruction) and "
+"certainty map."
+msgstr "针尖操作：膨胀（卷积）、腐蚀（重建）和确定性图。"
+
+#: modules/process/tipops.c:88
+msgid "/SPM M_odes/_Tip/_Dilation..."
+msgstr "/SPM 模式(_O)/针尖(_T)/膨胀(_D)..."
+
+#: modules/process/tipops.c:92
+msgid "Surface dilation by defined tip"
+msgstr "使用指定针尖对表面进行膨胀"
+
+#: modules/process/tipops.c:95
+msgid "/SPM M_odes/_Tip/_Surface Reconstruction..."
+msgstr "/SPM 模式(_O)/针尖(_T)/表面重建(_S)..."
+
+#: modules/process/tipops.c:99
+msgid "Surface reconstruction by defined tip"
+msgstr "使用指定针尖重建表面"
+
+#: modules/process/tipops.c:102
+msgid "/SPM M_odes/_Tip/_Certainty Map..."
+msgstr "/SPM 模式(_O)/针尖(_T)/确定性图(_C)..."
+
+#: modules/process/tipops.c:106
+msgid "Tip certainty map"
+msgstr "针尖确定性图"
+
+#: modules/process/tipops.c:121
+msgid "_Tip morphology"
+msgstr "针尖形貌(_T)"
+
+#: modules/process/tipops.c:136
+msgid "Dilated data"
+msgstr "膨胀后的数据"
+
+#: modules/process/tipops.c:137
+msgid "Surface reconstruction"
+msgstr "表面重建"
+
+#: modules/process/tipops.c:190
+msgid "Tip Dilation"
+msgstr "针尖膨胀"
+
+#: modules/process/tipops.c:191
+msgid "Surface Reconstruction"
+msgstr "表面重建"
+
+#: modules/process/tipops.c:192
+msgid "Certainty Map Analysis"
+msgstr "确定性图分析"
+
+#: modules/process/tipops.c:250
+#, c-format
+msgid ""
+"Tip pixel size does not match data.\n"
+"It will be resampled from %d×%d to %d×%d."
+msgstr "针尖像素尺寸与数据不匹配。\n将从 %d×%d 重采样为 %d×%d。"
+
+#: modules/process/tipshape.c:78
+msgid "Calculates the tip area function."
+msgstr "计算针尖面积函数。"
+
+#: modules/process/tipshape.c:92
+msgid "/SPM M_odes/_Force and Indentation/_Area function..."
+msgstr "/SPM 模式(_O)/力与压入(_F)/面积函数(_A)..."
+
+#: modules/process/tipshape.c:96
+msgid "Calculate tip area function."
+msgstr "计算针尖面积函数。"

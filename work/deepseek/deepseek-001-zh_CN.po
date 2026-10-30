@@ -1,0 +1,422 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/cmap/cmap_align.c:123
+msgid "Aligns curves in a curve map by shifting the values."
+msgstr "通过平移数值对齐曲线图谱中的曲线。"
+
+#: modules/cmap/cmap_align.c:137
+msgid "/_Align..."
+msgstr "/对齐(_A)..."
+
+#: modules/cmap/cmap_align.c:141
+msgid "Align curves and extract topography"
+msgstr "对齐曲线并提取表面形貌"
+
+#: modules/cmap/cmap_align.c:152
+msgid "First zero"
+msgstr "第一个零点"
+
+#: modules/cmap/cmap_align.c:153
+msgid "Last zero"
+msgstr "最后一个零点"
+
+#: modules/cmap/cmap_align.c:157
+msgid "Extract topography"
+msgstr "提取表面形貌"
+
+#: modules/cmap/cmap_align.c:272
+msgid "Align Map Curves"
+msgstr "对齐图谱曲线"
+
+#: modules/cmap/cmap_asciiexport.c:69
+msgid "Exports curve map data to a text file."
+msgstr "将曲线图谱数据导出为文本文件。"
+
+#: modules/cmap/cmap_asciiexport.c:83
+msgid "/Export _Text..."
+msgstr "/导出文本(_T)..."
+
+#: modules/cmap/cmap_asciiexport.c:87
+msgid "Export curve map data to a text file"
+msgstr "将曲线图谱数据导出为文本文件"
+
+#: modules/cmap/cmap_asciiexport.c:104
+msgid "All _segments"
+msgstr "所有分段(_S)"
+
+#: modules/cmap/cmap_asciiexport.c:238
+msgid "Rows:"
+msgstr "行："
+
+#: modules/cmap/cmap_asciiexport.c:239
+msgid "Columns:"
+msgstr "列："
+
+#: modules/cmap/cmap_asciiexport.c:244 modules/cmap/cmap_asciiexport.c:246
+msgid "Segment:"
+msgstr "分段："
+
+#: modules/cmap/cmap_asciiexport.c:254
+msgid "XOffset:"
+msgstr "X 偏移量："
+
+#: modules/cmap/cmap_asciiexport.c:256
+msgid "YOffset:"
+msgstr "Y 偏移量："
+
+#: modules/cmap/cmap_asciiexport.c:270
+#, c-format
+msgid "Curve%d:"
+msgstr "曲线%d："
+
+#: modules/cmap/cmap_asciiexport.c:275
+#, c-format
+msgid "CurveUnit%d:"
+msgstr "曲线单位%d："
+
+#: modules/cmap/cmap_basicops.c:54
+msgid "Basic operations like flipping and rotation by multiples of 90 degrees."
+msgstr "诸如翻转和按 90 度倍数旋转等基本操作。"
+
+#: modules/cmap/cmap_basicops.c:119
+msgid "/_Basic Operations/Remove _Segments"
+msgstr "/基本操作(_B)/移除分段(_S)"
+
+#: modules/cmap/cmap_basicops.c:123
+msgid "Remove curve segmentation"
+msgstr "移除曲线分段"
+
+#: modules/cmap/cmap_basicops.c:130
+msgid "Extract curve map preview to an image"
+msgstr "将曲线图谱预览提取为图像"
+
+#: modules/cmap/cmap_classify.c:215
+msgid "Classifies curves in a curve map"
+msgstr "对曲线图谱中的曲线进行分类"
+
+#: modules/cmap/cmap_classify.c:229
+msgid "/_Classify..."
+msgstr "/分类(_C)..."
+
+#: modules/cmap/cmap_classify.c:233
+msgid "Classify curves"
+msgstr "分类曲线"
+
+#: modules/cmap/cmap_classify.c:261
+msgid "Populatio_n"
+msgstr "树的数量(_N)"
+
+#: modules/cmap/cmap_classify.c:262
+msgid "_Subsampling"
+msgstr "子采样(_S)"
+
+#: modules/cmap/cmap_classify.c:263
+msgid "_Success threshold"
+msgstr "成功阈值(_S)"
+
+#: modules/cmap/cmap_classify.c:268
+msgid "Ignore _outliers"
+msgstr "忽略异常值(_O)"
+
+#: modules/cmap/cmap_classify.c:270
+msgid "_Display"
+msgstr "显示(_D)"
+
+#: modules/cmap/cmap_classify.c:331
+msgid "Classify result A"
+msgstr "分类结果 A"
+
+#: modules/cmap/cmap_classify.c:335
+msgid "Classify result B"
+msgstr "分类结果 B"
+
+#: modules/cmap/cmap_classify.c:405
+msgid "_Show tree"
+msgstr "显示树(_S)"
+
+#: modules/cmap/cmap_classify.c:553
+msgid "Classifier tree"
+msgstr "分类器树"
+
+#: modules/cmap/cmap_classify.c:557
+msgid "_OK"
+msgstr "确定(_O)"
+
+#: modules/cmap/cmap_classify.c:647
+msgid "No result yet"
+msgstr "尚无结果"
+
+#: modules/cmap/cmap_classify.c:821
+#, c-format
+msgid "Rule %d of %d:\n"
+msgstr "规则 %d（共 %d 条）：\n"
+
+#: modules/cmap/cmap_classify.c:1011
+#, c-format
+msgid "A: %d points, %2.1f %%, B: %d points, %2.1f %%"
+msgstr "A：%d 个点，%2.1f %%；B：%d 个点，%2.1f %%"
+
+#: modules/cmap/cmap_crop.c:76
+msgid "Crop curve map data."
+msgstr "裁剪曲线图谱数据。"
+
+#: modules/cmap/cmap_crop.c:90
+msgid "/_Basic Operations/_Crop"
+msgstr "/基本操作(_B)/裁剪(_C)"
+
+#: modules/cmap/cmap_crop.c:199
+msgid "New Dimensions"
+msgstr "新尺寸"
+
+#: modules/cmap/cmap_curvefilter.c:76
+msgid "Removes some curves from Curve Map"
+msgstr "从曲线图谱中移除部分曲线"
+
+#: modules/cmap/cmap_curvefilter.c:91
+msgid "/_Basic Operations/_Filter curves..."
+msgstr "/基本操作(_B)/过滤曲线(_F)..."
+
+#: modules/cmap/cmap_curvefilter.c:96
+msgid "Remove some curves from Curve Map"
+msgstr "从曲线图谱中移除部分曲线"
+
+#: modules/cmap/cmap_cutter.c:152
+msgid "Cuts a curve map to segments."
+msgstr "将曲线图谱切分为分段。"
+
+#: modules/cmap/cmap_cutter.c:166
+msgid "/_Cut to Segments..."
+msgstr "/切分为分段(_C)..."
+
+#: modules/cmap/cmap_cutter.c:170
+msgid "Cut curves to segments"
+msgstr "将曲线切分为分段"
+
+#: modules/cmap/cmap_cutter.c:179
+msgid "Mark"
+msgstr "标记"
+
+#: modules/cmap/cmap_cutter.c:180
+msgid "Extract"
+msgstr "提取"
+
+#: modules/cmap/cmap_cutter.c:183
+msgid "Approach/Retract"
+msgstr "接近/回撤"
+
+#: modules/cmap/cmap_cutter.c:184
+msgid "Approach/Hold/Retract"
+msgstr "接近/保持/回撤"
+
+#: modules/cmap/cmap_cutter.c:201
+msgid "Extract segments"
+msgstr "提取分段"
+
+#: modules/cmap/cmap_cutter.c:204
+msgid "Invert data"
+msgstr "反转数据"
+
+#: modules/cmap/cmap_extractcurve.c:106
+msgid "Extracts individual curves from a curve map."
+msgstr "从曲线图谱中提取单条曲线。"
+
+#: modules/cmap/cmap_extractcurve.c:120
+msgid "/_Extract Curves..."
+msgstr "/提取曲线(_E)..."
+
+#: modules/cmap/cmap_extractcurve.c:124
+msgid "Extract curves"
+msgstr "提取曲线"
+
+#: modules/cmap/cmap_extractcurve.c:144
+msgid "Reorder by abscissa"
+msgstr "按横坐标重新排序"
+
+#: modules/cmap/cmap_extractcurve.c:212
+msgid "Extract Map Curves"
+msgstr "提取图谱曲线"
+
+#: modules/cmap/cmap_fdfit.c:191
+msgid "Fit FD curves."
+msgstr "拟合力-距离曲线。"
+
+#: modules/cmap/cmap_fdfit.c:205
+msgid "/Fit _FD Curves..."
+msgstr "/拟合力-距离曲线(_F)..."
+
+#: modules/cmap/cmap_fdfit.c:209
+msgid "Fit FD curves by a function"
+msgstr "用函数拟合力-距离曲线"
+
+#: modules/cmap/cmap_fdfit.c:236
+msgid "Get adhesion directly"
+msgstr "直接获取黏附力"
+
+#: modules/cmap/cmap_fdfit.c:237
+msgid "Adhesion data"
+msgstr "黏附数据"
+
+#: modules/cmap/cmap_fdfit.c:238
+msgid "Baseline data"
+msgstr "基线数据"
+
+#: modules/cmap/cmap_fdfit.c:336
+msgid "Fit FD Curves"
+msgstr "拟合力-距离曲线"
+
+#. TRANSLATORS: This is really outcome, like OK/failed, not the actual results.
+#: modules/cmap/cmap_fdfit.c:404
+msgid "Fitting result"
+msgstr "拟合结果"
+
+#: modules/cmap/cmap_fdfit.c:540
+msgid "OK"
+msgstr "成功"
+
+#: modules/cmap/cmap_fdfit.c:542
+msgid "failed"
+msgstr "失败"
+
+#: modules/cmap/cmap_filter.c:105
+msgid "Filters curve data on basis of abscissa."
+msgstr "根据横坐标过滤曲线数据。"
+
+#: modules/cmap/cmap_filter.c:119
+msgid "/Filter by _Value..."
+msgstr "/按数值过滤(_V)..."
+
+#: modules/cmap/cmap_filter.c:123
+msgid "Filter all curves by abscissa values"
+msgstr "按横坐标数值过滤所有曲线"
+
+#: modules/cmap/cmap_filter.c:225
+msgid "Filter by Abscissa Value"
+msgstr "按横坐标数值过滤"
+
+#: modules/cmap/cmap_fit.c:172
+msgid "Fit curves."
+msgstr "拟合曲线。"
+
+#: modules/cmap/cmap_fit.c:186
+msgid "/Fit _Curves..."
+msgstr "/拟合曲线(_C)..."
+
+#: modules/cmap/cmap_fit.c:190
+msgid "Fit curves by a function"
+msgstr "用函数拟合曲线"
+
+#: modules/cmap/cmap_fit.c:218
+msgid "Output fit errors"
+msgstr "输出拟合误差"
+
+#: modules/cmap/cmap_fit.c:219
+msgid "Output residual sum"
+msgstr "输出残差平方和"
+
+#: modules/cmap/cmap_fit.c:357
+msgid "Fit Curves"
+msgstr "拟合曲线"
+
+#: modules/cmap/cmap_fit.c:431
+msgid "Residual sum:"
+msgstr "残差平方和："
+
+#: modules/cmap/cmap_fit.c:527 modules/cmap/cmap_fit.c:561 modules/cmap/cmap_fit.c:602
+msgid "data not fitted"
+msgstr "数据未拟合"
+
+#: modules/cmap/cmap_fit.c:555
+msgid "fit failed"
+msgstr "拟合失败"
+
+#: modules/cmap/cmap_fztofd.c:121
+msgid "Converts FZ to FD curve map."
+msgstr "将 FZ 曲线图谱转换为 FD 曲线图谱。"
+
+#: modules/cmap/cmap_fztofd.c:135
+msgid "/_FZ Curves to FD..."
+msgstr "/FZ 曲线转换为 FD(_F)..."
+
+#: modules/cmap/cmap_lockin.c:152
+msgid "Detect oscillations in a curve."
+msgstr "检测曲线中的振荡。"
+
+#: modules/cmap/cmap_lockin.c:166
+msgid "/_Demodulation..."
+msgstr "/解调(_D)..."
+
+#: modules/cmap/cmap_lockin.c:170
+msgid "Detect oscillations in a curve"
+msgstr "检测曲线中的振荡"
+
+#: modules/cmap/cmap_lockin.c:180
+msgid "Extract amplitude/phase"
+msgstr "提取幅值/相位"
+
+#: modules/cmap/cmap_lockin.c:184 modules/cmap/cmap_lockin.c:199
+msgid "Reference"
+msgstr "参考信号"
+
+#: modules/cmap/cmap_lockin.c:188
+msgid "Polynomial"
+msgstr "多项式"
+
+#: modules/cmap/cmap_lockin.c:189
+msgid "Polynomial + sine"
+msgstr "多项式 + 正弦"
+
+#: modules/cmap/cmap_lockin.c:334
+msgid "Demodulation"
+msgstr "解调"
+
+#: modules/cmap/cmap_peaks.c:135
+msgid "Calculate number of peaks in curve map."
+msgstr "计算曲线图谱中的峰数。"
+
+#: modules/cmap/cmap_peaks.c:149
+msgid "/Count _Peaks..."
+msgstr "/计数峰(_P)..."
+
+#: modules/cmap/cmap_peaks.c:153
+msgid "Count peaks"
+msgstr "计数峰"
+
+#: modules/cmap/cmap_peaks.c:162
+msgid "_Raw data"
+msgstr "原始数据(_R)"
+
+#: modules/cmap/cmap_peaks.c:164
+msgid "_Inverted gradient"
+msgstr "反转梯度(_I)"
+
+#: modules/cmap/cmap_peaks.c:169
+msgid "_Area"
+msgstr "面积(_A)"
+
+#: modules/cmap/cmap_peaks.c:170
+msgid "_Prominence"
+msgstr "突出度(_P)"
+
+#: modules/cmap/cmap_peaks.c:179
+msgid "_Threshold by"
+msgstr "阈值依据(_T)"
+
+#: modules/cmap/cmap_peaks.c:183
+msgid "_Above"
+msgstr "高于(_A)"

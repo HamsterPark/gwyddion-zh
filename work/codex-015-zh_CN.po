@@ -1,0 +1,442 @@
+# Simplified Chinese translation for Gwyddion.
+# This file is distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/facet_analysis.c:498 modules/xyz/xyz_level.c:125
+msgid "Rotation"
+msgstr "旋转"
+
+#: modules/process/facet_analysis.c:552 modules/process/facet_measure.c:424
+msgid "_Clear"
+msgstr "清除(_C)"
+
+#: modules/process/facet_analysis.c:564 modules/process/facet_measure.c:372
+msgid "_Mark"
+msgstr "标记(_M)"
+
+#: modules/process/facet_analysis.c:625
+msgid "Rotate all points"
+msgstr "旋转所有点"
+
+#: modules/process/facet_analysis.c:652
+msgid "Re_set Rotation"
+msgstr "重置旋转(_S)"
+
+#: modules/process/facet_analysis.c:734
+msgid "Create _Points"
+msgstr "创建点(_P)"
+
+#: modules/process/facet_analysis.c:1228
+#, c-format
+msgid "θ = %.2f deg, φ = %.2f deg"
+msgstr "θ = %.2f 度，φ = %.2f 度"
+
+#: modules/process/facet_measure.c:222
+msgid "/Measure _Features/Facet _Measurement..."
+msgstr "/测量特征(_F)/面片测量(_M)..."
+
+#: modules/process/facet_measure.c:226
+msgid "Measure facet angles"
+msgstr "测量面片角度"
+
+#: modules/process/facet_measure.c:246
+msgid "I_nstant facet marking"
+msgstr "即时标记面片(_N)"
+
+#: modules/process/facet_measure.c:273 modules/process/facet_measure.c:340
+msgid "Measure Facets"
+msgstr "测量面片"
+
+#: modules/process/facet_measure.c:373
+msgid "Mea_sure"
+msgstr "测量(_S)"
+
+#: modules/process/facet_measure.c:534
+msgid "points"
+msgstr "点"
+
+#: modules/process/fbm_synth.c:134 modules/process/lno_synth.c:196
+#: modules/process/noise_synth.c:127
+msgid "distribution|Exponential"
+msgstr "指数分布"
+
+#: modules/process/fbm_synth.c:146 modules/process/lno_synth.c:264
+#: modules/process/noise_synth.c:178
+msgid "_Distribution"
+msgstr "分布(_D)"
+
+#: modules/process/fbm_synth.c:148 modules/process/fft_synth.c:138
+msgid "Po_wer"
+msgstr "幂(_W)"
+
+#: modules/process/fbm_synth.c:149 modules/process/fft_synth.c:125
+#: modules/process/lno_synth.c:270 modules/process/noise_synth.c:182
+msgid "_RMS"
+msgstr "均方根(_R)"
+
+#: modules/process/fft.c:216 modules/process/fft_filter_1d.c:354
+#: modules/volume/volume_1dfft.c:478
+msgid "FFT Modulus"
+msgstr "FFT 模"
+
+#: modules/process/fft_filter_1d.c:92 modules/xyz/xyz_fft.c:233
+msgid "FFT filtering"
+msgstr "FFT 滤波"
+
+#: modules/process/fft_filter_1d.c:106 modules/volume/volume_1dfft.c:129
+msgid "/_Correct Data/1D _FFT Filtering..."
+msgstr "/校正数据(_C)/一维 FFT 滤波(_F)..."
+
+#: modules/process/fft_filter_1d.c:122 modules/volume/volume_1dfft.c:146
+#: modules/xyz/xyz_fft.c:147
+msgid "Null"
+msgstr "置零"
+
+#: modules/process/fft_filter_1d.c:123 modules/volume/volume_1dfft.c:147
+#: modules/xyz/xyz_fft.c:148
+msgid "Suppress"
+msgstr "抑制"
+
+#: modules/process/fft_filter_1d.c:132 modules/volume/volume_1dfft.c:161
+#: modules/xyz/xyz_fft.c:167
+msgid "_Suppress type"
+msgstr "抑制类型(_S)"
+
+#: modules/process/fft_filter_1d.c:134 modules/process/rank.c:108
+#: modules/volume/volume_1dfft.c:163 modules/xyz/xyz_fft.c:169
+msgid "_Filter type"
+msgstr "滤波器类型(_F)"
+
+#: modules/process/fft_filter_2d.c:366 modules/process/pid.c:128
+#: modules/process/ptranslate.c:128 modules/process/zero_crossing.c:110
+msgid "Original _image"
+msgstr "原始图像(_I)"
+
+#: modules/process/fft_filter_2d.c:492 modules/tools/maskedit.c:442
+msgid "_Fill"
+msgstr "填充(_F)"
+
+#: modules/process/fft_filter_2d.c:568 modules/volume/volume_slice.c:313
+msgid "Output Options"
+msgstr "输出选项"
+
+#: modules/process/fibre_synth.c:184 modules/tools/spotremove.c:199
+msgid "Rectangle"
+msgstr "矩形"
+
+#: modules/process/fibre_synth.c:195 modules/process/obj_synth.c:279
+#: modules/process/pileup_synth.c:217
+msgid "_Shape"
+msgstr "形状(_S)"
+
+#: modules/process/fibre_synth.c:203 modules/process/pat_synth.c:1715
+msgid "Scales _with width"
+msgstr "随宽度缩放(_W)"
+
+#: modules/process/fibre_synth.c:204 modules/process/obj_synth.c:291
+msgid "_Truncate"
+msgstr "截断(_T)"
+
+#: modules/process/fibre_synth.c:207 modules/process/lat_synth.c:357
+#: modules/process/obj_synth.c:293 modules/process/pat_synth.c:1712
+#: modules/process/pat_synth.c:1808 modules/process/pat_synth.c:1903
+#: modules/process/pat_synth.c:2020 modules/process/pat_synth.c:2131
+#: modules/process/pat_synth.c:2256 modules/process/pat_synth.c:2446
+#: modules/process/pat_synth.c:2586 modules/process/pat_synth.c:2591
+#: modules/process/pileup_synth.c:225
+msgid "Orien_tation"
+msgstr "方向(_T)"
+
+#: modules/process/fibre_synth.c:292 modules/process/obj_synth.c:372
+#: modules/tools/maskedit.c:228 modules/tools/spotremove.c:211
+msgid "Shape"
+msgstr "形状"
+
+#: modules/process/fit-shape.c:272 modules/process/fit-shape.c:276
+#: modules/process/fit-shape.c:374 modules/process/fit-shape.c:412
+#: modules/process/terracefit.c:226 modules/process/terracefit.c:265
+msgid "Fitted shape"
+msgstr "拟合形状"
+
+#: modules/process/fit-shape.c:278 modules/process/mark_disconn.c:111
+#: modules/process/scars.c:125 modules/volume/volume_scars.c:130
+#: modules/xyz/xyz_tstep.c:126
+msgid "Both"
+msgstr "两者"
+
+#: modules/process/fit-shape.c:298 modules/process/mcrop.c:145
+#: modules/process/psf.c:226 modules/volume/volume_psf.c:247
+msgid "Show differences with _adapted color map"
+msgstr "使用自适应色图显示差异(_A)"
+
+#. TRANSLATORS: %{n}i and %{total}i are ids, do NOT translate them.
+#: modules/process/fit-shape.c:1647 modules/process/relate.c:670
+msgid "%{n}i of %{ntotal}i"
+msgstr "%{n}i / %{ntotal}i"
+
+#: modules/process/fit-shape.c:1648 modules/process/relate.c:671
+msgid "Fitted function"
+msgstr "拟合函数"
+
+#: modules/process/flatten_base.c:40
+msgid "Levels the flat base of a surface with positive features."
+msgstr "调平具有向上凸起特征的表面的平坦基底。"
+
+#: modules/process/flatten_base.c:54
+msgid "/_Level/Flatten _Base"
+msgstr "/调平(_L)/基底平坦化(_B)"
+
+#: modules/process/flatten_base.c:58
+msgid "Flatten base of surface with positive features"
+msgstr "平坦化具有向上凸起特征的表面基底"
+
+#: modules/process/flatten_base.c:202
+msgid "Polynomial leveling..."
+msgstr "正在进行多项式调平..."
+
+#: modules/process/fractal.c:132
+msgid "Partitioning"
+msgstr "分区法"
+
+#: modules/process/fractal.c:136
+msgid "Cube counting"
+msgstr "立方体计数法"
+
+#: modules/process/fractal.c:140
+msgid "Triangulation"
+msgstr "三角剖分法"
+
+#: modules/process/fractal.c:144
+msgid "Power spectrum"
+msgstr "功率谱"
+
+#: modules/process/fractal.c:148
+msgid "Structure function"
+msgstr "结构函数"
+
+#: modules/process/fractal.c:156
+msgid ""
+"Calculates fractal dimension using several methods (partitioning, box "
+"counting, triangulation, power spectrum)."
+msgstr "使用多种方法（分区法、盒计数法、三角剖分法、功率谱法）计算分形维数。"
+
+#: modules/process/fractal.c:171
+msgid "/_Statistics/_Fractal Dimension..."
+msgstr "/统计(_S)/分形维数(_F)..."
+
+#: modules/process/fractal.c:175
+msgid "Calculate fractal dimension"
+msgstr "计算分形维数"
+
+#: modules/process/fractal.c:199
+msgid "Save Fractal Dimension"
+msgstr "保存分形维数"
+
+#: modules/process/fractal.c:260 modules/process/fractal.c:311
+msgid "Fractal Dimension"
+msgstr "分形维数"
+
+#: modules/process/fractal.c:270
+msgid "Fit Area"
+msgstr "拟合区域"
+
+#: modules/process/fractal.c:271
+msgid "From:"
+msgstr "从："
+
+#: modules/process/fractal.c:272
+msgid "To:"
+msgstr "至："
+
+#: modules/process/fractal.c:416
+msgid "Linear fit"
+msgstr "线性拟合"
+
+#: modules/process/fractal.c:460
+msgid "minimum"
+msgstr "最小值"
+
+#: modules/process/fractal.c:461
+msgid "maximum"
+msgstr "最大值"
+
+#: modules/process/freq_split.c:158 modules/tools/roughness.c:194
+msgid "C_ut-off"
+msgstr "截止值(_U)"
+
+#: modules/process/freq_split.c:159 modules/process/residue_synth.c:152
+msgid "_Edge width"
+msgstr "边缘宽度(_E)"
+
+#: modules/process/freq_split.c:160 modules/process/merge.c:209
+msgid "_Boundary treatment"
+msgstr "边界处理(_B)"
+
+#: modules/process/gaussian_step.c:99 modules/process/zero_crossing.c:123
+msgid "_Gaussian FWHM"
+msgstr "高斯半高全宽(_G)"
+
+#: modules/process/good_profile.c:136 modules/process/indent_analyze.c:237
+msgid "Create _mask"
+msgstr "创建掩膜(_M)"
+
+#: modules/process/good_profile.c:142 modules/process/linematch.c:176
+#: modules/volume/volume_linelevel.c:178
+msgid "_Trim fraction"
+msgstr "截尾比例(_T)"
+
+#: modules/process/good_profile.c:143 modules/process/mcrop.c:140
+#: modules/process/relate.c:275
+msgid "Second _image"
+msgstr "第二幅图像(_I)"
+
+#: modules/process/grain_cross.c:89
+msgid "Plots one grain quantity as a function of another."
+msgstr "绘制一个颗粒量作为另一个颗粒量的函数。"
+
+#: modules/process/grain_cross.c:103
+msgid "/_Grains/_Correlate..."
+msgstr "/颗粒(_G)/相关分析(_C)..."
+
+#: modules/process/grain_cross.c:107
+msgid "Correlate grain characteristics"
+msgstr "分析颗粒特征之间的相关性"
+
+#: modules/process/grain_cross.c:122 modules/process/grain_cross.c:234
+msgid "_Abscissa"
+msgstr "横坐标(_A)"
+
+#: modules/process/grain_cross.c:126 modules/process/grain_cross.c:236
+msgid "O_rdinate"
+msgstr "纵坐标(_R)"
+
+#: modules/process/grain_cross.c:131
+msgid "Ordinate data calculated from different image"
+msgstr "纵坐标数据由不同的图像计算"
+
+#: modules/process/grain_cross.c:132
+msgid "Ordinate _image"
+msgstr "纵坐标图像(_I)"
+
+#: modules/process/grain_cross.c:152 modules/process/grain_cross.c:217
+msgid "Grain Correlations"
+msgstr "颗粒相关性"
+
+#: modules/process/grain_dist.c:109
+msgid "Evaluates distribution of grains (continuous parts of mask)."
+msgstr "计算颗粒（掩膜的连续部分）的分布。"
+
+#: modules/process/grain_dist.c:123
+msgid "/_Grains/_Distributions..."
+msgstr "/颗粒(_G)/分布(_D)..."
+
+#: modules/process/grain_dist.c:127
+msgid "Distributions of various grain characteristics"
+msgstr "各类颗粒特征的分布"
+
+#: modules/process/grain_dist.c:136
+msgid "_Export raw data"
+msgstr "导出原始数据(_E)"
+
+#: modules/process/grain_dist.c:137
+msgid "Plot _graphs"
+msgstr "绘制图表(_G)"
+
+#: modules/process/grain_dist.c:203
+msgid "Grain Distributions"
+msgstr "颗粒分布"
+
+#: modules/process/grain_dist.c:381
+msgid "count"
+msgstr "计数"
+
+#: modules/process/grain_dist.c:436
+msgid "Export Raw Grain Values"
+msgstr "导出原始颗粒值"
+
+#: modules/process/grain_edge.c:70
+msgid "Marks grains by edge detection method."
+msgstr "通过边缘检测方法标记颗粒。"
+
+#: modules/process/grain_edge.c:84
+msgid "/_Grains/Mark by _Edge Detection..."
+msgstr "/颗粒(_G)/通过边缘检测标记(_E)..."
+
+#: modules/process/grain_edge.c:88
+msgid "Mark grains with edge detection mechanism"
+msgstr "通过边缘检测标记颗粒"
+
+#: modules/process/grain_edge.c:103 modules/process/logistic.c:148
+msgid "_Laplacian"
+msgstr "拉普拉斯算子(_L)"
+
+#: modules/process/grain_edge.c:173
+msgid "Mark Grains by Edge Detection"
+msgstr "通过边缘检测标记颗粒"
+
+#: modules/process/grain_filter.c:193
+msgid ""
+"Filters grains by their properties, using logical expressions and thresholds."
+msgstr "使用逻辑表达式和阈值按颗粒属性筛选颗粒。"
+
+#: modules/process/grain_filter.c:208
+msgid "/_Grains/_Filter..."
+msgstr "/颗粒(_G)/筛选(_F)..."
+
+#: modules/process/grain_filter.c:212
+msgid "Filter grains by their properties"
+msgstr "按属性筛选颗粒"
+
+#: modules/process/grain_filter.c:252
+msgid "There are no grains to filter."
+msgstr "没有可筛选的颗粒。"
+
+#: modules/process/grain_filter.c:321
+msgid "Filter Grains"
+msgstr "筛选颗粒"
+
+#: modules/process/grain_filter.c:367
+msgid "_Mask color:"
+msgstr "掩膜颜色(_M):"
+
+#: modules/process/grain_filter.c:415
+msgid "Set selected as:"
+msgstr "将选中项设为："
+
+#: modules/process/grain_filter.c:430
+msgid "Keep grains satisfying:"
+msgstr "保留满足以下条件的颗粒："
+
+#: modules/process/grain_filter.c:451
+msgid "Lower threshold:"
+msgstr "下限阈值："
+
+#: modules/process/grain_filter.c:478
+msgid "Upper threshold:"
+msgstr "上限阈值："
+
+#. TRANSLATORS: %c is replaced with quantity label A, B or C.
+#: modules/process/grain_filter.c:639
+#, c-format
+msgid "Condition %c: %s"
+msgstr "条件 %c：%s"
+
+#: modules/process/grain_makesel.c:44
+msgid "Creates selections visualizing grains."
+msgstr "创建用于显示颗粒的选区。"
+
+#: modules/process/grain_makesel.c:58
+msgid "/_Grains/Select _Inscribed Discs"
+msgstr "/颗粒(_G)/选择内接圆盘(_I)"
+
+#: modules/process/grain_makesel.c:62
+msgid "Create a selection visualizing discs inscribed into grains"
+msgstr "创建选区以显示颗粒内接圆盘"

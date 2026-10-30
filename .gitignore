@@ -1,2 +1,5 @@
 source/*.tar.xz
 source/gwyddion-2.71/
+.tools/
+__pycache__/
+work/*.pot

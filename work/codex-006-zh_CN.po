@@ -1,0 +1,506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: app/file.c:911
+#, c-format
+msgid ""
+"The file already exists in `%s'.  Replacing it will overwrite its contents."
+msgstr "文件已存在于“%s”中。替换将覆盖其内容。"
+
+#: app/file.c:914
+msgid "Replace File?"
+msgstr "替换文件？"
+
+#: app/filelist.c:212
+msgid "Document History"
+msgstr "文档历史"
+
+#: app/filelist.c:236
+msgid "Clean U_p"
+msgstr "清理(_P)"
+
+#: app/filelist.c:239
+msgid "Remove entries of files that no longer exist"
+msgstr "移除已不存在文件的条目"
+
+#: app/filelist.c:244
+msgid "Close file list"
+msgstr "关闭文件列表"
+
+#: app/filelist.c:249
+msgid "Open selected file"
+msgstr "打开所选文件"
+
+#: app/filelist.c:525 app/gwyappfilechooser.c:561
+msgid "_Filter:"
+msgstr "筛选(_F)："
+
+#: app/filelist.c:555 app/gwyappfilechooser.c:596
+msgid "Case _sensitive"
+msgstr "区分大小写(_S)"
+
+#: app/glmaterial-editor.c:92
+msgid "GL Material Editor"
+msgstr "GL 材质编辑器"
+
+#: app/glmaterial-editor.c:93
+#, c-format
+msgid "GL Material  `%s'"
+msgstr "GL 材质“%s”"
+
+#: app/glmaterial-editor.c:143
+msgid "_Ambient"
+msgstr "环境光(_A)"
+
+#: app/glmaterial-editor.c:144
+msgid "_Diffuse"
+msgstr "漫反射(_D)"
+
+#: app/glmaterial-editor.c:145
+msgid "Spe_cular"
+msgstr "镜面反射(_C)"
+
+#: app/glmaterial-editor.c:194
+msgid "Sh_ininess:"
+msgstr "光泽度(_I)："
+
+#: app/gradient-editor.c:126
+msgid "Color Gradient Editor"
+msgstr "色彩渐变编辑器"
+
+#: app/gradient-editor.c:127
+#, c-format
+msgid "Color Gradient `%s'"
+msgstr "色彩渐变“%s”"
+
+#: app/gradient-editor.c:228
+msgid "_Points"
+msgstr "点(_P)"
+
+#: app/gradient-editor.c:229
+msgid "_Curve"
+msgstr "曲线(_C)"
+
+#: app/gradient-editor.c:267
+msgid "_Snap to control points"
+msgstr "吸附到控制点(_S)"
+
+#: app/gwyappfilechooser.c:226
+msgid "Save File"
+msgstr "保存文件"
+
+#: app/gwyappfilechooser.c:371
+#, c-format
+msgid "File _type: %s"
+msgstr "文件类型(_T)：%s"
+
+#: app/gwyappfilechooser.c:378
+msgid "Only loadable shown"
+msgstr "仅显示可加载的文件"
+
+#: app/gwyappfilechooser.c:382
+#, c-format
+msgid "Filter: %s"
+msgstr "筛选：%s"
+
+#: app/gwyappfilechooser.c:444
+msgid "Automatic by extension"
+msgstr "按扩展名自动确定"
+
+#: app/gwyappfilechooser.c:452
+msgid "Automatically detected"
+msgstr "自动检测"
+
+#: app/gwyappfilechooser.c:540
+msgid "Show only loadable files"
+msgstr "仅显示可加载的文件"
+
+#: app/gwyappfilechooser.c:810
+msgid "Plane-level previewed data"
+msgstr "对预览数据进行平面调平"
+
+#: app/gwyappfilechooser.c:822
+msgid "Row-level previewed data"
+msgstr "对预览数据逐行调平"
+
+#: app/gwyappfilechooser.c:929
+msgid "File too large for preview"
+msgstr "文件过大，无法预览"
+
+#: app/gwyappfilechooser.c:929
+msgid "…"
+msgstr "…"
+
+#: app/gwyappfilechooser.c:1387
+msgid "Cannot preview"
+msgstr "无法预览"
+
+#: app/gwymoduleutils-file.c:502
+#, c-format
+msgid "Section %s ended at line %u but it has never started."
+msgstr "段 %s 在第 %u 行结束，但此前从未开始。"
+
+#: app/gwymoduleutils-file.c:508
+#, c-format
+msgid "Section %s ended at line %u instead of %s."
+msgstr "段 %s 在第 %u 行结束，但应结束的是 %s。"
+
+#: app/gwymoduleutils-file.c:539
+#, c-format
+msgid "Section %s started at line %u before %s ended."
+msgstr "段 %s 在第 %u 行开始，但 %s 尚未结束。"
+
+#: app/gwymoduleutils-file.c:545
+#, c-format
+msgid "Empty section name at header line %u."
+msgstr "文件头第 %u 行的段名称为空。"
+
+#: app/gwymoduleutils-file.c:574
+#, c-format
+msgid "Header line %u lacks prefix %s."
+msgstr "文件头第 %u 行缺少前缀 %s。"
+
+#: app/gwymoduleutils-file.c:598
+#, c-format
+msgid "Header line %u lacks key-value separator."
+msgstr "文件头第 %u 行缺少键值分隔符。"
+
+#: app/gwymoduleutils-file.c:605
+#, c-format
+msgid "Key at header line %u is empty."
+msgstr "文件头第 %u 行的键为空。"
+
+#: app/gwymoduleutils-file.c:630
+#, c-format
+msgid "Header suddenly ended at line %u; end of header marker is missing"
+msgstr "文件头在第 %u 行突然结束；缺少文件头结束标记"
+
+#: app/gwymoduleutils-synth.c:47 modules/file/hdrimage.cc:2024
+#: modules/file/pixmap.c:697
+msgid "Horizontal size"
+msgstr "水平尺寸"
+
+#: app/gwymoduleutils-synth.c:48 modules/file/hdrimage.cc:2028
+#: modules/file/pixmap.c:701
+msgid "Vertical size"
+msgstr "垂直尺寸"
+
+#: app/gwymoduleutils-synth.c:50 modules/file/rawfile.c:320
+#: modules/process/dimensions.h:465
+msgid "S_quare image"
+msgstr "正方形图像(_Q)"
+
+#: app/gwymoduleutils-synth.c:51 modules/cmap/cmap_crop.c:111
+#: modules/file/imgexport.c:671 modules/file/imgexport.c:674
+#: modules/file/rawfile.c:344 modules/process/binning.c:112
+#: modules/process/calibrate.c:211 modules/process/crosscor.c:151
+#: modules/process/crosscor.c:155 modules/process/fibre_synth.c:197
+#: modules/process/pileup_synth.c:221 modules/process/tip_blind.c:154
+#: modules/volume/volume_calibrate.c:195 modules/volume/volume_planestat.c:270
+#: modules/volume/volume_planestat.c:478
+msgid "_Width"
+msgstr "宽度(_W)"
+
+#: app/gwymoduleutils-synth.c:52 modules/cmap/cmap_crop.c:112
+#: modules/cmap/cmap_peaks.c:168 modules/file/imgexport.c:672
+#: modules/file/imgexport.c:675 modules/file/rawfile.c:345
+#: modules/process/anneal_synth.c:151 modules/process/bdep_synth.c:148
+#: modules/process/binning.c:113 modules/process/calibrate.c:212
+#: modules/process/crosscor.c:152 modules/process/crosscor.c:156
+#: modules/process/disc_synth.c:156 modules/process/fibre_synth.c:200
+#: modules/process/grain_mark.c:118 modules/process/lat_synth.c:360
+#: modules/process/obj_synth.c:288 modules/process/pat_synth.c:1709
+#: modules/process/pat_synth.c:1806 modules/process/pat_synth.c:1901
+#: modules/process/pat_synth.c:2012 modules/process/pat_synth.c:2123
+#: modules/process/pat_synth.c:2253 modules/process/pat_synth.c:2444
+#: modules/process/pat_synth.c:2589 modules/process/phase_synth.c:129
+#: modules/process/tip_blind.c:155 modules/volume/volume_calibrate.c:196
+#: modules/volume/volume_planestat.c:271 modules/volume/volume_planestat.c:480
+msgid "_Height"
+msgstr "高度(_H)"
+
+#: app/gwymoduleutils-synth.c:54 modules/file/hdrimage.cc:312
+#: modules/file/pixmap.c:290 modules/file/rawfile.c:321
+#: modules/process/calibrate.c:256 modules/process/calibrate.c:290
+#: modules/process/resample.c:119 modules/volume/volume_calibrate.c:201
+msgid "_Square pixels"
+msgstr "正方形像素(_S)"
+
+#: app/gwymoduleutils-synth.c:55 modules/file/hdrimage.cc:314
+#: modules/file/pixmap.c:292 modules/file/rawfile.c:346
+#: modules/process/calibrate.c:217 modules/volume/volume_calibrate.c:202
+msgid "_Dimensions unit"
+msgstr "尺寸单位(_D)"
+
+#: app/gwymoduleutils-synth.c:56 modules/file/hdrimage.cc:315
+#: modules/file/pixmap.c:293 modules/file/rawfile.c:347
+#: modules/process/calibrate.c:241 modules/volume/volume_calibrate.c:227
+msgid "_Value unit"
+msgstr "数值单位(_V)"
+
+#: app/gwymoduleutils-synth.c:58 modules/process/dimensions.h:527
+msgid "_Replace the current image"
+msgstr "替换当前图像(_R)"
+
+#: app/gwymoduleutils-synth.c:60 modules/process/dimensions.h:536
+msgid "_Start from the current image"
+msgstr "从当前图像开始(_S)"
+
+#: app/gwymoduleutils-synth.c:150 modules/file/nmmxyz.c:477
+#: modules/file/rawfile.c:538 modules/process/dimensions.h:453
+#: modules/xyz/xyz_drift.c:722 modules/xyz/xyz_raster.c:372
+#: modules/xyz/xyz_volumize.c:235
+msgid "Resolution"
+msgstr "分辨率"
+
+#: app/gwymoduleutils-synth.c:159 modules/file/hdrimage.cc:2062
+#: modules/file/imgexport.c:2949 modules/file/pixmap.c:726
+#: modules/file/rawfile.c:547 modules/process/dimensions.h:475
+#: modules/xyz/xyz_drift.c:771 modules/xyz/xyz_raster.c:381
+msgid "Physical Dimensions"
+msgstr "物理尺寸"
+
+#: app/gwymoduleutils-synth.c:168 modules/file/rawfile.c:559
+#: modules/process/arithmetic.c:332 modules/process/dimensions.h:491
+#: modules/process/grain_stat.c:161 modules/volume/volume_arithmetic.c:316
+#: modules/volume/volume_xyarithmetics.c:329
+msgid "Units"
+msgstr "单位"
+
+#: app/gwymoduleutils-synth.c:175 modules/process/dimensions.h:514
+msgid "Current Image"
+msgstr "当前图像"
+
+#: app/gwymoduleutils-synth.c:177 modules/process/dimensions.h:518
+msgid "_Take Dimensions from Current Image"
+msgstr "采用当前图像的尺寸(_T)"
+
+#: app/gwymoduleutils-synth.c:571 modules/process/roddeposit_synth.c:338
+#: modules/process/roddeposit_synth.c:350
+#: modules/process/roddeposit_synth.c:651
+#: modules/process/roddeposit_synth.c:664
+msgid "Generated"
+msgstr "已生成"
+
+#: app/gwymoduleutils.c:206 app/settings.c:123 app/settings.c:133
+#: gwyddion/toolbox-spec.c:510 modules/file/err.h:67
+#: modules/graph/graph_export_bitmap.c:91 modules/pygwy/pygwy-console.c:518
+#, c-format
+msgid "Cannot write to file: %s."
+msgstr "无法写入文件：%s。"
+
+#: app/gwymoduleutils.c:935
+#, c-format
+msgid "%s: Lateral dimensions and value must be the same physical quantity."
+msgstr "%s：横向尺寸和数值必须是相同的物理量。"
+
+#: app/gwymoduleutils.c:974
+#, c-format
+msgid "%s: Data must be square."
+msgstr "%s：数据必须为正方形。"
+
+#: app/gwyplaintool.c:563
+msgid "<big><b>Missing layer module.</b></big>"
+msgstr "<big><b>缺少图层模块。</b></big>"
+
+#: app/gwyplaintool.c:569
+#, c-format
+msgid ""
+"This tool requires layer of type %s to work, which does not seem to be "
+"installed.  Please check your installation."
+msgstr "此工具需要类型为 %s 的图层才能工作，但该图层似乎未安装。请检查安装情况。"
+
+#: app/gwyplaintool.c:758
+msgid "Clear selected objects"
+msgstr "清除所选对象"
+
+#. TRANSLATORS: Origin of the selected rectangle.
+#: app/gwyplaintool.c:1041 modules/tools/spotremove.c:358
+#: modules/volume/volume_planestat.c:472
+msgid "Origin"
+msgstr "原点"
+
+#: app/gwyplaintool.c:1052 modules/file/rawfile.c:691
+#: modules/process/convolution_filter.c:347
+#: modules/process/convolution_filter.c:550 modules/process/fibre_synth.c:330
+#: modules/process/lat_synth.c:499 modules/process/neural.c:418
+#: modules/process/obj_synth.c:410 modules/process/pat_synth.c:2613
+#: modules/process/pileup_synth.c:342 modules/tools/spotremove.c:370
+#: modules/volume/volume_planestat.c:477
+msgid "Size"
+msgstr "尺寸"
+
+#: app/gwyplaintool.c:1055 modules/tools/spotremove.c:373
+msgid "Width"
+msgstr "宽度"
+
+#: app/gwyresultsexport.c:255 app/param-table.c:7080
+msgid "Save Results to File"
+msgstr "将结果保存到文件"
+
+#: app/gwyresultsexport.c:295
+msgid "Save results to a file"
+msgstr "将结果保存到文件"
+
+#: app/gwyresultsexport.c:296
+msgid "Copy results to clipboard"
+msgstr "将结果复制到剪贴板"
+
+#: app/gwyresultsexport.c:312
+msgid "Colon:"
+msgstr "冒号："
+
+#: app/gwyresultsexport.c:313
+msgid "TAB"
+msgstr "制表符"
+
+#: app/gwyresultsexport.c:314
+msgid "CSV"
+msgstr "CSV"
+
+#: app/gwyresultsexport.c:360
+msgid "Result formatting"
+msgstr "结果格式"
+
+#: app/gwyresultsexport.c:369
+msgid "Machine-readable format"
+msgstr "机器可读格式"
+
+#: app/gwytool.c:292
+msgid "verb|Hide"
+msgstr "隐藏"
+
+#: app/gwytool.c:294
+msgid "Hide tool dialog (Esc)"
+msgstr "隐藏工具对话框（Esc）"
+
+#: app/help.c:234
+msgid "Cannot display the help."
+msgstr "无法显示帮助。"
+
+#. TRANSLATORS: %s will be replaced with an URL.
+#: app/help.c:237
+#, c-format
+msgid ""
+"No working method to show\n"
+"%s\n"
+"in a web browser was found. Details about the attempts can be found in the "
+"console or gwyddion.log."
+msgstr "未找到可在网页浏览器中显示\n%s\n的可用方法。有关尝试的详细信息，请查看控制台或 gwyddion.log。"
+
+#. TRANSLATORS: For user guide location.  Translate this to fr, ru, cs, de, ...  even if the corresponding guide
+#. * does not exist.
+#: app/help.c:338 app/param-table.c:719
+msgid "current-language-code|en"
+msgstr "zh_CN"
+
+#: app/log.c:605
+#, c-format
+msgid "Log of %s (%s)"
+msgstr "%s（%s）的日志"
+
+#: app/log.c:648 app/meta.c:248 modules/tools/selectionmanager.c:371
+msgid "_Export"
+msgstr "导出(_E)"
+
+#: app/log.c:653
+msgid "Clea_r"
+msgstr "清除(_R)"
+
+#: app/log.c:657 app/meta.c:261
+msgid "_Close"
+msgstr "关闭(_C)"
+
+#: app/log.c:672 modules/file/imgexport.c:3209 modules/file/rawfile.c:690
+msgid "Type"
+msgstr "类型"
+
+#: app/log.c:673 modules/process/relate.c:359
+msgid "Function"
+msgstr "函数"
+
+#: app/log.c:674 modules/file/imgexport.c:2968
+#: modules/graph/graph_terraces.c:364 modules/process/fit-shape.c:511
+#: modules/process/fit-shape.c:1652 modules/process/neural.c:496
+#: modules/process/relate.c:675 modules/process/terracefit.c:460
+msgid "Parameters"
+msgstr "参数"
+
+#: app/log.c:675
+msgid "Time"
+msgstr "时间"
+
+#: app/log.c:783
+msgid "Export Log"
+msgstr "导出日志"
+
+#: app/menu.c:527 gwyddion/toolbox.c:599
+msgid "_Data Process"
+msgstr "数据处理(_D)"
+
+#: app/menu.c:563 gwyddion/toolbox.c:602 modules/tools/roughness.c:189
+msgid "_Graph"
+msgstr "曲线图(_G)"
+
+#: app/menu.c:600 gwyddion/toolbox.c:605
+msgid "_Volume Data"
+msgstr "体数据(_V)"
+
+#: app/menu.c:637 gwyddion/toolbox.c:608
+msgid "_XYZ Data"
+msgstr "XYZ 数据(_X)"
+
+#: app/menu.c:674 gwyddion/toolbox.c:611
+msgid "_Curve Maps"
+msgstr "曲线图谱(_C)"
+
+#: app/menu.c:702
+msgid "Re-show Last"
+msgstr "重新显示上次操作"
+
+#: app/menu.c:713
+msgid "Repeat Last"
+msgstr "重复上次操作"
+
+#: app/menu.c:832
+msgid "Repeat"
+msgstr "重复"
+
+#: app/menu.c:838
+msgid "Re-show"
+msgstr "重新显示"
+
+#: app/menu.c:1193
+msgid "_Document History..."
+msgstr "文档历史(_D)..."
+
+#: app/meta.c:253
+msgid "_New"
+msgstr "新建(_N)"
+
+#: app/meta.c:257 modules/file/imgexport.c:3465 modules/file/rawfile.c:685
+#: modules/process/facet_analysis.c:556 modules/process/facet_measure.c:429
+#: modules/process/neural.c:599 modules/tools/selectionmanager.c:374
+msgid "_Delete"
+msgstr "删除(_D)"
+
+#: app/meta.c:352
+#, c-format
+msgid "Metadata of %s (%s)"
+msgstr "%s（%s）的元数据"

@@ -1,0 +1,422 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/resample.c:102
+msgid "Resample to pixel size"
+msgstr "重采样到指定像素大小"
+
+#: modules/process/resample.c:117
+msgid "_X pixel size"
+msgstr "X 像素大小(_X)"
+
+#: modules/process/resample.c:118
+msgid "_Y pixel size"
+msgstr "Y 像素大小(_Y)"
+
+#: modules/process/resample.c:122 modules/process/resample.c:123
+msgid "_Match pixel size"
+msgstr "匹配像素大小(_M)"
+
+#: modules/process/resample.c:191
+msgid "Resampled Data"
+msgstr "重采样后数据"
+
+#: modules/process/resample.c:219
+msgid "Resample"
+msgstr "重采样"
+
+#: modules/process/residue_synth.c:117
+msgid "Generates images by simulating residue of film removal."
+msgstr "通过模拟去膜残留生成图像。"
+
+#: modules/process/residue_synth.c:131
+msgid "/S_ynthetic/_Deposition/_Residue..."
+msgstr "/合成(_Y)/沉积(_D)/残留(_R)..."
+
+#: modules/process/residue_synth.c:135
+msgid "Generate image of film residue"
+msgstr "生成薄膜残留图像"
+
+#: modules/process/residue_synth.c:153
+msgid "_Probability of a new location"
+msgstr "新位置概率(_P)"
+
+#: modules/process/residue_synth.c:155
+msgid "Ma_ximum radius"
+msgstr "最大半径(_X)"
+
+#: modules/process/residue_synth.c:223
+msgid "Residue"
+msgstr "残留"
+
+#: modules/process/roddeposit_synth.c:203
+msgid "Generates rod-like particles using simple dynamical model"
+msgstr "使用简单动力学模型生成棒状颗粒"
+
+#: modules/process/roddeposit_synth.c:217
+msgid "/S_ynthetic/_Deposition/_Rods..."
+msgstr "/合成(_Y)/沉积(_D)/棒状颗粒(_R)..."
+
+#: modules/process/roddeposit_synth.c:221
+msgid "Generate rod-like particles using dynamical model"
+msgstr "使用动力学模型生成棒状颗粒"
+
+#: modules/process/roddeposit_synth.c:320 modules/process/roddeposit_synth.c:1007
+#, c-format
+msgid "Not all the particles could be deposited (%u),\ntry more revise steps."
+msgstr "未能沉积所有颗粒（%u），\n请尝试增加修正步数。"
+
+#: modules/process/roddeposit_synth.c:476
+msgid "Particle r_adius:"
+msgstr "颗粒半径(_A)："
+
+#: modules/process/roddeposit_synth.c:488
+msgid "Distribution _width:"
+msgstr "分布宽度(_W)："
+
+#: modules/process/roddeposit_synth.c:502
+msgid "_Aspect ratio:"
+msgstr "纵横比(_A)："
+
+#: modules/process/roddeposit_synth.c:513
+msgid "A_spect ratio variance:"
+msgstr "纵横比方差(_S)："
+
+#: modules/process/roddeposit_synth.c:522
+msgid "LJ _particle strength:"
+msgstr "LJ 颗粒强度(_P)："
+
+#: modules/process/roddeposit_synth.c:530
+msgid "LJ _surface strength:"
+msgstr "LJ 表面强度(_S)："
+
+#: modules/process/roddeposit_synth.c:538
+msgid "_Surface mobility:"
+msgstr "表面迁移率(_S)："
+
+#: modules/process/roddeposit_synth.c:547
+msgid "_Gravity:"
+msgstr "重力(_G)："
+
+#: modules/process/roddeposit_synth.c:556
+msgid "Co_verage:"
+msgstr "覆盖率(_V)："
+
+#: modules/process/roddeposit_synth.c:564
+msgid "_Relax steps:"
+msgstr "弛豫步数(_R)："
+
+#: modules/process/roddeposit_synth.c:572
+msgid "Output statistics"
+msgstr "输出统计量"
+
+#: modules/process/roddeposit_synth.c:686
+msgid "Particle length"
+msgstr "颗粒长度"
+
+#: modules/process/roddeposit_synth.c:687 modules/process/roddeposit_synth.c:706 modules/process/roddeposit_synth.c:726 modules/process/roddeposit_synth.c:746 modules/process/roddeposit_synth.c:766
+msgid "Counts"
+msgstr "计数"
+
+#: modules/process/roddeposit_synth.c:705
+msgid "Particle width"
+msgstr "颗粒宽度"
+
+#: modules/process/roddeposit_synth.c:725
+msgid "Aspect ratio"
+msgstr "纵横比"
+
+#: modules/process/roddeposit_synth.c:745
+msgid "ϑ"
+msgstr "ϑ"
+
+#: modules/process/roddeposit_synth.c:1005
+#, c-format
+msgid "%d particles were deposited"
+msgstr "已沉积 %d 个颗粒"
+
+#: modules/process/roddeposit_synth.c:1372 modules/process/roddeposit_synth.c:1534
+#, c-format
+msgid "Running revise (%d active particles)..."
+msgstr "正在修正（%d 个活动颗粒）……"
+
+#: modules/process/rotate.c:89
+msgid "Rotates data by arbitrary angle or to make characteristic directions parallel with x or y axis."
+msgstr "将数据旋转任意角度，或使特征方向与 x 轴或 y 轴平行。"
+
+#: modules/process/rotate.c:103
+msgid "/_Basic Operations/Rotate by _Angle..."
+msgstr "/基本操作(_B)/按角度旋转(_A)..."
+
+#: modules/process/rotate.c:107
+msgid "Rotate by arbitrary angle"
+msgstr "按任意角度旋转"
+
+#: modules/process/rotate.c:110
+msgid "/_Correct Data/_Unrotate..."
+msgstr "/校正数据(_C)/校正旋转(_U)..."
+
+#: modules/process/rotate.c:114
+msgid "Automatically correct rotation in horizontal plane"
+msgstr "自动校正水平面内的旋转"
+
+#: modules/process/rotate.c:122
+msgid "_Same as original"
+msgstr "与原图相同(_S)"
+
+#: modules/process/rotate.c:123
+msgid "_Expanded to complete data"
+msgstr "扩展为完整数据(_E)"
+
+#: modules/process/rotate.c:124
+msgid "C_ut to valid data"
+msgstr "裁剪为有效数据(_U)"
+
+#: modules/process/rotate.c:129
+msgid "Result size"
+msgstr "结果尺寸"
+
+#: modules/process/rotate.c:132
+msgid "Show _grid"
+msgstr "显示网格(_G)"
+
+#: modules/process/rotate.c:145
+msgid "Rotate by _angle"
+msgstr "按角度旋转(_A)"
+
+#: modules/process/rotate.c:159
+msgid "_Assume symmetry"
+msgstr "假定对称(_A)"
+
+#: modules/process/rotate.c:261
+msgid "Correct Rotation"
+msgstr "校正旋转"
+
+#: modules/process/rotate.c:261 modules/process/rotate.c:283
+msgid "Rotate"
+msgstr "旋转"
+
+#: modules/process/rotate.c:274
+msgid "Structure"
+msgstr "结构"
+
+#: modules/process/rotate.c:279
+msgid "Correction"
+msgstr "校正"
+
+#: modules/process/scale.c:68
+msgid "Scales data by arbitrary factor."
+msgstr "按任意因子缩放数据。"
+
+#: modules/process/scale.c:82
+msgid "/_Basic Operations/_Scale..."
+msgstr "/基本操作(_B)/缩放(_S)..."
+
+#: modules/process/scale.c:86
+msgid "Scale data"
+msgstr "缩放数据"
+
+#: modules/process/scale.c:101
+msgid "Scale by _ratio"
+msgstr "按比例缩放(_R)"
+
+#: modules/process/scale.c:102
+msgid "_Proportional scaling"
+msgstr "等比例缩放(_P)"
+
+#: modules/process/scale.c:107
+msgid "New _width"
+msgstr "新宽度(_W)"
+
+#: modules/process/scale.c:108
+msgid "New _height"
+msgstr "新高度(_H)"
+
+#: modules/process/scale.c:183
+msgid "Scaled Data"
+msgstr "缩放后数据"
+
+#: modules/process/scale.c:201
+msgid "verb|Scale"
+msgstr "缩放"
+
+#: modules/process/scars.c:89
+msgid "Marks and/or removes scars (horizontal linear artifacts)."
+msgstr "标记和/或移除划痕（水平线状伪影）。"
+
+#: modules/process/scars.c:103
+msgid "/_Correct Data/M_ark Scars..."
+msgstr "/校正数据(_C)/标记划痕(_A)..."
+
+#: modules/process/scars.c:107
+msgid "Mark horizontal scars (strokes)"
+msgstr "标记水平划痕（条纹）"
+
+#: modules/process/scars.c:110
+msgid "/_Correct Data/Remove _Scars"
+msgstr "/校正数据(_C)/移除划痕(_S)"
+
+#: modules/process/scars.c:114
+msgid "Correct horizontal scars (strokes)"
+msgstr "校正水平划痕（条纹）"
+
+#: modules/process/scars.c:282
+msgid "Mark Scars"
+msgstr "标记划痕"
+
+#: modules/process/semsim.c:98
+msgid "Simple SEM image simulation from topography."
+msgstr "根据表面形貌进行简单 SEM 图像模拟。"
+
+#: modules/process/semsim.c:112
+msgid "/_Presentation/_SEM Image..."
+msgstr "/展示(_P)/SEM 图像(_S)..."
+
+#: modules/process/semsim.c:116
+msgid "Simple SEM simulation from topography"
+msgstr "根据表面形貌进行简单 SEM 模拟"
+
+#: modules/process/semsim.c:125
+msgid "Integration"
+msgstr "积分法"
+
+#: modules/process/semsim.c:126
+msgid "Monte Carlo"
+msgstr "Monte Carlo 法"
+
+#: modules/process/semsim.c:137
+msgid "_Quality"
+msgstr "质量(_Q)"
+
+#: modules/process/semsim.c:138
+msgid "_Integration radius"
+msgstr "积分半径(_I)"
+
+#: modules/process/semsim.c:157 modules/process/semsim.c:191
+msgid "SEM Image"
+msgstr "SEM 图像"
+
+#: modules/process/semsim.c:235
+msgid "SEM image simulation..."
+msgstr "正在模拟 SEM 图像……"
+
+#: modules/process/shade.c:74
+msgid "Creates a shaded presentation of data."
+msgstr "创建数据的阴影展示图像。"
+
+#: modules/process/shade.c:88
+msgid "/_Presentation/_Shading..."
+msgstr "/展示(_P)/阴影(_S)..."
+
+#: modules/process/shade.c:92
+msgid "Shade data"
+msgstr "为数据添加阴影"
+
+#: modules/process/shade.c:109 modules/process/shade.c:110
+msgid "_Mix"
+msgstr "混合(_M)"
+
+#: modules/process/shade.c:173
+msgid "Shading"
+msgstr "阴影"
+
+#: modules/process/smm.c:183
+msgid "Interprets SMM measurement on a calibration sample"
+msgstr "解读校准样品的 SMM 测量数据"
+
+#: modules/process/smm.c:197
+msgid "/_SPM Modes/_Electrical/_SMM Calibration..."
+msgstr "/SPM 模式(_S)/电学(_E)/SMM 校准(_S)..."
+
+#: modules/process/smm.c:201
+msgid "Calibrate SMM using capacitors calibration sample"
+msgstr "使用电容校准样品校准 SMM"
+
+#: modules/process/smm.c:217
+msgid "Re (S11)"
+msgstr "Re (S11)"
+
+#: modules/process/smm.c:218
+msgid "Im (S11)"
+msgstr "Im (S11)"
+
+#: modules/process/smm.c:239
+msgid "Plot result"
+msgstr "绘制结果"
+
+#: modules/process/smm.c:255
+msgid "Enable"
+msgstr "启用"
+
+#: modules/process/smm.c:260
+msgid "verb|Fit"
+msgstr "拟合"
+
+#: modules/process/smm.c:302
+msgid "S<sub>11</sub>"
+msgstr "S<sub>11</sub>"
+
+#: modules/process/smm.c:308
+msgid "nominal"
+msgstr "标称"
+
+#: modules/process/smm.c:313
+msgid "measured"
+msgstr "实测"
+
+#: modules/process/smm.c:361
+msgid "SMM Calibration"
+msgstr "SMM 校准"
+
+#: modules/process/smm.c:440
+msgid "Masks"
+msgstr "掩膜"
+
+#: modules/process/smm.c:441
+msgid "Capacitance [fF]"
+msgstr "电容 [fF]"
+
+#: modules/process/smm.c:562 modules/process/smm.c:704 modules/process/smm.c:1118
+#, c-format
+msgid "Data not fitted."
+msgstr "数据未拟合。"
+
+#: modules/process/smm.c:982 modules/process/smm.c:983
+msgid "Re(S<sub>11</sub>)"
+msgstr "Re(S<sub>11</sub>)"
+
+#: modules/process/smm.c:990 modules/process/smm.c:991
+msgid "Im(S<sub>11</sub>)"
+msgstr "Im(S<sub>11</sub>)"
+
+#: modules/process/smm.c:1116 modules/process/smm.c:1207
+#, c-format
+msgid "Mean square difference: %g"
+msgstr "均方差：%g"
+
+#: modules/process/smm.c:1209
+msgid "Fit failed."
+msgstr "拟合失败。"
+
+#: modules/process/smm_apply.c:96
+msgid "Re(S11)"
+msgstr "Re(S11)"
+
+#: modules/process/smm_apply.c:97
+msgid "Im(S11)"
+msgstr "Im(S11)"

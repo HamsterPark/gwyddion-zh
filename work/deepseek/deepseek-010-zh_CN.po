@@ -1,0 +1,417 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/logistic.c:124
+msgid "Mark grains with logistic regression"
+msgstr "使用逻辑回归标记颗粒"
+
+#: modules/process/logistic.c:133
+msgid "_Use trained regression"
+msgstr "使用已训练的回归(_U)"
+
+#: modules/process/logistic.c:134
+msgid "_Train logistic regression"
+msgstr "训练逻辑回归(_T)"
+
+#: modules/process/logistic.c:145
+msgid "_Gaussian blur"
+msgstr "高斯模糊(_G)"
+
+#: modules/process/logistic.c:146
+msgid "_Number of Gaussians"
+msgstr "高斯数(_N)"
+
+#: modules/process/logistic.c:147
+msgid "_Sobel derivatives"
+msgstr "Sobel 导数(_S)"
+
+#: modules/process/logistic.c:149
+msgid "_Hessian"
+msgstr "Hessian 矩阵(_H)"
+
+#: modules/process/logistic.c:222
+msgid "Logistic Regression"
+msgstr "逻辑回归"
+
+#: modules/process/mark_disconn.c:82
+msgid "Creates mask of values disconnected to the rest."
+msgstr "创建与其余数值不连通的值的掩膜。"
+
+#: modules/process/mark_disconn.c:96
+msgid "/_Correct Data/Mask of _Disconnected..."
+msgstr "/校正数据(_C)/不连通值掩膜(_D)..."
+
+#: modules/process/mark_disconn.c:100
+msgid "Mark data disconnected from other values"
+msgstr "标记与其他数值不连通的数据"
+
+#: modules/process/mark_disconn.c:120
+msgid "Defect type"
+msgstr "缺陷类型"
+
+#: modules/process/mark_disconn.c:123
+msgid "Defect _radius"
+msgstr "缺陷半径(_R)"
+
+#: modules/process/mark_disconn.c:194
+msgid "Mark Disconnected"
+msgstr "标记不连通值"
+
+#: modules/process/mark_disconn.c:351
+msgid "Marking outliers..."
+msgstr "正在标记异常值……"
+
+#: modules/process/mark_with.c:130
+msgid "Creates or modifies a mask using other channels."
+msgstr "使用其他通道创建或修改掩膜。"
+
+#: modules/process/mark_with.c:144
+msgid "/_Mask/Mark _With..."
+msgstr "/掩膜(_M)/标记方式(_W)..."
+
+#: modules/process/mark_with.c:148
+msgid "Mask combining and modification"
+msgstr "掩膜组合与修改"
+
+#: modules/process/mark_with.c:156
+msgid "Se_t mask"
+msgstr "设置掩膜(_T)"
+
+#: modules/process/mark_with.c:157
+msgid "_Add mask"
+msgstr "添加掩膜(_A)"
+
+#: modules/process/mark_with.c:158
+msgid "_Subtract mask"
+msgstr "减去掩膜(_S)"
+
+#: modules/process/mark_with.c:159
+msgid "_Intersect masks"
+msgstr "掩膜求交(_I)"
+
+#: modules/process/mark_with.c:169 modules/process/mark_with.c:295
+msgid "Mark with"
+msgstr "标记方式"
+
+#: modules/process/mark_with.c:173
+msgid "_Minimum"
+msgstr "最小值(_M)"
+
+#: modules/process/mark_with.c:174
+msgid "M_aximum"
+msgstr "最大值(_A)"
+
+#: modules/process/mark_with.c:255
+msgid "Mark With"
+msgstr "标记方式"
+
+#: modules/process/mark_with.c:273
+msgid "Operand"
+msgstr "操作数"
+
+#: modules/process/mark_with.c:305
+msgid "Marked data range"
+msgstr "标记的数据范围"
+
+#: modules/process/mask_distribute.c:69
+msgid "Distributes masks to other channels."
+msgstr "将掩膜分发到其他通道。"
+
+#: modules/process/mask_distribute.c:83
+msgid "/_Mask/_Distribute..."
+msgstr "/掩膜(_M)/分发(_D)..."
+
+#: modules/process/mask_distribute.c:87
+msgid "Distribute mask to other channels"
+msgstr "将掩膜分发到其他通道"
+
+#: modules/process/mask_distribute.c:96
+msgid "Channels within the file"
+msgstr "文件内的通道"
+
+#: modules/process/mask_distribute.c:97
+msgid "Channels in all files"
+msgstr "所有文件中的通道"
+
+#: modules/process/mask_distribute.c:106
+msgid "Preserve existing masks"
+msgstr "保留现有掩膜"
+
+#: modules/process/mask_distribute.c:107
+msgid "Distribute to"
+msgstr "分发到"
+
+#: modules/process/mask_distribute.c:158
+msgid "Distribute Mask"
+msgstr "分发掩膜"
+
+#: modules/process/mask_edt.c:74
+msgid "Performs simple and true Euclidean distance transforms of masks."
+msgstr "对掩膜执行简单和真欧几里得距离变换。"
+
+#: modules/process/mask_edt.c:88
+msgid "/_Mask/Distanc_e Transform..."
+msgstr "/掩膜(_M)/距离变换(_E)..."
+
+#: modules/process/mask_edt.c:92
+msgid "Distance transform of mask"
+msgstr "掩膜距离变换"
+
+#: modules/process/mask_edt.c:101
+msgid "Interior"
+msgstr "内部"
+
+#: modules/process/mask_edt.c:103
+msgid "Two-sided"
+msgstr "双侧"
+
+#: modules/process/mask_edt.c:153 modules/process/mask_edt.c:179
+msgid "Distance Transform"
+msgstr "距离变换"
+
+#: modules/process/mask_morph.c:93
+msgid "Performs basic morphological operations with masks."
+msgstr "对掩膜执行基本形态学运算。"
+
+#: modules/process/mask_morph.c:107
+msgid "/_Mask/Morpho_logical Operation..."
+msgstr "/掩膜(_M)/形态学运算(_L)..."
+
+#: modules/process/mask_morph.c:111
+msgid "Morphological operation with mask"
+msgstr "对掩膜进行形态学运算"
+
+#: modules/process/mask_morph.c:120
+msgid "Erosion"
+msgstr "腐蚀"
+
+#: modules/process/mask_morph.c:121
+msgid "Dilation"
+msgstr "膨胀"
+
+#: modules/process/mask_morph.c:129
+msgid "Octagon"
+msgstr "八边形"
+
+#: modules/process/mask_morph.c:132
+msgid "Another mask"
+msgstr "另一掩膜"
+
+#: modules/process/mask_morph.c:143
+msgid "Structuring element"
+msgstr "结构元素"
+
+#: modules/process/mask_morph.c:146
+msgid "_Trim empty borders"
+msgstr "修剪空边框(_T)"
+
+#: modules/process/mask_morph.c:213
+msgid "Morphological Operation"
+msgstr "形态学运算"
+
+#: modules/process/mask_noisify.c:64
+msgid "Adds salt and/or pepper noise to mask."
+msgstr "向掩膜添加椒盐噪声。"
+
+#: modules/process/mask_noisify.c:78
+msgid "/_Mask/_Noisify..."
+msgstr "/掩膜(_M)/加噪(_N)..."
+
+#: modules/process/mask_noisify.c:82
+msgid "Add noise to mask"
+msgstr "向掩膜添加噪声"
+
+#: modules/process/mask_noisify.c:103
+msgid "Noise type"
+msgstr "噪声类型"
+
+#: modules/process/mask_noisify.c:105
+msgid "_Alter only boundaries"
+msgstr "仅改变边界(_A)"
+
+#: modules/process/mask_noisify.c:152
+msgid "Noisify Mask"
+msgstr "掩膜加噪"
+
+#: modules/process/mask_shift.c:76
+msgid "Shift mask with respect to the image."
+msgstr "相对于图像平移掩膜。"
+
+#: modules/process/mask_shift.c:90
+msgid "/_Mask/_Shift..."
+msgstr "/掩膜(_M)/平移(_S)..."
+
+#: modules/process/mask_shift.c:94
+msgid "Shift mask"
+msgstr "平移掩膜"
+
+#: modules/process/mask_shift.c:103
+msgid "exterior|Empty"
+msgstr "空"
+
+#: modules/process/mask_shift.c:104
+msgid "exterior|Filled"
+msgstr "填充"
+
+#: modules/process/mask_shift.c:118
+msgid "_Horizontal shift"
+msgstr "水平平移(_H)"
+
+#: modules/process/mask_shift.c:119
+msgid "_Vertical shift"
+msgstr "垂直平移(_V)"
+
+#: modules/process/mask_shift.c:185
+msgid "Shift Mask"
+msgstr "平移掩膜"
+
+#: modules/process/maskcor.c:82
+msgid "Searches for a detail in another image using correlation."
+msgstr "使用相关在另一幅图像中搜索细节。"
+
+#: modules/process/maskcor.c:96
+msgid "/M_ultidata/Correlation _Search..."
+msgstr "/多数据(_U)/相关搜索(_S)..."
+
+#: modules/process/maskcor.c:100
+msgid "Search for a detail using correlation"
+msgstr "使用相关搜索细节"
+
+#: modules/process/maskcor.c:109
+msgid "Correlation, raw"
+msgstr "相关，原始"
+
+#: modules/process/maskcor.c:110
+msgid "Correlation, leveled"
+msgstr "相关，调平后"
+
+#: modules/process/maskcor.c:112
+msgid "Height difference, raw"
+msgstr "高度差，原始"
+
+#: modules/process/maskcor.c:113
+msgid "Height difference, leveled"
+msgstr "高度差，调平后"
+
+#: modules/process/maskcor.c:118
+msgid "Objects marked"
+msgstr "已标记对象"
+
+#: modules/process/maskcor.c:119
+msgid "Correlation maxima"
+msgstr "相关极大值"
+
+#: modules/process/maskcor.c:133
+msgid "Correlation _method"
+msgstr "相关方法(_M)"
+
+#: modules/process/maskcor.c:135
+msgid "Use _mask"
+msgstr "使用掩膜(_M)"
+
+#: modules/process/maskcor.c:136
+msgid "_Plot mask"
+msgstr "绘制掩膜(_P)"
+
+#: modules/process/maskcor.c:137
+msgid "_Detail to search"
+msgstr "要搜索的细节(_D)"
+
+#: modules/process/maskcor.c:205 modules/process/maskcor.c:216
+msgid "Correlation Search"
+msgstr "相关搜索"
+
+#: modules/process/maskops.c:46
+msgid "Basic operations with mask: inversion, removal, extraction."
+msgstr "掩膜的基本操作：反转、移除、提取。"
+
+#: modules/process/maskops.c:60
+msgid "/_Mask/_Remove Mask"
+msgstr "/掩膜(_M)/移除掩膜(_R)"
+
+#: modules/process/maskops.c:64
+msgid "Remove mask from data"
+msgstr "从数据中移除掩膜"
+
+#: modules/process/maskops.c:67
+msgid "/_Mask/_Invert Mask"
+msgstr "/掩膜(_M)/反转掩膜(_I)"
+
+#: modules/process/maskops.c:71
+msgid "Invert mask"
+msgstr "反转掩膜"
+
+#: modules/process/maskops.c:74
+msgid "/_Mask/_Extract Mask"
+msgstr "/掩膜(_M)/提取掩膜(_E)"
+
+#: modules/process/maskops.c:78
+msgid "Extract mask to a new image"
+msgstr "将掩膜提取为新图像"
+
+#: modules/process/maskops.c:81
+msgid "/_Grains/_Extract Numbers"
+msgstr "/颗粒(_G)/提取编号(_E)"
+
+#: modules/process/maskops.c:85
+msgid "Extract grain numbers to a new image"
+msgstr "将颗粒编号提取为新图像"
+
+#: modules/process/maskops.c:88
+msgid "/_Grains/_Remove Edge-Touching"
+msgstr "/颗粒(_G)/移除接触边缘的颗粒(_R)"
+
+#: modules/process/maskops.c:92
+msgid "Remove grains touching image edges"
+msgstr "移除接触图像边缘的颗粒"
+
+#: modules/process/maskops.c:95
+msgid "/_Mask/Thi_n"
+msgstr "/掩膜(_M)/细化(_N)"
+
+#: modules/process/maskops.c:99
+msgid "Thin mask"
+msgstr "细化掩膜"
+
+#: modules/process/maskops.c:193
+msgid "Grain Numbers"
+msgstr "颗粒编号"
+
+#: modules/process/mcrop.c:96
+msgid "Crops non-intersecting regions of two images."
+msgstr "裁剪两幅图像的非相交区域。"
+
+#: modules/process/mcrop.c:110
+msgid "/M_ultidata/Mutual C_rop..."
+msgstr "/多数据(_U)/交互裁剪(_R)..."
+
+#: modules/process/mcrop.c:114
+msgid "Crop non-intersecting regions of two images"
+msgstr "裁剪两幅图像的非相交区域"
+
+#: modules/process/mcrop.c:126
+msgid "Brute force score"
+msgstr "暴力搜索得分"
+
+#: modules/process/mcrop.c:129
+msgid "Cropped first"
+msgstr "裁剪后的第一幅"
+
+#: modules/process/mcrop.c:130
+msgid "Cropped second"
+msgstr "裁剪后的第二幅"

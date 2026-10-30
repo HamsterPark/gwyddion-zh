@@ -1,0 +1,418 @@
+# Gwyddion 2.71 Simplified Chinese translation.
+# Copyright (C) 2026 Gwyddion Chinese localization contributors
+# This file is distributed under the same license as the Gwyddion package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 12:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/process/gradient.c:43
+msgid "Creates presentations with various gradients (Sobel, Prewitt)."
+msgstr "创建具有各种梯度（Sobel、Prewitt）的展示图像。"
+
+#: modules/process/gradient.c:58
+msgid "/_Presentation/_Gradient/_Sobel (horizontal)"
+msgstr "/展示(_P)/梯度(_G)/Sobel（水平）(_S)"
+
+#: modules/process/gradient.c:62
+msgid "Horizontal Sobel gradient presentation"
+msgstr "水平 Sobel 梯度展示"
+
+#: modules/process/gradient.c:65
+msgid "/_Presentation/_Gradient/_Sobel (vertical)"
+msgstr "/展示(_P)/梯度(_G)/Sobel（垂直）(_S)"
+
+#: modules/process/gradient.c:69
+msgid "Vertical Sobel gradient presentation"
+msgstr "垂直 Sobel 梯度展示"
+
+#: modules/process/gradient.c:72
+msgid "/_Presentation/_Gradient/_Prewitt (horizontal)"
+msgstr "/展示(_P)/梯度(_G)/Prewitt（水平）(_P)"
+
+#: modules/process/gradient.c:76
+msgid "Horizontal Prewitt gradient presentation"
+msgstr "水平 Prewitt 梯度展示"
+
+#: modules/process/gradient.c:79
+msgid "/_Presentation/_Gradient/_Prewitt (vertical)"
+msgstr "/展示(_P)/梯度(_G)/Prewitt（垂直）(_P)"
+
+#: modules/process/gradient.c:83
+msgid "Vertical Prewitt gradient presentation"
+msgstr "垂直 Prewitt 梯度展示"
+
+#: modules/process/gradient.c:86
+msgid "/_Presentation/_Gradient/_Azimuth"
+msgstr "/展示(_P)/梯度(_G)/方位角(_A)"
+
+#: modules/process/gradient.c:90
+msgid "Local slope azimuth presentation"
+msgstr "局部斜率方位角展示"
+
+#: modules/process/hough.c:54
+msgid "Hough transform."
+msgstr "Hough 变换。"
+
+#: modules/process/hough.c:68
+msgid "/_Integral Transforms/_Hough..."
+msgstr "/积分变换(_I)/Hough(_H)..."
+
+#: modules/process/hough.c:72
+msgid "Compute Hough transform"
+msgstr "计算 Hough 变换"
+
+#: modules/process/hough.c:91
+msgid "_Circle size"
+msgstr "圆大小(_C)"
+
+#: modules/process/hough.c:92
+msgid "_Transform type"
+msgstr "变换类型(_T)"
+
+#: modules/process/hough.c:140
+msgid "Hough line"
+msgstr "Hough 直线"
+
+#: modules/process/hough.c:144
+#, c-format
+msgid "Hough circle r=%d"
+msgstr "Hough 圆 r=%d"
+
+#: modules/process/hough.c:168
+msgid "Hough Transform"
+msgstr "Hough 变换"
+
+#: modules/process/immerse.c:144
+msgid "Immerse high resolution detail into overall image."
+msgstr "将高分辨率细节嵌入整体图像。"
+
+#: modules/process/immerse.c:158
+msgid "/M_ultidata/_Immerse Detail..."
+msgstr "/多数据(_U)/嵌入细节(_I)..."
+
+#: modules/process/immerse.c:162
+msgid "Immerse a detail into image"
+msgstr "将细节嵌入图像"
+
+#: modules/process/immerse.c:171
+msgid "_Upsample large image"
+msgstr "上采样大图像(_U)"
+
+#: modules/process/immerse.c:172
+msgid "_Downsample detail"
+msgstr "下采样细节(_D)"
+
+#: modules/process/immerse.c:175
+msgid "levelling|_None"
+msgstr "无(_N)"
+
+#: modules/process/immerse.c:176
+msgid "_Mean value"
+msgstr "均值(_M)"
+
+#: modules/process/immerse.c:185
+msgid "_Detail image"
+msgstr "细节图像(_D)"
+
+#: modules/process/immerse.c:186
+msgid "Result sampling"
+msgstr "结果采样"
+
+#: modules/process/immerse.c:188
+msgid "Detail leveling"
+msgstr "细节调平"
+
+#: modules/process/immerse.c:190
+msgid "Show _frame"
+msgstr "显示边框(_F)"
+
+#: modules/process/immerse.c:191
+msgid "Show _detail"
+msgstr "显示细节(_D)"
+
+#: modules/process/immerse.c:220
+msgid "Immersed detail"
+msgstr "已嵌入细节"
+
+#: modules/process/immerse.c:257
+msgid "Immerse Detail"
+msgstr "嵌入细节"
+
+#: modules/process/immerse.c:276
+msgid "_Locate"
+msgstr "定位(_L)"
+
+#: modules/process/laplace.c:43
+msgid "Removes data under mask, interpolating them with Laplace equation solution."
+msgstr "移除掩膜下的数据，并用拉普拉斯方程解进行插值。"
+
+#: modules/process/laplace.c:58
+msgid "/_Correct Data/_Interpolate Data Under Mask"
+msgstr "/校正数据(_C)/插值掩膜下的数据(_I)"
+
+#: modules/process/laplace.c:62
+msgid "Interpolate data under mask by solution of Laplace equation"
+msgstr "用拉普拉斯方程解插值掩膜下的数据"
+
+#: modules/process/laplace.c:66
+msgid "/_Correct Data/_Zero Data Under Mask"
+msgstr "/校正数据(_C)/将掩膜下数据置零(_Z)"
+
+#: modules/process/laplace.c:70
+msgid "Fill data under mask with zeros"
+msgstr "用零填充掩膜下的数据"
+
+#: modules/process/lat_synth.c:287
+msgid "Random constant"
+msgstr "随机常数"
+
+#: modules/process/lat_synth.c:288
+msgid "Random linear"
+msgstr "随机线性"
+
+#: modules/process/lat_synth.c:289
+msgid "Random bumpy"
+msgstr "随机起伏"
+
+#: modules/process/lat_synth.c:290
+msgid "Radial distance"
+msgstr "径向距离"
+
+#: modules/process/lat_synth.c:291
+msgid "Segmented distance"
+msgstr "分段距离"
+
+#: modules/process/lat_synth.c:292
+msgid "Segmented random"
+msgstr "分段随机"
+
+#: modules/process/lat_synth.c:293
+msgid "Border distance"
+msgstr "边界距离"
+
+#: modules/process/lat_synth.c:294
+msgid "Border random"
+msgstr "边界随机"
+
+#: modules/process/lat_synth.c:295
+msgid "Second nearest distance"
+msgstr "第二最近距离"
+
+#: modules/process/lat_synth.c:301
+msgid "Generates surfaces based on regular or random lattices."
+msgstr "基于规则或随机晶格生成表面。"
+
+#: modules/process/lat_synth.c:315
+msgid "/S_ynthetic/_Lattice..."
+msgstr "/合成(_Y)/晶格(_L)..."
+
+#: modules/process/lat_synth.c:319
+msgid "Generate lattice based surface"
+msgstr "生成基于晶格的表面"
+
+#: modules/process/lat_synth.c:328
+msgid "lattice|Random"
+msgstr "随机"
+
+#: modules/process/lat_synth.c:329
+msgid "lattice|Square"
+msgstr "正方"
+
+#: modules/process/lat_synth.c:331
+msgid "lattice|Triangular"
+msgstr "三角"
+
+#: modules/process/lat_synth.c:332
+msgid "lattice|Cairo"
+msgstr "开罗五边形"
+
+#: modules/process/lat_synth.c:333
+msgid "lattice|Snub square"
+msgstr "扭棱正方"
+
+#: modules/process/lat_synth.c:334
+msgid "lattice|Truncated square"
+msgstr "截角正方"
+
+#: modules/process/lat_synth.c:335
+msgid "Silicon 7x7"
+msgstr "硅 7×7"
+
+#: modules/process/lat_synth.c:336
+msgid "Skewed silicon 7x7"
+msgstr "畸变硅 7×7"
+
+#: modules/process/lat_synth.c:337
+msgid "lattice|Penrose (vertices)"
+msgstr "Penrose（顶点）"
+
+#: modules/process/lat_synth.c:338
+msgid "lattice|Penrose (centers)"
+msgstr "Penrose（中心）"
+
+#: modules/process/lat_synth.c:355
+msgid "Lattice rela_xation"
+msgstr "晶格弛豫(_X)"
+
+#: modules/process/lat_synth.c:356
+msgid "_Height relaxation"
+msgstr "高度弛豫(_H)"
+
+#: modules/process/lat_synth.c:372
+msgid "Lower threshold"
+msgstr "下限阈值"
+
+#: modules/process/lat_synth.c:374
+msgid "Upper threshold"
+msgstr "上限阈值"
+
+#: modules/process/lat_synth.c:461
+msgid "Surface"
+msgstr "表面"
+
+#: modules/process/lat_synth.c:504 modules/process/lat_synth.c:506
+msgid "steps"
+msgstr "步"
+
+#: modules/process/lat_synth.c:837
+msgid "Constructing lattice..."
+msgstr "正在构建晶格……"
+
+#: modules/process/lat_synth.c:852
+msgid "Relaxing lattice..."
+msgstr "正在弛豫晶格……"
+
+#: modules/process/lat_synth.c:860
+msgid "Relaxing heights..."
+msgstr "正在弛豫高度……"
+
+#: modules/process/latsim.c:59
+msgid "Lateral force simulator"
+msgstr "横向力模拟器"
+
+#: modules/process/latsim.c:73
+msgid "/SPM M_odes/_Force and Indentation/_Lateral Force..."
+msgstr "/SPM 模式(_O)/力与压入(_F)/横向力(_L)..."
+
+#: modules/process/latsim.c:77
+msgid "Simulate topography artifacts in lateral force channels"
+msgstr "模拟横向力通道中的形貌伪影"
+
+#: modules/process/latsim.c:92
+msgid "_Friction coefficient"
+msgstr "摩擦系数(_F)"
+
+#: modules/process/latsim.c:93
+msgid "_Adhesion force"
+msgstr "黏附力(_A)"
+
+#: modules/process/latsim.c:94
+msgid "_Normal force"
+msgstr "法向力(_N)"
+
+#: modules/process/latsim.c:132
+msgid "Fw lateral force "
+msgstr "正向横向力 "
+
+#: modules/process/latsim.c:140
+msgid "Rev lateral force"
+msgstr "反向横向力"
+
+#: modules/process/latsim.c:157
+msgid "Lateral Force Simulation"
+msgstr "横向力模拟"
+
+#: modules/process/lno_synth.c:202
+msgid "Steps"
+msgstr "阶跃"
+
+#: modules/process/lno_synth.c:204
+msgid "Ridges"
+msgstr "脊"
+
+#: modules/process/lno_synth.c:206
+msgid "Hum"
+msgstr "工频哼声"
+
+#: modules/process/lno_synth.c:217
+msgid "Generates various kinds of line noise."
+msgstr "生成各种线噪声。"
+
+#: modules/process/lno_synth.c:231
+msgid "/S_ynthetic/_Noise/_Line Noise..."
+msgstr "/合成(_Y)/噪声(_N)/线噪声(_L)..."
+
+#: modules/process/lno_synth.c:235
+msgid "Generate line noise"
+msgstr "生成线噪声"
+
+#: modules/process/lno_synth.c:262
+msgid "_Noise type"
+msgstr "噪声类型(_N)"
+
+#: modules/process/lno_synth.c:337 modules/process/lno_synth.c:397
+msgid "Line Noise"
+msgstr "线噪声"
+
+#: modules/process/lno_synth.c:545 modules/process/lno_synth.c:728
+msgid "_Within line"
+msgstr "扫描线内(_W)"
+
+#: modules/process/lno_synth.c:548
+msgid "C_umulative"
+msgstr "累积(_U)"
+
+#: modules/process/lno_synth.c:731
+msgid "Wi_dth"
+msgstr "宽度(_D)"
+
+#: modules/process/lno_synth.c:842
+msgid "Offset _dispersion"
+msgstr "偏移离散度(_D)"
+
+#: modules/process/lno_synth.c:899
+msgid "_Wavelength"
+msgstr "波长(_W)"
+
+#: modules/process/lno_synth.c:901
+msgid "Co_mponents"
+msgstr "分量(_M)"
+
+#: modules/process/local_contrast.c:52
+msgid "Maximizes local contrast."
+msgstr "最大化局部对比度。"
+
+#: modules/process/local_contrast.c:66
+msgid "/_Presentation/Local _Contrast..."
+msgstr "/展示(_P)/局部对比度(_C)..."
+
+#: modules/process/local_contrast.c:70
+msgid "Presentation with maximized local contrast"
+msgstr "最大化局部对比度的展示图像"
+
+#: modules/process/local_contrast.c:86
+msgid "Blending _depth"
+msgstr "混合深度(_D)"
+
+#: modules/process/local_contrast.c:135
+msgid "Increase Local Contrast"
+msgstr "增强局部对比度"
+
+#: modules/process/logistic.c:106
+msgid "Trains logistic regression to mark grains."
+msgstr "训练逻辑回归以标记颗粒。"
+
+#: modules/process/logistic.c:120
+msgid "/_Grains/Logistic _Regression..."
+msgstr "/颗粒(_G)/逻辑回归(_R)..."

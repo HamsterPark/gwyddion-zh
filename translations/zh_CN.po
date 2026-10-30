@@ -13964,47 +13964,47 @@ msgstr "平均轮廓"
 
 #: modules/process/gradient.c:43
 msgid "Creates presentations with various gradients (Sobel, Prewitt)."
-msgstr ""
+msgstr "创建具有各种梯度（Sobel、Prewitt）的展示图像。"
 
 #: modules/process/gradient.c:58
 msgid "/_Presentation/_Gradient/_Sobel (horizontal)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Sobel（水平）(_S)"
 
 #: modules/process/gradient.c:62
 msgid "Horizontal Sobel gradient presentation"
-msgstr ""
+msgstr "水平 Sobel 梯度展示"
 
 #: modules/process/gradient.c:65
 msgid "/_Presentation/_Gradient/_Sobel (vertical)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Sobel（垂直）(_S)"
 
 #: modules/process/gradient.c:69
 msgid "Vertical Sobel gradient presentation"
-msgstr ""
+msgstr "垂直 Sobel 梯度展示"
 
 #: modules/process/gradient.c:72
 msgid "/_Presentation/_Gradient/_Prewitt (horizontal)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Prewitt（水平）(_P)"
 
 #: modules/process/gradient.c:76
 msgid "Horizontal Prewitt gradient presentation"
-msgstr ""
+msgstr "水平 Prewitt 梯度展示"
 
 #: modules/process/gradient.c:79
 msgid "/_Presentation/_Gradient/_Prewitt (vertical)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Prewitt（垂直）(_P)"
 
 #: modules/process/gradient.c:83
 msgid "Vertical Prewitt gradient presentation"
-msgstr ""
+msgstr "垂直 Prewitt 梯度展示"
 
 #: modules/process/gradient.c:86
 msgid "/_Presentation/_Gradient/_Azimuth"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/方位角(_A)"
 
 #: modules/process/gradient.c:90
 msgid "Local slope azimuth presentation"
-msgstr ""
+msgstr "局部斜率方位角展示"
 
 #: modules/process/grain_cross.c:89
 msgid "Plots one grain quantity as a function of another."
@@ -14420,96 +14420,96 @@ msgstr ""
 
 #: modules/process/hough.c:54
 msgid "Hough transform."
-msgstr ""
+msgstr "Hough 变换。"
 
 #: modules/process/hough.c:68
 msgid "/_Integral Transforms/_Hough..."
-msgstr ""
+msgstr "/积分变换(_I)/Hough(_H)..."
 
 #: modules/process/hough.c:72
 msgid "Compute Hough transform"
-msgstr ""
+msgstr "计算 Hough 变换"
 
 #: modules/process/hough.c:91
 msgid "_Circle size"
-msgstr ""
+msgstr "圆大小(_C)"
 
 #: modules/process/hough.c:92
 msgid "_Transform type"
-msgstr ""
+msgstr "变换类型(_T)"
 
 #: modules/process/hough.c:140
 msgid "Hough line"
-msgstr ""
+msgstr "Hough 直线"
 
 #: modules/process/hough.c:144
 #, c-format
 msgid "Hough circle r=%d"
-msgstr ""
+msgstr "Hough 圆 r=%d"
 
 #: modules/process/hough.c:168
 msgid "Hough Transform"
-msgstr ""
+msgstr "Hough 变换"
 
 #: modules/process/immerse.c:144
 msgid "Immerse high resolution detail into overall image."
-msgstr ""
+msgstr "将高分辨率细节嵌入整体图像。"
 
 #: modules/process/immerse.c:158
 msgid "/M_ultidata/_Immerse Detail..."
-msgstr ""
+msgstr "/多数据(_U)/嵌入细节(_I)..."
 
 #: modules/process/immerse.c:162
 msgid "Immerse a detail into image"
-msgstr ""
+msgstr "将细节嵌入图像"
 
 #: modules/process/immerse.c:171
 msgid "_Upsample large image"
-msgstr ""
+msgstr "上采样大图像(_U)"
 
 #: modules/process/immerse.c:172
 msgid "_Downsample detail"
-msgstr ""
+msgstr "下采样细节(_D)"
 
 #: modules/process/immerse.c:175
 msgid "levelling|_None"
-msgstr ""
+msgstr "无(_N)"
 
 #: modules/process/immerse.c:176
 msgid "_Mean value"
-msgstr ""
+msgstr "均值(_M)"
 
 #: modules/process/immerse.c:185
 msgid "_Detail image"
-msgstr ""
+msgstr "细节图像(_D)"
 
 #: modules/process/immerse.c:186
 msgid "Result sampling"
-msgstr ""
+msgstr "结果采样"
 
 #: modules/process/immerse.c:188
 msgid "Detail leveling"
-msgstr ""
+msgstr "细节调平"
 
 #: modules/process/immerse.c:190
 msgid "Show _frame"
-msgstr ""
+msgstr "显示边框(_F)"
 
 #: modules/process/immerse.c:191
 msgid "Show _detail"
-msgstr ""
+msgstr "显示细节(_D)"
 
 #: modules/process/immerse.c:220
 msgid "Immersed detail"
-msgstr ""
+msgstr "已嵌入细节"
 
 #: modules/process/immerse.c:257
 msgid "Immerse Detail"
-msgstr ""
+msgstr "嵌入细节"
 
 #: modules/process/immerse.c:276
 msgid "_Locate"
-msgstr ""
+msgstr "定位(_L)"
 
 #: modules/process/indent_analyze.c:179
 msgid "Analyses nanoindentation structure (volumes, surfaces, ...)."
@@ -14650,111 +14650,111 @@ msgstr "外部堆积投影面积"
 #: modules/process/laplace.c:43
 msgid ""
 "Removes data under mask, interpolating them with Laplace equation solution."
-msgstr ""
+msgstr "移除掩膜下的数据，并用拉普拉斯方程解进行插值。"
 
 #: modules/process/laplace.c:58
 msgid "/_Correct Data/_Interpolate Data Under Mask"
-msgstr ""
+msgstr "/校正数据(_C)/插值掩膜下的数据(_I)"
 
 #: modules/process/laplace.c:62
 msgid "Interpolate data under mask by solution of Laplace equation"
-msgstr ""
+msgstr "用拉普拉斯方程解插值掩膜下的数据"
 
 #: modules/process/laplace.c:66
 msgid "/_Correct Data/_Zero Data Under Mask"
-msgstr ""
+msgstr "/校正数据(_C)/将掩膜下数据置零(_Z)"
 
 #: modules/process/laplace.c:70
 msgid "Fill data under mask with zeros"
-msgstr ""
+msgstr "用零填充掩膜下的数据"
 
 #: modules/process/lat_synth.c:287
 msgid "Random constant"
-msgstr ""
+msgstr "随机常数"
 
 #: modules/process/lat_synth.c:288
 msgid "Random linear"
-msgstr ""
+msgstr "随机线性"
 
 #: modules/process/lat_synth.c:289
 msgid "Random bumpy"
-msgstr ""
+msgstr "随机起伏"
 
 #: modules/process/lat_synth.c:290
 msgid "Radial distance"
-msgstr ""
+msgstr "径向距离"
 
 #: modules/process/lat_synth.c:291
 msgid "Segmented distance"
-msgstr ""
+msgstr "分段距离"
 
 #: modules/process/lat_synth.c:292
 msgid "Segmented random"
-msgstr ""
+msgstr "分段随机"
 
 #: modules/process/lat_synth.c:293
 msgid "Border distance"
-msgstr ""
+msgstr "边界距离"
 
 #: modules/process/lat_synth.c:294
 msgid "Border random"
-msgstr ""
+msgstr "边界随机"
 
 #: modules/process/lat_synth.c:295
 msgid "Second nearest distance"
-msgstr ""
+msgstr "第二最近距离"
 
 #: modules/process/lat_synth.c:301
 msgid "Generates surfaces based on regular or random lattices."
-msgstr ""
+msgstr "基于规则或随机晶格生成表面。"
 
 #: modules/process/lat_synth.c:315
 msgid "/S_ynthetic/_Lattice..."
-msgstr ""
+msgstr "/合成(_Y)/晶格(_L)..."
 
 #: modules/process/lat_synth.c:319
 msgid "Generate lattice based surface"
-msgstr ""
+msgstr "生成基于晶格的表面"
 
 #: modules/process/lat_synth.c:328
 msgid "lattice|Random"
-msgstr ""
+msgstr "随机"
 
 #: modules/process/lat_synth.c:329
 msgid "lattice|Square"
-msgstr ""
+msgstr "正方"
 
 #: modules/process/lat_synth.c:331
 msgid "lattice|Triangular"
-msgstr ""
+msgstr "三角"
 
 #: modules/process/lat_synth.c:332
 msgid "lattice|Cairo"
-msgstr ""
+msgstr "开罗五边形"
 
 #: modules/process/lat_synth.c:333
 msgid "lattice|Snub square"
-msgstr ""
+msgstr "扭棱正方"
 
 #: modules/process/lat_synth.c:334
 msgid "lattice|Truncated square"
-msgstr ""
+msgstr "截角正方"
 
 #: modules/process/lat_synth.c:335
 msgid "Silicon 7x7"
-msgstr ""
+msgstr "硅 7×7"
 
 #: modules/process/lat_synth.c:336
 msgid "Skewed silicon 7x7"
-msgstr ""
+msgstr "畸变硅 7×7"
 
 #: modules/process/lat_synth.c:337
 msgid "lattice|Penrose (vertices)"
-msgstr ""
+msgstr "Penrose（顶点）"
 
 #: modules/process/lat_synth.c:338
 msgid "lattice|Penrose (centers)"
-msgstr ""
+msgstr "Penrose（中心）"
 
 #: modules/process/lat_synth.c:352 modules/process/measure_lattice.c:176
 msgid "_Lattice"
@@ -14762,11 +14762,11 @@ msgstr "晶格(_L)"
 
 #: modules/process/lat_synth.c:355
 msgid "Lattice rela_xation"
-msgstr ""
+msgstr "晶格弛豫(_X)"
 
 #: modules/process/lat_synth.c:356
 msgid "_Height relaxation"
-msgstr ""
+msgstr "高度弛豫(_H)"
 
 #: modules/process/lat_synth.c:370 modules/process/local_contrast.c:87
 msgid "_Weight"
@@ -14774,67 +14774,67 @@ msgstr "权重(_W)"
 
 #: modules/process/lat_synth.c:372
 msgid "Lower threshold"
-msgstr ""
+msgstr "下限阈值"
 
 #: modules/process/lat_synth.c:374
 msgid "Upper threshold"
-msgstr ""
+msgstr "上限阈值"
 
 #: modules/process/lat_synth.c:461
 msgid "Surface"
-msgstr ""
+msgstr "表面"
 
 #: modules/process/lat_synth.c:504 modules/process/lat_synth.c:506
 msgid "steps"
-msgstr ""
+msgstr "步"
 
 #: modules/process/lat_synth.c:837
 msgid "Constructing lattice..."
-msgstr ""
+msgstr "正在构建晶格……"
 
 #: modules/process/lat_synth.c:852
 msgid "Relaxing lattice..."
-msgstr ""
+msgstr "正在弛豫晶格……"
 
 #: modules/process/lat_synth.c:860
 msgid "Relaxing heights..."
-msgstr ""
+msgstr "正在弛豫高度……"
 
 #: modules/process/latsim.c:59
 msgid "Lateral force simulator"
-msgstr ""
+msgstr "横向力模拟器"
 
 #: modules/process/latsim.c:73
 msgid "/SPM M_odes/_Force and Indentation/_Lateral Force..."
-msgstr ""
+msgstr "/SPM 模式(_O)/力与压入(_F)/横向力(_L)..."
 
 #: modules/process/latsim.c:77
 msgid "Simulate topography artifacts in lateral force channels"
-msgstr ""
+msgstr "模拟横向力通道中的形貌伪影"
 
 #: modules/process/latsim.c:92
 msgid "_Friction coefficient"
-msgstr ""
+msgstr "摩擦系数(_F)"
 
 #: modules/process/latsim.c:93
 msgid "_Adhesion force"
-msgstr ""
+msgstr "黏附力(_A)"
 
 #: modules/process/latsim.c:94
 msgid "_Normal force"
-msgstr ""
+msgstr "法向力(_N)"
 
 #: modules/process/latsim.c:132
 msgid "Fw lateral force "
-msgstr ""
+msgstr "正向横向力 "
 
 #: modules/process/latsim.c:140
 msgid "Rev lateral force"
-msgstr ""
+msgstr "反向横向力"
 
 #: modules/process/latsim.c:157
 msgid "Lateral Force Simulation"
-msgstr ""
+msgstr "横向力模拟"
 
 #: modules/process/level.c:48
 msgid ""
@@ -15012,7 +15012,7 @@ msgstr "三角分布"
 
 #: modules/process/lno_synth.c:202
 msgid "Steps"
-msgstr ""
+msgstr "阶跃"
 
 #: modules/process/lno_synth.c:203 modules/volume/volume_scars.c:222
 msgid "Scars"
@@ -15020,7 +15020,7 @@ msgstr "划痕伪影"
 
 #: modules/process/lno_synth.c:204
 msgid "Ridges"
-msgstr ""
+msgstr "脊"
 
 #: modules/process/lno_synth.c:205 modules/process/tilt.c:173
 #: modules/tools/corrlen.c:176
@@ -15029,19 +15029,19 @@ msgstr "倾斜"
 
 #: modules/process/lno_synth.c:206
 msgid "Hum"
-msgstr ""
+msgstr "工频哼声"
 
 #: modules/process/lno_synth.c:217
 msgid "Generates various kinds of line noise."
-msgstr ""
+msgstr "生成各种线噪声。"
 
 #: modules/process/lno_synth.c:231
 msgid "/S_ynthetic/_Noise/_Line Noise..."
-msgstr ""
+msgstr "/合成(_Y)/噪声(_N)/线噪声(_L)..."
 
 #: modules/process/lno_synth.c:235
 msgid "Generate line noise"
-msgstr ""
+msgstr "生成线噪声"
 
 #: modules/process/lno_synth.c:244 modules/process/mask_noisify.c:91
 #: modules/process/noise_synth.c:163
@@ -15060,7 +15060,7 @@ msgstr "单侧负向(_N)"
 
 #: modules/process/lno_synth.c:262
 msgid "_Noise type"
-msgstr ""
+msgstr "噪声类型(_N)"
 
 #: modules/process/lno_synth.c:266 modules/process/noise_synth.c:180
 msgid "_Noise sign"
@@ -15068,7 +15068,7 @@ msgstr "噪声符号(_N)"
 
 #: modules/process/lno_synth.c:337 modules/process/lno_synth.c:397
 msgid "Line Noise"
-msgstr ""
+msgstr "线噪声"
 
 #: modules/process/lno_synth.c:404 modules/process/noise_synth.c:294
 msgid "Distribution"
@@ -15076,23 +15076,23 @@ msgstr "分布"
 
 #: modules/process/lno_synth.c:545 modules/process/lno_synth.c:728
 msgid "_Within line"
-msgstr ""
+msgstr "扫描线内(_W)"
 
 #: modules/process/lno_synth.c:548
 msgid "C_umulative"
-msgstr ""
+msgstr "累积(_U)"
 
 #: modules/process/lno_synth.c:731
 msgid "Wi_dth"
-msgstr ""
+msgstr "宽度(_D)"
 
 #: modules/process/lno_synth.c:842
 msgid "Offset _dispersion"
-msgstr ""
+msgstr "偏移离散度(_D)"
 
 #: modules/process/lno_synth.c:899
 msgid "_Wavelength"
-msgstr ""
+msgstr "波长(_W)"
 
 #: modules/process/lno_synth.c:900 modules/process/phase_synth.c:128
 msgid "_Spread"
@@ -15100,19 +15100,19 @@ msgstr "分布宽度(_S)"
 
 #: modules/process/lno_synth.c:901
 msgid "Co_mponents"
-msgstr ""
+msgstr "分量(_M)"
 
 #: modules/process/local_contrast.c:52
 msgid "Maximizes local contrast."
-msgstr ""
+msgstr "最大化局部对比度。"
 
 #: modules/process/local_contrast.c:66
 msgid "/_Presentation/Local _Contrast..."
-msgstr ""
+msgstr "/展示(_P)/局部对比度(_C)..."
 
 #: modules/process/local_contrast.c:70
 msgid "Presentation with maximized local contrast"
-msgstr ""
+msgstr "最大化局部对比度的展示图像"
 
 #: modules/process/local_contrast.c:85 modules/process/rank.c:107
 #: modules/process/trimmed-mean.c:112
@@ -15121,47 +15121,47 @@ msgstr "核大小(_S)"
 
 #: modules/process/local_contrast.c:86
 msgid "Blending _depth"
-msgstr ""
+msgstr "混合深度(_D)"
 
 #: modules/process/local_contrast.c:135
 msgid "Increase Local Contrast"
-msgstr ""
+msgstr "增强局部对比度"
 
 #: modules/process/logistic.c:106
 msgid "Trains logistic regression to mark grains."
-msgstr ""
+msgstr "训练逻辑回归以标记颗粒。"
 
 #: modules/process/logistic.c:120
 msgid "/_Grains/Logistic _Regression..."
-msgstr ""
+msgstr "/颗粒(_G)/逻辑回归(_R)..."
 
 #: modules/process/logistic.c:124
 msgid "Mark grains with logistic regression"
-msgstr ""
+msgstr "使用逻辑回归标记颗粒"
 
 #: modules/process/logistic.c:133
 msgid "_Use trained regression"
-msgstr ""
+msgstr "使用已训练的回归(_U)"
 
 #: modules/process/logistic.c:134
 msgid "_Train logistic regression"
-msgstr ""
+msgstr "训练逻辑回归(_T)"
 
 #: modules/process/logistic.c:145
 msgid "_Gaussian blur"
-msgstr ""
+msgstr "高斯模糊(_G)"
 
 #: modules/process/logistic.c:146
 msgid "_Number of Gaussians"
-msgstr ""
+msgstr "高斯数(_N)"
 
 #: modules/process/logistic.c:147
 msgid "_Sobel derivatives"
-msgstr ""
+msgstr "Sobel 导数(_S)"
 
 #: modules/process/logistic.c:149
 msgid "_Hessian"
-msgstr ""
+msgstr "Hessian 矩阵(_H)"
 
 #: modules/process/logistic.c:150 modules/process/maskcor.c:132
 msgid "_Regularization parameter"
@@ -15169,7 +15169,7 @@ msgstr "正则化参数(_R)"
 
 #: modules/process/logistic.c:222
 msgid "Logistic Regression"
-msgstr ""
+msgstr "逻辑回归"
 
 #: modules/process/logistic.c:398 modules/process/neural.c:792
 msgid "Training..."
@@ -15177,15 +15177,15 @@ msgstr "正在训练..."
 
 #: modules/process/mark_disconn.c:82
 msgid "Creates mask of values disconnected to the rest."
-msgstr ""
+msgstr "创建与其余数值不连通的值的掩膜。"
 
 #: modules/process/mark_disconn.c:96
 msgid "/_Correct Data/Mask of _Disconnected..."
-msgstr ""
+msgstr "/校正数据(_C)/不连通值掩膜(_D)..."
 
 #: modules/process/mark_disconn.c:100
 msgid "Mark data disconnected from other values"
-msgstr ""
+msgstr "标记与其他数值不连通的数据"
 
 #: modules/process/mark_disconn.c:109 modules/process/scars.c:123
 #: modules/volume/volume_scars.c:128 modules/xyz/xyz_tstep.c:124
@@ -15199,15 +15199,15 @@ msgstr "负"
 
 #: modules/process/mark_disconn.c:120
 msgid "Defect type"
-msgstr ""
+msgstr "缺陷类型"
 
 #: modules/process/mark_disconn.c:123
 msgid "Defect _radius"
-msgstr ""
+msgstr "缺陷半径(_R)"
 
 #: modules/process/mark_disconn.c:194
 msgid "Mark Disconnected"
-msgstr ""
+msgstr "标记不连通值"
 
 #: modules/process/mark_disconn.c:330 modules/process/rank-filter.c:292
 #: modules/process/trimmed-mean.c:180 modules/xyz/xyz_fft.c:458
@@ -15216,39 +15216,39 @@ msgstr "正在滤波..."
 
 #: modules/process/mark_disconn.c:351
 msgid "Marking outliers..."
-msgstr ""
+msgstr "正在标记异常值……"
 
 #: modules/process/mark_with.c:130
 msgid "Creates or modifies a mask using other channels."
-msgstr ""
+msgstr "使用其他通道创建或修改掩膜。"
 
 #: modules/process/mark_with.c:144
 msgid "/_Mask/Mark _With..."
-msgstr ""
+msgstr "/掩膜(_M)/标记方式(_W)..."
 
 #: modules/process/mark_with.c:148
 msgid "Mask combining and modification"
-msgstr ""
+msgstr "掩膜组合与修改"
 
 #: modules/process/mark_with.c:156
 msgid "Se_t mask"
-msgstr ""
+msgstr "设置掩膜(_T)"
 
 #: modules/process/mark_with.c:157
 msgid "_Add mask"
-msgstr ""
+msgstr "添加掩膜(_A)"
 
 #: modules/process/mark_with.c:158
 msgid "_Subtract mask"
-msgstr ""
+msgstr "减去掩膜(_S)"
 
 #: modules/process/mark_with.c:159
 msgid "_Intersect masks"
-msgstr ""
+msgstr "掩膜求交(_I)"
 
 #: modules/process/mark_with.c:169 modules/process/mark_with.c:295
 msgid "Mark with"
-msgstr ""
+msgstr "标记方式"
 
 #: modules/process/mark_with.c:171 modules/process/mask_morph.c:141
 msgid "Operation"
@@ -15256,75 +15256,75 @@ msgstr "操作"
 
 #: modules/process/mark_with.c:173
 msgid "_Minimum"
-msgstr ""
+msgstr "最小值(_M)"
 
 #: modules/process/mark_with.c:174
 msgid "M_aximum"
-msgstr ""
+msgstr "最大值(_A)"
 
 #: modules/process/mark_with.c:255
 msgid "Mark With"
-msgstr ""
+msgstr "标记方式"
 
 #: modules/process/mark_with.c:273
 msgid "Operand"
-msgstr ""
+msgstr "操作数"
 
 #: modules/process/mark_with.c:305
 msgid "Marked data range"
-msgstr ""
+msgstr "标记的数据范围"
 
 #: modules/process/mask_distribute.c:69
 msgid "Distributes masks to other channels."
-msgstr ""
+msgstr "将掩膜分发到其他通道。"
 
 #: modules/process/mask_distribute.c:83
 msgid "/_Mask/_Distribute..."
-msgstr ""
+msgstr "/掩膜(_M)/分发(_D)..."
 
 #: modules/process/mask_distribute.c:87
 msgid "Distribute mask to other channels"
-msgstr ""
+msgstr "将掩膜分发到其他通道"
 
 #: modules/process/mask_distribute.c:96
 msgid "Channels within the file"
-msgstr ""
+msgstr "文件内的通道"
 
 #: modules/process/mask_distribute.c:97
 msgid "Channels in all files"
-msgstr ""
+msgstr "所有文件中的通道"
 
 #: modules/process/mask_distribute.c:106
 msgid "Preserve existing masks"
-msgstr ""
+msgstr "保留现有掩膜"
 
 #: modules/process/mask_distribute.c:107
 msgid "Distribute to"
-msgstr ""
+msgstr "分发到"
 
 #: modules/process/mask_distribute.c:158
 msgid "Distribute Mask"
-msgstr ""
+msgstr "分发掩膜"
 
 #: modules/process/mask_edt.c:74
 msgid "Performs simple and true Euclidean distance transforms of masks."
-msgstr ""
+msgstr "对掩膜执行简单和真欧几里得距离变换。"
 
 #: modules/process/mask_edt.c:88
 msgid "/_Mask/Distanc_e Transform..."
-msgstr ""
+msgstr "/掩膜(_M)/距离变换(_E)..."
 
 #: modules/process/mask_edt.c:92
 msgid "Distance transform of mask"
-msgstr ""
+msgstr "掩膜距离变换"
 
 #: modules/process/mask_edt.c:101
 msgid "Interior"
-msgstr ""
+msgstr "内部"
 
 #: modules/process/mask_edt.c:103
 msgid "Two-sided"
-msgstr ""
+msgstr "双侧"
 
 #: modules/process/mask_edt.c:116 modules/tools/maskedit.c:235
 msgid "Shrink from _border"
@@ -15332,27 +15332,27 @@ msgstr "从边界收缩(_B)"
 
 #: modules/process/mask_edt.c:153 modules/process/mask_edt.c:179
 msgid "Distance Transform"
-msgstr ""
+msgstr "距离变换"
 
 #: modules/process/mask_morph.c:93
 msgid "Performs basic morphological operations with masks."
-msgstr ""
+msgstr "对掩膜执行基本形态学运算。"
 
 #: modules/process/mask_morph.c:107
 msgid "/_Mask/Morpho_logical Operation..."
-msgstr ""
+msgstr "/掩膜(_M)/形态学运算(_L)..."
 
 #: modules/process/mask_morph.c:111
 msgid "Morphological operation with mask"
-msgstr ""
+msgstr "对掩膜进行形态学运算"
 
 #: modules/process/mask_morph.c:120
 msgid "Erosion"
-msgstr ""
+msgstr "腐蚀"
 
 #: modules/process/mask_morph.c:121
 msgid "Dilation"
-msgstr ""
+msgstr "膨胀"
 
 #: modules/process/mask_morph.c:122 modules/tools/filter.c:146
 msgid "filter|Opening"
@@ -15372,19 +15372,19 @@ msgstr "交替顺序滤波（以闭运算结束）"
 
 #: modules/process/mask_morph.c:129
 msgid "Octagon"
-msgstr ""
+msgstr "八边形"
 
 #: modules/process/mask_morph.c:132
 msgid "Another mask"
-msgstr ""
+msgstr "另一掩膜"
 
 #: modules/process/mask_morph.c:143
 msgid "Structuring element"
-msgstr ""
+msgstr "结构元素"
 
 #: modules/process/mask_morph.c:146
 msgid "_Trim empty borders"
-msgstr ""
+msgstr "修剪空边框(_T)"
 
 #: modules/process/mask_morph.c:147 modules/tools/grainremover.c:113
 msgid "_Mask"
@@ -15392,83 +15392,83 @@ msgstr "掩膜(_M)"
 
 #: modules/process/mask_morph.c:213
 msgid "Morphological Operation"
-msgstr ""
+msgstr "形态学运算"
 
 #: modules/process/mask_noisify.c:64
 msgid "Adds salt and/or pepper noise to mask."
-msgstr ""
+msgstr "向掩膜添加椒盐噪声。"
 
 #: modules/process/mask_noisify.c:78
 msgid "/_Mask/_Noisify..."
-msgstr ""
+msgstr "/掩膜(_M)/加噪(_N)..."
 
 #: modules/process/mask_noisify.c:82
 msgid "Add noise to mask"
-msgstr ""
+msgstr "向掩膜添加噪声"
 
 #: modules/process/mask_noisify.c:103
 msgid "Noise type"
-msgstr ""
+msgstr "噪声类型"
 
 #: modules/process/mask_noisify.c:105
 msgid "_Alter only boundaries"
-msgstr ""
+msgstr "仅改变边界(_A)"
 
 #: modules/process/mask_noisify.c:152
 msgid "Noisify Mask"
-msgstr ""
+msgstr "掩膜加噪"
 
 #: modules/process/mask_shift.c:76
 msgid "Shift mask with respect to the image."
-msgstr ""
+msgstr "相对于图像平移掩膜。"
 
 #: modules/process/mask_shift.c:90
 msgid "/_Mask/_Shift..."
-msgstr ""
+msgstr "/掩膜(_M)/平移(_S)..."
 
 #: modules/process/mask_shift.c:94
 msgid "Shift mask"
-msgstr ""
+msgstr "平移掩膜"
 
 #: modules/process/mask_shift.c:103
 msgid "exterior|Empty"
-msgstr ""
+msgstr "空"
 
 #: modules/process/mask_shift.c:104
 msgid "exterior|Filled"
-msgstr ""
+msgstr "填充"
 
 #: modules/process/mask_shift.c:118
 msgid "_Horizontal shift"
-msgstr ""
+msgstr "水平平移(_H)"
 
 #: modules/process/mask_shift.c:119
 msgid "_Vertical shift"
-msgstr ""
+msgstr "垂直平移(_V)"
 
 #: modules/process/mask_shift.c:185
 msgid "Shift Mask"
-msgstr ""
+msgstr "平移掩膜"
 
 #: modules/process/maskcor.c:82
 msgid "Searches for a detail in another image using correlation."
-msgstr ""
+msgstr "使用相关在另一幅图像中搜索细节。"
 
 #: modules/process/maskcor.c:96
 msgid "/M_ultidata/Correlation _Search..."
-msgstr ""
+msgstr "/多数据(_U)/相关搜索(_S)..."
 
 #: modules/process/maskcor.c:100
 msgid "Search for a detail using correlation"
-msgstr ""
+msgstr "使用相关搜索细节"
 
 #: modules/process/maskcor.c:109
 msgid "Correlation, raw"
-msgstr ""
+msgstr "相关，原始"
 
 #: modules/process/maskcor.c:110
 msgid "Correlation, leveled"
-msgstr ""
+msgstr "相关，调平后"
 
 #: modules/process/maskcor.c:111 modules/process/maskcor.c:120
 #: modules/process/maskcor.c:172 modules/process/mcrop.c:123
@@ -15477,11 +15477,11 @@ msgstr "相关性得分"
 
 #: modules/process/maskcor.c:112
 msgid "Height difference, raw"
-msgstr ""
+msgstr "高度差，原始"
 
 #: modules/process/maskcor.c:113
 msgid "Height difference, leveled"
-msgstr ""
+msgstr "高度差，调平后"
 
 #: modules/process/maskcor.c:114 modules/process/mcrop.c:124
 msgid "Height difference score"
@@ -15493,127 +15493,127 @@ msgstr "纯相位得分"
 
 #: modules/process/maskcor.c:118
 msgid "Objects marked"
-msgstr ""
+msgstr "已标记对象"
 
 #: modules/process/maskcor.c:119
 msgid "Correlation maxima"
-msgstr ""
+msgstr "相关极大值"
 
 #: modules/process/maskcor.c:133
 msgid "Correlation _method"
-msgstr ""
+msgstr "相关方法(_M)"
 
 #: modules/process/maskcor.c:135
 msgid "Use _mask"
-msgstr ""
+msgstr "使用掩膜(_M)"
 
 #: modules/process/maskcor.c:136
 msgid "_Plot mask"
-msgstr ""
+msgstr "绘制掩膜(_P)"
 
 #: modules/process/maskcor.c:137
 msgid "_Detail to search"
-msgstr ""
+msgstr "要搜索的细节(_D)"
 
 #: modules/process/maskcor.c:205 modules/process/maskcor.c:216
 msgid "Correlation Search"
-msgstr ""
+msgstr "相关搜索"
 
 #: modules/process/maskops.c:46
 msgid "Basic operations with mask: inversion, removal, extraction."
-msgstr ""
+msgstr "掩膜的基本操作：反转、移除、提取。"
 
 #: modules/process/maskops.c:60
 msgid "/_Mask/_Remove Mask"
-msgstr ""
+msgstr "/掩膜(_M)/移除掩膜(_R)"
 
 #: modules/process/maskops.c:64
 msgid "Remove mask from data"
-msgstr ""
+msgstr "从数据中移除掩膜"
 
 #: modules/process/maskops.c:67
 msgid "/_Mask/_Invert Mask"
-msgstr ""
+msgstr "/掩膜(_M)/反转掩膜(_I)"
 
 #: modules/process/maskops.c:71
 msgid "Invert mask"
-msgstr ""
+msgstr "反转掩膜"
 
 #: modules/process/maskops.c:74
 msgid "/_Mask/_Extract Mask"
-msgstr ""
+msgstr "/掩膜(_M)/提取掩膜(_E)"
 
 #: modules/process/maskops.c:78
 msgid "Extract mask to a new image"
-msgstr ""
+msgstr "将掩膜提取为新图像"
 
 #: modules/process/maskops.c:81
 msgid "/_Grains/_Extract Numbers"
-msgstr ""
+msgstr "/颗粒(_G)/提取编号(_E)"
 
 #: modules/process/maskops.c:85
 msgid "Extract grain numbers to a new image"
-msgstr ""
+msgstr "将颗粒编号提取为新图像"
 
 #: modules/process/maskops.c:88
 msgid "/_Grains/_Remove Edge-Touching"
-msgstr ""
+msgstr "/颗粒(_G)/移除接触边缘的颗粒(_R)"
 
 #: modules/process/maskops.c:92
 msgid "Remove grains touching image edges"
-msgstr ""
+msgstr "移除接触图像边缘的颗粒"
 
 #: modules/process/maskops.c:95
 msgid "/_Mask/Thi_n"
-msgstr ""
+msgstr "/掩膜(_M)/细化(_N)"
 
 #: modules/process/maskops.c:99
 msgid "Thin mask"
-msgstr ""
+msgstr "细化掩膜"
 
 #: modules/process/maskops.c:193
 msgid "Grain Numbers"
-msgstr ""
+msgstr "颗粒编号"
 
 #: modules/process/mcrop.c:96
 msgid "Crops non-intersecting regions of two images."
-msgstr ""
+msgstr "裁剪两幅图像的非相交区域。"
 
 #: modules/process/mcrop.c:110
 msgid "/M_ultidata/Mutual C_rop..."
-msgstr ""
+msgstr "/多数据(_U)/交互裁剪(_R)..."
 
 #: modules/process/mcrop.c:114
 msgid "Crop non-intersecting regions of two images"
-msgstr ""
+msgstr "裁剪两幅图像的非相交区域"
 
 #: modules/process/mcrop.c:126
 msgid "Brute force score"
-msgstr ""
+msgstr "暴力搜索得分"
 
 #: modules/process/mcrop.c:129
 msgid "Cropped first"
-msgstr ""
+msgstr "裁剪后的第一幅"
 
 #: modules/process/mcrop.c:130
 msgid "Cropped second"
-msgstr ""
+msgstr "裁剪后的第二幅"
 
 #: modules/process/mcrop.c:141
 msgid "Create new images"
-msgstr ""
+msgstr "创建新图像"
 
 #: modules/process/mcrop.c:148
 msgid "_Kernel relative size"
-msgstr ""
+msgstr "核相对大小(_K)"
 
 #: modules/process/mcrop.c:238
 msgid "Mutual Crop"
-msgstr ""
+msgstr "交互裁剪"
 
 #: modules/process/mcrop.c:255
 msgid "Second image offset"
-msgstr ""
+msgstr "第二幅图像偏移"
 
 #: modules/process/measure_lattice.c:144
 msgid "Measures parameters of two-dimensional lattices."
@@ -15701,39 +15701,39 @@ msgstr "正在进行中位数调平..."
 
 #: modules/process/merge.c:154
 msgid "Merges two images."
-msgstr ""
+msgstr "合并两幅图像。"
 
 #: modules/process/merge.c:168
 msgid "/M_ultidata/_Merge..."
-msgstr ""
+msgstr "/多数据(_U)/合并(_M)..."
 
 #: modules/process/merge.c:172
 msgid "Merge two images"
-msgstr ""
+msgstr "合并两幅图像"
 
 #: modules/process/merge.c:181
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 #: modules/process/merge.c:182
 msgid "Down"
-msgstr ""
+msgstr "下"
 
 #: modules/process/merge.c:183
 msgid "adverb|Right"
-msgstr ""
+msgstr "右侧"
 
 #: modules/process/merge.c:184
 msgid "adverb|Left"
-msgstr ""
+msgstr "左侧"
 
 #: modules/process/merge.c:188
 msgid "merge-mode|Join"
-msgstr ""
+msgstr "拼接"
 
 #: modules/process/merge.c:189
 msgid "merge-mode|None"
-msgstr ""
+msgstr "无"
 
 #: modules/process/merge.c:192 modules/process/relate.c:667
 msgid "First image"
@@ -15750,23 +15750,23 @@ msgstr "平均值"
 
 #: modules/process/merge.c:195
 msgid "Interpolation"
-msgstr ""
+msgstr "插值"
 
 #: modules/process/merge.c:204
 msgid "_Merge with"
-msgstr ""
+msgstr "合并对象(_M)"
 
 #: modules/process/merge.c:205
 msgid "_Put second image"
-msgstr ""
+msgstr "放置第二幅图像(_P)"
 
 #: modules/process/merge.c:207
 msgid "_Align second image"
-msgstr ""
+msgstr "对齐第二幅图像(_A)"
 
 #: modules/process/merge.c:212
 msgid "Crop result to _avoid outside pixels"
-msgstr ""
+msgstr "裁剪结果以避开外部像素(_A)"
 
 #: modules/process/merge.c:213 modules/process/rotate.c:131
 msgid "Create _mask over exterior"
@@ -15774,23 +15774,23 @@ msgstr "在外部区域创建掩膜(_M)"
 
 #: modules/process/merge.c:247
 msgid "Merged images"
-msgstr ""
+msgstr "合并后的图像"
 
 #: modules/process/merge.c:274
 msgid "Merge Data"
-msgstr ""
+msgstr "合并数据"
 
 #: modules/process/mfm_current.c:98
 msgid "Simulation of current line magnetic field"
-msgstr ""
+msgstr "电流线磁场模拟"
 
 #: modules/process/mfm_current.c:112
 msgid "/SPM M_odes/_Magnetic/_Current Line Field..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/电流线磁场(_C)..."
 
 #: modules/process/mfm_current.c:116
 msgid "Simulate stray field above current line"
-msgstr ""
+msgstr "模拟电流线上方的杂散场"
 
 #: modules/process/mfm_current.c:147 modules/process/mfm_field.c:145
 #: modules/process/mfm_parallel.c:152
@@ -15804,7 +15804,7 @@ msgstr "条形"
 
 #: modules/process/mfm_current.c:160
 msgid "P_robe type"
-msgstr ""
+msgstr "探针类型(_R)"
 
 #: modules/process/mfm_current.c:162 modules/process/mfm_field.c:160
 #: modules/process/mfm_parallel.c:168
@@ -15813,15 +15813,15 @@ msgstr "输出平面高度(_O)"
 
 #: modules/process/mfm_current.c:163
 msgid "Stripe _current"
-msgstr ""
+msgstr "条带电流(_C)"
 
 #: modules/process/mfm_current.c:164
 msgid "_Stripe width"
-msgstr ""
+msgstr "条带宽度(_S)"
 
 #: modules/process/mfm_current.c:165
 msgid "_Position"
-msgstr ""
+msgstr "位置(_P)"
 
 #: modules/process/mfm_current.c:166 modules/process/mfm_field.c:163
 #: modules/process/mfm_parallel.c:175
@@ -15845,23 +15845,23 @@ msgstr "条形物长度（_Z）"
 
 #: modules/process/mfm_current.c:236
 msgid "Current Line Stray Field"
-msgstr ""
+msgstr "电流线杂散场"
 
 #: modules/process/mfm_current.c:290
 msgid "Probe"
-msgstr ""
+msgstr "探针"
 
 #: modules/process/mfm_field.c:96
 msgid "Simulation of magnetic field above perpendicular media"
-msgstr ""
+msgstr "垂直介质上方磁场模拟"
 
 #: modules/process/mfm_field.c:110
 msgid "/SPM M_odes/_Magnetic/_Perpendicular Media Field..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/垂直介质磁场(_P)..."
 
 #: modules/process/mfm_field.c:114
 msgid "Compute stray field above perpendicular magnetic medium"
-msgstr ""
+msgstr "计算垂直磁介质上方的杂散场"
 
 #: modules/process/mfm_field.c:157 modules/process/mfm_parallel.c:166
 msgid "_Probe type"
@@ -15869,7 +15869,7 @@ msgstr "探针类型(_P)"
 
 #: modules/process/mfm_field.c:159
 msgid "Include domain _walls"
-msgstr ""
+msgstr "包含畴壁(_W)"
 
 #: modules/process/mfm_field.c:161 modules/process/mfm_parallel.c:169
 msgid "_Film thickness"
@@ -15877,91 +15877,91 @@ msgstr "薄膜厚度(_F)"
 
 #: modules/process/mfm_field.c:162
 msgid "_Magnetic charge"
-msgstr ""
+msgstr "磁荷(_M)"
 
 #: modules/process/mfm_field.c:167
 msgid "_Exchange constant"
-msgstr ""
+msgstr "交换常数(_E)"
 
 #: modules/process/mfm_field.c:168
 msgid "_Uniaxial anisotropy"
-msgstr ""
+msgstr "单轴各向异性(_U)"
 
 #: modules/process/mfm_field.c:169
 msgid "Cantilever _angle"
-msgstr ""
+msgstr "悬臂角度(_A)"
 
 #: modules/process/mfm_field.c:277
 msgid "Perpendicular Media Stray Field"
-msgstr ""
+msgstr "垂直介质杂散场"
 
 #: modules/process/mfm_findshift.c:76
 msgid "Lift height difference estimation from data blur"
-msgstr ""
+msgstr "根据数据模糊估计抬升高度差"
 
 #: modules/process/mfm_findshift.c:90
 msgid "/SPM M_odes/_Magnetic/_Estimate Shift in Z..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/估计 Z 向偏移(_E)..."
 
 #: modules/process/mfm_findshift.c:94
 msgid "Estimate lift height difference in MFM data"
-msgstr ""
+msgstr "估计 MFM 数据中的抬升高度差"
 
 #: modules/process/mfm_findshift.c:109
 msgid "Search _from"
-msgstr ""
+msgstr "搜索起点(_F)"
 
 #: modules/process/mfm_findshift.c:110
 msgid "Search _to"
-msgstr ""
+msgstr "搜索终点(_T)"
 
 #: modules/process/mfm_findshift.c:112
 msgid "Data to compare"
-msgstr ""
+msgstr "用于比较的数据"
 
 #: modules/process/mfm_findshift.c:155
 msgid "Estimated shift:"
-msgstr ""
+msgstr "估计偏移："
 
 #: modules/process/mfm_findshift.c:165
 msgid "Shifted field difference"
-msgstr ""
+msgstr "偏移后场差"
 
 #: modules/process/mfm_findshift.c:181
 msgid "Estimate Lift Height Shift"
-msgstr ""
+msgstr "估计抬升高度偏移"
 
 #: modules/process/mfm_parallel.c:101
 msgid "Simulation of parallel magnetic media"
-msgstr ""
+msgstr "平行磁介质模拟"
 
 #: modules/process/mfm_parallel.c:115
 msgid "/SPM M_odes/_Magnetic/Para_llel Media Field..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/平行介质磁场(_L)..."
 
 #: modules/process/mfm_parallel.c:119
 msgid "Simulate stray field above parallel magnetic medium"
-msgstr ""
+msgstr "模拟平行磁介质上方的杂散场"
 
 #: modules/process/mfm_parallel.c:170
 msgid "_Remanent magnetization"
-msgstr ""
+msgstr "剩磁化强度(_R)"
 
 #: modules/process/mfm_parallel.c:172
 msgid "Size _A (dir. left)"
-msgstr ""
+msgstr "尺寸 A（向左）(_A)"
 
 #: modules/process/mfm_parallel.c:173
 msgid "Size _B (dir. right)"
-msgstr ""
+msgstr "尺寸 B（向右）(_B)"
 
 #: modules/process/mfm_parallel.c:174
 msgid "_Gap size"
-msgstr ""
+msgstr "间隙大小(_G)"
 
 #: modules/process/mfm_parallel.c:244
 msgid "Parallel Media Stray Field"
-msgstr ""
+msgstr "平行介质杂散场"
 
 #: modules/process/mfm_recalc.c:122 modules/volume/volume_mfmrecalc.c:77
 msgid "Converts the MFM data to force gradient."
@@ -15969,7 +15969,7 @@ msgstr "将 MFM 数据转换为力梯度。"
 
 #: modules/process/mfm_recalc.c:136
 msgid "/SPM M_odes/_Magnetic/_Recalculate to Force Gradient..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/重新计算为力梯度(_R)..."
 
 #: modules/process/mfm_recalc.c:140 modules/volume/volume_mfmrecalc.c:95
 msgid "Recalculate to force gradient"
@@ -16025,7 +16025,7 @@ msgstr "基准振幅(_B)"
 
 #: modules/process/mfm_recalc.c:180
 msgid "_Create new image"
-msgstr ""
+msgstr "创建新图像(_C)"
 
 #: modules/process/mfm_recalc.c:182 modules/volume/volume_mfmrecalc.c:124
 msgid "Result _type"
@@ -16037,7 +16037,7 @@ msgstr "重新计算时，数据值的单位必须为 deg、rad、m、Hz 或 V"
 
 #: modules/process/mfm_recalc.c:274
 msgid "Recalculated MFM data"
-msgstr ""
+msgstr "重新计算的 MFM 数据"
 
 #: modules/process/mfm_recalc.c:304 modules/volume/volume_mfmrecalc.c:213
 msgid "MFM Recalculate Data"
@@ -16045,27 +16045,27 @@ msgstr "MFM 数据重新计算"
 
 #: modules/process/mfm_shift.c:71
 msgid "Simulation of magnetic field z component change for another level"
-msgstr ""
+msgstr "模拟另一高度层上磁场 z 分量的变化"
 
 #: modules/process/mfm_shift.c:85
 msgid "/SPM M_odes/_Magnetic/_Field Shift in Z..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/磁场 Z 向偏移(_F)..."
 
 #: modules/process/mfm_shift.c:89
 msgid "Compute stray field shift for another z level"
-msgstr ""
+msgstr "计算另一 z 高度层的杂散场偏移"
 
 #: modules/process/mfm_shift.c:104
 msgid "_Z shift by"
-msgstr ""
+msgstr "Z 向偏移量(_Z)"
 
 #: modules/process/mfm_shift.c:140
 msgid "Shifted field"
-msgstr ""
+msgstr "偏移后的场"
 
 #: modules/process/mfm_shift.c:168
 msgid "Stray Field Plane Shift"
-msgstr ""
+msgstr "杂散场平面偏移"
 
 #: modules/process/multiprofile.c:111
 msgid ""
@@ -16118,27 +16118,27 @@ msgstr "上限"
 
 #: modules/process/neural.c:172
 msgid "Neural network SPM data processing"
-msgstr ""
+msgstr "神经网络 SPM 数据处理"
 
 #: modules/process/neural.c:198
 msgid "/M_ultidata/Neural Network _Training..."
-msgstr ""
+msgstr "/多数据(_U)/神经网络训练(_T)..."
 
 #: modules/process/neural.c:202
 msgid "Train a neural network for image processing"
-msgstr ""
+msgstr "训练用于图像处理的神经网络"
 
 #: modules/process/neural.c:205
 msgid "/M_ultidata/Apply _Neural Network..."
-msgstr ""
+msgstr "/多数据(_U)/应用神经网络(_N)..."
 
 #: modules/process/neural.c:209
 msgid "Process data using a trained neural network"
-msgstr ""
+msgstr "使用已训练的神经网络处理数据"
 
 #: modules/process/neural.c:218
 msgid "Model"
-msgstr ""
+msgstr "模型"
 
 #: modules/process/neural.c:219 modules/volume/volume_mfmrecalc.c:122
 msgid "Signal"
@@ -16146,230 +16146,230 @@ msgstr "信号"
 
 #: modules/process/neural.c:230
 msgid "_Model"
-msgstr ""
+msgstr "模型(_M)"
 
 #: modules/process/neural.c:231
 msgid "_Signal"
-msgstr ""
+msgstr "信号(_S)"
 
 #: modules/process/neural.c:232
 msgid "Training ste_ps"
-msgstr ""
+msgstr "训练步数(_P)"
 
 #: modules/process/neural.c:238
 msgid "Window _width"
-msgstr ""
+msgstr "窗口宽度(_W)"
 
 #: modules/process/neural.c:239
 msgid "Window h_eight"
-msgstr ""
+msgstr "窗口高度(_H)"
 
 #: modules/process/neural.c:240
 msgid "_Hidden nodes"
-msgstr ""
+msgstr "隐藏节点(_H)"
 
 #: modules/process/neural.c:244
 msgid "Power of source _XY"
-msgstr ""
+msgstr "源 XY 幂次(_X)"
 
 #: modules/process/neural.c:245
 msgid "Power of source _Z"
-msgstr ""
+msgstr "源 Z 幂次(_Z)"
 
 #: modules/process/neural.c:247
 msgid "_Fixed units"
-msgstr ""
+msgstr "固定单位(_F)"
 
 #: modules/process/neural.c:264
 msgid "_Scale proportionally to input"
-msgstr ""
+msgstr "按输入成比例缩放(_S)"
 
 #: modules/process/neural.c:326
 msgid "Evaluated signal"
-msgstr ""
+msgstr "评估信号"
 
 #. TRANSLATORS: Unnamed neural network that is/was in training.
 #: modules/process/neural.c:398
 msgid "In training"
-msgstr ""
+msgstr "训练中"
 
 #: modules/process/neural.c:463
 msgid "Neural Network Training"
-msgstr ""
+msgstr "神经网络训练"
 
 #: modules/process/neural.c:478
 msgid "Training error"
-msgstr ""
+msgstr "训练误差"
 
 #: modules/process/neural.c:479
 msgid "error"
-msgstr ""
+msgstr "误差"
 
 #: modules/process/neural.c:488
 msgid "NN training error"
-msgstr ""
+msgstr "神经网络训练误差"
 
 #: modules/process/neural.c:495
 msgid "Training"
-msgstr ""
+msgstr "训练"
 
 #: modules/process/neural.c:497
 msgid "Networks"
-msgstr ""
+msgstr "网络"
 
 #: modules/process/neural.c:528
 msgid "verb|_Train"
-msgstr ""
+msgstr "训练(_T)"
 
 #: modules/process/neural.c:529
 msgid "Re_initialize"
-msgstr ""
+msgstr "重新初始化(_I)"
 
 #: modules/process/neural.c:548
 msgid "Network"
-msgstr ""
+msgstr "网络"
 
 #: modules/process/neural.c:555
 msgid "Result Units"
-msgstr ""
+msgstr "结果单位"
 
 #: modules/process/neural.c:609
 msgid "Network _name:"
-msgstr ""
+msgstr "网络名称(_N)："
 
 #: modules/process/neural.c:632
 msgid "Apply Neural Network"
-msgstr ""
+msgstr "应用神经网络"
 
 #: modules/process/neural.c:696
 msgid "Model and signal are not compatible."
-msgstr ""
+msgstr "模型与信号不兼容。"
 
 #: modules/process/neural.c:703
 msgid "A field dimension is too small for chosen window size."
-msgstr ""
+msgstr "数据场某一维度小于所选窗口大小。"
 
 #: modules/process/neural.c:866 modules/process/neural.c:999
 msgid "Evaluating..."
-msgstr ""
+msgstr "正在评估……"
 
 #: modules/process/neural.c:967
 msgid "Training was canceled."
-msgstr ""
+msgstr "训练已取消。"
 
 #: modules/process/neural.c:976
 #, c-format
 msgid "Mean difference: %.*f %s"
-msgstr ""
+msgstr "平均差值：%.*f %s"
 
 #: modules/process/neural.c:1204
 #, c-format
 msgid "The name `%s' is invalid."
-msgstr ""
+msgstr "名称“%s”无效。"
 
 #: modules/process/noise_synth.c:130
 msgid "distribution|Salt and pepper"
-msgstr ""
+msgstr "椒盐"
 
 #: modules/process/noise_synth.c:136
 msgid "Generates uncorrelated random noise."
-msgstr ""
+msgstr "生成不相关随机噪声。"
 
 #: modules/process/noise_synth.c:150
 msgid "/S_ynthetic/_Noise/_Noise..."
-msgstr ""
+msgstr "/合成(_Y)/噪声(_N)/噪声(_N)..."
 
 #: modules/process/noise_synth.c:154
 msgid "Generate surface of uncorrelated noise"
-msgstr ""
+msgstr "生成不相关噪声表面"
 
 #: modules/process/noise_synth.c:249
 msgid "Random Noise"
-msgstr ""
+msgstr "随机噪声"
 
 #: modules/process/obj_synth.c:201
 msgid "Half-spheres"
-msgstr ""
+msgstr "半球"
 
 #: modules/process/obj_synth.c:202
 msgid "Pyramids"
-msgstr ""
+msgstr "金字塔"
 
 #: modules/process/obj_synth.c:203
 msgid "Half-nuggets"
-msgstr ""
+msgstr "半块状凸起"
 
 #: modules/process/obj_synth.c:204
 msgid "Thatches"
-msgstr ""
+msgstr "茅草屋顶状"
 
 #: modules/process/obj_synth.c:205
 msgid "Doughnuts"
-msgstr ""
+msgstr "甜甜圈"
 
 #: modules/process/obj_synth.c:206
 msgid "Tetrahedrons"
-msgstr ""
+msgstr "四面体"
 
 #: modules/process/obj_synth.c:207
 msgid "Boxes"
-msgstr ""
+msgstr "长方体"
 
 #: modules/process/obj_synth.c:208
 msgid "Cones"
-msgstr ""
+msgstr "圆锥"
 
 #: modules/process/obj_synth.c:209
 msgid "Tents"
-msgstr ""
+msgstr "帐篷形"
 
 #: modules/process/obj_synth.c:210
 msgid "Diamonds"
-msgstr ""
+msgstr "菱形"
 
 #: modules/process/obj_synth.c:211
 msgid "Gaussians"
-msgstr ""
+msgstr "高斯形"
 
 #: modules/process/obj_synth.c:212
 msgid "Parabolic bumps"
-msgstr ""
+msgstr "抛物线凸起"
 
 #: modules/process/obj_synth.c:213
 msgid "Full spheres"
-msgstr ""
+msgstr "完整球体"
 
 #: modules/process/obj_synth.c:214
 msgid "Full nuggets"
-msgstr ""
+msgstr "完整块状凸起"
 
 #: modules/process/obj_synth.c:215
 msgid "Hexagonal pyramids"
-msgstr ""
+msgstr "六棱锥"
 
 #: modules/process/obj_synth.c:216
 msgid "Exp spikes"
-msgstr ""
+msgstr "指数尖峰"
 
 #: modules/process/obj_synth.c:217
 msgid "Semi-pyramids"
-msgstr ""
+msgstr "半金字塔"
 
 #: modules/process/obj_synth.c:223
 msgid "Generates randomly patterned surfaces by placing objects."
-msgstr ""
+msgstr "通过放置对象生成随机图案表面。"
 
 #: modules/process/obj_synth.c:237
 msgid "/S_ynthetic/_Deposition/_Objects..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/对象(_O)..."
 
 #: modules/process/obj_synth.c:241
 msgid "Generate surface of randomly placed objects"
-msgstr ""
+msgstr "生成随机放置对象的表面"
 
 #: modules/process/obj_synth.c:281
 msgid "_Feature sign"
-msgstr ""
+msgstr "特征符号(_F)"
 
 #: modules/process/obj_synth.c:282 modules/process/pileup_synth.c:219
 msgid "Colum_narity"
@@ -16385,11 +16385,11 @@ msgstr "纵横比(_A)"
 
 #: modules/process/obj_synth.c:290
 msgid "Scales _with size"
-msgstr ""
+msgstr "随尺寸缩放(_W)"
 
 #: modules/process/obj_synth.c:361
 msgid "Random Objects"
-msgstr ""
+msgstr "随机对象"
 
 #: modules/process/obj_synth.c:416 modules/process/pileup_synth.c:348
 msgid "Aspect Ratio"
@@ -16397,11 +16397,11 @@ msgstr "纵横比"
 
 #: modules/process/otsu_threshold.c:35 modules/process/otsu_threshold.c:53
 msgid "Automated threshold using Otsu's method on heights."
-msgstr ""
+msgstr "使用 Otsu 法对高度进行自动阈值处理。"
 
 #: modules/process/otsu_threshold.c:49
 msgid "/_Grains/_Mark by Otsu's"
-msgstr ""
+msgstr "/颗粒(_G)/按 Otsu 法标记(_M)"
 
 #: modules/process/outliers.c:41
 msgid "Creates mask of outliers."
@@ -16417,57 +16417,57 @@ msgstr "标记与平均值相距超过 3σ 的数据"
 
 #: modules/process/pat_synth.c:368
 msgid "Staircase"
-msgstr ""
+msgstr "阶梯"
 
 #: modules/process/pat_synth.c:369
 msgid "Double staircase"
-msgstr ""
+msgstr "双阶梯"
 
 #: modules/process/pat_synth.c:370
 msgid "Grating"
-msgstr ""
+msgstr "光栅"
 
 #: modules/process/pat_synth.c:371
 msgid "Amphitheater"
-msgstr ""
+msgstr "阶梯剧场"
 
 #: modules/process/pat_synth.c:372
 msgid "Concentric rings"
-msgstr ""
+msgstr "同心圆环"
 
 #: modules/process/pat_synth.c:373
 msgid "Siemens star"
-msgstr ""
+msgstr "西门子星"
 
 #: modules/process/pat_synth.c:374
 msgid "Holes (rectangular)"
-msgstr ""
+msgstr "孔（矩形）"
 
 #: modules/process/pat_synth.c:375
 msgid "Pillars"
-msgstr ""
+msgstr "柱"
 
 #: modules/process/pat_synth.c:381
 msgid ""
 "Generates surfaces representing simple patterns (staircase, amphitheater, "
 "grating, holes and pillars, ...)."
-msgstr ""
+msgstr "生成表示简单图案（阶梯、阶梯剧场、光栅、孔与柱等）的表面。"
 
 #: modules/process/pat_synth.c:395
 msgid "/S_ynthetic/_Pattern..."
-msgstr ""
+msgstr "/合成(_Y)/图案(_P)..."
 
 #: modules/process/pat_synth.c:399
 msgid "Generate patterned surface"
-msgstr ""
+msgstr "生成图案化表面"
 
 #: modules/process/pat_synth.c:501
 msgid "Pattern"
-msgstr ""
+msgstr "图案"
 
 #: modules/process/pat_synth.c:1703 modules/process/pat_synth.c:2007
 msgid "_Terrace width"
-msgstr ""
+msgstr "台地宽度(_T)"
 
 #: modules/process/pat_synth.c:1705 modules/process/pat_synth.c:1800
 #: modules/process/pat_synth.c:1804 modules/process/pat_synth.c:1893
@@ -16475,56 +16475,56 @@ msgstr ""
 #: modules/process/pat_synth.c:2428 modules/process/pat_synth.c:2431
 #: modules/process/pat_synth.c:2576 modules/process/pat_synth.c:2579
 msgid "Position spread"
-msgstr ""
+msgstr "位置散布"
 
 #: modules/process/pat_synth.c:1707 modules/process/pat_synth.c:1899
 #: modules/process/pat_synth.c:2010 modules/process/pat_synth.c:2120
 #: modules/process/pat_synth.c:2439 modules/process/pat_synth.c:2584
 msgid "_Slope fraction"
-msgstr ""
+msgstr "斜坡比例(_S)"
 
 #: modules/process/pat_synth.c:1724 modules/process/pat_synth.c:1818
 #: modules/process/pat_synth.c:2033
 msgid "Terrace"
-msgstr ""
+msgstr "台地"
 
 #: modules/process/pat_synth.c:1798
 msgid "Terrace _X width"
-msgstr ""
+msgstr "台地 X 宽度(_X)"
 
 #: modules/process/pat_synth.c:1802
 msgid "Terrace _Y width"
-msgstr ""
+msgstr "台地 Y 宽度(_Y)"
 
 #: modules/process/pat_synth.c:1892 modules/process/pat_synth.c:2114
 msgid "_Period"
-msgstr ""
+msgstr "周期(_P)"
 
 #: modules/process/pat_synth.c:1895 modules/process/pat_synth.c:2117
 #: modules/process/pat_synth.c:2248
 msgid "_Top fraction"
-msgstr ""
+msgstr "顶部比例(_T)"
 
 #: modules/process/pat_synth.c:1898 modules/process/pat_synth.c:2122
 msgid "_Asymmetry"
-msgstr ""
+msgstr "不对称度(_A)"
 
 #: modules/process/pat_synth.c:1907 modules/process/pat_synth.c:2135
 msgid "Scale features with _width"
-msgstr ""
+msgstr "特征随宽度缩放(_W)"
 
 #: modules/process/pat_synth.c:1922 modules/process/pat_synth.c:2155
 #: modules/process/pat_synth.c:2269 modules/process/pat_synth.c:2466
 msgid "Duty Cycle"
-msgstr ""
+msgstr "占空比"
 
 #: modules/process/pat_synth.c:2014 modules/process/pat_synth.c:2125
 msgid "Super_ellipse parameter"
-msgstr ""
+msgstr "超椭圆参数(_E)"
 
 #: modules/process/pat_synth.c:2016 modules/process/pat_synth.c:2127
 msgid "_Parabolicity"
-msgstr ""
+msgstr "抛物化程度(_P)"
 
 #: modules/process/pat_synth.c:2018 modules/process/pat_synth.c:2129
 #: modules/process/pat_synth.c:2254 modules/process/wave_synth.c:207
@@ -16538,295 +16538,295 @@ msgstr "Y 中心(_Y)"
 
 #: modules/process/pat_synth.c:2247
 msgid "_Number of sectors"
-msgstr ""
+msgstr "扇区数(_N)"
 
 #: modules/process/pat_synth.c:2251
 msgid "_Edge shift"
-msgstr ""
+msgstr "边缘偏移(_E)"
 
 #: modules/process/pat_synth.c:2252
 msgid "_Slope width"
-msgstr ""
+msgstr "斜坡宽度(_S)"
 
 #: modules/process/pat_synth.c:2427 modules/process/pat_synth.c:2575
 msgid "_X Period"
-msgstr ""
+msgstr "X 周期(_X)"
 
 #: modules/process/pat_synth.c:2430 modules/process/pat_synth.c:2578
 msgid "_Y Period"
-msgstr ""
+msgstr "Y 周期(_Y)"
 
 #: modules/process/pat_synth.c:2433
 msgid "X top fraction"
-msgstr ""
+msgstr "X 顶部比例"
 
 #: modules/process/pat_synth.c:2436
 msgid "Y top fraction"
-msgstr ""
+msgstr "Y 顶部比例"
 
 #: modules/process/pat_synth.c:2441
 msgid "Roundn_ess"
-msgstr ""
+msgstr "圆度(_E)"
 
 #: modules/process/pat_synth.c:2481
 msgid "Roundness"
-msgstr ""
+msgstr "圆度"
 
 #: modules/process/pat_synth.c:2570
 msgid "Hexagon"
-msgstr ""
+msgstr "六边形"
 
 #: modules/process/pat_synth.c:2573
 msgid "S_hape"
-msgstr ""
+msgstr "形状(_H)"
 
 #: modules/process/pat_synth.c:2581
 msgid "Si_ze fraction"
-msgstr ""
+msgstr "尺寸比例(_Z)"
 
 #: modules/process/pfm.c:98
 msgid "Evaluates PFM data from multiple rotations."
-msgstr ""
+msgstr "从多个旋转角度评估 PFM 数据。"
 
 #: modules/process/pfm.c:112
 msgid "/_SPM Modes/_Electrical/_PFM..."
-msgstr ""
+msgstr "/SPM 模式(_S)/电学(_E)/PFM(_P)..."
 
 #: modules/process/pfm.c:116
 msgid "Processes PFM data from multiple rotations"
-msgstr ""
+msgstr "处理多个旋转角度的 PFM 数据"
 
 #: modules/process/pfm.c:126
 msgid "Clockwise"
-msgstr ""
+msgstr "顺时针"
 
 #: modules/process/pfm.c:127
 msgid "Counterclocwise"
-msgstr ""
+msgstr "逆时针"
 
 #: modules/process/pfm.c:128
 msgid "rotation|None"
-msgstr ""
+msgstr "无"
 
 #: modules/process/pfm.c:131
 msgid "In-plane angles"
-msgstr ""
+msgstr "面内角度"
 
 #: modules/process/pfm.c:132
 msgid "3D angles"
-msgstr ""
+msgstr "三维角度"
 
 #: modules/process/pfm.c:141 modules/process/pfm.c:145
 msgid "VPFM amplitude"
-msgstr ""
+msgstr "VPFM 幅值"
 
 #: modules/process/pfm.c:142 modules/process/pfm.c:146
 msgid "VPFM phase"
-msgstr ""
+msgstr "VPFM 相位"
 
 #: modules/process/pfm.c:143 modules/process/pfm.c:147
 msgid "LPFM amplitude"
-msgstr ""
+msgstr "LPFM 幅值"
 
 #: modules/process/pfm.c:144 modules/process/pfm.c:148
 msgid "LPFM phase"
-msgstr ""
+msgstr "LPFM 相位"
 
 #: modules/process/pfm.c:151
 msgid "Lateral factor"
-msgstr ""
+msgstr "横向因子"
 
 #: modules/process/pfm.c:155
 msgid "Vertical factor"
-msgstr ""
+msgstr "纵向因子"
 
 #: modules/process/pfm.c:158
 msgid "Rotate 90 deg data"
-msgstr ""
+msgstr "将数据旋转 90 度"
 
 #: modules/process/pfm.c:216 modules/process/pfm.c:234
 msgid "Magnitude"
-msgstr ""
+msgstr "幅值"
 
 #: modules/process/pfm.c:224 modules/process/pfm.c:242
 msgid "Azimuth"
-msgstr ""
+msgstr "方位角"
 
 #: modules/process/pfm.c:250
 msgid "Inclination"
-msgstr ""
+msgstr "倾角"
 
 #: modules/process/pfm.c:271
 msgid "PFM"
-msgstr ""
+msgstr "PFM"
 
 #: modules/process/pfm.c:281
 msgid "0 deg data"
-msgstr ""
+msgstr "0 度数据"
 
 #: modules/process/pfm.c:290
 msgid "90 deg data"
-msgstr ""
+msgstr "90 度数据"
 
 #: modules/process/pfm.c:381
 msgid "Amplitude and phase have the wrong units."
-msgstr ""
+msgstr "幅值和相位的单位不正确。"
 
 #: modules/process/pfm.c:383
 msgid "Amplitude has the wrong units"
-msgstr ""
+msgstr "幅值的单位不正确"
 
 #: modules/process/pfm.c:385
 msgid "Phase has the wrong units."
-msgstr ""
+msgstr "相位的单位不正确。"
 
 #: modules/process/phase_synth.c:94
 msgid "Generates phase-separated structures."
-msgstr ""
+msgstr "生成相分离结构。"
 
 #: modules/process/phase_synth.c:108
 msgid "/S_ynthetic/_Order and Disorder/P_hases..."
-msgstr ""
+msgstr "/合成(_Y)/有序与无序(_O)/相(_H)..."
 
 #: modules/process/phase_synth.c:112
 msgid "Generate surface with separated phases"
-msgstr ""
+msgstr "生成相分离表面"
 
 #: modules/process/phase_synth.c:195
 msgid "Separated Phases"
-msgstr ""
+msgstr "分离相"
 
 #: modules/process/pid.c:92 modules/process/pid.c:129
 msgid "PID Fwd result"
-msgstr ""
+msgstr "PID 正向结果"
 
 #: modules/process/pid.c:93 modules/process/pid.c:130
 msgid "PID Fwd max. force"
-msgstr ""
+msgstr "PID 正向最大力"
 
 #: modules/process/pid.c:94 modules/process/pid.c:131
 msgid "PID Rev result"
-msgstr ""
+msgstr "PID 反向结果"
 
 #: modules/process/pid.c:95 modules/process/pid.c:132
 msgid "PID Rev max. force"
-msgstr ""
+msgstr "PID 反向最大力"
 
 #: modules/process/pid.c:101
 msgid "A simple PID simulator"
-msgstr ""
+msgstr "简单 PID 模拟器"
 
 #: modules/process/pid.c:115
 msgid "/SPM M_odes/_Force and Indentation/_PID Simulation..."
-msgstr ""
+msgstr "/SPM 模式(_O)/力与压入(_F)/PID 模拟(_P)..."
 
 #: modules/process/pid.c:119
 msgid "Simulate PID effects on measurement"
-msgstr ""
+msgstr "模拟 PID 对测量的影响"
 
 #: modules/process/pid.c:142
 msgid "_Proportional"
-msgstr ""
+msgstr "比例(_P)"
 
 #: modules/process/pid.c:143
 msgid "_Integral"
-msgstr ""
+msgstr "积分(_I)"
 
 #: modules/process/pid.c:144
 msgid "_Derivative"
-msgstr ""
+msgstr "微分(_D)"
 
 #: modules/process/pid.c:145
 msgid "PID/scan speed _ratio"
-msgstr ""
+msgstr "PID/扫描速度比(_R)"
 
 #: modules/process/pid.c:146
 msgid "_Integration steps"
-msgstr ""
+msgstr "积分步数(_I)"
 
 #: modules/process/pid.c:147
 msgid "Force strength"
-msgstr ""
+msgstr "力强度"
 
 #: modules/process/pid.c:148
 msgid "Force setpoint"
-msgstr ""
+msgstr "力设定值"
 
 #: modules/process/pid.c:226 modules/process/pid.c:325
 msgid "Computation diverged."
-msgstr ""
+msgstr "计算发散。"
 
 #: modules/process/pid.c:227
 msgid "Try different parameters."
-msgstr ""
+msgstr "请尝试不同的参数。"
 
 #: modules/process/pid.c:252 modules/process/pid.c:261
 msgid "PID Simulation"
-msgstr ""
+msgstr "PID 模拟"
 
 #: modules/process/pid.c:321
 msgid "Computation canceled."
-msgstr ""
+msgstr "计算已取消。"
 
 #: modules/process/pid.c:370
 msgid "Scanning..."
-msgstr ""
+msgstr "正在扫描……"
 
 #: modules/process/pileup_synth.c:170
 msgid "Ellipsoids"
-msgstr ""
+msgstr "椭球"
 
 #: modules/process/pileup_synth.c:171
 msgid "Bars"
-msgstr ""
+msgstr "条"
 
 #: modules/process/pileup_synth.c:172
 msgid "Cylinders"
-msgstr ""
+msgstr "圆柱"
 
 #: modules/process/pileup_synth.c:173
 msgid "Nuggets"
-msgstr ""
+msgstr "块状凸起"
 
 #: modules/process/pileup_synth.c:174
 msgid "Hexagonal rods"
-msgstr ""
+msgstr "六棱柱"
 
 #: modules/process/pileup_synth.c:180
 msgid "Generates randomly patterned surfaces by piling up geometrical shapes."
-msgstr ""
+msgstr "通过堆积几何形状生成随机图案表面。"
 
 #: modules/process/pileup_synth.c:194
 msgid "/S_ynthetic/_Deposition/_Pile Up..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/堆积(_P)..."
 
 #: modules/process/pileup_synth.c:198
 msgid "Generate surface of randomly piled up shapes"
-msgstr ""
+msgstr "生成随机堆积形状的表面"
 
 #: modules/process/pileup_synth.c:292
 msgid "Pile Up Shapes"
-msgstr ""
+msgstr "堆积形状"
 
 #: modules/process/plateau_synth.c:144
 msgid "Generates images with stacked plateau-like structures."
-msgstr ""
+msgstr "生成具有堆叠平台结构的图像。"
 
 #: modules/process/plateau_synth.c:158
 msgid "/S_ynthetic/_Deposition/_Plateaus..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/平台(_P)..."
 
 #: modules/process/plateau_synth.c:162
 msgid "Generate image with random plateaus"
-msgstr ""
+msgstr "生成含随机平台的图像"
 
 #: modules/process/plateau_synth.c:177
 msgid "Ma_ximum size"
-msgstr ""
+msgstr "最大尺寸(_X)"
 
 #: modules/process/plateau_synth.c:178
 msgid "M_inimum size"
-msgstr ""
+msgstr "最小尺寸(_I)"
 
 #: modules/process/plateau_synth.c:179 modules/process/residue_synth.c:156
 msgid "Size power _law"
@@ -16834,63 +16834,63 @@ msgstr "尺寸幂律(_L)"
 
 #: modules/process/plateau_synth.c:180
 msgid "Shape _irregularity"
-msgstr ""
+msgstr "形状不规则度(_I)"
 
 #: modules/process/plateau_synth.c:181
 msgid "O_verlap fraction"
-msgstr ""
+msgstr "重叠比例(_V)"
 
 #: modules/process/plateau_synth.c:183
 msgid "Scale with _power of size"
-msgstr ""
+msgstr "按尺寸幂次缩放(_P)"
 
 #: modules/process/plateau_synth.c:185
 msgid "Height _spread"
-msgstr ""
+msgstr "高度散布(_S)"
 
 #: modules/process/plateau_synth.c:264
 msgid "Random Plateaus"
-msgstr ""
+msgstr "随机平台"
 
 #: modules/process/plateau_synth.c:801
 msgid "Generating objects..."
-msgstr ""
+msgstr "正在生成对象……"
 
 #: modules/process/polydistort.c:134
 msgid "Applies polynomial distortion in the horizontal plane."
-msgstr ""
+msgstr "在水平面内施加多项式畸变。"
 
 #: modules/process/polydistort.c:148
 msgid "/_Distortion/Pol_ynomial..."
-msgstr ""
+msgstr "/畸变(_D)/多项式(_Y)..."
 
 #: modules/process/polydistort.c:152
 msgid "Applies polynomial distortion in the horizontal plane"
-msgstr ""
+msgstr "在水平面内施加多项式畸变"
 
 #: modules/process/polydistort.c:202
 msgid "Distort by Polynomial"
-msgstr ""
+msgstr "按多项式畸变"
 
 #: modules/process/polydistort.c:266
 msgid "_Exterior type:"
-msgstr ""
+msgstr "外部类型(_E)："
 
 #: modules/process/polydistort.c:285
 msgid "Ori_ginal"
-msgstr ""
+msgstr "原始(_G)"
 
 #: modules/process/polydistort.c:286
 msgid "_Transformed"
-msgstr ""
+msgstr "变换后(_T)"
 
 #: modules/process/polydistort.c:292
 msgid "X Coefficients"
-msgstr ""
+msgstr "X 系数"
 
 #: modules/process/polydistort.c:306
 msgid "Y Coefficients"
-msgstr ""
+msgstr "Y 系数"
 
 #: modules/process/polylevel.c:101
 msgid "Independent degrees"
@@ -16939,47 +16939,47 @@ msgstr "保存表格"
 
 #: modules/process/presentationops.c:58
 msgid "Basic operations with presentation: extraction, removal."
-msgstr ""
+msgstr "展示图像的基本操作：提取、移除。"
 
 #: modules/process/presentationops.c:77
 msgid "_Data to attach"
-msgstr ""
+msgstr "要附加的数据(_D)"
 
 #: modules/process/presentationops.c:86
 msgid "/_Presentation/_Remove Presentation"
-msgstr ""
+msgstr "/展示(_P)/移除展示图像(_R)"
 
 #: modules/process/presentationops.c:90
 msgid "Remove presentation from data"
-msgstr ""
+msgstr "从数据中移除展示图像"
 
 #: modules/process/presentationops.c:93
 msgid "/_Presentation/E_xtract Presentation"
-msgstr ""
+msgstr "/展示(_P)/提取展示图像(_X)"
 
 #: modules/process/presentationops.c:97
 msgid "Extract presentation to a new image"
-msgstr ""
+msgstr "将展示图像提取为新图像"
 
 #: modules/process/presentationops.c:100
 msgid "/_Presentation/_Attach Presentation..."
-msgstr ""
+msgstr "/展示(_P)/附加展示图像(_A)..."
 
 #: modules/process/presentationops.c:104
 msgid "Attach another data field as presentation"
-msgstr ""
+msgstr "将另一数据场附加为展示图像"
 
 #: modules/process/presentationops.c:107
 msgid "/_Presentation/_Logscale"
-msgstr ""
+msgstr "/展示(_P)/对数标度(_L)"
 
 #: modules/process/presentationops.c:111
 msgid "Creates a presentation with logarithmic color scale"
-msgstr ""
+msgstr "创建使用对数色标的展示图像"
 
 #: modules/process/presentationops.c:248
 msgid "Attach Presentation"
-msgstr ""
+msgstr "附加展示图像"
 
 #: modules/process/psdf2d.c:124
 msgid ""
@@ -17052,23 +17052,23 @@ msgstr "Log-Phi PSDF"
 
 #: modules/process/psf-fit.c:177
 msgid "Gaussian (asymmetric)"
-msgstr ""
+msgstr "高斯（非对称）"
 
 #: modules/process/psf-fit.c:182
 msgid "Frequency-space exponential"
-msgstr ""
+msgstr "频率空间指数"
 
 #: modules/process/psf-fit.c:191
 msgid "Transfer function estimation by fitting explicit function form."
-msgstr ""
+msgstr "通过拟合显式函数形式估计传递函数。"
 
 #: modules/process/psf-fit.c:205
 msgid "/_Statistics/Transfer _Function Fit..."
-msgstr ""
+msgstr "/统计(_S)/传递函数拟合(_F)..."
 
 #: modules/process/psf-fit.c:209
 msgid "Fit transfer function from known data and image"
-msgstr ""
+msgstr "根据已知数据和图像拟合传递函数"
 
 #: modules/process/psf-fit.c:218 modules/process/psf-fit.c:280
 #: modules/process/psf.c:199 modules/process/psf.c:210
@@ -17088,11 +17088,11 @@ msgstr "理想响应(_I)"
 
 #: modules/process/psf-fit.c:312
 msgid "Fit Transfer Function"
-msgstr ""
+msgstr "拟合传递函数"
 
 #: modules/process/psf.c:172
 msgid "Transfer function estimation"
-msgstr ""
+msgstr "传递函数估计"
 
 #: modules/process/psf.c:186 modules/volume/volume_psf.c:211
 msgid "/_Statistics/_Transfer Function Guess..."
@@ -17100,7 +17100,7 @@ msgstr "/统计(_S)/估计传递函数(_T)..."
 
 #: modules/process/psf.c:190
 msgid "Estimate transfer function from known data and ideal image"
-msgstr ""
+msgstr "根据已知数据和理想图像估计传递函数"
 
 #: modules/process/psf.c:204 modules/volume/volume_psf.c:224
 msgid "Regularized filter"
@@ -17168,47 +17168,47 @@ msgstr "差值范数"
 
 #: modules/process/ptranslate.c:101
 msgid "Translates images in the XY plane, treating them as periodic."
-msgstr ""
+msgstr "在 XY 平面内平移图像，并将其视为周期性数据。"
 
 #: modules/process/ptranslate.c:115
 msgid "/_Correct Data/_Translate Periodically..."
-msgstr ""
+msgstr "/校正数据(_C)/周期平移(_T)..."
 
 #: modules/process/ptranslate.c:119
 msgid "Move data in XY plane, treating it as periodic"
-msgstr ""
+msgstr "在 XY 平面内移动数据，并将其视为周期性数据"
 
 #: modules/process/ptranslate.c:132
 msgid "Center"
-msgstr ""
+msgstr "中心"
 
 #: modules/process/ptranslate.c:133
 msgid "Top left corner"
-msgstr ""
+msgstr "左上角"
 
 #: modules/process/ptranslate.c:149
 msgid "_Move selected point to"
-msgstr ""
+msgstr "将所选点移动到(_M)"
 
 #: modules/process/ptranslate.c:153
 msgid "_Update coordinate offsets"
-msgstr ""
+msgstr "更新坐标偏移(_U)"
 
 #: modules/process/ptranslate.c:193
 msgid "Translated"
-msgstr ""
+msgstr "已平移"
 
 #: modules/process/ptranslate.c:232
 msgid "Translate Periodically"
-msgstr ""
+msgstr "周期平移"
 
 #: modules/process/ptranslate.c:243
 msgid "Translation"
-msgstr ""
+msgstr "平移"
 
 #: modules/process/ptranslate.c:258
 msgid "_Select Center"
-msgstr ""
+msgstr "选择中心(_S)"
 
 #: modules/process/rank-filter.c:82
 msgid ""
@@ -17268,23 +17268,23 @@ msgstr "秩"
 
 #: modules/process/rank.c:69
 msgid "Enhances local contrast using a rank transform."
-msgstr ""
+msgstr "使用秩变换增强局部对比度。"
 
 #: modules/process/rank.c:83
 msgid "/_Presentation/_Rank..."
-msgstr ""
+msgstr "/展示(_P)/秩变换(_R)..."
 
 #: modules/process/rank.c:87
 msgid "Presentation with local contrast ehnanced using a rank transform"
-msgstr ""
+msgstr "使用秩变换增强局部对比度的展示图像"
 
 #: modules/process/rank.c:96
 msgid "Rank transform"
-msgstr ""
+msgstr "秩变换"
 
 #: modules/process/rank.c:97
 msgid "Local normalization"
-msgstr ""
+msgstr "局部归一化"
 
 #: modules/process/rank.c:98 modules/process/wrapvalue.c:143
 #: modules/process/wrapvalue.c:145 modules/process/wrapvalue.c:147
@@ -17293,39 +17293,39 @@ msgstr "数值范围"
 
 #: modules/process/rank.c:163
 msgid "Rank Transform"
-msgstr ""
+msgstr "秩变换"
 
 #: modules/process/rank.c:195
 msgid "Rank transform..."
-msgstr ""
+msgstr "秩变换……"
 
 #: modules/process/raveraging.c:69
 msgid "Smooths images in polar coordinates."
-msgstr ""
+msgstr "在极坐标中平滑图像。"
 
 #: modules/process/raveraging.c:83
 msgid "/_Distortion/_Radial Smoothing..."
-msgstr ""
+msgstr "/畸变(_D)/径向平滑(_R)..."
 
 #: modules/process/raveraging.c:87
 msgid "Smooth image in polar coordinates"
-msgstr ""
+msgstr "在极坐标中平滑图像"
 
 #: modules/process/raveraging.c:102
 msgid "_Angle"
-msgstr ""
+msgstr "角度(_A)"
 
 #: modules/process/raveraging.c:144
 msgid "Radially smoothed"
-msgstr ""
+msgstr "径向平滑后"
 
 #: modules/process/raveraging.c:161
 msgid "Radial Smoothing"
-msgstr ""
+msgstr "径向平滑"
 
 #: modules/process/relate.c:196
 msgid "Proportion"
-msgstr ""
+msgstr "比例"
 
 #: modules/process/relate.c:201 modules/tools/corrlen.c:175
 msgid "Offset"
@@ -17333,7 +17333,7 @@ msgstr "偏移"
 
 #: modules/process/relate.c:216
 msgid "Parabolic"
-msgstr ""
+msgstr "抛物线"
 
 #: modules/process/relate.c:226 modules/volume/volume_cluster.c:286
 msgid "Logarithm"
@@ -17341,111 +17341,111 @@ msgstr "对数"
 
 #: modules/process/relate.c:235
 msgid "Plots one image data as a function of another and finds relations."
-msgstr ""
+msgstr "将一幅图像的数据绘制为另一幅图像的函数，并寻找关系。"
 
 #: modules/process/relate.c:249
 msgid "/_Multidata/_Relation..."
-msgstr ""
+msgstr "/多数据(_M)/关系(_R)..."
 
 #: modules/process/relate.c:253
 msgid "Find simple relations between data"
-msgstr ""
+msgstr "查找数据间的简单关系"
 
 #: modules/process/relate.c:335
 msgid "Relate"
-msgstr ""
+msgstr "关联"
 
 #: modules/process/reorder.c:68
 msgid "Reorders image data in different ways."
-msgstr ""
+msgstr "以不同方式重新排列图像数据。"
 
 #: modules/process/reorder.c:82
 msgid "/_Distortion/_Reorder..."
-msgstr ""
+msgstr "/畸变(_D)/重排(_R)..."
 
 #: modules/process/reorder.c:86
 msgid "Reorder image data"
-msgstr ""
+msgstr "重排图像数据"
 
 #: modules/process/reorder.c:107
 msgid "Reordering"
-msgstr ""
+msgstr "重排"
 
 #: modules/process/reorder.c:144
 msgid "Reordered"
-msgstr ""
+msgstr "已重排"
 
 #: modules/process/reorder.c:165
 msgid "Reorder"
-msgstr ""
+msgstr "重排"
 
 #: modules/process/resample.c:84
 msgid "Resamples data to specified pixel size."
-msgstr ""
+msgstr "将数据重采样到指定像素大小。"
 
 #: modules/process/resample.c:98
 msgid "/_Basic Operations/_Resample..."
-msgstr ""
+msgstr "/基本操作(_B)/重采样(_R)..."
 
 #: modules/process/resample.c:102
 msgid "Resample to pixel size"
-msgstr ""
+msgstr "重采样到指定像素大小"
 
 #: modules/process/resample.c:117
 msgid "_X pixel size"
-msgstr ""
+msgstr "X 像素大小(_X)"
 
 #: modules/process/resample.c:118
 msgid "_Y pixel size"
-msgstr ""
+msgstr "Y 像素大小(_Y)"
 
 #: modules/process/resample.c:122 modules/process/resample.c:123
 msgid "_Match pixel size"
-msgstr ""
+msgstr "匹配像素大小(_M)"
 
 #: modules/process/resample.c:191
 msgid "Resampled Data"
-msgstr ""
+msgstr "重采样后数据"
 
 #: modules/process/resample.c:219
 msgid "Resample"
-msgstr ""
+msgstr "重采样"
 
 #: modules/process/residue_synth.c:117
 msgid "Generates images by simulating residue of film removal."
-msgstr ""
+msgstr "通过模拟去膜残留生成图像。"
 
 #: modules/process/residue_synth.c:131
 msgid "/S_ynthetic/_Deposition/_Residue..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/残留(_R)..."
 
 #: modules/process/residue_synth.c:135
 msgid "Generate image of film residue"
-msgstr ""
+msgstr "生成薄膜残留图像"
 
 #: modules/process/residue_synth.c:153
 msgid "_Probability of a new location"
-msgstr ""
+msgstr "新位置概率(_P)"
 
 #: modules/process/residue_synth.c:155
 msgid "Ma_ximum radius"
-msgstr ""
+msgstr "最大半径(_X)"
 
 #: modules/process/residue_synth.c:223
 msgid "Residue"
-msgstr ""
+msgstr "残留"
 
 #: modules/process/roddeposit_synth.c:203
 msgid "Generates rod-like particles using simple dynamical model"
-msgstr ""
+msgstr "使用简单动力学模型生成棒状颗粒"
 
 #: modules/process/roddeposit_synth.c:217
 msgid "/S_ynthetic/_Deposition/_Rods..."
-msgstr ""
+msgstr "/合成(_Y)/沉积(_D)/棒状颗粒(_R)..."
 
 #: modules/process/roddeposit_synth.c:221
 msgid "Generate rod-like particles using dynamical model"
-msgstr ""
+msgstr "使用动力学模型生成棒状颗粒"
 
 #: modules/process/roddeposit_synth.c:320
 #: modules/process/roddeposit_synth.c:1007
@@ -17454,54 +17454,56 @@ msgid ""
 "Not all the particles could be deposited (%u),\n"
 "try more revise steps."
 msgstr ""
+"未能沉积所有颗粒（%u），\n"
+"请尝试增加修正步数。"
 
 #: modules/process/roddeposit_synth.c:476
 msgid "Particle r_adius:"
-msgstr ""
+msgstr "颗粒半径(_A)："
 
 #: modules/process/roddeposit_synth.c:488
 msgid "Distribution _width:"
-msgstr ""
+msgstr "分布宽度(_W)："
 
 #: modules/process/roddeposit_synth.c:502
 msgid "_Aspect ratio:"
-msgstr ""
+msgstr "纵横比(_A)："
 
 #: modules/process/roddeposit_synth.c:513
 msgid "A_spect ratio variance:"
-msgstr ""
+msgstr "纵横比方差(_S)："
 
 #: modules/process/roddeposit_synth.c:522
 msgid "LJ _particle strength:"
-msgstr ""
+msgstr "LJ 颗粒强度(_P)："
 
 #: modules/process/roddeposit_synth.c:530
 msgid "LJ _surface strength:"
-msgstr ""
+msgstr "LJ 表面强度(_S)："
 
 #: modules/process/roddeposit_synth.c:538
 msgid "_Surface mobility:"
-msgstr ""
+msgstr "表面迁移率(_S)："
 
 #: modules/process/roddeposit_synth.c:547
 msgid "_Gravity:"
-msgstr ""
+msgstr "重力(_G)："
 
 #: modules/process/roddeposit_synth.c:556
 msgid "Co_verage:"
-msgstr ""
+msgstr "覆盖率(_V)："
 
 #: modules/process/roddeposit_synth.c:564
 msgid "_Relax steps:"
-msgstr ""
+msgstr "弛豫步数(_R)："
 
 #: modules/process/roddeposit_synth.c:572
 msgid "Output statistics"
-msgstr ""
+msgstr "输出统计量"
 
 #: modules/process/roddeposit_synth.c:686
 msgid "Particle length"
-msgstr ""
+msgstr "颗粒长度"
 
 #: modules/process/roddeposit_synth.c:687
 #: modules/process/roddeposit_synth.c:706
@@ -17509,19 +17511,19 @@ msgstr ""
 #: modules/process/roddeposit_synth.c:746
 #: modules/process/roddeposit_synth.c:766
 msgid "Counts"
-msgstr ""
+msgstr "计数"
 
 #: modules/process/roddeposit_synth.c:705
 msgid "Particle width"
-msgstr ""
+msgstr "颗粒宽度"
 
 #: modules/process/roddeposit_synth.c:725
 msgid "Aspect ratio"
-msgstr ""
+msgstr "纵横比"
 
 #: modules/process/roddeposit_synth.c:745
 msgid "ϑ"
-msgstr ""
+msgstr "ϑ"
 
 #: modules/process/roddeposit_synth.c:765 modules/process/shade.c:108
 #: modules/process/tilt.c:105
@@ -17531,63 +17533,63 @@ msgstr "φ"
 #: modules/process/roddeposit_synth.c:1005
 #, c-format
 msgid "%d particles were deposited"
-msgstr ""
+msgstr "已沉积 %d 个颗粒"
 
 #: modules/process/roddeposit_synth.c:1372
 #: modules/process/roddeposit_synth.c:1534
 #, c-format
 msgid "Running revise (%d active particles)..."
-msgstr ""
+msgstr "正在修正（%d 个活动颗粒）……"
 
 #: modules/process/rotate.c:89
 msgid ""
 "Rotates data by arbitrary angle or to make characteristic directions "
 "parallel with x or y axis."
-msgstr ""
+msgstr "将数据旋转任意角度，或使特征方向与 x 轴或 y 轴平行。"
 
 #: modules/process/rotate.c:103
 msgid "/_Basic Operations/Rotate by _Angle..."
-msgstr ""
+msgstr "/基本操作(_B)/按角度旋转(_A)..."
 
 #: modules/process/rotate.c:107
 msgid "Rotate by arbitrary angle"
-msgstr ""
+msgstr "按任意角度旋转"
 
 #: modules/process/rotate.c:110
 msgid "/_Correct Data/_Unrotate..."
-msgstr ""
+msgstr "/校正数据(_C)/校正旋转(_U)..."
 
 #: modules/process/rotate.c:114
 msgid "Automatically correct rotation in horizontal plane"
-msgstr ""
+msgstr "自动校正水平面内的旋转"
 
 #: modules/process/rotate.c:122
 msgid "_Same as original"
-msgstr ""
+msgstr "与原图相同(_S)"
 
 #: modules/process/rotate.c:123
 msgid "_Expanded to complete data"
-msgstr ""
+msgstr "扩展为完整数据(_E)"
 
 #: modules/process/rotate.c:124
 msgid "C_ut to valid data"
-msgstr ""
+msgstr "裁剪为有效数据(_U)"
 
 #: modules/process/rotate.c:129
 msgid "Result size"
-msgstr ""
+msgstr "结果尺寸"
 
 #: modules/process/rotate.c:132
 msgid "Show _grid"
-msgstr ""
+msgstr "显示网格(_G)"
 
 #: modules/process/rotate.c:145
 msgid "Rotate by _angle"
-msgstr ""
+msgstr "按角度旋转(_A)"
 
 #: modules/process/rotate.c:159
 msgid "_Assume symmetry"
-msgstr ""
+msgstr "假定对称(_A)"
 
 #: modules/process/rotate.c:238 modules/volume/volume_swaxes.c:348
 msgid "Rotated Data"
@@ -17595,75 +17597,75 @@ msgstr "旋转后的数据"
 
 #: modules/process/rotate.c:261
 msgid "Correct Rotation"
-msgstr ""
+msgstr "校正旋转"
 
 #: modules/process/rotate.c:261 modules/process/rotate.c:283
 msgid "Rotate"
-msgstr ""
+msgstr "旋转"
 
 #: modules/process/rotate.c:274
 msgid "Structure"
-msgstr ""
+msgstr "结构"
 
 #: modules/process/rotate.c:279
 msgid "Correction"
-msgstr ""
+msgstr "校正"
 
 #: modules/process/scale.c:68
 msgid "Scales data by arbitrary factor."
-msgstr ""
+msgstr "按任意因子缩放数据。"
 
 #: modules/process/scale.c:82
 msgid "/_Basic Operations/_Scale..."
-msgstr ""
+msgstr "/基本操作(_B)/缩放(_S)..."
 
 #: modules/process/scale.c:86
 msgid "Scale data"
-msgstr ""
+msgstr "缩放数据"
 
 #: modules/process/scale.c:101
 msgid "Scale by _ratio"
-msgstr ""
+msgstr "按比例缩放(_R)"
 
 #: modules/process/scale.c:102
 msgid "_Proportional scaling"
-msgstr ""
+msgstr "等比例缩放(_P)"
 
 #: modules/process/scale.c:107
 msgid "New _width"
-msgstr ""
+msgstr "新宽度(_W)"
 
 #: modules/process/scale.c:108
 msgid "New _height"
-msgstr ""
+msgstr "新高度(_H)"
 
 #: modules/process/scale.c:183
 msgid "Scaled Data"
-msgstr ""
+msgstr "缩放后数据"
 
 #: modules/process/scale.c:201
 msgid "verb|Scale"
-msgstr ""
+msgstr "缩放"
 
 #: modules/process/scars.c:89
 msgid "Marks and/or removes scars (horizontal linear artifacts)."
-msgstr ""
+msgstr "标记和/或移除划痕（水平线状伪影）。"
 
 #: modules/process/scars.c:103
 msgid "/_Correct Data/M_ark Scars..."
-msgstr ""
+msgstr "/校正数据(_C)/标记划痕(_A)..."
 
 #: modules/process/scars.c:107
 msgid "Mark horizontal scars (strokes)"
-msgstr ""
+msgstr "标记水平划痕（条纹）"
 
 #: modules/process/scars.c:110
 msgid "/_Correct Data/Remove _Scars"
-msgstr ""
+msgstr "/校正数据(_C)/移除划痕(_S)"
 
 #: modules/process/scars.c:114
 msgid "Correct horizontal scars (strokes)"
-msgstr ""
+msgstr "校正水平划痕（条纹）"
 
 #: modules/process/scars.c:134 modules/volume/volume_scars.c:140
 msgid "Scars type"
@@ -17687,55 +17689,55 @@ msgstr "最大宽度(_W)"
 
 #: modules/process/scars.c:282
 msgid "Mark Scars"
-msgstr ""
+msgstr "标记划痕"
 
 #: modules/process/semsim.c:98
 msgid "Simple SEM image simulation from topography."
-msgstr ""
+msgstr "根据表面形貌进行简单 SEM 图像模拟。"
 
 #: modules/process/semsim.c:112
 msgid "/_Presentation/_SEM Image..."
-msgstr ""
+msgstr "/展示(_P)/SEM 图像(_S)..."
 
 #: modules/process/semsim.c:116
 msgid "Simple SEM simulation from topography"
-msgstr ""
+msgstr "根据表面形貌进行简单 SEM 模拟"
 
 #: modules/process/semsim.c:125
 msgid "Integration"
-msgstr ""
+msgstr "积分法"
 
 #: modules/process/semsim.c:126
 msgid "Monte Carlo"
-msgstr ""
+msgstr "Monte Carlo 法"
 
 #: modules/process/semsim.c:137
 msgid "_Quality"
-msgstr ""
+msgstr "质量(_Q)"
 
 #: modules/process/semsim.c:138
 msgid "_Integration radius"
-msgstr ""
+msgstr "积分半径(_I)"
 
 #: modules/process/semsim.c:157 modules/process/semsim.c:191
 msgid "SEM Image"
-msgstr ""
+msgstr "SEM 图像"
 
 #: modules/process/semsim.c:235
 msgid "SEM image simulation..."
-msgstr ""
+msgstr "正在模拟 SEM 图像……"
 
 #: modules/process/shade.c:74
 msgid "Creates a shaded presentation of data."
-msgstr ""
+msgstr "创建数据的阴影展示图像。"
 
 #: modules/process/shade.c:88
 msgid "/_Presentation/_Shading..."
-msgstr ""
+msgstr "/展示(_P)/阴影(_S)..."
 
 #: modules/process/shade.c:92
 msgid "Shade data"
-msgstr ""
+msgstr "为数据添加阴影"
 
 #: modules/process/shade.c:107 modules/process/tilt.c:104
 msgid "θ"
@@ -17743,11 +17745,11 @@ msgstr "θ"
 
 #: modules/process/shade.c:109 modules/process/shade.c:110
 msgid "_Mix"
-msgstr ""
+msgstr "混合(_M)"
 
 #: modules/process/shade.c:173
 msgid "Shading"
-msgstr ""
+msgstr "阴影"
 
 #: modules/process/slope_dist.c:108
 msgid ""
@@ -17805,15 +17807,15 @@ msgstr "倾角"
 
 #: modules/process/smm.c:183
 msgid "Interprets SMM measurement on a calibration sample"
-msgstr ""
+msgstr "解读校准样品的 SMM 测量数据"
 
 #: modules/process/smm.c:197
 msgid "/_SPM Modes/_Electrical/_SMM Calibration..."
-msgstr ""
+msgstr "/SPM 模式(_S)/电学(_E)/SMM 校准(_S)..."
 
 #: modules/process/smm.c:201
 msgid "Calibrate SMM using capacitors calibration sample"
-msgstr ""
+msgstr "使用电容校准样品校准 SMM"
 
 #: modules/process/smm.c:210 modules/process/smm_apply.c:133
 msgid "Re"
@@ -17833,11 +17835,11 @@ msgstr "对数幅值"
 
 #: modules/process/smm.c:217
 msgid "Re (S11)"
-msgstr ""
+msgstr "Re (S11)"
 
 #: modules/process/smm.c:218
 msgid "Im (S11)"
-msgstr ""
+msgstr "Im (S11)"
 
 #: modules/process/smm.c:219 modules/process/smm.c:265
 #: modules/process/smm.c:301 modules/process/smm.c:303
@@ -17856,7 +17858,7 @@ msgstr "第二个通道"
 
 #: modules/process/smm.c:239
 msgid "Plot result"
-msgstr ""
+msgstr "绘制结果"
 
 #: modules/process/smm.c:242 modules/process/smm_apply.c:153
 msgid "Reference impedance"
@@ -17869,11 +17871,11 @@ msgstr "频率"
 
 #: modules/process/smm.c:255
 msgid "Enable"
-msgstr ""
+msgstr "启用"
 
 #: modules/process/smm.c:260
 msgid "verb|Fit"
-msgstr ""
+msgstr "拟合"
 
 #: modules/process/smm.c:268 modules/process/smm_apply.c:158
 msgid "Re(e00)"
@@ -17901,58 +17903,58 @@ msgstr "Im(e11)"
 
 #: modules/process/smm.c:302
 msgid "S<sub>11</sub>"
-msgstr ""
+msgstr "S<sub>11</sub>"
 
 #: modules/process/smm.c:308
 msgid "nominal"
-msgstr ""
+msgstr "标称"
 
 #: modules/process/smm.c:313
 msgid "measured"
-msgstr ""
+msgstr "实测"
 
 #: modules/process/smm.c:361
 msgid "SMM Calibration"
-msgstr ""
+msgstr "SMM 校准"
 
 #: modules/process/smm.c:440
 msgid "Masks"
-msgstr ""
+msgstr "掩膜"
 
 #: modules/process/smm.c:441
 msgid "Capacitance [fF]"
-msgstr ""
+msgstr "电容 [fF]"
 
 #: modules/process/smm.c:562 modules/process/smm.c:704
 #: modules/process/smm.c:1118
 #, c-format
 msgid "Data not fitted."
-msgstr ""
+msgstr "数据未拟合。"
 
 #: modules/process/smm.c:982 modules/process/smm.c:983
 msgid "Re(S<sub>11</sub>)"
-msgstr ""
+msgstr "Re(S<sub>11</sub>)"
 
 #: modules/process/smm.c:990 modules/process/smm.c:991
 msgid "Im(S<sub>11</sub>)"
-msgstr ""
+msgstr "Im(S<sub>11</sub>)"
 
 #: modules/process/smm.c:1116 modules/process/smm.c:1207
 #, c-format
 msgid "Mean square difference: %g"
-msgstr ""
+msgstr "均方差：%g"
 
 #: modules/process/smm.c:1209
 msgid "Fit failed."
-msgstr ""
+msgstr "拟合失败。"
 
 #: modules/process/smm_apply.c:96
 msgid "Re(S11)"
-msgstr ""
+msgstr "Re(S11)"
 
 #: modules/process/smm_apply.c:97
 msgid "Im(S11)"
-msgstr ""
+msgstr "Im(S11)"
 
 #: modules/process/smm_apply.c:98
 msgid "Re(Ztip)"

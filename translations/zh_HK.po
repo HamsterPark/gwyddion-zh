@@ -16085,48 +16085,59 @@ msgid "Mean profile"
 msgstr "平均輪廓"
 
 #: modules/process/gradient.c:43
+#, fuzzy
 msgid "Creates presentations with various gradients (Sobel, Prewitt)."
-msgstr ""
+msgstr "創建具有各種梯度（Sobel、Prewitt）的展示圖像。"
 
 #: modules/process/gradient.c:58
+#, fuzzy
 msgid "/_Presentation/_Gradient/_Sobel (horizontal)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Sobel（水平）(_S)"
 
 #: modules/process/gradient.c:62
+#, fuzzy
 msgid "Horizontal Sobel gradient presentation"
-msgstr ""
+msgstr "水平 Sobel 梯度展示"
 
 #: modules/process/gradient.c:65
+#, fuzzy
 msgid "/_Presentation/_Gradient/_Sobel (vertical)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Sobel（垂直）(_S)"
 
 #: modules/process/gradient.c:69
+#, fuzzy
 msgid "Vertical Sobel gradient presentation"
-msgstr ""
+msgstr "垂直 Sobel 梯度展示"
 
 #: modules/process/gradient.c:72
+#, fuzzy
 msgid "/_Presentation/_Gradient/_Prewitt (horizontal)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Prewitt（水平）(_P)"
 
 #: modules/process/gradient.c:76
+#, fuzzy
 msgid "Horizontal Prewitt gradient presentation"
-msgstr ""
+msgstr "水平 Prewitt 梯度展示"
 
 #: modules/process/gradient.c:79
+#, fuzzy
 msgid "/_Presentation/_Gradient/_Prewitt (vertical)"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/Prewitt（垂直）(_P)"
 
 #: modules/process/gradient.c:83
+#, fuzzy
 msgid "Vertical Prewitt gradient presentation"
-msgstr ""
+msgstr "垂直 Prewitt 梯度展示"
 
 #: modules/process/gradient.c:86
+#, fuzzy
 msgid "/_Presentation/_Gradient/_Azimuth"
-msgstr ""
+msgstr "/展示(_P)/梯度(_G)/方位角(_A)"
 
 #: modules/process/gradient.c:90
+#, fuzzy
 msgid "Local slope azimuth presentation"
-msgstr ""
+msgstr "局部斜率方位角展示"
 
 #: modules/process/grain_cross.c:89
 #, fuzzy
@@ -16641,97 +16652,119 @@ msgstr ""
 "以下結果可能沒有實際意義。"
 
 #: modules/process/hough.c:54
+#, fuzzy
 msgid "Hough transform."
-msgstr ""
+msgstr "Hough 變換。"
 
 #: modules/process/hough.c:68
+#, fuzzy
 msgid "/_Integral Transforms/_Hough..."
-msgstr ""
+msgstr "/積分變換(_I)/Hough(_H)..."
 
 #: modules/process/hough.c:72
+#, fuzzy
 msgid "Compute Hough transform"
-msgstr ""
+msgstr "計算 Hough 變換"
 
 #: modules/process/hough.c:91
+#, fuzzy
 msgid "_Circle size"
-msgstr ""
+msgstr "圓大小(_C)"
 
 #: modules/process/hough.c:92
+#, fuzzy
 msgid "_Transform type"
-msgstr ""
+msgstr "變換類型(_T)"
 
 #: modules/process/hough.c:140
+#, fuzzy
 msgid "Hough line"
-msgstr ""
+msgstr "Hough 直線"
 
 #: modules/process/hough.c:144
-#, c-format
+#, c-format, fuzzy
 msgid "Hough circle r=%d"
-msgstr ""
+msgstr "Hough 圓 r=%d"
 
 #: modules/process/hough.c:168
+#, fuzzy
 msgid "Hough Transform"
-msgstr ""
+msgstr "Hough 變換"
 
 #: modules/process/immerse.c:144
+#, fuzzy
 msgid "Immerse high resolution detail into overall image."
-msgstr ""
+msgstr "將高分辨率細節嵌入整體圖像。"
 
 #: modules/process/immerse.c:158
+#, fuzzy
 msgid "/M_ultidata/_Immerse Detail..."
-msgstr ""
+msgstr "/多數據(_U)/嵌入細節(_I)..."
 
 #: modules/process/immerse.c:162
+#, fuzzy
 msgid "Immerse a detail into image"
-msgstr ""
+msgstr "將細節嵌入圖像"
 
 #: modules/process/immerse.c:171
+#, fuzzy
 msgid "_Upsample large image"
-msgstr ""
+msgstr "上採樣大圖像(_U)"
 
 #: modules/process/immerse.c:172
+#, fuzzy
 msgid "_Downsample detail"
-msgstr ""
+msgstr "下采樣細節(_D)"
 
 #: modules/process/immerse.c:175
+#, fuzzy
 msgid "levelling|_None"
-msgstr ""
+msgstr "無(_N)"
 
 #: modules/process/immerse.c:176
+#, fuzzy
 msgid "_Mean value"
-msgstr ""
+msgstr "均值(_M)"
 
 #: modules/process/immerse.c:185
+#, fuzzy
 msgid "_Detail image"
-msgstr ""
+msgstr "細節圖像(_D)"
 
 #: modules/process/immerse.c:186
+#, fuzzy
 msgid "Result sampling"
-msgstr ""
+msgstr "結果採樣"
 
 #: modules/process/immerse.c:188
+#, fuzzy
 msgid "Detail leveling"
-msgstr ""
+msgstr "細節調平"
 
 #: modules/process/immerse.c:190
+#, fuzzy
 msgid "Show _frame"
-msgstr ""
+msgstr "顯示邊框(_F)"
 
 #: modules/process/immerse.c:191
+#, fuzzy
 msgid "Show _detail"
-msgstr ""
+msgstr "顯示細節(_D)"
 
 #: modules/process/immerse.c:220
+#, fuzzy
 msgid "Immersed detail"
-msgstr ""
+msgstr "已嵌入細節"
 
 #: modules/process/immerse.c:257
+#, fuzzy
 msgid "Immerse Detail"
-msgstr ""
+msgstr "嵌入細節"
 
 #: modules/process/immerse.c:276
+#, fuzzy
 msgid "_Locate"
-msgstr ""
+msgstr "定位(_L)"
 
 #: modules/process/indent_analyze.c:179
 #, fuzzy
@@ -16904,113 +16937,140 @@ msgid "Outer pile-up projected area"
 msgstr "外部堆積投影面積"
 
 #: modules/process/laplace.c:43
+#, fuzzy
 msgid ""
 "Removes data under mask, interpolating them with Laplace equation solution."
-msgstr ""
+msgstr "移除掩膜下的數據，並用拉普拉斯方程解進行插值。"
 
 #: modules/process/laplace.c:58
+#, fuzzy
 msgid "/_Correct Data/_Interpolate Data Under Mask"
-msgstr ""
+msgstr "/校正數據(_C)/插值掩膜下的數據(_I)"
 
 #: modules/process/laplace.c:62
+#, fuzzy
 msgid "Interpolate data under mask by solution of Laplace equation"
-msgstr ""
+msgstr "用拉普拉斯方程解插值掩膜下的數據"
 
 #: modules/process/laplace.c:66
+#, fuzzy
 msgid "/_Correct Data/_Zero Data Under Mask"
-msgstr ""
+msgstr "/校正數據(_C)/將掩膜下數據置零(_Z)"
 
 #: modules/process/laplace.c:70
+#, fuzzy
 msgid "Fill data under mask with zeros"
-msgstr ""
+msgstr "用零填充掩膜下的數據"
 
 #: modules/process/lat_synth.c:287
+#, fuzzy
 msgid "Random constant"
-msgstr ""
+msgstr "隨機常數"
 
 #: modules/process/lat_synth.c:288
+#, fuzzy
 msgid "Random linear"
-msgstr ""
+msgstr "隨機線性"
 
 #: modules/process/lat_synth.c:289
+#, fuzzy
 msgid "Random bumpy"
-msgstr ""
+msgstr "隨機起伏"
 
 #: modules/process/lat_synth.c:290
+#, fuzzy
 msgid "Radial distance"
-msgstr ""
+msgstr "徑向距離"
 
 #: modules/process/lat_synth.c:291
+#, fuzzy
 msgid "Segmented distance"
-msgstr ""
+msgstr "分段距離"
 
 #: modules/process/lat_synth.c:292
+#, fuzzy
 msgid "Segmented random"
-msgstr ""
+msgstr "分段隨機"
 
 #: modules/process/lat_synth.c:293
+#, fuzzy
 msgid "Border distance"
-msgstr ""
+msgstr "邊界距離"
 
 #: modules/process/lat_synth.c:294
+#, fuzzy
 msgid "Border random"
-msgstr ""
+msgstr "邊界隨機"
 
 #: modules/process/lat_synth.c:295
+#, fuzzy
 msgid "Second nearest distance"
-msgstr ""
+msgstr "第二最近距離"
 
 #: modules/process/lat_synth.c:301
+#, fuzzy
 msgid "Generates surfaces based on regular or random lattices."
-msgstr ""
+msgstr "基於規則或隨機晶格生成表面。"
 
 #: modules/process/lat_synth.c:315
+#, fuzzy
 msgid "/S_ynthetic/_Lattice..."
-msgstr ""
+msgstr "/合成(_Y)/晶格(_L)..."
 
 #: modules/process/lat_synth.c:319
+#, fuzzy
 msgid "Generate lattice based surface"
-msgstr ""
+msgstr "生成基於晶格的表面"
 
 #: modules/process/lat_synth.c:328
+#, fuzzy
 msgid "lattice|Random"
-msgstr ""
+msgstr "隨機"
 
 #: modules/process/lat_synth.c:329
+#, fuzzy
 msgid "lattice|Square"
-msgstr ""
+msgstr "正方"
 
 #: modules/process/lat_synth.c:331
+#, fuzzy
 msgid "lattice|Triangular"
-msgstr ""
+msgstr "三角"
 
 #: modules/process/lat_synth.c:332
+#, fuzzy
 msgid "lattice|Cairo"
-msgstr ""
+msgstr "開羅五邊形"
 
 #: modules/process/lat_synth.c:333
+#, fuzzy
 msgid "lattice|Snub square"
-msgstr ""
+msgstr "扭稜正方"
 
 #: modules/process/lat_synth.c:334
+#, fuzzy
 msgid "lattice|Truncated square"
-msgstr ""
+msgstr "截角正方"
 
 #: modules/process/lat_synth.c:335
+#, fuzzy
 msgid "Silicon 7x7"
-msgstr ""
+msgstr "硅 7×7"
 
 #: modules/process/lat_synth.c:336
+#, fuzzy
 msgid "Skewed silicon 7x7"
-msgstr ""
+msgstr "畸變硅 7×7"
 
 #: modules/process/lat_synth.c:337
+#, fuzzy
 msgid "lattice|Penrose (vertices)"
-msgstr ""
+msgstr "Penrose（頂點）"
 
 #: modules/process/lat_synth.c:338
+#, fuzzy
 msgid "lattice|Penrose (centers)"
-msgstr ""
+msgstr "Penrose（中心）"
 
 #: modules/process/lat_synth.c:352 modules/process/measure_lattice.c:176
 #, fuzzy
@@ -17018,12 +17078,14 @@ msgid "_Lattice"
 msgstr "晶格(_L)"
 
 #: modules/process/lat_synth.c:355
+#, fuzzy
 msgid "Lattice rela_xation"
-msgstr ""
+msgstr "晶格弛豫(_X)"
 
 #: modules/process/lat_synth.c:356
+#, fuzzy
 msgid "_Height relaxation"
-msgstr ""
+msgstr "高度弛豫(_H)"
 
 #: modules/process/lat_synth.c:370 modules/process/local_contrast.c:87
 #, fuzzy
@@ -17031,68 +17093,84 @@ msgid "_Weight"
 msgstr "權重(_W)"
 
 #: modules/process/lat_synth.c:372
+#, fuzzy
 msgid "Lower threshold"
-msgstr ""
+msgstr "下限閾值"
 
 #: modules/process/lat_synth.c:374
+#, fuzzy
 msgid "Upper threshold"
-msgstr ""
+msgstr "上限閾值"
 
 #: modules/process/lat_synth.c:461
+#, fuzzy
 msgid "Surface"
-msgstr ""
+msgstr "表面"
 
 #: modules/process/lat_synth.c:504 modules/process/lat_synth.c:506
+#, fuzzy
 msgid "steps"
-msgstr ""
+msgstr "步"
 
 #: modules/process/lat_synth.c:837
+#, fuzzy
 msgid "Constructing lattice..."
-msgstr ""
+msgstr "正在構建晶格……"
 
 #: modules/process/lat_synth.c:852
+#, fuzzy
 msgid "Relaxing lattice..."
-msgstr ""
+msgstr "正在弛豫晶格……"
 
 #: modules/process/lat_synth.c:860
+#, fuzzy
 msgid "Relaxing heights..."
-msgstr ""
+msgstr "正在弛豫高度……"
 
 #: modules/process/latsim.c:59
+#, fuzzy
 msgid "Lateral force simulator"
-msgstr ""
+msgstr "橫向力模擬器"
 
 #: modules/process/latsim.c:73
+#, fuzzy
 msgid "/SPM M_odes/_Force and Indentation/_Lateral Force..."
-msgstr ""
+msgstr "/SPM 模式(_O)/力與壓入(_F)/橫向力(_L)..."
 
 #: modules/process/latsim.c:77
+#, fuzzy
 msgid "Simulate topography artifacts in lateral force channels"
-msgstr ""
+msgstr "模擬橫向力通道中的形貌偽影"
 
 #: modules/process/latsim.c:92
+#, fuzzy
 msgid "_Friction coefficient"
-msgstr ""
+msgstr "摩擦係數(_F)"
 
 #: modules/process/latsim.c:93
+#, fuzzy
 msgid "_Adhesion force"
-msgstr ""
+msgstr "黏附力(_A)"
 
 #: modules/process/latsim.c:94
+#, fuzzy
 msgid "_Normal force"
-msgstr ""
+msgstr "法向力(_N)"
 
 #: modules/process/latsim.c:132
+#, fuzzy
 msgid "Fw lateral force "
-msgstr ""
+msgstr "正向橫向力 "
 
 #: modules/process/latsim.c:140
+#, fuzzy
 msgid "Rev lateral force"
-msgstr ""
+msgstr "反向橫向力"
 
 #: modules/process/latsim.c:157
+#, fuzzy
 msgid "Lateral Force Simulation"
-msgstr ""
+msgstr "橫向力模擬"
 
 #: modules/process/level.c:48
 #, fuzzy
@@ -17311,8 +17389,9 @@ msgid "distribution|Triangular"
 msgstr "三角分佈"
 
 #: modules/process/lno_synth.c:202
+#, fuzzy
 msgid "Steps"
-msgstr ""
+msgstr "階躍"
 
 #: modules/process/lno_synth.c:203 modules/volume/volume_scars.c:222
 #, fuzzy
@@ -17320,8 +17399,9 @@ msgid "Scars"
 msgstr "劃痕偽影"
 
 #: modules/process/lno_synth.c:204
+#, fuzzy
 msgid "Ridges"
-msgstr ""
+msgstr "脊"
 
 #: modules/process/lno_synth.c:205 modules/process/tilt.c:173
 #: modules/tools/corrlen.c:176
@@ -17330,20 +17410,24 @@ msgid "Tilt"
 msgstr "傾斜"
 
 #: modules/process/lno_synth.c:206
+#, fuzzy
 msgid "Hum"
-msgstr ""
+msgstr "工頻哼聲"
 
 #: modules/process/lno_synth.c:217
+#, fuzzy
 msgid "Generates various kinds of line noise."
-msgstr ""
+msgstr "生成各種線噪聲。"
 
 #: modules/process/lno_synth.c:231
+#, fuzzy
 msgid "/S_ynthetic/_Noise/_Line Noise..."
-msgstr ""
+msgstr "/合成(_Y)/噪聲(_N)/線噪聲(_L)..."
 
 #: modules/process/lno_synth.c:235
+#, fuzzy
 msgid "Generate line noise"
-msgstr ""
+msgstr "生成線噪聲"
 
 #: modules/process/lno_synth.c:244 modules/process/mask_noisify.c:91
 #: modules/process/noise_synth.c:163
@@ -17364,8 +17448,9 @@ msgid "One-sided _negative"
 msgstr "單側負向(_N)"
 
 #: modules/process/lno_synth.c:262
+#, fuzzy
 msgid "_Noise type"
-msgstr ""
+msgstr "噪聲類型(_N)"
 
 #: modules/process/lno_synth.c:266 modules/process/noise_synth.c:180
 #, fuzzy
@@ -17373,8 +17458,9 @@ msgid "_Noise sign"
 msgstr "噪聲符號(_N)"
 
 #: modules/process/lno_synth.c:337 modules/process/lno_synth.c:397
+#, fuzzy
 msgid "Line Noise"
-msgstr ""
+msgstr "線噪聲"
 
 #: modules/process/lno_synth.c:404 modules/process/noise_synth.c:294
 #, fuzzy
@@ -17382,24 +17468,29 @@ msgid "Distribution"
 msgstr "分佈"
 
 #: modules/process/lno_synth.c:545 modules/process/lno_synth.c:728
+#, fuzzy
 msgid "_Within line"
-msgstr ""
+msgstr "掃描線內(_W)"
 
 #: modules/process/lno_synth.c:548
+#, fuzzy
 msgid "C_umulative"
-msgstr ""
+msgstr "累積(_U)"
 
 #: modules/process/lno_synth.c:731
+#, fuzzy
 msgid "Wi_dth"
-msgstr ""
+msgstr "寬度(_D)"
 
 #: modules/process/lno_synth.c:842
+#, fuzzy
 msgid "Offset _dispersion"
-msgstr ""
+msgstr "偏移離散度(_D)"
 
 #: modules/process/lno_synth.c:899
+#, fuzzy
 msgid "_Wavelength"
-msgstr ""
+msgstr "波長(_W)"
 
 #: modules/process/lno_synth.c:900 modules/process/phase_synth.c:128
 #, fuzzy
@@ -17407,20 +17498,24 @@ msgid "_Spread"
 msgstr "分佈寬度(_S)"
 
 #: modules/process/lno_synth.c:901
+#, fuzzy
 msgid "Co_mponents"
-msgstr ""
+msgstr "分量(_M)"
 
 #: modules/process/local_contrast.c:52
+#, fuzzy
 msgid "Maximizes local contrast."
-msgstr ""
+msgstr "最大化局部對比度。"
 
 #: modules/process/local_contrast.c:66
+#, fuzzy
 msgid "/_Presentation/Local _Contrast..."
-msgstr ""
+msgstr "/展示(_P)/局部對比度(_C)..."
 
 #: modules/process/local_contrast.c:70
+#, fuzzy
 msgid "Presentation with maximized local contrast"
-msgstr ""
+msgstr "最大化局部對比度的展示圖像"
 
 #: modules/process/local_contrast.c:85 modules/process/rank.c:107
 #: modules/process/trimmed-mean.c:112
@@ -17429,48 +17524,59 @@ msgid "Kernel _size"
 msgstr "核大小(_S)"
 
 #: modules/process/local_contrast.c:86
+#, fuzzy
 msgid "Blending _depth"
-msgstr ""
+msgstr "混合深度(_D)"
 
 #: modules/process/local_contrast.c:135
+#, fuzzy
 msgid "Increase Local Contrast"
-msgstr ""
+msgstr "增強局部對比度"
 
 #: modules/process/logistic.c:106
+#, fuzzy
 msgid "Trains logistic regression to mark grains."
-msgstr ""
+msgstr "訓練邏輯迴歸以標記顆粒。"
 
 #: modules/process/logistic.c:120
+#, fuzzy
 msgid "/_Grains/Logistic _Regression..."
-msgstr ""
+msgstr "/顆粒(_G)/邏輯迴歸(_R)..."
 
 #: modules/process/logistic.c:124
+#, fuzzy
 msgid "Mark grains with logistic regression"
-msgstr ""
+msgstr "使用邏輯迴歸標記顆粒"
 
 #: modules/process/logistic.c:133
+#, fuzzy
 msgid "_Use trained regression"
-msgstr ""
+msgstr "使用已訓練的迴歸(_U)"
 
 #: modules/process/logistic.c:134
+#, fuzzy
 msgid "_Train logistic regression"
-msgstr ""
+msgstr "訓練邏輯迴歸(_T)"
 
 #: modules/process/logistic.c:145
+#, fuzzy
 msgid "_Gaussian blur"
-msgstr ""
+msgstr "高斯模糊(_G)"
 
 #: modules/process/logistic.c:146
+#, fuzzy
 msgid "_Number of Gaussians"
-msgstr ""
+msgstr "高斯數(_N)"
 
 #: modules/process/logistic.c:147
+#, fuzzy
 msgid "_Sobel derivatives"
-msgstr ""
+msgstr "Sobel 導數(_S)"
 
 #: modules/process/logistic.c:149
+#, fuzzy
 msgid "_Hessian"
-msgstr ""
+msgstr "Hessian 矩陣(_H)"
 
 #: modules/process/logistic.c:150 modules/process/maskcor.c:132
 #, fuzzy
@@ -17478,8 +17584,9 @@ msgid "_Regularization parameter"
 msgstr "正則化參數(_R)"
 
 #: modules/process/logistic.c:222
+#, fuzzy
 msgid "Logistic Regression"
-msgstr ""
+msgstr "邏輯迴歸"
 
 #: modules/process/logistic.c:398 modules/process/neural.c:792
 #, fuzzy
@@ -17487,16 +17594,19 @@ msgid "Training..."
 msgstr "正在訓練..."
 
 #: modules/process/mark_disconn.c:82
+#, fuzzy
 msgid "Creates mask of values disconnected to the rest."
-msgstr ""
+msgstr "創建與其餘數值不連通的值的掩膜。"
 
 #: modules/process/mark_disconn.c:96
+#, fuzzy
 msgid "/_Correct Data/Mask of _Disconnected..."
-msgstr ""
+msgstr "/校正數據(_C)/不連通值掩膜(_D)..."
 
 #: modules/process/mark_disconn.c:100
+#, fuzzy
 msgid "Mark data disconnected from other values"
-msgstr ""
+msgstr "標記與其他數值不連通的數據"
 
 #: modules/process/mark_disconn.c:109 modules/process/scars.c:123
 #: modules/volume/volume_scars.c:128 modules/xyz/xyz_tstep.c:124
@@ -17511,16 +17621,19 @@ msgid "Negative"
 msgstr "負"
 
 #: modules/process/mark_disconn.c:120
+#, fuzzy
 msgid "Defect type"
-msgstr ""
+msgstr "缺陷類型"
 
 #: modules/process/mark_disconn.c:123
+#, fuzzy
 msgid "Defect _radius"
-msgstr ""
+msgstr "缺陷半徑(_R)"
 
 #: modules/process/mark_disconn.c:194
+#, fuzzy
 msgid "Mark Disconnected"
-msgstr ""
+msgstr "標記不連通值"
 
 #: modules/process/mark_disconn.c:330 modules/process/rank-filter.c:292
 #: modules/process/trimmed-mean.c:180 modules/xyz/xyz_fft.c:458
@@ -17529,40 +17642,49 @@ msgid "Filtering..."
 msgstr "正在濾波..."
 
 #: modules/process/mark_disconn.c:351
+#, fuzzy
 msgid "Marking outliers..."
-msgstr ""
+msgstr "正在標記異常值……"
 
 #: modules/process/mark_with.c:130
+#, fuzzy
 msgid "Creates or modifies a mask using other channels."
-msgstr ""
+msgstr "使用其他通道創建或修改掩膜。"
 
 #: modules/process/mark_with.c:144
+#, fuzzy
 msgid "/_Mask/Mark _With..."
-msgstr ""
+msgstr "/掩膜(_M)/標記方式(_W)..."
 
 #: modules/process/mark_with.c:148
+#, fuzzy
 msgid "Mask combining and modification"
-msgstr ""
+msgstr "掩膜組合與修改"
 
 #: modules/process/mark_with.c:156
+#, fuzzy
 msgid "Se_t mask"
-msgstr ""
+msgstr "設置掩膜(_T)"
 
 #: modules/process/mark_with.c:157
+#, fuzzy
 msgid "_Add mask"
-msgstr ""
+msgstr "添加掩膜(_A)"
 
 #: modules/process/mark_with.c:158
+#, fuzzy
 msgid "_Subtract mask"
-msgstr ""
+msgstr "減去掩膜(_S)"
 
 #: modules/process/mark_with.c:159
+#, fuzzy
 msgid "_Intersect masks"
-msgstr ""
+msgstr "掩膜求交(_I)"
 
 #: modules/process/mark_with.c:169 modules/process/mark_with.c:295
+#, fuzzy
 msgid "Mark with"
-msgstr ""
+msgstr "標記方式"
 
 #: modules/process/mark_with.c:171 modules/process/mask_morph.c:141
 #, fuzzy
@@ -17570,76 +17692,94 @@ msgid "Operation"
 msgstr "操作"
 
 #: modules/process/mark_with.c:173
+#, fuzzy
 msgid "_Minimum"
-msgstr ""
+msgstr "最小值(_M)"
 
 #: modules/process/mark_with.c:174
+#, fuzzy
 msgid "M_aximum"
-msgstr ""
+msgstr "最大值(_A)"
 
 #: modules/process/mark_with.c:255
+#, fuzzy
 msgid "Mark With"
-msgstr ""
+msgstr "標記方式"
 
 #: modules/process/mark_with.c:273
+#, fuzzy
 msgid "Operand"
-msgstr ""
+msgstr "操作數"
 
 #: modules/process/mark_with.c:305
+#, fuzzy
 msgid "Marked data range"
-msgstr ""
+msgstr "標記的數據範圍"
 
 #: modules/process/mask_distribute.c:69
+#, fuzzy
 msgid "Distributes masks to other channels."
-msgstr ""
+msgstr "將掩膜分發到其他通道。"
 
 #: modules/process/mask_distribute.c:83
+#, fuzzy
 msgid "/_Mask/_Distribute..."
-msgstr ""
+msgstr "/掩膜(_M)/分發(_D)..."
 
 #: modules/process/mask_distribute.c:87
+#, fuzzy
 msgid "Distribute mask to other channels"
-msgstr ""
+msgstr "將掩膜分發到其他通道"
 
 #: modules/process/mask_distribute.c:96
+#, fuzzy
 msgid "Channels within the file"
-msgstr ""
+msgstr "文件內的通道"
 
 #: modules/process/mask_distribute.c:97
+#, fuzzy
 msgid "Channels in all files"
-msgstr ""
+msgstr "所有文件中的通道"
 
 #: modules/process/mask_distribute.c:106
+#, fuzzy
 msgid "Preserve existing masks"
-msgstr ""
+msgstr "保留現有掩膜"
 
 #: modules/process/mask_distribute.c:107
+#, fuzzy
 msgid "Distribute to"
-msgstr ""
+msgstr "分發到"
 
 #: modules/process/mask_distribute.c:158
+#, fuzzy
 msgid "Distribute Mask"
-msgstr ""
+msgstr "分發掩膜"
 
 #: modules/process/mask_edt.c:74
+#, fuzzy
 msgid "Performs simple and true Euclidean distance transforms of masks."
-msgstr ""
+msgstr "對掩膜執行簡單和真歐幾里得距離變換。"
 
 #: modules/process/mask_edt.c:88
+#, fuzzy
 msgid "/_Mask/Distanc_e Transform..."
-msgstr ""
+msgstr "/掩膜(_M)/距離變換(_E)..."
 
 #: modules/process/mask_edt.c:92
+#, fuzzy
 msgid "Distance transform of mask"
-msgstr ""
+msgstr "掩膜距離變換"
 
 #: modules/process/mask_edt.c:101
+#, fuzzy
 msgid "Interior"
-msgstr ""
+msgstr "內部"
 
 #: modules/process/mask_edt.c:103
+#, fuzzy
 msgid "Two-sided"
-msgstr ""
+msgstr "雙側"
 
 #: modules/process/mask_edt.c:116 modules/tools/maskedit.c:235
 #, fuzzy
@@ -17647,28 +17787,34 @@ msgid "Shrink from _border"
 msgstr "從邊界收縮(_B)"
 
 #: modules/process/mask_edt.c:153 modules/process/mask_edt.c:179
+#, fuzzy
 msgid "Distance Transform"
-msgstr ""
+msgstr "距離變換"
 
 #: modules/process/mask_morph.c:93
+#, fuzzy
 msgid "Performs basic morphological operations with masks."
-msgstr ""
+msgstr "對掩膜執行基本形態學運算。"
 
 #: modules/process/mask_morph.c:107
+#, fuzzy
 msgid "/_Mask/Morpho_logical Operation..."
-msgstr ""
+msgstr "/掩膜(_M)/形態學運算(_L)..."
 
 #: modules/process/mask_morph.c:111
+#, fuzzy
 msgid "Morphological operation with mask"
-msgstr ""
+msgstr "對掩膜進行形態學運算"
 
 #: modules/process/mask_morph.c:120
+#, fuzzy
 msgid "Erosion"
-msgstr ""
+msgstr "腐蝕"
 
 #: modules/process/mask_morph.c:121
+#, fuzzy
 msgid "Dilation"
-msgstr ""
+msgstr "膨脹"
 
 #: modules/process/mask_morph.c:122 modules/tools/filter.c:146
 #, fuzzy
@@ -17691,20 +17837,24 @@ msgid "ASF Closing"
 msgstr "交替順序濾波（以閉運算結束）"
 
 #: modules/process/mask_morph.c:129
+#, fuzzy
 msgid "Octagon"
-msgstr ""
+msgstr "八邊形"
 
 #: modules/process/mask_morph.c:132
+#, fuzzy
 msgid "Another mask"
-msgstr ""
+msgstr "另一掩膜"
 
 #: modules/process/mask_morph.c:143
+#, fuzzy
 msgid "Structuring element"
-msgstr ""
+msgstr "結構元素"
 
 #: modules/process/mask_morph.c:146
+#, fuzzy
 msgid "_Trim empty borders"
-msgstr ""
+msgstr "修剪空邊框(_T)"
 
 #: modules/process/mask_morph.c:147 modules/tools/grainremover.c:113
 #, fuzzy
@@ -17712,84 +17862,104 @@ msgid "_Mask"
 msgstr "掩膜(_M)"
 
 #: modules/process/mask_morph.c:213
+#, fuzzy
 msgid "Morphological Operation"
-msgstr ""
+msgstr "形態學運算"
 
 #: modules/process/mask_noisify.c:64
+#, fuzzy
 msgid "Adds salt and/or pepper noise to mask."
-msgstr ""
+msgstr "向掩膜添加椒鹽噪聲。"
 
 #: modules/process/mask_noisify.c:78
+#, fuzzy
 msgid "/_Mask/_Noisify..."
-msgstr ""
+msgstr "/掩膜(_M)/加噪(_N)..."
 
 #: modules/process/mask_noisify.c:82
+#, fuzzy
 msgid "Add noise to mask"
-msgstr ""
+msgstr "向掩膜添加噪聲"
 
 #: modules/process/mask_noisify.c:103
+#, fuzzy
 msgid "Noise type"
-msgstr ""
+msgstr "噪聲類型"
 
 #: modules/process/mask_noisify.c:105
+#, fuzzy
 msgid "_Alter only boundaries"
-msgstr ""
+msgstr "僅改變邊界(_A)"
 
 #: modules/process/mask_noisify.c:152
+#, fuzzy
 msgid "Noisify Mask"
-msgstr ""
+msgstr "掩膜加噪"
 
 #: modules/process/mask_shift.c:76
+#, fuzzy
 msgid "Shift mask with respect to the image."
-msgstr ""
+msgstr "相對於圖像平移掩膜。"
 
 #: modules/process/mask_shift.c:90
+#, fuzzy
 msgid "/_Mask/_Shift..."
-msgstr ""
+msgstr "/掩膜(_M)/平移(_S)..."
 
 #: modules/process/mask_shift.c:94
+#, fuzzy
 msgid "Shift mask"
-msgstr ""
+msgstr "平移掩膜"
 
 #: modules/process/mask_shift.c:103
+#, fuzzy
 msgid "exterior|Empty"
-msgstr ""
+msgstr "空"
 
 #: modules/process/mask_shift.c:104
+#, fuzzy
 msgid "exterior|Filled"
-msgstr ""
+msgstr "填充"
 
 #: modules/process/mask_shift.c:118
+#, fuzzy
 msgid "_Horizontal shift"
-msgstr ""
+msgstr "水平平移(_H)"
 
 #: modules/process/mask_shift.c:119
+#, fuzzy
 msgid "_Vertical shift"
-msgstr ""
+msgstr "垂直平移(_V)"
 
 #: modules/process/mask_shift.c:185
+#, fuzzy
 msgid "Shift Mask"
-msgstr ""
+msgstr "平移掩膜"
 
 #: modules/process/maskcor.c:82
+#, fuzzy
 msgid "Searches for a detail in another image using correlation."
-msgstr ""
+msgstr "使用相關在另一幅圖像中搜索細節。"
 
 #: modules/process/maskcor.c:96
+#, fuzzy
 msgid "/M_ultidata/Correlation _Search..."
-msgstr ""
+msgstr "/多數據(_U)/相關搜索(_S)..."
 
 #: modules/process/maskcor.c:100
+#, fuzzy
 msgid "Search for a detail using correlation"
-msgstr ""
+msgstr "使用相關搜索細節"
 
 #: modules/process/maskcor.c:109
+#, fuzzy
 msgid "Correlation, raw"
-msgstr ""
+msgstr "相關，原始"
 
 #: modules/process/maskcor.c:110
+#, fuzzy
 msgid "Correlation, leveled"
-msgstr ""
+msgstr "相關，調平後"
 
 #: modules/process/maskcor.c:111 modules/process/maskcor.c:120
 #: modules/process/maskcor.c:172 modules/process/mcrop.c:123
@@ -17798,12 +17968,14 @@ msgid "Correlation score"
 msgstr "相關性得分"
 
 #: modules/process/maskcor.c:112
+#, fuzzy
 msgid "Height difference, raw"
-msgstr ""
+msgstr "高度差，原始"
 
 #: modules/process/maskcor.c:113
+#, fuzzy
 msgid "Height difference, leveled"
-msgstr ""
+msgstr "高度差，調平後"
 
 #: modules/process/maskcor.c:114 modules/process/mcrop.c:124
 #, fuzzy
@@ -17816,128 +17988,159 @@ msgid "Phase-only score"
 msgstr "純相位得分"
 
 #: modules/process/maskcor.c:118
+#, fuzzy
 msgid "Objects marked"
-msgstr ""
+msgstr "已標記對象"
 
 #: modules/process/maskcor.c:119
+#, fuzzy
 msgid "Correlation maxima"
-msgstr ""
+msgstr "相關極大值"
 
 #: modules/process/maskcor.c:133
+#, fuzzy
 msgid "Correlation _method"
-msgstr ""
+msgstr "相關方法(_M)"
 
 #: modules/process/maskcor.c:135
+#, fuzzy
 msgid "Use _mask"
-msgstr ""
+msgstr "使用掩膜(_M)"
 
 #: modules/process/maskcor.c:136
+#, fuzzy
 msgid "_Plot mask"
-msgstr ""
+msgstr "繪製掩膜(_P)"
 
 #: modules/process/maskcor.c:137
+#, fuzzy
 msgid "_Detail to search"
-msgstr ""
+msgstr "要搜索的細節(_D)"
 
 #: modules/process/maskcor.c:205 modules/process/maskcor.c:216
+#, fuzzy
 msgid "Correlation Search"
-msgstr ""
+msgstr "相關搜索"
 
 #: modules/process/maskops.c:46
+#, fuzzy
 msgid "Basic operations with mask: inversion, removal, extraction."
-msgstr ""
+msgstr "掩膜的基本操作：反轉、移除、提取。"
 
 #: modules/process/maskops.c:60
+#, fuzzy
 msgid "/_Mask/_Remove Mask"
-msgstr ""
+msgstr "/掩膜(_M)/移除掩膜(_R)"
 
 #: modules/process/maskops.c:64
+#, fuzzy
 msgid "Remove mask from data"
-msgstr ""
+msgstr "從數據中移除掩膜"
 
 #: modules/process/maskops.c:67
+#, fuzzy
 msgid "/_Mask/_Invert Mask"
-msgstr ""
+msgstr "/掩膜(_M)/反轉掩膜(_I)"
 
 #: modules/process/maskops.c:71
+#, fuzzy
 msgid "Invert mask"
-msgstr ""
+msgstr "反轉掩膜"
 
 #: modules/process/maskops.c:74
+#, fuzzy
 msgid "/_Mask/_Extract Mask"
-msgstr ""
+msgstr "/掩膜(_M)/提取掩膜(_E)"
 
 #: modules/process/maskops.c:78
+#, fuzzy
 msgid "Extract mask to a new image"
-msgstr ""
+msgstr "將掩膜提取為新圖像"
 
 #: modules/process/maskops.c:81
+#, fuzzy
 msgid "/_Grains/_Extract Numbers"
-msgstr ""
+msgstr "/顆粒(_G)/提取編號(_E)"
 
 #: modules/process/maskops.c:85
+#, fuzzy
 msgid "Extract grain numbers to a new image"
-msgstr ""
+msgstr "將顆粒編號提取為新圖像"
 
 #: modules/process/maskops.c:88
+#, fuzzy
 msgid "/_Grains/_Remove Edge-Touching"
-msgstr ""
+msgstr "/顆粒(_G)/移除接觸邊緣的顆粒(_R)"
 
 #: modules/process/maskops.c:92
+#, fuzzy
 msgid "Remove grains touching image edges"
-msgstr ""
+msgstr "移除接觸圖像邊緣的顆粒"
 
 #: modules/process/maskops.c:95
+#, fuzzy
 msgid "/_Mask/Thi_n"
-msgstr ""
+msgstr "/掩膜(_M)/細化(_N)"
 
 #: modules/process/maskops.c:99
+#, fuzzy
 msgid "Thin mask"
-msgstr ""
+msgstr "細化掩膜"
 
 #: modules/process/maskops.c:193
+#, fuzzy
 msgid "Grain Numbers"
-msgstr ""
+msgstr "顆粒編號"
 
 #: modules/process/mcrop.c:96
+#, fuzzy
 msgid "Crops non-intersecting regions of two images."
-msgstr ""
+msgstr "裁剪兩幅圖像的非相交區域。"
 
 #: modules/process/mcrop.c:110
+#, fuzzy
 msgid "/M_ultidata/Mutual C_rop..."
-msgstr ""
+msgstr "/多數據(_U)/交互裁剪(_R)..."
 
 #: modules/process/mcrop.c:114
+#, fuzzy
 msgid "Crop non-intersecting regions of two images"
-msgstr ""
+msgstr "裁剪兩幅圖像的非相交區域"
 
 #: modules/process/mcrop.c:126
+#, fuzzy
 msgid "Brute force score"
-msgstr ""
+msgstr "暴力搜索得分"
 
 #: modules/process/mcrop.c:129
+#, fuzzy
 msgid "Cropped first"
-msgstr ""
+msgstr "裁剪後的第一幅"
 
 #: modules/process/mcrop.c:130
+#, fuzzy
 msgid "Cropped second"
-msgstr ""
+msgstr "裁剪後的第二幅"
 
 #: modules/process/mcrop.c:141
+#, fuzzy
 msgid "Create new images"
-msgstr ""
+msgstr "創建新圖像"
 
 #: modules/process/mcrop.c:148
+#, fuzzy
 msgid "_Kernel relative size"
-msgstr ""
+msgstr "核相對大小(_K)"
 
 #: modules/process/mcrop.c:238
+#, fuzzy
 msgid "Mutual Crop"
-msgstr ""
+msgstr "交互裁剪"
 
 #: modules/process/mcrop.c:255
+#, fuzzy
 msgid "Second image offset"
-msgstr ""
+msgstr "第二幅圖像偏移"
 
 #: modules/process/measure_lattice.c:144
 #, fuzzy
@@ -18045,40 +18248,49 @@ msgid "Median-leveling..."
 msgstr "正在進行中位數調平..."
 
 #: modules/process/merge.c:154
+#, fuzzy
 msgid "Merges two images."
-msgstr ""
+msgstr "合併兩幅圖像。"
 
 #: modules/process/merge.c:168
+#, fuzzy
 msgid "/M_ultidata/_Merge..."
-msgstr ""
+msgstr "/多數據(_U)/合併(_M)..."
 
 #: modules/process/merge.c:172
+#, fuzzy
 msgid "Merge two images"
-msgstr ""
+msgstr "合併兩幅圖像"
 
 #: modules/process/merge.c:181
+#, fuzzy
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 #: modules/process/merge.c:182
+#, fuzzy
 msgid "Down"
-msgstr ""
+msgstr "下"
 
 #: modules/process/merge.c:183
+#, fuzzy
 msgid "adverb|Right"
-msgstr ""
+msgstr "右側"
 
 #: modules/process/merge.c:184
+#, fuzzy
 msgid "adverb|Left"
-msgstr ""
+msgstr "左側"
 
 #: modules/process/merge.c:188
+#, fuzzy
 msgid "merge-mode|Join"
-msgstr ""
+msgstr "拼接"
 
 #: modules/process/merge.c:189
+#, fuzzy
 msgid "merge-mode|None"
-msgstr ""
+msgstr "無"
 
 #: modules/process/merge.c:192 modules/process/relate.c:667
 #, fuzzy
@@ -18097,24 +18309,29 @@ msgid "Average"
 msgstr "平均值"
 
 #: modules/process/merge.c:195
+#, fuzzy
 msgid "Interpolation"
-msgstr ""
+msgstr "插值"
 
 #: modules/process/merge.c:204
+#, fuzzy
 msgid "_Merge with"
-msgstr ""
+msgstr "合併對象(_M)"
 
 #: modules/process/merge.c:205
+#, fuzzy
 msgid "_Put second image"
-msgstr ""
+msgstr "放置第二幅圖像(_P)"
 
 #: modules/process/merge.c:207
+#, fuzzy
 msgid "_Align second image"
-msgstr ""
+msgstr "對齊第二幅圖像(_A)"
 
 #: modules/process/merge.c:212
+#, fuzzy
 msgid "Crop result to _avoid outside pixels"
-msgstr ""
+msgstr "裁剪結果以避開外部像素(_A)"
 
 #: modules/process/merge.c:213 modules/process/rotate.c:131
 #, fuzzy
@@ -18122,24 +18339,29 @@ msgid "Create _mask over exterior"
 msgstr "在外部區域創建掩膜(_M)"
 
 #: modules/process/merge.c:247
+#, fuzzy
 msgid "Merged images"
-msgstr ""
+msgstr "合併後的圖像"
 
 #: modules/process/merge.c:274
+#, fuzzy
 msgid "Merge Data"
-msgstr ""
+msgstr "合併數據"
 
 #: modules/process/mfm_current.c:98
+#, fuzzy
 msgid "Simulation of current line magnetic field"
-msgstr ""
+msgstr "電流線磁場模擬"
 
 #: modules/process/mfm_current.c:112
+#, fuzzy
 msgid "/SPM M_odes/_Magnetic/_Current Line Field..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/電流線磁場(_C)..."
 
 #: modules/process/mfm_current.c:116
+#, fuzzy
 msgid "Simulate stray field above current line"
-msgstr ""
+msgstr "模擬電流線上方的雜散場"
 
 #: modules/process/mfm_current.c:147 modules/process/mfm_field.c:145
 #: modules/process/mfm_parallel.c:152
@@ -18154,8 +18376,9 @@ msgid "Bar"
 msgstr "條形"
 
 #: modules/process/mfm_current.c:160
+#, fuzzy
 msgid "P_robe type"
-msgstr ""
+msgstr "探針類型(_R)"
 
 #: modules/process/mfm_current.c:162 modules/process/mfm_field.c:160
 #: modules/process/mfm_parallel.c:168
@@ -18164,16 +18387,19 @@ msgid "_Output plane height"
 msgstr "輸出平面高度(_O)"
 
 #: modules/process/mfm_current.c:163
+#, fuzzy
 msgid "Stripe _current"
-msgstr ""
+msgstr "條帶電流(_C)"
 
 #: modules/process/mfm_current.c:164
+#, fuzzy
 msgid "_Stripe width"
-msgstr ""
+msgstr "條帶寬度(_S)"
 
 #: modules/process/mfm_current.c:165
+#, fuzzy
 msgid "_Position"
-msgstr ""
+msgstr "位置(_P)"
 
 #: modules/process/mfm_current.c:166 modules/process/mfm_field.c:163
 #: modules/process/mfm_parallel.c:175
@@ -18200,24 +18426,29 @@ msgid "Bar length (_z)"
 msgstr "條形物長度（_Z）"
 
 #: modules/process/mfm_current.c:236
+#, fuzzy
 msgid "Current Line Stray Field"
-msgstr ""
+msgstr "電流線雜散場"
 
 #: modules/process/mfm_current.c:290
+#, fuzzy
 msgid "Probe"
-msgstr ""
+msgstr "探針"
 
 #: modules/process/mfm_field.c:96
+#, fuzzy
 msgid "Simulation of magnetic field above perpendicular media"
-msgstr ""
+msgstr "垂直介質上方磁場模擬"
 
 #: modules/process/mfm_field.c:110
+#, fuzzy
 msgid "/SPM M_odes/_Magnetic/_Perpendicular Media Field..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/垂直介質磁場(_P)..."
 
 #: modules/process/mfm_field.c:114
+#, fuzzy
 msgid "Compute stray field above perpendicular magnetic medium"
-msgstr ""
+msgstr "計算垂直磁介質上方的雜散場"
 
 #: modules/process/mfm_field.c:157 modules/process/mfm_parallel.c:166
 #, fuzzy
@@ -18225,8 +18456,9 @@ msgid "_Probe type"
 msgstr "探針類型(_P)"
 
 #: modules/process/mfm_field.c:159
+#, fuzzy
 msgid "Include domain _walls"
-msgstr ""
+msgstr "包含疇壁(_W)"
 
 #: modules/process/mfm_field.c:161 modules/process/mfm_parallel.c:169
 #, fuzzy
@@ -18234,92 +18466,114 @@ msgid "_Film thickness"
 msgstr "薄膜厚度(_F)"
 
 #: modules/process/mfm_field.c:162
+#, fuzzy
 msgid "_Magnetic charge"
-msgstr ""
+msgstr "磁荷(_M)"
 
 #: modules/process/mfm_field.c:167
+#, fuzzy
 msgid "_Exchange constant"
-msgstr ""
+msgstr "交換常數(_E)"
 
 #: modules/process/mfm_field.c:168
+#, fuzzy
 msgid "_Uniaxial anisotropy"
-msgstr ""
+msgstr "單軸各向異性(_U)"
 
 #: modules/process/mfm_field.c:169
+#, fuzzy
 msgid "Cantilever _angle"
-msgstr ""
+msgstr "懸臂角度(_A)"
 
 #: modules/process/mfm_field.c:277
+#, fuzzy
 msgid "Perpendicular Media Stray Field"
-msgstr ""
+msgstr "垂直介質雜散場"
 
 #: modules/process/mfm_findshift.c:76
+#, fuzzy
 msgid "Lift height difference estimation from data blur"
-msgstr ""
+msgstr "根據數據模糊估計抬升高度差"
 
 #: modules/process/mfm_findshift.c:90
+#, fuzzy
 msgid "/SPM M_odes/_Magnetic/_Estimate Shift in Z..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/估計 Z 向偏移(_E)..."
 
 #: modules/process/mfm_findshift.c:94
+#, fuzzy
 msgid "Estimate lift height difference in MFM data"
-msgstr ""
+msgstr "估計 MFM 數據中的抬升高度差"
 
 #: modules/process/mfm_findshift.c:109
+#, fuzzy
 msgid "Search _from"
-msgstr ""
+msgstr "搜索起點(_F)"
 
 #: modules/process/mfm_findshift.c:110
+#, fuzzy
 msgid "Search _to"
-msgstr ""
+msgstr "搜索終點(_T)"
 
 #: modules/process/mfm_findshift.c:112
+#, fuzzy
 msgid "Data to compare"
-msgstr ""
+msgstr "用於比較的數據"
 
 #: modules/process/mfm_findshift.c:155
+#, fuzzy
 msgid "Estimated shift:"
-msgstr ""
+msgstr "估計偏移："
 
 #: modules/process/mfm_findshift.c:165
+#, fuzzy
 msgid "Shifted field difference"
-msgstr ""
+msgstr "偏移後場差"
 
 #: modules/process/mfm_findshift.c:181
+#, fuzzy
 msgid "Estimate Lift Height Shift"
-msgstr ""
+msgstr "估計抬升高度偏移"
 
 #: modules/process/mfm_parallel.c:101
+#, fuzzy
 msgid "Simulation of parallel magnetic media"
-msgstr ""
+msgstr "平行磁介質模擬"
 
 #: modules/process/mfm_parallel.c:115
+#, fuzzy
 msgid "/SPM M_odes/_Magnetic/Para_llel Media Field..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/平行介質磁場(_L)..."
 
 #: modules/process/mfm_parallel.c:119
+#, fuzzy
 msgid "Simulate stray field above parallel magnetic medium"
-msgstr ""
+msgstr "模擬平行磁介質上方的雜散場"
 
 #: modules/process/mfm_parallel.c:170
+#, fuzzy
 msgid "_Remanent magnetization"
-msgstr ""
+msgstr "剩磁化強度(_R)"
 
 #: modules/process/mfm_parallel.c:172
+#, fuzzy
 msgid "Size _A (dir. left)"
-msgstr ""
+msgstr "尺寸 A（向左）(_A)"
 
 #: modules/process/mfm_parallel.c:173
+#, fuzzy
 msgid "Size _B (dir. right)"
-msgstr ""
+msgstr "尺寸 B（向右）(_B)"
 
 #: modules/process/mfm_parallel.c:174
+#, fuzzy
 msgid "_Gap size"
-msgstr ""
+msgstr "間隙大小(_G)"
 
 #: modules/process/mfm_parallel.c:244
+#, fuzzy
 msgid "Parallel Media Stray Field"
-msgstr ""
+msgstr "平行介質雜散場"
 
 #: modules/process/mfm_recalc.c:122 modules/volume/volume_mfmrecalc.c:77
 #, fuzzy
@@ -18327,8 +18581,9 @@ msgid "Converts the MFM data to force gradient."
 msgstr "將 MFM 數據轉換為力梯度。"
 
 #: modules/process/mfm_recalc.c:136
+#, fuzzy
 msgid "/SPM M_odes/_Magnetic/_Recalculate to Force Gradient..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/重新計算為力梯度(_R)..."
 
 #: modules/process/mfm_recalc.c:140 modules/volume/volume_mfmrecalc.c:95
 #, fuzzy
@@ -18396,8 +18651,9 @@ msgid "_Base amplitude"
 msgstr "基準振幅(_B)"
 
 #: modules/process/mfm_recalc.c:180
+#, fuzzy
 msgid "_Create new image"
-msgstr ""
+msgstr "創建新圖像(_C)"
 
 #: modules/process/mfm_recalc.c:182 modules/volume/volume_mfmrecalc.c:124
 #, fuzzy
@@ -18410,8 +18666,9 @@ msgid "Data value units must be deg, rad, m, Hz or V for the recalculation"
 msgstr "重新計算時，數據值的單位必須為 deg、rad、m、Hz 或 V"
 
 #: modules/process/mfm_recalc.c:274
+#, fuzzy
 msgid "Recalculated MFM data"
-msgstr ""
+msgstr "重新計算的 MFM 數據"
 
 #: modules/process/mfm_recalc.c:304 modules/volume/volume_mfmrecalc.c:213
 #, fuzzy
@@ -18419,28 +18676,34 @@ msgid "MFM Recalculate Data"
 msgstr "MFM 數據重新計算"
 
 #: modules/process/mfm_shift.c:71
+#, fuzzy
 msgid "Simulation of magnetic field z component change for another level"
-msgstr ""
+msgstr "模擬另一高度層上磁場 z 分量的變化"
 
 #: modules/process/mfm_shift.c:85
+#, fuzzy
 msgid "/SPM M_odes/_Magnetic/_Field Shift in Z..."
-msgstr ""
+msgstr "/SPM 模式(_O)/磁(_M)/磁場 Z 向偏移(_F)..."
 
 #: modules/process/mfm_shift.c:89
+#, fuzzy
 msgid "Compute stray field shift for another z level"
-msgstr ""
+msgstr "計算另一 z 高度層的雜散場偏移"
 
 #: modules/process/mfm_shift.c:104
+#, fuzzy
 msgid "_Z shift by"
-msgstr ""
+msgstr "Z 向偏移量(_Z)"
 
 #: modules/process/mfm_shift.c:140
+#, fuzzy
 msgid "Shifted field"
-msgstr ""
+msgstr "偏移後的場"
 
 #: modules/process/mfm_shift.c:168
+#, fuzzy
 msgid "Stray Field Plane Shift"
-msgstr ""
+msgstr "雜散場平面偏移"
 
 #: modules/process/multiprofile.c:111
 #, fuzzy
@@ -18504,28 +18767,34 @@ msgid "Upper"
 msgstr "上限"
 
 #: modules/process/neural.c:172
+#, fuzzy
 msgid "Neural network SPM data processing"
-msgstr ""
+msgstr "神經網絡 SPM 數據處理"
 
 #: modules/process/neural.c:198
+#, fuzzy
 msgid "/M_ultidata/Neural Network _Training..."
-msgstr ""
+msgstr "/多數據(_U)/神經網絡訓練(_T)..."
 
 #: modules/process/neural.c:202
+#, fuzzy
 msgid "Train a neural network for image processing"
-msgstr ""
+msgstr "訓練用於圖像處理的神經網絡"
 
 #: modules/process/neural.c:205
+#, fuzzy
 msgid "/M_ultidata/Apply _Neural Network..."
-msgstr ""
+msgstr "/多數據(_U)/應用神經網絡(_N)..."
 
 #: modules/process/neural.c:209
+#, fuzzy
 msgid "Process data using a trained neural network"
-msgstr ""
+msgstr "使用已訓練的神經網絡處理數據"
 
 #: modules/process/neural.c:218
+#, fuzzy
 msgid "Model"
-msgstr ""
+msgstr "模型"
 
 #: modules/process/neural.c:219 modules/volume/volume_mfmrecalc.c:122
 #, fuzzy
@@ -18533,231 +18802,285 @@ msgid "Signal"
 msgstr "信號"
 
 #: modules/process/neural.c:230
+#, fuzzy
 msgid "_Model"
-msgstr ""
+msgstr "模型(_M)"
 
 #: modules/process/neural.c:231
+#, fuzzy
 msgid "_Signal"
-msgstr ""
+msgstr "信號(_S)"
 
 #: modules/process/neural.c:232
+#, fuzzy
 msgid "Training ste_ps"
-msgstr ""
+msgstr "訓練步數(_P)"
 
 #: modules/process/neural.c:238
+#, fuzzy
 msgid "Window _width"
-msgstr ""
+msgstr "窗口寬度(_W)"
 
 #: modules/process/neural.c:239
+#, fuzzy
 msgid "Window h_eight"
-msgstr ""
+msgstr "窗口高度(_H)"
 
 #: modules/process/neural.c:240
+#, fuzzy
 msgid "_Hidden nodes"
-msgstr ""
+msgstr "隱藏節點(_H)"
 
 #: modules/process/neural.c:244
+#, fuzzy
 msgid "Power of source _XY"
-msgstr ""
+msgstr "源 XY 冪次(_X)"
 
 #: modules/process/neural.c:245
+#, fuzzy
 msgid "Power of source _Z"
-msgstr ""
+msgstr "源 Z 冪次(_Z)"
 
 #: modules/process/neural.c:247
+#, fuzzy
 msgid "_Fixed units"
-msgstr ""
+msgstr "固定單位(_F)"
 
 #: modules/process/neural.c:264
+#, fuzzy
 msgid "_Scale proportionally to input"
-msgstr ""
+msgstr "按輸入成比例縮放(_S)"
 
 #: modules/process/neural.c:326
+#, fuzzy
 msgid "Evaluated signal"
-msgstr ""
+msgstr "評估信號"
 
 #. TRANSLATORS: Unnamed neural network that is/was in training.
 #: modules/process/neural.c:398
+#, fuzzy
 msgid "In training"
-msgstr ""
+msgstr "訓練中"
 
 #: modules/process/neural.c:463
+#, fuzzy
 msgid "Neural Network Training"
-msgstr ""
+msgstr "神經網絡訓練"
 
 #: modules/process/neural.c:478
+#, fuzzy
 msgid "Training error"
-msgstr ""
+msgstr "訓練誤差"
 
 #: modules/process/neural.c:479
+#, fuzzy
 msgid "error"
-msgstr ""
+msgstr "誤差"
 
 #: modules/process/neural.c:488
+#, fuzzy
 msgid "NN training error"
-msgstr ""
+msgstr "神經網絡訓練誤差"
 
 #: modules/process/neural.c:495
+#, fuzzy
 msgid "Training"
-msgstr ""
+msgstr "訓練"
 
 #: modules/process/neural.c:497
+#, fuzzy
 msgid "Networks"
-msgstr ""
+msgstr "網絡"
 
 #: modules/process/neural.c:528
+#, fuzzy
 msgid "verb|_Train"
-msgstr ""
+msgstr "訓練(_T)"
 
 #: modules/process/neural.c:529
+#, fuzzy
 msgid "Re_initialize"
-msgstr ""
+msgstr "重新初始化(_I)"
 
 #: modules/process/neural.c:548
+#, fuzzy
 msgid "Network"
-msgstr ""
+msgstr "網絡"
 
 #: modules/process/neural.c:555
+#, fuzzy
 msgid "Result Units"
-msgstr ""
+msgstr "結果單位"
 
 #: modules/process/neural.c:609
+#, fuzzy
 msgid "Network _name:"
-msgstr ""
+msgstr "網絡名稱(_N)："
 
 #: modules/process/neural.c:632
+#, fuzzy
 msgid "Apply Neural Network"
-msgstr ""
+msgstr "應用神經網絡"
 
 #: modules/process/neural.c:696
+#, fuzzy
 msgid "Model and signal are not compatible."
-msgstr ""
+msgstr "模型與信號不兼容。"
 
 #: modules/process/neural.c:703
+#, fuzzy
 msgid "A field dimension is too small for chosen window size."
-msgstr ""
+msgstr "數據場某一維度小於所選窗口大小。"
 
 #: modules/process/neural.c:866 modules/process/neural.c:999
+#, fuzzy
 msgid "Evaluating..."
-msgstr ""
+msgstr "正在評估……"
 
 #: modules/process/neural.c:967
+#, fuzzy
 msgid "Training was canceled."
-msgstr ""
+msgstr "訓練已取消。"
 
 #: modules/process/neural.c:976
-#, c-format
+#, c-format, fuzzy
 msgid "Mean difference: %.*f %s"
-msgstr ""
+msgstr "平均差值：%.*f %s"
 
 #: modules/process/neural.c:1204
-#, c-format
+#, c-format, fuzzy
 msgid "The name `%s' is invalid."
-msgstr ""
+msgstr "名稱“%s”無效。"
 
 #: modules/process/noise_synth.c:130
+#, fuzzy
 msgid "distribution|Salt and pepper"
-msgstr ""
+msgstr "椒鹽"
 
 #: modules/process/noise_synth.c:136
+#, fuzzy
 msgid "Generates uncorrelated random noise."
-msgstr ""
+msgstr "生成不相關隨機噪聲。"
 
 #: modules/process/noise_synth.c:150
+#, fuzzy
 msgid "/S_ynthetic/_Noise/_Noise..."
-msgstr ""
+msgstr "/合成(_Y)/噪聲(_N)/噪聲(_N)..."
 
 #: modules/process/noise_synth.c:154
+#, fuzzy
 msgid "Generate surface of uncorrelated noise"
-msgstr ""
+msgstr "生成不相關噪聲表面"
 
 #: modules/process/noise_synth.c:249
+#, fuzzy
 msgid "Random Noise"
-msgstr ""
+msgstr "隨機噪聲"
 
 #: modules/process/obj_synth.c:201
+#, fuzzy
 msgid "Half-spheres"
-msgstr ""
+msgstr "半球"
 
 #: modules/process/obj_synth.c:202
+#, fuzzy
 msgid "Pyramids"
-msgstr ""
+msgstr "金字塔"
 
 #: modules/process/obj_synth.c:203
+#, fuzzy
 msgid "Half-nuggets"
-msgstr ""
+msgstr "半塊狀凸起"
 
 #: modules/process/obj_synth.c:204
+#, fuzzy
 msgid "Thatches"
-msgstr ""
+msgstr "茅草屋頂狀"
 
 #: modules/process/obj_synth.c:205
+#, fuzzy
 msgid "Doughnuts"
-msgstr ""
+msgstr "甜甜圈"
 
 #: modules/process/obj_synth.c:206
+#, fuzzy
 msgid "Tetrahedrons"
-msgstr ""
+msgstr "四面體"
 
 #: modules/process/obj_synth.c:207
+#, fuzzy
 msgid "Boxes"
-msgstr ""
+msgstr "長方體"
 
 #: modules/process/obj_synth.c:208
+#, fuzzy
 msgid "Cones"
-msgstr ""
+msgstr "圓錐"
 
 #: modules/process/obj_synth.c:209
+#, fuzzy
 msgid "Tents"
-msgstr ""
+msgstr "帳篷形"
 
 #: modules/process/obj_synth.c:210
+#, fuzzy
 msgid "Diamonds"
-msgstr ""
+msgstr "菱形"
 
 #: modules/process/obj_synth.c:211
+#, fuzzy
 msgid "Gaussians"
-msgstr ""
+msgstr "高斯形"
 
 #: modules/process/obj_synth.c:212
+#, fuzzy
 msgid "Parabolic bumps"
-msgstr ""
+msgstr "拋物線凸起"
 
 #: modules/process/obj_synth.c:213
+#, fuzzy
 msgid "Full spheres"
-msgstr ""
+msgstr "完整球體"
 
 #: modules/process/obj_synth.c:214
+#, fuzzy
 msgid "Full nuggets"
-msgstr ""
+msgstr "完整塊狀凸起"
 
 #: modules/process/obj_synth.c:215
+#, fuzzy
 msgid "Hexagonal pyramids"
-msgstr ""
+msgstr "六稜錐"
 
 #: modules/process/obj_synth.c:216
+#, fuzzy
 msgid "Exp spikes"
-msgstr ""
+msgstr "指數尖峯"
 
 #: modules/process/obj_synth.c:217
+#, fuzzy
 msgid "Semi-pyramids"
-msgstr ""
+msgstr "半金字塔"
 
 #: modules/process/obj_synth.c:223
+#, fuzzy
 msgid "Generates randomly patterned surfaces by placing objects."
-msgstr ""
+msgstr "通過放置對象生成隨機圖案表面。"
 
 #: modules/process/obj_synth.c:237
+#, fuzzy
 msgid "/S_ynthetic/_Deposition/_Objects..."
-msgstr ""
+msgstr "/合成(_Y)/沉積(_D)/對象(_O)..."
 
 #: modules/process/obj_synth.c:241
+#, fuzzy
 msgid "Generate surface of randomly placed objects"
-msgstr ""
+msgstr "生成隨機放置對象的表面"
 
 #: modules/process/obj_synth.c:281
+#, fuzzy
 msgid "_Feature sign"
-msgstr ""
+msgstr "特徵符號(_F)"
 
 #: modules/process/obj_synth.c:282 modules/process/pileup_synth.c:219
 #, fuzzy
@@ -18775,12 +19098,14 @@ msgid "_Aspect ratio"
 msgstr "縱橫比(_A)"
 
 #: modules/process/obj_synth.c:290
+#, fuzzy
 msgid "Scales _with size"
-msgstr ""
+msgstr "隨尺寸縮放(_W)"
 
 #: modules/process/obj_synth.c:361
+#, fuzzy
 msgid "Random Objects"
-msgstr ""
+msgstr "隨機對象"
 
 #: modules/process/obj_synth.c:416 modules/process/pileup_synth.c:348
 #, fuzzy
@@ -18788,12 +19113,14 @@ msgid "Aspect Ratio"
 msgstr "縱橫比"
 
 #: modules/process/otsu_threshold.c:35 modules/process/otsu_threshold.c:53
+#, fuzzy
 msgid "Automated threshold using Otsu's method on heights."
-msgstr ""
+msgstr "使用 Otsu 法對高度進行自動閾值處理。"
 
 #: modules/process/otsu_threshold.c:49
+#, fuzzy
 msgid "/_Grains/_Mark by Otsu's"
-msgstr ""
+msgstr "/顆粒(_G)/按 Otsu 法標記(_M)"
 
 #: modules/process/outliers.c:41
 #, fuzzy
@@ -18811,115 +19138,140 @@ msgid "Mark data farther than 3σ from mean value"
 msgstr "標記與平均值相距超過 3σ 的數據"
 
 #: modules/process/pat_synth.c:368
+#, fuzzy
 msgid "Staircase"
-msgstr ""
+msgstr "階梯"
 
 #: modules/process/pat_synth.c:369
+#, fuzzy
 msgid "Double staircase"
-msgstr ""
+msgstr "雙階梯"
 
 #: modules/process/pat_synth.c:370
+#, fuzzy
 msgid "Grating"
-msgstr ""
+msgstr "光柵"
 
 #: modules/process/pat_synth.c:371
+#, fuzzy
 msgid "Amphitheater"
-msgstr ""
+msgstr "階梯劇場"
 
 #: modules/process/pat_synth.c:372
+#, fuzzy
 msgid "Concentric rings"
-msgstr ""
+msgstr "同心圓環"
 
 #: modules/process/pat_synth.c:373
+#, fuzzy
 msgid "Siemens star"
-msgstr ""
+msgstr "西門子星"
 
 #: modules/process/pat_synth.c:374
+#, fuzzy
 msgid "Holes (rectangular)"
-msgstr ""
+msgstr "孔（矩形）"
 
 #: modules/process/pat_synth.c:375
+#, fuzzy
 msgid "Pillars"
-msgstr ""
+msgstr "柱"
 
 #: modules/process/pat_synth.c:381
+#, fuzzy
 msgid ""
 "Generates surfaces representing simple patterns (staircase, amphitheater, "
 "grating, holes and pillars, ...)."
-msgstr ""
+msgstr "生成表示簡單圖案（階梯、階梯劇場、光柵、孔與柱等）的表面。"
 
 #: modules/process/pat_synth.c:395
+#, fuzzy
 msgid "/S_ynthetic/_Pattern..."
-msgstr ""
+msgstr "/合成(_Y)/圖案(_P)..."
 
 #: modules/process/pat_synth.c:399
+#, fuzzy
 msgid "Generate patterned surface"
-msgstr ""
+msgstr "生成圖案化表面"
 
 #: modules/process/pat_synth.c:501
+#, fuzzy
 msgid "Pattern"
-msgstr ""
+msgstr "圖案"
 
 #: modules/process/pat_synth.c:1703 modules/process/pat_synth.c:2007
+#, fuzzy
 msgid "_Terrace width"
-msgstr ""
+msgstr "台地寬度(_T)"
 
 #: modules/process/pat_synth.c:1705 modules/process/pat_synth.c:1800
 #: modules/process/pat_synth.c:1804 modules/process/pat_synth.c:1893
 #: modules/process/pat_synth.c:2008 modules/process/pat_synth.c:2115
 #: modules/process/pat_synth.c:2428 modules/process/pat_synth.c:2431
 #: modules/process/pat_synth.c:2576 modules/process/pat_synth.c:2579
+#, fuzzy
 msgid "Position spread"
-msgstr ""
+msgstr "位置散佈"
 
 #: modules/process/pat_synth.c:1707 modules/process/pat_synth.c:1899
 #: modules/process/pat_synth.c:2010 modules/process/pat_synth.c:2120
 #: modules/process/pat_synth.c:2439 modules/process/pat_synth.c:2584
+#, fuzzy
 msgid "_Slope fraction"
-msgstr ""
+msgstr "斜坡比例(_S)"
 
 #: modules/process/pat_synth.c:1724 modules/process/pat_synth.c:1818
 #: modules/process/pat_synth.c:2033
+#, fuzzy
 msgid "Terrace"
-msgstr ""
+msgstr "台地"
 
 #: modules/process/pat_synth.c:1798
+#, fuzzy
 msgid "Terrace _X width"
-msgstr ""
+msgstr "台地 X 寬度(_X)"
 
 #: modules/process/pat_synth.c:1802
+#, fuzzy
 msgid "Terrace _Y width"
-msgstr ""
+msgstr "台地 Y 寬度(_Y)"
 
 #: modules/process/pat_synth.c:1892 modules/process/pat_synth.c:2114
+#, fuzzy
 msgid "_Period"
-msgstr ""
+msgstr "週期(_P)"
 
 #: modules/process/pat_synth.c:1895 modules/process/pat_synth.c:2117
 #: modules/process/pat_synth.c:2248
+#, fuzzy
 msgid "_Top fraction"
-msgstr ""
+msgstr "頂部比例(_T)"
 
 #: modules/process/pat_synth.c:1898 modules/process/pat_synth.c:2122
+#, fuzzy
 msgid "_Asymmetry"
-msgstr ""
+msgstr "不對稱度(_A)"
 
 #: modules/process/pat_synth.c:1907 modules/process/pat_synth.c:2135
+#, fuzzy
 msgid "Scale features with _width"
-msgstr ""
+msgstr "特徵隨寬度縮放(_W)"
 
 #: modules/process/pat_synth.c:1922 modules/process/pat_synth.c:2155
 #: modules/process/pat_synth.c:2269 modules/process/pat_synth.c:2466
+#, fuzzy
 msgid "Duty Cycle"
-msgstr ""
+msgstr "佔空比"
 
 #: modules/process/pat_synth.c:2014 modules/process/pat_synth.c:2125
+#, fuzzy
 msgid "Super_ellipse parameter"
-msgstr ""
+msgstr "超橢圓參數(_E)"
 
 #: modules/process/pat_synth.c:2016 modules/process/pat_synth.c:2127
+#, fuzzy
 msgid "_Parabolicity"
-msgstr ""
+msgstr "拋物化程度(_P)"
 
 #: modules/process/pat_synth.c:2018 modules/process/pat_synth.c:2129
 #: modules/process/pat_synth.c:2254 modules/process/wave_synth.c:207
@@ -18934,296 +19286,369 @@ msgid "_Y center"
 msgstr "Y 中心(_Y)"
 
 #: modules/process/pat_synth.c:2247
+#, fuzzy
 msgid "_Number of sectors"
-msgstr ""
+msgstr "扇區數(_N)"
 
 #: modules/process/pat_synth.c:2251
+#, fuzzy
 msgid "_Edge shift"
-msgstr ""
+msgstr "邊緣偏移(_E)"
 
 #: modules/process/pat_synth.c:2252
+#, fuzzy
 msgid "_Slope width"
-msgstr ""
+msgstr "斜坡寬度(_S)"
 
 #: modules/process/pat_synth.c:2427 modules/process/pat_synth.c:2575
+#, fuzzy
 msgid "_X Period"
-msgstr ""
+msgstr "X 週期(_X)"
 
 #: modules/process/pat_synth.c:2430 modules/process/pat_synth.c:2578
+#, fuzzy
 msgid "_Y Period"
-msgstr ""
+msgstr "Y 週期(_Y)"
 
 #: modules/process/pat_synth.c:2433
+#, fuzzy
 msgid "X top fraction"
-msgstr ""
+msgstr "X 頂部比例"
 
 #: modules/process/pat_synth.c:2436
+#, fuzzy
 msgid "Y top fraction"
-msgstr ""
+msgstr "Y 頂部比例"
 
 #: modules/process/pat_synth.c:2441
+#, fuzzy
 msgid "Roundn_ess"
-msgstr ""
+msgstr "圓度(_E)"
 
 #: modules/process/pat_synth.c:2481
+#, fuzzy
 msgid "Roundness"
-msgstr ""
+msgstr "圓度"
 
 #: modules/process/pat_synth.c:2570
+#, fuzzy
 msgid "Hexagon"
-msgstr ""
+msgstr "六邊形"
 
 #: modules/process/pat_synth.c:2573
+#, fuzzy
 msgid "S_hape"
-msgstr ""
+msgstr "形狀(_H)"
 
 #: modules/process/pat_synth.c:2581
+#, fuzzy
 msgid "Si_ze fraction"
-msgstr ""
+msgstr "尺寸比例(_Z)"
 
 #: modules/process/pfm.c:98
+#, fuzzy
 msgid "Evaluates PFM data from multiple rotations."
-msgstr ""
+msgstr "從多個旋轉角度評估 PFM 數據。"
 
 #: modules/process/pfm.c:112
+#, fuzzy
 msgid "/_SPM Modes/_Electrical/_PFM..."
-msgstr ""
+msgstr "/SPM 模式(_S)/電學(_E)/PFM(_P)..."
 
 #: modules/process/pfm.c:116
+#, fuzzy
 msgid "Processes PFM data from multiple rotations"
-msgstr ""
+msgstr "處理多個旋轉角度的 PFM 數據"
 
 #: modules/process/pfm.c:126
+#, fuzzy
 msgid "Clockwise"
-msgstr ""
+msgstr "順時針"
 
 #: modules/process/pfm.c:127
+#, fuzzy
 msgid "Counterclocwise"
-msgstr ""
+msgstr "逆時針"
 
 #: modules/process/pfm.c:128
+#, fuzzy
 msgid "rotation|None"
-msgstr ""
+msgstr "無"
 
 #: modules/process/pfm.c:131
+#, fuzzy
 msgid "In-plane angles"
-msgstr ""
+msgstr "面內角度"
 
 #: modules/process/pfm.c:132
+#, fuzzy
 msgid "3D angles"
-msgstr ""
+msgstr "三維角度"
 
 #: modules/process/pfm.c:141 modules/process/pfm.c:145
+#, fuzzy
 msgid "VPFM amplitude"
-msgstr ""
+msgstr "VPFM 幅值"
 
 #: modules/process/pfm.c:142 modules/process/pfm.c:146
+#, fuzzy
 msgid "VPFM phase"
-msgstr ""
+msgstr "VPFM 相位"
 
 #: modules/process/pfm.c:143 modules/process/pfm.c:147
+#, fuzzy
 msgid "LPFM amplitude"
-msgstr ""
+msgstr "LPFM 幅值"
 
 #: modules/process/pfm.c:144 modules/process/pfm.c:148
+#, fuzzy
 msgid "LPFM phase"
-msgstr ""
+msgstr "LPFM 相位"
 
 #: modules/process/pfm.c:151
+#, fuzzy
 msgid "Lateral factor"
-msgstr ""
+msgstr "橫向因子"
 
 #: modules/process/pfm.c:155
+#, fuzzy
 msgid "Vertical factor"
-msgstr ""
+msgstr "縱向因子"
 
 #: modules/process/pfm.c:158
+#, fuzzy
 msgid "Rotate 90 deg data"
-msgstr ""
+msgstr "將數據旋轉 90 度"
 
 #: modules/process/pfm.c:216 modules/process/pfm.c:234
+#, fuzzy
 msgid "Magnitude"
-msgstr ""
+msgstr "幅值"
 
 #: modules/process/pfm.c:224 modules/process/pfm.c:242
+#, fuzzy
 msgid "Azimuth"
-msgstr ""
+msgstr "方位角"
 
 #: modules/process/pfm.c:250
+#, fuzzy
 msgid "Inclination"
-msgstr ""
+msgstr "傾角"
 
 #: modules/process/pfm.c:271
+#, fuzzy
 msgid "PFM"
-msgstr ""
+msgstr "PFM"
 
 #: modules/process/pfm.c:281
+#, fuzzy
 msgid "0 deg data"
-msgstr ""
+msgstr "0 度數據"
 
 #: modules/process/pfm.c:290
+#, fuzzy
 msgid "90 deg data"
-msgstr ""
+msgstr "90 度數據"
 
 #: modules/process/pfm.c:381
+#, fuzzy
 msgid "Amplitude and phase have the wrong units."
-msgstr ""
+msgstr "幅值和相位的單位不正確。"
 
 #: modules/process/pfm.c:383
+#, fuzzy
 msgid "Amplitude has the wrong units"
-msgstr ""
+msgstr "幅值的單位不正確"
 
 #: modules/process/pfm.c:385
+#, fuzzy
 msgid "Phase has the wrong units."
-msgstr ""
+msgstr "相位的單位不正確。"
 
 #: modules/process/phase_synth.c:94
+#, fuzzy
 msgid "Generates phase-separated structures."
-msgstr ""
+msgstr "生成相分離結構。"
 
 #: modules/process/phase_synth.c:108
+#, fuzzy
 msgid "/S_ynthetic/_Order and Disorder/P_hases..."
-msgstr ""
+msgstr "/合成(_Y)/有序與無序(_O)/相(_H)..."
 
 #: modules/process/phase_synth.c:112
+#, fuzzy
 msgid "Generate surface with separated phases"
-msgstr ""
+msgstr "生成相分離表面"
 
 #: modules/process/phase_synth.c:195
+#, fuzzy
 msgid "Separated Phases"
-msgstr ""
+msgstr "分離相"
 
 #: modules/process/pid.c:92 modules/process/pid.c:129
+#, fuzzy
 msgid "PID Fwd result"
-msgstr ""
+msgstr "PID 正向結果"
 
 #: modules/process/pid.c:93 modules/process/pid.c:130
+#, fuzzy
 msgid "PID Fwd max. force"
-msgstr ""
+msgstr "PID 正向最大力"
 
 #: modules/process/pid.c:94 modules/process/pid.c:131
+#, fuzzy
 msgid "PID Rev result"
-msgstr ""
+msgstr "PID 反向結果"
 
 #: modules/process/pid.c:95 modules/process/pid.c:132
+#, fuzzy
 msgid "PID Rev max. force"
-msgstr ""
+msgstr "PID 反向最大力"
 
 #: modules/process/pid.c:101
+#, fuzzy
 msgid "A simple PID simulator"
-msgstr ""
+msgstr "簡單 PID 模擬器"
 
 #: modules/process/pid.c:115
+#, fuzzy
 msgid "/SPM M_odes/_Force and Indentation/_PID Simulation..."
-msgstr ""
+msgstr "/SPM 模式(_O)/力與壓入(_F)/PID 模擬(_P)..."
 
 #: modules/process/pid.c:119
+#, fuzzy
 msgid "Simulate PID effects on measurement"
-msgstr ""
+msgstr "模擬 PID 對測量的影響"
 
 #: modules/process/pid.c:142
+#, fuzzy
 msgid "_Proportional"
-msgstr ""
+msgstr "比例(_P)"
 
 #: modules/process/pid.c:143
+#, fuzzy
 msgid "_Integral"
-msgstr ""
+msgstr "積分(_I)"
 
 #: modules/process/pid.c:144
+#, fuzzy
 msgid "_Derivative"
-msgstr ""
+msgstr "微分(_D)"
 
 #: modules/process/pid.c:145
+#, fuzzy
 msgid "PID/scan speed _ratio"
-msgstr ""
+msgstr "PID/掃描速度比(_R)"
 
 #: modules/process/pid.c:146
+#, fuzzy
 msgid "_Integration steps"
-msgstr ""
+msgstr "積分步數(_I)"
 
 #: modules/process/pid.c:147
+#, fuzzy
 msgid "Force strength"
-msgstr ""
+msgstr "力強度"
 
 #: modules/process/pid.c:148
+#, fuzzy
 msgid "Force setpoint"
-msgstr ""
+msgstr "力設定值"
 
 #: modules/process/pid.c:226 modules/process/pid.c:325
+#, fuzzy
 msgid "Computation diverged."
-msgstr ""
+msgstr "計算發散。"
 
 #: modules/process/pid.c:227
+#, fuzzy
 msgid "Try different parameters."
-msgstr ""
+msgstr "請嘗試不同的參數。"
 
 #: modules/process/pid.c:252 modules/process/pid.c:261
+#, fuzzy
 msgid "PID Simulation"
-msgstr ""
+msgstr "PID 模擬"
 
 #: modules/process/pid.c:321
+#, fuzzy
 msgid "Computation canceled."
-msgstr ""
+msgstr "計算已取消。"
 
 #: modules/process/pid.c:370
+#, fuzzy
 msgid "Scanning..."
-msgstr ""
+msgstr "正在掃描……"
 
 #: modules/process/pileup_synth.c:170
+#, fuzzy
 msgid "Ellipsoids"
-msgstr ""
+msgstr "橢球"
 
 #: modules/process/pileup_synth.c:171
+#, fuzzy
 msgid "Bars"
-msgstr ""
+msgstr "條"
 
 #: modules/process/pileup_synth.c:172
+#, fuzzy
 msgid "Cylinders"
-msgstr ""
+msgstr "圓柱"
 
 #: modules/process/pileup_synth.c:173
+#, fuzzy
 msgid "Nuggets"
-msgstr ""
+msgstr "塊狀凸起"
 
 #: modules/process/pileup_synth.c:174
+#, fuzzy
 msgid "Hexagonal rods"
-msgstr ""
+msgstr "六稜柱"
 
 #: modules/process/pileup_synth.c:180
+#, fuzzy
 msgid "Generates randomly patterned surfaces by piling up geometrical shapes."
-msgstr ""
+msgstr "通過堆積幾何形狀生成隨機圖案表面。"
 
 #: modules/process/pileup_synth.c:194
+#, fuzzy
 msgid "/S_ynthetic/_Deposition/_Pile Up..."
-msgstr ""
+msgstr "/合成(_Y)/沉積(_D)/堆積(_P)..."
 
 #: modules/process/pileup_synth.c:198
+#, fuzzy
 msgid "Generate surface of randomly piled up shapes"
-msgstr ""
+msgstr "生成隨機堆積形狀的表面"
 
 #: modules/process/pileup_synth.c:292
+#, fuzzy
 msgid "Pile Up Shapes"
-msgstr ""
+msgstr "堆積形狀"
 
 #: modules/process/plateau_synth.c:144
+#, fuzzy
 msgid "Generates images with stacked plateau-like structures."
-msgstr ""
+msgstr "生成具有堆疊平台結構的圖像。"
 
 #: modules/process/plateau_synth.c:158
+#, fuzzy
 msgid "/S_ynthetic/_Deposition/_Plateaus..."
-msgstr ""
+msgstr "/合成(_Y)/沉積(_D)/平台(_P)..."
 
 #: modules/process/plateau_synth.c:162
+#, fuzzy
 msgid "Generate image with random plateaus"
-msgstr ""
+msgstr "生成含隨機平台的圖像"
 
 #: modules/process/plateau_synth.c:177
+#, fuzzy
 msgid "Ma_ximum size"
-msgstr ""
+msgstr "最大尺寸(_X)"
 
 #: modules/process/plateau_synth.c:178
+#, fuzzy
 msgid "M_inimum size"
-msgstr ""
+msgstr "最小尺寸(_I)"
 
 #: modules/process/plateau_synth.c:179 modules/process/residue_synth.c:156
 #, fuzzy
@@ -19231,64 +19656,79 @@ msgid "Size power _law"
 msgstr "尺寸冪律(_L)"
 
 #: modules/process/plateau_synth.c:180
+#, fuzzy
 msgid "Shape _irregularity"
-msgstr ""
+msgstr "形狀不規則度(_I)"
 
 #: modules/process/plateau_synth.c:181
+#, fuzzy
 msgid "O_verlap fraction"
-msgstr ""
+msgstr "重疊比例(_V)"
 
 #: modules/process/plateau_synth.c:183
+#, fuzzy
 msgid "Scale with _power of size"
-msgstr ""
+msgstr "按尺寸冪次縮放(_P)"
 
 #: modules/process/plateau_synth.c:185
+#, fuzzy
 msgid "Height _spread"
-msgstr ""
+msgstr "高度散佈(_S)"
 
 #: modules/process/plateau_synth.c:264
+#, fuzzy
 msgid "Random Plateaus"
-msgstr ""
+msgstr "隨機平台"
 
 #: modules/process/plateau_synth.c:801
+#, fuzzy
 msgid "Generating objects..."
-msgstr ""
+msgstr "正在生成對象……"
 
 #: modules/process/polydistort.c:134
+#, fuzzy
 msgid "Applies polynomial distortion in the horizontal plane."
-msgstr ""
+msgstr "在水平面內施加多項式畸變。"
 
 #: modules/process/polydistort.c:148
+#, fuzzy
 msgid "/_Distortion/Pol_ynomial..."
-msgstr ""
+msgstr "/畸變(_D)/多項式(_Y)..."
 
 #: modules/process/polydistort.c:152
+#, fuzzy
 msgid "Applies polynomial distortion in the horizontal plane"
-msgstr ""
+msgstr "在水平面內施加多項式畸變"
 
 #: modules/process/polydistort.c:202
+#, fuzzy
 msgid "Distort by Polynomial"
-msgstr ""
+msgstr "按多項式畸變"
 
 #: modules/process/polydistort.c:266
+#, fuzzy
 msgid "_Exterior type:"
-msgstr ""
+msgstr "外部類型(_E)："
 
 #: modules/process/polydistort.c:285
+#, fuzzy
 msgid "Ori_ginal"
-msgstr ""
+msgstr "原始(_G)"
 
 #: modules/process/polydistort.c:286
+#, fuzzy
 msgid "_Transformed"
-msgstr ""
+msgstr "變換後(_T)"
 
 #: modules/process/polydistort.c:292
+#, fuzzy
 msgid "X Coefficients"
-msgstr ""
+msgstr "X 係數"
 
 #: modules/process/polydistort.c:306
+#, fuzzy
 msgid "Y Coefficients"
-msgstr ""
+msgstr "Y 係數"
 
 #: modules/process/polylevel.c:101
 #, fuzzy
@@ -19347,48 +19787,59 @@ msgid "Save Table"
 msgstr "保存表格"
 
 #: modules/process/presentationops.c:58
+#, fuzzy
 msgid "Basic operations with presentation: extraction, removal."
-msgstr ""
+msgstr "展示圖像的基本操作：提取、移除。"
 
 #: modules/process/presentationops.c:77
+#, fuzzy
 msgid "_Data to attach"
-msgstr ""
+msgstr "要附加的數據(_D)"
 
 #: modules/process/presentationops.c:86
+#, fuzzy
 msgid "/_Presentation/_Remove Presentation"
-msgstr ""
+msgstr "/展示(_P)/移除展示圖像(_R)"
 
 #: modules/process/presentationops.c:90
+#, fuzzy
 msgid "Remove presentation from data"
-msgstr ""
+msgstr "從數據中移除展示圖像"
 
 #: modules/process/presentationops.c:93
+#, fuzzy
 msgid "/_Presentation/E_xtract Presentation"
-msgstr ""
+msgstr "/展示(_P)/提取展示圖像(_X)"
 
 #: modules/process/presentationops.c:97
+#, fuzzy
 msgid "Extract presentation to a new image"
-msgstr ""
+msgstr "將展示圖像提取為新圖像"
 
 #: modules/process/presentationops.c:100
+#, fuzzy
 msgid "/_Presentation/_Attach Presentation..."
-msgstr ""
+msgstr "/展示(_P)/附加展示圖像(_A)..."
 
 #: modules/process/presentationops.c:104
+#, fuzzy
 msgid "Attach another data field as presentation"
-msgstr ""
+msgstr "將另一數據場附加為展示圖像"
 
 #: modules/process/presentationops.c:107
+#, fuzzy
 msgid "/_Presentation/_Logscale"
-msgstr ""
+msgstr "/展示(_P)/對數標度(_L)"
 
 #: modules/process/presentationops.c:111
+#, fuzzy
 msgid "Creates a presentation with logarithmic color scale"
-msgstr ""
+msgstr "創建使用對數色標的展示圖像"
 
 #: modules/process/presentationops.c:248
+#, fuzzy
 msgid "Attach Presentation"
-msgstr ""
+msgstr "附加展示圖像"
 
 #: modules/process/psdf2d.c:124
 #, fuzzy
@@ -19475,24 +19926,29 @@ msgid "Log-Phi PSDF"
 msgstr "Log-Phi PSDF"
 
 #: modules/process/psf-fit.c:177
+#, fuzzy
 msgid "Gaussian (asymmetric)"
-msgstr ""
+msgstr "高斯（非對稱）"
 
 #: modules/process/psf-fit.c:182
+#, fuzzy
 msgid "Frequency-space exponential"
-msgstr ""
+msgstr "頻率空間指數"
 
 #: modules/process/psf-fit.c:191
+#, fuzzy
 msgid "Transfer function estimation by fitting explicit function form."
-msgstr ""
+msgstr "通過擬合顯式函數形式估計傳遞函數。"
 
 #: modules/process/psf-fit.c:205
+#, fuzzy
 msgid "/_Statistics/Transfer _Function Fit..."
-msgstr ""
+msgstr "/統計(_S)/傳遞函數擬合(_F)..."
 
 #: modules/process/psf-fit.c:209
+#, fuzzy
 msgid "Fit transfer function from known data and image"
-msgstr ""
+msgstr "根據已知數據和圖像擬合傳遞函數"
 
 #: modules/process/psf-fit.c:218 modules/process/psf-fit.c:280
 #: modules/process/psf.c:199 modules/process/psf.c:210
@@ -19514,12 +19970,14 @@ msgid "_Ideal response"
 msgstr "理想響應(_I)"
 
 #: modules/process/psf-fit.c:312
+#, fuzzy
 msgid "Fit Transfer Function"
-msgstr ""
+msgstr "擬合傳遞函數"
 
 #: modules/process/psf.c:172
+#, fuzzy
 msgid "Transfer function estimation"
-msgstr ""
+msgstr "傳遞函數估計"
 
 #: modules/process/psf.c:186 modules/volume/volume_psf.c:211
 #, fuzzy
@@ -19527,8 +19985,9 @@ msgid "/_Statistics/_Transfer Function Guess..."
 msgstr "/統計(_S)/估計傳遞函數(_T)..."
 
 #: modules/process/psf.c:190
+#, fuzzy
 msgid "Estimate transfer function from known data and ideal image"
-msgstr ""
+msgstr "根據已知數據和理想圖像估計傳遞函數"
 
 #: modules/process/psf.c:204 modules/volume/volume_psf.c:224
 #, fuzzy
@@ -19610,48 +20069,59 @@ msgid "Difference norm"
 msgstr "差值範數"
 
 #: modules/process/ptranslate.c:101
+#, fuzzy
 msgid "Translates images in the XY plane, treating them as periodic."
-msgstr ""
+msgstr "在 XY 平面內平移圖像，並將其視為週期性數據。"
 
 #: modules/process/ptranslate.c:115
+#, fuzzy
 msgid "/_Correct Data/_Translate Periodically..."
-msgstr ""
+msgstr "/校正數據(_C)/週期平移(_T)..."
 
 #: modules/process/ptranslate.c:119
+#, fuzzy
 msgid "Move data in XY plane, treating it as periodic"
-msgstr ""
+msgstr "在 XY 平面內移動數據，並將其視為週期性數據"
 
 #: modules/process/ptranslate.c:132
+#, fuzzy
 msgid "Center"
-msgstr ""
+msgstr "中心"
 
 #: modules/process/ptranslate.c:133
+#, fuzzy
 msgid "Top left corner"
-msgstr ""
+msgstr "左上角"
 
 #: modules/process/ptranslate.c:149
+#, fuzzy
 msgid "_Move selected point to"
-msgstr ""
+msgstr "將所選點移動到(_M)"
 
 #: modules/process/ptranslate.c:153
+#, fuzzy
 msgid "_Update coordinate offsets"
-msgstr ""
+msgstr "更新座標偏移(_U)"
 
 #: modules/process/ptranslate.c:193
+#, fuzzy
 msgid "Translated"
-msgstr ""
+msgstr "已平移"
 
 #: modules/process/ptranslate.c:232
+#, fuzzy
 msgid "Translate Periodically"
-msgstr ""
+msgstr "週期平移"
 
 #: modules/process/ptranslate.c:243
+#, fuzzy
 msgid "Translation"
-msgstr ""
+msgstr "平移"
 
 #: modules/process/ptranslate.c:258
+#, fuzzy
 msgid "_Select Center"
-msgstr ""
+msgstr "選擇中心(_S)"
 
 #: modules/process/rank-filter.c:82
 #, fuzzy
@@ -19722,24 +20192,29 @@ msgid "Rank"
 msgstr "秩"
 
 #: modules/process/rank.c:69
+#, fuzzy
 msgid "Enhances local contrast using a rank transform."
-msgstr ""
+msgstr "使用秩變換增強局部對比度。"
 
 #: modules/process/rank.c:83
+#, fuzzy
 msgid "/_Presentation/_Rank..."
-msgstr ""
+msgstr "/展示(_P)/秩變換(_R)..."
 
 #: modules/process/rank.c:87
+#, fuzzy
 msgid "Presentation with local contrast ehnanced using a rank transform"
-msgstr ""
+msgstr "使用秩變換增強局部對比度的展示圖像"
 
 #: modules/process/rank.c:96
+#, fuzzy
 msgid "Rank transform"
-msgstr ""
+msgstr "秩變換"
 
 #: modules/process/rank.c:97
+#, fuzzy
 msgid "Local normalization"
-msgstr ""
+msgstr "局部歸一化"
 
 #: modules/process/rank.c:98 modules/process/wrapvalue.c:143
 #: modules/process/wrapvalue.c:145 modules/process/wrapvalue.c:147
@@ -19748,40 +20223,49 @@ msgid "Value range"
 msgstr "數值範圍"
 
 #: modules/process/rank.c:163
+#, fuzzy
 msgid "Rank Transform"
-msgstr ""
+msgstr "秩變換"
 
 #: modules/process/rank.c:195
+#, fuzzy
 msgid "Rank transform..."
-msgstr ""
+msgstr "秩變換……"
 
 #: modules/process/raveraging.c:69
+#, fuzzy
 msgid "Smooths images in polar coordinates."
-msgstr ""
+msgstr "在極座標中平滑圖像。"
 
 #: modules/process/raveraging.c:83
+#, fuzzy
 msgid "/_Distortion/_Radial Smoothing..."
-msgstr ""
+msgstr "/畸變(_D)/徑向平滑(_R)..."
 
 #: modules/process/raveraging.c:87
+#, fuzzy
 msgid "Smooth image in polar coordinates"
-msgstr ""
+msgstr "在極座標中平滑圖像"
 
 #: modules/process/raveraging.c:102
+#, fuzzy
 msgid "_Angle"
-msgstr ""
+msgstr "角度(_A)"
 
 #: modules/process/raveraging.c:144
+#, fuzzy
 msgid "Radially smoothed"
-msgstr ""
+msgstr "徑向平滑後"
 
 #: modules/process/raveraging.c:161
+#, fuzzy
 msgid "Radial Smoothing"
-msgstr ""
+msgstr "徑向平滑"
 
 #: modules/process/relate.c:196
+#, fuzzy
 msgid "Proportion"
-msgstr ""
+msgstr "比例"
 
 #: modules/process/relate.c:201 modules/tools/corrlen.c:175
 #, fuzzy
@@ -19789,8 +20273,9 @@ msgid "Offset"
 msgstr "偏移"
 
 #: modules/process/relate.c:216
+#, fuzzy
 msgid "Parabolic"
-msgstr ""
+msgstr "拋物線"
 
 #: modules/process/relate.c:226 modules/volume/volume_cluster.c:286
 #, fuzzy
@@ -19798,188 +20283,233 @@ msgid "Logarithm"
 msgstr "對數"
 
 #: modules/process/relate.c:235
+#, fuzzy
 msgid "Plots one image data as a function of another and finds relations."
-msgstr ""
+msgstr "將一幅圖像的數據繪製為另一幅圖像的函數，並尋找關係。"
 
 #: modules/process/relate.c:249
+#, fuzzy
 msgid "/_Multidata/_Relation..."
-msgstr ""
+msgstr "/多數據(_M)/關係(_R)..."
 
 #: modules/process/relate.c:253
+#, fuzzy
 msgid "Find simple relations between data"
-msgstr ""
+msgstr "查找數據間的簡單關係"
 
 #: modules/process/relate.c:335
+#, fuzzy
 msgid "Relate"
-msgstr ""
+msgstr "關聯"
 
 #: modules/process/reorder.c:68
+#, fuzzy
 msgid "Reorders image data in different ways."
-msgstr ""
+msgstr "以不同方式重新排列圖像數據。"
 
 #: modules/process/reorder.c:82
+#, fuzzy
 msgid "/_Distortion/_Reorder..."
-msgstr ""
+msgstr "/畸變(_D)/重排(_R)..."
 
 #: modules/process/reorder.c:86
+#, fuzzy
 msgid "Reorder image data"
-msgstr ""
+msgstr "重排圖像數據"
 
 #: modules/process/reorder.c:107
+#, fuzzy
 msgid "Reordering"
-msgstr ""
+msgstr "重排"
 
 #: modules/process/reorder.c:144
+#, fuzzy
 msgid "Reordered"
-msgstr ""
+msgstr "已重排"
 
 #: modules/process/reorder.c:165
+#, fuzzy
 msgid "Reorder"
-msgstr ""
+msgstr "重排"
 
 #: modules/process/resample.c:84
+#, fuzzy
 msgid "Resamples data to specified pixel size."
-msgstr ""
+msgstr "將數據重採樣到指定像素大小。"
 
 #: modules/process/resample.c:98
+#, fuzzy
 msgid "/_Basic Operations/_Resample..."
-msgstr ""
+msgstr "/基本操作(_B)/重採樣(_R)..."
 
 #: modules/process/resample.c:102
+#, fuzzy
 msgid "Resample to pixel size"
-msgstr ""
+msgstr "重採樣到指定像素大小"
 
 #: modules/process/resample.c:117
+#, fuzzy
 msgid "_X pixel size"
-msgstr ""
+msgstr "X 像素大小(_X)"
 
 #: modules/process/resample.c:118
+#, fuzzy
 msgid "_Y pixel size"
-msgstr ""
+msgstr "Y 像素大小(_Y)"
 
 #: modules/process/resample.c:122 modules/process/resample.c:123
+#, fuzzy
 msgid "_Match pixel size"
-msgstr ""
+msgstr "匹配像素大小(_M)"
 
 #: modules/process/resample.c:191
+#, fuzzy
 msgid "Resampled Data"
-msgstr ""
+msgstr "重採樣後數據"
 
 #: modules/process/resample.c:219
+#, fuzzy
 msgid "Resample"
-msgstr ""
+msgstr "重採樣"
 
 #: modules/process/residue_synth.c:117
+#, fuzzy
 msgid "Generates images by simulating residue of film removal."
-msgstr ""
+msgstr "通過模擬去膜殘留生成圖像。"
 
 #: modules/process/residue_synth.c:131
+#, fuzzy
 msgid "/S_ynthetic/_Deposition/_Residue..."
-msgstr ""
+msgstr "/合成(_Y)/沉積(_D)/殘留(_R)..."
 
 #: modules/process/residue_synth.c:135
+#, fuzzy
 msgid "Generate image of film residue"
-msgstr ""
+msgstr "生成薄膜殘留圖像"
 
 #: modules/process/residue_synth.c:153
+#, fuzzy
 msgid "_Probability of a new location"
-msgstr ""
+msgstr "新位置概率(_P)"
 
 #: modules/process/residue_synth.c:155
+#, fuzzy
 msgid "Ma_ximum radius"
-msgstr ""
+msgstr "最大半徑(_X)"
 
 #: modules/process/residue_synth.c:223
+#, fuzzy
 msgid "Residue"
-msgstr ""
+msgstr "殘留"
 
 #: modules/process/roddeposit_synth.c:203
+#, fuzzy
 msgid "Generates rod-like particles using simple dynamical model"
-msgstr ""
+msgstr "使用簡單動力學模型生成棒狀顆粒"
 
 #: modules/process/roddeposit_synth.c:217
+#, fuzzy
 msgid "/S_ynthetic/_Deposition/_Rods..."
-msgstr ""
+msgstr "/合成(_Y)/沉積(_D)/棒狀顆粒(_R)..."
 
 #: modules/process/roddeposit_synth.c:221
+#, fuzzy
 msgid "Generate rod-like particles using dynamical model"
-msgstr ""
+msgstr "使用動力學模型生成棒狀顆粒"
 
 #: modules/process/roddeposit_synth.c:320
 #: modules/process/roddeposit_synth.c:1007
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "Not all the particles could be deposited (%u),\n"
 "try more revise steps."
 msgstr ""
+"未能沉積所有顆粒（%u），\n"
+"請嘗試增加修正步數。"
 
 #: modules/process/roddeposit_synth.c:476
+#, fuzzy
 msgid "Particle r_adius:"
-msgstr ""
+msgstr "顆粒半徑(_A)："
 
 #: modules/process/roddeposit_synth.c:488
+#, fuzzy
 msgid "Distribution _width:"
-msgstr ""
+msgstr "分佈寬度(_W)："
 
 #: modules/process/roddeposit_synth.c:502
+#, fuzzy
 msgid "_Aspect ratio:"
-msgstr ""
+msgstr "縱橫比(_A)："
 
 #: modules/process/roddeposit_synth.c:513
+#, fuzzy
 msgid "A_spect ratio variance:"
-msgstr ""
+msgstr "縱橫比方差(_S)："
 
 #: modules/process/roddeposit_synth.c:522
+#, fuzzy
 msgid "LJ _particle strength:"
-msgstr ""
+msgstr "LJ 顆粒強度(_P)："
 
 #: modules/process/roddeposit_synth.c:530
+#, fuzzy
 msgid "LJ _surface strength:"
-msgstr ""
+msgstr "LJ 表面強度(_S)："
 
 #: modules/process/roddeposit_synth.c:538
+#, fuzzy
 msgid "_Surface mobility:"
-msgstr ""
+msgstr "表面遷移率(_S)："
 
 #: modules/process/roddeposit_synth.c:547
+#, fuzzy
 msgid "_Gravity:"
-msgstr ""
+msgstr "重力(_G)："
 
 #: modules/process/roddeposit_synth.c:556
+#, fuzzy
 msgid "Co_verage:"
-msgstr ""
+msgstr "覆蓋率(_V)："
 
 #: modules/process/roddeposit_synth.c:564
+#, fuzzy
 msgid "_Relax steps:"
-msgstr ""
+msgstr "弛豫步數(_R)："
 
 #: modules/process/roddeposit_synth.c:572
+#, fuzzy
 msgid "Output statistics"
-msgstr ""
+msgstr "輸出統計量"
 
 #: modules/process/roddeposit_synth.c:686
+#, fuzzy
 msgid "Particle length"
-msgstr ""
+msgstr "顆粒長度"
 
 #: modules/process/roddeposit_synth.c:687
 #: modules/process/roddeposit_synth.c:706
 #: modules/process/roddeposit_synth.c:726
 #: modules/process/roddeposit_synth.c:746
 #: modules/process/roddeposit_synth.c:766
+#, fuzzy
 msgid "Counts"
-msgstr ""
+msgstr "計數"
 
 #: modules/process/roddeposit_synth.c:705
+#, fuzzy
 msgid "Particle width"
-msgstr ""
+msgstr "顆粒寬度"
 
 #: modules/process/roddeposit_synth.c:725
+#, fuzzy
 msgid "Aspect ratio"
-msgstr ""
+msgstr "縱橫比"
 
 #: modules/process/roddeposit_synth.c:745
+#, fuzzy
 msgid "ϑ"
-msgstr ""
+msgstr "ϑ"
 
 #: modules/process/roddeposit_synth.c:765 modules/process/shade.c:108
 #: modules/process/tilt.c:105
@@ -19988,65 +20518,77 @@ msgid "φ"
 msgstr "φ"
 
 #: modules/process/roddeposit_synth.c:1005
-#, c-format
+#, c-format, fuzzy
 msgid "%d particles were deposited"
-msgstr ""
+msgstr "已沉積 %d 個顆粒"
 
 #: modules/process/roddeposit_synth.c:1372
 #: modules/process/roddeposit_synth.c:1534
-#, c-format
+#, c-format, fuzzy
 msgid "Running revise (%d active particles)..."
-msgstr ""
+msgstr "正在修正（%d 個活動顆粒）……"
 
 #: modules/process/rotate.c:89
+#, fuzzy
 msgid ""
 "Rotates data by arbitrary angle or to make characteristic directions "
 "parallel with x or y axis."
-msgstr ""
+msgstr "將數據旋轉任意角度，或使特徵方向與 x 軸或 y 軸平行。"
 
 #: modules/process/rotate.c:103
+#, fuzzy
 msgid "/_Basic Operations/Rotate by _Angle..."
-msgstr ""
+msgstr "/基本操作(_B)/按角度旋轉(_A)..."
 
 #: modules/process/rotate.c:107
+#, fuzzy
 msgid "Rotate by arbitrary angle"
-msgstr ""
+msgstr "按任意角度旋轉"
 
 #: modules/process/rotate.c:110
+#, fuzzy
 msgid "/_Correct Data/_Unrotate..."
-msgstr ""
+msgstr "/校正數據(_C)/校正旋轉(_U)..."
 
 #: modules/process/rotate.c:114
+#, fuzzy
 msgid "Automatically correct rotation in horizontal plane"
-msgstr ""
+msgstr "自動校正水平面內的旋轉"
 
 #: modules/process/rotate.c:122
+#, fuzzy
 msgid "_Same as original"
-msgstr ""
+msgstr "與原圖相同(_S)"
 
 #: modules/process/rotate.c:123
+#, fuzzy
 msgid "_Expanded to complete data"
-msgstr ""
+msgstr "擴展為完整數據(_E)"
 
 #: modules/process/rotate.c:124
+#, fuzzy
 msgid "C_ut to valid data"
-msgstr ""
+msgstr "裁剪為有效數據(_U)"
 
 #: modules/process/rotate.c:129
+#, fuzzy
 msgid "Result size"
-msgstr ""
+msgstr "結果尺寸"
 
 #: modules/process/rotate.c:132
+#, fuzzy
 msgid "Show _grid"
-msgstr ""
+msgstr "顯示網格(_G)"
 
 #: modules/process/rotate.c:145
+#, fuzzy
 msgid "Rotate by _angle"
-msgstr ""
+msgstr "按角度旋轉(_A)"
 
 #: modules/process/rotate.c:159
+#, fuzzy
 msgid "_Assume symmetry"
-msgstr ""
+msgstr "假定對稱(_A)"
 
 #: modules/process/rotate.c:238 modules/volume/volume_swaxes.c:348
 #, fuzzy
@@ -20054,76 +20596,94 @@ msgid "Rotated Data"
 msgstr "旋轉後的數據"
 
 #: modules/process/rotate.c:261
+#, fuzzy
 msgid "Correct Rotation"
-msgstr ""
+msgstr "校正旋轉"
 
 #: modules/process/rotate.c:261 modules/process/rotate.c:283
+#, fuzzy
 msgid "Rotate"
-msgstr ""
+msgstr "旋轉"
 
 #: modules/process/rotate.c:274
+#, fuzzy
 msgid "Structure"
-msgstr ""
+msgstr "結構"
 
 #: modules/process/rotate.c:279
+#, fuzzy
 msgid "Correction"
-msgstr ""
+msgstr "校正"
 
 #: modules/process/scale.c:68
+#, fuzzy
 msgid "Scales data by arbitrary factor."
-msgstr ""
+msgstr "按任意因子縮放數據。"
 
 #: modules/process/scale.c:82
+#, fuzzy
 msgid "/_Basic Operations/_Scale..."
-msgstr ""
+msgstr "/基本操作(_B)/縮放(_S)..."
 
 #: modules/process/scale.c:86
+#, fuzzy
 msgid "Scale data"
-msgstr ""
+msgstr "縮放數據"
 
 #: modules/process/scale.c:101
+#, fuzzy
 msgid "Scale by _ratio"
-msgstr ""
+msgstr "按比例縮放(_R)"
 
 #: modules/process/scale.c:102
+#, fuzzy
 msgid "_Proportional scaling"
-msgstr ""
+msgstr "等比例縮放(_P)"
 
 #: modules/process/scale.c:107
+#, fuzzy
 msgid "New _width"
-msgstr ""
+msgstr "新寬度(_W)"
 
 #: modules/process/scale.c:108
+#, fuzzy
 msgid "New _height"
-msgstr ""
+msgstr "新高度(_H)"
 
 #: modules/process/scale.c:183
+#, fuzzy
 msgid "Scaled Data"
-msgstr ""
+msgstr "縮放後數據"
 
 #: modules/process/scale.c:201
+#, fuzzy
 msgid "verb|Scale"
-msgstr ""
+msgstr "縮放"
 
 #: modules/process/scars.c:89
+#, fuzzy
 msgid "Marks and/or removes scars (horizontal linear artifacts)."
-msgstr ""
+msgstr "標記和/或移除劃痕（水平線狀偽影）。"
 
 #: modules/process/scars.c:103
+#, fuzzy
 msgid "/_Correct Data/M_ark Scars..."
-msgstr ""
+msgstr "/校正數據(_C)/標記劃痕(_A)..."
 
 #: modules/process/scars.c:107
+#, fuzzy
 msgid "Mark horizontal scars (strokes)"
-msgstr ""
+msgstr "標記水平劃痕（條紋）"
 
 #: modules/process/scars.c:110
+#, fuzzy
 msgid "/_Correct Data/Remove _Scars"
-msgstr ""
+msgstr "/校正數據(_C)/移除劃痕(_S)"
 
 #: modules/process/scars.c:114
+#, fuzzy
 msgid "Correct horizontal scars (strokes)"
-msgstr ""
+msgstr "校正水平劃痕（條紋）"
 
 #: modules/process/scars.c:134 modules/volume/volume_scars.c:140
 #, fuzzy
@@ -20151,56 +20711,69 @@ msgid "Maximum _width"
 msgstr "最大寬度(_W)"
 
 #: modules/process/scars.c:282
+#, fuzzy
 msgid "Mark Scars"
-msgstr ""
+msgstr "標記劃痕"
 
 #: modules/process/semsim.c:98
+#, fuzzy
 msgid "Simple SEM image simulation from topography."
-msgstr ""
+msgstr "根據表面形貌進行簡單 SEM 圖像模擬。"
 
 #: modules/process/semsim.c:112
+#, fuzzy
 msgid "/_Presentation/_SEM Image..."
-msgstr ""
+msgstr "/展示(_P)/SEM 圖像(_S)..."
 
 #: modules/process/semsim.c:116
+#, fuzzy
 msgid "Simple SEM simulation from topography"
-msgstr ""
+msgstr "根據表面形貌進行簡單 SEM 模擬"
 
 #: modules/process/semsim.c:125
+#, fuzzy
 msgid "Integration"
-msgstr ""
+msgstr "積分法"
 
 #: modules/process/semsim.c:126
+#, fuzzy
 msgid "Monte Carlo"
-msgstr ""
+msgstr "Monte Carlo 法"
 
 #: modules/process/semsim.c:137
+#, fuzzy
 msgid "_Quality"
-msgstr ""
+msgstr "質量(_Q)"
 
 #: modules/process/semsim.c:138
+#, fuzzy
 msgid "_Integration radius"
-msgstr ""
+msgstr "積分半徑(_I)"
 
 #: modules/process/semsim.c:157 modules/process/semsim.c:191
+#, fuzzy
 msgid "SEM Image"
-msgstr ""
+msgstr "SEM 圖像"
 
 #: modules/process/semsim.c:235
+#, fuzzy
 msgid "SEM image simulation..."
-msgstr ""
+msgstr "正在模擬 SEM 圖像……"
 
 #: modules/process/shade.c:74
+#, fuzzy
 msgid "Creates a shaded presentation of data."
-msgstr ""
+msgstr "創建數據的陰影展示圖像。"
 
 #: modules/process/shade.c:88
+#, fuzzy
 msgid "/_Presentation/_Shading..."
-msgstr ""
+msgstr "/展示(_P)/陰影(_S)..."
 
 #: modules/process/shade.c:92
+#, fuzzy
 msgid "Shade data"
-msgstr ""
+msgstr "為數據添加陰影"
 
 #: modules/process/shade.c:107 modules/process/tilt.c:104
 #, fuzzy
@@ -20208,12 +20781,14 @@ msgid "θ"
 msgstr "θ"
 
 #: modules/process/shade.c:109 modules/process/shade.c:110
+#, fuzzy
 msgid "_Mix"
-msgstr ""
+msgstr "混合(_M)"
 
 #: modules/process/shade.c:173
+#, fuzzy
 msgid "Shading"
-msgstr ""
+msgstr "陰影"
 
 #: modules/process/slope_dist.c:108
 #, fuzzy
@@ -20283,16 +20858,19 @@ msgid "Inclinations"
 msgstr "傾角"
 
 #: modules/process/smm.c:183
+#, fuzzy
 msgid "Interprets SMM measurement on a calibration sample"
-msgstr ""
+msgstr "解讀校準樣品的 SMM 測量數據"
 
 #: modules/process/smm.c:197
+#, fuzzy
 msgid "/_SPM Modes/_Electrical/_SMM Calibration..."
-msgstr ""
+msgstr "/SPM 模式(_S)/電學(_E)/SMM 校準(_S)..."
 
 #: modules/process/smm.c:201
+#, fuzzy
 msgid "Calibrate SMM using capacitors calibration sample"
-msgstr ""
+msgstr "使用電容校準樣品校準 SMM"
 
 #: modules/process/smm.c:210 modules/process/smm_apply.c:133
 #, fuzzy
@@ -20315,12 +20893,14 @@ msgid "logMag"
 msgstr "對數幅值"
 
 #: modules/process/smm.c:217
+#, fuzzy
 msgid "Re (S11)"
-msgstr ""
+msgstr "Re (S11)"
 
 #: modules/process/smm.c:218
+#, fuzzy
 msgid "Im (S11)"
-msgstr ""
+msgstr "Im (S11)"
 
 #: modules/process/smm.c:219 modules/process/smm.c:265
 #: modules/process/smm.c:301 modules/process/smm.c:303
@@ -20341,8 +20921,9 @@ msgid "Second channel"
 msgstr "第二個通道"
 
 #: modules/process/smm.c:239
+#, fuzzy
 msgid "Plot result"
-msgstr ""
+msgstr "繪製結果"
 
 #: modules/process/smm.c:242 modules/process/smm_apply.c:153
 #, fuzzy
@@ -20356,12 +20937,14 @@ msgid "Frequency"
 msgstr "頻率"
 
 #: modules/process/smm.c:255
+#, fuzzy
 msgid "Enable"
-msgstr ""
+msgstr "啓用"
 
 #: modules/process/smm.c:260
+#, fuzzy
 msgid "verb|Fit"
-msgstr ""
+msgstr "擬合"
 
 #: modules/process/smm.c:268 modules/process/smm_apply.c:158
 #, fuzzy
@@ -20394,59 +20977,70 @@ msgid "Im(e11)"
 msgstr "Im(e11)"
 
 #: modules/process/smm.c:302
+#, fuzzy
 msgid "S<sub>11</sub>"
-msgstr ""
+msgstr "S<sub>11</sub>"
 
 #: modules/process/smm.c:308
+#, fuzzy
 msgid "nominal"
-msgstr ""
+msgstr "標稱"
 
 #: modules/process/smm.c:313
+#, fuzzy
 msgid "measured"
-msgstr ""
+msgstr "實測"
 
 #: modules/process/smm.c:361
+#, fuzzy
 msgid "SMM Calibration"
-msgstr ""
+msgstr "SMM 校準"
 
 #: modules/process/smm.c:440
+#, fuzzy
 msgid "Masks"
-msgstr ""
+msgstr "掩膜"
 
 #: modules/process/smm.c:441
+#, fuzzy
 msgid "Capacitance [fF]"
-msgstr ""
+msgstr "電容 [fF]"
 
 #: modules/process/smm.c:562 modules/process/smm.c:704
 #: modules/process/smm.c:1118
-#, c-format
+#, c-format, fuzzy
 msgid "Data not fitted."
-msgstr ""
+msgstr "數據未擬合。"
 
 #: modules/process/smm.c:982 modules/process/smm.c:983
+#, fuzzy
 msgid "Re(S<sub>11</sub>)"
-msgstr ""
+msgstr "Re(S<sub>11</sub>)"
 
 #: modules/process/smm.c:990 modules/process/smm.c:991
+#, fuzzy
 msgid "Im(S<sub>11</sub>)"
-msgstr ""
+msgstr "Im(S<sub>11</sub>)"
 
 #: modules/process/smm.c:1116 modules/process/smm.c:1207
-#, c-format
+#, c-format, fuzzy
 msgid "Mean square difference: %g"
-msgstr ""
+msgstr "均方差：%g"
 
 #: modules/process/smm.c:1209
+#, fuzzy
 msgid "Fit failed."
-msgstr ""
+msgstr "擬合失敗。"
 
 #: modules/process/smm_apply.c:96
+#, fuzzy
 msgid "Re(S11)"
-msgstr ""
+msgstr "Re(S11)"
 
 #: modules/process/smm_apply.c:97
+#, fuzzy
 msgid "Im(S11)"
-msgstr ""
+msgstr "Im(S11)"
 
 #: modules/process/smm_apply.c:98
 msgid "Re(Ztip)"

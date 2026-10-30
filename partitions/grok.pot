@@ -1,0 +1,3559 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/file/accurell.c:82
+msgid "Imports ASCII Accurion scanning ellipsometry maps."
+msgstr ""
+
+#: modules/file/accurell.c:95
+msgid "Accurion exported ellipsometry data (.txt)"
+msgstr ""
+
+#: modules/file/accurexii-txt.c:69
+msgid "Imports Accurex II text files."
+msgstr ""
+
+#: modules/file/accurexii-txt.c:82
+msgid "Accurex II text files (.txt)"
+msgstr ""
+
+#: modules/file/accurexii-txt.c:145
+msgid "File header cannot be converted from ISO-8859-1 character set."
+msgstr ""
+
+#: modules/file/afmw-spec.c:99
+msgid "Imports AFM Workshop spectrum files."
+msgstr ""
+
+#: modules/file/afmw-spec.c:112
+msgid "AFM Workshop spectrum files (.csv)"
+msgstr ""
+
+#: modules/file/aistfile.c:117
+msgid "Imports AIST-NT data files."
+msgstr ""
+
+#: modules/file/aistfile.c:130
+msgid "AIST-NT files (.aist)"
+msgstr ""
+
+#: modules/file/alicona.c:144
+msgid "Imports Alicona Imaging AL3D files."
+msgstr ""
+
+#: modules/file/alicona.c:157
+msgid "Alicona Imaging AL3D files (.al3d)"
+msgstr ""
+
+#: modules/file/alicona.c:486
+#, c-format
+msgid "Invalid plane number %u in tag ‘%s’."
+msgstr ""
+
+#: modules/file/alicona.c:565
+msgid "Header tag key is not nul-terminated."
+msgstr ""
+
+#: modules/file/alicona.c:570
+msgid "Header tag key is empty."
+msgstr ""
+
+#: modules/file/alicona.c:576
+#, c-format
+msgid "Header tag ‘%s’ key is not nul-padded."
+msgstr ""
+
+#: modules/file/alicona.c:583
+#, c-format
+msgid "Header tag ‘%s’ lacks CRLF terminator."
+msgstr ""
+
+#: modules/file/alicona.c:589
+#, c-format
+msgid "Header tag ‘%s’ value is not nul-terminated."
+msgstr ""
+
+#: modules/file/alicona.c:598
+#, c-format
+msgid "Header tag ‘%s’ value is not nul-padded."
+msgstr ""
+
+#: modules/file/alicona.c:663
+msgid "Comment lacks CRLF termination."
+msgstr ""
+
+#: modules/file/alicona.c:668
+msgid "Comment is not nul-terminated."
+msgstr ""
+
+#: modules/file/ambfile.c:78
+msgid "Imports Ambios AMB data files."
+msgstr ""
+
+#: modules/file/ambfile.c:91
+msgid "Ambios amb files (.amb)"
+msgstr ""
+
+#: modules/file/ambprofile.c:104
+msgid "Imports Ambios 1D profilometry data files."
+msgstr ""
+
+#: modules/file/ambprofile.c:117
+msgid "Ambios 1D profilometry data files (.xml)"
+msgstr ""
+
+#: modules/file/ambprofile.c:123
+msgid "Ambios 1D profilometry data files (.dat)"
+msgstr ""
+
+#: modules/file/ambprofile.c:377
+msgid "Different number of X and Z values"
+msgstr ""
+
+#: modules/file/anasys_xml.c:103
+msgid "Imports Analysis Studio XML (.axz & .axd) files."
+msgstr ""
+
+#: modules/file/anasys_xml.c:116
+msgid "Analysis Studio XML (.axz, .axd)"
+msgstr ""
+
+#: modules/file/andorsif.c:318
+msgid "Imports Andor SIF data files."
+msgstr ""
+
+#: modules/file/andorsif.c:331
+msgid "Andor SIF files (.sif)"
+msgstr ""
+
+#: modules/file/anfatec.c:107
+msgid "Imports Anfatec data files (two-part .txt + .int)."
+msgstr ""
+
+#: modules/file/anfatec.c:120
+msgid "Anfatec files (.par + .int)"
+msgstr ""
+
+#: modules/file/anfatec.c:244
+msgid "The parameter file cannot be loaded."
+msgstr ""
+
+#: modules/file/anfatec.c:250
+msgid "Cannot find the corresponding parameter file."
+msgstr ""
+
+#: modules/file/anfatec.c:270
+msgid "FileDescBegin cannot be inside another FileDesc."
+msgstr ""
+
+#: modules/file/anfatec.c:280
+msgid "FileDescEnd has no corresponding FileDescBegin."
+msgstr ""
+
+#: modules/file/anfatec.c:306
+msgid "FileDescBegin has no corresponding FileDescEnd."
+msgstr ""
+
+#: modules/file/anfatec.c:769 modules/file/anfatec.c:782
+msgid "Wrong number of header rows or columns."
+msgstr ""
+
+#: modules/file/anfatec.c:835
+msgid "Coordinates do not form a regular grid."
+msgstr ""
+
+#: modules/file/apedaxfile.c:258
+msgid "Imports A.P.E. Research DAX data files."
+msgstr ""
+
+#: modules/file/apedaxfile.c:273
+msgid "A.P.E. Research DAX Files (.dax) and APDT File (.apdt)"
+msgstr ""
+
+#: modules/file/apefile.c:192
+msgid "Imports APE (Applied Physics and Engineering) data files."
+msgstr ""
+
+#: modules/file/apefile.c:205
+msgid "APE files (.dat)"
+msgstr ""
+
+#: modules/file/ardf.c:224
+msgid "Imports Asylum Research ARDF files."
+msgstr ""
+
+#: modules/file/ardf.c:237
+msgid "ARDF file (.ARDF)"
+msgstr ""
+
+#: modules/file/ardf.c:329
+msgid "Reading images and metadata..."
+msgstr ""
+
+#: modules/file/ardf.c:484
+msgid "Reading volume data..."
+msgstr ""
+
+#: modules/file/ardf.c:843
+#, c-format
+msgid "Found data header %s instead of expected %s."
+msgstr ""
+
+#: modules/file/asciicmap.c:51
+msgid "Reads curve maps exported to text."
+msgstr ""
+
+#: modules/file/asciicmap.c:64
+msgid "Curve map text export (.txt)"
+msgstr ""
+
+#: modules/file/asciiexport.c:87
+msgid "Exports data as simple ASCII matrix and reads back this format."
+msgstr ""
+
+#: modules/file/asciiexport.c:100
+msgid "ASCII data matrix (.txt)"
+msgstr ""
+
+#: modules/file/asciiexport.c:124
+msgid "Conca_tenate exports of all images"
+msgstr ""
+
+#: modules/file/asdfile.c:176
+msgid "Imports ASD high-speed AFM data files."
+msgstr ""
+
+#: modules/file/asdfile.c:189
+msgid "ASD high-speed AFM files (.asd)"
+msgstr ""
+
+#: modules/file/assing-afm.c:65
+msgid "Imports Assing AFM data files."
+msgstr ""
+
+#: modules/file/assing-afm.c:78
+msgid "Assing AFM files (.afm)"
+msgstr ""
+
+#: modules/file/attocube.c:80
+msgid "Imports Attocube Systems ASC files."
+msgstr ""
+
+#: modules/file/attocube.c:93
+msgid "Attocube ASCII files (.asc)"
+msgstr ""
+
+#: modules/file/bcrfile.c:127
+msgid "Imports Image Metrology BCR data files."
+msgstr ""
+
+#: modules/file/bcrfile.c:140
+msgid "BCR files (.bcr, .bcrf)"
+msgstr ""
+
+#: modules/file/bcrfile.c:310
+#, c-format
+msgid "Unknown file type header: `%s'."
+msgstr ""
+
+#: modules/file/burleigh.c:123
+msgid "Imports Burleigh IMG data files version 2.1."
+msgstr ""
+
+#: modules/file/burleigh.c:136
+msgid "Burleigh 2.1 files (.img)"
+msgstr ""
+
+#: modules/file/burleigh.c:217
+#, c-format
+msgid "File format version %.1f is not supported."
+msgstr ""
+
+#: modules/file/burleigh_bii.c:75
+msgid "Imports Burleigh BII binary data files."
+msgstr ""
+
+#: modules/file/burleigh_bii.c:88
+msgid "Burleigh Image Studio files (.bii)"
+msgstr ""
+
+#: modules/file/burleigh_exp.c:84
+msgid "Imports Burleigh text/bin exported images."
+msgstr ""
+
+#: modules/file/burleigh_exp.c:97
+msgid "Burleigh exported data (.txt, .bin)"
+msgstr ""
+
+#: modules/file/codevfile.c:67
+msgid "Imports Code V interferogram files."
+msgstr ""
+
+#: modules/file/codevfile.c:80
+msgid "Code V interferogram files (.int)"
+msgstr ""
+
+#: modules/file/createc.c:129
+msgid "Imports Createc data files."
+msgstr ""
+
+#: modules/file/createc.c:142
+msgid "Createc files (.dat)"
+msgstr ""
+
+#: modules/file/createc.c:180
+#, c-format
+msgid "Neither `%s' nor `%s' header field found."
+msgstr ""
+
+#: modules/file/csmfile.c:80
+msgid "Imports Benyuan CSM data files."
+msgstr ""
+
+#: modules/file/csmfile.c:93
+msgid "Benyuan CSM files (.csm)"
+msgstr ""
+
+#: modules/file/dektakvca.c:192
+msgid "Imports Dektak OPDx data files."
+msgstr ""
+
+#: modules/file/dektakvca.c:205
+msgid "Dektak OPDx data files (.OPDx)"
+msgstr ""
+
+#: modules/file/dektakvca.c:611
+#, c-format
+msgid "Item `%s' has unexpected type %u instead of %u."
+msgstr ""
+
+#: modules/file/dektakxml.c:114
+msgid "Imports Dektak XML data files."
+msgstr ""
+
+#: modules/file/dektakxml.c:127
+msgid "Dektak XML data files (.xml)"
+msgstr ""
+
+#: modules/file/dimensionfile.c:71
+msgid "Imports old Veeco Dimension 3100D files."
+msgstr ""
+
+#: modules/file/dimensionfile.c:84
+msgid "Dimension 3100D files (.001, .002, ...)"
+msgstr ""
+
+#: modules/file/dm3file.c:283
+msgid "Reads Digital Micrograph DM3 and DM4 files."
+msgstr ""
+
+#: modules/file/dm3file.c:296
+msgid "Digital Micrograph DM3 TEM data (.dm3)"
+msgstr ""
+
+#: modules/file/dm3file.c:302
+msgid "Digital Micrograph DM4 TEM data (.dm4)"
+msgstr ""
+
+#: modules/file/dm3file.c:1098
+#, c-format
+msgid "Invalid tag type definition in entry ‘%s’."
+msgstr ""
+
+#: modules/file/dm3file.c:1199 modules/file/dm3file.c:1258
+msgid "Tag entry type is neither group nor data."
+msgstr ""
+
+#: modules/file/dm3file.c:1317 modules/file/dm3file.c:1377
+#, c-format
+msgid "Tag type does not start with marker ‘%s’."
+msgstr ""
+
+#: modules/file/dm3file.c:1516
+#, c-format
+msgid "Invalid or unsupported tag type %u."
+msgstr ""
+
+#: modules/file/dmefile.c:128
+msgid "Imports Danish Micro Engineering (DME) data files."
+msgstr ""
+
+#: modules/file/dmefile.c:141
+msgid "DME files (.img)"
+msgstr ""
+
+#: modules/file/dmefile.c:193
+#, c-format
+msgid "Header is too short (only %d bytes)."
+msgstr ""
+
+#: modules/file/dumbfile.c:66
+msgid "Reads and exports Gwyddion dumb dump files."
+msgstr ""
+
+#: modules/file/dumbfile.c:79
+msgid "Gwyddion dumb dump files (.dump)"
+msgstr ""
+
+#: modules/file/ecsfile.c:81
+msgid "Imports ECS IMG files."
+msgstr ""
+
+#: modules/file/ecsfile.c:94
+msgid "ECS files (.img)"
+msgstr ""
+
+#: modules/file/ecsfile.c:168
+msgid "Scan size header field overlaps with data."
+msgstr ""
+
+#: modules/file/err.h:75
+#, c-format
+msgid "No data file corresponding to `%s' was found."
+msgstr ""
+
+#: modules/file/err.h:83
+msgid "File is too short to be of the assumed file type."
+msgstr ""
+
+#: modules/file/err.h:90
+#, c-format
+msgid ""
+"File is not a %s file, it is seriously damaged, or it is of an unknown "
+"format version."
+msgstr ""
+
+#: modules/file/err.h:101
+#, c-format
+msgid ""
+"Expected data size calculated from file headers is %u bytes, but the real "
+"size is %u bytes."
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by some item, struct or file part id.
+#: modules/file/err.h:111
+#, c-format
+msgid "File component/item ‘%s’ is truncated."
+msgstr ""
+
+#: modules/file/err.h:118
+msgid "File header is truncated."
+msgstr ""
+
+#: modules/file/err.h:136
+#, c-format
+msgid ""
+"The number of bits per sample %d is invalid or unsupported for this file "
+"type."
+msgstr ""
+
+#: modules/file/err.h:145
+#, c-format
+msgid "Data type %d is invalid or unsupported."
+msgstr ""
+
+#: modules/file/err.h:152
+#, c-format
+msgid "Header field `%s' is missing."
+msgstr ""
+
+#: modules/file/err.h:160
+#, c-format
+msgid "The value of parameter `%s' is invalid or unsupported."
+msgstr ""
+
+#: modules/file/err.h:168
+#, c-format
+msgid "Parameter `%s' is missing or invalid."
+msgstr ""
+
+#: modules/file/err.h:176
+msgid "File contains no (importable) data."
+msgstr ""
+
+#: modules/file/err.h:199
+#, c-format
+msgid "XML parsing failed: %s"
+msgstr ""
+
+#: modules/file/err.h:209
+msgid "Inconsistent structure of individual spectra."
+msgstr ""
+
+#: modules/file/err.h:217
+msgid "File contains no exportable channel."
+msgstr ""
+
+#: modules/file/err.h:225
+msgid "File import was canceled by user."
+msgstr ""
+
+#: modules/file/err.h:239
+msgid "Missing header."
+msgstr ""
+
+#: modules/file/evovisxml.c:107
+msgid "Imports Evovis XML data files."
+msgstr ""
+
+#: modules/file/evovisxml.c:120
+msgid "Evovis XML data files (.xml)"
+msgstr ""
+
+#: modules/file/ezdfile.c:132
+msgid "Imports Nanosurf EZD and NID data files."
+msgstr ""
+
+#: modules/file/ezdfile.c:145
+msgid "Nanosurf files (.ezd, .nid)"
+msgstr ""
+
+#: modules/file/ezdfile.c:303
+msgid "Garbage before first header section."
+msgstr ""
+
+#: modules/file/ezdfile.c:412
+msgid "First section isn't DataSet"
+msgstr ""
+
+#: modules/file/ezdfile.c:417
+msgid "GroupCount in [DataSet]"
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:73
+msgid "Imports FemtoScan TXT files."
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:86
+msgid "FemtoScan text files (.txt)"
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:183
+msgid "Data line does not start with a Y abscissa."
+msgstr ""
+
+#: modules/file/femtoscan-txt.c:190
+#, c-format
+msgid ""
+"Data line length %u does not correspond to the number of X abscissas %u."
+msgstr ""
+
+#: modules/file/femtoscan.c:77
+msgid "Imports FemtoScan SPM data files."
+msgstr ""
+
+#: modules/file/femtoscan.c:90
+msgid "FemtoScan SPM files"
+msgstr ""
+
+#: modules/file/fitsfile.c:77
+msgid "Reads Flexible Image Transport System (FITS) files."
+msgstr ""
+
+#: modules/file/fitsfile.c:90
+msgid "Flexible Image Transport System FITS (.fits)"
+msgstr ""
+
+#: modules/file/fitsfile.c:129
+#, c-format
+msgid "CFITSIO error while reading the FITS file: %s."
+msgstr ""
+
+#: modules/file/formats3d.c:251
+msgid "VTK structured grid (.vtk)"
+msgstr ""
+
+#: modules/file/formats3d.c:256
+msgid "Polygon file format (.ply)"
+msgstr ""
+
+#: modules/file/formats3d.c:261
+msgid "Wavefront geometry definition (.obj)"
+msgstr ""
+
+#: modules/file/formats3d.c:266
+msgid "Object File Format (.off)"
+msgstr ""
+
+#: modules/file/formats3d.c:271
+msgid "Stereolitography STL (.stl)"
+msgstr ""
+
+#: modules/file/formats3d.c:278
+msgid "XYZ data files (.xyz)"
+msgstr ""
+
+#: modules/file/formats3d.c:287
+msgid ""
+"Exports images as miscellaneous 3D data formats and imports XYZ points from "
+"3D formats."
+msgstr ""
+
+#: modules/file/formats3d.c:318
+msgid "_Automatic Z-scale"
+msgstr ""
+
+#: modules/file/formats3d.c:319
+msgid "_Physical 1:1"
+msgstr ""
+
+#: modules/file/formats3d.c:320
+msgid "Other _scale:"
+msgstr ""
+
+#: modules/file/formats3d.c:323
+msgid "None (only points)"
+msgstr ""
+
+#: modules/file/formats3d.c:324
+msgid "Plain along main diagonals"
+msgstr ""
+
+#: modules/file/formats3d.c:325
+msgid "With pixel midpoints"
+msgstr ""
+
+#: modules/file/formats3d.c:326
+msgid "Random orientation"
+msgstr ""
+
+#: modules/file/formats3d.c:327
+msgid "Following features"
+msgstr ""
+
+#: modules/file/formats3d.c:340
+msgid "Triangulation type"
+msgstr ""
+
+#: modules/file/formats3d.c:342
+msgid "Swap X and Y axes"
+msgstr ""
+
+#: modules/file/formats3d.c:343
+msgid "Flip Z axis"
+msgstr ""
+
+#: modules/file/formats3d.c:359
+msgid "_Lateral units"
+msgstr ""
+
+#: modules/file/formats3d.c:361
+msgid "_Value units"
+msgstr ""
+
+#: modules/file/formats3d.c:364
+msgid "Create image _directly from regular points"
+msgstr ""
+
+#: modules/file/formats3d.c:1538
+msgid "File contains NaNs or infinities."
+msgstr ""
+
+#: modules/file/formats3d.c:1582
+msgid "X-range"
+msgstr ""
+
+#: modules/file/formats3d.c:1583
+msgid "Y-range"
+msgstr ""
+
+#: modules/file/formats3d.c:1584
+msgid "Z-range"
+msgstr ""
+
+#: modules/file/gdeffile.c:129
+msgid "Imports DME GDEF data files."
+msgstr ""
+
+#: modules/file/gdeffile.c:142
+msgid "DME GDEF files (.gdf)"
+msgstr ""
+
+#: modules/file/gdeffile.c:186
+#, c-format
+msgid "File version %u.%u is not supported."
+msgstr ""
+
+#: modules/file/gdeffile.c:222
+msgid "Control block mark is not CB, file is damaged."
+msgstr ""
+
+#: modules/file/gdeffile.c:254
+#, c-format
+msgid "Unknown variable type %u."
+msgstr ""
+
+#: modules/file/gsffile.c:87
+msgid "Reads and exports Gwyddion Simple Field files."
+msgstr ""
+
+#: modules/file/gsffile.c:100
+msgid "Gwyddion Simple Field (.gsf)"
+msgstr ""
+
+#: modules/file/gwyfile.c:100
+msgid "Loads and saves Gwyddion native data files (serialized objects)."
+msgstr ""
+
+#: modules/file/gwyfile.c:113
+msgid "Gwyddion native format (.gwy)"
+msgstr ""
+
+#: modules/file/gwyfile.c:170
+msgid "Data deserialization failed."
+msgstr ""
+
+#: modules/file/gwyfile.c:175
+#, c-format
+msgid ""
+"Data deserialization succeeded, but resulted in an unexpected object %s."
+msgstr ""
+
+#: modules/file/gwytiff.c:183 modules/file/gwytiff.c:198
+#, c-format
+msgid "TIFF directory %lu ended unexpectedly."
+msgstr ""
+
+#: modules/file/gwytiff.c:233
+#, c-format
+msgid "BigTIFF data type %u was found in a classic TIFF."
+msgstr ""
+
+#: modules/file/gwytiff.c:245
+msgid "Invalid tag data positions were found."
+msgstr ""
+
+#: modules/file/gwytiff.c:333
+#, c-format
+msgid "BigTIFF reserved fields are %u and %u instead of 8 and 0."
+msgstr ""
+
+#: modules/file/gwytiff.c:1223
+msgid "Non-uniform bits per sample are unsupported."
+msgstr ""
+
+#: modules/file/gwytiff.c:1317
+msgid "Unsupported sample format"
+msgstr ""
+
+#: modules/file/gwytiff.h:277
+#, c-format
+msgid "Required tag %u was not found."
+msgstr ""
+
+#: modules/file/gwyzip-libzip.h:192
+msgid "Cannot obtain the uncompressed file size."
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:152
+msgid "Unknown error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:157
+msgid "End of file"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:161
+msgid "Parameter error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:163
+msgid "Bad zip file"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:165
+msgid "Internal error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:167
+msgid "CRC error"
+msgstr ""
+
+#: modules/file/gwyzip-minizip1.h:170
+#, c-format
+msgid "%s error while reading the zip file: %s (%d)."
+msgstr ""
+
+#: modules/file/gwyzlib.h:79
+#, c-format
+msgid "zlib initialization failed with error %d, cannot decompress data."
+msgstr ""
+
+#: modules/file/gwyzlib.h:137
+#, c-format
+msgid ""
+"Decompressed data size (%lu bytes) does not match expected size (%lu bytes)."
+msgstr ""
+
+#: modules/file/gxyzffile.c:113
+msgid "Imports Gwyddion XYZ field files."
+msgstr ""
+
+#: modules/file/gxyzffile.c:126
+msgid "GwyXYZ data files"
+msgstr ""
+
+#: modules/file/gxyzffile.c:146
+msgid "Multi-channel file with all compatible data"
+msgstr ""
+
+#: modules/file/gxyzffile.c:234
+#, c-format
+msgid "Data size %lu is not a multiple of point size %u."
+msgstr ""
+
+#: modules/file/gxyzffile.c:382
+msgid "Export GXYZF"
+msgstr ""
+
+#: modules/file/hdf4file.c:322
+msgid "Imports Hierarchical Data Format (HDF) files, version 4."
+msgstr ""
+
+#: modules/file/hdf4file.c:335
+msgid "Psi HDF4 files (.hdf)"
+msgstr ""
+
+#: modules/file/hdf4file.c:541
+msgid "PSI binary header is too short."
+msgstr ""
+
+#: modules/file/hdf4file.c:669
+msgid "HDF data with `native' type is not supported."
+msgstr ""
+
+#: modules/file/hdf5/datxfile.c:96
+msgid "Zygo DATX HDF5 files (.datx)"
+msgstr ""
+
+#: modules/file/hdf5/epflfile.c:104
+msgid "EPFL HDF5 files (.h5)"
+msgstr ""
+
+#: modules/file/hdf5/ergofile.c:84
+msgid "Asylum Research Ergo HDF5 files (.h5,.aris)"
+msgstr ""
+
+#: modules/file/hdf5/fusionscope.c:137
+msgid "FusionScope HDF5 files (.fsexp)"
+msgstr ""
+
+#: modules/file/hdf5/gwyhdf5.c:904
+#, c-format
+msgid "Dataset %s has %d dimensions instead of expected %d."
+msgstr ""
+
+#: modules/file/hdf5/gwyhdf5.c:913
+#, c-format
+msgid ""
+"Dataset %s dimension #%d is %ld, which does not match image resolution %d."
+msgstr ""
+
+#: modules/file/hdf5/gwyhdf5.h:150
+#, c-format
+msgid "HDF5 library error %ld in function %s."
+msgstr ""
+
+#: modules/file/hdf5/gxsm4.c:80
+msgid "GXSM4 HDF5 files (.nc)"
+msgstr ""
+
+#: modules/file/hdf5/hdf5file.c:80
+msgid "Imports files based on Hierarchical Data Format (HDF), version 5."
+msgstr ""
+
+#: modules/file/hdf5/hdf5file.c:102
+msgid "Generic HDF5 files (.h5)"
+msgstr ""
+
+#: modules/file/hdf5/hdf5file.c:110
+msgid "Matlab 7.x HDF5 MAT files (.mat)"
+msgstr ""
+
+#: modules/file/hdf5/nhffile.c:208
+msgid "Nanosurf NHF HDF5 files (.nhf)"
+msgstr ""
+
+#: modules/file/hdf5/nhffile.c:1286 modules/file/hdf5/nhffile.c:1382
+msgid "Sample"
+msgstr ""
+
+#: modules/file/hdf5/nhffile.c:1296
+msgid "Time series"
+msgstr ""
+
+#: modules/file/hdf5/nsidfile.c:85
+msgid "N-Dimensional Spectroscopy and Imaging Data (NSID) HDF5 files (.h5)"
+msgstr ""
+
+#: modules/file/hdf5/shilpsfile.c:132
+msgid "Shilps Sciences Lucent HDF5 files (.h5)"
+msgstr ""
+
+#: modules/file/hdf5/veloxemd.c:186
+msgid "ThermoFisher Velox EMD HDF5 files (.emd)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:253
+msgid ""
+"Imports 16bit grayscale PPM, PNG and TIFF images, imports and exports "
+"OpenEXR images (if available)."
+msgstr ""
+
+#: modules/file/hdrimage.cc:267
+msgid "OpenEXR images (.exr)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:275
+msgid "PNG images with 16bit depth (.png)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:282
+msgid "PGM images with 16bit depth (.pgm)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:288
+msgid "TIFF and BigTIFF images with high depth (.tiff)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:316
+msgid "Import as _volume data"
+msgstr ""
+
+#: modules/file/hdrimage.cc:324
+msgid "Half (16bit float)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:325
+msgid "Float (32bit)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:326
+msgid "Integer (32bit)"
+msgstr ""
+
+#: modules/file/hdrimage.cc:335
+msgid "_Data format"
+msgstr ""
+
+#: modules/file/hdrimage.cc:337
+msgid "_Z-scale"
+msgstr ""
+
+#: modules/file/hdrimage.cc:413
+#, c-format
+msgid "EXR image writing failed with libImf error: %s"
+msgstr ""
+
+#: modules/file/hdrimage.cc:444
+msgid "Data range"
+msgstr ""
+
+#: modules/file/hdrimage.cc:445
+msgid "Representable range"
+msgstr ""
+
+#: modules/file/hdrimage.cc:446
+msgid "Suggested Z-scale"
+msgstr ""
+
+#: modules/file/hdrimage.cc:456
+msgid "_Use Suggested"
+msgstr ""
+
+#: modules/file/hdrimage.cc:603
+#, c-format
+msgid "EXR image loading failed with libImf error: %s"
+msgstr ""
+
+#: modules/file/hdrimage.cc:739
+#, c-format
+msgid "OpenEXR data type %u is invalid or unsupported."
+msgstr ""
+
+#: modules/file/hdrimage.cc:1734 modules/file/hdrimage.cc:1788
+#: modules/file/hdrimage.cc:1880
+msgid "Failed to read image data."
+msgstr ""
+
+#: modules/file/hdrimage.cc:2033
+msgid "Depth"
+msgstr ""
+
+#: modules/file/hdrimage.cc:2034
+msgid "Pages"
+msgstr ""
+
+#: modules/file/hdrimage.cc:2076
+msgid "Image Stack"
+msgstr ""
+
+#: modules/file/hitachi-afm.c:103
+msgid "Imports Hitachi AFM files."
+msgstr ""
+
+#: modules/file/hitachi-afm.c:117
+msgid "Hitachi AFM files (.afm)"
+msgstr ""
+
+#: modules/file/hitachi-afm.c:123
+msgid "Hitachi AFM files, old (.afm)"
+msgstr ""
+
+#: modules/file/hitachi-afm.c:199
+#, c-format
+msgid "Hitachi-AFM has not registered file type `%s'."
+msgstr ""
+
+#: modules/file/hitachi-sem.c:80
+msgid "Imports Hitachi S-3700 and S-4800 SEM files."
+msgstr ""
+
+#: modules/file/hitachi-sem.c:93
+msgid "Hitachi SEM files (.txt + image)"
+msgstr ""
+
+#: modules/file/hitachi-sem.c:166
+#, c-format
+msgid "Cannot load image: %s"
+msgstr ""
+
+#: modules/file/hitachi-sem.c:182
+#, c-format
+msgid "Field DataSize %ux%u does not match image dimensions %ux%u."
+msgstr ""
+
+#: modules/file/igorfile.c:313
+msgid "Imports Igor binary waves (.ibw)."
+msgstr ""
+
+#: modules/file/igorfile.c:326
+msgid "Igor binary waves (.ibw)"
+msgstr ""
+
+#: modules/file/igorfile.c:332
+msgid "Igor packed experiment files (.pxp)"
+msgstr ""
+
+#: modules/file/igorfile.c:452
+#, c-format
+msgid "Format version is %d.  Only version 5 is supported."
+msgstr ""
+
+#: modules/file/igorfile.c:520
+#, c-format
+msgid "Number of data points %u does not match resolutions %s."
+msgstr ""
+
+#: modules/file/igorfile.c:532
+#, c-format
+msgid "Data size %u does not match the number of data points %u×%u."
+msgstr ""
+
+#: modules/file/igorfile.c:570
+msgid "Cannot read channel labels."
+msgstr ""
+
+#: modules/file/imgexport.c:506
+msgid "Portable document format (.pdf)"
+msgstr ""
+
+#: modules/file/imgexport.c:512
+msgid "Encapsulated PostScript (.eps)"
+msgstr ""
+
+#: modules/file/imgexport.c:518
+msgid "Scalable Vector Graphics (.svg)"
+msgstr ""
+
+#: modules/file/imgexport.c:548
+msgid "Path"
+msgstr ""
+
+#: modules/file/imgexport.c:552 modules/file/imgexport.c:557
+msgid "ruler|_None"
+msgstr ""
+
+#: modules/file/imgexport.c:553
+msgid "_Rulers"
+msgstr ""
+
+#: modules/file/imgexport.c:554
+msgid "_Inset scale bar"
+msgstr ""
+
+#: modules/file/imgexport.c:558
+msgid "_False color ruler"
+msgstr ""
+
+#: modules/file/imgexport.c:561
+msgid "title|None"
+msgstr ""
+
+#: modules/file/imgexport.c:562
+msgid "At the top"
+msgstr ""
+
+#: modules/file/imgexport.c:563
+msgid "Along the right edge"
+msgstr ""
+
+#: modules/file/imgexport.c:569
+msgid ""
+"Renders data into vector (SVG, PDF, EPS) and pixmap (PNG, JPEG, TIFF, WebP, "
+"PPM, BMP, TARGA) images. Export to some formats relies on GDK and other "
+"libraries thus may be installation-dependent."
+msgstr ""
+
+#: modules/file/imgexport.c:673
+msgid "Pixels per _inch"
+msgstr ""
+
+#: modules/file/imgexport.c:677 modules/file/imgexport.c:679
+msgid "O_pacity"
+msgstr ""
+
+#: modules/file/imgexport.c:713
+msgid "Pi_xel size"
+msgstr ""
+
+#: modules/file/imgexport.c:714
+msgid "_Font"
+msgstr ""
+
+#: modules/file/imgexport.c:716
+msgid "_Font size"
+msgstr ""
+
+#: modules/file/imgexport.c:717
+msgid "Line t_hickness"
+msgstr ""
+
+#: modules/file/imgexport.c:718
+msgid "_Border width"
+msgstr ""
+
+#: modules/file/imgexport.c:719
+msgid "_Tick length"
+msgstr ""
+
+#: modules/file/imgexport.c:720
+msgid "Tie sizes to _data pixels"
+msgstr ""
+
+#: modules/file/imgexport.c:722
+msgid "_Line and text color"
+msgstr ""
+
+#: modules/file/imgexport.c:723
+msgid "_Background color"
+msgstr ""
+
+#: modules/file/imgexport.c:724
+msgid "_Transparent background"
+msgstr ""
+
+#: modules/file/imgexport.c:733 modules/file/imgexport.c:756
+msgid "Hori_zontal gap"
+msgstr ""
+
+#: modules/file/imgexport.c:734 modules/file/imgexport.c:753
+msgid "_Vertical gap"
+msgstr ""
+
+#: modules/file/imgexport.c:736 modules/file/imgexport.c:770
+msgid "Out_line color"
+msgstr ""
+
+#: modules/file/imgexport.c:738 modules/file/imgexport.c:772
+msgid "O_utline thickness"
+msgstr ""
+
+#: modules/file/imgexport.c:740
+msgid "Draw _ticks"
+msgstr ""
+
+#: modules/file/imgexport.c:741
+msgid "Draw _label"
+msgstr ""
+
+#: modules/file/imgexport.c:743
+msgid "Draw text _above scale bar"
+msgstr ""
+
+#: modules/file/imgexport.c:748
+msgid "Draw _frame"
+msgstr ""
+
+#: modules/file/imgexport.c:749
+msgid "Draw _mask"
+msgstr ""
+
+#: modules/file/imgexport.c:750
+msgid "Draw mask _legend"
+msgstr ""
+
+#: modules/file/imgexport.c:751
+msgid "_Label"
+msgstr ""
+
+#: modules/file/imgexport.c:758
+msgid "Fi_xed precision"
+msgstr ""
+
+#: modules/file/imgexport.c:760
+msgid "Fixed _kilo threshold"
+msgstr ""
+
+#: modules/file/imgexport.c:762
+msgid "Posi_tion"
+msgstr ""
+
+#: modules/file/imgexport.c:764
+msgid "_Gap"
+msgstr ""
+
+#: modules/file/imgexport.c:765
+msgid "Put _units to title"
+msgstr ""
+
+#: modules/file/imgexport.c:768
+msgid "Draw _selection"
+msgstr ""
+
+#: modules/file/imgexport.c:774
+msgid "Draw _numbers"
+msgstr ""
+
+#: modules/file/imgexport.c:775
+msgid "Marker _radius"
+msgstr ""
+
+#: modules/file/imgexport.c:777
+msgid "_End marker length"
+msgstr ""
+
+#: modules/file/imgexport.c:2866
+msgid "Black"
+msgstr ""
+
+#: modules/file/imgexport.c:2867
+msgid "White"
+msgstr ""
+
+#: modules/file/imgexport.c:2926
+msgid "_Font:"
+msgstr ""
+
+#: modules/file/imgexport.c:2977
+msgid "Colors"
+msgstr ""
+
+#: modules/file/imgexport.c:3024
+msgid "left"
+msgstr ""
+
+#: modules/file/imgexport.c:3027
+msgid "center"
+msgstr ""
+
+#: modules/file/imgexport.c:3030
+msgid "right"
+msgstr ""
+
+#: modules/file/imgexport.c:3033
+msgid "top"
+msgstr ""
+
+#: modules/file/imgexport.c:3041
+msgid "bottom"
+msgstr ""
+
+#: modules/file/imgexport.c:3066 modules/file/imgexport.c:3602
+msgid "Lateral Scale"
+msgstr ""
+
+#: modules/file/imgexport.c:3070
+msgid "Choose Length _Automatically"
+msgstr ""
+
+#: modules/file/imgexport.c:3104
+msgid "Value Scale"
+msgstr ""
+
+#: modules/file/imgexport.c:3111 modules/file/imgexport.c:3472
+msgid "Title"
+msgstr ""
+
+#: modules/file/imgexport.c:3470
+msgid "Lateral"
+msgstr ""
+
+#: modules/file/imgexport.c:3583
+msgid "Export as 1_6 bit grayscale"
+msgstr ""
+
+#: modules/file/imgexport.c:3603
+msgid "Values"
+msgstr ""
+
+#: modules/file/imgexport.c:3604
+msgid "Selection"
+msgstr ""
+
+#: modules/file/imgexport.c:4250
+#, c-format
+msgid "Cairo error occurred: %s"
+msgstr ""
+
+#: modules/file/imgexport.c:4282
+#, c-format
+msgid "Pixbuf save failed: %s."
+msgstr ""
+
+#: modules/file/imgexport.c:4551
+msgid "Image is too large to be stored as TARGA."
+msgstr ""
+
+#: modules/file/imgexport.c:4649
+#, c-format
+msgid "libjxl error occurred (%s)"
+msgstr ""
+
+#: modules/file/intelliwave.c:226
+msgid "Imports IntelliWave interferometric ESD data."
+msgstr ""
+
+#: modules/file/intelliwave.c:239
+msgid "IntelliWave interferometric data (.esd)"
+msgstr ""
+
+#: modules/file/intelliwave.c:297
+#, c-format
+msgid ""
+"Invalid data address 0x%0x found.  File is in some unknown format version."
+msgstr ""
+
+#: modules/file/intematix.c:117
+msgid "Imports Intematix SDF data files."
+msgstr ""
+
+#: modules/file/intematix.c:130
+msgid "Intematix SDF data files (.sdf)"
+msgstr ""
+
+#: modules/file/intematix.c:275
+msgid "image depth"
+msgstr ""
+
+#: modules/file/iso28600.c:356
+msgid "Imports and exports ISO 28600:2011 SPM data transfer format."
+msgstr ""
+
+#: modules/file/iso28600.c:371
+msgid "ISO 28600:2011 SPM data transfer files (.spm)"
+msgstr ""
+
+#: modules/file/iso28600.c:457
+#, c-format
+msgid ""
+"Only regular and irregular mappings are implemented but the file has mapping "
+"type ‘%s’."
+msgstr ""
+
+#: modules/file/iso28600.c:483 modules/file/iso28600.c:489
+#: modules/file/iso28600.c:495
+#, c-format
+msgid "List ‘%s’ has %u items which differs from the number %u given by ‘%s’."
+msgstr ""
+
+#: modules/file/iso28600.c:580 modules/file/iso28600.c:666
+#: modules/file/iso28600.c:789
+msgid "Missing end-of-data marker."
+msgstr ""
+
+#: modules/file/iso28600.c:931
+#, c-format
+msgid "Line %u does not contain mandatory label ‘%s’."
+msgstr ""
+
+#: modules/file/jeol.c:420
+msgid "Imports JEOL data files."
+msgstr ""
+
+#: modules/file/jeol.c:433
+msgid "JEOL data files (.tif)"
+msgstr ""
+
+#: modules/file/jeoltem.c:122
+msgid "Imports JEOL TEM images."
+msgstr ""
+
+#: modules/file/jeoltem.c:135
+msgid "JEOL TIF TEM image (.tif)"
+msgstr ""
+
+#: modules/file/jpkscan.c:285
+msgid "Imports JPK image scans."
+msgstr ""
+
+#: modules/file/jpkscan.c:298
+msgid "JPK image scans (.jpk, .jpk-qi-image)"
+msgstr ""
+
+#: modules/file/jpkscan.c:305
+msgid "JPK force curves (.jpk-force, .jpk-force-map, .jpk-qi-data)"
+msgstr ""
+
+#: modules/file/jpkscan.c:369
+msgid "File does not contain grid dimensions."
+msgstr ""
+
+#: modules/file/jpkscan.c:671 modules/file/jpkscan.c:2445
+#, c-format
+msgid "Scanning file (%u curves)..."
+msgstr ""
+
+#: modules/file/jpkscan.c:723
+msgid "Creating volume data..."
+msgstr ""
+
+#: modules/file/jpkscan.c:861
+msgid "Non-uniform point and/or segment numbering is not supported."
+msgstr ""
+
+#: modules/file/jpkscan.c:869
+msgid "Non-uniform channel lists are not supported."
+msgstr ""
+
+#: modules/file/jpkscan.c:877
+#, c-format
+msgid "Data file %s was found instead of expected %s."
+msgstr ""
+
+#: modules/file/jpkscan.c:1674
+#, c-format
+msgid "Header properties file for index %u is missing."
+msgstr ""
+
+#: modules/file/jpkscan.c:2257
+msgid "Cannot find any height channel."
+msgstr ""
+
+#: modules/file/jspmfile.c:185
+msgid "Imports JEOL JSPM data files."
+msgstr ""
+
+#: modules/file/jspmfile.c:198
+msgid "JEOL JSPM data files (.tif)"
+msgstr ""
+
+#: modules/file/jspmfile.c:275
+#, c-format
+msgid "Header block %u has invalid position or size."
+msgstr ""
+
+#: modules/file/jspmfile.c:354 modules/file/jspmfile.c:361
+#: modules/file/jspmfile.c:413 modules/file/jspmfile.c:420
+msgid "Cannot find image header block."
+msgstr ""
+
+#: modules/file/jspmfile.c:462
+msgid "Cannot find piezo header block."
+msgstr ""
+
+#: modules/file/keyence.c:442
+msgid "Imports Keyence VK3, VK4, VK6 and VK7 files."
+msgstr ""
+
+#: modules/file/keyence.c:455
+msgid "Keyence VK3 data files (.vk3)"
+msgstr ""
+
+#: modules/file/keyence.c:461
+msgid "Keyence VK4 data files (.vk4)"
+msgstr ""
+
+#: modules/file/keyence.c:468
+msgid "Keyence VK6 data files (.vk6)"
+msgstr ""
+
+#: modules/file/keyence.c:474
+msgid "Keyence VK7 data files (.vk7)"
+msgstr ""
+
+#: modules/file/lafmdmap.c:73
+msgid "Exports volume data as LAFM density map."
+msgstr ""
+
+#: modules/file/lafmdmap.c:86
+msgid "LAFM density map (.afm)"
+msgstr ""
+
+#: modules/file/leica.c:189
+msgid "Imports Leica CLSM image files (LIF)."
+msgstr ""
+
+#: modules/file/leica.c:202
+msgid "Leica LIF image files (.lif)"
+msgstr ""
+
+#: modules/file/leica.c:804
+#, c-format
+msgid "Wrong XML element %s."
+msgstr ""
+
+#: modules/file/lextfile.c:84
+msgid "Imports LEXT data files."
+msgstr ""
+
+#: modules/file/lextfile.c:97
+msgid "Olympus LEXT OLS4000 (.lext)"
+msgstr ""
+
+#: modules/file/magellan.c:62
+msgid "Imports FEI Magellan SEM images."
+msgstr ""
+
+#: modules/file/magellan.c:75
+msgid "FEI Magellan SEM image (.tif)"
+msgstr ""
+
+#: modules/file/mapvue.c:461
+msgid "Imports MapVue data files (.map)."
+msgstr ""
+
+#: modules/file/mapvue.c:474
+msgid "MapVue files (.map)"
+msgstr ""
+
+#: modules/file/mapvue.c:548 modules/file/mapvue.c:576
+#, c-format
+msgid "Required tag %u or %u was not found."
+msgstr ""
+
+#: modules/file/mapvue.c:785
+msgid "File end was reached while scanning tags."
+msgstr ""
+
+#: modules/file/mapvue.c:797
+#, c-format
+msgid "Expected tag %u size is %u bytes, but the actual size is %u bytes."
+msgstr ""
+
+#: modules/file/mapvue.c:810
+#, c-format
+msgid "Tag %u size is %u bytes, which is not enough to hold the tag marker."
+msgstr ""
+
+#: modules/file/mapvue.c:819 modules/file/mapvue.c:829
+#, c-format
+msgid ""
+"Tag %u size is %u bytes, which is not enough to hold the tag marker and size."
+msgstr ""
+
+#: modules/file/mapvue.c:838
+#, c-format
+msgid "Tag marker is missing on an unknown tag %u."
+msgstr ""
+
+#: modules/file/mapvue.c:856 modules/file/mapvue.c:866
+msgid "Character array does not fit into the file."
+msgstr ""
+
+#: modules/file/mapvue.c:883 modules/file/mapvue.c:894
+#: modules/file/mapvue.c:904
+msgid "Fiducial record does not fit into the file."
+msgstr ""
+
+#: modules/file/mapvue.c:1128
+#, c-format
+msgid "Tag %u size is %u which is not sufficient to hold its content."
+msgstr ""
+
+#: modules/file/matfile.c:189
+msgid "Imports Matlab MAT files v5."
+msgstr ""
+
+#: modules/file/matfile.c:202
+msgid "Matlab MAT 5 file (.mat)"
+msgstr ""
+
+#: modules/file/matfile.c:268
+msgid "Compressed data inside compressed data found."
+msgstr ""
+
+#: modules/file/matfile.c:301
+#, c-format
+msgid "Invalid short tag of type %u claims to consists of %u bytes."
+msgstr ""
+
+#: modules/file/metropro.c:337
+msgid "Imports binary MetroPro (Zygo) data files."
+msgstr ""
+
+#: modules/file/metropro.c:350
+msgid "MetroPro files (.dat)"
+msgstr ""
+
+#: modules/file/metropro.c:522
+msgid "File header is larger than file."
+msgstr ""
+
+#: modules/file/microprof.c:972
+msgid "Imports MicroProf FRT profilometer data files."
+msgstr ""
+
+#: modules/file/microprof.c:985
+msgid "MicroProf FRT files (.frt)"
+msgstr ""
+
+#: modules/file/microprof.c:991
+msgid "MicroProf FRT text files (.txt)"
+msgstr ""
+
+#: modules/file/microprof.c:1288
+#, c-format
+msgid "Duplicate block %02x."
+msgstr ""
+
+#: modules/file/microprof.c:2581
+msgid "File contains fewer than XSize*YSize data points."
+msgstr ""
+
+#: modules/file/miffile.c:196
+msgid "Imports DME MIF data files."
+msgstr ""
+
+#: modules/file/miffile.c:209
+msgid "DME MIF files (.mif)"
+msgstr ""
+
+#: modules/file/miffile.c:236
+msgid "Image header record is too short."
+msgstr ""
+
+#: modules/file/miffile.c:244
+msgid "Axis display info record is too short."
+msgstr ""
+
+#: modules/file/miffile.c:277
+#, c-format
+msgid "Loading of file version %u.%u is not implemented."
+msgstr ""
+
+#: modules/file/miffile.c:295
+msgid "File information block is outside the file."
+msgstr ""
+
+#: modules/file/miffile.c:330
+msgid "File information block size is invalid."
+msgstr ""
+
+#: modules/file/miffile.c:395
+msgid "Unique id record is too short."
+msgstr ""
+
+#: modules/file/mifile.c:191
+msgid "Imports Molecular Imaging MI data files."
+msgstr ""
+
+#: modules/file/mifile.c:204
+msgid "PicoView Data Files (.mi)"
+msgstr ""
+
+#: modules/file/mifile.c:470
+msgid "Spectroscopy Graph"
+msgstr ""
+
+#: modules/file/mulfile.c:156
+msgid "Imports Aarhus MUL files."
+msgstr ""
+
+#: modules/file/mulfile.c:169
+msgid "Aarhus MUL files (.mul)"
+msgstr ""
+
+#: modules/file/mulfile.c:286
+#, c-format
+msgid "Image number in the label %u does not match the number %u in the index."
+msgstr ""
+
+#: modules/file/mulfile.c:333 modules/file/mulfile.c:342
+#, c-format
+msgid "Label string length %u is larger than 20."
+msgstr ""
+
+#: modules/file/nanoeducator.c:287
+msgid "Imports Nanoeducator data files."
+msgstr ""
+
+#: modules/file/nanoeducator.c:300
+msgid "Nanoeducator files (.mspm, .spm, .stm)"
+msgstr ""
+
+#: modules/file/nanoeducator.c:382 modules/file/nanoeducator.c:420
+#: modules/file/nanoeducator.c:513
+msgid "Image data starts past the end of file."
+msgstr ""
+
+#: modules/file/nanoeducator.c:457
+msgid "Spectra data starts past the end of file."
+msgstr ""
+
+#: modules/file/nanoeducator.c:965
+msgid "F-D spectra"
+msgstr ""
+
+#: modules/file/nanoeducator.c:1038
+msgid "I-V spectra"
+msgstr ""
+
+#: modules/file/nanoeducator.c:1107
+msgid "I-Z spectra"
+msgstr ""
+
+#: modules/file/nanomagnetics.c:399
+msgid "Imports Nanomagnetics' NMI file format version 3 and 5"
+msgstr ""
+
+#: modules/file/nanomagnetics.c:412
+msgid "Nanomagnetics File (.nmi)"
+msgstr ""
+
+#: modules/file/nanonics.c:102
+msgid "Imports Nanonics NAN data files."
+msgstr ""
+
+#: modules/file/nanonics.c:115
+msgid "Nanonics files (.nan)"
+msgstr ""
+
+#: modules/file/nanonics.c:204
+#, c-format
+msgid "HeaderLength %u differs from actual header length %u"
+msgstr ""
+
+#: modules/file/nanonis-spec.c:98
+msgid "Imports Nanonis DAT spectrum files."
+msgstr ""
+
+#: modules/file/nanonis-spec.c:111
+msgid "Nanonis spectrum files (.dat)"
+msgstr ""
+
+#: modules/file/nanonis-spec.c:446
+msgid "Data block is truncated"
+msgstr ""
+
+#: modules/file/nanonis.c:113
+msgid "Imports Nanonis SXM data files."
+msgstr ""
+
+#: modules/file/nanonis.c:133
+msgid "Nanonis SXM files (.sxm)"
+msgstr ""
+
+#: modules/file/nanonis.c:267
+msgid "Garbage was found in place of tag header line."
+msgstr ""
+
+#: modules/file/nanonis.c:331
+#, c-format
+msgid "DATA_INFO does not contain the expected columns: %s."
+msgstr ""
+
+#: modules/file/nanonis.c:353
+#, c-format
+msgid "DATA_INFO line contains fewer than %d fields."
+msgstr ""
+
+#: modules/file/nanonis.c:534
+msgid "Missing data start marker \\x1a\\x04."
+msgstr ""
+
+#: modules/file/nanoobserver.c:202
+msgid "Reads Nano-Solution/NanoObserver .nao files."
+msgstr ""
+
+#: modules/file/nanoobserver.c:215
+msgid "Nano-Solution/NanoObserver data (.nao)"
+msgstr ""
+
+#: modules/file/nanoobserver.c:430 modules/file/nanoobserver.c:470
+msgid "There are no valid scan lines."
+msgstr ""
+
+#: modules/file/nanoscan.c:187
+msgid "Imports NanoScan XML files."
+msgstr ""
+
+#: modules/file/nanoscan.c:200
+msgid "NanoScan XML files (.xml)"
+msgstr ""
+
+#: modules/file/nanoscan.c:900
+msgid "Wrong size of Base64 encoded data."
+msgstr ""
+
+#: modules/file/nanoscantech.c:125
+msgid "Imports NanoScanTech .nstdat files."
+msgstr ""
+
+#: modules/file/nanoscantech.c:138
+msgid "NanoScanTech data (.nstdat)"
+msgstr ""
+
+#: modules/file/nanoscope-ii.c:82
+msgid "Imports Digital Instruments Nanoscope II data files."
+msgstr ""
+
+#: modules/file/nanoscope-ii.c:95
+msgid "Nanoscope II files"
+msgstr ""
+
+#: modules/file/nanoscope.c:273
+msgid "Imports Bruker Nanoscope data files, version 3 or newer."
+msgstr ""
+
+#: modules/file/nanoscope.c:286
+msgid "Nanoscope III files"
+msgstr ""
+
+#: modules/file/nanoscope.c:367
+msgid "File is not a Nanoscope file, or it is a unknown subtype."
+msgstr ""
+
+#: modules/file/nanoscope.c:373
+msgid ""
+"File has been damaged by change of line endings, resulting in corruption of "
+"the binary part of the file.\n"
+"\n"
+"Typically, this occurs if the file is treated as text when sent by e-mail "
+"uncompressed, sent by FTP in ascii mode (use binary), compressed by ‘Send to "
+"compressed folder’ in some versions of MS Windows, or any other file "
+"transfer that attempts to store text platform-independently."
+msgstr ""
+
+#: modules/file/nanoscope.c:474
+msgid "Reading channels..."
+msgstr ""
+
+#: modules/file/nanoscope.c:2462 modules/file/nanoscope.c:2477
+msgid "Cannot parse `Scan size' field."
+msgstr ""
+
+#: modules/file/nanoscope.c:2579
+msgid "Truncated header line."
+msgstr ""
+
+#: modules/file/nanosystemz.c:95
+msgid "Imports NanoSystem profilometry data files."
+msgstr ""
+
+#: modules/file/nanosystemz.c:108
+msgid "NanoSystem profilometry files (.spm)"
+msgstr ""
+
+#: modules/file/nanotop.c:107
+msgid "Imports NANOTOP AFM files"
+msgstr ""
+
+#: modules/file/nanotop.c:120
+msgid "Nanotop files (.spm)"
+msgstr ""
+
+#: modules/file/netcdf.c:172
+msgid "Imports network Common Data Form (netCDF) files created by GXSM."
+msgstr ""
+
+#: modules/file/netcdf.c:185
+msgid "GSXM netCDF files (.nc)"
+msgstr ""
+
+#: modules/file/netcdf.c:228
+#, c-format
+msgid "Variable `%s' refers to invalid or nonexistent data."
+msgstr ""
+
+#: modules/file/netcdf.c:267
+msgid "NetCDF records are not supported."
+msgstr ""
+
+#: modules/file/netcdf.c:314
+msgid "Value series values must be of type FLOAT."
+msgstr ""
+
+#: modules/file/netcdf.c:335
+msgid "Time values must be of type DOUBLE."
+msgstr ""
+
+#: modules/file/netcdf.c:355
+msgid "Reading of fast scan files is not implemented - yet."
+msgstr ""
+
+#: modules/file/netcdf.c:425
+msgid "Time series order is wrong."
+msgstr ""
+
+#: modules/file/netcdf.c:959
+#, c-format
+msgid "File ended unexpectedly inside `%s'."
+msgstr ""
+
+#: modules/file/netcdf.c:968
+#, c-format
+msgid "Expected `%s' array or `ABSENT'."
+msgstr ""
+
+#: modules/file/netcdf.c:976
+#, c-format
+msgid "Array `%s' has non-zero number of elements in spite of being absent."
+msgstr ""
+
+#: modules/file/netcdf.c:1032
+msgid "More than one record dimension found."
+msgstr ""
+
+#: modules/file/nmmxyz.c:202
+msgid "Imports Nano Measuring Machine profile files."
+msgstr ""
+
+#: modules/file/nmmxyz.c:215
+msgid "Nano Measuring Machine files (*.dsc)"
+msgstr ""
+
+#: modules/file/nmmxyz.c:229
+msgid "Non-square pixels"
+msgstr ""
+
+#: modules/file/nmmxyz.c:230
+msgid "Specify X resolution"
+msgstr ""
+
+#: modules/file/nmmxyz.c:231
+msgid "Specify Y resolution"
+msgstr ""
+
+#: modules/file/nmmxyz.c:242
+msgid "Plot point density map"
+msgstr ""
+
+#: modules/file/nmmxyz.c:243
+msgid "Align scan lines with X axis"
+msgstr ""
+
+#: modules/file/nmmxyz.c:245
+msgid "Identical _measures"
+msgstr ""
+
+#: modules/file/nmmxyz.c:249
+msgid "Pixel resolution mode"
+msgstr ""
+
+#: modules/file/nmmxyz.c:252
+msgid "_Display with physical aspect ratio"
+msgstr ""
+
+#: modules/file/nmmxyz.c:253
+msgid "_Filter out data using error channel"
+msgstr ""
+
+#: modules/file/nmmxyz.c:256 modules/file/nmmxyz.c:277
+msgid "_Error channel"
+msgstr ""
+
+#: modules/file/nmmxyz.c:322
+msgid "Nano Measuring Machine data import must be run as interactive."
+msgstr ""
+
+#: modules/file/nmmxyz.c:456
+msgid "Import NMM Profile Set"
+msgstr ""
+
+#: modules/file/nmmxyz.c:466
+msgid "Number of data files"
+msgstr ""
+
+#: modules/file/nmmxyz.c:469
+msgid "Total number of points"
+msgstr ""
+
+#: modules/file/nmmxyz.c:472
+msgid "Points per profile"
+msgstr ""
+
+#: modules/file/nmmxyz.c:486
+msgid "_Auto"
+msgstr ""
+
+#: modules/file/nmmxyz.c:497
+msgid "Imported Channels"
+msgstr ""
+
+#: modules/file/nmmxyz.c:754
+msgid "Point density map"
+msgstr ""
+
+#: modules/file/nmmxyz.c:831
+msgid "Something is changing the data files on disk."
+msgstr ""
+
+#: modules/file/nova-asc.c:80
+msgid "Imports Nova ASC files."
+msgstr ""
+
+#: modules/file/nova-asc.c:93
+msgid "Nova ASCII files (.txt)"
+msgstr ""
+
+#: modules/file/npyfile.c:121
+msgid "Imports and exports binary serialized numpy arrays (NPY, NPZ)."
+msgstr ""
+
+#: modules/file/npyfile.c:134
+msgid "Serialized numpy array (.npy)"
+msgstr ""
+
+#: modules/file/npyfile.c:141
+msgid "Multiple serialized numpy arrays (.npz)"
+msgstr ""
+
+#: modules/file/npyfile.c:428
+msgid "Cannot parse NPY ASCII header."
+msgstr ""
+
+#: modules/file/nrrdfile.c:176
+msgid "Imports and exports nearly raw raster data (NRRD) files."
+msgstr ""
+
+#: modules/file/nrrdfile.c:189
+msgid "Nearly raw raster data (NRRD) files (.nrrd)"
+msgstr ""
+
+#: modules/file/nrrdfile.c:322
+msgid "Detached header does not refer to any data file."
+msgstr ""
+
+#: modules/file/nrrdfile.c:346
+msgid "Only two- and three-dimensional data are supported."
+msgstr ""
+
+#: modules/file/nrrdfile.c:366
+msgid "Non-zero lineskip is supported only for uncompressed files."
+msgstr ""
+
+#: modules/file/nrrdfile.c:402
+msgid "Compression is supported only for detached files."
+msgstr ""
+
+#: modules/file/nrrdfile.c:693
+msgid "Split detached data files are not supported."
+msgstr ""
+
+#: modules/file/nrrdfile.c:912
+#, c-format
+msgid "Hex data contain fewer values (%u) than corresponds to the sizes (%u)."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1033
+#, c-format
+msgid "Text data contain fewer values (%u) than corresponds to the sizes (%u)."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1087
+msgid "Field byteskip cannot be -1 for text encodings."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1097
+msgid "Field lineskip specifies more lines than there are in the file."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1138
+msgid "Field byteskip specifies more bytes than there are in the file."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1509
+#, c-format
+msgid "Items of per-axis header field %s are not quoted."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1518
+#, c-format
+msgid "Per-axis header field %s contains too many items."
+msgstr ""
+
+#: modules/file/nrrdfile.c:1526
+#, c-format
+msgid "Per-axis header field %s contains too few items."
+msgstr ""
+
+#: modules/file/nt-mdt.c:722
+msgid "Imports NT-MDT data files."
+msgstr ""
+
+#: modules/file/nt-mdt.c:735
+msgid "NT-MDT files (.mdt)"
+msgstr ""
+
+#: modules/file/nt-mdt.c:1321 modules/file/nt-mdt.c:1427
+msgid "Frame is too short for Frame Mode."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1336 modules/file/nt-mdt.c:1442
+msgid "Frame is too short for dots or data."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1697
+#, c-format
+msgid "End of file reached in frame header #%u."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1705
+#, c-format
+msgid "End of file reached in frame data #%u."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1738
+#, c-format
+msgid "Frame #%u is too short for scanned data header."
+msgstr ""
+
+#: modules/file/nt-mdt.c:1755
+#, c-format
+msgid "Frame #%u is too short for spectroscopy data header."
+msgstr ""
+
+#: modules/file/nxiifile.c:116
+msgid "Imports EM4SYS data files."
+msgstr ""
+
+#: modules/file/nxiifile.c:129
+msgid "EM4SYS NX II files (.bmp)"
+msgstr ""
+
+#: modules/file/oirfile.c:241
+msgid "Imports Olympus OIR data files."
+msgstr ""
+
+#: modules/file/oirfile.c:258
+msgid "Olympus OIR data files (.oir)"
+msgstr ""
+
+#: modules/file/oirfile.c:265
+msgid "Olympus packed OIR data files (.poir)"
+msgstr ""
+
+#: modules/file/oirfile.c:446 modules/file/oirfile.c:459
+#: modules/file/oirfile.c:484
+#, c-format
+msgid "Chunk type %u occured multiple times."
+msgstr ""
+
+#: modules/file/oldmda.c:152
+msgid "Imports old NTMDT MDA Spectra files."
+msgstr ""
+
+#: modules/file/oldmda.c:165
+msgid "NTMDT old MDA Spectra data (.sxml .dat)"
+msgstr ""
+
+#: modules/file/oldmda.c:237
+msgid "Incorrect number of axes in parameter file."
+msgstr ""
+
+#: modules/file/oldmda.c:252
+#, c-format
+msgid "Cannot load data file: %s"
+msgstr ""
+
+#: modules/file/oldmda.c:260
+msgid "Data file is too short."
+msgstr ""
+
+#: modules/file/ols.c:61
+msgid "Imports OLS data files."
+msgstr ""
+
+#: modules/file/ols.c:74
+msgid "Olympus LEXT OLS3000 (.ols)"
+msgstr ""
+
+#: modules/file/ometiff.c:150
+msgid "Imports OME-TIFF data files."
+msgstr ""
+
+#: modules/file/ometiff.c:163
+msgid "Open Microscopy OME-TIFF (.ome.tiff)"
+msgstr ""
+
+#: modules/file/ometiff.c:590
+#, c-format
+msgid "ZTC coordinates (%u,%u,%u) fall outside the given ranges."
+msgstr ""
+
+#: modules/file/ometiff.c:596
+msgid ""
+"The OME TIFF header specifies more TIFF directories than there are in the "
+"file."
+msgstr ""
+
+#: modules/file/ometiff.c:602
+#, c-format
+msgid "TIFF directory %u is assigned to multiple conflicting ZTC coordinates."
+msgstr ""
+
+#: modules/file/omicron.c:160
+msgid "Imports Omicron data files (two-part .par + .tf*, .tb*, .sf*, .sb*)."
+msgstr ""
+
+#: modules/file/omicron.c:173
+msgid "Omicron files (.par + data)"
+msgstr ""
+
+#: modules/file/omicron.c:407
+msgid "Header line starts with a colon."
+msgstr ""
+
+#: modules/file/omicron.c:503
+msgid "Channel information ended unexpectedly."
+msgstr ""
+
+#: modules/file/omicronflat.c:359
+msgid "Imports Omicron flat files."
+msgstr ""
+
+#: modules/file/omicronflat.c:372
+msgid "Omicron flat files (*.*_flat)"
+msgstr ""
+
+#: modules/file/omicronflat.c:1710
+msgid "File name does not have the expected form for Omicron Flat files."
+msgstr ""
+
+#: modules/file/omicronflat.c:2123
+msgid "Cannot understand the axis hierarchy."
+msgstr ""
+
+#. TRANSLATORS: %s is replaced with an expression of the data shape.
+#: modules/file/omicronflat.c:2539
+#, c-format
+msgid "Cannot figure out how to load data in the following form: %s."
+msgstr ""
+
+#: modules/file/omicronmatrix.c:219
+msgid "Omicron MATRIX (param.mtrx & data.mtrx)"
+msgstr ""
+
+#: modules/file/omicronmatrix.c:235
+msgid "Omicron MATRIX (.mtrx & .mtrx)"
+msgstr ""
+
+#: modules/file/opdfile.c:194
+msgid "Imports Wyko OPD and ASC files."
+msgstr ""
+
+#: modules/file/opdfile.c:207
+msgid "Wyko OPD files (.opd)"
+msgstr ""
+
+#: modules/file/opdfile.c:214
+msgid "Wyko ASCII export files (.asc)"
+msgstr ""
+
+#: modules/file/opdfile.c:301
+#, c-format
+msgid "Item `%s' is beyond the end of the file."
+msgstr ""
+
+#: modules/file/opdfile.c:599
+msgid "Nested directories found"
+msgstr ""
+
+#: modules/file/opengps.c:131
+msgid "Reads ISO 5436-2 OpenGPS .x3p files."
+msgstr ""
+
+#: modules/file/opengps.c:144
+msgid "ISO 5436-2 OpenGPS data (.x3p)"
+msgstr ""
+
+#: modules/file/opengps.c:402 modules/file/opengps.c:433
+msgid "Too many DataList items for given matrix dimensions."
+msgstr ""
+
+#: modules/file/opengps.c:514
+msgid "File main.xml contains multiple data elements."
+msgstr ""
+
+#. TRANSLATORS: type and axis are symbols such as I, CX, ...
+#: modules/file/opengps.c:543 modules/file/opengps.c:551
+#: modules/file/opengps.c:559
+#, c-format
+msgid "Only type %s is supported for axis %s."
+msgstr ""
+
+#: modules/file/phoenix.c:215
+msgid "Imports AFM data files from NASA Phoenix Mars mission."
+msgstr ""
+
+#: modules/file/phoenix.c:228
+msgid "AFM data from NASA Phoenix mission (.dat, .lbl + .tab)"
+msgstr ""
+
+#: modules/file/phoenix.c:475
+#, c-format
+msgid "No previous record to continue at line %u."
+msgstr ""
+
+#: modules/file/phoenix.c:508
+#, c-format
+msgid "Invalid object nesting at line %u."
+msgstr ""
+
+#: modules/file/phoenix.c:1018
+msgid "Cannot parse AFM HEADER_TABLE values."
+msgstr ""
+
+#: modules/file/pixmap.c:173
+msgid "All channels"
+msgstr ""
+
+#: modules/file/pixmap.c:174
+msgid "Red"
+msgstr ""
+
+#: modules/file/pixmap.c:175
+msgid "Green"
+msgstr ""
+
+#: modules/file/pixmap.c:176
+msgid "Blue"
+msgstr ""
+
+#: modules/file/pixmap.c:177
+msgid "Gray"
+msgstr ""
+
+#: modules/file/pixmap.c:178
+msgid "Value (max)"
+msgstr ""
+
+#: modules/file/pixmap.c:179
+msgid "RGB sum"
+msgstr ""
+
+#: modules/file/pixmap.c:180
+msgid "Luma"
+msgstr ""
+
+#: modules/file/pixmap.c:181
+msgid "Hue"
+msgstr ""
+
+#: modules/file/pixmap.c:182
+msgid "Alpha"
+msgstr ""
+
+#: modules/file/pixmap.c:198
+msgid "Graphics Interchange Format GIF (.gif)"
+msgstr ""
+
+#: modules/file/pixmap.c:199
+msgid "JPEG 2000 (.jpx)"
+msgstr ""
+
+#: modules/file/pixmap.c:201
+msgid "PCX (.pcx)"
+msgstr ""
+
+#: modules/file/pixmap.c:202
+msgid "X Pixmap (.xpm)"
+msgstr ""
+
+#: modules/file/pixmap.c:203
+msgid "Sun raster image (.ras)"
+msgstr ""
+
+#: modules/file/pixmap.c:204
+msgid "Apple icon (.icns)"
+msgstr ""
+
+#: modules/file/pixmap.c:206
+msgid "High Efficiency Image File Format (.heif)"
+msgstr ""
+
+#: modules/file/pixmap.c:215
+msgid ""
+"Imports data from low-depth pixmap images (PNG, TIFF, JPEG, ...).  The set "
+"of available formats depends on available GDK pixbuf loaders."
+msgstr ""
+
+#: modules/file/pixmap.c:285
+msgid "_Hue offset"
+msgstr ""
+
+#: modules/file/pixmap.c:466
+#, c-format
+msgid "Pixmap has not registered file type `%s'."
+msgstr ""
+
+#: modules/file/pixmap.c:480
+#, c-format
+msgid "Cannot get pixbuf loader: %s."
+msgstr ""
+
+#: modules/file/pixmap.c:741
+msgid "as data"
+msgstr ""
+
+#: modules/file/pixmap.c:749
+msgid ""
+"Warning: Colorful images cannot be reliably mapped to meaningful values."
+msgstr ""
+
+#: modules/file/pltfile.c:75
+msgid "Imports Nanosurf PLT files."
+msgstr ""
+
+#: modules/file/pltfile.c:88
+msgid "Nanosurf PLT files (.plt)"
+msgstr ""
+
+#: modules/file/pnifile.c:114
+msgid "Imports Pacific Nanotechnology PNI data files."
+msgstr ""
+
+#: modules/file/pnifile.c:127
+msgid "PNI files (.pni)"
+msgstr ""
+
+#: modules/file/princetonspe.c:106
+msgid "Princeton Instruments camera SPE files."
+msgstr ""
+
+#: modules/file/princetonspe.c:119
+msgid "Princeton Instruments SPE files"
+msgstr ""
+
+#: modules/file/princetonspe.c:317
+msgid "XML footer overlaps with data."
+msgstr ""
+
+#: modules/file/psia.c:245
+msgid "Imports Park Systems data files."
+msgstr ""
+
+#: modules/file/psia.c:258
+msgid "Park Systems data files (.tiff, .tif)"
+msgstr ""
+
+#: modules/file/psia.c:500
+#, c-format
+msgid "Header is too short (only %lu bytes)."
+msgstr ""
+
+#: modules/file/psia.c:604
+#, c-format
+msgid "Spectroscopy header is too short (only %lu bytes)."
+msgstr ""
+
+#: modules/file/psppt.c:142
+msgid "Imports Park Systems PS-PPT data files."
+msgstr ""
+
+#: modules/file/psppt.c:155
+msgid "Park Systems PS-PPT data files (.ps-ppt)"
+msgstr ""
+
+#: modules/file/psppt.c:239
+msgid "Frame offsets do not increase monotonically."
+msgstr ""
+
+#: modules/file/psppt.c:267
+#, c-format
+msgid "Unexpected frame with data type %d."
+msgstr ""
+
+#: modules/file/psppt.c:290
+#, c-format
+msgid "Unexpected JSON structure: %s should be %s."
+msgstr ""
+
+#: modules/file/psppt.c:335
+#, c-format
+msgid "JSON parsing error: %s"
+msgstr ""
+
+#: modules/file/psppt.c:620
+msgid "Reading frame table..."
+msgstr ""
+
+#: modules/file/psppt.c:627
+msgid "Reading curve data..."
+msgstr ""
+
+#: modules/file/pt3file.c:288
+msgid "Imports SymPhoTime data files, version 2.0."
+msgstr ""
+
+#: modules/file/pt3file.c:301
+msgid "PicoHarp files (.pt3)"
+msgstr ""
+
+#: modules/file/pt3file.c:387
+msgid "T2 measurement mode is not implemented."
+msgstr ""
+
+#: modules/file/pt3file.c:393
+msgid "Only PI E710 and KDT180-100-Im imaging formats are implemented."
+msgstr ""
+
+#: modules/file/pt3file.c:518
+#, c-format
+msgid "Measurement mode must be 2 or 3; %u is invalid."
+msgstr ""
+
+#: modules/file/pt3file.c:524 modules/file/pt3file.c:536
+msgid "Only area imaging files are supported."
+msgstr ""
+
+#: modules/file/pt3file.c:555
+#, c-format
+msgid "Unknown instrument number %u."
+msgstr ""
+
+#: modules/file/pt3file.c:561
+#, c-format
+msgid "Wrong imaging header size: %u instead of %u."
+msgstr ""
+
+#: modules/file/pt3file.c:707
+#, c-format
+msgid "Number of line triggers %u is smaller than the number of scan lines %u."
+msgstr ""
+
+#: modules/file/qnami.c:65
+msgid "Imports Qnami ProteusQ SPM files."
+msgstr ""
+
+#: modules/file/qnami.c:78
+msgid "Qnami ProteusQ files (.dat)"
+msgstr ""
+
+#: modules/file/qnami.c:207
+msgid "Invalid file header structure."
+msgstr ""
+
+#: modules/file/quazarnpic.c:369
+msgid "Imports Quazar data files stored as Python pickles v4."
+msgstr ""
+
+#: modules/file/quazarnpic.c:382
+msgid "Quazar Python-pickled data (.npic)"
+msgstr ""
+
+#: modules/file/quazarnpic.c:427
+#, c-format
+msgid "Invalid stack state for opcode %02x."
+msgstr ""
+
+#: modules/file/quazarnpic.c:745
+#, c-format
+msgid "Uknown opcode 0x%02x encountered"
+msgstr ""
+
+#: modules/file/quesant.c:67
+msgid "Imports Quesant file format."
+msgstr ""
+
+#: modules/file/quesant.c:80
+msgid "Quesant files (.afm)"
+msgstr ""
+
+#: modules/file/rawfile.c:236
+msgid "User-specified"
+msgstr ""
+
+#: modules/file/rawfile.c:237
+msgid "Signed byte"
+msgstr ""
+
+#: modules/file/rawfile.c:238
+msgid "Unsigned byte"
+msgstr ""
+
+#: modules/file/rawfile.c:239
+msgid "Signed 16bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:240
+msgid "Unsigned 16bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:241
+msgid "Signed 32bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:242
+msgid "Unsigned 32bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:243
+msgid "Signed 64bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:244
+msgid "Unsigned 64bit word"
+msgstr ""
+
+#: modules/file/rawfile.c:245
+msgid "IEEE single"
+msgstr ""
+
+#: modules/file/rawfile.c:246
+msgid "IEEE double"
+msgstr ""
+
+#: modules/file/rawfile.c:247
+msgid "IEEE half"
+msgstr ""
+
+#: modules/file/rawfile.c:248
+msgid "Pascal real"
+msgstr ""
+
+#: modules/file/rawfile.c:258
+msgid ""
+"Imports raw data files, both ASCII and binary, according to user-specified "
+"format."
+msgstr ""
+
+#: modules/file/rawfile.c:277
+msgid "Raw data files"
+msgstr ""
+
+#: modules/file/rawfile.c:307
+msgid "Any whitespace"
+msgstr ""
+
+#: modules/file/rawfile.c:308
+msgid "TAB character"
+msgstr ""
+
+#: modules/file/rawfile.c:309
+msgid "Other character"
+msgstr ""
+
+#: modules/file/rawfile.c:322
+msgid "_Field delimiter"
+msgstr ""
+
+#: modules/file/rawfile.c:328
+msgid "_Automatically offer raw data import of unknown files"
+msgstr ""
+
+#: modules/file/rawfile.c:337
+msgid "_Text data"
+msgstr ""
+
+#: modules/file/rawfile.c:338
+msgid "_Binary data"
+msgstr ""
+
+#: modules/file/rawfile.c:349 modules/file/rawfile.c:350
+msgid "Missin_g value substitute"
+msgstr ""
+
+#: modules/file/rawfile.c:361
+msgid "Start from file _line"
+msgstr ""
+
+#: modules/file/rawfile.c:362
+msgid "_Each image row skip"
+msgstr ""
+
+#: modules/file/rawfile.c:363
+msgid "One _value per line"
+msgstr ""
+
+#: modules/file/rawfile.c:364
+msgid "E_xtract column"
+msgstr ""
+
+#: modules/file/rawfile.c:365
+msgid "_Other delimiter"
+msgstr ""
+
+#: modules/file/rawfile.c:370
+msgid "Data t_ype"
+msgstr ""
+
+#: modules/file/rawfile.c:372
+msgid "Byte s_wap pattern"
+msgstr ""
+
+#: modules/file/rawfile.c:373
+msgid "Start at _offset"
+msgstr ""
+
+#: modules/file/rawfile.c:374
+msgid "_Sample size"
+msgstr ""
+
+#: modules/file/rawfile.c:375
+msgid "After each sample s_kip"
+msgstr ""
+
+#: modules/file/rawfile.c:376
+msgid "After each _row skip"
+msgstr ""
+
+#: modules/file/rawfile.c:377
+msgid "_Reverse bits in bytes"
+msgstr ""
+
+#: modules/file/rawfile.c:378
+msgid "Reverse bi_ts in samples"
+msgstr ""
+
+#: modules/file/rawfile.c:379
+msgid "Samples are si_gned"
+msgstr ""
+
+#: modules/file/rawfile.c:406
+msgid "Raw data import must be run as interactive."
+msgstr ""
+
+#: modules/file/rawfile.c:457
+msgid "Read Raw File"
+msgstr ""
+
+#: modules/file/rawfile.c:472
+msgid "Data Format"
+msgstr ""
+
+#: modules/file/rawfile.c:585
+msgid "fields"
+msgstr ""
+
+#: modules/file/rawfile.c:600
+msgid "bytes"
+msgstr ""
+
+#: modules/file/rawfile.c:602 modules/file/rawfile.c:605
+#: modules/file/rawfile.c:608
+msgid "bits"
+msgstr ""
+
+#: modules/file/rawfile.c:637
+msgid "Binary"
+msgstr ""
+
+#: modules/file/rawfile.c:637
+msgid "Text"
+msgstr ""
+
+#: modules/file/rawfile.c:658
+msgid "Delimiter: whitespace"
+msgstr ""
+
+#: modules/file/rawfile.c:661
+#, c-format
+msgid "Delimiter: 0x%02x"
+msgstr ""
+
+#: modules/file/rawfile.c:663
+#, c-format
+msgid "Delimiter: %s"
+msgstr ""
+
+#: modules/file/rawfile.c:692
+msgid "Info"
+msgstr ""
+
+#: modules/file/rawfile.c:1135
+#, c-format
+msgid ""
+"<b>Too short file</b>\n"
+"The format would require %lu bytes long file (at least), but the length of "
+"`%s' is only %u bytes."
+msgstr ""
+
+#: modules/file/rawfile.c:1166
+#, c-format
+msgid ""
+"<b>Parsing failed</b>\n"
+"The contents of `%s' does not match format: %s."
+msgstr ""
+
+#: modules/file/rawfile.c:1514
+#, c-format
+msgid "Expected whitespace to skip more fields in row %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1526
+#, c-format
+msgid "Expected `%c' to skip more fields in row %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1538
+#, c-format
+msgid "Expected `%s' to skip more fields in row %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1569 modules/file/rawfile.c:1582
+#: modules/file/rawfile.c:1607
+#, c-format
+msgid "Garbage `%.16s' in row %u, column %u"
+msgstr ""
+
+#: modules/file/rawfile.c:1595
+#, c-format
+msgid "Expected delimiter `%c' after data in row %u, column %u, got `%c'"
+msgstr ""
+
+#: modules/file/rawfile.c:1620
+#, c-format
+msgid "Expected delimiter `%s' after data in row %u, column %u, got `%.16s'"
+msgstr ""
+
+#: modules/file/rawfile.c:1664
+#, c-format
+msgid "Not enough lines (%d) for offset (%d)"
+msgstr ""
+
+#: modules/file/rawgraph.c:87
+msgid "Imports simple text files as graph curves."
+msgstr ""
+
+#: modules/file/rawgraph.c:100
+msgid "ASCII graph curve files"
+msgstr ""
+
+#: modules/file/rawgraph.c:121
+msgid "_Title"
+msgstr ""
+
+#: modules/file/rawgraph.c:123
+msgid "_X label"
+msgstr ""
+
+#: modules/file/rawgraph.c:125
+msgid "_Y label"
+msgstr ""
+
+#: modules/file/rawgraph.c:127
+msgid "X _units"
+msgstr ""
+
+#: modules/file/rawgraph.c:129
+msgid "Y u_nits"
+msgstr ""
+
+#: modules/file/rawgraph.c:191
+msgid "ASCII graph import must be run as interactive."
+msgstr ""
+
+#: modules/file/rawgraph.c:242
+msgid "Import Graph Data"
+msgstr ""
+
+#: modules/file/renishaw.c:393
+msgid "Imports Renishaw WiRE data files (WDF)."
+msgstr ""
+
+#: modules/file/renishaw.c:406
+msgid "Renishaw WiRE data files (.wdf)"
+msgstr ""
+
+#: modules/file/renishaw.c:836
+msgid "Random points order unsupported"
+msgstr ""
+
+#: modules/file/rhk-sm3.c:231
+msgid "Imports RHK Technology SM3 data files."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:251
+msgid "RHK SM3 files (.sm3)"
+msgstr ""
+
+#: modules/file/rhk-sm3.c:323 modules/file/rhk-sm3.c:336
+msgid "End of file reached in page header."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:327
+msgid "magic page header"
+msgstr ""
+
+#: modules/file/rhk-sm3.c:397
+#, c-format
+msgid "End of file reached in string #%u."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:417
+msgid "End of file reached in color data header."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:424
+msgid "End of file reached in color data."
+msgstr ""
+
+#: modules/file/rhk-sm3.c:666
+#, c-format
+msgid "Unknown line %d"
+msgstr ""
+
+#: modules/file/rhk-sm4.c:438
+msgid "Imports RHK Technology SM4 data files."
+msgstr ""
+
+#: modules/file/rhk-sm4.c:458
+msgid "RHK SM4 files (.sm4)"
+msgstr ""
+
+#: modules/file/rhk-sm4.c:978
+#, c-format
+msgid "Object list in %s is truncated."
+msgstr ""
+
+#: modules/file/rhk-sm4.c:992
+#, c-format
+msgid "Object of type %s is truncated."
+msgstr ""
+
+#: modules/file/rhk-sm4.c:1016
+#, c-format
+msgid "Cannot find object %s in %s."
+msgstr ""
+
+#: modules/file/rhk-spm32.c:173
+msgid "Imports RHK Technology SPM32 data files."
+msgstr ""
+
+#: modules/file/rhk-spm32.c:193
+msgid "RHK SPM32 files (.sm2)"
+msgstr ""
+
+#: modules/file/rhk-spm32.c:366
+msgid "Only image and line files are supported."
+msgstr ""
+
+#: modules/file/rhk-spm32.c:380
+msgid "data type"
+msgstr ""
+
+#: modules/file/rhk-spm32.c:389
+msgid "data ranges"
+msgstr ""
+
+#: modules/file/rhk-spm32.c:453
+msgid "data offset"
+msgstr ""
+
+#: modules/file/rmitmd.c:87
+msgid "Imports RMI TMD 3D measurements."
+msgstr ""
+
+#: modules/file/rmitmd.c:100
+msgid "RMI TMD 3D scan files (.tmd)"
+msgstr ""
+
+#: modules/file/robotics.c:77
+msgid "Imports Automation & Robotics Dual Lensmapper data files"
+msgstr ""
+
+#: modules/file/robotics.c:90
+msgid "Dual Lensmapper files"
+msgstr ""
+
+#: modules/file/s94file.c:101
+msgid "Imports S94 STM data files."
+msgstr ""
+
+#: modules/file/s94file.c:114
+msgid "S94 STM files (.s94)"
+msgstr ""
+
+#: modules/file/scafile.c:93
+msgid "Imports SCA data files (two-part .sca + .dat)."
+msgstr ""
+
+#: modules/file/scafile.c:106
+msgid "SCA files (.sca + .dat)"
+msgstr ""
+
+#: modules/file/scanfile.c:78
+msgid "Reads Cyber technologies SCAN files."
+msgstr ""
+
+#: modules/file/scanfile.c:91
+msgid "Cyber technologies SCAN data (.scan)"
+msgstr ""
+
+#: modules/file/scnxfile.c:104
+msgid "Reads Cyber technologies SCNX files."
+msgstr ""
+
+#: modules/file/scnxfile.c:117
+msgid "Cyber technologies SCNX data (.scnx)"
+msgstr ""
+
+#: modules/file/sdfile.c:154
+msgid "Imports Surfstand group SDF (Surface Data File) files."
+msgstr ""
+
+#: modules/file/sdfile.c:169
+msgid "Surfstand SDF files, binary (.sdf)"
+msgstr ""
+
+#: modules/file/sdfile.c:175
+msgid "Surfstand SDF files, text (.sdf)"
+msgstr ""
+
+#: modules/file/sdfile.c:181
+msgid "Micromap SDF files (.sdfa)"
+msgstr ""
+
+#: modules/file/sdfile.c:619
+#, c-format
+msgid "Invalid `%s' value: %d."
+msgstr ""
+
+#: modules/file/sdfile.c:628
+#, c-format
+msgid "Invalid `%s' value: %g."
+msgstr ""
+
+#: modules/file/sdfile.c:685
+msgid "Missing data start marker (*)."
+msgstr ""
+
+#: modules/file/sdfile.c:709
+#, c-format
+msgid "End of file reached when looking for `%s' field."
+msgstr ""
+
+#: modules/file/sdfile.c:717
+#, c-format
+msgid "Invalid line found when looking for `%s' field."
+msgstr ""
+
+#: modules/file/seiko.c:114
+msgid "Imports Seiko XQB, XQD, XQT and XQP files."
+msgstr ""
+
+#: modules/file/seiko.c:127
+msgid "Seiko files (.xqb, .xqd, .xqt, .xqp)"
+msgstr ""
+
+#: modules/file/sensofar.c:551
+msgid "Imports Sensofar PLu file format, version 2000 or newer."
+msgstr ""
+
+#: modules/file/sensofar.c:564
+msgid "Sensofar PLu files (.plu, .apx)"
+msgstr ""
+
+#: modules/file/sensofarx.c:86
+msgid "Reads Sensofar PLUx files."
+msgstr ""
+
+#: modules/file/sensofarx.c:99
+msgid "Sensofar PLUx files (.plux)"
+msgstr ""
+
+#: modules/file/sensolytics.c:164
+msgid "Imports Sensolytics text files."
+msgstr ""
+
+#: modules/file/sensolytics.c:177
+msgid "Sensolytics text files (.dat)"
+msgstr ""
+
+#: modules/file/sensolytics.c:1051 modules/file/sensolytics.c:1059
+msgid "Wrong number of initial data columns."
+msgstr ""
+
+#: modules/file/shimadzu.c:122
+msgid "Imports Shimadzu SPM data files."
+msgstr ""
+
+#: modules/file/shimadzu.c:135
+msgid "Shimadzu files"
+msgstr ""
+
+#: modules/file/sicmfile.c:205
+msgid "Imports IonScope SICM data files."
+msgstr ""
+
+#: modules/file/sicmfile.c:220
+msgid "IonScope SICM files (.img)"
+msgstr ""
+
+#: modules/file/sis.c:279
+msgid "Imports SIS (Surface Imaging Systems) data files."
+msgstr ""
+
+#: modules/file/sis.c:292
+msgid "SIS files (.sis)"
+msgstr ""
+
+#: modules/file/sis.c:579
+msgid "Block not a document block."
+msgstr ""
+
+#: modules/file/sis.c:587
+msgid "Too short document info."
+msgstr ""
+
+#: modules/file/sis.c:607
+msgid "Too short parameter info."
+msgstr ""
+
+#: modules/file/sis.c:699
+msgid "Unexpected image block."
+msgstr ""
+
+#: modules/file/sis.c:730 modules/file/sis.c:758
+msgid "End of file reached in image block."
+msgstr ""
+
+#: modules/file/sis.c:771
+msgid "End of file reached in channel block."
+msgstr ""
+
+#: modules/file/sis.c:795
+msgid "End of file reached when another channel was expected."
+msgstr ""
+
+#: modules/file/spcfile.c:274
+msgid "Imports Thermo Fisher SPC files."
+msgstr ""
+
+#: modules/file/spcfile.c:287
+msgid "Thermo Fisher SPC files"
+msgstr ""
+
+#: modules/file/spip-asc.c:95
+msgid "Imports and exports SPIP ASC files."
+msgstr ""
+
+#: modules/file/spip-asc.c:108
+msgid "SPIP ASCII files (.asc)"
+msgstr ""
+
+#: modules/file/spml.c:117
+msgid "Loads SPML (Scanning Probe Microscopy Markup Language) data files."
+msgstr ""
+
+#: modules/file/spml.c:131
+msgid "SPML files (.xml)"
+msgstr ""
+
+#: modules/file/spmlab.c:172
+msgid "Imports Thermicroscopes SpmLab R3 to R7 data files."
+msgstr ""
+
+#: modules/file/spmlab.c:185
+msgid "Thermicroscopes SpmLab files"
+msgstr ""
+
+#: modules/file/spmlab.c:251
+#, c-format
+msgid "Unknown format version %c."
+msgstr ""
+
+#: modules/file/spmlabf.c:76
+msgid "Imports SPMLab floating-point files."
+msgstr ""
+
+#: modules/file/spmlabf.c:89
+msgid "SPMLab floating-point files (.flt)"
+msgstr ""
+
+#: modules/file/spmlabf.c:148
+msgid "Missing data start marker [Data]."
+msgstr ""
+
+#: modules/file/spmxfile.c:93
+msgid "Reads ATC SPMxFormat files."
+msgstr ""
+
+#: modules/file/spmxfile.c:106
+msgid "ATC SPMxFormat data (.spm)"
+msgstr ""
+
+#: modules/file/stmprg.c:228
+msgid "Imports Omicron STMPRG data files (tp ta)."
+msgstr ""
+
+#: modules/file/stmprg.c:241
+msgid "Omicron STMPRG files (tp ta)"
+msgstr ""
+
+#: modules/file/stmprg.c:280
+msgid "Parameter file is too short."
+msgstr ""
+
+#: modules/file/stmprg.c:532
+msgid "First channel is switched off."
+msgstr ""
+
+#: modules/file/stpfile.c:114
+msgid "Current or Deflection or Amplitude"
+msgstr ""
+
+#: modules/file/stpfile.c:115
+msgid "Electrochemical Voltage (Vec)"
+msgstr ""
+
+#: modules/file/stpfile.c:116
+msgid "Topography and SPS"
+msgstr ""
+
+#: modules/file/stpfile.c:117
+msgid "Topography and SPS (scripted)"
+msgstr ""
+
+#: modules/file/stpfile.c:118
+msgid "Electrochemical Current (Iec)"
+msgstr ""
+
+#: modules/file/stpfile.c:119
+msgid "Friction or Phase"
+msgstr ""
+
+#: modules/file/stpfile.c:120
+msgid "AUX in BNC"
+msgstr ""
+
+#: modules/file/stpfile.c:121
+msgid "AUX in 3 (Sum)"
+msgstr ""
+
+#: modules/file/stpfile.c:122
+msgid "AUX in 4 (Raw Deflection)"
+msgstr ""
+
+#: modules/file/stpfile.c:123
+msgid "AUX in 5 (PicoPlus Aux BNC)"
+msgstr ""
+
+#: modules/file/stpfile.c:124
+msgid "AUX in 6 (Surface Potential)"
+msgstr ""
+
+#: modules/file/stpfile.c:125
+msgid "AUX in 7"
+msgstr ""
+
+#: modules/file/stpfile.c:126
+msgid "AUX in 8"
+msgstr ""
+
+#: modules/file/stpfile.c:127
+msgid "AUX in 9"
+msgstr ""
+
+#: modules/file/stpfile.c:128
+msgid "AUX in 10"
+msgstr ""
+
+#: modules/file/stpfile.c:129
+msgid "Topography and Flexgrid"
+msgstr ""
+
+#: modules/file/stpfile.c:130
+msgid "External"
+msgstr ""
+
+#: modules/file/stpfile.c:136
+msgid "Imports Molecular Imaging STP data files."
+msgstr ""
+
+#: modules/file/stpfile.c:149
+msgid "STP files (.stp)"
+msgstr ""
+
+#: modules/file/surffile.c:332
+msgid "Imports Surf data files."
+msgstr ""
+
+#: modules/file/surffile.c:345
+msgid "Surf files (.sur)"
+msgstr ""
+
+#: modules/file/talos.c:70
+msgid "Imports ThermoFisher Talos TEM images."
+msgstr ""
+
+#: modules/file/talos.c:83
+msgid "ThermoFisher Talos TEM image (.tif)"
+msgstr ""
+
+#: modules/file/tescan.c:114
+msgid "Imports Tescan SEM images."
+msgstr ""
+
+#: modules/file/tescan.c:127
+msgid "Tescan TIF SEM image (.tif)"
+msgstr ""
+
+#: modules/file/tescan.c:133
+msgid "Tescan two-part SEM image (.hdr + .png)"
+msgstr ""
+
+#: modules/file/tiaser.c:175
+msgid "Imports FEI Tecnai imaging and analysis (former Emispec) files."
+msgstr ""
+
+#: modules/file/tiaser.c:188
+msgid "FEI TIA (Emispec) data"
+msgstr ""
+
+#: modules/file/ttffile.c:180
+msgid "Imports Corning Tropel UltraSort files."
+msgstr ""
+
+#: modules/file/ttffile.c:193
+msgid "Corning Tropel UltraSort data (.ttf)"
+msgstr ""
+
+#: modules/file/ttffile.c:199
+msgid "Corning Tropel UltraSort CSV export (.csv)"
+msgstr ""
+
+#: modules/file/unisoku.c:142
+msgid "Imports Unisoku data files (two-part .hdr + .dat)."
+msgstr ""
+
+#: modules/file/unisoku.c:157
+msgid "Unisoku files (.hdr + .dat)"
+msgstr ""
+
+#: modules/file/unisoku.c:309
+msgid "format flags"
+msgstr ""
+
+#: modules/file/unisoku.c:340
+msgid "x scale parameters"
+msgstr ""
+
+#: modules/file/unisoku.c:350
+msgid "y scale parameters"
+msgstr ""
+
+#: modules/file/unisoku.c:360
+msgid "z scale parameters"
+msgstr ""
+
+#: modules/file/unisoku.c:367
+msgid "data type parameters"
+msgstr ""
+
+#: modules/file/win_stm.c:86
+msgid "Imports WinSTM (.stm) files."
+msgstr ""
+
+#: modules/file/win_stm.c:99
+msgid "WinSTM files (.stm)"
+msgstr ""
+
+#: modules/file/wipfile.c:282
+msgid "Imports WItec Project data files."
+msgstr ""
+
+#: modules/file/wipfile.c:295
+msgid "WItec Project files (.wip)"
+msgstr ""
+
+#: modules/file/wipfile.c:442
+msgid "Cannot read tag."
+msgstr ""
+
+#: modules/file/witec-asc.c:70
+msgid "Imports WITec ASCII export files."
+msgstr ""
+
+#: modules/file/witec-asc.c:83
+msgid "WITec ASCII files (.dat)"
+msgstr ""
+
+#: modules/file/witfile.c:205
+msgid "Imports WITec WIT data files."
+msgstr ""
+
+#: modules/file/witfile.c:218
+msgid "WITec files (.wit)"
+msgstr ""
+
+#: modules/file/wrustfile.c:68
+msgid "Imports AFM files from Department of Nanometrology, WRUST."
+msgstr ""
+
+#: modules/file/wrustfile.c:81
+msgid "WRUST Department of Nanometrology AFM data (.dat)"
+msgstr ""
+
+#: modules/file/wsffile.c:85
+msgid "Imports WSF ASCII files."
+msgstr ""
+
+#: modules/file/wsffile.c:98
+msgid "WSF ASCII files (.wsf)"
+msgstr ""
+
+#: modules/file/wsffile.c:160
+msgid "File header does not end with an empty line."
+msgstr ""
+
+#: modules/file/wsxmfile.c:118
+msgid "Imports Nanotec WSxM data files."
+msgstr ""
+
+#: modules/file/wsxmfile.c:131
+msgid "WSxM files (.tom, .top, .stp)"
+msgstr ""
+
+#: modules/file/wsxmfile.c:137
+msgid "WSxM curve files (.cur)"
+msgstr ""
+
+#: modules/file/wsxmfile.c:377
+#, c-format
+msgid "Unknown data type `%s'."
+msgstr ""
+
+#: modules/file/xyzexport.c:80
+msgid "Exports data as simple XYZ text file."
+msgstr ""
+
+#: modules/file/xyzexport.c:93
+msgid "XYZ text data (.xyz)"
+msgstr ""
+
+#: modules/file/xyzexport.c:207
+msgid "XYZ data:"
+msgstr ""
+
+#: modules/file/xyzexport.c:213
+msgid "Lateral units:"
+msgstr ""
+
+#: modules/file/xyzexport.c:256
+msgid "Export XYZ"
+msgstr ""
+
+#: modules/file/zeiss.c:62
+msgid "Imports Carl Zeiss SEM images."
+msgstr ""
+
+#: modules/file/zeiss.c:75
+msgid "Carl Zeiss SEM scans (.tif)"
+msgstr ""
+
+#: modules/file/zeissczi.c:136
+msgid "Imports Carl Zeiss CZI images."
+msgstr ""
+
+#: modules/file/zeissczi.c:149
+msgid "Carl Zeiss CZI images (.czi)"
+msgstr ""
+
+#: modules/file/zeisslsm.c:363
+msgid "Imports Carl Zeiss CLSM images."
+msgstr ""
+
+#: modules/file/zeisslsm.c:376
+msgid "Carl Zeiss CLSM images (.lsm)"
+msgstr ""
+
+#: modules/file/zemax.c:68
+msgid "Imports Zemax grid sag data files."
+msgstr ""
+
+#: modules/file/zemax.c:81
+msgid "Zemax grid sag data (.dat)"
+msgstr ""
+
+#: modules/file/zemax.c:169
+#, c-format
+msgid "Data line %u does not contain four items."
+msgstr ""
+
+#: modules/file/zemax.c:291
+#, c-format
+msgid "Unit code %d is invalid or unsupported."
+msgstr ""
+
+#: modules/file/zemax.c:314
+msgid "The first line contains too many items."
+msgstr ""
+
+#: modules/file/zmgfile.c:67
+msgid "Imports KLA Zeta profilometry files."
+msgstr ""
+
+#: modules/file/zmgfile.c:80
+msgid "KLA Zeta profilometry files (.zmg)"
+msgstr ""
+
+#: modules/file/zonfile.c:111
+msgid "Reads Keyence ZON files."
+msgstr ""
+
+#: modules/file/zonfile.c:124
+msgid "Keyence ZON data (.zon)"
+msgstr ""
+
+#: modules/file/zonfile.c:430
+#, c-format
+msgid "Rows stride %u does not match length and bytes per item (%u×%u)."
+msgstr ""
+
+#: modules/file/zonfile.c:546
+#, c-format
+msgid "Libzstd error while reading the zst file: %s."
+msgstr ""
+
+#: modules/file/zyvex.c:66
+msgid "Imports ZyVector Scanz files."
+msgstr ""
+
+#: modules/file/zyvex.c:79
+msgid "ZyVector Scanz files (.zad)"
+msgstr ""
+
+#: modules/file/zyvex.c:195
+#, c-format
+msgid "Data type `%s' is invalid or unsupported."
+msgstr ""
+
+#: modules/file/zyvex.c:637
+#, c-format
+msgid "Compressed data CRC mismatch for channel `%s'."
+msgstr ""
+
+#: modules/file/zyvex.c:657
+#, c-format
+msgid "Data CRC mismatch for channel `%s'."
+msgstr ""

@@ -1,0 +1,8582 @@
+[
+  {
+    "context": null,
+    "id": "Untitled",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwyinventory.c",
+      "libgwydgets/gwycombobox.c",
+      "libgwydgets/gwygraphwindow.c",
+      "app/data-browser-aux.c",
+      "app/data-browser.c",
+      "app/gwyappfilechooser.c",
+      "app/gwyresultsexport.c",
+      "app/resource-editor.c",
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_curvefilter.c",
+      "modules/cmap/cmap_cutter.c",
+      "modules/cmap/cmap_extractcurve.c",
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_filter.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_fztofd.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_peaks.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/cmap/cmap_possearch.c",
+      "modules/cmap/cmap_simplemech.c",
+      "modules/cmap/cmap_sinebg.c",
+      "modules/file/formats3d.c",
+      "modules/file/lafmdmap.c",
+      "modules/file/xyzexport.c",
+      "modules/process/batchcolor.c",
+      "modules/process/convolution_filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fitting...",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwynlfit.c",
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_sinebg.c",
+      "modules/process/fit-shape.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Gaussian",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwynlfitpreset.c",
+      "libprocess/gwyprocessenums.c",
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/psf-fit.c",
+      "modules/tools/corrlen.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Exponential",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwynlfitpreset.c",
+      "libprocess/gwyshapefitpreset.c",
+      "modules/tools/corrlen.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Polynomial (order 1)",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwynlfitpreset.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Power",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwynlfitpreset.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Lorentzian",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwynlfitpreset.c",
+      "libprocess/gwyshapefitpreset.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "deg",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwyresults.c",
+      "libgwydgets/gwy3dwindow.c",
+      "app/param-table.c",
+      "modules/process/correct_affine.c",
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c",
+      "modules/process/grain_stat.c",
+      "modules/process/indent_analyze.c",
+      "modules/process/measure_lattice.c",
+      "modules/process/rotate.c",
+      "modules/tools/distance.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "N.A.",
+    "plural": null,
+    "references": [
+      "libgwyddion/gwyresults.c",
+      "modules/cmap/cmap_fdfit.c",
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/grain_stat.c",
+      "modules/tools/grainmeasure.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Edge",
+    "plural": null,
+    "references": [
+      "libprocess/cdline.c",
+      "modules/process/pat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Line",
+    "plural": null,
+    "references": [
+      "libprocess/cdline.c",
+      "libgwydgets/gwydgetenums.c",
+      "modules/process/hough.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Circle",
+    "plural": null,
+    "references": [
+      "libprocess/cdline.c",
+      "libgwydgets/gwygraphareadialog.c",
+      "modules/process/hough.c",
+      "modules/process/pat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Center x position",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/process/curvature.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Center y position",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/process/curvature.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mean value",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/bdep_synth.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Median value",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Projected area",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Surface area",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mean radius",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "libprocess/gwyshapefitpreset.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Inclination θ",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/tools/readvalue.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Inclination φ",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/tools/readvalue.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curvature 1",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/tools/readvalue.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curvature 2",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/tools/readvalue.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Id",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/process/classify.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Position",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/cmap/cmap_possearch.c",
+      "modules/graph/graph_peaks.c",
+      "modules/process/extract_path.c",
+      "modules/process/immerse.c",
+      "modules/process/pat_synth.c",
+      "modules/process/wave_synth.c",
+      "modules/tools/readvalue.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Value",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "app/meta.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/cmap/cmap_peaks.c",
+      "modules/file/imgexport.c",
+      "modules/process/classify.c",
+      "modules/tools/level3.c",
+      "modules/tools/readvalue.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Area",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "modules/process/measure_lattice.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Volume",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "app/data-browser.c",
+      "gwyddion/toolbox.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Slope",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "libprocess/gwyshapefitpreset.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/process/classify.c",
+      "modules/process/pat_synth.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curvature",
+    "plural": null,
+    "references": [
+      "libprocess/gwygrainvalue.c",
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/curvature.c",
+      "modules/process/deconvolve.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Detected",
+    "plural": null,
+    "references": [
+      "libprocess/gwyprocessenums.c",
+      "modules/process/rotate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Horizontal",
+    "plural": null,
+    "references": [
+      "libprocess/gwyprocessenums.c",
+      "libgwydgets/gwygraphwindowmeasuredialog.c",
+      "modules/process/convolution_filter.c",
+      "modules/tools/cprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Vertical",
+    "plural": null,
+    "references": [
+      "libprocess/gwyprocessenums.c",
+      "modules/process/convolution_filter.c",
+      "modules/tools/cprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Round",
+    "plural": null,
+    "references": [
+      "libprocess/gwyprocessenums.c",
+      "modules/file/imgexport.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Linear",
+    "plural": null,
+    "references": [
+      "libprocess/gwyprocessenums.c",
+      "modules/file/imgexport.c",
+      "modules/process/relate.c",
+      "modules/volume/volume_cluster.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "NNA",
+    "plural": null,
+    "references": [
+      "libprocess/gwyprocessenums.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Orientation",
+    "plural": null,
+    "references": [
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Radius",
+    "plural": null,
+    "references": [
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/mask_morph.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Plane",
+    "plural": null,
+    "references": [
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/indent_analyze.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Sphere",
+    "plural": null,
+    "references": [
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/indent_analyze.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Pyramid (rectangle)",
+    "plural": null,
+    "references": [
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/indent_analyze.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Pyramid (3-sided)",
+    "plural": null,
+    "references": [
+      "libprocess/gwyshapefitpreset.c",
+      "modules/process/indent_analyze.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cone",
+    "plural": null,
+    "references": [
+      "libprocess/gwyshapefitpreset.c",
+      "libprocess/tip.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Unknown",
+    "plural": null,
+    "references": [
+      "libprocess/lawn.c",
+      "gwyddion/gwyddion.c",
+      "modules/file/hdf5/shilpsfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Segment",
+    "plural": null,
+    "references": [
+      "libprocess/lawn.c",
+      "libgwydgets/gwycombobox.c",
+      "modules/cmap/cmap_classify.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Dilation...",
+    "plural": null,
+    "references": [
+      "libprocess/morph_lib.c",
+      "libprocess/tip.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Erosion...",
+    "plural": null,
+    "references": [
+      "libprocess/morph_lib.c",
+      "libprocess/tip.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Contact",
+    "plural": null,
+    "references": [
+      "libprocess/tip.c",
+      "modules/cmap/cmap_cutter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Parabola",
+    "plural": null,
+    "references": [
+      "libprocess/tip.c",
+      "modules/process/fibre_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Triangulating...",
+    "plural": null,
+    "references": [
+      "libprocess/triangulation.c",
+      "modules/process/calcoefs_view.c",
+      "modules/process/lat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "adjective|Basic",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwy3dwindow.c",
+      "modules/file/imgexport.c",
+      "modules/process/fit-shape.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "px",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwy3dwindow.c",
+      "libgwydgets/gwygraphareadialog.c",
+      "app/filelist.c",
+      "app/gwyappfilechooser.c",
+      "app/gwymoduleutils-synth.c",
+      "app/gwyplaintool.c",
+      "app/param-table.c",
+      "modules/file/nmmxyz.c",
+      "modules/file/rawfile.c",
+      "modules/graph/graph_terraces.c",
+      "modules/process/binning.c",
+      "modules/process/classify.c",
+      "modules/process/correct_perspective.c",
+      "modules/process/dimensions.h",
+      "modules/process/disc_synth.c",
+      "modules/process/entropy.c",
+      "modules/process/extend.c",
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c",
+      "modules/process/grain_wshed.c",
+      "modules/process/hough.c",
+      "modules/process/mark_disconn.c",
+      "modules/process/mask_morph.c",
+      "modules/process/mcrop.c",
+      "modules/process/multiprofile.c",
+      "modules/process/neural.c",
+      "modules/process/ptranslate.c",
+      "modules/process/resample.c",
+      "modules/process/scale.c",
+      "modules/process/scars.c",
+      "modules/process/straighten_path.c",
+      "modules/process/tip_blind.c",
+      "modules/process/tip_model.c",
+      "modules/process/volumize_layers.c",
+      "modules/tools/corrlen.c",
+      "modules/tools/cprofile.c",
+      "modules/tools/filter.c",
+      "modules/tools/level3.c",
+      "modules/tools/maskedit.c",
+      "modules/tools/pathlevel.c",
+      "modules/tools/profile.c",
+      "modules/tools/readvalue.c",
+      "modules/tools/roughness.c",
+      "modules/tools/rprofile.c",
+      "modules/tools/spotremove.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_planestat.c",
+      "modules/volume/volume_psf.c",
+      "modules/volume/volume_rephase.c",
+      "modules/volume/volume_scars.c",
+      "modules/volume/volume_slice.c",
+      "modules/volume/volume_zposlevel.c",
+      "modules/xyz/xyz_drift.c",
+      "modules/xyz/xyz_raster.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Gradient",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwy3dwindow.c",
+      "modules/cmap/cmap_peaks.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Reset",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwy3dwindow.c",
+      "app/dialog.c",
+      "gwyddion/toolbox-editor.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/correct_affine.c",
+      "modules/process/fft_filter_2d.c",
+      "modules/process/polydistort.c",
+      "modules/process/roddeposit_synth.c",
+      "modules/process/smm.c",
+      "modules/process/straighten_path.c",
+      "modules/volume/volume_drift.c",
+      "modules/volume/volume_extract.c",
+      "modules/xyz/xyz_zdrift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Choose Color Gradient",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwydatawindow.c",
+      "libgwydgets/gwyoptionmenus.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Hidden",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwydgetenums.c",
+      "modules/process/neural.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Points",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwydgetenums.c",
+      "libgwydgets/gwygraphwindowmeasuredialog.c",
+      "modules/file/imgexport.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Quantity",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygrainvaluemenu.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_lockin.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Enabled",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygrainvaluemenu.c",
+      "modules/process/lat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Square",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphareadialog.c",
+      "modules/process/mask_morph.c",
+      "modules/process/pat_synth.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Diamond",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphareadialog.c",
+      "modules/process/mask_morph.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cross",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphareadialog.c",
+      "modules/tools/cprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Disc",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphareadialog.c",
+      "modules/process/mask_morph.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mode",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphcurves.c",
+      "modules/cmap/cmap_cutter.c",
+      "modules/process/entropy.c",
+      "modules/process/good_profile.c",
+      "modules/process/logistic.c",
+      "modules/tools/maskedit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Abscissa",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphmodel.c",
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_extractcurve.c",
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_filter.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_fztofd.c",
+      "modules/cmap/cmap_peaks.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/cmap/cmap_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Graph",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphwindow.c",
+      "gwyddion/toolbox-editor.c",
+      "gwyddion/toolbox.c",
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_stats.c",
+      "modules/graph/graph_terraces.c",
+      "modules/xyz/xyz_tcut.c",
+      "modules/xyz/xyz_tstep.c",
+      "modules/xyz/xyz_volumize.c",
+      "modules/xyz/xyz_zdrift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphwindow.c",
+      "modules/cmap/cmap_peaks.c",
+      "modules/process/classify.c",
+      "modules/process/deconvolve.c",
+      "modules/process/fit-shape.c",
+      "modules/process/freq_split.c",
+      "modules/process/good_profile.c",
+      "modules/process/psf.c",
+      "modules/process/relate.c",
+      "modules/process/terracefit.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Length",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphwindowmeasuredialog.c",
+      "modules/process/facet_analysis.c",
+      "modules/process/measure_lattice.c",
+      "modules/tools/roughness.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Height",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphwindowmeasuredialog.c",
+      "app/gwyplaintool.c",
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c",
+      "modules/process/disc_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curve:",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphwindowmeasuredialog.c",
+      "app/app.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Angle",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwygraphwindowmeasuredialog.c",
+      "modules/process/facet_analysis.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Name",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwyoptionmenus.c",
+      "app/meta.c",
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/convolution_filter.c",
+      "modules/process/neural.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Preview",
+    "plural": null,
+    "references": [
+      "libgwydgets/gwyscitext.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/file/rawfile.c",
+      "modules/process/neural.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot open file for reading: %s.",
+    "plural": null,
+    "references": [
+      "libgwymodule/gwymodule-file.c",
+      "modules/file/err.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mean",
+    "plural": null,
+    "references": [
+      "app/app.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/process/extend.c",
+      "modules/process/grain_stat.c",
+      "modules/process/multiprofile.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_cluster.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Minimum",
+    "plural": null,
+    "references": [
+      "app/app.c",
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/polydistort.c",
+      "modules/tools/filter.c",
+      "modules/tools/icolorange.c",
+      "modules/tools/linestats.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Maximum",
+    "plural": null,
+    "references": [
+      "app/app.c",
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/col_synth.c",
+      "modules/process/indent_analyze.c",
+      "modules/tools/filter.c",
+      "modules/tools/icolorange.c",
+      "modules/tools/linestats.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Min. position",
+    "plural": null,
+    "references": [
+      "app/app.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Max. position",
+    "plural": null,
+    "references": [
+      "app/app.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "RMS",
+    "plural": null,
+    "references": [
+      "app/app.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/blockstep.c",
+      "modules/process/col_synth.c",
+      "modules/process/deconvolve.c",
+      "modules/process/grain_stat.c",
+      "modules/process/indent_analyze.c",
+      "modules/process/scars.c",
+      "modules/process/threshold.c",
+      "modules/process/zero_crossing.c",
+      "modules/volume/volume_planestat.c",
+      "modules/volume/volume_scars.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Number of points",
+    "plural": null,
+    "references": [
+      "app/app.c",
+      "modules/file/formats3d.c",
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/fit-shape.c",
+      "modules/process/relate.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curves:",
+    "plural": null,
+    "references": [
+      "app/data-browser-aux.c",
+      "modules/cmap/cmap_asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Images",
+    "plural": null,
+    "references": [
+      "app/data-browser.c",
+      "modules/process/multiprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curve Maps",
+    "plural": null,
+    "references": [
+      "app/data-browser.c",
+      "gwyddion/toolbox-editor.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Update",
+    "plural": null,
+    "references": [
+      "app/dialog.c",
+      "modules/cmap/cmap_classify.c",
+      "modules/process/calcoefs_view.c",
+      "modules/process/convolution_filter.c",
+      "modules/process/grain_filter.c",
+      "modules/process/polydistort.c",
+      "modules/process/stitch.c",
+      "modules/process/synth.h",
+      "modules/tools/corrlen.c",
+      "modules/tools/linestats.c",
+      "modules/tools/sfunctions.c",
+      "modules/tools/stats.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Open File",
+    "plural": null,
+    "references": [
+      "app/file.c",
+      "app/gwyappfilechooser.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Saving of `%s' failed",
+    "plural": null,
+    "references": [
+      "app/file.c",
+      "app/gwymoduleutils.c",
+      "modules/graph/graph_export_bitmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Filter:",
+    "plural": null,
+    "references": [
+      "app/filelist.c",
+      "app/gwyappfilechooser.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Case _sensitive",
+    "plural": null,
+    "references": [
+      "app/filelist.c",
+      "app/gwyappfilechooser.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Horizontal size",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Vertical size",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "S_quare image",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/rawfile.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Width",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/cmap/cmap_crop.c",
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/binning.c",
+      "modules/process/calibrate.c",
+      "modules/process/crosscor.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/process/tip_blind.c",
+      "modules/volume/volume_calibrate.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Height",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/cmap/cmap_crop.c",
+      "modules/cmap/cmap_peaks.c",
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/anneal_synth.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/binning.c",
+      "modules/process/calibrate.c",
+      "modules/process/crosscor.c",
+      "modules/process/disc_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/grain_mark.c",
+      "modules/process/lat_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/phase_synth.c",
+      "modules/process/tip_blind.c",
+      "modules/volume/volume_calibrate.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Square pixels",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c",
+      "modules/file/rawfile.c",
+      "modules/process/calibrate.c",
+      "modules/process/resample.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Dimensions unit",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c",
+      "modules/file/rawfile.c",
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Value unit",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c",
+      "modules/file/rawfile.c",
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Replace the current image",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Start from the current image",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Resolution",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/nmmxyz.c",
+      "modules/file/rawfile.c",
+      "modules/process/dimensions.h",
+      "modules/xyz/xyz_drift.c",
+      "modules/xyz/xyz_raster.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Physical Dimensions",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c",
+      "modules/file/rawfile.c",
+      "modules/process/dimensions.h",
+      "modules/xyz/xyz_drift.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Units",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/file/rawfile.c",
+      "modules/process/arithmetic.c",
+      "modules/process/dimensions.h",
+      "modules/process/grain_stat.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Current Image",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Take Dimensions from Current Image",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Generated",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils-synth.c",
+      "modules/process/roddeposit_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot write to file: %s.",
+    "plural": null,
+    "references": [
+      "app/gwymoduleutils.c",
+      "app/settings.c",
+      "gwyddion/toolbox-spec.c",
+      "modules/file/err.h",
+      "modules/graph/graph_export_bitmap.c",
+      "modules/pygwy/pygwy-console.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Origin",
+    "plural": null,
+    "references": [
+      "app/gwyplaintool.c",
+      "modules/tools/spotremove.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Size",
+    "plural": null,
+    "references": [
+      "app/gwyplaintool.c",
+      "modules/file/rawfile.c",
+      "modules/process/convolution_filter.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/neural.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/tools/spotremove.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Width",
+    "plural": null,
+    "references": [
+      "app/gwyplaintool.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Results to File",
+    "plural": null,
+    "references": [
+      "app/gwyresultsexport.c",
+      "app/param-table.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "current-language-code|en",
+    "plural": null,
+    "references": [
+      "app/help.c",
+      "app/param-table.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Export",
+    "plural": null,
+    "references": [
+      "app/log.c",
+      "app/meta.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Close",
+    "plural": null,
+    "references": [
+      "app/log.c",
+      "app/meta.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Type",
+    "plural": null,
+    "references": [
+      "app/log.c",
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Function",
+    "plural": null,
+    "references": [
+      "app/log.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Parameters",
+    "plural": null,
+    "references": [
+      "app/log.c",
+      "modules/file/imgexport.c",
+      "modules/graph/graph_terraces.c",
+      "modules/process/fit-shape.c",
+      "modules/process/neural.c",
+      "modules/process/relate.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Data Process",
+    "plural": null,
+    "references": [
+      "app/menu.c",
+      "gwyddion/toolbox.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Graph",
+    "plural": null,
+    "references": [
+      "app/menu.c",
+      "gwyddion/toolbox.c",
+      "modules/tools/roughness.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Volume Data",
+    "plural": null,
+    "references": [
+      "app/menu.c",
+      "gwyddion/toolbox.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_XYZ Data",
+    "plural": null,
+    "references": [
+      "app/menu.c",
+      "gwyddion/toolbox.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Curve Maps",
+    "plural": null,
+    "references": [
+      "app/menu.c",
+      "gwyddion/toolbox.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Delete",
+    "plural": null,
+    "references": [
+      "app/meta.c",
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c",
+      "modules/process/neural.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Interpolation type",
+    "plural": null,
+    "references": [
+      "app/param-def.c",
+      "modules/file/imgexport.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Direction",
+    "plural": null,
+    "references": [
+      "app/param-def.c",
+      "modules/process/col_synth.c",
+      "modules/process/dune_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Distance type",
+    "plural": null,
+    "references": [
+      "app/param-def.c",
+      "modules/process/mask_edt.c",
+      "modules/tools/maskedit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "I_nstant updates",
+    "plural": null,
+    "references": [
+      "app/param-def.c",
+      "modules/process/calcoefs_view.c",
+      "modules/process/grain_filter.c",
+      "modules/process/polydistort.c",
+      "modules/process/synth.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Colo_r",
+    "plural": null,
+    "references": [
+      "app/param-def.c",
+      "modules/file/imgexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "range|to",
+    "plural": null,
+    "references": [
+      "app/param-table.c",
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|Change",
+    "plural": null,
+    "references": [
+      "app/param-table.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/calcoefs_simple.c",
+      "modules/process/calcoefs_view.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "seed|_New",
+    "plural": null,
+    "references": [
+      "app/param-table.c",
+      "modules/process/synth.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Change Units",
+    "plural": null,
+    "references": [
+      "app/param-table.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/calcoefs_simple.c",
+      "modules/process/calcoefs_view.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "New _units:",
+    "plural": null,
+    "references": [
+      "app/param-table.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/calcoefs_simple.c",
+      "modules/process/calcoefs_view.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Create a new item",
+    "plural": null,
+    "references": [
+      "app/resource-editor.c",
+      "modules/process/convolution_filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Create a new item based on selected one",
+    "plural": null,
+    "references": [
+      "app/resource-editor.c",
+      "modules/process/convolution_filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Delete selected item",
+    "plural": null,
+    "references": [
+      "app/resource-editor.c",
+      "modules/process/convolution_filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot open file for writing: %s.",
+    "plural": null,
+    "references": [
+      "app/settings.c",
+      "gwyddion/toolbox-spec.c",
+      "modules/file/err.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot read file contents: %s",
+    "plural": null,
+    "references": [
+      "app/settings.c",
+      "modules/file/err.h",
+      "modules/file/gwyzip-minizip-ng.h",
+      "modules/file/gwyzip-minizip2.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Features",
+    "plural": null,
+    "references": [
+      "gwyddion/about.c",
+      "modules/process/logistic.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Edit",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox-editor.c",
+      "gwyddion/toolbox.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Remove",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox-editor.c",
+      "modules/process/fft_filter_2d.c",
+      "modules/tools/maskedit.c",
+      "modules/volume/volume_zcal.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Width:",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox-editor.c",
+      "modules/process/dimensions.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data Process",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox-editor.c",
+      "gwyddion/toolbox.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Tool",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox-editor.c",
+      "modules/tools/maskedit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Default",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox-editor.c",
+      "modules/cmap/cmap_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "View",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Merge...",
+    "plural": null,
+    "references": [
+      "gwyddion/toolbox.c",
+      "modules/xyz/xyzops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Align curves",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_align.c",
+      "modules/graph/graph_align.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Set preview",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_possearch.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Method",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_possearch.c",
+      "modules/process/linematch.c",
+      "modules/process/semsim.c",
+      "modules/process/threshold.c",
+      "modules/volume/volume_linelevel.c",
+      "modules/xyz/xyz_level.c",
+      "modules/xyz/xyz_reduce.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Ordinate",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_extractcurve.c",
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_filter.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_fztofd.c",
+      "modules/cmap/cmap_peaks.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/cmap/cmap_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Output _type",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_align.c",
+      "modules/cmap/cmap_cutter.c",
+      "modules/cmap/cmap_possearch.c",
+      "modules/process/fft.c",
+      "modules/process/fit-shape.c",
+      "modules/process/maskcor.c",
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c",
+      "modules/tools/corrlen.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Topography",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_align.c",
+      "modules/file/stpfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_All curves",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/graph/graph_fztofd.c",
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sfuncs.c",
+      "modules/graph/graph_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Keep comment in English",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/file/asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Use _dot as decimal separator",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/file/asciiexport.c",
+      "modules/file/xyzexport.c",
+      "modules/volume/volume_asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Precision",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/file/asciiexport.c",
+      "modules/file/xyzexport.c",
+      "modules/volume/volume_asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Export to Text File",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/graph/graph_export_ascii.c",
+      "modules/volume/volume_asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Export Text",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/file/asciiexport.c",
+      "modules/graph/graph_export_ascii.c",
+      "modules/volume/volume_asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Channel:",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/file/asciiexport.c",
+      "modules/file/xyzexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Width:",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/file/asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Height:",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_asciiexport.c",
+      "modules/file/asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/Flip _Horizontally",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Flip data horizontally",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/Flip _Vertically",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Flip data vertically",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/Flip _Both",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Flip data both horizontally and vertically",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/Flip Dia_gonally",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Flip data diagonally",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/Rotate C_lockwise",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rotate data 90 degrees clockwise",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/Rotate _Counterclockwise",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rotate data 90 degrees counterclockwise",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/_Null Offsets",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Null horizontal offsets, moving the origin to the upper left corner",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/process/basicops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/Extract _Preview",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_basicops.c",
+      "modules/volume/volumeops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Median",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/grain_stat.c",
+      "modules/process/linematch.c",
+      "modules/tools/linestats.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_linelevel.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rq (RMS)",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Developed length",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/graph/graph_stats.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "tan β<sub>0</sub>",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Ra",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_stats.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rz",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rt",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/tools/linestats.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Skew",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/col_synth.c",
+      "modules/tools/linestats.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Excess kurtosis",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/col_synth.c",
+      "modules/tools/linestats.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Range",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_cut.c",
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c",
+      "modules/graph/graph_stats.c",
+      "modules/tools/linestats.c",
+      "modules/tools/sfunctions.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Variation",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/diff_synth.c",
+      "modules/process/good_profile.c",
+      "modules/tools/linestats.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mask A",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/process/classify.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mask B",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/process/classify.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Result A",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/process/classify.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Result B",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/process/classify.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Classify",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/process/classify.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Result:",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curve",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/file/rawgraph.c",
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_stats.c",
+      "modules/graph/graph_terraces.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Training classifier...",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_classify.c",
+      "modules/process/classify.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Crop data",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_crop.c",
+      "modules/tools/crop.c",
+      "modules/volume/volume_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_X",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_crop.c",
+      "modules/process/ptranslate.c",
+      "modules/process/tilt.c",
+      "modules/volume/volume_cluster.c",
+      "modules/volume/volume_drift.c",
+      "modules/volume/volume_equiplane.c",
+      "modules/volume/volume_planestat.c",
+      "modules/volume/volume_rephase.c",
+      "modules/volume/volume_slice.c",
+      "modules/volume/volume_strayfield.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Y",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_crop.c",
+      "modules/process/ptranslate.c",
+      "modules/process/tilt.c",
+      "modules/volume/volume_cluster.c",
+      "modules/volume/volume_drift.c",
+      "modules/volume/volume_equiplane.c",
+      "modules/volume/volume_planestat.c",
+      "modules/volume/volume_rephase.c",
+      "modules/volume/volume_slice.c",
+      "modules/volume/volume_strayfield.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Keep lateral offsets",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_crop.c",
+      "modules/process/extend.c",
+      "modules/tools/crop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Detail",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_crop.c",
+      "modules/process/calcoefs_simple.c",
+      "modules/tools/crop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Crop",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_crop.c",
+      "modules/tools/crop.c",
+      "modules/volume/volume_crop.c",
+      "modules/xyz/xyz_crop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Options",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_crop.c",
+      "modules/file/asciiexport.c",
+      "modules/file/gxyzffile.c",
+      "modules/file/imgexport.c",
+      "modules/file/nmmxyz.c",
+      "modules/file/rawfile.c",
+      "modules/file/xyzexport.c",
+      "modules/process/anneal_synth.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/binning.c",
+      "modules/process/calibrate.c",
+      "modules/process/coerce.c",
+      "modules/process/col_synth.c",
+      "modules/process/correct_affine.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/deposit_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/disc_synth.c",
+      "modules/process/displfield.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/extend.c",
+      "modules/process/fbm_synth.c",
+      "modules/process/fft.c",
+      "modules/process/fft_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/good_profile.c",
+      "modules/process/grain_edge.c",
+      "modules/process/grain_mark.c",
+      "modules/process/grain_wshed.c",
+      "modules/process/lat_synth.c",
+      "modules/process/linematch.c",
+      "modules/process/lno_synth.c",
+      "modules/process/mark_disconn.c",
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_parallel.c",
+      "modules/process/noise_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/phase_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/ptranslate.c",
+      "modules/process/rank-filter.c",
+      "modules/process/residue_synth.c",
+      "modules/process/rotate.c",
+      "modules/process/scars.c",
+      "modules/process/slope_dist.c",
+      "modules/process/tip_blind.c",
+      "modules/process/wave_synth.c",
+      "modules/process/wfr_synth.c",
+      "modules/process/wpour_mark.c",
+      "modules/tools/corrlen.c",
+      "modules/tools/spotremove.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_asciiexport.c",
+      "modules/volume/volume_calibrate.c",
+      "modules/volume/volume_scars.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Keep curves",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_curvefilter.c",
+      "modules/cmap/cmap_cutter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cut to Segments",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_curvefilter.c",
+      "modules/cmap/cmap_cutter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Keep curves:",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_curvefilter.c",
+      "modules/cmap/cmap_cutter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Approach",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_cutter.c",
+      "modules/cmap/cmap_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Retract",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_cutter.c",
+      "modules/cmap/cmap_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z curve",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_cutter.c",
+      "modules/cmap/cmap_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fitting in progress...",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_cutter.c",
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "sample",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_cutter.c",
+      "modules/cmap/cmap_extractcurve.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_linestat.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_peaks.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Extract _multiple",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_extractcurve.c",
+      "modules/volume/volume_slice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Function",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/process/fit-shape.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_From",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_filter.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/cmap/cmap_sinebg.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_To",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_filter.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/cmap/cmap_sinebg.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Run _estimate at each point",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Baseline _range",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|_Estimate single",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|_Fit single",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "data",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_filter.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/cmap/cmap_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "fit",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/cmap/cmap_sinebg.c",
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c",
+      "modules/tools/corrlen.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fix",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/fit-shape.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Parameter",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/fit-shape.c",
+      "modules/process/smm.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Error",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fdfit.c",
+      "modules/cmap/cmap_fit.c",
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/fit-shape.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Marked",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_filter.c",
+      "modules/process/fft_filter_1d.c",
+      "modules/process/wpour_mark.c",
+      "modules/volume/volume_1dfft.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Unmarked",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_filter.c",
+      "modules/process/fft_filter_1d.c",
+      "modules/volume/volume_1dfft.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Remove",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_filter.c",
+      "modules/tools/grainremover.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Convert Force-Z Piezo to Force-Distance",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Piezo extension",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z input",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cantilever _stiffness",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cantilever _tilt",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Deflection sensitivity",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Convert FZ to FD Curve",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_fztofd.c",
+      "modules/graph/graph_fztofd.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Extract image",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_linestat.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Set _preview",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_linestat.c",
+      "modules/volume/volume_linestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Quantity",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_linestat.c",
+      "modules/graph/graph_sfuncs.c",
+      "modules/process/wave_synth.c",
+      "modules/tools/linestats.c",
+      "modules/tools/sfunctions.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_planestat.c",
+      "modules/volume/volume_strayfield.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Output type",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_linestat.c",
+      "modules/cmap/cmap_lockin.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/crosscor.c",
+      "modules/process/domain_synth.c",
+      "modules/process/freq_split.c",
+      "modules/process/mask_edt.c",
+      "modules/process/pfm.c",
+      "modules/process/slope_dist.c",
+      "modules/process/smm_apply.c",
+      "modules/volume/volume_linestat.c",
+      "modules/volume/volume_slice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Degree",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_lockin.c",
+      "modules/cmap/cmap_polylevel.c",
+      "modules/graph/graph_polylevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Show",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_lockin.c",
+      "modules/process/multiprofile.c",
+      "modules/process/smm.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Amplitude",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_lockin.c",
+      "modules/graph/graph_sinebg.c",
+      "modules/process/wave_synth.c",
+      "modules/tools/roughness.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Phase",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_lockin.c",
+      "modules/process/fft.c",
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Remove Polynomial Background",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_polylevel.c",
+      "modules/graph/graph_polylevel.c",
+      "modules/process/polylevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Direction",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_possearch.c",
+      "modules/process/arc-revolve.c",
+      "modules/process/crosscor.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Threshold",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_possearch.c",
+      "modules/process/grain_edge.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "DMT modulus",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Adhesion",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Deformation",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/pat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Dissipated work",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Baseline force",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Maximum force",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Get simple mechanical quantities",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Evaluate DMT modulus, adhesion, deformation and dissipation",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit _upper limit",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit _lower limit",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Tip radius",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c",
+      "modules/process/hertz.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Poisson's ratio",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|Display",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_terraces.c",
+      "modules/process/blockstep.c",
+      "modules/process/correct_perspective.c",
+      "modules/process/drift.c",
+      "modules/process/fit-shape.c",
+      "modules/process/freq_split.c",
+      "modules/process/good_profile.c",
+      "modules/process/hertz.c",
+      "modules/process/multiprofile.c",
+      "modules/process/pid.c",
+      "modules/process/ptranslate.c",
+      "modules/process/smm.c",
+      "modules/process/terracefit.c",
+      "modules/process/zero_crossing.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Nanomechanical Fit",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|_Fit",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/fit-shape.c",
+      "modules/process/smm.c",
+      "modules/process/terracefit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Baseline fit",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "DMT fit",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_simplemech.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit Results",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_terraces.c",
+      "modules/process/fit-shape.c",
+      "modules/process/relate.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Results",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_simplemech.c",
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_simplemech.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Remove Sine Background",
+    "plural": null,
+    "references": [
+      "modules/cmap/cmap_sinebg.c",
+      "modules/graph/graph_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Top-level element is not ‘%s’.",
+    "plural": null,
+    "references": [
+      "modules/file/ambprofile.c",
+      "modules/file/dektakxml.c",
+      "modules/file/evovisxml.c",
+      "modules/file/lextfile.c",
+      "modules/file/nanoscan.c",
+      "modules/file/ometiff.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot parse data values at line %d.",
+    "plural": null,
+    "references": [
+      "modules/file/anfatec.c",
+      "modules/file/mifile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "File is truncated.",
+    "plural": null,
+    "references": [
+      "modules/file/asciicmap.c",
+      "modules/file/formats3d.c",
+      "modules/file/nanoscope.c",
+      "modules/file/nanosystemz.c",
+      "modules/file/phoenix.c",
+      "modules/file/princetonspe.c",
+      "modules/file/psia.c",
+      "modules/file/wsxmfile.c",
+      "modules/file/zemax.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Add _informational comment header",
+    "plural": null,
+    "references": [
+      "modules/file/asciiexport.c",
+      "modules/file/xyzexport.c",
+      "modules/process/grain_dist.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Value units:",
+    "plural": null,
+    "references": [
+      "modules/file/asciiexport.c",
+      "modules/file/xyzexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot convert string from UTF-16.",
+    "plural": null,
+    "references": [
+      "modules/file/bcrfile.c",
+      "modules/file/keyence.c",
+      "modules/file/omicronflat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Missing colon in header line.",
+    "plural": null,
+    "references": [
+      "modules/file/burleigh_exp.c",
+      "modules/file/nanoscope.c",
+      "modules/file/omicron.c",
+      "modules/file/shimadzu.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data size %u does not match data dimensions (%u×%u).",
+    "plural": null,
+    "references": [
+      "modules/file/dmefile.c",
+      "modules/file/zonfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "End of file reached when value was expected.",
+    "plural": null,
+    "references": [
+      "modules/file/dumbfile.c",
+      "modules/plugin-proxy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Missing data field width.",
+    "plural": null,
+    "references": [
+      "modules/file/dumbfile.c",
+      "modules/plugin-proxy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Missing data field height.",
+    "plural": null,
+    "references": [
+      "modules/file/dumbfile.c",
+      "modules/plugin-proxy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data field dimensions are not positive numbers.",
+    "plural": null,
+    "references": [
+      "modules/file/dumbfile.c",
+      "modules/plugin-proxy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "End of file reached inside a data field.",
+    "plural": null,
+    "references": [
+      "modules/file/dumbfile.c",
+      "modules/plugin-proxy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Missing end of data field marker.",
+    "plural": null,
+    "references": [
+      "modules/file/dumbfile.c",
+      "modules/plugin-proxy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot read from file: %s.",
+    "plural": null,
+    "references": [
+      "modules/file/err.h",
+      "modules/file/nrrdfile.c",
+      "modules/pygwy/pygwy-console.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Invalid field dimension: %d.",
+    "plural": null,
+    "references": [
+      "modules/file/err.h",
+      "modules/file/rhk-sm4.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Malformed header line (missing =).",
+    "plural": null,
+    "references": [
+      "modules/file/ezdfile.c",
+      "modules/file/nanoscope-ii.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Image data are outside the file.",
+    "plural": null,
+    "references": [
+      "modules/file/femtoscan.c",
+      "modules/file/miffile.c",
+      "modules/file/mulfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Only two-dimensional images are supported.",
+    "plural": null,
+    "references": [
+      "modules/file/fitsfile.c",
+      "modules/file/spmxfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z scale",
+    "plural": null,
+    "references": [
+      "modules/file/formats3d.c",
+      "modules/volume/volume_extract.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Export %s",
+    "plural": null,
+    "references": [
+      "modules/file/formats3d.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/imgexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Import %s",
+    "plural": null,
+    "references": [
+      "modules/file/formats3d.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "%s cannot open the file as a ZIP file.",
+    "plural": null,
+    "references": [
+      "modules/file/gwyzip-libzip.h",
+      "modules/file/gwyzip-minizip1.h",
+      "modules/file/gwyzip-zzlib.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "%s error while reading the zip file: %s.",
+    "plural": null,
+    "references": [
+      "modules/file/gwyzip-libzip.h",
+      "modules/file/gwyzip-minizip-ng.h",
+      "modules/file/gwyzip-minizip2.h",
+      "modules/file/gwyzip-zzlib.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "End of list of files",
+    "plural": null,
+    "references": [
+      "modules/file/gwyzip-libzip.h",
+      "modules/file/gwyzip-minizip1.h",
+      "modules/file/gwyzip-zzlib.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot read file contents.",
+    "plural": null,
+    "references": [
+      "modules/file/gwyzip-libzip.h",
+      "modules/file/gwyzip-zzlib.h"
+    ]
+  },
+  {
+    "context": null,
+    "id": "File %s is missing in the zip file.",
+    "plural": null,
+    "references": [
+      "modules/file/gwyzip-minizip-ng.h",
+      "modules/file/gwyzip-minizip1.h",
+      "modules/file/gwyzip-minizip2.h",
+      "modules/file/gwyzip-zzlib.h",
+      "modules/file/jpkscan.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Decompression of compressed data failed with error %d.",
+    "plural": null,
+    "references": [
+      "modules/file/gwyzlib.h",
+      "modules/file/hdf4file.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot decompress compressed data.  Gwyddion was built without %s support.",
+    "plural": null,
+    "references": [
+      "modules/file/gwyzlib.h",
+      "modules/file/hdf4file.c",
+      "modules/file/nrrdfile.c",
+      "modules/file/zonfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Channel",
+    "plural": null,
+    "references": [
+      "modules/file/gxyzffile.c",
+      "modules/file/hdrimage.cc",
+      "modules/file/xyzexport.c",
+      "modules/process/batchcolor.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "XYZ data",
+    "plural": null,
+    "references": [
+      "modules/file/gxyzffile.c",
+      "modules/file/xyzexport.c",
+      "modules/process/fit-shape.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Horizontal size",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/nmmxyz.c",
+      "modules/file/pixmap.c",
+      "modules/file/rawfile.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c",
+      "modules/xyz/xyz_raster.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Vertical size",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/nmmxyz.c",
+      "modules/file/pixmap.c",
+      "modules/file/rawfile.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c",
+      "modules/xyz/xyz_raster.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z-scale (per sample unit)",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c",
+      "modules/file/rawfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Just use _pixels",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "libpng initialization error (in %s)",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/imgexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "libpng error occurred",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/imgexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Channels",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c",
+      "modules/process/stitch.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Image Information",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Value Mapping",
+    "plural": null,
+    "references": [
+      "modules/file/hdrimage.cc",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "No corresponding data file was found for header file.",
+    "plural": null,
+    "references": [
+      "modules/file/hitachi-sem.c",
+      "modules/file/oldmda.c",
+      "modules/file/tescan.c",
+      "modules/file/unisoku.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Portable Network Graphics (.png)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "JPEG (.jpeg,.jpg)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "TIFF (.tiff,.tif)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Portable Pixmap (.ppm,.pnm)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Windows or OS2 Bitmap (.bmp)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "TARGA (.tga,.targa)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "WebP (.webp)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "JPEG XL (.jxl)",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/pixmap.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Horiz./vert. lines",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Crosses",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Ellipses",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Lines",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rectangles",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Lattice",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/process/facet_analysis.c",
+      "modules/process/lat_synth.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Zoom",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Decimal separator is comma",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Type",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Length",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/process/lno_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Placement",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mask",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/process/maskops.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Image",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/process/acf2d.c",
+      "modules/process/curvature.c",
+      "modules/process/fit-shape.c",
+      "modules/process/fractal.c",
+      "modules/process/grain_summary.c",
+      "modules/process/indent_analyze.c",
+      "modules/process/measure_lattice.c",
+      "modules/process/psdf2d.c",
+      "modules/process/psf.c",
+      "modules/process/smm.c",
+      "modules/process/terracefit.c",
+      "modules/tools/corrlen.c",
+      "modules/tools/roughness.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Objects",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Invalid preset name.",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|_Load",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/calcoefs_load.c",
+      "modules/process/neural.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|_Store",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/neural.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Rename",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/neural.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Preset _name:",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Presets",
+    "plural": null,
+    "references": [
+      "modules/file/imgexport.c",
+      "modules/file/rawfile.c",
+      "modules/process/convolution_filter.c",
+      "modules/process/domain_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Parameter tag set is incomplete.",
+    "plural": null,
+    "references": [
+      "modules/file/intematix.c",
+      "modules/file/ttffile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "End of file reached when reading sample #%u of %u",
+    "plural": null,
+    "references": [
+      "modules/file/iso28600.c",
+      "modules/file/spip-asc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Malformed data encountered when reading sample #%u",
+    "plural": null,
+    "references": [
+      "modules/file/iso28600.c",
+      "modules/file/sensolytics.c",
+      "modules/file/spip-asc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "End of file reached when reading sample #%d of %d",
+    "plural": null,
+    "references": [
+      "modules/file/iso28600.c",
+      "modules/file/nova-asc.c",
+      "modules/file/sdfile.c",
+      "modules/file/witec-asc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Malformed data encountered when reading sample #%d of %d",
+    "plural": null,
+    "references": [
+      "modules/file/iso28600.c",
+      "modules/file/nova-asc.c",
+      "modules/file/witec-asc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Reading files...",
+    "plural": null,
+    "references": [
+      "modules/file/jpkscan.c",
+      "modules/file/nmmxyz.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "format version",
+    "plural": null,
+    "references": [
+      "modules/file/nanoeducator.c",
+      "modules/file/scafile.c",
+      "modules/file/unisoku.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Profile %u",
+    "plural": null,
+    "references": [
+      "modules/file/nanoeducator.c",
+      "modules/file/nanoscope.c",
+      "modules/file/opengps.c",
+      "modules/file/sensofar.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Expected header end marker ‘%s’ was not found.",
+    "plural": null,
+    "references": [
+      "modules/file/nanonics.c",
+      "modules/file/wsxmfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Expected header start marker ‘%s’ but found ‘%s’.",
+    "plural": null,
+    "references": [
+      "modules/file/nanonics.c",
+      "modules/file/witec-asc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "File header ended unexpectedly.",
+    "plural": null,
+    "references": [
+      "modules/file/nanonis.c",
+      "modules/file/omicron.c",
+      "modules/file/unisoku.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data block is truncated.",
+    "plural": null,
+    "references": [
+      "modules/file/nanoobserver.c",
+      "modules/file/phoenix.c",
+      "modules/file/spmlab.c",
+      "modules/file/ttffile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Garbage after data sample #%u.",
+    "plural": null,
+    "references": [
+      "modules/file/nanoscope.c",
+      "modules/file/nrrdfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rendering surface...",
+    "plural": null,
+    "references": [
+      "modules/file/nmmxyz.c",
+      "modules/process/lat_synth.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Information",
+    "plural": null,
+    "references": [
+      "modules/file/nmmxyz.c",
+      "modules/file/rawfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Use",
+    "plural": null,
+    "references": [
+      "modules/file/pixmap.c",
+      "modules/process/smm.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Pixbuf loader refused data: %s.",
+    "plural": null,
+    "references": [
+      "modules/file/pixmap.c",
+      "modules/file/renishaw.c",
+      "modules/file/tescan.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "File",
+    "plural": null,
+    "references": [
+      "modules/file/rawfile.c",
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_stats.c",
+      "modules/graph/graph_terraces.c",
+      "modules/process/acf2d.c",
+      "modules/process/curvature.c",
+      "modules/process/fit-shape.c",
+      "modules/process/fractal.c",
+      "modules/process/grain_summary.c",
+      "modules/process/indent_analyze.c",
+      "modules/process/measure_lattice.c",
+      "modules/process/psdf2d.c",
+      "modules/process/psf.c",
+      "modules/process/relate.c",
+      "modules/process/terracefit.c",
+      "modules/tools/corrlen.c",
+      "modules/tools/roughness.c",
+      "modules/tools/stats.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Invalid file header.",
+    "plural": null,
+    "references": [
+      "modules/file/rhk-spm32.c",
+      "modules/file/wrustfile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "resolution",
+    "plural": null,
+    "references": [
+      "modules/file/scafile.c",
+      "modules/file/unisoku.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Profile",
+    "plural": null,
+    "references": [
+      "modules/file/sensofar.c",
+      "modules/process/good_profile.c",
+      "modules/process/multiprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit Graph",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Graph curve:",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "F_unction:",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Range:",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Fit Report",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/graph/graph_terraces.c",
+      "modules/process/fit-shape.c",
+      "modules/process/roddeposit_synth.c",
+      "modules/process/terracefit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/relate.c",
+      "modules/process/smm.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "It is necessary to select more data points than free fit parameters",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "===== Fit Results =====",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data:             %s\n",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Number of points: %d of %d\n",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "X range:          %.*f to %.*f %s\n",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fitted function:  %s\n",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Results\n",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_cd.c",
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Style",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_export_ascii.c",
+      "modules/volume/volume_asciiexport.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit FD Curve",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|_Estimate",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/correct_affine.c",
+      "modules/process/fit-shape.c",
+      "modules/process/measure_lattice.c",
+      "modules/process/smm.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Plot Inits",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/smm.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Initial",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/smm.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "χ<sup>2</sup> result:",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Correlation Matrix",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/process/fit-shape.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Instant:",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "esti_mate",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "p_lot",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Estimate",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Residual sum:   %g\n",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Correlation matrix\n",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fdfit.c",
+      "modules/graph/graph_fit.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "FD curve",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_fztofd.c",
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Both",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_logscale.c",
+      "modules/tools/grainremover.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Parameters",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_stats.c",
+      "modules/process/acf2d.c",
+      "modules/process/measure_lattice.c",
+      "modules/process/psdf2d.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "%{from}v to %{to}v",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_measure_period.c",
+      "modules/graph/graph_stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Zero",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_peaks.c",
+      "modules/process/convolve.c",
+      "modules/tools/grainremover.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data + fit",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c",
+      "modules/graph/graph_terraces.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Leveled data",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c",
+      "modules/process/polylevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Remove polynomial background",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_polylevel.c",
+      "modules/process/polylevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curve to fit",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Output",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit results",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_polylevel.c",
+      "modules/graph/graph_sinebg.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Height distribution",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cum. height distribution",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Distribution of angles",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cum. distribution of angles",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "ACF",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/corrlen.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "HHCF",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "PSDF",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/process/freq_split.c",
+      "modules/tools/corrlen.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Calculate 1D statistical functions",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Fixed resolution",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/process/acf2d.c",
+      "modules/process/grain_dist.c",
+      "modules/process/psdf2d.c",
+      "modules/tools/profile.c",
+      "modules/tools/rprofile.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Statistical Functions",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sfuncs.c",
+      "modules/tools/sfunctions.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Period",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sinebg.c",
+      "modules/process/pat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Y offset",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_sinebg.c",
+      "modules/process/calibrate.c",
+      "modules/process/volumize_layers.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Statistical Quantities",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_stats.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Difference",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/deconvolve.c",
+      "modules/process/fft_filter_2d.c",
+      "modules/process/fit-shape.c",
+      "modules/process/mcrop.c",
+      "modules/process/neural.c",
+      "modules/process/psf-fit.c",
+      "modules/process/psf.c",
+      "modules/process/terracefit.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Terraces (ideal)",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Leveled surface",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Polynomial background",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fits terraces with polynomial background.",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/Measure _Features/_Terraces...",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit terraces with polynomial background",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Step detection kernel",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Step detection _threshold",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Step _broadening",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Polynomial degree",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/linematch.c",
+      "modules/process/terracefit.c",
+      "modules/volume/volume_flattenbase.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Independent heights",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Terrace Table",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Output",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/anneal_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/crosscor.c",
+      "modules/process/deconvolve.c",
+      "modules/process/domain_synth.c",
+      "modules/process/drift.c",
+      "modules/process/dune_synth.c",
+      "modules/process/fft.c",
+      "modules/process/good_profile.c",
+      "modules/process/indent_analyze.c",
+      "modules/process/maskcor.c",
+      "modules/process/mfm_current.c",
+      "modules/process/multiprofile.c",
+      "modules/process/pid.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/psf-fit.c",
+      "modules/process/psf.c",
+      "modules/process/residue_synth.c",
+      "modules/process/smm.c",
+      "modules/process/terracefit.c",
+      "modules/process/wfr_synth.c",
+      "modules/tools/corrlen.c",
+      "modules/volume/volume_cluster.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "M_inimum polynomial degree",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Maximum polynomial degree",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/polylevel.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Minimum broadening",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Maximum broadening",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit Terraces",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Terrace List",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Survey",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Result",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/entropy.c",
+      "modules/process/fractal.c",
+      "modules/process/indent_analyze.c",
+      "modules/process/mark_with.c",
+      "modules/process/neural.c",
+      "modules/process/psf.c",
+      "modules/process/smm.c",
+      "modules/process/terracefit.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Execute",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/classify.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fitted step height",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mean square difference",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/fit-shape.c",
+      "modules/process/relate.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Terrace discrepancy",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Number of terraces",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Survey cannot be run with independent heights.",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "No free parameters are selected.",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Number of combinations: %u.",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fit failed",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/fit-shape.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "No suitable terrace steps found",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "No terraces were found",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Terrace Fit Survey",
+    "plural": null,
+    "references": [
+      "modules/graph/graph_terraces.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Zoom",
+    "plural": null,
+    "references": [
+      "modules/process/acf2d.c",
+      "modules/process/measure_lattice.c",
+      "modules/process/psdf2d.c",
+      "modules/volume/volume_extract.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Only zoomed part",
+    "plural": null,
+    "references": [
+      "modules/process/acf2d.c",
+      "modules/process/psdf2d.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Thickness",
+    "plural": null,
+    "references": [
+      "modules/process/acf2d.c",
+      "modules/process/multiprofile.c",
+      "modules/process/psdf2d.c",
+      "modules/process/straighten_path.c",
+      "modules/tools/cprofile.c",
+      "modules/tools/pathlevel.c",
+      "modules/tools/profile.c",
+      "modules/tools/roughness.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Separate curves",
+    "plural": null,
+    "references": [
+      "modules/process/acf2d.c",
+      "modules/process/psdf2d.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Threshold",
+    "plural": null,
+    "references": [
+      "modules/process/acf2d.c",
+      "modules/process/blockstep.c",
+      "modules/process/calcoefs_simple.c",
+      "modules/process/mark_disconn.c",
+      "modules/process/zero_crossing.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mask in use",
+    "plural": null,
+    "references": [
+      "modules/process/acf2d.c",
+      "modules/process/curvature.c",
+      "modules/process/psdf2d.c",
+      "modules/process/terracefit.c",
+      "modules/tools/corrlen.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Autocorrelation length",
+    "plural": null,
+    "references": [
+      "modules/process/acf2d.c",
+      "modules/process/col_synth.c",
+      "modules/process/fft_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Output size",
+    "plural": null,
+    "references": [
+      "modules/process/angle_dist.c",
+      "modules/process/slope_dist.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Logarithmic value scale",
+    "plural": null,
+    "references": [
+      "modules/process/angle_dist.c",
+      "modules/process/slope_dist.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Use local plane _fitting",
+    "plural": null,
+    "references": [
+      "modules/process/angle_dist.c",
+      "modules/process/entropy.c",
+      "modules/process/slope_dist.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Plane size",
+    "plural": null,
+    "references": [
+      "modules/process/angle_dist.c",
+      "modules/process/slope_dist.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Number of iterations",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Progressive preview",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/deposit_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/synth.h",
+      "modules/process/wfr_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Dimensions",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/calibrate.c",
+      "modules/process/col_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/deposit_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/disc_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/fbm_synth.c",
+      "modules/process/fft_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_parallel.c",
+      "modules/process/noise_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/phase_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/residue_synth.c",
+      "modules/process/roddeposit_synth.c",
+      "modules/process/wave_synth.c",
+      "modules/process/wfr_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Generator",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/deposit_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/disc_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/fbm_synth.c",
+      "modules/process/fft_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_parallel.c",
+      "modules/process/noise_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/phase_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/residue_synth.c",
+      "modules/process/roddeposit_synth.c",
+      "modules/process/wave_synth.c",
+      "modules/process/wfr_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Simulation Parameters",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/wfr_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Like Current Image",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/disc_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/fbm_synth.c",
+      "modules/process/fft_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/phase_synth.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/residue_synth.c",
+      "modules/process/wave_synth.c",
+      "modules/process/wfr_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Initializing...",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/bdep_synth.c",
+      "modules/process/calcoefs_simple.c",
+      "modules/process/col_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/crosscor.c",
+      "modules/process/deposit_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/grain_wshed.c",
+      "modules/process/lat_synth.c",
+      "modules/process/mark_disconn.c",
+      "modules/process/mcrop.c",
+      "modules/process/neural.c",
+      "modules/process/pid.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/roddeposit_synth.c",
+      "modules/process/superresolution.c",
+      "modules/process/tip_blind.c",
+      "modules/process/tipops.c",
+      "modules/process/wave_synth.c",
+      "modules/process/wfr_synth.c",
+      "modules/volume/volume_cluster.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Running computation...",
+    "plural": null,
+    "references": [
+      "modules/process/anneal_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/pfm.c",
+      "modules/process/roddeposit_synth.c",
+      "modules/process/wfr_synth.c",
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Radius",
+    "plural": null,
+    "references": [
+      "modules/process/arc-revolve.c",
+      "modules/process/median-bg.c",
+      "modules/process/raveraging.c",
+      "modules/process/sphere-revolve.c",
+      "modules/tools/maskedit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Invert height",
+    "plural": null,
+    "references": [
+      "modules/process/arc-revolve.c",
+      "modules/process/grain_mark.c",
+      "modules/process/grain_wshed.c",
+      "modules/process/sphere-revolve.c",
+      "modules/process/wpour_mark.c",
+      "modules/volume/volume_flattenbase.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "E_xtract background",
+    "plural": null,
+    "references": [
+      "modules/process/arc-revolve.c",
+      "modules/process/level_grains.c",
+      "modules/process/linematch.c",
+      "modules/process/median-bg.c",
+      "modules/process/polylevel.c",
+      "modules/process/sphere-revolve.c",
+      "modules/process/trimmed-mean.c",
+      "modules/volume/volume_flattenbase.c",
+      "modules/volume/volume_xystitch.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Background",
+    "plural": null,
+    "references": [
+      "modules/process/arc-revolve.c",
+      "modules/process/level_grains.c",
+      "modules/process/median-bg.c",
+      "modules/process/polylevel.c",
+      "modules/process/sphere-revolve.c",
+      "modules/process/trimmed-mean.c",
+      "modules/volume/volume_flattenbase.c",
+      "modules/volume/volume_xystitch.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Expression",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Specify un_its",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Fixed filler value",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Calculated",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/process/stitch.c",
+      "modules/process/superresolution.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_strayfield.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Arithmetic",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Expression:",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Operands",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Take result units from data d%d",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Specify un_its:",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Specify result units explicitly",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Expression contains unknown identifiers",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Pixel dimensions differ",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/process/superresolution.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Lateral dimensions are different physical quantities",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/process/superresolution.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Physical dimensions differ",
+    "plural": null,
+    "references": [
+      "modules/process/arithmetic.c",
+      "modules/process/superresolution.c",
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/_Invert Value",
+    "plural": null,
+    "references": [
+      "modules/process/basicops.c",
+      "modules/volume/volume_invert.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Apply",
+    "plural": null,
+    "references": [
+      "modules/process/batchcolor.c",
+      "modules/volume/volume_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Co_verage",
+    "plural": null,
+    "references": [
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/deposit_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/process/residue_synth.c",
+      "modules/process/wfr_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Spread",
+    "plural": null,
+    "references": [
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/disc_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/pileup_synth.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Plot evolution graphs",
+    "plural": null,
+    "references": [
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/diff_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mean deposited thickness",
+    "plural": null,
+    "references": [
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/diff_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Evolution",
+    "plural": null,
+    "references": [
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/diff_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Depositing particles...",
+    "plural": null,
+    "references": [
+      "modules/process/bdep_synth.c",
+      "modules/process/col_synth.c",
+      "modules/process/diff_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Trim symmetrically",
+    "plural": null,
+    "references": [
+      "modules/process/binning.c",
+      "modules/process/trimmed-mean.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_X offset",
+    "plural": null,
+    "references": [
+      "modules/process/binning.c",
+      "modules/process/crosscor.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Y offset",
+    "plural": null,
+    "references": [
+      "modules/process/binning.c",
+      "modules/process/crosscor.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "New dimensions",
+    "plural": null,
+    "references": [
+      "modules/process/binning.c",
+      "modules/process/extend.c",
+      "modules/process/resample.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "%d × %d",
+    "plural": null,
+    "references": [
+      "modules/process/binning.c",
+      "modules/process/extend.c",
+      "modules/process/resample.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Correc_ted data",
+    "plural": null,
+    "references": [
+      "modules/process/blockstep.c",
+      "modules/process/correct_affine.c",
+      "modules/process/correct_perspective.c",
+      "modules/process/drift.c",
+      "modules/process/ptranslate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Left to right",
+    "plural": null,
+    "references": [
+      "modules/process/blockstep.c",
+      "modules/process/lno_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Right to left",
+    "plural": null,
+    "references": [
+      "modules/process/blockstep.c",
+      "modules/process/lno_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Scanning direction",
+    "plural": null,
+    "references": [
+      "modules/process/blockstep.c",
+      "modules/process/lno_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cannot save preset: %s",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_load.c",
+      "modules/process/calcoefs_new.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Calibration name:",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_load.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/calcoefs_simple.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Calibration '%s' already exists",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_load.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/calcoefs_simple.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Overwrite",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_load.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/calcoefs_simple.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Append",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_load.c",
+      "modules/process/calcoefs_new.c",
+      "modules/process/calcoefs_simple.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Operands:",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_simple.c",
+      "modules/process/superresolution.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_X offset:",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_simple.c",
+      "modules/process/calcoefs_view.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Y offset:",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_simple.c",
+      "modules/process/calcoefs_view.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z offset:",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_simple.c",
+      "modules/process/calcoefs_view.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Correlating...",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_simple.c",
+      "modules/process/crosscor.c",
+      "modules/process/mcrop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Interpolation type:",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_view.c",
+      "modules/process/correct_affine.c",
+      "modules/process/polydistort.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "X correction",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_view.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Y correction",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_view.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z correction",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_view.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "X uncertainty",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_view.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Y uncertainty",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_view.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z uncertainty",
+    "plural": null,
+    "references": [
+      "modules/process/calcoefs_view.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Basic Operations/_Dimensions and Units...",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Change physical dimensions, units or value scale",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Do not change",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Set dimensions",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Correct by factor",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Scale with dimensions",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Set offsets",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Clear offsets",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_X correction factor",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Y correction factor",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "X offset",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/process/volumize_layers.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Set range",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z _range",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/process/volumize_layers.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z correction factor",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Template",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/process/coerce.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Create new image",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/process/correct_perspective.c",
+      "modules/process/drift.c",
+      "modules/process/extend.c",
+      "modules/process/ptranslate.c",
+      "modules/process/rank-filter.c",
+      "modules/tools/crop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Recalibrated Data",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Dimensions and Units",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Current",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Offsets",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Value Range",
+    "plural": null,
+    "references": [
+      "modules/process/calibrate.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Preview:",
+    "plural": null,
+    "references": [
+      "modules/process/classify.c",
+      "modules/process/polydistort.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "distribution|Uniform",
+    "plural": null,
+    "references": [
+      "modules/process/coerce.c",
+      "modules/process/fbm_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "distribution|Gaussian",
+    "plural": null,
+    "references": [
+      "modules/process/coerce.c",
+      "modules/process/fbm_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Height scale",
+    "plural": null,
+    "references": [
+      "modules/process/col_synth.c",
+      "modules/process/cpde_synth.c",
+      "modules/process/diff_synth.c",
+      "modules/process/domain_synth.c",
+      "modules/process/dune_synth.c",
+      "modules/process/plateau_synth.c",
+      "modules/process/residue_synth.c",
+      "modules/process/wfr_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Filter",
+    "plural": null,
+    "references": [
+      "modules/process/convolution_filter.c",
+      "modules/process/freq_split.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "exterior|Border",
+    "plural": null,
+    "references": [
+      "modules/process/convolve.c",
+      "modules/process/displfield.c",
+      "modules/process/extend.c",
+      "modules/process/mask_shift.c",
+      "modules/process/polydistort.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "exterior|Mirror",
+    "plural": null,
+    "references": [
+      "modules/process/convolve.c",
+      "modules/process/displfield.c",
+      "modules/process/extend.c",
+      "modules/process/mask_shift.c",
+      "modules/process/polydistort.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "exterior|Periodic",
+    "plural": null,
+    "references": [
+      "modules/process/convolve.c",
+      "modules/process/displfield.c",
+      "modules/process/extend.c",
+      "modules/process/mask_shift.c",
+      "modules/process/polydistort.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "exterior|Laplace",
+    "plural": null,
+    "references": [
+      "modules/process/convolve.c",
+      "modules/process/displfield.c",
+      "modules/process/extend.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Exterior type",
+    "plural": null,
+    "references": [
+      "modules/process/convolve.c",
+      "modules/process/displfield.c",
+      "modules/process/extend.c",
+      "modules/process/mask_shift.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Convolution _kernel",
+    "plural": null,
+    "references": [
+      "modules/process/convolve.c",
+      "modules/process/deconvolve.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Convolved",
+    "plural": null,
+    "references": [
+      "modules/process/convolve.c",
+      "modules/process/psf-fit.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Corrected",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/correct_perspective.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Refine",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c",
+      "modules/process/immerse.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Preview Options",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/fft_filter_2d.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Display:",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/fft_filter_2d.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Data",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/correct_perspective.c",
+      "modules/process/measure_lattice.c",
+      "modules/tools/grainremover.c",
+      "modules/volume/volume_equiplane.c",
+      "modules/volume/volume_strayfield.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Interpolate _horizontal ACF",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Lattice Vectors",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Apply to all compatible images",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/correct_perspective.c",
+      "modules/process/drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "length",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "angle",
+    "plural": null,
+    "references": [
+      "modules/process/correct_affine.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_X resolution",
+    "plural": null,
+    "references": [
+      "modules/process/correct_perspective.c",
+      "modules/process/volumize_layers.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Y resolution",
+    "plural": null,
+    "references": [
+      "modules/process/correct_perspective.c",
+      "modules/process/volumize_layers.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Pattern",
+    "plural": null,
+    "references": [
+      "modules/process/cpde_synth.c",
+      "modules/process/pat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Si_ze",
+    "plural": null,
+    "references": [
+      "modules/process/cpde_synth.c",
+      "modules/process/disc_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/phase_synth.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "T_hreshold",
+    "plural": null,
+    "references": [
+      "modules/process/crosscor.c",
+      "modules/process/grain_wshed.c",
+      "modules/process/maskcor.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Correlation",
+    "plural": null,
+    "references": [
+      "modules/process/crosscor.c",
+      "modules/process/merge.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Profile %d",
+    "plural": null,
+    "references": [
+      "modules/process/curvature.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Output type:",
+    "plural": null,
+    "references": [
+      "modules/process/curvature.c",
+      "modules/process/fft_filter_2d.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Center value",
+    "plural": null,
+    "references": [
+      "modules/process/curvature.c",
+      "modules/process/indent_analyze.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Wavelet type",
+    "plural": null,
+    "references": [
+      "modules/process/cwt.c",
+      "modules/process/dwt.c",
+      "modules/process/dwtanisotropy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "verb|_Display",
+    "plural": null,
+    "references": [
+      "modules/process/deconvolve.c",
+      "modules/process/domain_synth.c",
+      "modules/process/indent_analyze.c",
+      "modules/process/mcrop.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_cluster.c",
+      "modules/volume/volume_equiplane.c",
+      "modules/volume/volume_psf.c",
+      "modules/volume/volume_strayfield.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Sigma",
+    "plural": null,
+    "references": [
+      "modules/process/deconvolve.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Sigma",
+    "plural": null,
+    "references": [
+      "modules/process/deconvolve.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Particle Generation",
+    "plural": null,
+    "references": [
+      "modules/process/deposit_synth.c",
+      "modules/process/roddeposit_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Number of objects",
+    "plural": null,
+    "references": [
+      "modules/process/deposit_synth.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Error: too many particles.",
+    "plural": null,
+    "references": [
+      "modules/process/deposit_synth.c",
+      "modules/process/roddeposit_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Error: no particles.",
+    "plural": null,
+    "references": [
+      "modules/process/deposit_synth.c",
+      "modules/process/roddeposit_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Error: particles too large.",
+    "plural": null,
+    "references": [
+      "modules/process/deposit_synth.c",
+      "modules/process/roddeposit_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Error: particles too small.",
+    "plural": null,
+    "references": [
+      "modules/process/deposit_synth.c",
+      "modules/process/roddeposit_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Horizontal size:",
+    "plural": null,
+    "references": [
+      "modules/process/dimensions.h",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Vertical size:",
+    "plural": null,
+    "references": [
+      "modules/process/dimensions.h",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Minimum radius",
+    "plural": null,
+    "references": [
+      "modules/process/disc_synth.c",
+      "modules/process/residue_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Densi_ty",
+    "plural": null,
+    "references": [
+      "modules/process/displfield.c",
+      "modules/process/fibre_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/mask_noisify.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Method",
+    "plural": null,
+    "references": [
+      "modules/process/displfield.c",
+      "modules/process/fractal.c",
+      "modules/process/mcrop.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_cluster.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Amplitude",
+    "plural": null,
+    "references": [
+      "modules/process/displfield.c",
+      "modules/process/lat_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Lateral scale",
+    "plural": null,
+    "references": [
+      "modules/process/displfield.c",
+      "modules/process/lat_synth.c",
+      "modules/process/pat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Distorted",
+    "plural": null,
+    "references": [
+      "modules/process/displfield.c",
+      "modules/process/polydistort.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "drift",
+    "plural": null,
+    "references": [
+      "modules/process/drift.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "x-axis drift",
+    "plural": null,
+    "references": [
+      "modules/process/drift.c",
+      "modules/volume/volume_drift.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Inverse transform",
+    "plural": null,
+    "references": [
+      "modules/process/dwt.c",
+      "modules/process/fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Size %d is not a power of 2.",
+    "plural": null,
+    "references": [
+      "modules/process/dwt.c",
+      "modules/process/dwtanisotropy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Image will be resampled to %d×%d for DWT.",
+    "plural": null,
+    "references": [
+      "modules/process/dwt.c",
+      "modules/process/dwtanisotropy.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Entropy",
+    "plural": null,
+    "references": [
+      "modules/process/entropy.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Entropy deficit",
+    "plural": null,
+    "references": [
+      "modules/process/entropy.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "X position",
+    "plural": null,
+    "references": [
+      "modules/process/extract_path.c",
+      "modules/process/immerse.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Y position",
+    "plural": null,
+    "references": [
+      "modules/process/extract_path.c",
+      "modules/process/immerse.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Distance",
+    "plural": null,
+    "references": [
+      "modules/process/extract_path.c",
+      "modules/tools/distance.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Facet-leveling...",
+    "plural": null,
+    "references": [
+      "modules/process/facet-level.c",
+      "modules/process/flatten_base.c",
+      "modules/volume/volume_facetlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Visualizes, marks and measures facet orientation.",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "lattice|Hexagonal",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/lat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Facet plane size",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Tolerance",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Selected φ",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Selected ϑ",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Facet Vectors",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rotation",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/xyz/xyz_level.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Clear",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Mark",
+    "plural": null,
+    "references": [
+      "modules/process/facet_analysis.c",
+      "modules/process/facet_measure.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "distribution|Exponential",
+    "plural": null,
+    "references": [
+      "modules/process/fbm_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Distribution",
+    "plural": null,
+    "references": [
+      "modules/process/fbm_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Po_wer",
+    "plural": null,
+    "references": [
+      "modules/process/fbm_synth.c",
+      "modules/process/fft_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_RMS",
+    "plural": null,
+    "references": [
+      "modules/process/fbm_synth.c",
+      "modules/process/fft_synth.c",
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "FFT Modulus",
+    "plural": null,
+    "references": [
+      "modules/process/fft.c",
+      "modules/process/fft_filter_1d.c",
+      "modules/volume/volume_1dfft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "FFT filtering",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_1d.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Correct Data/1D _FFT Filtering...",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_1d.c",
+      "modules/volume/volume_1dfft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Null",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_1d.c",
+      "modules/volume/volume_1dfft.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Suppress",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_1d.c",
+      "modules/volume/volume_1dfft.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Suppress type",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_1d.c",
+      "modules/volume/volume_1dfft.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Filter type",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_1d.c",
+      "modules/process/rank.c",
+      "modules/volume/volume_1dfft.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Original _image",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_2d.c",
+      "modules/process/pid.c",
+      "modules/process/ptranslate.c",
+      "modules/process/zero_crossing.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Fill",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_2d.c",
+      "modules/tools/maskedit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Output Options",
+    "plural": null,
+    "references": [
+      "modules/process/fft_filter_2d.c",
+      "modules/volume/volume_slice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rectangle",
+    "plural": null,
+    "references": [
+      "modules/process/fibre_synth.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Shape",
+    "plural": null,
+    "references": [
+      "modules/process/fibre_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Scales _with width",
+    "plural": null,
+    "references": [
+      "modules/process/fibre_synth.c",
+      "modules/process/pat_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Truncate",
+    "plural": null,
+    "references": [
+      "modules/process/fibre_synth.c",
+      "modules/process/obj_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Orien_tation",
+    "plural": null,
+    "references": [
+      "modules/process/fibre_synth.c",
+      "modules/process/lat_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/process/pat_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Shape",
+    "plural": null,
+    "references": [
+      "modules/process/fibre_synth.c",
+      "modules/process/obj_synth.c",
+      "modules/tools/maskedit.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fitted shape",
+    "plural": null,
+    "references": [
+      "modules/process/fit-shape.c",
+      "modules/process/terracefit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Both",
+    "plural": null,
+    "references": [
+      "modules/process/fit-shape.c",
+      "modules/process/mark_disconn.c",
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c",
+      "modules/xyz/xyz_tstep.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Show differences with _adapted color map",
+    "plural": null,
+    "references": [
+      "modules/process/fit-shape.c",
+      "modules/process/mcrop.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "%{n}i of %{ntotal}i",
+    "plural": null,
+    "references": [
+      "modules/process/fit-shape.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fitted function",
+    "plural": null,
+    "references": [
+      "modules/process/fit-shape.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "C_ut-off",
+    "plural": null,
+    "references": [
+      "modules/process/freq_split.c",
+      "modules/tools/roughness.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Edge width",
+    "plural": null,
+    "references": [
+      "modules/process/freq_split.c",
+      "modules/process/residue_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Boundary treatment",
+    "plural": null,
+    "references": [
+      "modules/process/freq_split.c",
+      "modules/process/merge.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Gaussian FWHM",
+    "plural": null,
+    "references": [
+      "modules/process/gaussian_step.c",
+      "modules/process/zero_crossing.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Create _mask",
+    "plural": null,
+    "references": [
+      "modules/process/good_profile.c",
+      "modules/process/indent_analyze.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Trim fraction",
+    "plural": null,
+    "references": [
+      "modules/process/good_profile.c",
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Second _image",
+    "plural": null,
+    "references": [
+      "modules/process/good_profile.c",
+      "modules/process/mcrop.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Laplacian",
+    "plural": null,
+    "references": [
+      "modules/process/grain_edge.c",
+      "modules/process/logistic.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Exterior",
+    "plural": null,
+    "references": [
+      "modules/process/indent_analyze.c",
+      "modules/process/mask_edt.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Lattice",
+    "plural": null,
+    "references": [
+      "modules/process/lat_synth.c",
+      "modules/process/measure_lattice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Weight",
+    "plural": null,
+    "references": [
+      "modules/process/lat_synth.c",
+      "modules/process/local_contrast.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Shift minimum data value to zero",
+    "plural": null,
+    "references": [
+      "modules/process/level.c",
+      "modules/xyz/xyz_level.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Shift mean data value to zero",
+    "plural": null,
+    "references": [
+      "modules/process/level.c",
+      "modules/xyz/xyz_level.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Correct Data/Ste_p Line Correction",
+    "plural": null,
+    "references": [
+      "modules/process/linecorrect.c",
+      "modules/volume/volume_stepline.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "linematch|Polynomial",
+    "plural": null,
+    "references": [
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Median of differences",
+    "plural": null,
+    "references": [
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Modus",
+    "plural": null,
+    "references": [
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "linematch|Matching",
+    "plural": null,
+    "references": [
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Trimmed mean",
+    "plural": null,
+    "references": [
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Trimmed mean of differences",
+    "plural": null,
+    "references": [
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Facet-level tilt",
+    "plural": null,
+    "references": [
+      "modules/process/linematch.c",
+      "modules/volume/volume_linelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "distribution|Triangular",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Scars",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/volume/volume_scars.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Tilt",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/tilt.c",
+      "modules/tools/corrlen.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "S_ymmetrical",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/mask_noisify.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "One-sided _positive",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/mask_noisify.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "One-sided _negative",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/mask_noisify.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Noise sign",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Distribution",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/noise_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Spread",
+    "plural": null,
+    "references": [
+      "modules/process/lno_synth.c",
+      "modules/process/phase_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Kernel _size",
+    "plural": null,
+    "references": [
+      "modules/process/local_contrast.c",
+      "modules/process/rank.c",
+      "modules/process/trimmed-mean.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Regularization parameter",
+    "plural": null,
+    "references": [
+      "modules/process/logistic.c",
+      "modules/process/maskcor.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Training...",
+    "plural": null,
+    "references": [
+      "modules/process/logistic.c",
+      "modules/process/neural.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Positive",
+    "plural": null,
+    "references": [
+      "modules/process/mark_disconn.c",
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c",
+      "modules/xyz/xyz_tstep.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Negative",
+    "plural": null,
+    "references": [
+      "modules/process/mark_disconn.c",
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c",
+      "modules/xyz/xyz_tstep.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Filtering...",
+    "plural": null,
+    "references": [
+      "modules/process/mark_disconn.c",
+      "modules/process/rank-filter.c",
+      "modules/process/trimmed-mean.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Operation",
+    "plural": null,
+    "references": [
+      "modules/process/mark_with.c",
+      "modules/process/mask_morph.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Shrink from _border",
+    "plural": null,
+    "references": [
+      "modules/process/mask_edt.c",
+      "modules/tools/maskedit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "filter|Opening",
+    "plural": null,
+    "references": [
+      "modules/process/mask_morph.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "filter|Closing",
+    "plural": null,
+    "references": [
+      "modules/process/mask_morph.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "ASF Opening",
+    "plural": null,
+    "references": [
+      "modules/process/mask_morph.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "ASF Closing",
+    "plural": null,
+    "references": [
+      "modules/process/mask_morph.c",
+      "modules/tools/filter.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Mask",
+    "plural": null,
+    "references": [
+      "modules/process/mask_morph.c",
+      "modules/tools/grainremover.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Correlation score",
+    "plural": null,
+    "references": [
+      "modules/process/maskcor.c",
+      "modules/process/mcrop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Height difference score",
+    "plural": null,
+    "references": [
+      "modules/process/maskcor.c",
+      "modules/process/mcrop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Phase-only score",
+    "plural": null,
+    "references": [
+      "modules/process/maskcor.c",
+      "modules/process/mcrop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "First image",
+    "plural": null,
+    "references": [
+      "modules/process/merge.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Second image",
+    "plural": null,
+    "references": [
+      "modules/process/merge.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Average",
+    "plural": null,
+    "references": [
+      "modules/process/merge.c",
+      "modules/tools/linestats.c",
+      "modules/xyz/xyz_raster.c",
+      "modules/xyz/xyz_reduce.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Create _mask over exterior",
+    "plural": null,
+    "references": [
+      "modules/process/merge.c",
+      "modules/process/rotate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Point charge",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Bar",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Output plane height",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Tip _magnetization",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Bar width _x",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Bar width _y",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Bar length (_z)",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_current.c",
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Probe type",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Film thickness",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_field.c",
+      "modules/process/mfm_parallel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Converts the MFM data to force gradient.",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Recalculate to force gradient",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Phase (radians)",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Phase (degrees)",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Frequency shift",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Amplitude (V)",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Amplitude (m)",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Force gradient",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "MFM force gradient",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Pixel area MFM force gradient",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Spring constant",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Quality factor",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Base frequency",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Base amplitude",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Result _type",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Data value units must be deg, rad, m, Hz or V for the recalculation",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "MFM Recalculate Data",
+    "plural": null,
+    "references": [
+      "modules/process/mfm_recalc.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Mode",
+    "plural": null,
+    "references": [
+      "modules/process/multiprofile.c",
+      "modules/tools/cprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Signal",
+    "plural": null,
+    "references": [
+      "modules/process/neural.c",
+      "modules/volume/volume_mfmrecalc.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Colum_narity",
+    "plural": null,
+    "references": [
+      "modules/process/obj_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Avoid stacking",
+    "plural": null,
+    "references": [
+      "modules/process/obj_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Aspect ratio",
+    "plural": null,
+    "references": [
+      "modules/process/obj_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Aspect Ratio",
+    "plural": null,
+    "references": [
+      "modules/process/obj_synth.c",
+      "modules/process/pileup_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_X center",
+    "plural": null,
+    "references": [
+      "modules/process/pat_synth.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Y center",
+    "plural": null,
+    "references": [
+      "modules/process/pat_synth.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Size power _law",
+    "plural": null,
+    "references": [
+      "modules/process/plateau_synth.c",
+      "modules/process/residue_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save table to a file",
+    "plural": null,
+    "references": [
+      "modules/process/polylevel.c",
+      "modules/process/smm.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Copy table to clipboard",
+    "plural": null,
+    "references": [
+      "modules/process/polylevel.c",
+      "modules/process/smm.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Table",
+    "plural": null,
+    "references": [
+      "modules/process/polylevel.c",
+      "modules/process/smm.c",
+      "modules/tools/selectionmanager.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Gaussian _smoothing",
+    "plural": null,
+    "references": [
+      "modules/process/psdf_logphi.c",
+      "modules/process/wpour_mark.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Transfer function",
+    "plural": null,
+    "references": [
+      "modules/process/psf-fit.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Function type",
+    "plural": null,
+    "references": [
+      "modules/process/psf-fit.c",
+      "modules/process/relate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Ideal response",
+    "plural": null,
+    "references": [
+      "modules/process/psf-fit.c",
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/_Statistics/_Transfer Function Guess...",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Regularized filter",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Least squares",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Wiener filter",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Border",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Image is too small.",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Estimate Transfer Function",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Fit Sigma",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Transfer Function Size",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Full Size",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Estimate Size",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Transfer Function",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "TF width",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "TF height",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "TF norm",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Difference norm",
+    "plural": null,
+    "references": [
+      "modules/process/psf.c",
+      "modules/volume/volume_psf.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Percentile",
+    "plural": null,
+    "references": [
+      "modules/process/rank-filter.c",
+      "modules/process/trimmed-mean.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Kernel Size",
+    "plural": null,
+    "references": [
+      "modules/process/rank-filter.c",
+      "modules/process/trimmed-mean.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Value range",
+    "plural": null,
+    "references": [
+      "modules/process/rank.c",
+      "modules/process/wrapvalue.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Offset",
+    "plural": null,
+    "references": [
+      "modules/process/relate.c",
+      "modules/tools/corrlen.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Logarithm",
+    "plural": null,
+    "references": [
+      "modules/process/relate.c",
+      "modules/volume/volume_cluster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "φ",
+    "plural": null,
+    "references": [
+      "modules/process/roddeposit_synth.c",
+      "modules/process/shade.c",
+      "modules/process/tilt.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Rotated Data",
+    "plural": null,
+    "references": [
+      "modules/process/rotate.c",
+      "modules/volume/volume_swaxes.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Scars type",
+    "plural": null,
+    "references": [
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Hard threshold",
+    "plural": null,
+    "references": [
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Soft threshold",
+    "plural": null,
+    "references": [
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Minimum _length",
+    "plural": null,
+    "references": [
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Maximum _width",
+    "plural": null,
+    "references": [
+      "modules/process/scars.c",
+      "modules/volume/volume_scars.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "θ",
+    "plural": null,
+    "references": [
+      "modules/process/shade.c",
+      "modules/process/tilt.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Slopes",
+    "plural": null,
+    "references": [
+      "modules/process/slope_dist.c",
+      "modules/process/tilt.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Re",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Im",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mag",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "logMag",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Capacitance",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "First channel",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Second channel",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Reference impedance",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Frequency",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c",
+      "modules/process/wave_synth.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Re(e00)",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Im(e00)",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Re(e01)",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Im(e01)",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Re(e11)",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Im(e11)",
+    "plural": null,
+    "references": [
+      "modules/process/smm.c",
+      "modules/process/smm_apply.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Interpolating...",
+    "plural": null,
+    "references": [
+      "modules/process/superresolution.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Set to _Full Range",
+    "plural": null,
+    "references": [
+      "modules/process/threshold.c",
+      "modules/tools/icolorange.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z resolution",
+    "plural": null,
+    "references": [
+      "modules/process/volumize_layers.c",
+      "modules/volume/volume_localdetect.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z _unit",
+    "plural": null,
+    "references": [
+      "modules/process/volumize_layers.c",
+      "modules/volume/volume_calibrate.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Slice level",
+    "plural": null,
+    "references": [
+      "modules/process/volumize_layers.c",
+      "modules/volume/volume_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Save Statistical Quantities",
+    "plural": null,
+    "references": [
+      "modules/tools/corrlen.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "<b>Options</b>",
+    "plural": null,
+    "references": [
+      "modules/tools/corrlen.c",
+      "modules/tools/cprofile.c",
+      "modules/tools/linestats.c",
+      "modules/tools/profile.c",
+      "modules/tools/rprofile.c",
+      "modules/tools/sfunctions.c",
+      "modules/tools/spectro.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Selected area",
+    "plural": null,
+    "references": [
+      "modules/tools/corrlen.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "%{w}i × %{h}i at (%{x}i, %{y}i)",
+    "plural": null,
+    "references": [
+      "modules/tools/corrlen.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "%{w}v × %{h}v at (%{x}v, %{y}v)",
+    "plural": null,
+    "references": [
+      "modules/tools/corrlen.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Profiles",
+    "plural": null,
+    "references": [
+      "modules/tools/cprofile.c",
+      "modules/tools/profile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Number lines",
+    "plural": null,
+    "references": [
+      "modules/tools/distance.c",
+      "modules/tools/profile.c",
+      "modules/tools/rprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Masking Mode",
+    "plural": null,
+    "references": [
+      "modules/tools/filter.c",
+      "modules/tools/stats.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Laplace solver",
+    "plural": null,
+    "references": [
+      "modules/tools/grainremover.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Fractal-Laplace blend",
+    "plural": null,
+    "references": [
+      "modules/tools/grainremover.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Interpolation method",
+    "plural": null,
+    "references": [
+      "modules/tools/grainremover.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Averaging radius",
+    "plural": null,
+    "references": [
+      "modules/tools/level3.c",
+      "modules/tools/readvalue.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Separate profiles",
+    "plural": null,
+    "references": [
+      "modules/tools/profile.c",
+      "modules/tools/rprofile.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Adapt color range to detail",
+    "plural": null,
+    "references": [
+      "modules/tools/readvalue.c",
+      "modules/tools/spotremove.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Mean roughness",
+    "plural": null,
+    "references": [
+      "modules/tools/stats.c",
+      "modules/volume/volume_planestat.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z-axis calibrations differ",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_arithmetic.c",
+      "modules/volume/volume_xyarithmetics.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Volume data",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_asciiexport.c",
+      "modules/volume/volume_extract.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z range",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_calibrate.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Create new volume data",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_calibrate.c",
+      "modules/volume/volume_mfmrecalc.c",
+      "modules/volume/volume_swaxes.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Keep offsets",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_crop.c",
+      "modules/xyz/xyz_crop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Cropped",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_crop.c",
+      "modules/xyz/xyz_autocrop.c",
+      "modules/xyz/xyz_crop.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_drift.c",
+      "modules/volume/volume_rephase.c",
+      "modules/volume/volume_slice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Plot graphs",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_drift.c",
+      "modules/volume/volume_xystitch.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Polynomial degree",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_drift.c",
+      "modules/xyz/xyz_zdrift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "y-axis drift",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_drift.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z drift",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_drift.c",
+      "modules/xyz/xyz_drift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Calculate drift",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_drift.c",
+      "modules/xyz/xyz_zdrift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Apply correction",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_drift.c",
+      "modules/xyz/xyz_zdrift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Result",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_equiplane.c",
+      "modules/volume/volume_strayfield.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "_Z value",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_equiplane.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Constant value",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_equiplane.c",
+      "modules/volume/volume_zposlevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Evaluate volume force-distance data",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "/SPM M_odes/_Evaluate FD Data...",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Evaluate force-distance volume data",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curve _X position:",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Curve _Y position:",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "e_stimate",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_fdfit-WTF.c",
+      "modules/volume/volume_fdfit.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Leveled",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_meanplanelevel.c",
+      "modules/volume/volume_planelevel.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Volume Z graphs",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_rephase.c",
+      "modules/volume/volume_slice.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "X",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_swaxes.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Y",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_swaxes.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z",
+    "plural": null,
+    "references": [
+      "modules/volume/volume_swaxes.c",
+      "modules/xyz/xyz_fft.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Physical dimensions are invalid.",
+    "plural": null,
+    "references": [
+      "modules/xyz/xyz_drift.c",
+      "modules/xyz/xyz_raster.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Make Pixels S_quare",
+    "plural": null,
+    "references": [
+      "modules/xyz/xyz_raster.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "X value",
+    "plural": null,
+    "references": [
+      "modules/xyz/xyz_tcut.c",
+      "modules/xyz/xyz_tstep.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Y value",
+    "plural": null,
+    "references": [
+      "modules/xyz/xyz_tcut.c",
+      "modules/xyz/xyz_tstep.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "Z value",
+    "plural": null,
+    "references": [
+      "modules/xyz/xyz_tcut.c",
+      "modules/xyz/xyz_tstep.c",
+      "modules/xyz/xyz_volumize.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "From index",
+    "plural": null,
+    "references": [
+      "modules/xyz/xyz_tcut.c",
+      "modules/xyz/xyz_zdrift.c"
+    ]
+  },
+  {
+    "context": null,
+    "id": "To index",
+    "plural": null,
+    "references": [
+      "modules/xyz/xyz_tcut.c",
+      "modules/xyz/xyz_zdrift.c"
+    ]
+  }
+]

@@ -1,5 +1,6 @@
 # Merge verified simplified-Chinese batches without modifying regional catalogs.
 from pathlib import Path
+from datetime import datetime
 import polib
 from check_batches import check_batch, key
 
@@ -19,18 +20,25 @@ for file in FILES:
         translations[k] = entry
 
 catalog = polib.pofile(str(ROOT / 'source' / 'gwyddion-2.71.pot'), check_for_duplicates=True)
-catalog.header = 'Gwyddion Chinese localization draft. Distributed under the same license as Gwyddion.'
+catalog.header = (
+    'Gwyddion 2.71 Simplified Chinese translation.\n'
+    'Distributed under the same license as Gwyddion.\n'
+    'Translation and proofreading assisted by GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash.'
+)
 catalog.metadata = {
     'Project-Id-Version': 'Gwyddion 2.71',
     'Report-Msgid-Bugs-To': 'yeti@gwyddion.net',
     'POT-Creation-Date': catalog.metadata.get('POT-Creation-Date', ''),
+    'PO-Revision-Date': datetime.now().astimezone().strftime('%Y-%m-%d %H:%M%z'),
+    'Last-Translator': 'Hamster Park (Yuanhao Lyu)',
+    'Language-Team': 'Chinese (Simplified) <https://github.com/HamsterPark/gwyddion-zh>',
     'Language': 'zh_CN',
     'MIME-Version': '1.0',
     'Content-Type': 'text/plain; charset=UTF-8',
     'Content-Transfer-Encoding': '8bit',
     'Plural-Forms': 'nplurals=1; plural=0;',
 }
-catalog.fuzzy = False
+catalog.metadata_is_fuzzy = []
 for entry in catalog:
     if entry.msgid_plural:
         entry.msgstr_plural = {0: entry.msgstr_plural.get(0, "")}

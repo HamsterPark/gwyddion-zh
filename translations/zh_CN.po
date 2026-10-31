@@ -1,10 +1,14 @@
-# Gwyddion Chinese localization draft. Distributed under the same license as Gwyddion.
-#, fuzzy
+# Gwyddion 2.71 Simplified Chinese translation.
+# Distributed under the same license as Gwyddion.
+# Translation and proofreading assisted by GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash.
 msgid ""
 msgstr ""
 "Project-Id-Version: Gwyddion 2.71\n"
 "Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
 "POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-31 23:58+0800\n"
+"Last-Translator: Hamster Park (Yuanhao Lyu)\n"
+"Language-Team: Chinese (Simplified) <https://github.com/HamsterPark/gwyddion-zh>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9273,7 +9277,7 @@ msgstr "临界尺寸测量"
 
 #: modules/graph/graph_cd.c:150
 msgid "/Measure _Features/_Critical Dimension..."
-msgstr "/测量特征(_M)/临界尺寸(_C)..."
+msgstr "/测量特征(_F)/临界尺寸(_C)..."
 
 #: modules/graph/graph_cd.c:153
 msgid "Fit critical dimension"
@@ -9392,7 +9396,7 @@ msgstr "DOS 谱"
 
 #: modules/graph/graph_dos_spectrum.c:56
 msgid "/Measure _Features/_DOS Spectrum"
-msgstr "/测量特征(_M)/DOS 谱(_D)"
+msgstr "/测量特征(_F)/DOS 谱(_D)"
 
 #: modules/graph/graph_dos_spectrum.c:59
 msgid "Calculate DOS spectrum from I-V tunneling spectroscopy"
@@ -9592,7 +9596,7 @@ msgstr "用函数拟合曲线图"
 
 #: modules/graph/graph_fit.c:196
 msgid "/Measure _Features/_Fit Function..."
-msgstr "/测量特征(_M)/拟合函数(_F)..."
+msgstr "/测量特征(_F)/拟合函数(_F)..."
 
 #: modules/graph/graph_fit.c:199
 msgid "Fit a function on graph data"
@@ -9757,7 +9761,7 @@ msgstr "评估一维周期结构的周期。"
 
 #: modules/graph/graph_measure_period.c:105
 msgid "/Measure _Features/_Period..."
-msgstr "/测量特征(_M)/周期(_P)..."
+msgstr "/测量特征(_F)/周期(_P)..."
 
 #: modules/graph/graph_measure_period.c:108
 msgid "Measure grating period"
@@ -9864,7 +9868,7 @@ msgstr "查找曲线图中的峰。"
 
 #: modules/graph/graph_peaks.c:119
 msgid "/Measure _Features/Find _Peaks..."
-msgstr "/测量特征(_M)/查找峰(_P)..."
+msgstr "/测量特征(_F)/查找峰(_P)..."
 
 #: modules/graph/graph_peaks.c:122
 msgid "Find graph curve peaks"
@@ -13656,7 +13660,7 @@ msgstr "横向(_L)"
 
 #: modules/process/fibre_synth.c:213
 msgid "Le_ngthwise"
-msgstr "纵向(_G)"
+msgstr "纵向(_N)"
 
 #: modules/process/fibre_synth.c:281
 msgid "Random Fibers"
@@ -13677,7 +13681,7 @@ msgstr "将预定义几何形状拟合到数据。"
 
 #: modules/process/fit-shape.c:251
 msgid "/Measure _Features/_Fit Shape..."
-msgstr "/测量特征(_M)/拟合形状(_F)..."
+msgstr "/测量特征(_F)/拟合形状(_F)..."
 
 #: modules/process/fit-shape.c:255 modules/process/fit-shape.c:262
 msgid "Fit geometrical shapes"
@@ -16171,7 +16175,7 @@ msgstr "窗口宽度(_W)"
 
 #: modules/process/neural.c:239
 msgid "Window h_eight"
-msgstr "窗口高度(_H)"
+msgstr "窗口高度(_E)"
 
 #: modules/process/neural.c:240
 msgid "_Hidden nodes"

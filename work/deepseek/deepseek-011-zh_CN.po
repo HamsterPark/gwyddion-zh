@@ -314,7 +314,7 @@ msgstr "窗口宽度(_W)"
 
 #: modules/process/neural.c:239
 msgid "Window h_eight"
-msgstr "窗口高度(_H)"
+msgstr "窗口高度(_E)"
 
 #: modules/process/neural.c:240
 msgid "_Hidden nodes"

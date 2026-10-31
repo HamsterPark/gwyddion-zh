@@ -186,7 +186,7 @@ msgstr "临界尺寸测量"
 
 #: modules/graph/graph_cd.c:150
 msgid "/Measure _Features/_Critical Dimension..."
-msgstr "/测量特征(_M)/临界尺寸(_C)..."
+msgstr "/测量特征(_F)/临界尺寸(_C)..."
 
 #: modules/graph/graph_cd.c:153
 msgid "Fit critical dimension"
@@ -222,7 +222,7 @@ msgstr "DOS 谱"
 
 #: modules/graph/graph_dos_spectrum.c:56
 msgid "/Measure _Features/_DOS Spectrum"
-msgstr "/测量特征(_M)/DOS 谱(_D)"
+msgstr "/测量特征(_F)/DOS 谱(_D)"
 
 #: modules/graph/graph_dos_spectrum.c:59
 msgid "Calculate DOS spectrum from I-V tunneling spectroscopy"
@@ -352,7 +352,7 @@ msgstr "用函数拟合曲线图"
 
 #: modules/graph/graph_fit.c:196
 msgid "/Measure _Features/_Fit Function..."
-msgstr "/测量特征(_M)/拟合函数(_F)..."
+msgstr "/测量特征(_F)/拟合函数(_F)..."
 
 #: modules/graph/graph_fit.c:199
 msgid "Fit a function on graph data"

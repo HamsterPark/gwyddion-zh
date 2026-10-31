@@ -246,7 +246,7 @@ msgstr "横向(_L)"
 
 #: modules/process/fibre_synth.c:213
 msgid "Le_ngthwise"
-msgstr "纵向(_G)"
+msgstr "纵向(_N)"
 
 #: modules/process/fibre_synth.c:281
 msgid "Random Fibers"
@@ -262,7 +262,7 @@ msgstr "将预定义几何形状拟合到数据。"
 
 #: modules/process/fit-shape.c:251
 msgid "/Measure _Features/_Fit Shape..."
-msgstr "/测量特征(_M)/拟合形状(_F)..."
+msgstr "/测量特征(_F)/拟合形状(_F)..."
 
 #: modules/process/fit-shape.c:255 modules/process/fit-shape.c:262
 msgid "Fit geometrical shapes"
@@ -389,7 +389,9 @@ msgid "Gaussian Step Detection"
 msgstr "高斯阶跃检测"
 
 #: modules/process/good_profile.c:95
-msgid "Calculates good average row from one or multiple images of repeated scanning of the same feature."
+msgid ""
+"Calculates good average row from one or multiple images of repeated scanning"
+" of the same feature."
 msgstr "从一幅或多幅对同一特征重复扫描的图像计算优质平均行。"
 
 #: modules/process/good_profile.c:109

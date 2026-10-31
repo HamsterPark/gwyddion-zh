@@ -1,12 +1,14 @@
 # Gwyddion 2.71 Traditional Chinese (Hong Kong) translation.
+# Distributed under the same license as Gwyddion.
+# Translation and proofreading assisted by GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash.
 msgid ""
 msgstr ""
 "Project-Id-Version: Gwyddion 2.71\n"
 "Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
 "POT-Creation-Date: 2026-04-14 16:13+0200\n"
-"PO-Revision-Date: 2026-10-30 18:00+0800\n"
-"Last-Translator: Gwyddion Chinese localization contributors\n"
-"Language-Team: Chinese (Traditional, Hong Kong)\n"
+"PO-Revision-Date: 2026-10-31 23:57+0800\n"
+"Last-Translator: Hamster Park (Yuanhao Lyu)\n"
+"Language-Team: Chinese (Traditional, Hong Kong) <https://github.com/HamsterPark/gwyddion-zh>\n"
 "Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -289,17 +291,17 @@ msgstr "不可用"
 #: libgwyddion/gwyutils.c:1658
 #, c-format
 msgid "Data ended prematurely at line %d and column %d."
-msgstr "數據在第 %d 行、第 %d 列提前結束。"
+msgstr "數據在第 %d 行、第 %d 欄提前結束。"
 
 #: libgwyddion/gwyutils.c:1663
 #, c-format
 msgid "Malformed data encountered at line %d and column %d."
-msgstr "第 %d 行、第 %d 列遇到格式錯誤的數據。"
+msgstr "第 %d 行、第 %d 欄遇到格式錯誤的數據。"
 
 #: libgwyddion/gwyutils.c:1681
 #, c-format
 msgid "Line %d has %d columns instead of expected %d."
-msgstr "第 %d 行有 %d 列，預期應為 %d 列。"
+msgstr "第 %d 行有 %d 欄，預期應為 %d 欄。"
 
 #: libgwyddion/gwyutils.c:1716
 msgid "Empty data."
@@ -3619,11 +3621,11 @@ msgstr "通道："
 
 #: modules/cmap/cmap_asciiexport.c:238
 msgid "Rows:"
-msgstr "行："
+msgstr "列："
 
 #: modules/cmap/cmap_asciiexport.c:239
 msgid "Columns:"
-msgstr "列："
+msgstr "欄："
 
 #: modules/cmap/cmap_asciiexport.c:244 modules/cmap/cmap_asciiexport.c:246
 msgid "Segment:"
@@ -4754,7 +4756,7 @@ msgstr "FileDescBegin 沒有對應的 FileDescEnd。"
 
 #: modules/file/anfatec.c:769 modules/file/anfatec.c:782
 msgid "Wrong number of header rows or columns."
-msgstr "檔案標頭的行數或列數不正確。"
+msgstr "檔案標頭的列數或欄數不正確。"
 
 #: modules/file/anfatec.c:812 modules/file/mifile.c:494
 #, c-format
@@ -6670,7 +6672,7 @@ msgstr "標籤標頭行的位置存在多餘內容。"
 #: modules/file/nanonis.c:331
 #, c-format
 msgid "DATA_INFO does not contain the expected columns: %s."
-msgstr "DATA_INFO 未包含預期的列：%s。"
+msgstr "DATA_INFO 未包含預期的欄：%s。"
 
 #: modules/file/nanonis.c:353
 #, c-format
@@ -8016,7 +8018,7 @@ msgstr "Sensolytics 文字檔案（.dat）"
 
 #: modules/file/sensolytics.c:1051 modules/file/sensolytics.c:1059
 msgid "Wrong number of initial data columns."
-msgstr "起始數據列數不正確。"
+msgstr "起始數據欄數不正確。"
 
 #: modules/file/shimadzu.c:122
 msgid "Imports Shimadzu SPM data files."
@@ -8453,7 +8455,7 @@ msgstr "Keyence ZON 數據（.zon）"
 #: modules/file/zonfile.c:430
 #, c-format
 msgid "Rows stride %u does not match length and bytes per item (%u×%u)."
-msgstr "行跨度 %u 與長度及每項位元組數（%u×%u）不符。"
+msgstr "列跨度 %u 與長度及每項位元組數（%u×%u）不符。"
 
 #: modules/file/zonfile.c:546
 #, c-format
@@ -17957,7 +17959,7 @@ msgstr "透過三個點擬合平面對數據調平"
 
 #: modules/tools/linestats.c:106
 msgid "Row/column statistical function tool, mean values, medians, maxima, minima, RMS, ..., of rows or columns."
-msgstr "行／列統計函數工具，計算各行或列的平均值、中位數、最大值、最小值、均方根等。"
+msgstr "列／欄統計函數工具，計算各列或欄的平均值、中位數、最大值、最小值、均方根等。"
 
 #: modules/tools/linestats.c:150
 msgid "Ro_ws"
@@ -17969,11 +17971,11 @@ msgstr "列(_L)"
 
 #: modules/tools/linestats.c:183
 msgid "Row/Column Statistics"
-msgstr "行／列統計"
+msgstr "列／欄統計"
 
 #: modules/tools/linestats.c:184
 msgid "Calculate row/column statistical functions"
-msgstr "計算行／列統計函數"
+msgstr "計算列／欄統計函數"
 
 #: modules/tools/maskedit.c:155
 msgid "Mask editor tool, allows interactive modification of parts of the mask."

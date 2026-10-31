@@ -11,29 +11,40 @@
 ## 提交前整理
 
 1. 协调各地区负责人收尾，确认地区用词和贡献署名；对三份最新 PO 分别进行 GNU `msgfmt --check` 和关键界面验证。格式通过不等于母语者或领域审核完成。
-2. 检查 PO 的真实修订日期、译者和语言团队元数据；简体文件目前缺相关头字段，不要虚构身份或邮箱。香港、台湾 PO 文件的作者与团队信息也应由参与者确认。
+2. 三份 PO 已补齐实际修订日期、用户确认的署名 Hamster Park (Yuanhao Lyu) 和项目团队链接，并在注释中注明 GPT-6.1 Terra、Grok 4.7、DeepSeek V4.1 Flash 的辅助贡献。后续修改时更新修订日期。
 3. 与上游当前开发模板对照，合并新旧字符串并复核遗漏；目前基准为 2.71 正式版，并非保证与开发版完全相同。
 4. 保持 `Volume` 未翻译，并说明它同时表示物理体积与体数据类型，希望上游为不同语境提供 gettext 上下文；应由上游决定兼容实现。
 5. 按实际版权和许可确认贡献授权。GTK、GLib 的中文组件翻译来自 GNOME，保留原始署名和独立许可，不当作 Gwyddion 项目原创提交。
 6. 更新并推送最终 PO、审校记录与清晰的项目状态；给上游的链接应指向实际准备提交的版本，而不是仍在修改的工作副本。
 
-## 英文邮件初稿
+## 发送前复核
+
+详见 [发送前检查记录](PRE_SUBMISSION_CHECK.md)。发送时直接附上 `translations/zh_CN.po`、`translations/zh_HK.po`、`translations/zh_TW.po`，同时保留 GitHub 链接；不要附上工作批次或 GTK/GLib 测试包。以下为邮件草稿，尚未发送。
+
+## 英文邮件草稿
 
 收件人：yeti@gwyddion.net
 
-主题：Chinese translations for Gwyddion and a translation context question
+主题：Chinese translations for Gwyddion (zh_CN, zh_HK, zh_TW)
 
 Hello David,
 
-I have prepared Simplified Chinese, Traditional Chinese (Hong Kong), and Traditional Chinese (Taiwan) interface translations for Gwyddion, based on the 2.71 translation template. The translations were developed with assistance from GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash.
+I would like to contribute three Chinese interface translations for Gwyddion, based on the 2.71 translation template. The following PO files are attached:
 
-The files are available at https://github.com/HamsterPark/gwyddion-zh.
+- zh_CN.po — Simplified Chinese
+- zh_HK.po — Traditional Chinese for Hong Kong and Macau
+- zh_TW.po — Traditional Chinese for Taiwan
 
-The catalogs pass `msgfmt --check`. One string, “Volume”, is shared between a physical measurement and the volume-data type, so we have left it untranslated. Would it be possible to give these uses separate gettext contexts?
+The files and project notes are also available on GitHub:
+https://github.com/HamsterPark/gwyddion-zh
 
-Could you advise us on the preferred way to submit the PO files and any additional review or testing you would like us to complete?
+The translation and proofreading work was assisted by GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash. All three catalogs pass GNU `msgfmt --check`.
 
-Thank you for your work on Gwyddion.
+One string, “Volume”, remains untranslated because it is shared between physical volume and the volume-data type, which require different Chinese terms. Could these uses be given separate gettext contexts?
+
+We would be glad to contribute these translations for inclusion in Gwyddion. Please let me know if any changes or further testing are needed.
+
+Thank you for your work on Gwyddion!
 
 Best regards,
 

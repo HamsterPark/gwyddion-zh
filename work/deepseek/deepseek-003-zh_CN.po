@@ -90,7 +90,7 @@ msgstr "评估一维周期结构的周期。"
 
 #: modules/graph/graph_measure_period.c:105
 msgid "/Measure _Features/_Period..."
-msgstr "/测量特征(_M)/周期(_P)..."
+msgstr "/测量特征(_F)/周期(_P)..."
 
 #: modules/graph/graph_measure_period.c:108
 msgid "Measure grating period"
@@ -186,7 +186,7 @@ msgstr "查找曲线图中的峰。"
 
 #: modules/graph/graph_peaks.c:119
 msgid "/Measure _Features/Find _Peaks..."
-msgstr "/测量特征(_M)/查找峰(_P)..."
+msgstr "/测量特征(_F)/查找峰(_P)..."
 
 #: modules/graph/graph_peaks.c:122
 msgid "Find graph curve peaks"
@@ -225,7 +225,9 @@ msgid "Graph Peaks"
 msgstr "曲线图峰"
 
 #: modules/graph/graph_sfuncs.c:91
-msgid "Calculates one-dimensional statistical functions (height distribution, correlations, PSDF)."
+msgid ""
+"Calculates one-dimensional statistical functions (height distribution, "
+"correlations, PSDF)."
 msgstr "计算一维统计函数（高度分布、相关函数、PSDF）。"
 
 #: modules/graph/graph_sfuncs.c:105
@@ -285,7 +287,9 @@ msgid "Layer allowing selection of a single long curve."
 msgstr "允许选择单条长曲线的图层。"
 
 #: modules/layer/point.c:172
-msgid "Layer allowing selection of several points, displayed as crosses or invisible."
+msgid ""
+"Layer allowing selection of several points, displayed as crosses or "
+"invisible."
 msgstr "允许选择多个点的图层，这些点显示为十字或不可见。"
 
 #: modules/layer/projective.c:142
@@ -297,7 +301,10 @@ msgid "Layer allowing selection of rectangular areas."
 msgstr "允许选择矩形区域的图层。"
 
 #: modules/plugin-proxy.c:145
-msgid "Plug-in proxy is a module capable of querying, registering, and running external programs (plug-ins) on data pretending they are data processing or file loading/saving modules."
+msgid ""
+"Plug-in proxy is a module capable of querying, registering, and running "
+"external programs (plug-ins) on data pretending they are data processing or "
+"file loading/saving modules."
 msgstr "插件代理模块可查询、注册并运行外部程序（插件），并让它们以数据处理或文件加载/保存模块的身份处理数据。"
 
 #: modules/plugin-proxy.c:463
@@ -354,7 +361,9 @@ msgid "Cannot fdopen() already open file: %s."
 msgstr "无法对已打开的文件调用 fdopen()：%s。"
 
 #: modules/process/angle_dist.c:79
-msgid "Calculates two-dimensional distribution of angles, that is projections of slopes to all directions."
+msgid ""
+"Calculates two-dimensional distribution of angles, that is projections of "
+"slopes to all directions."
 msgstr "计算角度的二维分布，即斜率在所有方向上的投影。"
 
 #: modules/process/angle_dist.c:93

@@ -7,6 +7,7 @@ scientific and UI terms.  Run this after merge_drafts.py; it rewrites
 translations/zh_TW.po and translations/zh_HK.po from the merged zh_CN draft.
 """
 import sys
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -332,6 +333,51 @@ ENTRY_FIXES.update({
 })
 
 
+# Data-table/matrix directions use row = 列 and column = 欄.  Keep text
+# lines (line = 行) and scanning terminology separate from these entries.
+ENTRY_FIXES.update({
+    'Rows:': {'zh_HK': '列：', 'zh_TW': '列：'},
+    'Columns:': {'zh_HK': '欄：', 'zh_TW': '欄：'},
+    'Wrong number of header rows or columns.': {
+        'zh_HK': '檔案標頭的列數或欄數不正確。',
+        'zh_TW': '檔案標頭的列數或欄數不正確。',
+    },
+    'DATA_INFO does not contain the expected columns: %s.': {
+        'zh_HK': 'DATA_INFO 未包含預期的欄：%s。',
+        'zh_TW': 'DATA_INFO 未包含預期的欄：%s。',
+    },
+    'Wrong number of initial data columns.': {
+        'zh_HK': '起始數據欄數不正確。',
+        'zh_TW': '起始資料欄數不正確。',
+    },
+    'Row/Column Statistics': {'zh_HK': '列／欄統計', 'zh_TW': '列／欄統計'},
+    'Calculate row/column statistical functions': {
+        'zh_HK': '計算列／欄統計函數',
+        'zh_TW': '計算列／欄統計函式',
+    },
+    'Row/column statistical function tool, mean values, medians, maxima, minima, RMS, ..., of rows or columns.': {
+        'zh_HK': '列／欄統計函數工具，計算各列或欄的平均值、中位數、最大值、最小值、均方根等。',
+        'zh_TW': '列／欄統計函式工具，計算各列或欄的平均值、中位數、最大值、最小值、均方根等。',
+    },
+    'Data ended prematurely at line %d and column %d.': {
+        'zh_HK': '數據在第 %d 行、第 %d 欄提前結束。',
+        'zh_TW': '資料在第 %d 行、第 %d 欄提前結束。',
+    },
+    'Malformed data encountered at line %d and column %d.': {
+        'zh_HK': '第 %d 行、第 %d 欄遇到格式錯誤的數據。',
+        'zh_TW': '第 %d 行、第 %d 欄遇到格式錯誤的資料。',
+    },
+    'Line %d has %d columns instead of expected %d.': {
+        'zh_HK': '第 %d 行有 %d 欄，預期應為 %d 欄。',
+        'zh_TW': '第 %d 行有 %d 欄，預期應為 %d 欄。',
+    },
+    'Rows stride %u does not match length and bytes per item (%u×%u).': {
+        'zh_HK': '列跨度 %u 與長度及每項位元組數（%u×%u）不符。',
+        'zh_TW': '列跨度 %u 與長度及每項位元組數（%u×%u）不符。',
+    },
+})
+
+
 def normalize(text, replacements, kmeans):
     # "平均值" already contains the substring "均值"; protect it (and the
     # K-means label) before replacing the remaining mainland form.
@@ -354,16 +400,17 @@ def build(locale, scheme, replacements, team, title):
         'Project-Id-Version': 'Gwyddion 2.71',
         'Report-Msgid-Bugs-To': 'yeti@gwyddion.net',
         'POT-Creation-Date': po.metadata.get('POT-Creation-Date', ''),
-        'PO-Revision-Date': '2026-10-30 18:00+0800',
-        'Last-Translator': 'Gwyddion Chinese localization contributors',
-        'Language-Team': team,
+        'PO-Revision-Date': datetime.now().astimezone().strftime('%Y-%m-%d %H:%M%z'),
+        'Last-Translator': 'Hamster Park (Yuanhao Lyu)',
+        'Language-Team': team + ' <https://github.com/HamsterPark/gwyddion-zh>',
         'Language': locale,
         'MIME-Version': '1.0',
         'Content-Type': 'text/plain; charset=UTF-8',
         'Content-Transfer-Encoding': '8bit',
         'Plural-Forms': 'nplurals=1; plural=0;',
     }
-    po.header = title
+    po.header = (title + '\nDistributed under the same license as Gwyddion.\n'
+                 'Translation and proofreading assisted by GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash.')
     po.metadata_is_fuzzy = []
     po.wrapwidth = 0
     changed = 0

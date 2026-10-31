@@ -39,7 +39,7 @@ msgstr "Cyber technologies SCNX 数据（.scnx）"
 
 #: modules/file/sdfile.c:154
 msgid "Imports Surfstand group SDF (Surface Data File) files."
-msgstr "导入 Surfstand 项目的 SDF（表面数据文件）。"
+msgstr "导入 Surfstand SDF（表面数据文件）。"
 
 #: modules/file/sdfile.c:169
 msgid "Surfstand SDF files, binary (.sdf)"

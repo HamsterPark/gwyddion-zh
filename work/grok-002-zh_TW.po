@@ -1,0 +1,456 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Traditional, Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/err.h:90
+#, c-format
+msgid ""
+"File is not a %s file, it is seriously damaged, or it is of an unknown "
+"format version."
+msgstr "該檔案不是 %s 檔案，或者已嚴重損毀，或者屬於未知的格式版本。"
+
+#: modules/file/err.h:101
+#, c-format
+msgid ""
+"Expected data size calculated from file headers is %u bytes, but the real "
+"size is %u bytes."
+msgstr "根據檔頭算出的預期資料大小為 %u 位元組，實際大小為 %u 位元組。"
+
+#. TRANSLATORS: %s is replaced by some item, struct or file part id.
+#: modules/file/err.h:111
+#, c-format
+msgid "File component/item ‘%s’ is truncated."
+msgstr "檔案元件 ‘%s’ 不完整。"
+
+#: modules/file/err.h:118
+msgid "File header is truncated."
+msgstr "檔頭不完整。"
+
+#: modules/file/err.h:136
+#, c-format
+msgid ""
+"The number of bits per sample %d is invalid or unsupported for this file "
+"type."
+msgstr "對於此檔案型別，每取樣位元數 %d 無效或不受支援。"
+
+#: modules/file/err.h:145
+#, c-format
+msgid "Data type %d is invalid or unsupported."
+msgstr "資料型別 %d 無效或不受支援。"
+
+#: modules/file/err.h:152
+#, c-format
+msgid "Header field `%s' is missing."
+msgstr "缺少檔頭欄位 `%s’。"
+
+#: modules/file/err.h:160
+#, c-format
+msgid "The value of parameter `%s' is invalid or unsupported."
+msgstr "參數 `%s’ 的值無效或不受支援。"
+
+#: modules/file/err.h:168
+#, c-format
+msgid "Parameter `%s' is missing or invalid."
+msgstr "參數 `%s’ 遺漏或無效。"
+
+#: modules/file/err.h:176
+msgid "File contains no (importable) data."
+msgstr "檔案中沒有（可匯入的）資料。"
+
+#: modules/file/err.h:199
+#, c-format
+msgid "XML parsing failed: %s"
+msgstr "XML 剖析失敗：%s"
+
+#: modules/file/err.h:209
+msgid "Inconsistent structure of individual spectra."
+msgstr "各條譜的結構不一致。"
+
+#: modules/file/err.h:217
+msgid "File contains no exportable channel."
+msgstr "檔案中沒有可匯出的通道。"
+
+#: modules/file/err.h:225
+msgid "File import was canceled by user."
+msgstr "使用者取消了檔案匯入。"
+
+#: modules/file/err.h:239
+msgid "Missing header."
+msgstr "缺少檔頭。"
+
+#: modules/file/evovisxml.c:107
+msgid "Imports Evovis XML data files."
+msgstr "匯入 Evovis XML 資料檔案。"
+
+#: modules/file/evovisxml.c:120
+msgid "Evovis XML data files (.xml)"
+msgstr "Evovis XML 資料檔案（.xml）"
+
+#: modules/file/ezdfile.c:132
+msgid "Imports Nanosurf EZD and NID data files."
+msgstr "匯入 Nanosurf EZD 和 NID 資料檔案。"
+
+#: modules/file/ezdfile.c:145
+msgid "Nanosurf files (.ezd, .nid)"
+msgstr "Nanosurf 檔案（.ezd、.nid）"
+
+#: modules/file/ezdfile.c:303
+msgid "Garbage before first header section."
+msgstr "第一個檔頭節之前存在多餘內容。"
+
+#: modules/file/ezdfile.c:412
+msgid "First section isn't DataSet"
+msgstr "第一節不是 DataSet。"
+
+#: modules/file/ezdfile.c:417
+msgid "GroupCount in [DataSet]"
+msgstr "[DataSet] 中的 GroupCount"
+
+#: modules/file/femtoscan-txt.c:73
+msgid "Imports FemtoScan TXT files."
+msgstr "匯入 FemtoScan TXT 檔案。"
+
+#: modules/file/femtoscan-txt.c:86
+msgid "FemtoScan text files (.txt)"
+msgstr "FemtoScan 文字檔案（.txt）"
+
+#: modules/file/femtoscan-txt.c:183
+msgid "Data line does not start with a Y abscissa."
+msgstr "資料行不是以 Y 座標開頭。"
+
+#: modules/file/femtoscan-txt.c:190
+#, c-format
+msgid ""
+"Data line length %u does not correspond to the number of X abscissas %u."
+msgstr "資料行長度 %u 與 X 座標個數 %u 不符。"
+
+#: modules/file/femtoscan.c:77
+msgid "Imports FemtoScan SPM data files."
+msgstr "匯入 FemtoScan 掃描探針顯微資料檔案。"
+
+#: modules/file/femtoscan.c:90
+msgid "FemtoScan SPM files"
+msgstr "FemtoScan SPM 檔案"
+
+#: modules/file/fitsfile.c:77
+msgid "Reads Flexible Image Transport System (FITS) files."
+msgstr "讀取靈活影像傳輸系統（FITS）檔案。"
+
+#: modules/file/fitsfile.c:90
+msgid "Flexible Image Transport System FITS (.fits)"
+msgstr "靈活影像傳輸系統 FITS（.fits）"
+
+#: modules/file/fitsfile.c:129
+#, c-format
+msgid "CFITSIO error while reading the FITS file: %s."
+msgstr "讀取 FITS 檔案時發生 CFITSIO 錯誤：%s。"
+
+#: modules/file/formats3d.c:251
+msgid "VTK structured grid (.vtk)"
+msgstr "VTK 結構化網格（.vtk）"
+
+#: modules/file/formats3d.c:256
+msgid "Polygon file format (.ply)"
+msgstr "多邊形檔案格式（.ply）"
+
+#: modules/file/formats3d.c:261
+msgid "Wavefront geometry definition (.obj)"
+msgstr "Wavefront 幾何定義（.obj）"
+
+#: modules/file/formats3d.c:266
+msgid "Object File Format (.off)"
+msgstr "物件檔案格式 OFF（.off）"
+
+#: modules/file/formats3d.c:271
+msgid "Stereolitography STL (.stl)"
+msgstr "立體光刻 STL（.stl）"
+
+#: modules/file/formats3d.c:278
+msgid "XYZ data files (.xyz)"
+msgstr "XYZ 資料檔案（.xyz）"
+
+#: modules/file/formats3d.c:287
+msgid ""
+"Exports images as miscellaneous 3D data formats and imports XYZ points from "
+"3D formats."
+msgstr "將影像匯出為多種三維資料格式，並從三維格式匯入 XYZ 點。"
+
+#: modules/file/formats3d.c:318
+msgid "_Automatic Z-scale"
+msgstr "自動 Z 標度(_A)"
+
+#: modules/file/formats3d.c:319
+msgid "_Physical 1:1"
+msgstr "物理比例 1:1(_P)"
+
+#: modules/file/formats3d.c:320
+msgid "Other _scale:"
+msgstr "其他比例(_S)："
+
+#: modules/file/formats3d.c:323
+msgid "None (only points)"
+msgstr "無（僅點）"
+
+#: modules/file/formats3d.c:324
+msgid "Plain along main diagonals"
+msgstr "沿主對角線"
+
+#: modules/file/formats3d.c:325
+msgid "With pixel midpoints"
+msgstr "含像素中點"
+
+#: modules/file/formats3d.c:326
+msgid "Random orientation"
+msgstr "隨機取向"
+
+#: modules/file/formats3d.c:327
+msgid "Following features"
+msgstr "沿表面特徵"
+
+#: modules/file/formats3d.c:340
+msgid "Triangulation type"
+msgstr "三角剖分型別"
+
+#: modules/file/formats3d.c:342
+msgid "Swap X and Y axes"
+msgstr "交換 X 軸與 Y 軸"
+
+#: modules/file/formats3d.c:343
+msgid "Flip Z axis"
+msgstr "翻轉 Z 軸"
+
+#: modules/file/formats3d.c:359
+msgid "_Lateral units"
+msgstr "橫向單位(_L)"
+
+#: modules/file/formats3d.c:361
+msgid "_Value units"
+msgstr "數值單位(_V)"
+
+#: modules/file/formats3d.c:364
+msgid "Create image _directly from regular points"
+msgstr "由規則點直接建立影像(_D)"
+
+#: modules/file/formats3d.c:1538
+msgid "File contains NaNs or infinities."
+msgstr "檔案包含 NaN 或無窮大。"
+
+#: modules/file/formats3d.c:1582
+msgid "X-range"
+msgstr "X 範圍"
+
+#: modules/file/formats3d.c:1583
+msgid "Y-range"
+msgstr "Y 範圍"
+
+#: modules/file/formats3d.c:1584
+msgid "Z-range"
+msgstr "Z 範圍"
+
+#: modules/file/gdeffile.c:129
+msgid "Imports DME GDEF data files."
+msgstr "匯入 DME GDEF 資料檔案。"
+
+#: modules/file/gdeffile.c:142
+msgid "DME GDEF files (.gdf)"
+msgstr "DME GDEF 檔案（.gdf）"
+
+#: modules/file/gdeffile.c:186
+#, c-format
+msgid "File version %u.%u is not supported."
+msgstr "不支援檔案版本 %u.%u。"
+
+#: modules/file/gdeffile.c:222
+msgid "Control block mark is not CB, file is damaged."
+msgstr "控制塊標記不是 CB，檔案已損毀。"
+
+#: modules/file/gdeffile.c:254
+#, c-format
+msgid "Unknown variable type %u."
+msgstr "未知的變數型別 %u。"
+
+#: modules/file/gsffile.c:87
+msgid "Reads and exports Gwyddion Simple Field files."
+msgstr "讀取並匯出 Gwyddion 簡單場檔案。"
+
+#: modules/file/gsffile.c:100
+msgid "Gwyddion Simple Field (.gsf)"
+msgstr "Gwyddion 簡單場（.gsf）"
+
+#: modules/file/gwyfile.c:100
+msgid "Loads and saves Gwyddion native data files (serialized objects)."
+msgstr "載入並儲存 Gwyddion 原生資料檔案（序列化物件）。"
+
+#: modules/file/gwyfile.c:113
+msgid "Gwyddion native format (.gwy)"
+msgstr "Gwyddion 原生格式（.gwy）"
+
+#: modules/file/gwyfile.c:170
+msgid "Data deserialization failed."
+msgstr "資料反序列化失敗。"
+
+#: modules/file/gwyfile.c:175
+#, c-format
+msgid ""
+"Data deserialization succeeded, but resulted in an unexpected object %s."
+msgstr "資料反序列化成功，但得到了意外的物件 %s。"
+
+#: modules/file/gwytiff.c:183 modules/file/gwytiff.c:198
+#, c-format
+msgid "TIFF directory %lu ended unexpectedly."
+msgstr "TIFF 目錄 %lu 意外結束。"
+
+#: modules/file/gwytiff.c:233
+#, c-format
+msgid "BigTIFF data type %u was found in a classic TIFF."
+msgstr "在經典 TIFF 中發現了 BigTIFF 資料型別 %u。"
+
+#: modules/file/gwytiff.c:245
+msgid "Invalid tag data positions were found."
+msgstr "發現無效的標籤資料位置。"
+
+#: modules/file/gwytiff.c:333
+#, c-format
+msgid "BigTIFF reserved fields are %u and %u instead of 8 and 0."
+msgstr "BigTIFF 保留欄位為 %u 和 %u，而非 8 和 0。"
+
+#: modules/file/gwytiff.c:1223
+msgid "Non-uniform bits per sample are unsupported."
+msgstr "不支援不均勻的每取樣位元數。"
+
+#: modules/file/gwytiff.c:1317
+msgid "Unsupported sample format"
+msgstr "不支援的取樣格式"
+
+#: modules/file/gwytiff.h:277
+#, c-format
+msgid "Required tag %u was not found."
+msgstr "未找到必要的標籤 %u。"
+
+#: modules/file/gwyzip-libzip.h:192
+msgid "Cannot obtain the uncompressed file size."
+msgstr "無法取得解壓後的檔案大小。"
+
+#: modules/file/gwyzip-minizip1.h:152
+msgid "Unknown error"
+msgstr "未知錯誤"
+
+#: modules/file/gwyzip-minizip1.h:157
+msgid "End of file"
+msgstr "檔案結束"
+
+#: modules/file/gwyzip-minizip1.h:161
+msgid "Parameter error"
+msgstr "參數錯誤"
+
+#: modules/file/gwyzip-minizip1.h:163
+msgid "Bad zip file"
+msgstr "zip 檔案損毀"
+
+#: modules/file/gwyzip-minizip1.h:165
+msgid "Internal error"
+msgstr "內部錯誤"
+
+#: modules/file/gwyzip-minizip1.h:167
+msgid "CRC error"
+msgstr "CRC 錯誤"
+
+#: modules/file/gwyzip-minizip1.h:170
+#, c-format
+msgid "%s error while reading the zip file: %s (%d)."
+msgstr "讀取 zip 檔案時發生 %s 錯誤：%s（%d）。"
+
+#: modules/file/gwyzlib.h:79
+#, c-format
+msgid "zlib initialization failed with error %d, cannot decompress data."
+msgstr "zlib 初始化失敗，錯誤碼為 %d，無法解壓資料。"
+
+#: modules/file/gwyzlib.h:137
+#, c-format
+msgid ""
+"Decompressed data size (%lu bytes) does not match expected size (%lu bytes)."
+msgstr "解壓後的資料大小（%lu 位元組）與預期大小（%lu 位元組）不符。"
+
+#: modules/file/gxyzffile.c:113
+msgid "Imports Gwyddion XYZ field files."
+msgstr "匯入 Gwyddion XYZ 場檔案。"
+
+#: modules/file/gxyzffile.c:126
+msgid "GwyXYZ data files"
+msgstr "GwyXYZ 資料檔案"
+
+#: modules/file/gxyzffile.c:146
+msgid "Multi-channel file with all compatible data"
+msgstr "包含全部相容資料的多通道檔案"
+
+#: modules/file/gxyzffile.c:234
+#, c-format
+msgid "Data size %lu is not a multiple of point size %u."
+msgstr "資料大小 %lu 不是點大小 %u 的整數倍。"
+
+#: modules/file/gxyzffile.c:382
+msgid "Export GXYZF"
+msgstr "匯出 GXYZF"
+
+#: modules/file/hdf4file.c:322
+msgid "Imports Hierarchical Data Format (HDF) files, version 4."
+msgstr "匯入第 4 版階層式資料格式（HDF）檔案。"
+
+#: modules/file/hdf4file.c:335
+msgid "Psi HDF4 files (.hdf)"
+msgstr "Psi HDF4 檔案（.hdf）"
+
+#: modules/file/hdf4file.c:541
+msgid "PSI binary header is too short."
+msgstr "PSI 二進位檔頭過短。"
+
+#: modules/file/hdf4file.c:669
+msgid "HDF data with `native' type is not supported."
+msgstr "不支援型別為 `native’ 的 HDF 資料。"
+
+#: modules/file/hdf5/datxfile.c:96
+msgid "Zygo DATX HDF5 files (.datx)"
+msgstr "Zygo DATX HDF5 檔案（.datx）"
+
+#: modules/file/hdf5/epflfile.c:104
+msgid "EPFL HDF5 files (.h5)"
+msgstr "EPFL HDF5 檔案（.h5）"
+
+#: modules/file/hdf5/ergofile.c:84
+msgid "Asylum Research Ergo HDF5 files (.h5,.aris)"
+msgstr "Asylum Research Ergo HDF5 檔案（.h5、.aris）"
+
+#: modules/file/hdf5/fusionscope.c:137
+msgid "FusionScope HDF5 files (.fsexp)"
+msgstr "FusionScope HDF5 檔案（.fsexp）"
+
+#: modules/file/hdf5/gwyhdf5.c:904
+#, c-format
+msgid "Dataset %s has %d dimensions instead of expected %d."
+msgstr "資料集 %s 有 %d 維，而非預期的 %d 維。"
+
+#: modules/file/hdf5/gwyhdf5.c:913
+#, c-format
+msgid ""
+"Dataset %s dimension #%d is %ld, which does not match image resolution %d."
+msgstr "資料集 %s 的第 %d 維為 %ld，與影像解析度 %d 不符。"
+
+#: modules/file/hdf5/gwyhdf5.h:150
+#, c-format
+msgid "HDF5 library error %ld in function %s."
+msgstr "HDF5 庫錯誤 %ld，發生於函式 %s。"

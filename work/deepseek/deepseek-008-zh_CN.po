@@ -286,7 +286,7 @@ msgstr "快速拟合(_Q)"
 
 #: modules/process/fit-shape.c:513 modules/process/fit-shape.c:1676
 msgid "Derived Quantities"
-msgstr "导出量"
+msgstr "衍生量"
 
 #: modules/process/fit-shape.c:517
 msgid "Mean square difference:"

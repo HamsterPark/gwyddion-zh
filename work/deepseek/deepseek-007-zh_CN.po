@@ -98,7 +98,7 @@ msgstr "绘制漂移曲线图(_G)"
 
 #: modules/process/drift.c:164
 msgid "_Exclude linear skew"
-msgstr "排除线性倾斜(_E)"
+msgstr "排除线性歪斜(_E)"
 
 #: modules/process/drift.c:221 modules/process/drift.c:393
 msgid "Drift"

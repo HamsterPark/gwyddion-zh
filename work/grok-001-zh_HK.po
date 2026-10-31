@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Traditional, Hong Kong)\n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/accurell.c:82
+msgid "Imports ASCII Accurion scanning ellipsometry maps."
+msgstr "匯入 ASCII 格式的 Accurion 掃描橢偏圖。"
+
+#: modules/file/accurell.c:95
+msgid "Accurion exported ellipsometry data (.txt)"
+msgstr "Accurion 匯出的橢偏數據（.txt）"
+
+#: modules/file/accurexii-txt.c:69
+msgid "Imports Accurex II text files."
+msgstr "匯入 Accurex II 文字檔案。"
+
+#: modules/file/accurexii-txt.c:82
+msgid "Accurex II text files (.txt)"
+msgstr "Accurex II 文字檔案（.txt）"
+
+#: modules/file/accurexii-txt.c:145
+msgid "File header cannot be converted from ISO-8859-1 character set."
+msgstr "無法將檔頭從 ISO-8859-1 字元集轉換。"
+
+#: modules/file/afmw-spec.c:99
+msgid "Imports AFM Workshop spectrum files."
+msgstr "匯入 AFM Workshop 譜檔案。"
+
+#: modules/file/afmw-spec.c:112
+msgid "AFM Workshop spectrum files (.csv)"
+msgstr "AFM Workshop 譜檔案（.csv）"
+
+#: modules/file/aistfile.c:117
+msgid "Imports AIST-NT data files."
+msgstr "匯入 AIST-NT 數據檔案。"
+
+#: modules/file/aistfile.c:130
+msgid "AIST-NT files (.aist)"
+msgstr "AIST-NT 檔案（.aist）"
+
+#: modules/file/alicona.c:144
+msgid "Imports Alicona Imaging AL3D files."
+msgstr "匯入 Alicona Imaging AL3D 檔案。"
+
+#: modules/file/alicona.c:157
+msgid "Alicona Imaging AL3D files (.al3d)"
+msgstr "Alicona Imaging AL3D 檔案（.al3d）"
+
+#: modules/file/alicona.c:486
+#, c-format
+msgid "Invalid plane number %u in tag ‘%s’."
+msgstr "平面編號 %u 無效，所在標籤為 ‘%s’。"
+
+#: modules/file/alicona.c:565
+msgid "Header tag key is not nul-terminated."
+msgstr "檔頭標籤的鍵不是以空字元結尾。"
+
+#: modules/file/alicona.c:570
+msgid "Header tag key is empty."
+msgstr "檔頭標籤的鍵為空。"
+
+#: modules/file/alicona.c:576
+#, c-format
+msgid "Header tag ‘%s’ key is not nul-padded."
+msgstr "檔頭標籤 ‘%s’ 的鍵不是以空字元填充。"
+
+#: modules/file/alicona.c:583
+#, c-format
+msgid "Header tag ‘%s’ lacks CRLF terminator."
+msgstr "檔頭標籤 ‘%s’ 缺少 CRLF 結束符。"
+
+#: modules/file/alicona.c:589
+#, c-format
+msgid "Header tag ‘%s’ value is not nul-terminated."
+msgstr "檔頭標籤 ‘%s’ 的值不是以空字元結尾。"
+
+#: modules/file/alicona.c:598
+#, c-format
+msgid "Header tag ‘%s’ value is not nul-padded."
+msgstr "檔頭標籤 ‘%s’ 的值不是以空字元填充。"
+
+#: modules/file/alicona.c:663
+msgid "Comment lacks CRLF termination."
+msgstr "註釋缺少 CRLF 結束。"
+
+#: modules/file/alicona.c:668
+msgid "Comment is not nul-terminated."
+msgstr "註釋不是以空字元結尾。"
+
+#: modules/file/ambfile.c:78
+msgid "Imports Ambios AMB data files."
+msgstr "匯入 Ambios AMB 數據檔案。"
+
+#: modules/file/ambfile.c:91
+msgid "Ambios amb files (.amb)"
+msgstr "Ambios amb 檔案（.amb）"
+
+#: modules/file/ambprofile.c:104
+msgid "Imports Ambios 1D profilometry data files."
+msgstr "匯入 Ambios 一維輪廓測量數據檔案。"
+
+#: modules/file/ambprofile.c:117
+msgid "Ambios 1D profilometry data files (.xml)"
+msgstr "Ambios 一維輪廓測量數據檔案（.xml）"
+
+#: modules/file/ambprofile.c:123
+msgid "Ambios 1D profilometry data files (.dat)"
+msgstr "Ambios 一維輪廓測量數據檔案（.dat）"
+
+#: modules/file/ambprofile.c:377
+msgid "Different number of X and Z values"
+msgstr "X 值與 Z 值的數量不同。"
+
+#: modules/file/anasys_xml.c:103
+msgid "Imports Analysis Studio XML (.axz & .axd) files."
+msgstr "匯入 Analysis Studio XML（.axz 和 .axd）檔案。"
+
+#: modules/file/anasys_xml.c:116
+msgid "Analysis Studio XML (.axz, .axd)"
+msgstr "Analysis Studio XML（.axz、.axd）"
+
+#: modules/file/andorsif.c:318
+msgid "Imports Andor SIF data files."
+msgstr "匯入 Andor SIF 數據檔案。"
+
+#: modules/file/andorsif.c:331
+msgid "Andor SIF files (.sif)"
+msgstr "Andor SIF 檔案（.sif）"
+
+#: modules/file/anfatec.c:107
+msgid "Imports Anfatec data files (two-part .txt + .int)."
+msgstr "匯入 Anfatec 數據檔案（.txt 與 .int 兩部分）。"
+
+#: modules/file/anfatec.c:120
+msgid "Anfatec files (.par + .int)"
+msgstr "Anfatec 檔案（.par + .int）"
+
+#: modules/file/anfatec.c:244
+msgid "The parameter file cannot be loaded."
+msgstr "無法載入參數檔案。"
+
+#: modules/file/anfatec.c:250
+msgid "Cannot find the corresponding parameter file."
+msgstr "找不到對應的參數檔案。"
+
+#: modules/file/anfatec.c:270
+msgid "FileDescBegin cannot be inside another FileDesc."
+msgstr "FileDescBegin 不能出現在另一個 FileDesc 內部。"
+
+#: modules/file/anfatec.c:280
+msgid "FileDescEnd has no corresponding FileDescBegin."
+msgstr "FileDescEnd 沒有對應的 FileDescBegin。"
+
+#: modules/file/anfatec.c:306
+msgid "FileDescBegin has no corresponding FileDescEnd."
+msgstr "FileDescBegin 沒有對應的 FileDescEnd。"
+
+#: modules/file/anfatec.c:769 modules/file/anfatec.c:782
+msgid "Wrong number of header rows or columns."
+msgstr "檔頭的列數或欄數不正確。"
+
+#: modules/file/anfatec.c:835
+msgid "Coordinates do not form a regular grid."
+msgstr "坐標不能構成規則網格。"
+
+#: modules/file/apedaxfile.c:258
+msgid "Imports A.P.E. Research DAX data files."
+msgstr "匯入 A.P.E. Research DAX 數據檔案。"
+
+#: modules/file/apedaxfile.c:273
+msgid "A.P.E. Research DAX Files (.dax) and APDT File (.apdt)"
+msgstr "A.P.E. Research DAX 檔案（.dax）和 APDT 檔案（.apdt）"
+
+#: modules/file/apefile.c:192
+msgid "Imports APE (Applied Physics and Engineering) data files."
+msgstr "匯入 APE（Applied Physics and Engineering）數據檔案。"
+
+#: modules/file/apefile.c:205
+msgid "APE files (.dat)"
+msgstr "APE 檔案（.dat）"
+
+#: modules/file/ardf.c:224
+msgid "Imports Asylum Research ARDF files."
+msgstr "匯入 Asylum Research ARDF 檔案。"
+
+#: modules/file/ardf.c:237
+msgid "ARDF file (.ARDF)"
+msgstr "ARDF 檔案（.ARDF）"
+
+#: modules/file/ardf.c:329
+msgid "Reading images and metadata..."
+msgstr "正在讀取影像和元數據..."
+
+#: modules/file/ardf.c:484
+msgid "Reading volume data..."
+msgstr "正在讀取體數據..."
+
+#: modules/file/ardf.c:843
+#, c-format
+msgid "Found data header %s instead of expected %s."
+msgstr "發現數據標頭 %s，而不是預期的 %s。"
+
+#: modules/file/asciicmap.c:51
+msgid "Reads curve maps exported to text."
+msgstr "讀取匯出為文字的曲線圖譜。"
+
+#: modules/file/asciicmap.c:64
+msgid "Curve map text export (.txt)"
+msgstr "曲線圖譜文字匯出（.txt）"
+
+#: modules/file/asciiexport.c:87
+msgid "Exports data as simple ASCII matrix and reads back this format."
+msgstr "將數據匯出為簡單 ASCII 矩陣，並可再次讀入此格式。"
+
+#: modules/file/asciiexport.c:100
+msgid "ASCII data matrix (.txt)"
+msgstr "ASCII 數據矩陣（.txt）"
+
+#: modules/file/asciiexport.c:124
+msgid "Conca_tenate exports of all images"
+msgstr "拼接匯出全部影像(_T)"
+
+#: modules/file/asdfile.c:176
+msgid "Imports ASD high-speed AFM data files."
+msgstr "匯入 ASD 高速原子力顯微鏡數據檔案。"
+
+#: modules/file/asdfile.c:189
+msgid "ASD high-speed AFM files (.asd)"
+msgstr "ASD 高速原子力顯微鏡檔案（.asd）"
+
+#: modules/file/assing-afm.c:65
+msgid "Imports Assing AFM data files."
+msgstr "匯入 Assing AFM 數據檔案。"
+
+#: modules/file/assing-afm.c:78
+msgid "Assing AFM files (.afm)"
+msgstr "Assing AFM 檔案（.afm）"
+
+#: modules/file/attocube.c:80
+msgid "Imports Attocube Systems ASC files."
+msgstr "匯入 Attocube Systems ASC 檔案。"
+
+#: modules/file/attocube.c:93
+msgid "Attocube ASCII files (.asc)"
+msgstr "Attocube ASCII 檔案（.asc）"
+
+#: modules/file/bcrfile.c:127
+msgid "Imports Image Metrology BCR data files."
+msgstr "匯入 Image Metrology BCR 數據檔案。"
+
+#: modules/file/bcrfile.c:140
+msgid "BCR files (.bcr, .bcrf)"
+msgstr "BCR 檔案（.bcr、.bcrf）"
+
+#: modules/file/bcrfile.c:310
+#, c-format
+msgid "Unknown file type header: `%s'."
+msgstr "未知的檔案類型頭：`%s’。"
+
+#: modules/file/burleigh.c:123
+msgid "Imports Burleigh IMG data files version 2.1."
+msgstr "匯入 2.1 版 Burleigh IMG 數據檔案。"
+
+#: modules/file/burleigh.c:136
+msgid "Burleigh 2.1 files (.img)"
+msgstr "Burleigh 2.1 檔案（.img）"
+
+#: modules/file/burleigh.c:217
+#, c-format
+msgid "File format version %.1f is not supported."
+msgstr "不支援檔案格式版本 %.1f。"
+
+#: modules/file/burleigh_bii.c:75
+msgid "Imports Burleigh BII binary data files."
+msgstr "匯入 Burleigh BII 二進制數據檔案。"
+
+#: modules/file/burleigh_bii.c:88
+msgid "Burleigh Image Studio files (.bii)"
+msgstr "Burleigh Image Studio 檔案（.bii）"
+
+#: modules/file/burleigh_exp.c:84
+msgid "Imports Burleigh text/bin exported images."
+msgstr "匯入 Burleigh 以文字或二進制匯出的影像。"
+
+#: modules/file/burleigh_exp.c:97
+msgid "Burleigh exported data (.txt, .bin)"
+msgstr "Burleigh 匯出數據（.txt、.bin）"
+
+#: modules/file/codevfile.c:67
+msgid "Imports Code V interferogram files."
+msgstr "匯入 Code V 干涉圖檔案。"
+
+#: modules/file/codevfile.c:80
+msgid "Code V interferogram files (.int)"
+msgstr "Code V 干涉圖檔案（.int）"
+
+#: modules/file/createc.c:129
+msgid "Imports Createc data files."
+msgstr "匯入 Createc 數據檔案。"
+
+#: modules/file/createc.c:142
+msgid "Createc files (.dat)"
+msgstr "Createc 檔案（.dat）"
+
+#: modules/file/createc.c:180
+#, c-format
+msgid "Neither `%s' nor `%s' header field found."
+msgstr "未找到檔頭欄位 `%s’，也未找到 `%s’。"
+
+#: modules/file/csmfile.c:80
+msgid "Imports Benyuan CSM data files."
+msgstr "匯入本原（Benyuan）CSM 數據檔案。"
+
+#: modules/file/csmfile.c:93
+msgid "Benyuan CSM files (.csm)"
+msgstr "本原（Benyuan）CSM 檔案（.csm）"
+
+#: modules/file/dektakvca.c:192
+msgid "Imports Dektak OPDx data files."
+msgstr "匯入 Dektak OPDx 數據檔案。"
+
+#: modules/file/dektakvca.c:205
+msgid "Dektak OPDx data files (.OPDx)"
+msgstr "Dektak OPDx 數據檔案（.OPDx）"
+
+#: modules/file/dektakvca.c:611
+#, c-format
+msgid "Item `%s' has unexpected type %u instead of %u."
+msgstr "項 `%s’ 的類型是 %u，而不是 %u。"
+
+#: modules/file/dektakxml.c:114
+msgid "Imports Dektak XML data files."
+msgstr "匯入 Dektak XML 數據檔案。"
+
+#: modules/file/dektakxml.c:127
+msgid "Dektak XML data files (.xml)"
+msgstr "Dektak XML 數據檔案（.xml）"
+
+#: modules/file/dimensionfile.c:71
+msgid "Imports old Veeco Dimension 3100D files."
+msgstr "匯入舊版 Veeco Dimension 3100D 檔案。"
+
+#: modules/file/dimensionfile.c:84
+msgid "Dimension 3100D files (.001, .002, ...)"
+msgstr "Dimension 3100D 檔案（.001、.002 等）"
+
+#: modules/file/dm3file.c:283
+msgid "Reads Digital Micrograph DM3 and DM4 files."
+msgstr "讀取 Digital Micrograph 的 DM3 和 DM4 檔案。"
+
+#: modules/file/dm3file.c:296
+msgid "Digital Micrograph DM3 TEM data (.dm3)"
+msgstr "Digital Micrograph DM3 透射電鏡數據（.dm3）"
+
+#: modules/file/dm3file.c:302
+msgid "Digital Micrograph DM4 TEM data (.dm4)"
+msgstr "Digital Micrograph DM4 透射電鏡數據（.dm4）"
+
+#: modules/file/dm3file.c:1098
+#, c-format
+msgid "Invalid tag type definition in entry ‘%s’."
+msgstr "條目 ‘%s’ 中的標籤類型定義無效。"
+
+#: modules/file/dm3file.c:1199 modules/file/dm3file.c:1258
+msgid "Tag entry type is neither group nor data."
+msgstr "標籤條目的類型既不是組，也不是數據。"
+
+#: modules/file/dm3file.c:1317 modules/file/dm3file.c:1377
+#, c-format
+msgid "Tag type does not start with marker ‘%s’."
+msgstr "標籤類型不是以標記 ‘%s’ 開頭。"
+
+#: modules/file/dm3file.c:1516
+#, c-format
+msgid "Invalid or unsupported tag type %u."
+msgstr "標籤類型 %u 無效或不受支援。"
+
+#: modules/file/dmefile.c:128
+msgid "Imports Danish Micro Engineering (DME) data files."
+msgstr "匯入 Danish Micro Engineering（DME）數據檔案。"
+
+#: modules/file/dmefile.c:141
+msgid "DME files (.img)"
+msgstr "DME 檔案（.img）"
+
+#: modules/file/dmefile.c:193
+#, c-format
+msgid "Header is too short (only %d bytes)."
+msgstr "檔頭過短（僅 %d 位元組）。"
+
+#: modules/file/dumbfile.c:66
+msgid "Reads and exports Gwyddion dumb dump files."
+msgstr "讀取並匯出 Gwyddion 簡易轉儲檔案。"
+
+#: modules/file/dumbfile.c:79
+msgid "Gwyddion dumb dump files (.dump)"
+msgstr "Gwyddion 簡易轉儲檔案（.dump）"
+
+#: modules/file/ecsfile.c:81
+msgid "Imports ECS IMG files."
+msgstr "匯入 ECS IMG 檔案。"
+
+#: modules/file/ecsfile.c:94
+msgid "ECS files (.img)"
+msgstr "ECS 檔案（.img）"
+
+#: modules/file/ecsfile.c:168
+msgid "Scan size header field overlaps with data."
+msgstr "掃描尺寸檔頭欄位與數據重疊。"
+
+#: modules/file/err.h:75
+#, c-format
+msgid "No data file corresponding to `%s' was found."
+msgstr "找不到與 `%s’ 對應的數據檔案。"
+
+#: modules/file/err.h:83
+msgid "File is too short to be of the assumed file type."
+msgstr "檔案過短，不可能屬於假定的檔案類型。"

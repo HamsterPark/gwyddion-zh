@@ -381,7 +381,7 @@ msgstr "无法解析第 %d 行的数据值。"
 #: modules/file/phoenix.c:918 modules/file/princetonspe.c:323
 #: modules/file/psia.c:377 modules/file/wsxmfile.c:697 modules/file/zemax.c:160
 msgid "File is truncated."
-msgstr "文件不完整。"
+msgstr "文件被截断。"
 
 #: modules/file/asciiexport.c:119 modules/file/xyzexport.c:112
 #: modules/process/grain_dist.c:149

@@ -1,6 +1,6 @@
 # Gwyddion 中文术语表（简体初稿）
 
-本表目前仅为简体中文的翻译协作暂定约定；香港／澳门与台湾繁体术语及地区差异另行审校。本表不代表 Gwyddion 官方中文译名。请结合界面位置、源代码和实际功能审校；有歧义的词不要机械替换。遇到可能改变科学含义的译法，请记录待讨论项。术语也应根据词性与上下文灵活调整。
+本表简体部分为翻译协作暂定约定；繁体地区差异见文末对照表，已用于全文审校，仍需母语者终审。本表不代表 Gwyddion 官方中文译名。请结合界面位置、源代码和实际功能审校；有歧义的词不要机械替换。遇到可能改变科学含义的译法，请记录待讨论项。术语也应根据词性与上下文灵活调整。
 
 | 英文 | 建议译法 | 说明 |
 | --- | --- | --- |
@@ -50,6 +50,56 @@
 | total variation | 总变差 | Gwyddion 的 Variation 在相关统计界面表示总变差，具体维度依数据而定。 |
 | ASF Opening / Closing | 交替顺序滤波（以开运算／闭运算结束） | 分别为以开运算或闭运算结束的交替顺序滤波，二者包含开、闭运算。 |
 | pixel area MFM force gradient | 按像素面积归一化的 MFM 力梯度 | 程序将 MFM 力梯度再除以像素面积。 |
+
+## 繁体地区用语对照（全文审校后）
+
+以下为 `zh_TW`／`zh_HK` 全文审校采用的高影响对照，具体替换规则见 `regionalize.py`；以实际 PO 文件为准。两版仍有母语者终审和界面测试待完成。
+
+| 英文 | zh_TW | zh_HK | 备注 |
+| --- | --- | --- | --- |
+| data / volume data | 資料／體資料 | 數據／體數據 | 地区核心差异 |
+| image | 影像 | 圖像 |  |
+| file / document | 檔案／文件 | 檔案／文件 | 仅文档语境保留“文件” |
+| folder | 資料夾 | 資料夾 |  |
+| default / setting | 預設／設定 | 預設／設定 |  |
+| network | 網路 | 網絡 |  |
+| mouse / cursor | 滑鼠／游標 | 滑鼠／游標 |  |
+| memory / disk | 記憶體／磁碟 | 記憶體／磁碟 |  |
+| print | 列印 | 列印 |  |
+| create / search | 建立／搜尋 | 建立／搜尋 |  |
+| quality | 品質 | 質素 |  |
+| user | 使用者 | 用戶 |  |
+| software / hardware | 軟體／硬體 | 軟件／硬件 |  |
+| interface / program | 介面／程式 | 介面／程式 |  |
+| information / support | 資訊／支援 | 資訊／支援 |  |
+| save / load | 儲存／載入 | 儲存／載入 |  |
+| open / window | 開啟／視窗 | 開啟／視窗 |  |
+| export / import | 匯出／匯入 | 匯出／匯入 |  |
+| plug-in / module | 外掛／模組 | 外掛程式／模組 |  |
+| byte / resolution | 位元組／解析度 | 位元組／解析度 |  |
+| mask | 遮罩 | 遮罩 | 不再用“掩膜” |
+| metadata | 後設資料 | 元資料 |  |
+| convolution | 摺積 | 卷積 |  |
+| interpolation | 內插 | 插值 |  |
+| variance / skewness | 變異數／偏態 | 方差／偏度 |  |
+| scalar / gradient | 純量／漸層 | 標量／漸變 |  |
+| clustering / calibration | 分群／校正 | 聚類／校準 |  |
+| regression | 迴歸 | 回歸 |  |
+| operator / operand | 運算子／運算元 | 運算子／運算元 |  |
+| string / character | 字串／字元 | 字串／字元 |  |
+| variable / array / object | 變數／陣列／物件 | 變數／陣列／物件 |  |
+| source code / script | 原始碼／指令碼 | 原始碼／指令碼 |  |
+| signal / noise / sample | 訊號／雜訊／取樣 | 訊號／雜訊／取樣 |  |
+| current / generate / obtain | 目前／產生／取得 | 目前／產生／取得 | 通用行文 |
+| add / through / undo / replace / find | 新增／透過／復原／取代／尋找 | 新增／透過／復原／取代／尋找 | 通用行文 |
+| field | 欄位 | 欄位 |  |
+| parameter / argument | 參數／引數 | 參數 | 香港不強分 argument |
+| apply / reset / selected | 套用／重設／選取 | 應用／重置／選中 | UI 用語 |
+| mean square difference | 均方差 | 均方差 | 不與變異數混同 |
+| partitioning | 分區法 | 分區法 | 分形維數方法 |
+| surface potential | 表面電位 | 表面電勢 |  |
+| activation / load | 活化／負載 | 激活／載荷 |  |
+| mutual crop / derived quantity | 相互裁剪／衍生量 | 相互裁剪／衍生量 | 不譯作互動裁剪／匯出量 |
 
 ## 主要依据
 

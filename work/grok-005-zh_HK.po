@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Traditional, Hong Kong)\n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/nanoeducator.c:965
+msgid "F-D spectra"
+msgstr "力-距離譜"
+
+#: modules/file/nanoeducator.c:1038
+msgid "I-V spectra"
+msgstr "電流-電壓譜"
+
+#: modules/file/nanoeducator.c:1107
+msgid "I-Z spectra"
+msgstr "電流-Z 譜"
+
+#: modules/file/nanomagnetics.c:399
+msgid "Imports Nanomagnetics' NMI file format version 3 and 5"
+msgstr "匯入 Nanomagnetics 的 NMI 檔案格式第 3 版和第 5 版。"
+
+#: modules/file/nanomagnetics.c:412
+msgid "Nanomagnetics File (.nmi)"
+msgstr "Nanomagnetics 檔案（.nmi）"
+
+#: modules/file/nanonics.c:102
+msgid "Imports Nanonics NAN data files."
+msgstr "匯入 Nanonics NAN 數據檔案。"
+
+#: modules/file/nanonics.c:115
+msgid "Nanonics files (.nan)"
+msgstr "Nanonics 檔案（.nan）"
+
+#: modules/file/nanonics.c:204
+#, c-format
+msgid "HeaderLength %u differs from actual header length %u"
+msgstr "HeaderLength %u 與實際檔頭長度 %u 不符。"
+
+#: modules/file/nanonis-spec.c:98
+msgid "Imports Nanonis DAT spectrum files."
+msgstr "匯入 Nanonis DAT 譜檔案。"
+
+#: modules/file/nanonis-spec.c:111
+msgid "Nanonis spectrum files (.dat)"
+msgstr "Nanonis 譜檔案（.dat）"
+
+#: modules/file/nanonis-spec.c:446
+msgid "Data block is truncated"
+msgstr "數據塊被截斷。"
+
+#: modules/file/nanonis.c:113
+msgid "Imports Nanonis SXM data files."
+msgstr "匯入 Nanonis SXM 數據檔案。"
+
+#: modules/file/nanonis.c:133
+msgid "Nanonis SXM files (.sxm)"
+msgstr "Nanonis SXM 檔案（.sxm）"
+
+#: modules/file/nanonis.c:267
+msgid "Garbage was found in place of tag header line."
+msgstr "標籤頭行的位置存在多餘內容。"
+
+#: modules/file/nanonis.c:331
+#, c-format
+msgid "DATA_INFO does not contain the expected columns: %s."
+msgstr "DATA_INFO 未包含預期的欄：%s。"
+
+#: modules/file/nanonis.c:353
+#, c-format
+msgid "DATA_INFO line contains fewer than %d fields."
+msgstr "DATA_INFO 行的欄位少於 %d 個。"
+
+#: modules/file/nanonis.c:534
+msgid "Missing data start marker \\x1a\\x04."
+msgstr "缺少數據起始標記 \\x1a\\x04。"
+
+#: modules/file/nanoobserver.c:202
+msgid "Reads Nano-Solution/NanoObserver .nao files."
+msgstr "讀取 Nano-Solution/NanoObserver .nao 檔案。"
+
+#: modules/file/nanoobserver.c:215
+msgid "Nano-Solution/NanoObserver data (.nao)"
+msgstr "Nano-Solution/NanoObserver 數據（.nao）"
+
+#: modules/file/nanoobserver.c:430 modules/file/nanoobserver.c:470
+msgid "There are no valid scan lines."
+msgstr "沒有有效的掃描線。"
+
+#: modules/file/nanoscan.c:187
+msgid "Imports NanoScan XML files."
+msgstr "匯入 NanoScan XML 檔案。"
+
+#: modules/file/nanoscan.c:200
+msgid "NanoScan XML files (.xml)"
+msgstr "NanoScan XML 檔案（.xml）"
+
+#: modules/file/nanoscan.c:900
+msgid "Wrong size of Base64 encoded data."
+msgstr "Base64 編碼數據的大小不正確。"
+
+#: modules/file/nanoscantech.c:125
+msgid "Imports NanoScanTech .nstdat files."
+msgstr "匯入 NanoScanTech .nstdat 檔案。"
+
+#: modules/file/nanoscantech.c:138
+msgid "NanoScanTech data (.nstdat)"
+msgstr "NanoScanTech 數據（.nstdat）"
+
+#: modules/file/nanoscope-ii.c:82
+msgid "Imports Digital Instruments Nanoscope II data files."
+msgstr "匯入 Digital Instruments Nanoscope II 數據檔案。"
+
+#: modules/file/nanoscope-ii.c:95
+msgid "Nanoscope II files"
+msgstr "Nanoscope II 檔案"
+
+#: modules/file/nanoscope.c:273
+msgid "Imports Bruker Nanoscope data files, version 3 or newer."
+msgstr "匯入第 3 版或更新版本的 Bruker Nanoscope 數據檔案。"
+
+#: modules/file/nanoscope.c:286
+msgid "Nanoscope III files"
+msgstr "Nanoscope III 檔案"
+
+#: modules/file/nanoscope.c:367
+msgid "File is not a Nanoscope file, or it is a unknown subtype."
+msgstr "檔案不是 Nanoscope 檔案，或者屬於未知子類型。"
+
+#: modules/file/nanoscope.c:373
+msgid ""
+"File has been damaged by change of line endings, resulting in corruption of the binary part of the file.\n"
+"\n"
+"Typically, this occurs if the file is treated as text when sent by e-mail uncompressed, sent by FTP in ascii mode (use binary), compressed by ‘Send to compressed folder’ in some versions of MS Windows, or any other file transfer that attempts to store text platform-independently."
+msgstr ""
+"換行字元被更改，檔案已損壞，其二進制部分遭到破壞。\n"
+"\n"
+"這通常發生在以下情形：檔案未壓縮即通過電子郵件按文字方式發送、以 ASCII 模式進行 FTP 傳輸（應使用二進制模式）、在某些版本的 MS Windows 中用“傳送到壓縮資料夾”壓縮，或任何試圖以與平台無關的方式儲存文字的檔案傳輸。"
+
+#: modules/file/nanoscope.c:474
+msgid "Reading channels..."
+msgstr "正在讀取通道..."
+
+#: modules/file/nanoscope.c:2462 modules/file/nanoscope.c:2477
+msgid "Cannot parse `Scan size' field."
+msgstr "無法解析 `Scan size’ 欄位。"
+
+#: modules/file/nanoscope.c:2579
+msgid "Truncated header line."
+msgstr "檔頭行不完整。"
+
+#: modules/file/nanosystemz.c:95
+msgid "Imports NanoSystem profilometry data files."
+msgstr "匯入 NanoSystem 輪廓測量數據檔案。"
+
+#: modules/file/nanosystemz.c:108
+msgid "NanoSystem profilometry files (.spm)"
+msgstr "NanoSystem 輪廓測量檔案（.spm）"
+
+#: modules/file/nanotop.c:107
+msgid "Imports NANOTOP AFM files"
+msgstr "匯入 NANOTOP AFM 檔案。"
+
+#: modules/file/nanotop.c:120
+msgid "Nanotop files (.spm)"
+msgstr "Nanotop 檔案（.spm）"
+
+#: modules/file/netcdf.c:172
+msgid "Imports network Common Data Form (netCDF) files created by GXSM."
+msgstr "匯入由 GXSM 建立的網絡通用數據格式（netCDF）檔案。"
+
+#: modules/file/netcdf.c:185
+msgid "GSXM netCDF files (.nc)"
+msgstr "GSXM netCDF 檔案（.nc）"
+
+#: modules/file/netcdf.c:228
+#, c-format
+msgid "Variable `%s' refers to invalid or nonexistent data."
+msgstr "變量 `%s’ 引用了無效或不存在的數據。"
+
+#: modules/file/netcdf.c:267
+msgid "NetCDF records are not supported."
+msgstr "不支援 NetCDF 記錄。"
+
+#: modules/file/netcdf.c:314
+msgid "Value series values must be of type FLOAT."
+msgstr "數值序列的值必須為 FLOAT 類型。"
+
+#: modules/file/netcdf.c:335
+msgid "Time values must be of type DOUBLE."
+msgstr "時間值必須為 DOUBLE 類型。"
+
+#: modules/file/netcdf.c:355
+msgid "Reading of fast scan files is not implemented - yet."
+msgstr "尚未實現快掃檔案的讀取。"
+
+#: modules/file/netcdf.c:425
+msgid "Time series order is wrong."
+msgstr "時間序列的順序不正確。"
+
+#: modules/file/netcdf.c:959
+#, c-format
+msgid "File ended unexpectedly inside `%s'."
+msgstr "在 `%s’ 內部，檔案意外結束。"
+
+#: modules/file/netcdf.c:968
+#, c-format
+msgid "Expected `%s' array or `ABSENT'."
+msgstr "預期為 `%s’ 陣列或 `ABSENT’。"
+
+#: modules/file/netcdf.c:976
+#, c-format
+msgid "Array `%s' has non-zero number of elements in spite of being absent."
+msgstr "陣列 `%s’ 被標記為缺失，元素個數卻不為零。"
+
+#: modules/file/netcdf.c:1032
+msgid "More than one record dimension found."
+msgstr "發現多個記錄維。"
+
+#: modules/file/nmmxyz.c:202
+msgid "Imports Nano Measuring Machine profile files."
+msgstr "匯入納米測量機輪廓檔案。"
+
+#: modules/file/nmmxyz.c:215
+msgid "Nano Measuring Machine files (*.dsc)"
+msgstr "納米測量機檔案（*.dsc）"
+
+#: modules/file/nmmxyz.c:229
+msgid "Non-square pixels"
+msgstr "非正方形像素"
+
+#: modules/file/nmmxyz.c:230
+msgid "Specify X resolution"
+msgstr "指定 X 解像度"
+
+#: modules/file/nmmxyz.c:231
+msgid "Specify Y resolution"
+msgstr "指定 Y 解像度"
+
+#: modules/file/nmmxyz.c:242
+msgid "Plot point density map"
+msgstr "繪製點密度圖"
+
+#: modules/file/nmmxyz.c:243
+msgid "Align scan lines with X axis"
+msgstr "將掃描線與 X 軸對齊"
+
+#: modules/file/nmmxyz.c:245
+msgid "Identical _measures"
+msgstr "像素尺寸相同(_M)"
+
+#: modules/file/nmmxyz.c:249
+msgid "Pixel resolution mode"
+msgstr "像素解像度模式"
+
+#: modules/file/nmmxyz.c:252
+msgid "_Display with physical aspect ratio"
+msgstr "按物理寬高比顯示(_D)"
+
+#: modules/file/nmmxyz.c:253
+msgid "_Filter out data using error channel"
+msgstr "使用誤差通道濾除數據(_F)"
+
+#: modules/file/nmmxyz.c:256 modules/file/nmmxyz.c:277
+msgid "_Error channel"
+msgstr "誤差通道(_E)"
+
+#: modules/file/nmmxyz.c:322
+msgid "Nano Measuring Machine data import must be run as interactive."
+msgstr "納米測量機數據必須以互動方式匯入。"
+
+#: modules/file/nmmxyz.c:456
+msgid "Import NMM Profile Set"
+msgstr "匯入 NMM 輪廓組"
+
+#: modules/file/nmmxyz.c:466
+msgid "Number of data files"
+msgstr "數據檔案數"
+
+#: modules/file/nmmxyz.c:469
+msgid "Total number of points"
+msgstr "點的總數"
+
+#: modules/file/nmmxyz.c:472
+msgid "Points per profile"
+msgstr "每條輪廓的點數"
+
+#: modules/file/nmmxyz.c:486
+msgid "_Auto"
+msgstr "自動(_A)"
+
+#: modules/file/nmmxyz.c:497
+msgid "Imported Channels"
+msgstr "已匯入的通道"
+
+#: modules/file/nmmxyz.c:754
+msgid "Point density map"
+msgstr "點密度圖"
+
+#: modules/file/nmmxyz.c:831
+msgid "Something is changing the data files on disk."
+msgstr "磁碟上的數據檔案正在被更改。"
+
+#: modules/file/nova-asc.c:80
+msgid "Imports Nova ASC files."
+msgstr "匯入 Nova ASC 檔案。"
+
+#: modules/file/nova-asc.c:93
+msgid "Nova ASCII files (.txt)"
+msgstr "Nova ASCII 檔案（.txt）"
+
+#: modules/file/npyfile.c:121
+msgid "Imports and exports binary serialized numpy arrays (NPY, NPZ)."
+msgstr "匯入並匯出二進制序列化的 numpy 陣列（NPY、NPZ）。"
+
+#: modules/file/npyfile.c:134
+msgid "Serialized numpy array (.npy)"
+msgstr "序列化的 numpy 陣列（.npy）"
+
+#: modules/file/npyfile.c:141
+msgid "Multiple serialized numpy arrays (.npz)"
+msgstr "多個序列化的 numpy 陣列（.npz）"
+
+#: modules/file/npyfile.c:428
+msgid "Cannot parse NPY ASCII header."
+msgstr "無法解析 NPY 的 ASCII 檔頭。"
+
+#: modules/file/nrrdfile.c:176
+msgid "Imports and exports nearly raw raster data (NRRD) files."
+msgstr "匯入並匯出近原始柵格數據（NRRD）檔案。"
+
+#: modules/file/nrrdfile.c:189
+msgid "Nearly raw raster data (NRRD) files (.nrrd)"
+msgstr "近原始柵格數據（NRRD）檔案（.nrrd）"
+
+#: modules/file/nrrdfile.c:322
+msgid "Detached header does not refer to any data file."
+msgstr "分離的檔頭未指向任何數據檔案。"
+
+#: modules/file/nrrdfile.c:346
+msgid "Only two- and three-dimensional data are supported."
+msgstr "僅支援二維和三維數據。"
+
+#: modules/file/nrrdfile.c:366
+msgid "Non-zero lineskip is supported only for uncompressed files."
+msgstr "僅未壓縮檔案支援非零 lineskip。"
+
+#: modules/file/nrrdfile.c:402
+msgid "Compression is supported only for detached files."
+msgstr "僅分離檔案支援壓縮。"
+
+#: modules/file/nrrdfile.c:693
+msgid "Split detached data files are not supported."
+msgstr "不支援拆分的分離數據檔案。"
+
+#: modules/file/nrrdfile.c:912
+#, c-format
+msgid "Hex data contain fewer values (%u) than corresponds to the sizes (%u)."
+msgstr "十六進制數據中的值（%u）少於尺寸對應的數量（%u）。"
+
+#: modules/file/nrrdfile.c:1033
+#, c-format
+msgid ""
+"Text data contain fewer values (%u) than corresponds to the sizes (%u)."
+msgstr "文字數據中的值（%u）少於尺寸對應的數量（%u）。"
+
+#: modules/file/nrrdfile.c:1087
+msgid "Field byteskip cannot be -1 for text encodings."
+msgstr "對於文字編碼，欄位 byteskip 不能為 -1。"
+
+#: modules/file/nrrdfile.c:1097
+msgid "Field lineskip specifies more lines than there are in the file."
+msgstr "欄位 lineskip 指定的行數超過檔案中的實際行數。"
+
+#: modules/file/nrrdfile.c:1138
+msgid "Field byteskip specifies more bytes than there are in the file."
+msgstr "欄位 byteskip 指定的位元組數超過檔案中的實際位元組數。"
+
+#: modules/file/nrrdfile.c:1509
+#, c-format
+msgid "Items of per-axis header field %s are not quoted."
+msgstr "逐軸檔頭欄位 %s 的各項沒有用引號括起。"
+
+#: modules/file/nrrdfile.c:1518
+#, c-format
+msgid "Per-axis header field %s contains too many items."
+msgstr "逐軸檔頭欄位 %s 的項過多。"
+
+#: modules/file/nrrdfile.c:1526
+#, c-format
+msgid "Per-axis header field %s contains too few items."
+msgstr "逐軸檔頭欄位 %s 的項過少。"
+
+#: modules/file/nt-mdt.c:722
+msgid "Imports NT-MDT data files."
+msgstr "匯入 NT-MDT 數據檔案。"
+
+#: modules/file/nt-mdt.c:735
+msgid "NT-MDT files (.mdt)"
+msgstr "NT-MDT 檔案（.mdt）"
+
+#: modules/file/nt-mdt.c:1321 modules/file/nt-mdt.c:1427
+msgid "Frame is too short for Frame Mode."
+msgstr "幀長度不足以支援幀模式。"
+
+#: modules/file/nt-mdt.c:1336 modules/file/nt-mdt.c:1442
+msgid "Frame is too short for dots or data."
+msgstr "幀長度不足以容納點或數據。"
+
+#: modules/file/nt-mdt.c:1697
+#, c-format
+msgid "End of file reached in frame header #%u."
+msgstr "讀取幀檔頭 #%u 時到達檔案結尾。"
+
+#: modules/file/nt-mdt.c:1705
+#, c-format
+msgid "End of file reached in frame data #%u."
+msgstr "讀取幀數據 #%u 時到達檔案結尾。"
+
+#: modules/file/nt-mdt.c:1738
+#, c-format
+msgid "Frame #%u is too short for scanned data header."
+msgstr "幀 #%u 過短，無法容納掃描數據的檔頭。"
+
+#: modules/file/nt-mdt.c:1755
+#, c-format
+msgid "Frame #%u is too short for spectroscopy data header."
+msgstr "幀 #%u 過短，無法容納譜數據的檔頭。"

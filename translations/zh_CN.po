@@ -5474,7 +5474,7 @@ msgstr "曲线图谱文本导出（.txt）"
 #: modules/file/psia.c:377 modules/file/wsxmfile.c:697
 #: modules/file/zemax.c:160
 msgid "File is truncated."
-msgstr "文件不完整。"
+msgstr "文件被截断。"
 
 #: modules/file/asciiexport.c:87
 msgid "Exports data as simple ASCII matrix and reads back this format."
@@ -5758,11 +5758,11 @@ msgstr "根据文件头算出的预期数据大小为 %u 字节，实际大小�
 #: modules/file/err.h:111
 #, c-format
 msgid "File component/item ‘%s’ is truncated."
-msgstr "文件组件 ‘%s’ 不完整。"
+msgstr "文件组件 ‘%s’ 被截断。"
 
 #: modules/file/err.h:118
 msgid "File header is truncated."
-msgstr "文件头不完整。"
+msgstr "文件头被截断。"
 
 #: modules/file/err.h:128 modules/file/rhk-sm4.c:760
 #, c-format
@@ -7512,7 +7512,7 @@ msgstr "第 %u 个数据样本后存在多余内容。"
 
 #: modules/file/nanoscope.c:2579
 msgid "Truncated header line."
-msgstr "文件头行不完整。"
+msgstr "文件头行被截断。"
 
 #: modules/file/nanosystemz.c:95
 msgid "Imports NanoSystem profilometry data files."
@@ -8220,7 +8220,7 @@ msgstr "成像文件头大小错误：实际为 %u，应为 %u。"
 #, c-format
 msgid ""
 "Number of line triggers %u is smaller than the number of scan lines %u."
-msgstr "行触发次数 %u 小于扫描线数 %u。"
+msgstr "扫描线触发次数 %u 小于扫描线数 %u。"
 
 #: modules/file/qnami.c:65
 msgid "Imports Qnami ProteusQ SPM files."
@@ -8715,7 +8715,7 @@ msgstr "Cyber technologies SCNX 数据（.scnx）"
 
 #: modules/file/sdfile.c:154
 msgid "Imports Surfstand group SDF (Surface Data File) files."
-msgstr "导入 Surfstand 项目的 SDF（表面数据文件）。"
+msgstr "导入 Surfstand SDF（表面数据文件）。"
 
 #: modules/file/sdfile.c:169
 msgid "Surfstand SDF files, binary (.sdf)"
@@ -12769,7 +12769,7 @@ msgstr "绘制漂移曲线图(_G)"
 
 #: modules/process/drift.c:164
 msgid "_Exclude linear skew"
-msgstr "排除线性倾斜(_E)"
+msgstr "排除线性歪斜(_E)"
 
 #: modules/process/drift.c:221 modules/process/drift.c:393
 msgid "Drift"
@@ -13718,7 +13718,7 @@ msgstr "快速拟合(_Q)"
 
 #: modules/process/fit-shape.c:513 modules/process/fit-shape.c:1676
 msgid "Derived Quantities"
-msgstr "导出量"
+msgstr "衍生量"
 
 #: modules/process/fit-shape.c:517
 msgid "Mean square difference:"
@@ -15590,7 +15590,7 @@ msgstr "裁剪两幅图像的非相交区域。"
 
 #: modules/process/mcrop.c:110
 msgid "/M_ultidata/Mutual C_rop..."
-msgstr "/多数据(_U)/交互裁剪(_R)..."
+msgstr "/多数据(_U)/相互裁剪(_R)..."
 
 #: modules/process/mcrop.c:114
 msgid "Crop non-intersecting regions of two images"
@@ -15618,7 +15618,7 @@ msgstr "核相对大小(_K)"
 
 #: modules/process/mcrop.c:238
 msgid "Mutual Crop"
-msgstr "交互裁剪"
+msgstr "相互裁剪"
 
 #: modules/process/mcrop.c:255
 msgid "Second image offset"
@@ -21671,7 +21671,7 @@ msgstr "场"
 
 #: modules/xyz/xyz_raster.c:225
 msgid "_Mask empty regions"
-msgstr "遮蔽空白区域(_M)"
+msgstr "为无数据区域创建掩膜(_M)"
 
 #: modules/xyz/xyz_raster.c:228
 msgid "_Power"

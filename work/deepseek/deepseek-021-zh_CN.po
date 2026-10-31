@@ -186,7 +186,7 @@ msgstr "场"
 
 #: modules/xyz/xyz_raster.c:225
 msgid "_Mask empty regions"
-msgstr "遮蔽空白区域(_M)"
+msgstr "为无数据区域创建掩膜(_M)"
 
 #: modules/xyz/xyz_raster.c:228
 msgid "_Power"

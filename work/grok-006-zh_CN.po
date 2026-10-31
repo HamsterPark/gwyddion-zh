@@ -424,7 +424,7 @@ msgstr "成像文件头大小错误：实际为 %u，应为 %u。"
 #: modules/file/pt3file.c:707
 #, c-format
 msgid "Number of line triggers %u is smaller than the number of scan lines %u."
-msgstr "行触发次数 %u 小于扫描线数 %u。"
+msgstr "扫描线触发次数 %u 小于扫描线数 %u。"
 
 #: modules/file/qnami.c:65
 msgid "Imports Qnami ProteusQ SPM files."

@@ -1,0 +1,448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Traditional, Hong Kong)\n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/quazarnpic.c:427
+#, c-format
+msgid "Invalid stack state for opcode %02x."
+msgstr "操作碼 %02x 的堆疊狀態無效。"
+
+#: modules/file/quazarnpic.c:745
+#, c-format
+msgid "Uknown opcode 0x%02x encountered"
+msgstr "遇到未知操作碼 0x%02x。"
+
+#: modules/file/quesant.c:67
+msgid "Imports Quesant file format."
+msgstr "匯入 Quesant 檔案格式。"
+
+#: modules/file/quesant.c:80
+msgid "Quesant files (.afm)"
+msgstr "Quesant 檔案（.afm）"
+
+#: modules/file/rawfile.c:236
+msgid "User-specified"
+msgstr "用戶指定"
+
+#: modules/file/rawfile.c:237
+msgid "Signed byte"
+msgstr "有符號位元組"
+
+#: modules/file/rawfile.c:238
+msgid "Unsigned byte"
+msgstr "無符號位元組"
+
+#: modules/file/rawfile.c:239
+msgid "Signed 16bit word"
+msgstr "有符號 16 位元字"
+
+#: modules/file/rawfile.c:240
+msgid "Unsigned 16bit word"
+msgstr "無符號 16 位元字"
+
+#: modules/file/rawfile.c:241
+msgid "Signed 32bit word"
+msgstr "有符號 32 位元字"
+
+#: modules/file/rawfile.c:242
+msgid "Unsigned 32bit word"
+msgstr "無符號 32 位元字"
+
+#: modules/file/rawfile.c:243
+msgid "Signed 64bit word"
+msgstr "有符號 64 位元字"
+
+#: modules/file/rawfile.c:244
+msgid "Unsigned 64bit word"
+msgstr "無符號 64 位元字"
+
+#: modules/file/rawfile.c:245
+msgid "IEEE single"
+msgstr "IEEE 單精度"
+
+#: modules/file/rawfile.c:246
+msgid "IEEE double"
+msgstr "IEEE 雙精度"
+
+#: modules/file/rawfile.c:247
+msgid "IEEE half"
+msgstr "IEEE 半精度"
+
+#: modules/file/rawfile.c:248
+msgid "Pascal real"
+msgstr "Pascal 實數"
+
+#: modules/file/rawfile.c:258
+msgid ""
+"Imports raw data files, both ASCII and binary, according to user-specified "
+"format."
+msgstr "按用戶指定的格式匯入原始數據檔案，包括 ASCII 和二進制。"
+
+#: modules/file/rawfile.c:277
+msgid "Raw data files"
+msgstr "原始數據檔案"
+
+#: modules/file/rawfile.c:307
+msgid "Any whitespace"
+msgstr "任意空白"
+
+#: modules/file/rawfile.c:308
+msgid "TAB character"
+msgstr "TAB 字元"
+
+#: modules/file/rawfile.c:309
+msgid "Other character"
+msgstr "其他字元"
+
+#: modules/file/rawfile.c:322
+msgid "_Field delimiter"
+msgstr "欄位分隔符號(_F)"
+
+#: modules/file/rawfile.c:328
+msgid "_Automatically offer raw data import of unknown files"
+msgstr "對未知檔案自動提供原始數據匯入(_A)"
+
+#: modules/file/rawfile.c:337
+msgid "_Text data"
+msgstr "文字數據(_T)"
+
+#: modules/file/rawfile.c:338
+msgid "_Binary data"
+msgstr "二進制數據(_B)"
+
+#: modules/file/rawfile.c:349 modules/file/rawfile.c:350
+msgid "Missin_g value substitute"
+msgstr "缺失值替代(_G)"
+
+#: modules/file/rawfile.c:361
+msgid "Start from file _line"
+msgstr "起始檔案行(_L)"
+
+#: modules/file/rawfile.c:362
+msgid "_Each image row skip"
+msgstr "每個影像列跳過(_E)"
+
+#: modules/file/rawfile.c:363
+msgid "One _value per line"
+msgstr "每行一個數值(_V)"
+
+#: modules/file/rawfile.c:364
+msgid "E_xtract column"
+msgstr "擷取欄(_X)"
+
+#: modules/file/rawfile.c:365
+msgid "_Other delimiter"
+msgstr "其他分隔符號(_O)"
+
+#: modules/file/rawfile.c:370
+msgid "Data t_ype"
+msgstr "數據類型(_Y)"
+
+#: modules/file/rawfile.c:372
+msgid "Byte s_wap pattern"
+msgstr "位元組交換模式(_W)"
+
+#: modules/file/rawfile.c:373
+msgid "Start at _offset"
+msgstr "起始偏移(_O)"
+
+#: modules/file/rawfile.c:374
+msgid "_Sample size"
+msgstr "取樣大小(_S)"
+
+#: modules/file/rawfile.c:375
+msgid "After each sample s_kip"
+msgstr "每個取樣之後跳過(_K)"
+
+#: modules/file/rawfile.c:376
+msgid "After each _row skip"
+msgstr "每行之後跳過(_R)"
+
+#: modules/file/rawfile.c:377
+msgid "_Reverse bits in bytes"
+msgstr "反轉位元組中的位元(_R)"
+
+#: modules/file/rawfile.c:378
+msgid "Reverse bi_ts in samples"
+msgstr "反轉取樣中的位元(_T)"
+
+#: modules/file/rawfile.c:379
+msgid "Samples are si_gned"
+msgstr "取樣為有符號數(_G)"
+
+#: modules/file/rawfile.c:406
+msgid "Raw data import must be run as interactive."
+msgstr "原始數據匯入必須以互動方式執行。"
+
+#: modules/file/rawfile.c:457
+msgid "Read Raw File"
+msgstr "讀取原始檔案"
+
+#: modules/file/rawfile.c:472
+msgid "Data Format"
+msgstr "數據格式"
+
+#: modules/file/rawfile.c:585
+msgid "fields"
+msgstr "欄位"
+
+#: modules/file/rawfile.c:600
+msgid "bytes"
+msgstr "位元組"
+
+#: modules/file/rawfile.c:602 modules/file/rawfile.c:605
+#: modules/file/rawfile.c:608
+msgid "bits"
+msgstr "位元"
+
+#: modules/file/rawfile.c:637
+msgid "Binary"
+msgstr "二進制"
+
+#: modules/file/rawfile.c:637
+msgid "Text"
+msgstr "文字"
+
+#: modules/file/rawfile.c:658
+msgid "Delimiter: whitespace"
+msgstr "分隔符號：空白"
+
+#: modules/file/rawfile.c:661
+#, c-format
+msgid "Delimiter: 0x%02x"
+msgstr "分隔符號：0x%02x"
+
+#: modules/file/rawfile.c:663
+#, c-format
+msgid "Delimiter: %s"
+msgstr "分隔符號：%s"
+
+#: modules/file/rawfile.c:692
+msgid "Info"
+msgstr "資訊"
+
+#: modules/file/rawfile.c:1135
+#, c-format
+msgid ""
+"<b>Too short file</b>\n"
+"The format would require %lu bytes long file (at least), but the length of `%s' is only %u bytes."
+msgstr ""
+"<b>檔案過短</b>\n"
+"此格式至少需要 %lu 位元組，但 `%s’ 的長度只有 %u 位元組。"
+
+#: modules/file/rawfile.c:1166
+#, c-format
+msgid ""
+"<b>Parsing failed</b>\n"
+"The contents of `%s' does not match format: %s."
+msgstr ""
+"<b>解析失敗</b>\n"
+"`%s’ 的內容與格式不符：%s。"
+
+#: modules/file/rawfile.c:1514
+#, c-format
+msgid "Expected whitespace to skip more fields in row %u, got `%.16s'"
+msgstr "第 %u 列需要用空白跳過更多欄位，實際遇到 `%.16s'"
+
+#: modules/file/rawfile.c:1526
+#, c-format
+msgid "Expected `%c' to skip more fields in row %u, got `%.16s'"
+msgstr "需要用 `%c’ 在第 %u 列跳過更多欄位，實際遇到 `%.16s'"
+
+#: modules/file/rawfile.c:1538
+#, c-format
+msgid "Expected `%s' to skip more fields in row %u, got `%.16s'"
+msgstr "需要用 `%s’ 在第 %u 列跳過更多欄位，實際遇到 `%.16s'"
+
+#: modules/file/rawfile.c:1569 modules/file/rawfile.c:1582
+#: modules/file/rawfile.c:1607
+#, c-format
+msgid "Garbage `%.16s' in row %u, column %u"
+msgstr "多餘內容 `%.16s’ 出現在第 %u 列第 %u 欄"
+
+#: modules/file/rawfile.c:1595
+#, c-format
+msgid "Expected delimiter `%c' after data in row %u, column %u, got `%c'"
+msgstr "數據之後應為分隔符號 `%c’，位置在第 %u 列第 %u 欄，實際為 `%c'"
+
+#: modules/file/rawfile.c:1620
+#, c-format
+msgid "Expected delimiter `%s' after data in row %u, column %u, got `%.16s'"
+msgstr "數據之後應為分隔符號 `%s’，位置在第 %u 列第 %u 欄，實際為 `%.16s'"
+
+#: modules/file/rawfile.c:1664
+#, c-format
+msgid "Not enough lines (%d) for offset (%d)"
+msgstr "行數（%d）不足以滿足偏移（%d）"
+
+#: modules/file/rawgraph.c:87
+msgid "Imports simple text files as graph curves."
+msgstr "將簡單文字檔案作為曲線匯入曲線圖。"
+
+#: modules/file/rawgraph.c:100
+msgid "ASCII graph curve files"
+msgstr "ASCII 曲線檔案"
+
+#: modules/file/rawgraph.c:121
+msgid "_Title"
+msgstr "標題(_T)"
+
+#: modules/file/rawgraph.c:123
+msgid "_X label"
+msgstr "X 標籤(_X)"
+
+#: modules/file/rawgraph.c:125
+msgid "_Y label"
+msgstr "Y 標籤(_Y)"
+
+#: modules/file/rawgraph.c:127
+msgid "X _units"
+msgstr "X 單位(_U)"
+
+#: modules/file/rawgraph.c:129
+msgid "Y u_nits"
+msgstr "Y 單位(_N)"
+
+#: modules/file/rawgraph.c:191
+msgid "ASCII graph import must be run as interactive."
+msgstr "ASCII 曲線圖匯入必須以互動方式執行。"
+
+#: modules/file/rawgraph.c:242
+msgid "Import Graph Data"
+msgstr "匯入曲線圖數據"
+
+#: modules/file/renishaw.c:393
+msgid "Imports Renishaw WiRE data files (WDF)."
+msgstr "匯入 Renishaw WiRE 數據檔案（WDF）。"
+
+#: modules/file/renishaw.c:406
+msgid "Renishaw WiRE data files (.wdf)"
+msgstr "Renishaw WiRE 數據檔案（.wdf）"
+
+#: modules/file/renishaw.c:836
+msgid "Random points order unsupported"
+msgstr "不支援隨機點順序。"
+
+#: modules/file/rhk-sm3.c:231
+msgid "Imports RHK Technology SM3 data files."
+msgstr "匯入 RHK Technology SM3 數據檔案。"
+
+#: modules/file/rhk-sm3.c:251
+msgid "RHK SM3 files (.sm3)"
+msgstr "RHK SM3 檔案（.sm3）"
+
+#: modules/file/rhk-sm3.c:323 modules/file/rhk-sm3.c:336
+msgid "End of file reached in page header."
+msgstr "讀取頁檔頭時到達檔案結尾。"
+
+#: modules/file/rhk-sm3.c:327
+msgid "magic page header"
+msgstr "頁標頭魔術數字"
+
+#: modules/file/rhk-sm3.c:397
+#, c-format
+msgid "End of file reached in string #%u."
+msgstr "讀取字串 #%u 時到達檔案結尾。"
+
+#: modules/file/rhk-sm3.c:417
+msgid "End of file reached in color data header."
+msgstr "讀取顏色數據標頭時到達檔案結尾。"
+
+#: modules/file/rhk-sm3.c:424
+msgid "End of file reached in color data."
+msgstr "讀取顏色數據時到達檔案結尾。"
+
+#: modules/file/rhk-sm3.c:666
+#, c-format
+msgid "Unknown line %d"
+msgstr "未知行 %d"
+
+#: modules/file/rhk-sm4.c:438
+msgid "Imports RHK Technology SM4 data files."
+msgstr "匯入 RHK Technology SM4 數據檔案。"
+
+#: modules/file/rhk-sm4.c:458
+msgid "RHK SM4 files (.sm4)"
+msgstr "RHK SM4 檔案（.sm4）"
+
+#: modules/file/rhk-sm4.c:978
+#, c-format
+msgid "Object list in %s is truncated."
+msgstr "%s 中的物件列表被截斷。"
+
+#: modules/file/rhk-sm4.c:992
+#, c-format
+msgid "Object of type %s is truncated."
+msgstr "類型為 %s 的物件被截斷。"
+
+#: modules/file/rhk-sm4.c:1016
+#, c-format
+msgid "Cannot find object %s in %s."
+msgstr "找不到物件 %s，它應位於 %s 之中。"
+
+#: modules/file/rhk-spm32.c:173
+msgid "Imports RHK Technology SPM32 data files."
+msgstr "匯入 RHK Technology SPM32 數據檔案。"
+
+#: modules/file/rhk-spm32.c:193
+msgid "RHK SPM32 files (.sm2)"
+msgstr "RHK SPM32 檔案（.sm2）"
+
+#: modules/file/rhk-spm32.c:366
+msgid "Only image and line files are supported."
+msgstr "僅支援影像檔案和線檔案。"
+
+#: modules/file/rhk-spm32.c:380
+msgid "data type"
+msgstr "數據類型"
+
+#: modules/file/rhk-spm32.c:389
+msgid "data ranges"
+msgstr "數據範圍"
+
+#: modules/file/rhk-spm32.c:453
+msgid "data offset"
+msgstr "數據偏移"
+
+#: modules/file/rmitmd.c:87
+msgid "Imports RMI TMD 3D measurements."
+msgstr "匯入 RMI TMD 三維測量數據。"
+
+#: modules/file/rmitmd.c:100
+msgid "RMI TMD 3D scan files (.tmd)"
+msgstr "RMI TMD 三維掃描檔案（.tmd）"
+
+#: modules/file/robotics.c:77
+msgid "Imports Automation & Robotics Dual Lensmapper data files"
+msgstr "匯入 Automation & Robotics Dual Lensmapper 數據檔案。"
+
+#: modules/file/robotics.c:90
+msgid "Dual Lensmapper files"
+msgstr "Dual Lensmapper 檔案"
+
+#: modules/file/s94file.c:101
+msgid "Imports S94 STM data files."
+msgstr "匯入 S94 掃描隧道顯微鏡數據檔案。"
+
+#: modules/file/s94file.c:114
+msgid "S94 STM files (.s94)"
+msgstr "S94 STM 檔案（.s94）"
+
+#: modules/file/scafile.c:93
+msgid "Imports SCA data files (two-part .sca + .dat)."
+msgstr "匯入 SCA 數據檔案（.sca 與 .dat 兩部分）。"

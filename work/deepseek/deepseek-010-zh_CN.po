@@ -398,7 +398,7 @@ msgstr "裁剪两幅图像的非相交区域。"
 
 #: modules/process/mcrop.c:110
 msgid "/M_ultidata/Mutual C_rop..."
-msgstr "/多数据(_U)/交互裁剪(_R)..."
+msgstr "/多数据(_U)/相互裁剪(_R)..."
 
 #: modules/process/mcrop.c:114
 msgid "Crop non-intersecting regions of two images"

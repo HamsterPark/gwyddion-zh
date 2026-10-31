@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Traditional, Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/imgexport.c:3066 modules/file/imgexport.c:3602
+msgid "Lateral Scale"
+msgstr "橫向標尺"
+
+#: modules/file/imgexport.c:3070
+msgid "Choose Length _Automatically"
+msgstr "自動選擇長度(_A)"
+
+#: modules/file/imgexport.c:3104
+msgid "Value Scale"
+msgstr "數值標尺"
+
+#: modules/file/imgexport.c:3111 modules/file/imgexport.c:3472
+msgid "Title"
+msgstr "標題"
+
+#: modules/file/imgexport.c:3470
+msgid "Lateral"
+msgstr "橫向"
+
+#: modules/file/imgexport.c:3583
+msgid "Export as 1_6 bit grayscale"
+msgstr "匯出為 16 位元灰階(_6)"
+
+#: modules/file/imgexport.c:3603
+msgid "Values"
+msgstr "數值"
+
+#: modules/file/imgexport.c:3604
+msgid "Selection"
+msgstr "選取範圍"
+
+#: modules/file/imgexport.c:4250
+#, c-format
+msgid "Cairo error occurred: %s"
+msgstr "發生 Cairo 錯誤：%s"
+
+#: modules/file/imgexport.c:4282
+#, c-format
+msgid "Pixbuf save failed: %s."
+msgstr "Pixbuf 儲存失敗：%s。"
+
+#: modules/file/imgexport.c:4551
+msgid "Image is too large to be stored as TARGA."
+msgstr "影像過大，無法儲存為 TARGA。"
+
+#: modules/file/imgexport.c:4649
+#, c-format
+msgid "libjxl error occurred (%s)"
+msgstr "發生 libjxl 錯誤（%s）"
+
+#: modules/file/intelliwave.c:226
+msgid "Imports IntelliWave interferometric ESD data."
+msgstr "匯入 IntelliWave 干涉 ESD 資料。"
+
+#: modules/file/intelliwave.c:239
+msgid "IntelliWave interferometric data (.esd)"
+msgstr "IntelliWave 干涉資料（.esd）"
+
+#: modules/file/intelliwave.c:297
+#, c-format
+msgid ""
+"Invalid data address 0x%0x found.  File is in some unknown format version."
+msgstr "發現無效的資料地址 0x%0x。檔案屬於某種未知的格式版本。"
+
+#: modules/file/intematix.c:117
+msgid "Imports Intematix SDF data files."
+msgstr "匯入 Intematix SDF 資料檔案。"
+
+#: modules/file/intematix.c:130
+msgid "Intematix SDF data files (.sdf)"
+msgstr "Intematix SDF 資料檔案（.sdf）"
+
+#: modules/file/intematix.c:275
+msgid "image depth"
+msgstr "影像深度"
+
+#: modules/file/iso28600.c:356
+msgid "Imports and exports ISO 28600:2011 SPM data transfer format."
+msgstr "匯入並匯出 ISO 28600:2011 掃描探針顯微資料傳輸格式。"
+
+#: modules/file/iso28600.c:371
+msgid "ISO 28600:2011 SPM data transfer files (.spm)"
+msgstr "ISO 28600:2011 掃描探針顯微資料傳輸檔案（.spm）"
+
+#: modules/file/iso28600.c:457
+#, c-format
+msgid ""
+"Only regular and irregular mappings are implemented but the file has mapping"
+" type ‘%s’."
+msgstr "僅實作了規則對映和不規則對映，但檔案的對映型別為 ‘%s’。"
+
+#: modules/file/iso28600.c:483 modules/file/iso28600.c:489
+#: modules/file/iso28600.c:495
+#, c-format
+msgid "List ‘%s’ has %u items which differs from the number %u given by ‘%s’."
+msgstr "清單 ‘%s’ 含有 %u 項，這與數量 %u 不同，後者由 ‘%s’ 給出。"
+
+#: modules/file/iso28600.c:580 modules/file/iso28600.c:666
+#: modules/file/iso28600.c:789
+msgid "Missing end-of-data marker."
+msgstr "缺少資料結束標記。"
+
+#: modules/file/iso28600.c:931
+#, c-format
+msgid "Line %u does not contain mandatory label ‘%s’."
+msgstr "第 %u 行缺少必要標籤 ‘%s’。"
+
+#: modules/file/jeol.c:420
+msgid "Imports JEOL data files."
+msgstr "匯入 JEOL 資料檔案。"
+
+#: modules/file/jeol.c:433
+msgid "JEOL data files (.tif)"
+msgstr "JEOL 資料檔案（.tif）"
+
+#: modules/file/jeoltem.c:122
+msgid "Imports JEOL TEM images."
+msgstr "匯入 JEOL 穿透式電鏡影像。"
+
+#: modules/file/jeoltem.c:135
+msgid "JEOL TIF TEM image (.tif)"
+msgstr "JEOL TIF 穿透式電鏡影像（.tif）"
+
+#: modules/file/jpkscan.c:285
+msgid "Imports JPK image scans."
+msgstr "匯入 JPK 影像掃描。"
+
+#: modules/file/jpkscan.c:298
+msgid "JPK image scans (.jpk, .jpk-qi-image)"
+msgstr "JPK 影像掃描（.jpk、.jpk-qi-image）"
+
+#: modules/file/jpkscan.c:305
+msgid "JPK force curves (.jpk-force, .jpk-force-map, .jpk-qi-data)"
+msgstr "JPK 力曲線（.jpk-force、.jpk-force-map、.jpk-qi-data）"
+
+#: modules/file/jpkscan.c:369
+msgid "File does not contain grid dimensions."
+msgstr "檔案中沒有網格尺寸。"
+
+#: modules/file/jpkscan.c:671 modules/file/jpkscan.c:2445
+#, c-format
+msgid "Scanning file (%u curves)..."
+msgstr "正在掃描檔案（%u 條曲線）..."
+
+#: modules/file/jpkscan.c:723
+msgid "Creating volume data..."
+msgstr "正在建立體資料..."
+
+#: modules/file/jpkscan.c:861
+msgid "Non-uniform point and/or segment numbering is not supported."
+msgstr "不支援不均勻的點編號和／或區段編號。"
+
+#: modules/file/jpkscan.c:869
+msgid "Non-uniform channel lists are not supported."
+msgstr "不支援不均勻的通道清單。"
+
+#: modules/file/jpkscan.c:877
+#, c-format
+msgid "Data file %s was found instead of expected %s."
+msgstr "找到的資料檔案為 %s，而非預期的 %s。"
+
+#: modules/file/jpkscan.c:1674
+#, c-format
+msgid "Header properties file for index %u is missing."
+msgstr "缺少索引 %u 的檔頭屬性檔案。"
+
+#: modules/file/jpkscan.c:2257
+msgid "Cannot find any height channel."
+msgstr "找不到任何高度通道。"
+
+#: modules/file/jspmfile.c:185
+msgid "Imports JEOL JSPM data files."
+msgstr "匯入 JEOL JSPM 資料檔案。"
+
+#: modules/file/jspmfile.c:198
+msgid "JEOL JSPM data files (.tif)"
+msgstr "JEOL JSPM 資料檔案（.tif）"
+
+#: modules/file/jspmfile.c:275
+#, c-format
+msgid "Header block %u has invalid position or size."
+msgstr "檔頭塊 %u 的位置或大小無效。"
+
+#: modules/file/jspmfile.c:354 modules/file/jspmfile.c:361
+#: modules/file/jspmfile.c:413 modules/file/jspmfile.c:420
+msgid "Cannot find image header block."
+msgstr "找不到影像檔頭塊。"
+
+#: modules/file/jspmfile.c:462
+msgid "Cannot find piezo header block."
+msgstr "找不到壓電檔頭塊。"
+
+#: modules/file/keyence.c:442
+msgid "Imports Keyence VK3, VK4, VK6 and VK7 files."
+msgstr "匯入 Keyence VK3、VK4、VK6 和 VK7 檔案。"
+
+#: modules/file/keyence.c:455
+msgid "Keyence VK3 data files (.vk3)"
+msgstr "Keyence VK3 資料檔案（.vk3）"
+
+#: modules/file/keyence.c:461
+msgid "Keyence VK4 data files (.vk4)"
+msgstr "Keyence VK4 資料檔案（.vk4）"
+
+#: modules/file/keyence.c:468
+msgid "Keyence VK6 data files (.vk6)"
+msgstr "Keyence VK6 資料檔案（.vk6）"
+
+#: modules/file/keyence.c:474
+msgid "Keyence VK7 data files (.vk7)"
+msgstr "Keyence VK7 資料檔案（.vk7）"
+
+#: modules/file/lafmdmap.c:73
+msgid "Exports volume data as LAFM density map."
+msgstr "將體資料匯出為 LAFM 密度圖。"
+
+#: modules/file/lafmdmap.c:86
+msgid "LAFM density map (.afm)"
+msgstr "LAFM 密度圖（.afm）"
+
+#: modules/file/leica.c:189
+msgid "Imports Leica CLSM image files (LIF)."
+msgstr "匯入 Leica 共軛焦雷射掃描顯微鏡影像檔案（LIF）。"
+
+#: modules/file/leica.c:202
+msgid "Leica LIF image files (.lif)"
+msgstr "Leica LIF 影像檔案（.lif）"
+
+#: modules/file/leica.c:804
+#, c-format
+msgid "Wrong XML element %s."
+msgstr "XML 元素 %s 不正確。"
+
+#: modules/file/lextfile.c:84
+msgid "Imports LEXT data files."
+msgstr "匯入 LEXT 資料檔案。"
+
+#: modules/file/lextfile.c:97
+msgid "Olympus LEXT OLS4000 (.lext)"
+msgstr "Olympus LEXT OLS4000（.lext）"
+
+#: modules/file/magellan.c:62
+msgid "Imports FEI Magellan SEM images."
+msgstr "匯入 FEI Magellan 掃描電鏡影像。"
+
+#: modules/file/magellan.c:75
+msgid "FEI Magellan SEM image (.tif)"
+msgstr "FEI Magellan 掃描電鏡影像（.tif）"
+
+#: modules/file/mapvue.c:461
+msgid "Imports MapVue data files (.map)."
+msgstr "匯入 MapVue 資料檔案（.map）。"
+
+#: modules/file/mapvue.c:474
+msgid "MapVue files (.map)"
+msgstr "MapVue 檔案（.map）"
+
+#: modules/file/mapvue.c:548 modules/file/mapvue.c:576
+#, c-format
+msgid "Required tag %u or %u was not found."
+msgstr "未找到必要的標籤 %u 或 %u。"
+
+#: modules/file/mapvue.c:785
+msgid "File end was reached while scanning tags."
+msgstr "掃描標籤時已到達檔案結尾。"
+
+#: modules/file/mapvue.c:797
+#, c-format
+msgid "Expected tag %u size is %u bytes, but the actual size is %u bytes."
+msgstr "標籤 %u 的預期大小為 %u 位元組，實際為 %u 位元組。"
+
+#: modules/file/mapvue.c:810
+#, c-format
+msgid "Tag %u size is %u bytes, which is not enough to hold the tag marker."
+msgstr "標籤 %u 的大小為 %u 位元組，不足以容納標籤標記。"
+
+#: modules/file/mapvue.c:819 modules/file/mapvue.c:829
+#, c-format
+msgid ""
+"Tag %u size is %u bytes, which is not enough to hold the tag marker and "
+"size."
+msgstr "標籤 %u 的大小為 %u 位元組，不足以容納標籤標記及其大小。"
+
+#: modules/file/mapvue.c:838
+#, c-format
+msgid "Tag marker is missing on an unknown tag %u."
+msgstr "未知標籤 %u 缺少標籤標記。"
+
+#: modules/file/mapvue.c:856 modules/file/mapvue.c:866
+msgid "Character array does not fit into the file."
+msgstr "字元陣列超出檔案範圍。"
+
+#: modules/file/mapvue.c:883 modules/file/mapvue.c:894
+#: modules/file/mapvue.c:904
+msgid "Fiducial record does not fit into the file."
+msgstr "基準記錄超出檔案範圍。"
+
+#: modules/file/mapvue.c:1128
+#, c-format
+msgid "Tag %u size is %u which is not sufficient to hold its content."
+msgstr "標籤 %u 的大小 %u 不足以容納其內容。"
+
+#: modules/file/matfile.c:189
+msgid "Imports Matlab MAT files v5."
+msgstr "匯入 Matlab MAT 第 5 版檔案。"
+
+#: modules/file/matfile.c:202
+msgid "Matlab MAT 5 file (.mat)"
+msgstr "Matlab MAT 5 檔案（.mat）"
+
+#: modules/file/matfile.c:268
+msgid "Compressed data inside compressed data found."
+msgstr "在壓縮資料內部又發現了壓縮資料。"
+
+#: modules/file/matfile.c:301
+#, c-format
+msgid "Invalid short tag of type %u claims to consists of %u bytes."
+msgstr "型別為 %u 的短標籤無效，卻聲稱由 %u 位元組組成。"
+
+#: modules/file/metropro.c:337
+msgid "Imports binary MetroPro (Zygo) data files."
+msgstr "匯入 MetroPro（Zygo）二進位資料檔案。"
+
+#: modules/file/metropro.c:350
+msgid "MetroPro files (.dat)"
+msgstr "MetroPro 檔案（.dat）"
+
+#: modules/file/metropro.c:522
+msgid "File header is larger than file."
+msgstr "檔頭比檔案本身還大。"
+
+#: modules/file/microprof.c:972
+msgid "Imports MicroProf FRT profilometer data files."
+msgstr "匯入 MicroProf FRT 輪廓儀資料檔案。"
+
+#: modules/file/microprof.c:985
+msgid "MicroProf FRT files (.frt)"
+msgstr "MicroProf FRT 檔案（.frt）"
+
+#: modules/file/microprof.c:991
+msgid "MicroProf FRT text files (.txt)"
+msgstr "MicroProf FRT 文字檔案（.txt）"
+
+#: modules/file/microprof.c:1288
+#, c-format
+msgid "Duplicate block %02x."
+msgstr "塊 %02x 重複。"
+
+#: modules/file/microprof.c:2581
+msgid "File contains fewer than XSize*YSize data points."
+msgstr "檔案中的資料點少於 XSize*YSize。"
+
+#: modules/file/miffile.c:196
+msgid "Imports DME MIF data files."
+msgstr "匯入 DME MIF 資料檔案。"
+
+#: modules/file/miffile.c:209
+msgid "DME MIF files (.mif)"
+msgstr "DME MIF 檔案（.mif）"
+
+#: modules/file/miffile.c:236
+msgid "Image header record is too short."
+msgstr "影像檔頭記錄過短。"
+
+#: modules/file/miffile.c:244
+msgid "Axis display info record is too short."
+msgstr "座標軸顯示資訊記錄過短。"
+
+#: modules/file/miffile.c:277
+#, c-format
+msgid "Loading of file version %u.%u is not implemented."
+msgstr "尚未實作檔案版本 %u.%u 的載入。"
+
+#: modules/file/miffile.c:295
+msgid "File information block is outside the file."
+msgstr "檔案資訊塊位於檔案之外。"
+
+#: modules/file/miffile.c:330
+msgid "File information block size is invalid."
+msgstr "檔案資訊塊的大小無效。"
+
+#: modules/file/miffile.c:395
+msgid "Unique id record is too short."
+msgstr "唯一識別記錄過短。"
+
+#: modules/file/mifile.c:191
+msgid "Imports Molecular Imaging MI data files."
+msgstr "匯入 Molecular Imaging MI 資料檔案。"
+
+#: modules/file/mifile.c:204
+msgid "PicoView Data Files (.mi)"
+msgstr "PicoView 資料檔案（.mi）"
+
+#: modules/file/mifile.c:470
+msgid "Spectroscopy Graph"
+msgstr "譜圖"
+
+#: modules/file/mulfile.c:156
+msgid "Imports Aarhus MUL files."
+msgstr "匯入 Aarhus MUL 檔案。"
+
+#: modules/file/mulfile.c:169
+msgid "Aarhus MUL files (.mul)"
+msgstr "Aarhus MUL 檔案（.mul）"
+
+#: modules/file/mulfile.c:286
+#, c-format
+msgid ""
+"Image number in the label %u does not match the number %u in the index."
+msgstr "標籤中的影像編號 %u 與索引中的編號 %u 不符。"
+
+#: modules/file/mulfile.c:333 modules/file/mulfile.c:342
+#, c-format
+msgid "Label string length %u is larger than 20."
+msgstr "標籤字串長度 %u 大於 20。"
+
+#: modules/file/nanoeducator.c:287
+msgid "Imports Nanoeducator data files."
+msgstr "匯入 Nanoeducator 資料檔案。"
+
+#: modules/file/nanoeducator.c:300
+msgid "Nanoeducator files (.mspm, .spm, .stm)"
+msgstr "Nanoeducator 檔案（.mspm、.spm、.stm）"
+
+#: modules/file/nanoeducator.c:382 modules/file/nanoeducator.c:420
+#: modules/file/nanoeducator.c:513
+msgid "Image data starts past the end of file."
+msgstr "影像資料的起始位置超出檔案結尾。"
+
+#: modules/file/nanoeducator.c:457
+msgid "Spectra data starts past the end of file."
+msgstr "譜資料的起始位置超出檔案結尾。"

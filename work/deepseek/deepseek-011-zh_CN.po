@@ -26,7 +26,7 @@ msgstr "核相对大小(_K)"
 
 #: modules/process/mcrop.c:238
 msgid "Mutual Crop"
-msgstr "交互裁剪"
+msgstr "相互裁剪"
 
 #: modules/process/mcrop.c:255
 msgid "Second image offset"

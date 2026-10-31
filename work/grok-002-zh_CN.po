@@ -35,11 +35,11 @@ msgstr "根据文件头算出的预期数据大小为 %u 字节，实际大小�
 #: modules/file/err.h:111
 #, c-format
 msgid "File component/item ‘%s’ is truncated."
-msgstr "文件组件 ‘%s’ 不完整。"
+msgstr "文件组件 ‘%s’ 被截断。"
 
 #: modules/file/err.h:118
 msgid "File header is truncated."
-msgstr "文件头不完整。"
+msgstr "文件头被截断。"
 
 #: modules/file/err.h:136
 #, c-format

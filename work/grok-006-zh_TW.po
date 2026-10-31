@@ -1,0 +1,448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR "David Necas (Yeti) & Petr Klapetek"
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion 2.71\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-04-14 16:13+0200\n"
+"PO-Revision-Date: 2026-10-30 00:00+0800\n"
+"Last-Translator: Gwyddion Chinese localization contributors\n"
+"Language-Team: Chinese (Traditional, Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: modules/file/nxiifile.c:116
+msgid "Imports EM4SYS data files."
+msgstr "匯入 EM4SYS 資料檔案。"
+
+#: modules/file/nxiifile.c:129
+msgid "EM4SYS NX II files (.bmp)"
+msgstr "EM4SYS NX II 檔案（.bmp）"
+
+#: modules/file/oirfile.c:241
+msgid "Imports Olympus OIR data files."
+msgstr "匯入 Olympus OIR 資料檔案。"
+
+#: modules/file/oirfile.c:258
+msgid "Olympus OIR data files (.oir)"
+msgstr "Olympus OIR 資料檔案（.oir）"
+
+#: modules/file/oirfile.c:265
+msgid "Olympus packed OIR data files (.poir)"
+msgstr "Olympus 打包的 OIR 資料檔案（.poir）"
+
+#: modules/file/oirfile.c:446 modules/file/oirfile.c:459
+#: modules/file/oirfile.c:484
+#, c-format
+msgid "Chunk type %u occured multiple times."
+msgstr "區塊型別 %u 出現了多次。"
+
+#: modules/file/oldmda.c:152
+msgid "Imports old NTMDT MDA Spectra files."
+msgstr "匯入舊版 NTMDT MDA 譜檔案。"
+
+#: modules/file/oldmda.c:165
+msgid "NTMDT old MDA Spectra data (.sxml .dat)"
+msgstr "NTMDT 舊版 MDA 譜資料（.sxml .dat）"
+
+#: modules/file/oldmda.c:237
+msgid "Incorrect number of axes in parameter file."
+msgstr "參數檔案中的軸數不正確。"
+
+#: modules/file/oldmda.c:252
+#, c-format
+msgid "Cannot load data file: %s"
+msgstr "無法載入資料檔案：%s"
+
+#: modules/file/oldmda.c:260
+msgid "Data file is too short."
+msgstr "資料檔案過短。"
+
+#: modules/file/ols.c:61
+msgid "Imports OLS data files."
+msgstr "匯入 OLS 資料檔案。"
+
+#: modules/file/ols.c:74
+msgid "Olympus LEXT OLS3000 (.ols)"
+msgstr "Olympus LEXT OLS3000（.ols）"
+
+#: modules/file/ometiff.c:150
+msgid "Imports OME-TIFF data files."
+msgstr "匯入 OME-TIFF 資料檔案。"
+
+#: modules/file/ometiff.c:163
+msgid "Open Microscopy OME-TIFF (.ome.tiff)"
+msgstr "Open Microscopy OME-TIFF（.ome.tiff）"
+
+#: modules/file/ometiff.c:590
+#, c-format
+msgid "ZTC coordinates (%u,%u,%u) fall outside the given ranges."
+msgstr "ZTC 座標 (%u,%u,%u) 超出給定範圍。"
+
+#: modules/file/ometiff.c:596
+msgid ""
+"The OME TIFF header specifies more TIFF directories than there are in the "
+"file."
+msgstr "OME TIFF 檔頭指定的 TIFF 目錄數多於檔案中實際存在的目錄。"
+
+#: modules/file/ometiff.c:602
+#, c-format
+msgid "TIFF directory %u is assigned to multiple conflicting ZTC coordinates."
+msgstr "TIFF 目錄 %u 被賦予了多個相互衝突的 ZTC 座標。"
+
+#: modules/file/omicron.c:160
+msgid "Imports Omicron data files (two-part .par + .tf*, .tb*, .sf*, .sb*)."
+msgstr "匯入 Omicron 資料檔案（.par 與 .tf*、.tb*、.sf*、.sb* 兩部分）。"
+
+#: modules/file/omicron.c:173
+msgid "Omicron files (.par + data)"
+msgstr "Omicron 檔案（.par + 資料）"
+
+#: modules/file/omicron.c:407
+msgid "Header line starts with a colon."
+msgstr "檔頭行以冒號開頭。"
+
+#: modules/file/omicron.c:503
+msgid "Channel information ended unexpectedly."
+msgstr "通道資訊意外結束。"
+
+#: modules/file/omicronflat.c:359
+msgid "Imports Omicron flat files."
+msgstr "匯入 Omicron flat 檔案。"
+
+#: modules/file/omicronflat.c:372
+msgid "Omicron flat files (*.*_flat)"
+msgstr "Omicron flat 檔案（*.*_flat）"
+
+#: modules/file/omicronflat.c:1710
+msgid "File name does not have the expected form for Omicron Flat files."
+msgstr "檔名不符合 Omicron Flat 檔案的預期形式。"
+
+#: modules/file/omicronflat.c:2123
+msgid "Cannot understand the axis hierarchy."
+msgstr "無法識別座標軸的階層關係。"
+
+#. TRANSLATORS: %s is replaced with an expression of the data shape.
+#: modules/file/omicronflat.c:2539
+#, c-format
+msgid "Cannot figure out how to load data in the following form: %s."
+msgstr "無法確定如何載入以下形式的資料：%s。"
+
+#: modules/file/omicronmatrix.c:219
+msgid "Omicron MATRIX (param.mtrx & data.mtrx)"
+msgstr "Omicron MATRIX（param.mtrx 和 data.mtrx）"
+
+#: modules/file/omicronmatrix.c:235
+msgid "Omicron MATRIX (.mtrx & .mtrx)"
+msgstr "Omicron MATRIX（.mtrx 和 .mtrx）"
+
+#: modules/file/opdfile.c:194
+msgid "Imports Wyko OPD and ASC files."
+msgstr "匯入 Wyko OPD 和 ASC 檔案。"
+
+#: modules/file/opdfile.c:207
+msgid "Wyko OPD files (.opd)"
+msgstr "Wyko OPD 檔案（.opd）"
+
+#: modules/file/opdfile.c:214
+msgid "Wyko ASCII export files (.asc)"
+msgstr "Wyko ASCII 匯出檔案（.asc）"
+
+#: modules/file/opdfile.c:301
+#, c-format
+msgid "Item `%s' is beyond the end of the file."
+msgstr "項 `%s’ 超出了檔案結尾。"
+
+#: modules/file/opdfile.c:599
+msgid "Nested directories found"
+msgstr "發現巢狀目錄。"
+
+#: modules/file/opengps.c:131
+msgid "Reads ISO 5436-2 OpenGPS .x3p files."
+msgstr "讀取 ISO 5436-2 OpenGPS .x3p 檔案。"
+
+#: modules/file/opengps.c:144
+msgid "ISO 5436-2 OpenGPS data (.x3p)"
+msgstr "ISO 5436-2 OpenGPS 資料（.x3p）"
+
+#: modules/file/opengps.c:402 modules/file/opengps.c:433
+msgid "Too many DataList items for given matrix dimensions."
+msgstr "相對於給定的矩陣尺寸，DataList 項過多。"
+
+#: modules/file/opengps.c:514
+msgid "File main.xml contains multiple data elements."
+msgstr "檔案 main.xml 包含多個 data 元素。"
+
+#. TRANSLATORS: type and axis are symbols such as I, CX, ...
+#: modules/file/opengps.c:543 modules/file/opengps.c:551
+#: modules/file/opengps.c:559
+#, c-format
+msgid "Only type %s is supported for axis %s."
+msgstr "型別 %s 是座標軸 %s 唯一支援的型別。"
+
+#: modules/file/phoenix.c:215
+msgid "Imports AFM data files from NASA Phoenix Mars mission."
+msgstr "匯入 NASA 鳳凰號火星任務的 AFM 資料檔案。"
+
+#: modules/file/phoenix.c:228
+msgid "AFM data from NASA Phoenix mission (.dat, .lbl + .tab)"
+msgstr "NASA 鳳凰號任務的 AFM 資料（.dat、.lbl + .tab）"
+
+#: modules/file/phoenix.c:475
+#, c-format
+msgid "No previous record to continue at line %u."
+msgstr "第 %u 行沒有可以繼續的上一條記錄。"
+
+#: modules/file/phoenix.c:508
+#, c-format
+msgid "Invalid object nesting at line %u."
+msgstr "第 %u 行的物件巢狀無效。"
+
+#: modules/file/phoenix.c:1018
+msgid "Cannot parse AFM HEADER_TABLE values."
+msgstr "無法剖析 AFM HEADER_TABLE 的值。"
+
+#: modules/file/pixmap.c:173
+msgid "All channels"
+msgstr "全部通道"
+
+#: modules/file/pixmap.c:174
+msgid "Red"
+msgstr "紅"
+
+#: modules/file/pixmap.c:175
+msgid "Green"
+msgstr "綠"
+
+#: modules/file/pixmap.c:176
+msgid "Blue"
+msgstr "藍"
+
+#: modules/file/pixmap.c:177
+msgid "Gray"
+msgstr "灰"
+
+#: modules/file/pixmap.c:178
+msgid "Value (max)"
+msgstr "明度（最大）"
+
+#: modules/file/pixmap.c:179
+msgid "RGB sum"
+msgstr "RGB 之和"
+
+#: modules/file/pixmap.c:180
+msgid "Luma"
+msgstr "亮度"
+
+#: modules/file/pixmap.c:181
+msgid "Hue"
+msgstr "色相"
+
+#: modules/file/pixmap.c:182
+msgid "Alpha"
+msgstr "Alpha"
+
+#: modules/file/pixmap.c:198
+msgid "Graphics Interchange Format GIF (.gif)"
+msgstr "圖形交換格式 GIF（.gif）"
+
+#: modules/file/pixmap.c:199
+msgid "JPEG 2000 (.jpx)"
+msgstr "JPEG 2000（.jpx）"
+
+#: modules/file/pixmap.c:201
+msgid "PCX (.pcx)"
+msgstr "PCX（.pcx）"
+
+#: modules/file/pixmap.c:202
+msgid "X Pixmap (.xpm)"
+msgstr "X Pixmap（.xpm）"
+
+#: modules/file/pixmap.c:203
+msgid "Sun raster image (.ras)"
+msgstr "Sun 點陣影像（.ras）"
+
+#: modules/file/pixmap.c:204
+msgid "Apple icon (.icns)"
+msgstr "Apple 圖示（.icns）"
+
+#: modules/file/pixmap.c:206
+msgid "High Efficiency Image File Format (.heif)"
+msgstr "高效影像檔案格式（.heif）"
+
+#: modules/file/pixmap.c:215
+msgid ""
+"Imports data from low-depth pixmap images (PNG, TIFF, JPEG, ...).  The set "
+"of available formats depends on available GDK pixbuf loaders."
+msgstr "從低位元深度點陣圖（PNG、TIFF、JPEG 等）匯入資料。可用格式取決於已安裝的 GDK pixbuf 載入器。"
+
+#: modules/file/pixmap.c:285
+msgid "_Hue offset"
+msgstr "色相偏移(_H)"
+
+#: modules/file/pixmap.c:466
+#, c-format
+msgid "Pixmap has not registered file type `%s'."
+msgstr "點陣圖模組尚未註冊檔案型別 `%s’。"
+
+#: modules/file/pixmap.c:480
+#, c-format
+msgid "Cannot get pixbuf loader: %s."
+msgstr "無法取得 pixbuf 載入器：%s。"
+
+#: modules/file/pixmap.c:741
+msgid "as data"
+msgstr "作為資料"
+
+#: modules/file/pixmap.c:749
+msgid ""
+"Warning: Colorful images cannot be reliably mapped to meaningful values."
+msgstr "警告：彩色影像無法可靠地對映為有意義的數值。"
+
+#: modules/file/pltfile.c:75
+msgid "Imports Nanosurf PLT files."
+msgstr "匯入 Nanosurf PLT 檔案。"
+
+#: modules/file/pltfile.c:88
+msgid "Nanosurf PLT files (.plt)"
+msgstr "Nanosurf PLT 檔案（.plt）"
+
+#: modules/file/pnifile.c:114
+msgid "Imports Pacific Nanotechnology PNI data files."
+msgstr "匯入 Pacific Nanotechnology PNI 資料檔案。"
+
+#: modules/file/pnifile.c:127
+msgid "PNI files (.pni)"
+msgstr "PNI 檔案（.pni）"
+
+#: modules/file/princetonspe.c:106
+msgid "Princeton Instruments camera SPE files."
+msgstr "Princeton Instruments 相機 SPE 檔案。"
+
+#: modules/file/princetonspe.c:119
+msgid "Princeton Instruments SPE files"
+msgstr "Princeton Instruments SPE 檔案"
+
+#: modules/file/princetonspe.c:317
+msgid "XML footer overlaps with data."
+msgstr "XML 尾端與資料重疊。"
+
+#: modules/file/psia.c:245
+msgid "Imports Park Systems data files."
+msgstr "匯入 Park Systems 資料檔案。"
+
+#: modules/file/psia.c:258
+msgid "Park Systems data files (.tiff, .tif)"
+msgstr "Park Systems 資料檔案（.tiff、.tif）"
+
+#: modules/file/psia.c:500
+#, c-format
+msgid "Header is too short (only %lu bytes)."
+msgstr "檔頭過短（僅 %lu 位元組）。"
+
+#: modules/file/psia.c:604
+#, c-format
+msgid "Spectroscopy header is too short (only %lu bytes)."
+msgstr "譜檔頭過短（僅 %lu 位元組）。"
+
+#: modules/file/psppt.c:142
+msgid "Imports Park Systems PS-PPT data files."
+msgstr "匯入 Park Systems PS-PPT 資料檔案。"
+
+#: modules/file/psppt.c:155
+msgid "Park Systems PS-PPT data files (.ps-ppt)"
+msgstr "Park Systems PS-PPT 資料檔案（.ps-ppt）"
+
+#: modules/file/psppt.c:239
+msgid "Frame offsets do not increase monotonically."
+msgstr "幀偏移沒有單調遞增。"
+
+#: modules/file/psppt.c:267
+#, c-format
+msgid "Unexpected frame with data type %d."
+msgstr "出現意外的幀，其資料型別為 %d。"
+
+#: modules/file/psppt.c:290
+#, c-format
+msgid "Unexpected JSON structure: %s should be %s."
+msgstr "JSON 結構異常：%s 應為 %s。"
+
+#: modules/file/psppt.c:335
+#, c-format
+msgid "JSON parsing error: %s"
+msgstr "JSON 剖析錯誤：%s"
+
+#: modules/file/psppt.c:620
+msgid "Reading frame table..."
+msgstr "正在讀取幀表..."
+
+#: modules/file/psppt.c:627
+msgid "Reading curve data..."
+msgstr "正在讀取曲線資料..."
+
+#: modules/file/pt3file.c:288
+msgid "Imports SymPhoTime data files, version 2.0."
+msgstr "匯入 2.0 版 SymPhoTime 資料檔案。"
+
+#: modules/file/pt3file.c:301
+msgid "PicoHarp files (.pt3)"
+msgstr "PicoHarp 檔案（.pt3）"
+
+#: modules/file/pt3file.c:387
+msgid "T2 measurement mode is not implemented."
+msgstr "尚未實作 T2 量測模式。"
+
+#: modules/file/pt3file.c:393
+msgid "Only PI E710 and KDT180-100-Im imaging formats are implemented."
+msgstr "僅實作了 PI E710 和 KDT180-100-Im 成像格式。"
+
+#: modules/file/pt3file.c:518
+#, c-format
+msgid "Measurement mode must be 2 or 3; %u is invalid."
+msgstr "量測模式必須為 2 或 3；%u 無效。"
+
+#: modules/file/pt3file.c:524 modules/file/pt3file.c:536
+msgid "Only area imaging files are supported."
+msgstr "僅支援區域成像檔案。"
+
+#: modules/file/pt3file.c:555
+#, c-format
+msgid "Unknown instrument number %u."
+msgstr "未知的儀器編號 %u。"
+
+#: modules/file/pt3file.c:561
+#, c-format
+msgid "Wrong imaging header size: %u instead of %u."
+msgstr "成像檔頭大小錯誤：實際為 %u，應為 %u。"
+
+#: modules/file/pt3file.c:707
+#, c-format
+msgid ""
+"Number of line triggers %u is smaller than the number of scan lines %u."
+msgstr "掃描線觸發次數 %u 小於掃描線數 %u。"
+
+#: modules/file/qnami.c:65
+msgid "Imports Qnami ProteusQ SPM files."
+msgstr "匯入 Qnami ProteusQ 掃描探針顯微檔案。"
+
+#: modules/file/qnami.c:78
+msgid "Qnami ProteusQ files (.dat)"
+msgstr "Qnami ProteusQ 檔案（.dat）"
+
+#: modules/file/qnami.c:207
+msgid "Invalid file header structure."
+msgstr "檔頭結構無效。"
+
+#: modules/file/quazarnpic.c:369
+msgid "Imports Quazar data files stored as Python pickles v4."
+msgstr "匯入以 Python pickle 第 4 版儲存的 Quazar 資料檔案。"
+
+#: modules/file/quazarnpic.c:382
+msgid "Quazar Python-pickled data (.npic)"
+msgstr "Quazar Python pickle 資料（.npic）"

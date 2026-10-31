@@ -161,7 +161,7 @@ msgstr "无法解析 `Scan size’ 字段。"
 
 #: modules/file/nanoscope.c:2579
 msgid "Truncated header line."
-msgstr "文件头行不完整。"
+msgstr "文件头行被截断。"
 
 #: modules/file/nanosystemz.c:95
 msgid "Imports NanoSystem profilometry data files."

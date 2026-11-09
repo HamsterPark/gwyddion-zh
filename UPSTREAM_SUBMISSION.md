@@ -54,7 +54,7 @@ Hamster Park (Yuanhao Lyu)
 
 David 于北京时间 19:23 回信。官方 SVN r30752 已收录首次提交的三份中文稿，r30749 已修复 Volume 上下文。本轮更新记录见 [UPSTREAM_UPDATE_20261109.md](UPSTREAM_UPDATE_20261109.md)。
 
-状态：更新文件与回复已准备，待最终检查后在原会话发送。
+状态：已于 2026-11-09 20:12（北京时间）通过 Gmail 在原会话中回复 David，并附上三份更新后的 PO；已从“已发送”核对收件人、回复关系和三个附件。附件对应仓库提交 [394f546](https://github.com/HamsterPark/gwyddion-zh/tree/394f54620ddf556a79830a925e8dc1aca5165e10/translations)，合计 1,828,272 字节。
 
 收件人：yeti@gwyddion.net
 

@@ -1,12 +1,12 @@
-# Gwyddion 2.71 Simplified Chinese translation.
+# Gwyddion SVN r30752 Simplified Chinese translation.
 # Distributed under the same license as Gwyddion.
 # Translation and proofreading assisted by GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gwyddion 2.71\n"
+"Project-Id-Version: Gwyddion SVN r30752\n"
 "Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
-"POT-Creation-Date: 2026-04-14 16:13+0200\n"
-"PO-Revision-Date: 2026-10-31 23:58+0800\n"
+"POT-Creation-Date: 2026-11-09 19:56+0800\n"
+"PO-Revision-Date: 2026-11-09 20:06+0800\n"
 "Last-Translator: Hamster Park (Yuanhao Lyu)\n"
 "Language-Team: Chinese (Simplified) <https://github.com/HamsterPark/gwyddion-zh>\n"
 "Language: zh_CN\n"
@@ -145,7 +145,7 @@ msgid "Sneddon: conical, free film"
 msgstr "Sneddon：圆锥形，自由薄膜"
 
 #: libgwyddion/gwyinventory.c:1309 libgwydgets/gwycombobox.c:466
-#: libgwydgets/gwycombobox.c:527 libgwydgets/gwygraphwindow.c:718
+#: libgwydgets/gwycombobox.c:527 libgwydgets/gwygraphwindow.c:712
 #: app/data-browser-aux.c:1351 app/data-browser-aux.c:1423
 #: app/data-browser-aux.c:1479 app/data-browser-aux.c:1535
 #: app/data-browser-aux.c:3202 app/data-browser-aux.c:3213
@@ -155,7 +155,7 @@ msgstr "Sneddon：圆锥形，自由薄膜"
 #: app/data-browser.c:5332 app/gwyappfilechooser.c:1285
 #: app/gwyresultsexport.c:808 app/resource-editor.c:360
 #: modules/cmap/cmap_align.c:658 modules/cmap/cmap_align.c:659
-#: modules/cmap/cmap_curvefilter.c:194 modules/cmap/cmap_cutter.c:345
+#: modules/cmap/cmap_curvefilter.c:190 modules/cmap/cmap_cutter.c:345
 #: modules/cmap/cmap_cutter.c:668 modules/cmap/cmap_extractcurve.c:568
 #: modules/cmap/cmap_extractcurve.c:569 modules/cmap/cmap_fdfit.c:1187
 #: modules/cmap/cmap_fdfit.c:1188 modules/cmap/cmap_filter.c:585
@@ -167,7 +167,7 @@ msgstr "Sneddon：圆锥形，自由薄膜"
 #: modules/cmap/cmap_possearch.c:644 modules/cmap/cmap_possearch.c:645
 #: modules/cmap/cmap_simplemech.c:1002 modules/cmap/cmap_simplemech.c:1003
 #: modules/cmap/cmap_sinebg.c:630 modules/cmap/cmap_sinebg.c:631
-#: modules/file/formats3d.c:913 modules/file/lafmdmap.c:203
+#: modules/file/formats3d.c:923 modules/file/lafmdmap.c:203
 #: modules/file/xyzexport.c:181 modules/process/batchcolor.c:1277
 #: modules/process/convolution_filter.c:658
 msgid "Untitled"
@@ -335,9 +335,9 @@ msgstr "deg"
 #: modules/cmap/cmap_fdfit.c:548 modules/cmap/cmap_fdfit.c:589
 #: modules/graph/graph_cd.c:710 modules/graph/graph_fdfit.c:814
 #: modules/graph/graph_fit.c:863 modules/process/grain_stat.c:261
-#: modules/tools/grainmeasure.c:202 modules/volume/volume_fdfit-WTF.c:1128
-#: modules/volume/volume_fdfit.c:1128 modules/xyz/xyz_drift.c:1092
-#: modules/xyz/xyz_drift.c:1110 modules/xyz/xyz_drift.c:1127
+#: modules/tools/grainmeasure.c:202 modules/volume/volume_fdfit.c:1128
+#: modules/xyz/xyz_drift.c:1092 modules/xyz/xyz_drift.c:1110
+#: modules/xyz/xyz_drift.c:1127
 msgid "N.A."
 msgstr "不可用"
 
@@ -552,12 +552,12 @@ msgstr "最大 Martin 直径"
 msgid "Direction of maximum Martin diameter"
 msgstr "最大 Martin 直径的方向"
 
-#: libprocess/gwygrainvalue.c:389 modules/tools/readvalue.c:262
+#: libprocess/gwygrainvalue.c:389 modules/tools/readvalue.c:265
 #: modules/tools/stats.c:751
 msgid "Inclination θ"
 msgstr "倾角 θ"
 
-#: libprocess/gwygrainvalue.c:398 modules/tools/readvalue.c:263
+#: libprocess/gwygrainvalue.c:398 modules/tools/readvalue.c:266
 #: modules/tools/stats.c:752
 msgid "Inclination φ"
 msgstr "方位角 φ"
@@ -574,11 +574,11 @@ msgstr "曲率中心 y 坐标"
 msgid "Curvature center z value"
 msgstr "曲率中心 z 值"
 
-#: libprocess/gwygrainvalue.c:434 modules/tools/readvalue.c:264
+#: libprocess/gwygrainvalue.c:434 modules/tools/readvalue.c:267
 msgid "Curvature 1"
 msgstr "曲率 1"
 
-#: libprocess/gwygrainvalue.c:443 modules/tools/readvalue.c:265
+#: libprocess/gwygrainvalue.c:443 modules/tools/readvalue.c:268
 msgid "Curvature 2"
 msgstr "曲率 2"
 
@@ -611,14 +611,14 @@ msgstr "编号"
 #: modules/graph/graph_peaks.c:131 modules/process/extract_path.c:344
 #: modules/process/extract_path.c:349 modules/process/immerse.c:272
 #: modules/process/pat_synth.c:1683 modules/process/wave_synth.c:360
-#: modules/tools/readvalue.c:336
+#: modules/tools/readvalue.c:339
 msgid "Position"
 msgstr "位置"
 
 #: libprocess/gwygrainvalue.c:1169 app/meta.c:465
 #: modules/cmap/cmap_linestat.c:323 modules/cmap/cmap_peaks.c:313
-#: modules/file/imgexport.c:3471 modules/process/classify.c:549
-#: modules/tools/level3.c:362 modules/tools/readvalue.c:346
+#: modules/file/imgexport.c:3475 modules/process/classify.c:549
+#: modules/tools/level3.c:362 modules/tools/readvalue.c:349
 #: modules/volume/volume_linestat.c:335 modules/volume/volume_planestat.c:395
 msgid "Value"
 msgstr "数值"
@@ -628,10 +628,9 @@ msgstr "数值"
 msgid "Area"
 msgstr "面积"
 
-#: libprocess/gwygrainvalue.c:1171 app/data-browser.c:5922
-#: gwyddion/toolbox.c:107 modules/tools/stats.c:743
+#: libprocess/gwygrainvalue.c:1171 modules/tools/stats.c:743
 msgid "Volume"
-msgstr ""
+msgstr "体积"
 
 #: libprocess/gwygrainvalue.c:1172
 msgid "Boundary"
@@ -700,7 +699,7 @@ msgid "Hat"
 msgstr "帽形"
 
 #: libprocess/gwyprocessenums.c:119
-#: libgwydgets/gwygraphwindowmeasuredialog.c:49
+#: libgwydgets/gwygraphwindowmeasuredialog.c:50
 #: modules/process/convolution_filter.c:410 modules/tools/cprofile.c:138
 msgid "Horizontal"
 msgstr "水平"
@@ -747,12 +746,12 @@ msgid "Scale and space adaptive"
 msgstr "尺度和空间自适应"
 
 #. TRANSLATORS: Interpolation type (AKA nearest neighbour)
-#: libprocess/gwyprocessenums.c:200 modules/file/imgexport.c:658
+#: libprocess/gwyprocessenums.c:200 modules/file/imgexport.c:659
 #: modules/xyz/xyz_raster.c:203
 msgid "Round"
 msgstr "最近邻"
 
-#: libprocess/gwyprocessenums.c:201 modules/file/imgexport.c:659
+#: libprocess/gwyprocessenums.c:201 modules/file/imgexport.c:660
 #: modules/process/relate.c:206 modules/volume/volume_cluster.c:280
 #: modules/xyz/xyz_raster.c:205
 msgid "Linear"
@@ -896,7 +895,7 @@ msgstr "与水平面的夹角"
 
 #: libprocess/gwyshapefitpreset.c:233 libprocess/gwyshapefitpreset.c:304
 #: libprocess/gwyshapefitpreset.c:341 libprocess/gwyshapefitpreset.c:505
-#: modules/process/fibre_synth.c:367 modules/process/lat_synth.c:508
+#: modules/process/fibre_synth.c:367 modules/process/lat_synth.c:512
 #: modules/process/obj_synth.c:455 modules/process/pat_synth.c:1670
 #: modules/process/pat_synth.c:2624 modules/process/pileup_synth.c:357
 msgid "Orientation"
@@ -1299,7 +1298,7 @@ msgid "Starting full estimation..."
 msgstr "正在开始完整估计..."
 
 #: libprocess/triangulation.c:3248 modules/process/calcoefs_view.c:793
-#: modules/process/lat_synth.c:843
+#: modules/process/lat_synth.c:847
 msgid "Triangulating..."
 msgstr "正在进行三角剖分..."
 
@@ -1327,7 +1326,7 @@ msgstr "显示完整控件"
 msgid "Hide full controls"
 msgstr "隐藏完整控件"
 
-#: libgwydgets/gwy3dwindow.c:705 modules/file/imgexport.c:3601
+#: libgwydgets/gwy3dwindow.c:705 modules/file/imgexport.c:3605
 #: modules/process/fit-shape.c:510
 msgid "adjective|Basic"
 msgstr "基本"
@@ -1410,7 +1409,7 @@ msgstr "线宽(_W):"
 #: modules/tools/level3.c:211 modules/tools/maskedit.c:318
 #: modules/tools/maskedit.c:327 modules/tools/pathlevel.c:227
 #: modules/tools/profile.c:277 modules/tools/profile.c:359
-#: modules/tools/readvalue.c:285 modules/tools/readvalue.c:358
+#: modules/tools/readvalue.c:288 modules/tools/readvalue.c:361
 #: modules/tools/roughness.c:312 modules/tools/roughness.c:377
 #: modules/tools/rprofile.c:229 modules/tools/spotremove.c:269
 #: modules/tools/stats.c:703 modules/volume/volume_planestat.c:451
@@ -1583,8 +1582,8 @@ msgstr "选择颜色渐变"
 msgid "Hidden"
 msgstr "隐藏"
 
-#: libgwydgets/gwydgetenums.c:47 libgwydgets/gwygraphwindowmeasuredialog.c:572
-#: modules/file/imgexport.c:545 modules/tools/selectionmanager.c:265
+#: libgwydgets/gwydgetenums.c:47 libgwydgets/gwygraphwindowmeasuredialog.c:571
+#: modules/file/imgexport.c:546 modules/tools/selectionmanager.c:265
 msgid "Points"
 msgstr "点"
 
@@ -1774,7 +1773,7 @@ msgstr "反向布局(_R)"
 msgid "Abscissa"
 msgstr "横坐标"
 
-#: libgwydgets/gwygraphwindow.c:161 gwyddion/toolbox-editor.c:931
+#: libgwydgets/gwygraphwindow.c:152 gwyddion/toolbox-editor.c:931
 #: gwyddion/toolbox.c:107 modules/graph/graph_measure_period.c:239
 #: modules/graph/graph_stats.c:213 modules/graph/graph_terraces.c:639
 #: modules/xyz/xyz_tcut.c:120 modules/xyz/xyz_tstep.c:135
@@ -1782,7 +1781,7 @@ msgstr "横坐标"
 msgid "Graph"
 msgstr "曲线图"
 
-#: libgwydgets/gwygraphwindow.c:168 modules/cmap/cmap_peaks.c:181
+#: libgwydgets/gwygraphwindow.c:159 modules/cmap/cmap_peaks.c:181
 #: modules/process/classify.c:294 modules/process/deconvolve.c:187
 #: modules/process/fit-shape.c:271 modules/process/freq_split.c:143
 #: modules/process/good_profile.c:126 modules/process/psf.c:209
@@ -1791,50 +1790,50 @@ msgstr "曲线图"
 msgid "Data"
 msgstr "数据"
 
-#: libgwydgets/gwygraphwindow.c:181
+#: libgwydgets/gwygraphwindow.c:172
 msgid "Curves"
 msgstr "曲线"
 
-#: libgwydgets/gwygraphwindow.c:194
+#: libgwydgets/gwygraphwindow.c:185
 msgid "Measure distances in graph"
 msgstr "测量曲线图中的距离"
 
-#: libgwydgets/gwygraphwindow.c:205
+#: libgwydgets/gwygraphwindow.c:196
 msgid "Zoom in by mouse selection"
 msgstr "通过鼠标选择区域放大"
 
-#: libgwydgets/gwygraphwindow.c:216
+#: libgwydgets/gwygraphwindow.c:207
 msgid "Zoom out to full curve"
 msgstr "缩小以显示完整曲线"
 
-#: libgwydgets/gwygraphwindow.c:227
+#: libgwydgets/gwygraphwindow.c:218
 msgid "Toggle logarithmic x axis"
 msgstr "切换 X 轴对数坐标"
 
-#: libgwydgets/gwygraphwindow.c:238
+#: libgwydgets/gwygraphwindow.c:229
 msgid "Toggle logarithmic y axis"
 msgstr "切换 Y 轴对数坐标"
 
-#: libgwydgets/gwygraphwindowmeasuredialog.c:48
+#: libgwydgets/gwygraphwindowmeasuredialog.c:49
 msgid "Intersections"
 msgstr "交点"
 
-#: libgwydgets/gwygraphwindowmeasuredialog.c:50
+#: libgwydgets/gwygraphwindowmeasuredialog.c:51
 msgid "Points anywhere"
 msgstr "任意点"
 
-#: libgwydgets/gwygraphwindowmeasuredialog.c:377
-#: libgwydgets/gwygraphwindowmeasuredialog.c:577
+#: libgwydgets/gwygraphwindowmeasuredialog.c:378
+#: libgwydgets/gwygraphwindowmeasuredialog.c:576
 #: modules/process/facet_analysis.c:713 modules/process/measure_lattice.c:346
 #: modules/process/measure_lattice.c:353 modules/tools/roughness.c:471
 msgid "Length"
 msgstr "长度"
 
-#: libgwydgets/gwygraphwindowmeasuredialog.c:379
-#: libgwydgets/gwygraphwindowmeasuredialog.c:581 app/gwyplaintool.c:1059
+#: libgwydgets/gwygraphwindowmeasuredialog.c:380
+#: libgwydgets/gwygraphwindowmeasuredialog.c:580 app/gwyplaintool.c:1059
 #: modules/cmap/cmap_fztofd.c:150 modules/graph/graph_fztofd.c:88
 #: modules/process/disc_synth.c:290 modules/process/fibre_synth.c:337
-#: modules/process/lat_synth.c:566 modules/process/obj_synth.c:420
+#: modules/process/lat_synth.c:570 modules/process/obj_synth.c:420
 #: modules/process/pat_synth.c:1735 modules/process/pat_synth.c:1829
 #: modules/process/pat_synth.c:1936 modules/process/pat_synth.c:2046
 #: modules/process/pat_synth.c:2169 modules/process/pat_synth.c:2280
@@ -1843,7 +1842,7 @@ msgstr "长度"
 msgid "Height"
 msgstr "高度"
 
-#: libgwydgets/gwygraphwindowmeasuredialog.c:528
+#: libgwydgets/gwygraphwindowmeasuredialog.c:527
 msgid "Measure Distances"
 msgstr "测量距离"
 
@@ -1851,11 +1850,11 @@ msgstr "测量距离"
 msgid "Curve:"
 msgstr "曲线："
 
-#: libgwydgets/gwygraphwindowmeasuredialog.c:555
+#: libgwydgets/gwygraphwindowmeasuredialog.c:554
 msgid "Method:"
 msgstr "方法："
 
-#: libgwydgets/gwygraphwindowmeasuredialog.c:583
+#: libgwydgets/gwygraphwindowmeasuredialog.c:582
 #: modules/process/facet_analysis.c:715 modules/process/measure_lattice.c:359
 msgid "Angle"
 msgstr "角度"
@@ -1866,7 +1865,7 @@ msgid "Preferred"
 msgstr "首选"
 
 #: libgwydgets/gwyoptionmenus.c:458 app/meta.c:464
-#: modules/file/imgexport.c:3208 modules/file/imgexport.c:3469
+#: modules/file/imgexport.c:3212 modules/file/imgexport.c:3473
 #: modules/file/rawfile.c:689 modules/process/convolution_filter.c:535
 #: modules/process/neural.c:417 modules/tools/selectionmanager.c:329
 msgid "Name"
@@ -2147,7 +2146,7 @@ msgid "Preview quantity:"
 msgstr "预览量："
 
 #. TRANSLATORS: %{n}i and %{total}i are ids, do NOT translate them.
-#: app/app.c:2310 modules/file/formats3d.c:1581
+#: app/app.c:2310 modules/file/formats3d.c:1591
 #: modules/graph/graph_measure_period.c:185
 #: modules/graph/graph_measure_period.c:246 modules/graph/graph_stats.c:165
 #: modules/graph/graph_stats.c:220 modules/process/fit-shape.c:1645
@@ -2228,6 +2227,10 @@ msgstr "曲线图"
 #: app/data-browser.c:5910
 msgid "Spectra"
 msgstr "谱"
+
+#: app/data-browser.c:5922
+msgid "data-type|Volume"
+msgstr "体数据"
 
 #: app/data-browser.c:5934
 msgid "XYZ"
@@ -2544,19 +2547,19 @@ msgid "S_quare image"
 msgstr "正方形图像(_Q)"
 
 #: app/gwymoduleutils-synth.c:51 modules/cmap/cmap_crop.c:111
-#: modules/file/imgexport.c:671 modules/file/imgexport.c:674
-#: modules/file/rawfile.c:344 modules/process/binning.c:112
-#: modules/process/calibrate.c:211 modules/process/crosscor.c:151
-#: modules/process/crosscor.c:155 modules/process/fibre_synth.c:197
-#: modules/process/pileup_synth.c:221 modules/process/tip_blind.c:154
-#: modules/volume/volume_calibrate.c:195 modules/volume/volume_planestat.c:270
-#: modules/volume/volume_planestat.c:478
+#: modules/file/imgexport.c:672 modules/file/imgexport.c:675
+#: modules/file/imgexport.c:758 modules/file/rawfile.c:344
+#: modules/process/binning.c:112 modules/process/calibrate.c:211
+#: modules/process/crosscor.c:151 modules/process/crosscor.c:155
+#: modules/process/fibre_synth.c:197 modules/process/pileup_synth.c:221
+#: modules/process/tip_blind.c:154 modules/volume/volume_calibrate.c:195
+#: modules/volume/volume_planestat.c:270 modules/volume/volume_planestat.c:478
 msgid "_Width"
 msgstr "宽度(_W)"
 
 #: app/gwymoduleutils-synth.c:52 modules/cmap/cmap_crop.c:112
-#: modules/cmap/cmap_peaks.c:168 modules/file/imgexport.c:672
-#: modules/file/imgexport.c:675 modules/file/rawfile.c:345
+#: modules/cmap/cmap_peaks.c:168 modules/file/imgexport.c:673
+#: modules/file/imgexport.c:676 modules/file/rawfile.c:345
 #: modules/process/anneal_synth.c:151 modules/process/bdep_synth.c:148
 #: modules/process/binning.c:113 modules/process/calibrate.c:212
 #: modules/process/crosscor.c:152 modules/process/crosscor.c:156
@@ -2607,7 +2610,7 @@ msgid "Resolution"
 msgstr "分辨率"
 
 #: app/gwymoduleutils-synth.c:159 modules/file/hdrimage.cc:2062
-#: modules/file/imgexport.c:2949 modules/file/pixmap.c:726
+#: modules/file/imgexport.c:2952 modules/file/pixmap.c:726
 #: modules/file/rawfile.c:547 modules/process/dimensions.h:475
 #: modules/xyz/xyz_drift.c:771 modules/xyz/xyz_raster.c:381
 msgid "Physical Dimensions"
@@ -2676,7 +2679,7 @@ msgstr "原点"
 #: app/gwyplaintool.c:1052 modules/file/rawfile.c:691
 #: modules/process/convolution_filter.c:347
 #: modules/process/convolution_filter.c:550 modules/process/fibre_synth.c:330
-#: modules/process/lat_synth.c:499 modules/process/neural.c:418
+#: modules/process/lat_synth.c:503 modules/process/neural.c:418
 #: modules/process/obj_synth.c:410 modules/process/pat_synth.c:2613
 #: modules/process/pileup_synth.c:342 modules/tools/spotremove.c:370
 #: modules/volume/volume_planestat.c:477
@@ -2767,7 +2770,7 @@ msgstr "清除(_R)"
 msgid "_Close"
 msgstr "关闭(_C)"
 
-#: app/log.c:672 modules/file/imgexport.c:3209 modules/file/rawfile.c:690
+#: app/log.c:672 modules/file/imgexport.c:3213 modules/file/rawfile.c:690
 msgid "Type"
 msgstr "类型"
 
@@ -2775,7 +2778,7 @@ msgstr "类型"
 msgid "Function"
 msgstr "函数"
 
-#: app/log.c:674 modules/file/imgexport.c:2968
+#: app/log.c:674 modules/file/imgexport.c:2971
 #: modules/graph/graph_terraces.c:364 modules/process/fit-shape.c:511
 #: modules/process/fit-shape.c:1652 modules/process/neural.c:496
 #: modules/process/relate.c:675 modules/process/terracefit.c:460
@@ -2834,7 +2837,7 @@ msgstr "文档历史(_D)..."
 msgid "_New"
 msgstr "新建(_N)"
 
-#: app/meta.c:257 modules/file/imgexport.c:3465 modules/file/rawfile.c:685
+#: app/meta.c:257 modules/file/imgexport.c:3469 modules/file/rawfile.c:685
 #: modules/process/facet_analysis.c:556 modules/process/facet_measure.c:429
 #: modules/process/neural.c:599 modules/tools/selectionmanager.c:374
 msgid "_Delete"
@@ -2857,7 +2860,7 @@ msgstr "保存元数据"
 msgid "_Masking"
 msgstr "掩膜处理(_M)"
 
-#: app/param-def.c:344 modules/file/imgexport.c:681
+#: app/param-def.c:344 modules/file/imgexport.c:682
 #: modules/xyz/xyz_raster.c:221
 msgid "_Interpolation type"
 msgstr "插值类型(_I)"
@@ -2898,9 +2901,9 @@ msgstr "重新运行时随机化(_Z)"
 msgid "_Mask color"
 msgstr "掩膜颜色(_M)"
 
-#: app/param-def.c:879 modules/file/imgexport.c:676
-#: modules/file/imgexport.c:678 modules/file/imgexport.c:735
-#: modules/file/imgexport.c:769
+#: app/param-def.c:879 modules/file/imgexport.c:677
+#: modules/file/imgexport.c:679 modules/file/imgexport.c:736
+#: modules/file/imgexport.c:771
 msgid "Colo_r"
 msgstr "颜色(_R)"
 
@@ -2946,7 +2949,7 @@ msgstr "新建曲线图"
 
 #: app/param-table.c:5960 modules/graph/graph_cd.c:330
 #: modules/graph/graph_fdfit.c:433 modules/graph/graph_fit.c:446
-#: modules/volume/volume_fdfit-WTF.c:487 modules/volume/volume_fdfit.c:487
+#: modules/volume/volume_fdfit.c:487
 msgid "range|to"
 msgstr "至"
 
@@ -4466,8 +4469,8 @@ msgid "New Dimensions"
 msgstr "新尺寸"
 
 #: modules/cmap/cmap_crop.c:213 modules/file/asciiexport.c:402
-#: modules/file/gxyzffile.c:393 modules/file/imgexport.c:3076
-#: modules/file/imgexport.c:3253 modules/file/nmmxyz.c:488
+#: modules/file/gxyzffile.c:393 modules/file/imgexport.c:3079
+#: modules/file/imgexport.c:3257 modules/file/nmmxyz.c:488
 #: modules/file/rawfile.c:563 modules/file/xyzexport.c:267
 #: modules/process/anneal_synth.c:301 modules/process/bdep_synth.c:337
 #: modules/process/binning.c:242 modules/process/calibrate.c:625
@@ -4480,7 +4483,7 @@ msgstr "新尺寸"
 #: modules/process/fft.c:318 modules/process/fft_synth.c:284
 #: modules/process/fibre_synth.c:380 modules/process/good_profile.c:289
 #: modules/process/grain_edge.c:183 modules/process/grain_mark.c:224
-#: modules/process/grain_wshed.c:208 modules/process/lat_synth.c:518
+#: modules/process/grain_wshed.c:208 modules/process/lat_synth.c:522
 #: modules/process/linematch.c:321 modules/process/lno_synth.c:413
 #: modules/process/mark_disconn.c:212 modules/process/mfm_current.c:301
 #: modules/process/mfm_parallel.c:310 modules/process/noise_synth.c:306
@@ -4499,27 +4502,27 @@ msgstr "新尺寸"
 msgid "Options"
 msgstr "选项"
 
-#: modules/cmap/cmap_curvefilter.c:76
-msgid "Removes some curves from Curve Map"
+#: modules/cmap/cmap_curvefilter.c:74
+msgid "Removes some curves from curve map"
 msgstr "从曲线图谱中移除部分曲线"
 
-#: modules/cmap/cmap_curvefilter.c:91
-msgid "/_Basic Operations/_Filter curves..."
+#: modules/cmap/cmap_curvefilter.c:88
+msgid "/_Basic Operations/_Filter Curves..."
 msgstr "/基本操作(_B)/过滤曲线(_F)..."
 
-#: modules/cmap/cmap_curvefilter.c:96
-msgid "Remove some curves from Curve Map"
+#: modules/cmap/cmap_curvefilter.c:92
+msgid "Remove some curves from curve map"
 msgstr "从曲线图谱中移除部分曲线"
 
-#: modules/cmap/cmap_curvefilter.c:111 modules/cmap/cmap_cutter.c:198
+#: modules/cmap/cmap_curvefilter.c:107 modules/cmap/cmap_cutter.c:198
 msgid "Keep curves"
 msgstr "保留曲线"
 
-#: modules/cmap/cmap_curvefilter.c:165 modules/cmap/cmap_cutter.c:278
-msgid "Cut to Segments"
-msgstr "切分为片段"
+#: modules/cmap/cmap_curvefilter.c:161
+msgid "Filter Curves"
+msgstr "过滤曲线"
 
-#: modules/cmap/cmap_curvefilter.c:203 modules/cmap/cmap_cutter.c:354
+#: modules/cmap/cmap_curvefilter.c:199 modules/cmap/cmap_cutter.c:354
 msgid "Keep curves:"
 msgstr "保留曲线："
 
@@ -4568,6 +4571,10 @@ msgstr "提取分段"
 #: modules/cmap/cmap_cutter.c:204
 msgid "Invert data"
 msgstr "反转数据"
+
+#: modules/cmap/cmap_cutter.c:278
+msgid "Cut to Segments"
+msgstr "切分为片段"
 
 #: modules/cmap/cmap_cutter.c:375 modules/cmap/cmap_simplemech.c:212
 msgid "Z curve"
@@ -4702,23 +4709,21 @@ msgstr "失败"
 
 #: modules/cmap/cmap_fdfit.c:1201 modules/cmap/cmap_fit.c:1162
 #: modules/graph/graph_fdfit.c:366 modules/graph/graph_fit.c:377
-#: modules/process/fit-shape.c:685 modules/volume/volume_fdfit-WTF.c:420
-#: modules/volume/volume_fdfit.c:420
+#: modules/process/fit-shape.c:685 modules/volume/volume_fdfit.c:420
 msgid "Fix"
 msgstr "固定"
 
 #: modules/cmap/cmap_fdfit.c:1203 modules/cmap/cmap_fit.c:1164
 #: modules/graph/graph_cd.c:305 modules/graph/graph_fdfit.c:368
 #: modules/graph/graph_fit.c:379 modules/process/fit-shape.c:686
-#: modules/process/smm.c:520 modules/volume/volume_fdfit-WTF.c:422
-#: modules/volume/volume_fdfit.c:422
+#: modules/process/smm.c:520 modules/volume/volume_fdfit.c:422
 msgid "Parameter"
 msgstr "参数"
 
 #: modules/cmap/cmap_fdfit.c:1205 modules/cmap/cmap_fit.c:1166
 #: modules/graph/graph_cd.c:307 modules/graph/graph_fdfit.c:370
 #: modules/graph/graph_fit.c:381 modules/process/fit-shape.c:687
-#: modules/volume/volume_fdfit-WTF.c:424 modules/volume/volume_fdfit.c:424
+#: modules/volume/volume_fdfit.c:424
 msgid "Error"
 msgstr "误差"
 
@@ -5069,7 +5074,7 @@ msgid "Adhesion"
 msgstr "黏附力"
 
 #: modules/cmap/cmap_simplemech.c:157 modules/graph/graph_simplemech.c:570
-#: modules/process/fibre_synth.c:371 modules/process/lat_synth.c:511
+#: modules/process/fibre_synth.c:371 modules/process/lat_synth.c:515
 #: modules/process/pat_synth.c:1673
 msgid "Deformation"
 msgstr "形变"
@@ -5147,8 +5152,7 @@ msgstr "纳米力学拟合"
 #: modules/cmap/cmap_simplemech.c:344 modules/graph/graph_cd.c:212
 #: modules/graph/graph_fdfit.c:254 modules/graph/graph_fit.c:270
 #: modules/process/fit-shape.c:495 modules/process/smm.c:366
-#: modules/process/terracefit.c:451 modules/volume/volume_fdfit-WTF.c:299
-#: modules/volume/volume_fdfit.c:299
+#: modules/process/terracefit.c:451 modules/volume/volume_fdfit.c:299
 msgid "verb|_Fit"
 msgstr "拟合(_F)"
 
@@ -5469,7 +5473,7 @@ msgstr "读取导出为文本的曲线图谱。"
 msgid "Curve map text export (.txt)"
 msgstr "曲线图谱文本导出（.txt）"
 
-#: modules/file/asciicmap.c:306 modules/file/formats3d.c:1519
+#: modules/file/asciicmap.c:306 modules/file/formats3d.c:1529
 #: modules/file/nanoscope.c:1019 modules/file/nanoscope.c:1025
 #: modules/file/nanoscope.c:1138 modules/file/nanoscope.c:1144
 #: modules/file/nanoscope.c:2372 modules/file/nanosystemz.c:232
@@ -5573,7 +5577,7 @@ msgid "Burleigh exported data (.txt, .bin)"
 msgstr "Burleigh 导出数据（.txt、.bin）"
 
 #: modules/file/burleigh_exp.c:217 modules/file/burleigh_exp.c:254
-#: modules/file/nanoscope.c:2587 modules/file/omicron.c:402
+#: modules/file/nanoscope.c:2591 modules/file/omicron.c:402
 #: modules/file/shimadzu.c:416
 msgid "Missing colon in header line."
 msgstr "头部行中缺少冒号。"
@@ -5997,32 +6001,32 @@ msgid "Create image _directly from regular points"
 msgstr "由规则点直接创建图像(_D)"
 
 #. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
-#: modules/file/formats3d.c:1163 modules/file/hdrimage.cc:437
-#: modules/file/imgexport.c:3573
+#: modules/file/formats3d.c:1173 modules/file/hdrimage.cc:437
+#: modules/file/imgexport.c:3577
 #, c-format
 msgid "Export %s"
 msgstr "导出 %s"
 
-#: modules/file/formats3d.c:1538
+#: modules/file/formats3d.c:1548
 msgid "File contains NaNs or infinities."
 msgstr "文件包含 NaN 或无穷大。"
 
 #. TRANSLATORS: Dialog title; %s is PNG, TIFF, ...
-#: modules/file/formats3d.c:1574 modules/file/hdrimage.cc:2011
+#: modules/file/formats3d.c:1584 modules/file/hdrimage.cc:2011
 #: modules/file/pixmap.c:683
 #, c-format
 msgid "Import %s"
 msgstr "导入 %s"
 
-#: modules/file/formats3d.c:1582
+#: modules/file/formats3d.c:1592
 msgid "X-range"
 msgstr "X 范围"
 
-#: modules/file/formats3d.c:1583
+#: modules/file/formats3d.c:1593
 msgid "Y-range"
 msgstr "Y 范围"
 
-#: modules/file/formats3d.c:1584
+#: modules/file/formats3d.c:1594
 msgid "Z-range"
 msgstr "Z 范围"
 
@@ -6135,7 +6139,7 @@ msgstr "无法读取文件内容。"
 
 #: modules/file/gwyzip-minizip-ng.h:205 modules/file/gwyzip-minizip1.h:271
 #: modules/file/gwyzip-minizip1.h:284 modules/file/gwyzip-minizip2.h:211
-#: modules/file/gwyzip-zzlib.h:178 modules/file/jpkscan.c:2499
+#: modules/file/gwyzip-zzlib.h:178 modules/file/jpkscan.c:2400
 #, c-format
 msgid "File %s is missing in the zip file."
 msgstr "ZIP 文件中缺少文件 %s。"
@@ -6415,12 +6419,12 @@ msgid "OpenEXR data type %u is invalid or unsupported."
 msgstr "OpenEXR 数据类型 %u 无效或不受支持。"
 
 #: modules/file/hdrimage.cc:1169 modules/file/hdrimage.cc:1177
-#: modules/file/imgexport.c:3943 modules/file/imgexport.c:3951
+#: modules/file/imgexport.c:3948 modules/file/imgexport.c:3956
 #, c-format
 msgid "libpng initialization error (in %s)"
 msgstr "libpng 初始化错误（位于 %s）"
 
-#: modules/file/hdrimage.cc:1185 modules/file/imgexport.c:4002
+#: modules/file/hdrimage.cc:1185 modules/file/imgexport.c:4007
 msgid "libpng error occurred"
 msgstr "发生 libpng 错误"
 
@@ -6525,109 +6529,109 @@ msgstr "数据大小 %u 与数据点数 %u×%u 不符。"
 msgid "Cannot read channel labels."
 msgstr "无法读取通道标签。"
 
-#: modules/file/imgexport.c:473 modules/file/pixmap.c:188
+#: modules/file/imgexport.c:474 modules/file/pixmap.c:188
 msgid "Portable Network Graphics (.png)"
 msgstr "便携式网络图形（.png）"
 
-#: modules/file/imgexport.c:477 modules/file/pixmap.c:189
+#: modules/file/imgexport.c:478 modules/file/pixmap.c:189
 msgid "JPEG (.jpeg,.jpg)"
 msgstr "JPEG（.jpeg,.jpg）"
 
-#: modules/file/imgexport.c:481 modules/file/pixmap.c:193
+#: modules/file/imgexport.c:482 modules/file/pixmap.c:193
 msgid "TIFF (.tiff,.tif)"
 msgstr "TIFF（.tiff,.tif）"
 
-#: modules/file/imgexport.c:485 modules/file/pixmap.c:195
+#: modules/file/imgexport.c:486 modules/file/pixmap.c:195
 msgid "Portable Pixmap (.ppm,.pnm)"
 msgstr "便携式像素图（.ppm,.pnm）"
 
-#: modules/file/imgexport.c:489 modules/file/pixmap.c:196
+#: modules/file/imgexport.c:490 modules/file/pixmap.c:196
 msgid "Windows or OS2 Bitmap (.bmp)"
 msgstr "Windows 或 OS2 位图（.bmp）"
 
-#: modules/file/imgexport.c:493 modules/file/pixmap.c:197
+#: modules/file/imgexport.c:494 modules/file/pixmap.c:197
 msgid "TARGA (.tga,.targa)"
 msgstr "TARGA（.tga,.targa）"
 
-#: modules/file/imgexport.c:497 modules/file/pixmap.c:205
+#: modules/file/imgexport.c:498 modules/file/pixmap.c:205
 msgid "WebP (.webp)"
 msgstr "WebP（.webp）"
 
-#: modules/file/imgexport.c:501 modules/file/pixmap.c:200
+#: modules/file/imgexport.c:502 modules/file/pixmap.c:200
 msgid "JPEG XL (.jxl)"
 msgstr "JPEG XL（.jxl）"
 
-#: modules/file/imgexport.c:506
+#: modules/file/imgexport.c:507
 msgid "Portable document format (.pdf)"
 msgstr "便携式文档格式（.pdf）"
 
-#: modules/file/imgexport.c:512
+#: modules/file/imgexport.c:513
 msgid "Encapsulated PostScript (.eps)"
 msgstr "封装 PostScript（.eps）"
 
-#: modules/file/imgexport.c:518
+#: modules/file/imgexport.c:519
 msgid "Scalable Vector Graphics (.svg)"
 msgstr "可缩放矢量图形（.svg）"
 
-#: modules/file/imgexport.c:539 modules/tools/selectionmanager.c:259
+#: modules/file/imgexport.c:540 modules/tools/selectionmanager.c:259
 msgid "Horiz./vert. lines"
 msgstr "水平／垂直线"
 
-#: modules/file/imgexport.c:542 modules/tools/selectionmanager.c:260
+#: modules/file/imgexport.c:543 modules/tools/selectionmanager.c:260
 msgid "Crosses"
 msgstr "十字"
 
-#: modules/file/imgexport.c:543 modules/tools/selectionmanager.c:261
+#: modules/file/imgexport.c:544 modules/tools/selectionmanager.c:261
 msgid "Ellipses"
 msgstr "椭圆"
 
-#: modules/file/imgexport.c:544 modules/tools/selectionmanager.c:263
+#: modules/file/imgexport.c:545 modules/tools/selectionmanager.c:263
 msgid "Lines"
 msgstr "线"
 
-#: modules/file/imgexport.c:546 modules/tools/selectionmanager.c:267
+#: modules/file/imgexport.c:547 modules/tools/selectionmanager.c:267
 msgid "Rectangles"
 msgstr "矩形"
 
-#: modules/file/imgexport.c:547 modules/process/facet_analysis.c:499
-#: modules/process/lat_synth.c:446 modules/process/lat_synth.c:460
+#: modules/file/imgexport.c:548 modules/process/facet_analysis.c:499
+#: modules/process/lat_synth.c:446 modules/process/lat_synth.c:462
 #: modules/tools/selectionmanager.c:262
 msgid "Lattice"
 msgstr "晶格"
 
-#: modules/file/imgexport.c:548
+#: modules/file/imgexport.c:549
 msgid "Path"
 msgstr "路径"
 
-#: modules/file/imgexport.c:552 modules/file/imgexport.c:557
+#: modules/file/imgexport.c:553 modules/file/imgexport.c:558
 msgid "ruler|_None"
 msgstr "无(_N)"
 
-#: modules/file/imgexport.c:553
+#: modules/file/imgexport.c:554
 msgid "_Rulers"
 msgstr "标尺(_R)"
 
-#: modules/file/imgexport.c:554
+#: modules/file/imgexport.c:555
 msgid "_Inset scale bar"
 msgstr "内嵌比例尺(_I)"
 
-#: modules/file/imgexport.c:558
+#: modules/file/imgexport.c:559
 msgid "_False color ruler"
 msgstr "伪彩色标尺(_F)"
 
-#: modules/file/imgexport.c:561
+#: modules/file/imgexport.c:562
 msgid "title|None"
 msgstr "无"
 
-#: modules/file/imgexport.c:562
+#: modules/file/imgexport.c:563
 msgid "At the top"
 msgstr "顶部"
 
-#: modules/file/imgexport.c:563
+#: modules/file/imgexport.c:564
 msgid "Along the right edge"
 msgstr "沿右边缘"
 
-#: modules/file/imgexport.c:569
+#: modules/file/imgexport.c:570
 msgid ""
 "Renders data into vector (SVG, PDF, EPS) and pixmap (PNG, JPEG, TIFF, WebP, "
 "PPM, BMP, TARGA) images. Export to some formats relies on GDK and other "
@@ -6636,206 +6640,206 @@ msgstr ""
 "将数据渲染为矢量图像（SVG、PDF、EPS）和像素图（PNG、JPEG、TIFF、WebP、PPM、BMP、TARGA）。部分格式的导出依赖 GDK "
 "和其他库，因此可能随安装环境而不同。"
 
-#: modules/file/imgexport.c:673
+#: modules/file/imgexport.c:674
 msgid "Pixels per _inch"
 msgstr "每英寸像素数(_I)"
 
-#: modules/file/imgexport.c:677 modules/file/imgexport.c:679
+#: modules/file/imgexport.c:678 modules/file/imgexport.c:680
 msgid "O_pacity"
 msgstr "不透明度(_P)"
 
-#: modules/file/imgexport.c:712 modules/xyz/xyz_fft.c:171
+#: modules/file/imgexport.c:713 modules/xyz/xyz_fft.c:171
 msgid "_Zoom"
 msgstr "缩放(_Z)"
 
-#: modules/file/imgexport.c:713
+#: modules/file/imgexport.c:714
 msgid "Pi_xel size"
 msgstr "像素大小(_X)"
 
-#: modules/file/imgexport.c:714
+#: modules/file/imgexport.c:715
 msgid "_Font"
 msgstr "字体(_F)"
 
-#: modules/file/imgexport.c:716
+#: modules/file/imgexport.c:717
 msgid "_Font size"
 msgstr "字号(_F)"
 
-#: modules/file/imgexport.c:717
+#: modules/file/imgexport.c:718
 msgid "Line t_hickness"
 msgstr "线宽(_H)"
 
-#: modules/file/imgexport.c:718
+#: modules/file/imgexport.c:719
 msgid "_Border width"
 msgstr "边框宽度(_B)"
 
-#: modules/file/imgexport.c:719
+#: modules/file/imgexport.c:720
 msgid "_Tick length"
 msgstr "刻度长度(_T)"
 
-#: modules/file/imgexport.c:720
+#: modules/file/imgexport.c:721
 msgid "Tie sizes to _data pixels"
 msgstr "将尺寸绑定到数据像素(_D)"
 
-#: modules/file/imgexport.c:721 modules/file/rawfile.c:367
+#: modules/file/imgexport.c:722 modules/file/rawfile.c:367
 msgid "_Decimal separator is comma"
 msgstr "小数分隔符为逗号(_D)"
 
-#: modules/file/imgexport.c:722
+#: modules/file/imgexport.c:723
 msgid "_Line and text color"
 msgstr "线条与文字颜色(_L)"
 
-#: modules/file/imgexport.c:723
+#: modules/file/imgexport.c:724
 msgid "_Background color"
 msgstr "背景颜色(_B)"
 
-#: modules/file/imgexport.c:724
+#: modules/file/imgexport.c:725
 msgid "_Transparent background"
 msgstr "透明背景(_T)"
 
-#: modules/file/imgexport.c:727 modules/tools/filter.c:162
+#: modules/file/imgexport.c:728 modules/tools/filter.c:162
 msgid "_Type"
 msgstr "类型(_T)"
 
-#: modules/file/imgexport.c:729 modules/process/lno_synth.c:641
+#: modules/file/imgexport.c:730 modules/process/lno_synth.c:641
 msgid "_Length"
 msgstr "长度(_L)"
 
-#: modules/file/imgexport.c:731 modules/file/imgexport.c:3020
+#: modules/file/imgexport.c:732 modules/file/imgexport.c:3023
 #: modules/process/fibre_synth.c:293 modules/process/obj_synth.c:373
 #: modules/process/pat_synth.c:529 modules/process/pileup_synth.c:352
 #: modules/process/wave_synth.c:291
 msgid "Placement"
 msgstr "位置"
 
-#: modules/file/imgexport.c:733 modules/file/imgexport.c:756
+#: modules/file/imgexport.c:734 modules/file/imgexport.c:757
 msgid "Hori_zontal gap"
 msgstr "水平间距(_Z)"
 
-#: modules/file/imgexport.c:734 modules/file/imgexport.c:753
+#: modules/file/imgexport.c:735 modules/file/imgexport.c:754
 msgid "_Vertical gap"
 msgstr "垂直间距(_V)"
 
-#: modules/file/imgexport.c:736 modules/file/imgexport.c:770
+#: modules/file/imgexport.c:737 modules/file/imgexport.c:772
 msgid "Out_line color"
 msgstr "轮廓颜色(_L)"
 
-#: modules/file/imgexport.c:738 modules/file/imgexport.c:772
+#: modules/file/imgexport.c:739 modules/file/imgexport.c:774
 msgid "O_utline thickness"
 msgstr "轮廓粗细(_U)"
 
-#: modules/file/imgexport.c:740
+#: modules/file/imgexport.c:741
 msgid "Draw _ticks"
 msgstr "绘制刻度(_T)"
 
-#: modules/file/imgexport.c:741
+#: modules/file/imgexport.c:742
 msgid "Draw _label"
 msgstr "绘制标签(_L)"
 
-#: modules/file/imgexport.c:743
+#: modules/file/imgexport.c:744
 msgid "Draw text _above scale bar"
 msgstr "在比例尺上方绘制文字(_A)"
 
-#: modules/file/imgexport.c:748
+#: modules/file/imgexport.c:749
 msgid "Draw _frame"
 msgstr "绘制边框(_F)"
 
-#: modules/file/imgexport.c:749
+#: modules/file/imgexport.c:750
 msgid "Draw _mask"
 msgstr "绘制掩膜(_M)"
 
-#: modules/file/imgexport.c:750
+#: modules/file/imgexport.c:751
 msgid "Draw mask _legend"
 msgstr "绘制掩膜图例(_L)"
 
-#: modules/file/imgexport.c:751
+#: modules/file/imgexport.c:752
 msgid "_Label"
 msgstr "标签(_L)"
 
-#: modules/file/imgexport.c:752 modules/process/maskops.c:159
+#: modules/file/imgexport.c:753 modules/process/maskops.c:159
 msgid "Mask"
 msgstr "掩膜"
 
-#: modules/file/imgexport.c:758
+#: modules/file/imgexport.c:760
 msgid "Fi_xed precision"
 msgstr "固定精度(_X)"
 
-#: modules/file/imgexport.c:760
+#: modules/file/imgexport.c:762
 msgid "Fixed _kilo threshold"
 msgstr "固定千倍阈值(_K)"
 
-#: modules/file/imgexport.c:762
+#: modules/file/imgexport.c:764
 msgid "Posi_tion"
 msgstr "位置(_T)"
 
-#: modules/file/imgexport.c:764
+#: modules/file/imgexport.c:766
 msgid "_Gap"
 msgstr "间距(_G)"
 
-#: modules/file/imgexport.c:765
+#: modules/file/imgexport.c:767
 msgid "Put _units to title"
 msgstr "将单位放入标题(_U)"
 
-#: modules/file/imgexport.c:768
+#: modules/file/imgexport.c:770
 msgid "Draw _selection"
 msgstr "绘制选区(_S)"
 
-#: modules/file/imgexport.c:774
+#: modules/file/imgexport.c:776
 msgid "Draw _numbers"
 msgstr "绘制数字(_N)"
 
-#: modules/file/imgexport.c:775
+#: modules/file/imgexport.c:777
 msgid "Marker _radius"
 msgstr "标记半径(_R)"
 
-#: modules/file/imgexport.c:777
+#: modules/file/imgexport.c:779
 msgid "_End marker length"
 msgstr "端点标记长度(_E)"
 
-#: modules/file/imgexport.c:2866
+#: modules/file/imgexport.c:2869
 msgid "Black"
 msgstr "黑色"
 
-#: modules/file/imgexport.c:2867
+#: modules/file/imgexport.c:2870
 msgid "White"
 msgstr "白色"
 
-#: modules/file/imgexport.c:2926
+#: modules/file/imgexport.c:2929
 msgid "_Font:"
 msgstr "字体(_F)："
 
-#: modules/file/imgexport.c:2977
+#: modules/file/imgexport.c:2980
 msgid "Colors"
 msgstr "颜色"
 
-#: modules/file/imgexport.c:3024
+#: modules/file/imgexport.c:3027
 msgid "left"
 msgstr "左"
 
-#: modules/file/imgexport.c:3027
+#: modules/file/imgexport.c:3030
 msgid "center"
 msgstr "中"
 
-#: modules/file/imgexport.c:3030
+#: modules/file/imgexport.c:3033
 msgid "right"
 msgstr "右"
 
-#: modules/file/imgexport.c:3033
+#: modules/file/imgexport.c:3036
 msgid "top"
 msgstr "上"
 
-#: modules/file/imgexport.c:3041
+#: modules/file/imgexport.c:3044
 msgid "bottom"
 msgstr "下"
 
-#: modules/file/imgexport.c:3066 modules/file/imgexport.c:3602
+#: modules/file/imgexport.c:3069 modules/file/imgexport.c:3606
 msgid "Lateral Scale"
 msgstr "横向标尺"
 
-#: modules/file/imgexport.c:3070
+#: modules/file/imgexport.c:3073
 msgid "Choose Length _Automatically"
 msgstr "自动选择长度(_A)"
 
-#: modules/file/imgexport.c:3097 modules/process/acf2d.c:410
+#: modules/file/imgexport.c:3100 modules/process/acf2d.c:410
 #: modules/process/curvature.c:506 modules/process/fit-shape.c:1644
 #: modules/process/fractal.c:313 modules/process/grain_summary.c:167
 #: modules/process/indent_analyze.c:390 modules/process/measure_lattice.c:340
@@ -6846,77 +6850,77 @@ msgstr "自动选择长度(_A)"
 msgid "Image"
 msgstr "图像"
 
-#: modules/file/imgexport.c:3104
+#: modules/file/imgexport.c:3107
 msgid "Value Scale"
 msgstr "数值标尺"
 
-#: modules/file/imgexport.c:3111 modules/file/imgexport.c:3472
+#: modules/file/imgexport.c:3115 modules/file/imgexport.c:3476
 msgid "Title"
 msgstr "标题"
 
-#: modules/file/imgexport.c:3210 modules/tools/selectionmanager.c:343
+#: modules/file/imgexport.c:3214 modules/tools/selectionmanager.c:343
 msgid "Objects"
 msgstr "对象"
 
-#: modules/file/imgexport.c:3336 modules/file/rawfile.c:1063
+#: modules/file/imgexport.c:3340 modules/file/rawfile.c:1063
 msgid "Invalid preset name."
 msgstr "预设名称无效。"
 
-#: modules/file/imgexport.c:3462 modules/file/rawfile.c:682
+#: modules/file/imgexport.c:3466 modules/file/rawfile.c:682
 #: modules/process/calcoefs_load.c:230 modules/process/neural.c:584
 msgid "verb|_Load"
 msgstr "加载(_L)"
 
-#: modules/file/imgexport.c:3463 modules/file/rawfile.c:683
+#: modules/file/imgexport.c:3467 modules/file/rawfile.c:683
 #: modules/process/neural.c:589
 msgid "verb|_Store"
 msgstr "存储(_S)"
 
-#: modules/file/imgexport.c:3464 modules/file/rawfile.c:684
+#: modules/file/imgexport.c:3468 modules/file/rawfile.c:684
 #: modules/process/neural.c:594
 msgid "_Rename"
 msgstr "重命名(_R)"
 
-#: modules/file/imgexport.c:3470
+#: modules/file/imgexport.c:3474
 msgid "Lateral"
 msgstr "横向"
 
-#: modules/file/imgexport.c:3522 modules/file/rawfile.c:738
+#: modules/file/imgexport.c:3526 modules/file/rawfile.c:738
 msgid "Preset _name:"
 msgstr "预设名称(_N)："
 
-#: modules/file/imgexport.c:3583
+#: modules/file/imgexport.c:3587
 msgid "Export as 1_6 bit grayscale"
 msgstr "导出为 16 位灰度(_6)"
 
-#: modules/file/imgexport.c:3603
+#: modules/file/imgexport.c:3607
 msgid "Values"
 msgstr "数值"
 
-#: modules/file/imgexport.c:3604
+#: modules/file/imgexport.c:3608
 msgid "Selection"
 msgstr "选区"
 
-#: modules/file/imgexport.c:3605 modules/file/rawfile.c:473
+#: modules/file/imgexport.c:3609 modules/file/rawfile.c:473
 #: modules/process/convolution_filter.c:273 modules/process/domain_synth.c:286
 msgid "Presets"
 msgstr "预设"
 
-#: modules/file/imgexport.c:4250
+#: modules/file/imgexport.c:4255
 #, c-format
 msgid "Cairo error occurred: %s"
 msgstr "发生 Cairo 错误：%s"
 
-#: modules/file/imgexport.c:4282
+#: modules/file/imgexport.c:4287
 #, c-format
 msgid "Pixbuf save failed: %s."
 msgstr "Pixbuf 保存失败：%s。"
 
-#: modules/file/imgexport.c:4551
+#: modules/file/imgexport.c:4556
 msgid "Image is too large to be stored as TARGA."
 msgstr "图像过大，无法存储为 TARGA。"
 
-#: modules/file/imgexport.c:4649
+#: modules/file/imgexport.c:4654
 #, c-format
 msgid "libjxl error occurred (%s)"
 msgstr "发生 libjxl 错误（%s）"
@@ -7037,7 +7041,7 @@ msgstr "JPK 力曲线（.jpk-force、.jpk-force-map、.jpk-qi-data）"
 msgid "File does not contain grid dimensions."
 msgstr "文件中没有网格尺寸。"
 
-#: modules/file/jpkscan.c:671 modules/file/jpkscan.c:2445
+#: modules/file/jpkscan.c:671 modules/file/jpkscan.c:2346
 #, c-format
 msgid "Scanning file (%u curves)..."
 msgstr "正在扫描文件（%u 条曲线）..."
@@ -7050,25 +7054,25 @@ msgstr "正在读取文件..."
 msgid "Creating volume data..."
 msgstr "正在创建体数据..."
 
-#: modules/file/jpkscan.c:861
+#: modules/file/jpkscan.c:896
 msgid "Non-uniform point and/or segment numbering is not supported."
 msgstr "不支持不均匀的点编号和／或段编号。"
 
-#: modules/file/jpkscan.c:869
+#: modules/file/jpkscan.c:904
 msgid "Non-uniform channel lists are not supported."
 msgstr "不支持不均匀的通道列表。"
 
-#: modules/file/jpkscan.c:877
+#: modules/file/jpkscan.c:912
 #, c-format
 msgid "Data file %s was found instead of expected %s."
 msgstr "找到的数据文件为 %s，而非预期的 %s。"
 
-#: modules/file/jpkscan.c:1674
+#: modules/file/jpkscan.c:1575
 #, c-format
 msgid "Header properties file for index %u is missing."
 msgstr "缺少索引 %u 的文件头属性文件。"
 
-#: modules/file/jpkscan.c:2257
+#: modules/file/jpkscan.c:2158
 msgid "Cannot find any height channel."
 msgstr "找不到任何高度通道。"
 
@@ -7509,12 +7513,12 @@ msgstr "正在读取通道..."
 msgid "Cannot parse `Scan size' field."
 msgstr "无法解析 `Scan size’ 字段。"
 
-#: modules/file/nanoscope.c:2527 modules/file/nrrdfile.c:1038
+#: modules/file/nanoscope.c:2531 modules/file/nrrdfile.c:1038
 #, c-format
 msgid "Garbage after data sample #%u."
 msgstr "第 %u 个数据样本后存在多余内容。"
 
-#: modules/file/nanoscope.c:2579
+#: modules/file/nanoscope.c:2583
 msgid "Truncated header line."
 msgstr "文件头行被截断。"
 
@@ -7638,7 +7642,7 @@ msgstr "误差通道(_E)"
 msgid "Nano Measuring Machine data import must be run as interactive."
 msgstr "纳米测量机数据必须以交互方式导入。"
 
-#: modules/file/nmmxyz.c:384 modules/process/lat_synth.c:869
+#: modules/file/nmmxyz.c:384 modules/process/lat_synth.c:873
 #: modules/process/plateau_synth.c:874 modules/process/wave_synth.c:477
 msgid "Rendering surface..."
 msgstr "正在渲染表面..."
@@ -9035,6 +9039,14 @@ msgstr "导入 FEI Tecnai 成像与分析（原 Emispec）文件。"
 msgid "FEI TIA (Emispec) data"
 msgstr "FEI TIA（Emispec）数据"
 
+#: modules/file/titan.c:70
+msgid "Imports ThermoFisher Titan TEM images."
+msgstr "导入 ThermoFisher Titan 透射电镜图像。"
+
+#: modules/file/titan.c:83
+msgid "ThermoFisher Titan TEM image (.tif)"
+msgstr "ThermoFisher Titan 透射电镜图像（.tif）"
+
 #: modules/file/ttffile.c:180
 msgid "Imports Corning Tropel UltraSort files."
 msgstr "导入 Corning Tropel UltraSort 文件。"
@@ -9293,14 +9305,12 @@ msgid "_Graph curve:"
 msgstr "曲线图中的曲线(_G)："
 
 #: modules/graph/graph_cd.c:276 modules/graph/graph_fdfit.c:327
-#: modules/graph/graph_fit.c:343 modules/volume/volume_fdfit-WTF.c:389
-#: modules/volume/volume_fdfit.c:389
+#: modules/graph/graph_fit.c:343 modules/volume/volume_fdfit.c:389
 msgid "F_unction:"
 msgstr "函数(_U)："
 
 #: modules/graph/graph_cd.c:319 modules/graph/graph_fdfit.c:422
-#: modules/graph/graph_fit.c:435 modules/volume/volume_fdfit-WTF.c:476
-#: modules/volume/volume_fdfit.c:476
+#: modules/graph/graph_fit.c:435 modules/volume/volume_fdfit.c:476
 msgid "Range:"
 msgstr "范围："
 
@@ -9311,62 +9321,54 @@ msgstr "绘制完整圆(_D)"
 #: modules/graph/graph_cd.c:382 modules/graph/graph_fdfit.c:498
 #: modules/graph/graph_fit.c:533 modules/graph/graph_terraces.c:275
 #: modules/process/fit-shape.c:567 modules/process/roddeposit_synth.c:619
-#: modules/process/terracefit.c:287 modules/volume/volume_fdfit-WTF.c:549
-#: modules/volume/volume_fdfit.c:549
+#: modules/process/terracefit.c:287 modules/volume/volume_fdfit.c:549
 msgid "Save Fit Report"
 msgstr "保存拟合报告"
 
 #: modules/graph/graph_cd.c:529 modules/graph/graph_cd.c:1107
 #: modules/graph/graph_fdfit.c:725 modules/graph/graph_fit.c:774
 #: modules/process/relate.c:742 modules/process/smm.c:521
-#: modules/volume/volume_fdfit-WTF.c:882 modules/volume/volume_fdfit.c:882
+#: modules/volume/volume_fdfit.c:882
 msgid "Fit"
 msgstr "拟合"
 
 #: modules/graph/graph_cd.c:555 modules/graph/graph_fdfit.c:765
-#: modules/graph/graph_fit.c:814 modules/volume/volume_fdfit-WTF.c:954
-#: modules/volume/volume_fdfit-WTF.c:1079 modules/volume/volume_fdfit.c:954
+#: modules/graph/graph_fit.c:814 modules/volume/volume_fdfit.c:954
 #: modules/volume/volume_fdfit.c:1079
 msgid "It is necessary to select more data points than free fit parameters"
 msgstr "所选数据点数必须多于自由拟合参数的数量"
 
 #: modules/graph/graph_cd.c:993 modules/graph/graph_fdfit.c:1381
-#: modules/graph/graph_fit.c:1513 modules/volume/volume_fdfit-WTF.c:1712
-#: modules/volume/volume_fdfit.c:1712
+#: modules/graph/graph_fit.c:1513 modules/volume/volume_fdfit.c:1712
 msgid "===== Fit Results ====="
 msgstr "===== 拟合结果 ====="
 
 #: modules/graph/graph_cd.c:997 modules/graph/graph_fdfit.c:1385
-#: modules/graph/graph_fit.c:1517 modules/volume/volume_fdfit-WTF.c:1716
-#: modules/volume/volume_fdfit.c:1716
+#: modules/graph/graph_fit.c:1517 modules/volume/volume_fdfit.c:1716
 #, c-format
 msgid "Data:             %s\n"
 msgstr "数据：            %s\n"
 
 #: modules/graph/graph_cd.c:1000 modules/graph/graph_fdfit.c:1388
-#: modules/graph/graph_fit.c:1520 modules/volume/volume_fdfit-WTF.c:1719
-#: modules/volume/volume_fdfit.c:1719
+#: modules/graph/graph_fit.c:1520 modules/volume/volume_fdfit.c:1719
 #, c-format
 msgid "Number of points: %d of %d\n"
 msgstr "点数：            %d / %d\n"
 
 #: modules/graph/graph_cd.c:1004 modules/graph/graph_fdfit.c:1392
-#: modules/graph/graph_fit.c:1524 modules/volume/volume_fdfit-WTF.c:1723
-#: modules/volume/volume_fdfit.c:1723
+#: modules/graph/graph_fit.c:1524 modules/volume/volume_fdfit.c:1723
 #, c-format
 msgid "X range:          %.*f to %.*f %s\n"
 msgstr "X 范围：          %.*f 至 %.*f %s\n"
 
 #: modules/graph/graph_cd.c:1010 modules/graph/graph_fdfit.c:1398
-#: modules/graph/graph_fit.c:1530 modules/volume/volume_fdfit-WTF.c:1729
-#: modules/volume/volume_fdfit.c:1729
+#: modules/graph/graph_fit.c:1530 modules/volume/volume_fdfit.c:1729
 #, c-format
 msgid "Fitted function:  %s\n"
 msgstr "拟合函数：        %s\n"
 
 #: modules/graph/graph_cd.c:1013 modules/graph/graph_fdfit.c:1401
-#: modules/graph/graph_fit.c:1533 modules/volume/volume_fdfit-WTF.c:1732
-#: modules/volume/volume_fdfit.c:1732
+#: modules/graph/graph_fit.c:1533 modules/volume/volume_fdfit.c:1732
 msgid "Results\n"
 msgstr "结果\n"
 
@@ -9513,43 +9515,40 @@ msgstr "/力-距离(_F)/拟合 FD 曲线(_F)..."
 msgid "Fit a force-distance curve"
 msgstr "拟合力-距离曲线"
 
-#: modules/graph/graph_fdfit.c:251 modules/volume/volume_fdfit-WTF.c:296
-#: modules/volume/volume_fdfit.c:296
+#: modules/graph/graph_fdfit.c:251 modules/volume/volume_fdfit.c:296
 msgid "Fit FD Curve"
 msgstr "拟合力-距离曲线"
 
 #: modules/graph/graph_fdfit.c:258 modules/graph/graph_fit.c:274
 #: modules/process/correct_affine.c:346 modules/process/fit-shape.c:497
 #: modules/process/measure_lattice.c:291 modules/process/smm.c:365
-#: modules/volume/volume_fdfit-WTF.c:303 modules/volume/volume_fdfit.c:303
+#: modules/volume/volume_fdfit.c:303
 msgid "verb|_Estimate"
 msgstr "估计(_E)"
 
 #: modules/graph/graph_fdfit.c:260 modules/graph/graph_fit.c:276
-#: modules/process/smm.c:364 modules/volume/volume_fdfit-WTF.c:305
-#: modules/volume/volume_fdfit.c:305
+#: modules/process/smm.c:364 modules/volume/volume_fdfit.c:305
 msgid "_Plot Inits"
 msgstr "绘制初值(_P)"
 
 #: modules/graph/graph_fdfit.c:372 modules/graph/graph_fit.c:383
-#: modules/process/smm.c:523 modules/volume/volume_fdfit-WTF.c:426
-#: modules/volume/volume_fdfit.c:426
+#: modules/process/smm.c:523 modules/volume/volume_fdfit.c:426
 msgid "Initial"
 msgstr "初始值"
 
 #: modules/graph/graph_fdfit.c:383 modules/graph/graph_fit.c:396
-#: modules/volume/volume_fdfit-WTF.c:437 modules/volume/volume_fdfit.c:437
+#: modules/volume/volume_fdfit.c:437
 msgid "χ<sup>2</sup> result:"
 msgstr "χ<sup>2</sup> 结果："
 
 #: modules/graph/graph_fdfit.c:399 modules/graph/graph_fit.c:412
 #: modules/process/fit-shape.c:512 modules/process/fit-shape.c:1668
-#: modules/volume/volume_fdfit-WTF.c:453 modules/volume/volume_fdfit.c:453
+#: modules/volume/volume_fdfit.c:453
 msgid "Correlation Matrix"
 msgstr "相关矩阵"
 
 #: modules/graph/graph_fdfit.c:454 modules/graph/graph_fit.c:487
-#: modules/volume/volume_fdfit-WTF.c:508 modules/volume/volume_fdfit.c:508
+#: modules/volume/volume_fdfit.c:508
 msgid "Instant:"
 msgstr "即时："
 
@@ -9558,23 +9557,23 @@ msgid "esti_mate"
 msgstr "估计(_M)"
 
 #: modules/graph/graph_fdfit.c:464 modules/graph/graph_fit.c:497
-#: modules/volume/volume_fdfit-WTF.c:518 modules/volume/volume_fdfit.c:518
+#: modules/volume/volume_fdfit.c:518
 msgid "p_lot"
 msgstr "绘制(_L)"
 
 #: modules/graph/graph_fdfit.c:724 modules/graph/graph_fit.c:773
-#: modules/volume/volume_fdfit-WTF.c:881 modules/volume/volume_fdfit.c:881
+#: modules/volume/volume_fdfit.c:881
 msgid "Estimate"
 msgstr "估计"
 
 #: modules/graph/graph_fdfit.c:1428 modules/graph/graph_fit.c:1560
-#: modules/volume/volume_fdfit-WTF.c:1760 modules/volume/volume_fdfit.c:1760
+#: modules/volume/volume_fdfit.c:1760
 #, c-format
 msgid "Residual sum:   %g\n"
 msgstr "残差和：        %g\n"
 
 #: modules/graph/graph_fdfit.c:1431 modules/graph/graph_fit.c:1563
-#: modules/volume/volume_fdfit-WTF.c:1763 modules/volume/volume_fdfit.c:1763
+#: modules/volume/volume_fdfit.c:1763
 msgid "Correlation matrix\n"
 msgstr "相关矩阵\n"
 
@@ -10652,7 +10651,7 @@ msgstr "退火"
 #: modules/process/diff_synth.c:383 modules/process/disc_synth.c:233
 #: modules/process/domain_synth.c:284 modules/process/dune_synth.c:230
 #: modules/process/fbm_synth.c:225 modules/process/fft_synth.c:214
-#: modules/process/fibre_synth.c:291 modules/process/lat_synth.c:459
+#: modules/process/fibre_synth.c:291 modules/process/lat_synth.c:461
 #: modules/process/lno_synth.c:354 modules/process/mfm_current.c:246
 #: modules/process/mfm_parallel.c:254 modules/process/noise_synth.c:259
 #: modules/process/obj_synth.c:371 modules/process/pat_synth.c:527
@@ -10694,7 +10693,7 @@ msgstr "三组分模型"
 #: modules/process/diff_synth.c:428 modules/process/disc_synth.c:295
 #: modules/process/domain_synth.c:339 modules/process/dune_synth.c:288
 #: modules/process/fbm_synth.c:271 modules/process/fft_synth.c:253
-#: modules/process/fibre_synth.c:342 modules/process/lat_synth.c:571
+#: modules/process/fibre_synth.c:342 modules/process/lat_synth.c:575
 #: modules/process/lno_synth.c:411 modules/process/noise_synth.c:303
 #: modules/process/obj_synth.c:425 modules/process/pat_synth.c:1740
 #: modules/process/pat_synth.c:1834 modules/process/pat_synth.c:1941
@@ -10712,7 +10711,7 @@ msgstr "与当前图像相同(_L)"
 #: modules/process/deposit_synth.c:555 modules/process/diff_synth.c:598
 #: modules/process/domain_synth.c:613 modules/process/dune_synth.c:528
 #: modules/process/fibre_synth.c:729 modules/process/grain_wshed.c:277
-#: modules/process/lat_synth.c:834 modules/process/mark_disconn.c:327
+#: modules/process/lat_synth.c:838 modules/process/mark_disconn.c:327
 #: modules/process/mcrop.c:376 modules/process/neural.c:939
 #: modules/process/pid.c:349 modules/process/plateau_synth.c:782
 #: modules/process/roddeposit_synth.c:299
@@ -10729,8 +10728,7 @@ msgstr "正在初始化..."
 #: modules/process/anneal_synth.c:912 modules/process/cpde_synth.c:478
 #: modules/process/domain_synth.c:637 modules/process/dune_synth.c:572
 #: modules/process/pfm.c:444 modules/process/roddeposit_synth.c:994
-#: modules/process/wfr_synth.c:490 modules/volume/volume_fdfit-WTF.c:906
-#: modules/volume/volume_fdfit.c:906
+#: modules/process/wfr_synth.c:490 modules/volume/volume_fdfit.c:906
 msgid "Running computation..."
 msgstr "正在计算..."
 
@@ -14793,23 +14791,23 @@ msgstr "下限阈值"
 msgid "Upper threshold"
 msgstr "上限阈值"
 
-#: modules/process/lat_synth.c:461
+#: modules/process/lat_synth.c:463
 msgid "Surface"
 msgstr "表面"
 
-#: modules/process/lat_synth.c:504 modules/process/lat_synth.c:506
+#: modules/process/lat_synth.c:508 modules/process/lat_synth.c:510
 msgid "steps"
 msgstr "步"
 
-#: modules/process/lat_synth.c:837
+#: modules/process/lat_synth.c:841
 msgid "Constructing lattice..."
 msgstr "正在构建晶格……"
 
-#: modules/process/lat_synth.c:852
+#: modules/process/lat_synth.c:856
 msgid "Relaxing lattice..."
 msgstr "正在弛豫晶格……"
 
-#: modules/process/lat_synth.c:860
+#: modules/process/lat_synth.c:864
 msgid "Relaxing heights..."
 msgstr "正在弛豫高度……"
 
@@ -19205,7 +19203,7 @@ msgid ""
 "three selected points."
 msgstr "三点调平工具：减去通过三个选定点拟合的平面来调平数据。"
 
-#: modules/tools/level3.c:120 modules/tools/readvalue.c:184
+#: modules/tools/level3.c:120 modules/tools/readvalue.c:185
 msgid "_Averaging radius"
 msgstr "平均半径(_A)"
 
@@ -19440,39 +19438,39 @@ msgstr "Z 不确定度上界 %d"
 msgid "Zunc low bound %d"
 msgstr "Z 不确定度下界 %d"
 
-#: modules/tools/readvalue.c:155
+#: modules/tools/readvalue.c:156
 msgid "Pointer tool, reads value under pointer."
 msgstr "指针工具，读取指针下的数值。"
 
-#: modules/tools/readvalue.c:185
+#: modules/tools/readvalue.c:186
 msgid "Show _selection"
 msgstr "显示选择(_S)"
 
-#: modules/tools/readvalue.c:187 modules/tools/spotremove.c:214
+#: modules/tools/readvalue.c:188 modules/tools/spotremove.c:214
 msgid "Adapt color range to detail"
 msgstr "使颜色范围适应细节"
 
-#: modules/tools/readvalue.c:188
+#: modules/tools/readvalue.c:189
 msgid "Show _mask"
 msgstr "显示掩膜(_M)"
 
-#: modules/tools/readvalue.c:203
+#: modules/tools/readvalue.c:204
 msgid "Read Value"
 msgstr "读取数值"
 
-#: modules/tools/readvalue.c:204
+#: modules/tools/readvalue.c:205
 msgid "Read value under mouse cursor"
 msgstr "读取鼠标光标下的数值"
 
-#: modules/tools/readvalue.c:348
+#: modules/tools/readvalue.c:351
 msgid "Set _Zero"
 msgstr "设为零点(_Z)"
 
-#: modules/tools/readvalue.c:352
+#: modules/tools/readvalue.c:355
 msgid "Facet"
 msgstr "面片"
 
-#: modules/tools/readvalue.c:354
+#: modules/tools/readvalue.c:357
 msgid "Curvatures"
 msgstr "曲率"
 
@@ -20573,27 +20571,27 @@ msgstr "对所有 XY 平面进行面片调平"
 msgid "Facet leveled"
 msgstr "已进行面片调平"
 
-#: modules/volume/volume_fdfit-WTF.c:199 modules/volume/volume_fdfit.c:199
+#: modules/volume/volume_fdfit.c:199
 msgid "Evaluate volume force-distance data"
 msgstr "分析力-距离体数据"
 
-#: modules/volume/volume_fdfit-WTF.c:213 modules/volume/volume_fdfit.c:213
+#: modules/volume/volume_fdfit.c:213
 msgid "/SPM M_odes/_Evaluate FD Data..."
 msgstr "/SPM 模式(_O)/分析力-距离数据(_E)..."
 
-#: modules/volume/volume_fdfit-WTF.c:217 modules/volume/volume_fdfit.c:217
+#: modules/volume/volume_fdfit.c:217
 msgid "Evaluate force-distance volume data"
 msgstr "分析力-距离体数据"
 
-#: modules/volume/volume_fdfit-WTF.c:371 modules/volume/volume_fdfit.c:371
+#: modules/volume/volume_fdfit.c:371
 msgid "Curve _X position:"
 msgstr "曲线 X 位置(_X)："
 
-#: modules/volume/volume_fdfit-WTF.c:380 modules/volume/volume_fdfit.c:380
+#: modules/volume/volume_fdfit.c:380
 msgid "Curve _Y position:"
 msgstr "曲线 Y 位置(_Y)："
 
-#: modules/volume/volume_fdfit-WTF.c:511 modules/volume/volume_fdfit.c:511
+#: modules/volume/volume_fdfit.c:511
 msgid "e_stimate"
 msgstr "估计(_S)"
 

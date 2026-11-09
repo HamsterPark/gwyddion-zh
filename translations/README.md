@@ -1,22 +1,27 @@
-# 翻译草稿与检查
+# 当前译稿与验证
 
-`zh_CN.po` 是简体中文合并草稿：5,053 条中有 5,052 条已译，`Volume` 由于上游共享不同语境而暂时留空。批次已通读并进行了重点源码复核；详见 [简体中文总校记录](../REVIEW.md)。界面测试和领域审核仍待完成。
+`zh_CN.po`、`zh_HK.po`、`zh_TW.po` 当前基于 Gwyddion **SVN r30752**，各 5,057/5,057 条已译，无 fuzzy、过时条目或空译文。
 
-`zh_TW.po` 与 `zh_HK.po` 已由简体合并稿转换，并完成全文分段审校、地区用语复核和结构校验：各 5,053 条，其中 5,052 条有译文，`Volume` 暂留空，均无 fuzzy 标记。仍建议台湾／香港母语者终审并在 Gwyddion 2.71 中做界面测试；详见 [繁体全稿校对报告](../PROOFREADING.md) 和 [总校记录](../REVIEW.md)。
+上游已经拆分 `Volume`：物理量分别使用“体积／體積”，`data-type|Volume` 数据类型分别使用“体数据／體數據／體資料”。这里是 Gwyddion 的 `gwy_sgettext` 前缀式上下文，不是 PO 的 `msgctxt`；译文中不包含 `data-type|`。
+
+这些文件面向含此修复的开发版。2.71 稳定版仍共用裸 `Volume`，请使用[保留的 2.71 译稿](https://github.com/HamsterPark/gwyddion-zh/tree/8ea21621f8431cf4438907c7225fcd1e95d237e9/translations)。不要把当前译稿作为完全兼容 2.71 的语言包。
 
 ## 合并与检查
 
-在项目根目录安装 `requirements.txt` 中的依赖，然后运行：
+安装项目 `requirements.txt` 中的依赖及 GNU gettext 后运行：
 
 ```sh
 python check_batches.py
 python merge_drafts.py
 python regionalize.py
+python check_catalogs.py
 msgfmt --check --statistics -o zh_CN.mo translations/zh_CN.po
-msgfmt --check --statistics -o zh_TW.mo translations/zh_TW.po
 msgfmt --check --statistics -o zh_HK.mo translations/zh_HK.po
+msgfmt --check --statistics -o zh_TW.mo translations/zh_TW.po
 ```
 
-检查脚本核对批次原文键、格式标记、常见 printf 和 Gwyddion 占位符及标签；它并不能替代 GNU `msgfmt --check`、领域审校或实际运行测试。合并脚本以固定模板为准，只导入批次译文并生成简体合并稿；`regionalize.py` 随后从简体稿生成 `zh_TW.po`／`zh_HK.po`，套用地区用语表、通用术语表和上下文修复，并移除 fuzzy。重新运行 `regionalize.py` 会覆盖这两份繁体稿，手工修改应先写回地区用语表、上下文修复表或备份。简体校对应写回各批次，再重新合并。
+`work/` 下的简体批次及其模板继续保留 2.71 基准。合并脚本在当前开发版模板上导入这些译文，再应用 `updates/zh_CN.po` 中的增补与覆盖；已经从上游模板删除的旧键不输出。地区脚本以当前模板和简体总稿生成繁体稿，并应用地区术语与逐条修复。
 
-`work/` 下的各 PO 是简体翻译工作底稿；详见[交接说明](../HANDOFF.md)。
+两个生成脚本会覆盖对应总稿。简体后续校对应写回原批次或开发版增补；繁体修订应同步地区规则或逐条修复表，并检查重新生成后的差异。
+
+`check_catalogs.py` 核对三份最终稿的完整性、原文键和引用、格式参数、标签、快捷键及两个 `Volume` 语境。自动检查和编译不能替代完整界面、地区母语者及领域审阅。最新验证见 [上游反馈与续交记录](../UPSTREAM_UPDATE_20261109.md)，早期审校记录保留为历史证据。

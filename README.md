@@ -4,7 +4,9 @@
 
 ## 当前状态
 
-项目处于审校与界面测试阶段：简体合并稿及台湾、香港两版繁体稿均已完成全文分段审校和地区用语复核（各 5,052/5,053 条，`Volume` 暂留空），尚无经过完整界面测试的正式语言包。以 Gwyddion 2.71 稳定版的官方翻译模板为基准；现有本机 2.67 不能作为最终验收版本。上游模板来源：[Gwyddion 2.71 源码](https://gwyddion.net/download/2.71/)。开发版更新与未来版本应在合并前核对。
+上游已于 2026-11-09 在 [SVN r30752](https://sourceforge.net/p/gwyddion/code/30752/) 收录三份中文翻译并登记对应语言。当前总稿已对齐 r30752 源码重新提取的模板，三版各 **5,057/5,057 条已译**。物理量 `Volume` 与数据类型 `data-type|Volume` 分别翻译，详见 [上游反馈与续交记录](UPSTREAM_UPDATE_20261109.md)。这表示翻译已进入开发源码，不表示已有包含它们的正式稳定版发布。
+
+当前 `translations/` 面向含上下文修复的开发版。**Gwyddion 2.71 使用者请取[保留的 2.71 译稿](https://github.com/HamsterPark/gwyddion-zh/tree/8ea21621f8431cf4438907c7225fcd1e95d237e9/translations)**：该版本对共享的 `Volume` 保留英文，避免将数据类型误译为体积。三地区完整界面及母语者领域终审仍待完成。
 
 ## 工作计划
 
@@ -27,6 +29,7 @@
 - [翻译草稿与检查说明](translations/README.md)：各地区草稿的状态及检查方法。
 - [待审校问题](REVIEW.md)：歧义、已发现问题及领域复核事项。
 - [发送前检查记录](PRE_SUBMISSION_CHECK.md)：最终附件的结构、编译检查和本轮修订。
+- [上游反馈与续交记录](UPSTREAM_UPDATE_20261109.md)：收录情况、开发版模板和 `Volume` 修复。
 - [繁体全稿校对报告](PROOFREADING.md)：全文审校方法、修订明细、验收结果和剩余风险。
 - [术语表初稿](glossary.md)：译法是暂定约定，需结合界面和手册核对。
 - [繁体地区用语脚本](regionalize.py)：从简体合并稿生成并审校 `zh_TW`／`zh_HK` 的可复现流程。
@@ -35,7 +38,8 @@
 - [Codex 模板](partitions/codex.pot)：2,108 条。
 - [Grok 模板](partitions/grok.pot)：837 条。
 - [DeepSeek 模板](partitions/deepseek.pot)：2,108 条。
-- [原始模板](source/gwyddion-2.71.pot)：共 5,053 条，不含头部。
+- [当前开发版模板](source/gwyddion-r30752.pot)：共 5,057 条；[来源与提取方法](source/README.md)。
+- [原始 2.71 模板](source/gwyddion-2.71.pot)：共 5,053 条，作为历史批次的基准；[开发版增补](updates/zh_CN.po)由合并脚本叠加。
 
 这些分片是按内容而非地区划分的空白翻译模板，不是已完成的 PO 文件；简体初稿是基础，两个繁体版本已完成全文分段审校和地区用语复核，仍需母语者终审。外部模型任务需要由参与者自行交接和收回；请保留原文、上下文、引用、注释和标记，只填写译文，不确定时留空并注明。模板包含格式参数和界面快捷键，必须逐项检查。请参阅[官方翻译指南](https://gwyddion.net/contribute.php)。
 

@@ -12,22 +12,22 @@
 
 1. 协调各地区负责人收尾，确认地区用词和贡献署名；对三份最新 PO 分别进行 GNU `msgfmt --check` 和关键界面验证。格式通过不等于母语者或领域审核完成。
 2. 三份 PO 已补齐实际修订日期、用户确认的署名 Hamster Park (Yuanhao Lyu) 和项目团队链接，并在注释中注明 GPT-6.1 Terra、Grok 4.7、DeepSeek V4.1 Flash 的辅助贡献。后续修改时更新修订日期。
-3. 与上游当前开发模板对照，合并新旧字符串并复核遗漏；目前基准为 2.71 正式版，并非保证与开发版完全相同。
-4. 保持 `Volume` 未翻译，并说明它同时表示物理体积与体数据类型，希望上游为不同语境提供 gettext 上下文；应由上游决定兼容实现。
+3. 已对照固定 SVN r30752 源码重新提取的模板并补齐所有词条；后续跟进开发更新时重新合并检查。
+4. 上游已在 r30749 拆分 `Volume`；当前开发版译稿分别翻译物理量与 `data-type|Volume`。2.71 旧译稿保留英文并通过历史提交提供。
 5. 按实际版权和许可确认贡献授权。GTK、GLib 的中文组件翻译来自 GNOME，保留原始署名和独立许可，不当作 Gwyddion 项目原创提交。
 6. 更新并推送最终 PO、审校记录与清晰的项目状态；给上游的链接应指向实际准备提交的版本，而不是仍在修改的工作副本。
 
 ## 发送前复核
 
-详见 [发送前检查记录](PRE_SUBMISSION_CHECK.md)。发送时直接附上 `translations/zh_CN.po`、`translations/zh_HK.po`、`translations/zh_TW.po`，同时保留 GitHub 链接；不要附上工作批次或 GTK/GLib 测试包。以下为邮件草稿，尚未发送。
+详见 [发送前检查记录](PRE_SUBMISSION_CHECK.md)。发送时直接附上 `translations/zh_CN.po`、`translations/zh_HK.po`、`translations/zh_TW.po`，同时保留 GitHub 链接；不要附上工作批次或 GTK/GLib 测试包。下面保留首次邮件正文，已于 2026-11-01 01:28（北京时间）发送；最新续交状态见文末。
 
-## 英文邮件草稿
+## 首次邮件（已发送）
 
 收件人：yeti@gwyddion.net
 
 主题：Chinese translations for Gwyddion (zh_CN, zh_HK, zh_TW)
 
-Hello David,
+Dear David,
 
 I would like to contribute three Chinese interface translations for Gwyddion, based on the 2.71 translation template. The following PO files are attached:
 
@@ -48,4 +48,29 @@ Thank you for your work on Gwyddion!
 
 Best regards,
 
+Hamster Park (Yuanhao Lyu)
+
+## 2026-11-09 续交
+
+David 于北京时间 19:23 回信。官方 SVN r30752 已收录首次提交的三份中文稿，r30749 已修复 Volume 上下文。本轮更新记录见 [UPSTREAM_UPDATE_20261109.md](UPSTREAM_UPDATE_20261109.md)。
+
+状态：更新文件与回复已准备，待最终检查后在原会话发送。
+
+收件人：yeti@gwyddion.net
+
+主题：Re: Chinese translations for Gwyddion (zh_CN, zh_HK, zh_TW)
+
+Dear David,
+
+Thank you for adding the Chinese translations and for separating the two uses of “Volume”.
+
+I have updated all three catalogs against a freshly extracted template from SVN r30752. “Volume” is now translated as the physical quantity, and “data-type|Volume” as the data type. I also translated the additional strings in the current template.
+
+The updated PO files are attached. Each contains 5,057 translated messages, with no untranslated or fuzzy entries, and passes GNU `msgfmt --check`.
+
+The same files are available at https://github.com/HamsterPark/gwyddion-zh/tree/main/translations.
+
+Thank you again for your help.
+
+Best regards,
 Hamster Park (Yuanhao Lyu)

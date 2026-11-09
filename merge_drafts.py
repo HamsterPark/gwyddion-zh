@@ -19,14 +19,22 @@ for file in FILES:
             raise SystemExit(f'Duplicate across batch files: {k!r}')
         translations[k] = entry
 
-catalog = polib.pofile(str(ROOT / 'source' / 'gwyddion-2.71.pot'), check_for_duplicates=True)
+catalog = polib.pofile(str(ROOT / 'source' / 'gwyddion-r30752.pot'), check_for_duplicates=True)
+# The original batches remain a 2.71 archive. Apply reviewed development
+# additions/overrides only against the newer template, including Volume.
+current_entries = {key(e): e for e in catalog}
+for entry in polib.pofile(str(ROOT / 'updates' / 'zh_CN.po'), check_for_duplicates=True):
+    original = current_entries.get(key(entry))
+    if original is None or set(entry.flags) != set(original.flags):
+        raise SystemExit(f'Invalid upstream update: {entry.msgid!r}')
+    translations[key(entry)] = entry
 catalog.header = (
-    'Gwyddion 2.71 Simplified Chinese translation.\n'
+    'Gwyddion SVN r30752 Simplified Chinese translation.\n'
     'Distributed under the same license as Gwyddion.\n'
     'Translation and proofreading assisted by GPT-6.1 Terra, Grok 4.7, and DeepSeek V4.1 Flash.'
 )
 catalog.metadata = {
-    'Project-Id-Version': 'Gwyddion 2.71',
+    'Project-Id-Version': 'Gwyddion SVN r30752',
     'Report-Msgid-Bugs-To': 'yeti@gwyddion.net',
     'POT-Creation-Date': catalog.metadata.get('POT-Creation-Date', ''),
     'PO-Revision-Date': datetime.now().astimezone().strftime('%Y-%m-%d %H:%M%z'),
@@ -48,6 +56,6 @@ for entry in catalog:
         entry.msgstr_plural = dict(translated.msgstr_plural)
 output = ROOT / 'translations'
 output.mkdir(exist_ok=True)
-catalog.save(str(output / 'zh_CN.po'))
-print(f'zh_CN: {len(translations)} imported source entries, '
+catalog.save(str(output / 'zh_CN.po'), newline='\n')
+print(f'zh_CN: {sum(key(e) in translations for e in catalog)} imported source entries, '
       f'{catalog.percent_translated()}% of {len(catalog)} complete')

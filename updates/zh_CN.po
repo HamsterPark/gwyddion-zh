@@ -1,0 +1,47 @@
+# Reviewed additions and overrides for Gwyddion SVN r30752.
+# Distributed under the same license as Gwyddion.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gwyddion SVN r30752\n"
+"Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
+"POT-Creation-Date: 2026-11-09 19:56+0800\n"
+"PO-Revision-Date: 2026-11-09 20:06+0800\n"
+"Last-Translator: Hamster Park (Yuanhao Lyu)\n"
+"Language-Team: Chinese (Simplified) <https://github.com/HamsterPark/gwyddion-zh>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: libprocess/gwygrainvalue.c:1171 modules/tools/stats.c:743
+msgid "Volume"
+msgstr "体积"
+
+#: app/data-browser.c:5922
+msgid "data-type|Volume"
+msgstr "体数据"
+
+#: modules/cmap/cmap_curvefilter.c:74
+msgid "Removes some curves from curve map"
+msgstr "从曲线图谱中移除部分曲线"
+
+#: modules/cmap/cmap_curvefilter.c:88
+msgid "/_Basic Operations/_Filter Curves..."
+msgstr "/基本操作(_B)/过滤曲线(_F)..."
+
+#: modules/cmap/cmap_curvefilter.c:92
+msgid "Remove some curves from curve map"
+msgstr "从曲线图谱中移除部分曲线"
+
+#: modules/cmap/cmap_curvefilter.c:161
+msgid "Filter Curves"
+msgstr "过滤曲线"
+
+#: modules/file/titan.c:70
+msgid "Imports ThermoFisher Titan TEM images."
+msgstr "导入 ThermoFisher Titan 透射电镜图像。"
+
+#: modules/file/titan.c:83
+msgid "ThermoFisher Titan TEM image (.tif)"
+msgstr "ThermoFisher Titan 透射电镜图像（.tif）"

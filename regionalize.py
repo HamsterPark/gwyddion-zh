@@ -18,7 +18,7 @@ import polib
 from opencc import OpenCC
 
 SRC = ROOT / 'translations' / 'zh_CN.po'
-POT = ROOT / 'source' / 'gwyddion-2.71.pot'
+POT = ROOT / 'source' / 'gwyddion-r30752.pot'
 OUT = ROOT / 'translations'
 
 
@@ -277,6 +277,14 @@ COMMON_REPLACEMENTS = [
 # Context-sensitive fixes that must not be applied as blind substring
 # replacements (they would affect unrelated UI strings).
 ENTRY_FIXES = {
+    'Volume': {
+        'zh_TW': '體積',
+        'zh_HK': '體積',
+    },
+    'data-type|Volume': {
+        'zh_TW': '體資料',
+        'zh_HK': '體數據',
+    },
     '_Activation': {
         'zh_TW': '活化(_A)',
         'zh_HK': '激活(_A)',
@@ -397,7 +405,7 @@ def build(locale, scheme, replacements, team, title):
     translations = {key(e): e for e in cn if e.msgstr or e.msgstr_plural}
     po = polib.pofile(str(POT))
     po.metadata = {
-        'Project-Id-Version': 'Gwyddion 2.71',
+        'Project-Id-Version': 'Gwyddion SVN r30752',
         'Report-Msgid-Bugs-To': 'yeti@gwyddion.net',
         'POT-Creation-Date': po.metadata.get('POT-Creation-Date', ''),
         'PO-Revision-Date': datetime.now().astimezone().strftime('%Y-%m-%d %H:%M%z'),
@@ -453,10 +461,10 @@ def build(locale, scheme, replacements, team, title):
 build(
     'zh_TW', 's2twp', TW_REPLACEMENTS,
     'Chinese (Traditional, Taiwan)',
-    'Gwyddion 2.71 Traditional Chinese (Taiwan) translation.',
+    'Gwyddion SVN r30752 Traditional Chinese (Taiwan) translation.',
 )
 build(
     'zh_HK', 's2hk', HK_REPLACEMENTS,
     'Chinese (Traditional, Hong Kong)',
-    'Gwyddion 2.71 Traditional Chinese (Hong Kong) translation.',
+    'Gwyddion SVN r30752 Traditional Chinese (Hong Kong) translation.',
 )
